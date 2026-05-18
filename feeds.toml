@@ -1,0 +1,242 @@
+# RSS 订阅列表
+# 每个 feed 需要：url、name（来源显示名）、lang（en/zh）
+
+# ── OPC / 创业案例 ────────────────────────────────────────────
+[[feeds]]
+name = "Indie Hackers"
+url = "https://www.indiehackers.com/feed.xml"
+lang = "en"
+
+# Starter Story：无公开 RSS，内容在付费墙后，暂无方案
+# [[feeds]]
+# name = "Starter Story"
+# url = ""
+# lang = "en"
+
+[[feeds]]
+name = "Reddit r/SideProject"
+url = "https://www.reddit.com/r/SideProject/.rss"
+lang = "en"
+
+[[feeds]]
+name = "Reddit r/Entrepreneur"
+url = "https://www.reddit.com/r/Entrepreneur/.rss"
+lang = "en"
+
+# ── AI Newsletter ─────────────────────────────────────────────
+[[feeds]]
+name = "Ben's Bites"
+url = "https://bensbites.com/feed"
+lang = "en"
+
+[[feeds]]
+name = "The Rundown AI"
+url = "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+lang = "en"
+
+[[feeds]]
+name = "One Useful Thing"
+url = "https://www.oneusefulthing.org/feed"
+lang = "en"
+
+[[feeds]]
+name = "Zara's Newsletter"
+url = "https://zarazhang.substack.com/feed"
+lang = "en"
+
+[[feeds]]
+name = "TLDR AI"
+url = "https://tldr.tech/rss/ai"
+lang = "en"
+
+[[feeds]]
+name = "The Batch (deeplearning.ai)"
+url = "https://rsshub.app/deeplearning/the-batch"
+lang = "en"
+
+[[feeds]]
+name = "Latent Space"
+url = "https://www.latent.space/feed"
+lang = "en"
+
+[[feeds]]
+name = "Lenny's Newsletter"
+url = "https://lennysnewsletter.com/feed"
+lang = "en"
+
+# ── AI 技术 / 模型 ────────────────────────────────────────────
+[[feeds]]
+name = "Simon Willison's Blog"
+url = "https://simonwillison.net/atom/everything/"
+lang = "en"
+
+[[feeds]]
+name = "Hugging Face Blog"
+url = "https://huggingface.co/blog/feed.xml"
+lang = "en"
+
+[[feeds]]
+name = "Hacker News Show HN"
+url = "https://hnrss.org/show"
+lang = "en"
+
+[[feeds]]
+name = "Reddit r/LocalLLaMA"
+url = "https://www.reddit.com/r/LocalLLaMA/.rss"
+lang = "en"
+
+[[feeds]]
+name = "GitHub Trending"
+url = "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+lang = "en"
+
+# ── 科技媒体（英文）──────────────────────────────────────────
+[[feeds]]
+name = "VentureBeat AI"
+url = "https://venturebeat.com/category/ai/feed/"
+lang = "en"
+
+[[feeds]]
+name = "TechCrunch AI"
+url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+lang = "en"
+
+[[feeds]]
+name = "MIT Technology Review AI"
+url = "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+lang = "en"
+
+# ── 商业趋势 ──────────────────────────────────────────────────
+[[feeds]]
+name = "Trends.vc"
+url = "https://trends.vc/feed"
+lang = "en"
+
+[[feeds]]
+name = "Product Hunt"
+url = "https://www.producthunt.com/feed"
+lang = "en"
+
+# ── AI + 电商 ────────────────────────────────────────────────
+[[feeds]]
+name = "Practical Ecommerce"
+url = "https://www.practicalecommerce.com/feed"
+lang = "en"
+
+[[feeds]]
+name = "Shopify Blog"
+url = "https://www.shopify.com/blog.atom"
+lang = "en"
+
+[[feeds]]
+name = "Marketing AI Institute"
+url = "https://www.marketingaiinstitute.com/blog/rss.xml"
+lang = "en"
+
+[[feeds]]
+name = "Search Engine Journal (Ecommerce)"
+url = "https://www.searchenginejournal.com/category/ecommerce/feed/"
+lang = "en"
+
+[[feeds]]
+name = "eCommerceFuel"
+url = "https://www.ecommercefuel.com/feed/"
+lang = "en"
+
+[[feeds]]
+name = "eCommerceBytes"
+url = "https://www.ecommercebytes.com/feed/"
+lang = "en"
+
+# ── 中文 AI 媒体 ──────────────────────────────────────────────
+[[feeds]]
+name = "量子位"
+url = "https://www.qbitai.com/feed"
+lang = "zh"
+
+[[feeds]]
+name = "机器之心"
+url = "https://www.jiqizhixin.com/rss"
+lang = "zh"
+
+[[feeds]]
+name = "36氪"
+url = "https://36kr.com/feed"
+lang = "zh"
+
+[[feeds]]
+name = "少数派"
+url = "https://sspai.com/feed"
+lang = "zh"
+
+[[feeds]]
+name = "爱范儿"
+url = "https://www.ifanr.com/feed"
+lang = "zh"
+
+[[feeds]]
+name = "极客公园"
+url = "https://plink.anyfeeder.com/geekpark"
+lang = "zh"
+
+[[feeds]]
+name = "AI热榜"
+url = "https://aihot.virxact.com/feed.xml"
+lang = "zh"
+
+[[feeds]]
+name = "晚点 LatePost"
+url = "https://rsshub.app/latepost"
+lang = "zh"
+
+# 虎嗅：反爬超时，暂停，待后续寻找替代方案
+# [[feeds]]
+# name = "虎嗅"
+# url = "https://www.huxiu.com/rss/0.xml"
+# lang = "zh"
+
+# ── 微信公众号（via WeWe RSS）────────────────────────────────
+[[feeds]]
+name = "数字生命卡兹克"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3223096120.atom"
+lang = "zh"
+
+[[feeds]]
+name = "卡尔的AI沃茨"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3871977637.atom"
+lang = "zh"
+
+[[feeds]]
+name = "饼干哥哥AGI"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_2394281674.atom"
+lang = "zh"
+
+[[feeds]]
+name = "刘小排r"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3251517810.atom"
+lang = "zh"
+
+[[feeds]]
+name = "沃垠AI"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3201599457.atom"
+lang = "zh"
+
+[[feeds]]
+name = "AGI Hunt"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3087832081.atom"
+lang = "zh"
+
+[[feeds]]
+name = "一泽Eze"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3234547650.atom"
+lang = "zh"
+
+[[feeds]]
+name = "赛博禅心"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3934419561.atom"
+lang = "zh"
+
+[[feeds]]
+name = "第二曲线增长"
+url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3293993092.atom"
+lang = "zh"

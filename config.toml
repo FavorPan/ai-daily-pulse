@@ -1,0 +1,17 @@
+[api]
+api_key = ""                    # or set env var API_KEY
+base_url = "https://api.deepseek.com"
+scoring_model = "deepseek-v4-flash"
+summary_model = "deepseek-v4-flash"
+price_in_per_m = 0.14
+price_out_per_m = 0.28
+
+[pipeline]
+lookback_days = 1
+dedup_window_days = 90
+content_cap = 4000
+output_dir = "output"
+history_path = "data/pushed.json"
+fetch_timeout = 60
+fetch_workers = 8
+score_workers = 4
