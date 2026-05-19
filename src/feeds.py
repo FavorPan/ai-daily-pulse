@@ -1,3 +1,5 @@
+import html
+import re
 import sys
 import feedparser
 import requests
@@ -74,10 +76,20 @@ def _parse_date(entry) -> Optional[datetime]:
     return None
 
 
+def _clean_html(raw: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = html.unescape(text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def _extract_content(entry) -> str:
     if entry.get("content"):
-        return entry["content"][0].get("value", "")
-    return entry.get("summary", "") or entry.get("description", "")
+        raw = entry["content"][0].get("value", "")
+    else:
+        raw = entry.get("summary", "") or entry.get("description", "")
+    return _clean_html(raw)
 
 
 def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,

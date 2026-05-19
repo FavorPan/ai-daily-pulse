@@ -15,7 +15,7 @@ from src.history import (
     save_history,
 )
 from src.scorer import process_articles
-from src.writer import write_output, write_rejected
+from src.writer import write_output
 
 
 def main():
@@ -62,9 +62,6 @@ def main():
     print(f"\nDone. Output written to: {path}")
     print(f"Final digest: {len(kept)} articles | Rejected: {len(rejected)} articles")
 
-    if rejected:
-        rej_path = write_rejected(rejected, output_dir=cfg["output_dir"])
-        print(f"Rejected log: {rej_path}")
 
     history = record_pushed(history, kept, today=today)
     history = prune_history(history, days=cfg["dedup_window_days"], today=today)

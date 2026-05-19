@@ -12,6 +12,6 @@ dedup_window_days = 90
 content_cap = 4000
 output_dir = "output"
 history_path = "data/pushed.json"
-fetch_timeout = 60
+fetch_timeout = 15
 fetch_workers = 8
 score_workers = 4

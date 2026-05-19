@@ -102,6 +102,7 @@ keep 规则：score >= 5 且 topic != 无关 时为 true（GitHub Trending 来�
 
 {articles}
 
-请输出需要删除的文章序号列表（JSON 数组），如果没有重复则返回空数组。
-只输出 JSON，例如：[2, 5, 8]
+请按以下 JSON 格式输出需要删除的文章序号，如果没有重复则 to_remove 为空数组：
+{"to_remove": [2, 5, 8]}
+只输出 JSON，不要其他文字。
 ```

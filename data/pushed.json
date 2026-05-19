@@ -4979,6 +4979,456 @@
       "pushed_at": "2026-05-18",
       "title": "dograh-hq/dograh",
       "score": 6
+    },
+    {
+      "url": "https://github.com/NVlabs/Sana",
+      "pushed_at": "2026-05-19",
+      "title": "NVlabs/Sana",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgm0k9/i_tested_42_llms_on_their_willingness_to_build/",
+      "pushed_at": "2026-05-19",
+      "title": "I tested 42 LLMs on their willingness to build the apocalypse. The \"safest\" closed-source models are lying to you.",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgxau6/llamacpp_mtp_support_landed_qwen36_27b_at_244_on/",
+      "pushed_at": "2026-05-19",
+      "title": "llama.cpp MTP support landed - Qwen3.6 27B at 2.44× on a Strix Halo, 2.17× on a RTX 3090 rig",
+      "score": 9
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic",
+      "pushed_at": "2026-05-19",
+      "title": "HTML is the new Markdown: How Anthropic engineers are building with Claude Code | Thariq Shihipar",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "pushed_at": "2026-05-19",
+      "title": "Imbad0202/academic-research-skills",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "pushed_at": "2026-05-19",
+      "title": "BigBodyCobain/Shadowbroker",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "pushed_at": "2026-05-19",
+      "title": "tech-leads-club/agent-skills",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "pushed_at": "2026-05-19",
+      "title": "humanlayer/12-factor-agents",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgecrq/i_built_a_coding_agent_that_gets_87_on_benchmarks/",
+      "pushed_at": "2026-05-19",
+      "title": "I built a coding agent that gets 87% on benchmarks with a 4B parameter model, here's how",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgis7s/qwen_36_27b_on_24gb_vram_setup_backend/",
+      "pushed_at": "2026-05-19",
+      "title": "Qwen 3.6 27B on 24GB VRAM setup: backend comparisons, quant choice and settings (llama.cpp, ik_llama.cpp, BeeLlama, vllm)",
+      "score": 8
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+      "pushed_at": "2026-05-19",
+      "title": "NVIDIA 通过 LoRA/DoRA 微调 Cosmos Predict 2.5 实现机器人视频生成",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1th7jvj/your_contact_book_hasnt_changed_since_2008_so_i/",
+      "pushed_at": "2026-05-19",
+      "title": "Your contact book hasn't changed since 2008. So I built the upgrade.",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thcbfi/i_was_so_frustrated_with_my_messy_downloads/",
+      "pushed_at": "2026-05-19",
+      "title": "I was so frustrated with my messy Downloads folder I built an AI that organizes it automatically. Here's the free tool.",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tgu06x/why_i_stopped_using_ai_builders_boltlovale_and/",
+      "pushed_at": "2026-05-19",
+      "title": "Why i stopped using AI builders (bolt/lovale) and went back to cursor",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thb5dh/built_a_mcp_based_tool_to_stop_ai_from/",
+      "pushed_at": "2026-05-19",
+      "title": "Built a MCP based tool to stop AI from hallucinating my company's own messaging",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/zaydmulani09/vecdb",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Vecdb – local-first hybrid vector database in Rust (HNSW and BM25)",
+      "score": 7
+    },
+    {
+      "url": "https://blog.echen.io/p/flashattention-2-in-cute-from-scratch/",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: FlashAttention-2 in Cute, from Scratch",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/tracecast/open_data_apps",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Tracecast – open-source generative data apps built on top of Marimo",
+      "score": 7
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
+      "pushed_at": "2026-05-19",
+      "title": "What to expect from Google this week",
+      "score": 7
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48184763",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Claude Soul – cross-session learning engine for Claude Code",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "pushed_at": "2026-05-19",
+      "title": "HKUDS/CLI-Anything",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "pushed_at": "2026-05-19",
+      "title": "ggml-org/llama.cpp",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th8a43/we_have_subagents_at_home/",
+      "pushed_at": "2026-05-19",
+      "title": "We have sub-agents at home",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th5t1b/favorite_agentic_coding_harness/",
+      "pushed_at": "2026-05-19",
+      "title": "favorite Agentic Coding Harness",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th154i/mtp_multitoken_prediction_2x_faster_token/",
+      "pushed_at": "2026-05-19",
+      "title": "MTP (Multi-Token Prediction): 2x Faster Token Generation on AMD Strix Halo & Radeon 9700 AI Pro",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th0z6k/lemonade_v1051_an_mtp_rocm_713_quick_start_for/",
+      "pushed_at": "2026-05-19",
+      "title": "Lemonade v10.5.1: an MTP + ROCm 7.13 quick start for Strix Halo",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgobhj/psa_if_you_havent_updated_llamacpp_for_a_couple/",
+      "pushed_at": "2026-05-19",
+      "title": "PSA: If you haven’t updated Llama.cpp for a couple of days and find MTP to not be performing well, update llamacpp.",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thbzvf/rdna2_flash_attention_isnt_enabled_stock_i/",
+      "pushed_at": "2026-05-19",
+      "title": "RDNA2 flash attention isn’t enabled stock, I enabled it with this build and doubled my speed",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgqpa8/qwen_35b_a3b_surprises_me/",
+      "pushed_at": "2026-05-19",
+      "title": "Qwen 35b a3b surprises me",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th8l5e/is_there_any_3b_model_with_usable_200k_context/",
+      "pushed_at": "2026-05-19",
+      "title": "Is there any <3B model with usable 200k+ context window?",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/05/419528.html",
+      "pushed_at": "2026-05-19",
+      "title": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th633w/club5060ti_followup_cleaner_rtx_5060_ti_local_llm/",
+      "pushed_at": "2026-05-19",
+      "title": "club-5060ti follow-up: cleaner RTX 5060 Ti local LLM recipes, benchmark explorer, and CUDA GPU compatibility notes",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1666191?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-19",
+      "title": "马斯克花 100 亿想清楚一件事，不做 coding agent 就是等死",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/TencentHunyuan/status/2056567125205270882",
+      "pushed_at": "2026-05-19",
+      "title": "开源古代汉字视觉感知评估基准Chronicles-OCR",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "pushed_at": "2026-05-19",
+      "title": "PaddleOCR 3.5：使用Transformers后端运行OCR和文档解析任务",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+      "pushed_at": "2026-05-19",
+      "title": "The last six months in LLMs in five minutes",
+      "score": 6
+    },
+    {
+      "url": "https://www.latent.space/p/the-fourth-law",
+      "pushed_at": "2026-05-19",
+      "title": "The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thd08j/i_built_an_app_where_you_can_practice_real/",
+      "pushed_at": "2026-05-19",
+      "title": "I built an app where you can practice real conversations with AI out loud — job interviews, dates, conflicts. took me a month. need honest feedback",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1th93ao/handoff_share_local_context_from_one_agent_to/",
+      "pushed_at": "2026-05-19",
+      "title": "Handoff - Share local context from one agent to another",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+      "pushed_at": "2026-05-19",
+      "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+      "score": 6
+    },
+    {
+      "url": "https://closedrings.sh/en",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Closed Rings – A CLI-first time tracker for developers",
+      "score": 6
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48189447",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Nano-RAG – Agentic multi-hog retrieval without graph database",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/clark-labs-inc/clark-browser",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Clark-Browser – Stealth Chromium",
+      "score": 6
+    },
+    {
+      "url": "https://sheetmusicexplainer.com/",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: I trained YOLOv8 to detect dynamics markings on sheet music",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/omarirfa/Jetxl",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Fast xlsx writer in Rust with Python bindings",
+      "score": 6
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+      "pushed_at": "2026-05-19",
+      "title": "Here’s why Elon Musk lost his suit against OpenAI",
+      "score": 6
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
+      "pushed_at": "2026-05-19",
+      "title": "Inside Anduril and Meta’s quest to make smart glasses for warfare",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th2f5w/21_gpus_benchmarked_running_a_small_tts_model/",
+      "pushed_at": "2026-05-19",
+      "title": "21 GPU's benchmarked running a small TTS model (vram peak: 5GB)",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th3r5q/memory_expert_suspects_ram_price_drop_in_2027h2/",
+      "pushed_at": "2026-05-19",
+      "title": "Memory expert suspects RAM price drop in 2027'H2 due to china heavy investments",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgk9y6/quantizing_mtp_kv_cache_free_lunch/",
+      "pushed_at": "2026-05-19",
+      "title": "Quantizing MTP KV Cache = free lunch?",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgjwdf/new_bitnet_models/",
+      "pushed_at": "2026-05-19",
+      "title": "NEW BITNET MODELS!",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1666146?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-19",
+      "title": "一个月烧掉 930 万元 Token 的人，也没烧出个答案",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3814860909600261?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3814695536336387?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "氪星晚报 ｜百度：一季度营收321亿元，AI业务收入136亿元；马斯克预计今年美国将广泛使用自动驾驶汽车；巨力索具旗下十余家企业已注销",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/952/097.htm",
+      "pushed_at": "2026-05-19",
+      "title": "谷歌联手黑石组建 AI 云公司：50 亿美元起步，2027 年冲刺 500 兆瓦",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3815459487587847?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "8点1氪丨贾跃亭又融资4.77亿元；巨力索具旗下十余家企业已注销；超越茅台，A股“新股王”诞生",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/berryxia/status/2056548546544124240",
+      "pushed_at": "2026-05-19",
+      "title": "首个实时多agent世界模型发布，人类可与AI同屏互动",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/shao__meng/status/2056535561540948056",
+      "pushed_at": "2026-05-19",
+      "title": "「开发日志」提示词：让AI编码决策可审计",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/dotey/status/2056432162635731438",
+      "pushed_at": "2026-05-19",
+      "title": "Cursor 发布 Composer 2.5 编程模型",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/berryxia/status/2056525311635026398",
+      "pushed_at": "2026-05-19",
+      "title": "Claude Design大升级：Token限制翻倍",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/alibaba_cloud/status/2056291941776519299",
+      "pushed_at": "2026-05-19",
+      "title": "AgentScope Java 1.1发布，强化企业级Agent能力",
+      "score": 6
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "pushed_at": "2026-05-19",
+      "title": "The Open Agent Leaderboard（开放智能体排行榜）",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1th6mha/i_built_an_app_where_you_journal_by_talking_to/",
+      "pushed_at": "2026-05-19",
+      "title": "I built an app where you journal by talking to Stoic Philosophers - and anyone else!",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1th7den/i_transformed_my_struggle_into_an_app/",
+      "pushed_at": "2026-05-19",
+      "title": "I transformed my struggle into an app 😎😎",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1the2mb/i_built_a_tool_to_price_stocks_in_gold_instead_of/",
+      "pushed_at": "2026-05-19",
+      "title": "I built a tool to price stocks in gold instead of Fiat Currencies— coding is my hobby, this is my first solo launch",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+      "pushed_at": "2026-05-19",
+      "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/TStansel/handoff",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Handoff – preserve coding context when agents run out of tokens",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th7q44/from_6gb_to_32gb/",
+      "pushed_at": "2026-05-19",
+      "title": "From 6gb to 32gb",
+      "score": 5
+    },
+    {
+      "url": "https://www.practicalecommerce.com/google-says-ai-optimization-is-just-seo",
+      "pushed_at": "2026-05-19",
+      "title": "Google Says AI Optimization Is Just SEO",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/05/419515.html",
+      "pushed_at": "2026-05-19",
+      "title": "openJiuwen社区开源新招：重磅发布JiuwenSwarm，拉开群体智能“养蜂”序幕",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/05/419386.html",
+      "pushed_at": "2026-05-19",
+      "title": "8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1666237?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-19",
+      "title": "早报｜苹果开启WWDC邀请，将公布苹果AI新进展/问界M9设计师点赞理想L9内饰/国家反诈中心App上线「AI内容鉴定」",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3805660478184966?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "高瓴出手了一家AI体育科技公司，曾获李泽湘天使轮融资｜硬氪首发",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3810598875307780?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "番茄小说正推动 AI 动漫上院线，开放头部IP改编权限｜36氪独家",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+      "pushed_at": "2026-05-19",
+      "title": "Claude AI助手v2.1.144版本更新",
+      "score": 5
     }
   ]
 }
