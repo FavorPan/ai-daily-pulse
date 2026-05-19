@@ -1,4 +1,5 @@
 import html
+import logging
 import re
 import sys
 import feedparser
@@ -12,6 +13,8 @@ if sys.version_info >= (3, 11):
     import tomllib
 else:
     import tomli as tomllib
+
+logger = logging.getLogger(__name__)
 
 
 def load_feeds(config_path: str = "feeds.toml") -> list[dict]:
@@ -33,7 +36,7 @@ def fetch_feed(feed: dict, lookback_days: int = 1,
         resp.raise_for_status()
         parsed = feedparser.parse(resp.content)
     except Exception as e:
-        print(f"[WARN] Failed to fetch {feed['name']}: {e}")
+        logger.warning("Failed to fetch %s: %s", feed['name'], e)
         return []
 
     articles = []
@@ -156,14 +159,15 @@ def _prefilter_articles(articles: list[dict]) -> list[dict]:
             continue
         kept.append(a)
     if filtered:
-        print(f"  Pre-filter: removed {filtered} low-quality article(s)")
+        logger.info("Pre-filter: removed %d low-quality article(s)", filtered)
     return kept
 
 
 def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,
-              timeout: int = 60, content_cap: int = 4000, workers: int = 8) -> list[dict]:
+              timeout: int = 60, content_cap: int = 4000, workers: int = 8) -> tuple[list[dict], list[dict]]:
     feeds = load_feeds(config_path)
     all_articles = []
+    feed_results = []
 
     with ThreadPoolExecutor(max_workers=workers) as executor:
         future_to_feed = {
@@ -174,9 +178,11 @@ def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,
             feed = future_to_feed[future]
             try:
                 articles = future.result()
-                print(f"  {feed['name']}: {len(articles)} articles")
+                logger.info("  %s: %d articles", feed['name'], len(articles))
                 all_articles.extend(articles)
+                feed_results.append({"name": feed["name"], "success": True, "count": len(articles)})
             except Exception as e:
-                print(f"  [WARN] {feed['name']}: {e}")
+                logger.warning("  %s: %s", feed['name'], e)
+                feed_results.append({"name": feed["name"], "success": False, "count": 0, "error": str(e)})
 
-    return _prefilter_articles(all_articles)
+    return _prefilter_articles(all_articles), feed_results

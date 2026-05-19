@@ -1,8 +1,12 @@
 import json
+import logging
 import re
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from openai import OpenAI
+from openai import OpenAI, APIStatusError, RateLimitError, APIConnectionError, APITimeoutError
+
+logger = logging.getLogger(__name__)
 
 SCORE_PROMPT = """你是一个 AI 信息策展人。请分析以下文章，判断它是否值得推送给一个关注 AI 趋势和一人公司创业的读者。
 
@@ -111,15 +115,15 @@ def _reset_usage() -> None:
         USAGE["output"] = 0
 
 
-def _print_usage_summary(price_in: float, price_out: float) -> None:
-    cost = USAGE["input"] / 1_000_000 * price_in + USAGE["output"] / 1_000_000 * price_out
-    print(f"\n[USAGE] tokens in={USAGE['input']:,} out={USAGE['output']:,} | est. cost ${cost:.4f}")
+def get_usage() -> dict:
+    with _usage_lock:
+        return {"input": USAGE["input"], "output": USAGE["output"]}
 
 
 def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
-                     json_mode: bool = False, attempts: int = 2):
+                     json_mode: bool = False, attempts: int = 3):
     last_err: Exception | None = None
-    for _ in range(attempts):
+    for attempt in range(attempts):
         kwargs = {
             "model": model,
             "max_tokens": max_tokens,
@@ -127,22 +131,49 @@ def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
         }
         if json_mode:
             kwargs["response_format"] = {"type": "json_object"}
-        response = client.chat.completions.create(**kwargs)
-        _track(response)
-        raw = (response.choices[0].message.content or "").strip()
-        if not raw:
-            last_err = ValueError("empty response content")
-            continue
-        if json_mode:
-            match = re.search(r"\{.*\}", raw, re.DOTALL)
-            if match:
-                raw = match.group()
-            try:
-                return json.loads(raw)
-            except json.JSONDecodeError as e:
-                last_err = e
+        try:
+            response = client.chat.completions.create(**kwargs)
+            _track(response)
+            raw = (response.choices[0].message.content or "").strip()
+            if not raw:
+                last_err = ValueError("empty response content")
+                if attempt < attempts - 1:
+                    time.sleep(2 ** (attempt + 1))
                 continue
-        return raw
+            if json_mode:
+                match = re.search(r"\{.*\}", raw, re.DOTALL)
+                if match:
+                    raw = match.group()
+                try:
+                    return json.loads(raw)
+                except json.JSONDecodeError as e:
+                    last_err = e
+                    if attempt < attempts - 1:
+                        time.sleep(2 ** (attempt + 1))
+                    continue
+            return raw
+        except RateLimitError as e:
+            # 429: retry with backoff
+            last_err = e
+            if attempt < attempts - 1:
+                time.sleep(2 ** (attempt + 1))
+            continue
+        except APIStatusError as e:
+            if e.status_code == 401:
+                raise
+            if e.status_code >= 500:
+                # 5xx: retry with backoff
+                last_err = e
+                if attempt < attempts - 1:
+                    time.sleep(2 ** (attempt + 1))
+                continue
+            raise
+        except (APIConnectionError, APITimeoutError) as e:
+            # Network/transient errors: retry with backoff
+            last_err = e
+            if attempt < attempts - 1:
+                time.sleep(2 ** (attempt + 1))
+            continue
     raise last_err  # type: ignore[misc]
 
 
@@ -165,7 +196,7 @@ def score_article(article: dict, client: OpenAI, model: str) -> dict:
             "keep": keep,
         })
     except Exception as e:
-        print(f"  [WARN] Scoring failed for '{article['title']}': {e}")
+        logger.warning("Scoring failed for '%s': %s", article['title'], e)
         article.update({"topic": "无关", "score": 0, "tags": [], "keep": False})
     return article
 
@@ -178,7 +209,7 @@ def summarize_article(article: dict, client: OpenAI, model: str) -> str:
     try:
         return _call_with_retry(client, model, prompt, max_tokens=400, json_mode=False)
     except Exception as e:
-        print(f"  [WARN] Summary failed for '{article['title']}': {e}")
+        logger.warning("Summary failed for '%s': %s", article['title'], e)
         return ""
 
 
@@ -232,7 +263,7 @@ def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[li
     # Stage 1: Jaccard similarity to find suspect groups
     suspect_groups = _find_suspect_groups(sorted_articles)
     if not suspect_groups:
-        print("  Dedup: no suspected duplicates found (Jaccard pre-filter)")
+        logger.info("Dedup: no suspected duplicates found (Jaccard pre-filter)")
         return sorted_articles, []
 
     # Stage 2: Only send suspect groups to LLM for precise dedup
@@ -254,16 +285,16 @@ def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[li
         to_remove_local = set(result.get("to_remove", []))
         to_remove = {index_map[i] for i in to_remove_local if i in index_map}
     except Exception as e:
-        print(f"  [WARN] Dedup failed: {e}, skipping dedup")
+        logger.warning("Dedup failed: %s, skipping dedup", e)
         return sorted_articles, []
 
     deduped = [a for i, a in enumerate(sorted_articles) if i not in to_remove]
     dupes = [a for i, a in enumerate(sorted_articles) if i in to_remove]
-    print(f"  Dedup: removed {len(dupes)} duplicate(s) (from {len(suspect_groups)} suspect group(s))")
+    logger.info("Dedup: removed %d duplicate(s) (from %d suspect group(s))", len(dupes), len(suspect_groups))
     return deduped, dupes
 
 
-def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[list[dict], list[dict]]:
+def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[list[dict], list[dict], dict, dict]:
     client = OpenAI(api_key=api_key, base_url=cfg["base_url"])
     _reset_usage()
 
@@ -271,7 +302,10 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
     summary_model = cfg["summary_model"]
     workers = cfg.get("score_workers", 4)
 
-    print(f"\n[1/3] Scoring {len(articles)} articles...")
+    timings: dict[str, float] = {}
+
+    logger.info("[1/3] Scoring %d articles...", len(articles))
+    t0 = time.monotonic()
     scored = []
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
@@ -280,16 +314,20 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
         }
         for future in as_completed(futures):
             scored.append(future.result())
+    timings["score"] = time.monotonic() - t0
 
     kept = [a for a in scored if a["keep"]]
     rejected = [a for a in scored if not a["keep"]]
-    print(f"  Kept {len(kept)} / {len(scored)} articles (score >= 5)")
+    logger.info("  Kept %d / %d articles (score >= 5)", len(kept), len(scored))
 
-    print(f"\n[2/3] Deduplicating {len(kept)} articles...")
+    logger.info("[2/3] Deduplicating %d articles...", len(kept))
+    t0 = time.monotonic()
     kept, dupes = dedup_articles(kept, client, scoring_model)
     rejected.extend(dupes)
+    timings["dedup"] = time.monotonic() - t0
 
-    print(f"\n[3/3] Summarizing {len(kept)} articles...")
+    logger.info("[3/3] Summarizing %d articles...", len(kept))
+    t0 = time.monotonic()
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
             executor.submit(summarize_article, a, client, summary_model): a
@@ -298,6 +336,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
         for future in as_completed(futures):
             article = futures[future]
             article["summary"] = future.result()
+    timings["summarize"] = time.monotonic() - t0
 
-    _print_usage_summary(cfg["price_in_per_m"], cfg["price_out_per_m"])
-    return kept, rejected
+    usage = get_usage()
+    return kept, rejected, usage, timings

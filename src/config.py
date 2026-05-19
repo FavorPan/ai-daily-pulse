@@ -18,9 +18,11 @@ DEFAULTS = {
     "content_cap": 4000,
     "output_dir": "output",
     "history_path": "data/pushed.json",
+    "feed_health_path": "data/feed_health.json",
     "fetch_timeout": 60,
     "fetch_workers": 8,
     "score_workers": 4,
+    "log_level": "INFO",
 }
 
 NUMERIC_INT_KEYS = {
@@ -39,6 +41,8 @@ ENV_MAP = {
     "CONTENT_CAP": "content_cap",
     "OUTPUT_DIR": "output_dir",
     "HISTORY_PATH": "history_path",
+    "FEED_HEALTH_PATH": "feed_health_path",
+    "LOG_LEVEL": "log_level",
 }
 
 
