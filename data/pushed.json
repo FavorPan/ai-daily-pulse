@@ -5429,6 +5429,156 @@
       "pushed_at": "2026-05-19",
       "title": "Claude AI助手v2.1.144版本更新",
       "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thd5u3/glia_localfirst_shared_memory_layer_sqlitevec/",
+      "pushed_at": "2026-05-19",
+      "title": "Glia – Local-first shared memory layer (SQLite-vec + FTS5 + Offline Knowledge Graph)",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thbtx9/opencoffer_selfhosted_personal_finance_and_byollm/",
+      "pushed_at": "2026-05-19",
+      "title": "OpenCoffer: Self-hosted personal finance and BYO-LLM chat",
+      "score": 8
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown",
+      "pushed_at": "2026-05-19",
+      "title": "🎙️ How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3815838410202633?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "渣打银行拟未来四年裁员超7000人，加速采用人工智能",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/OpenRouter/status/2056448867982606754",
+      "pushed_at": "2026-05-19",
+      "title": "xAI Grok创意套件三款新模型上线OpenRouter",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2056403446056784288",
+      "pushed_at": "2026-05-19",
+      "title": "Claude Code大规模部署最佳实践指南",
+      "score": 7
+    },
+    {
+      "url": "https://stars.wavekat.com/",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Cumulative GitHub star history for an org, as an embeddable SVG",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thaz9g/i_built_an_invisible_notes_app_for_founders_to/",
+      "pushed_at": "2026-05-19",
+      "title": "i built an invisible notes app for founders to make product demos faster",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thedey/i_shipped_a_chrome_extension_that_checks/",
+      "pushed_at": "2026-05-19",
+      "title": "I shipped a chrome extension that checks subreddit fit, removal risk, and spammy tone before posting",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1thbipr/built_an_ai_journaling_app_heres_what_actually/",
+      "pushed_at": "2026-05-19",
+      "title": "Built an AI journaling app, here's what actually happened",
+      "score": 6
+    },
+    {
+      "url": "https://sspai.com/post/109889",
+      "pushed_at": "2026-05-19",
+      "title": "YoooClaw C·ONE 体验：为 AI Agent 而生的硬件，怎样构筑了数字化的「我」？",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3815841756028425?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "影石：重新定义性价比",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3815858397617671?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "“SportVision”完成天使+轮融资",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/berryxia/status/2056549740393947627",
+      "pushed_at": "2026-05-19",
+      "title": "Cursor发布Composer 2.5模型，号称目前最强",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2056434422229123106",
+      "pushed_at": "2026-05-19",
+      "title": "Claude控制台新增提示缓存诊断功能",
+      "score": 6
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "pushed_at": "2026-05-19",
+      "title": "Anthropic收购SDK与MCP服务器工具开发商Stainless",
+      "score": 6
+    },
+    {
+      "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere",
+      "pushed_at": "2026-05-19",
+      "title": "将你的本地GitHub会话带到任何地方",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/gekap/fast-copy",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Fast_copy new release with new features",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2056419620643541012",
+      "pushed_at": "2026-05-19",
+      "title": "Anthropic收购SDK平台Stainless",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tgol8e/working_on_an_idea_that_can_fund_my_research/",
+      "pushed_at": "2026-05-19",
+      "title": "working on an idea that can fund my research internship",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+      "pushed_at": "2026-05-19",
+      "title": "South Korea’s LetinAR is building optics behind AI glasses",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3815835235557127?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "月之暗面据悉将重组公司架构，为香港IPO铺路",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3815811179896576?f=rss",
+      "pushed_at": "2026-05-19",
+      "title": "灵心巧手据悉考虑香港上市",
+      "score": 5
+    },
+    {
+      "url": "https://x.com/Baidu_Inc/status/2056375547400503355",
+      "pushed_at": "2026-05-19",
+      "title": "百度核心AI业务Q1营收超136亿元",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/harmont-dev/hsrs",
+      "pushed_at": "2026-05-19",
+      "title": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "score": 5
     }
   ]
 }

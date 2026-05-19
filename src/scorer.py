@@ -1,4 +1,5 @@
 import json
+import re
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from openai import OpenAI
@@ -133,11 +134,9 @@ def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
             last_err = ValueError("empty response content")
             continue
         if json_mode:
-            if raw.startswith("```"):
-                raw = raw.split("```")[1]
-                if raw.startswith("json"):
-                    raw = raw[4:]
-                raw = raw.strip()
+            match = re.search(r"\{.*\}", raw, re.DOTALL)
+            if match:
+                raw = match.group()
             try:
                 return json.loads(raw)
             except json.JSONDecodeError as e:
@@ -183,28 +182,84 @@ def summarize_article(article: dict, client: OpenAI, model: str) -> str:
         return ""
 
 
+def _tokenize(text: str) -> set[str]:
+    """Tokenize text for Jaccard comparison. Chinese: per-char; English: space-split."""
+    tokens = set()
+    for char in text:
+        if "一" <= char <= "鿿":
+            tokens.add(char)
+    for word in text.split():
+        if any("一" <= c <= "鿿" for c in word):
+            continue
+        tokens.add(word.lower())
+    return tokens
+
+
+def _jaccard(a: set, b: set) -> float:
+    if not a and not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+def _find_suspect_groups(articles: list[dict], threshold: float = 0.4) -> list[list[int]]:
+    """Group article indices whose titles are similar (Jaccard > threshold)."""
+    n = len(articles)
+    token_sets = [_tokenize(a["title"]) for a in articles]
+    visited = set()
+    groups = []
+    for i in range(n):
+        if i in visited:
+            continue
+        group = [i]
+        for j in range(i + 1, n):
+            if j in visited:
+                continue
+            if _jaccard(token_sets[i], token_sets[j]) > threshold:
+                group.append(j)
+                visited.add(j)
+        if len(group) > 1:
+            groups.append(group)
+            visited.update(group)
+    return groups
+
+
 def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[list[dict], list[dict]]:
     if len(articles) <= 1:
         return articles, []
 
     sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
 
-    lines = "\n".join(
-        f"[{i}] {a['title']} (来源: {a['source']}, 评分: {a['score']})"
-        for i, a in enumerate(sorted_articles)
-    )
-    prompt = DEDUP_PROMPT.format(articles=lines)
+    # Stage 1: Jaccard similarity to find suspect groups
+    suspect_groups = _find_suspect_groups(sorted_articles)
+    if not suspect_groups:
+        print("  Dedup: no suspected duplicates found (Jaccard pre-filter)")
+        return sorted_articles, []
+
+    # Stage 2: Only send suspect groups to LLM for precise dedup
+    suspect_indices = set()
+    for group in suspect_groups:
+        suspect_indices.update(group)
+
+    lines = []
+    index_map = {}  # local index -> original index
+    for local_i, orig_i in enumerate(sorted(suspect_indices)):
+        a = sorted_articles[orig_i]
+        lines.append(f"[{local_i}] {a['title']} (来源: {a['source']}, 评分: {a['score']})")
+        index_map[local_i] = orig_i
+
+    prompt = DEDUP_PROMPT.format(articles="\n".join(lines))
 
     try:
         result = _call_with_retry(client, model, prompt, max_tokens=384, json_mode=True)
-        to_remove = set(result.get("to_remove", []))
+        to_remove_local = set(result.get("to_remove", []))
+        to_remove = {index_map[i] for i in to_remove_local if i in index_map}
     except Exception as e:
         print(f"  [WARN] Dedup failed: {e}, skipping dedup")
-        return articles, []
+        return sorted_articles, []
 
     deduped = [a for i, a in enumerate(sorted_articles) if i not in to_remove]
     dupes = [a for i, a in enumerate(sorted_articles) if i in to_remove]
-    print(f"  Dedup: removed {len(dupes)} duplicate(s)")
+    print(f"  Dedup: removed {len(dupes)} duplicate(s) (from {len(suspect_groups)} suspect group(s))")
     return deduped, dupes
 
 
