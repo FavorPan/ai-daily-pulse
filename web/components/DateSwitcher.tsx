@@ -12,7 +12,7 @@ export function DateSwitcher({ dates }: { dates: string[] }) {
 
   return (
     <select
-      className="bg-[#1A1D24] text-sm px-3 py-2 rounded-lg border border-[#2A2F3A] text-gray-300"
+      className="bg-surface text-sm px-3 py-2 rounded-lg border border-border text-foreground"
       value={current}
       onChange={(e) => {
         const params = new URLSearchParams(searchParams.toString());

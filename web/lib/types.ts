@@ -9,6 +9,10 @@ export type DigestItem = {
   tags: string[];
 };
 
+export type DigestItemWithDate = DigestItem & {
+  digestDate: string;
+};
+
 export type DailyDigest = {
   date: string;
   highlights: string[];

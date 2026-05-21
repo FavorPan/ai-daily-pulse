@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "首页",
+    "explore": "探索",
+    "about": "关于"
+  },
+  "theme": {
+    "label": "主题",
+    "light": "白天",
+    "dark": "黑夜",
+    "system": "跟随系统"
+  },
+  "locale": {
+    "label": "语言"
+  },
+  "search": {
+    "placeholder": "搜索标题、摘要、标签..."
+  },
+  "home": {
+    "title": "今日 AI 脉搏",
+    "total": "今日共 {count} 篇",
+    "featured": "精选",
+    "viewAll": "查看全部 →",
+    "mockHint": "暂无 output 数据，显示示例内容。运行 python main.py 或等待 CI 生成 digest JSON。"
+  },
+  "explore": {
+    "title": "探索",
+    "subtitle": "按主题筛选，或使用顶部搜索",
+    "topicFilter": "主题筛选",
+    "allTopics": "全部",
+    "searching": "搜索：{q}",
+    "globalSearchHint": "正在搜索全部 {days} 天数据",
+    "empty": "没有匹配的文章。",
+    "mockHint": "当前为示例数据"
+  },
+  "item": {
+    "back": "← 返回探索",
+    "summary": "摘要",
+    "noSummary": "暂无摘要",
+    "topic": "主题",
+    "score": "评分",
+    "tags": "标签",
+    "source": "来源",
+    "readOriginal": "阅读原文 ↗"
+  },
+  "card": {
+    "original": "原文 ↗"
+  },
+  "about": {
+    "title": "关于",
+    "motivationTitle": "为什么做这个项目",
+    "motivation1": "每天有大量 AI 资讯发布在各种平台上，手动刷太累、也容易漏。AI Daily Pulse 帮你自动从 40+ 个 RSS 信息源抓取、预筛选、AI 评分与去重，生成中文日报。",
+    "motivation2": "关注方向包括：OPC / 一人公司 / AI 赚钱案例、AI + 电商、AI 工具与 Agent 工作流、新技术与新模型、投融资动态。",
+    "motivation3": "这个 Web 站点是日报的在线阅读界面，方便快速浏览、搜索历史内容，而不必每次打开 Markdown 文件。",
+    "authorTitle": "作者",
+    "authorName": "FavorPan",
+    "authorBio": "独立开发者，关注 AI 资讯聚合与一人公司实践。",
+    "githubTitle": "开源仓库",
+    "githubLink": "在 GitHub 上查看源码"
+  },
+  "common": {
+    "loading": "加载中..."
+  }
+}

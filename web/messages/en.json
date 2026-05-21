@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "about": "About"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "locale": {
+    "label": "Language"
+  },
+  "search": {
+    "placeholder": "Search title, summary, tags..."
+  },
+  "home": {
+    "title": "Today's AI Pulse",
+    "total": "{count} articles today",
+    "featured": "Featured",
+    "viewAll": "View all →",
+    "mockHint": "No output data yet — showing sample content. Run python main.py or wait for CI to generate digest JSON."
+  },
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Filter by topic or use the header search",
+    "topicFilter": "Topics",
+    "allTopics": "All",
+    "searching": "Search: {q}",
+    "globalSearchHint": "Searching across {days} days of archives",
+    "empty": "No matching articles.",
+    "mockHint": "Showing sample data"
+  },
+  "item": {
+    "back": "← Back to explore",
+    "summary": "Summary",
+    "noSummary": "No summary",
+    "topic": "Topic",
+    "score": "Score",
+    "tags": "Tags",
+    "source": "Source",
+    "readOriginal": "Read original ↗"
+  },
+  "card": {
+    "original": "Source ↗"
+  },
+  "about": {
+    "title": "About",
+    "motivationTitle": "Why this project",
+    "motivation1": "AI news drops everywhere every day — scrolling manually is exhausting and easy to miss. AI Daily Pulse fetches from 40+ RSS sources, pre-filters, scores with AI, deduplicates, and produces a daily Chinese digest.",
+    "motivation2": "Focus areas: OPC / solo-founder monetization, AI + e-commerce, tools & agent workflows, new tech & models, and funding rounds.",
+    "motivation3": "This site is the online reading UI for those digests — browse and search history without opening Markdown files each time.",
+    "authorTitle": "Author",
+    "authorName": "FavorPan",
+    "authorBio": "Independent developer focused on AI news aggregation and solo-founder workflows.",
+    "githubTitle": "Open source",
+    "githubLink": "View on GitHub"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}

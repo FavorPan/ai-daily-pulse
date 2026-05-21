@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { DailyDigest, DigestItem } from "./types";
+import type { DailyDigest, DigestItem, DigestItemWithDate } from "./types";
 
 const OUTPUT_DIR = path.join(process.cwd(), "..", "output");
 
@@ -83,9 +83,39 @@ export async function getItems(date?: string): Promise<DigestItem[]> {
   return data.items;
 }
 
+export async function getItemsWithDate(date?: string): Promise<DigestItemWithDate[]> {
+  const data = await getDaily(date);
+  return data.items.map((item) => ({ ...item, digestDate: data.date }));
+}
+
+export async function getAllItems(): Promise<DigestItemWithDate[]> {
+  const dates = listDigestDates();
+  if (dates.length === 0) {
+    const mock = await getDaily();
+    return mock.items.map((item) => ({ ...item, digestDate: mock.date }));
+  }
+
+  const byId = new Map<string, DigestItemWithDate>();
+  for (const digestDate of [...dates].reverse()) {
+    const data = readDigest(digestDate);
+    if (!data) continue;
+    for (const item of data.items) {
+      byId.set(item.id, { ...item, digestDate });
+    }
+  }
+  return Array.from(byId.values()).sort((a, b) =>
+    b.digestDate.localeCompare(a.digestDate)
+  );
+}
+
 export async function getItem(id: string, date?: string): Promise<DigestItem | null> {
-  const items = await getItems(date);
-  return items.find((item) => item.id === id) ?? null;
+  if (date) {
+    const items = await getItems(date);
+    return items.find((item) => item.id === id) ?? null;
+  }
+  const all = await getAllItems();
+  const found = all.find((item) => item.id === id);
+  return found ?? null;
 }
 
 export function listDigestDates(): string[] {

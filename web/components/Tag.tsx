@@ -1,3 +1,9 @@
+"use client";
+
+import { useLocale } from "next-intl";
+import { getTopicLabel } from "@/lib/topicLabels";
+import type { AppLocale } from "@/i18n/routing";
+
 const colorMap: Record<string, string> = {
   "OPC/AI赚钱案例": "bg-emerald-600",
   "AI+电商": "bg-amber-600",
@@ -11,11 +17,14 @@ const colorMap: Record<string, string> = {
 };
 
 export function Tag({ label }: { label: string }) {
+  const locale = useLocale() as AppLocale;
+  const display = getTopicLabel(label, locale) || label;
+
   return (
     <span
-      className={`text-xs px-2 py-1 rounded shrink-0 ${colorMap[label] || "bg-gray-600"}`}
+      className={`text-xs px-2 py-1 rounded shrink-0 text-white ${colorMap[label] || "bg-gray-600"}`}
     >
-      {label}
+      {display}
     </span>
   );
 }

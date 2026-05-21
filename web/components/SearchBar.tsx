@@ -1,11 +1,14 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
 import { useCallback, useState } from "react";
 
 function SearchInput({ initialQ }: { initialQ: string }) {
   const router = useRouter();
+  const locale = useLocale();
   const searchParams = useSearchParams();
+  const t = useTranslations("search");
   const [value, setValue] = useState(initialQ);
 
   const submit = useCallback(
@@ -17,15 +20,15 @@ function SearchInput({ initialQ }: { initialQ: string }) {
         params.delete("q");
       }
       const qs = params.toString();
-      router.push(qs ? `/explore?${qs}` : "/explore");
+      router.push(qs ? `/${locale}/explore?${qs}` : `/${locale}/explore`);
     },
-    [router, searchParams]
+    [router, searchParams, locale]
   );
 
   return (
     <input
-      className="bg-[#1A1D24] px-4 py-2 rounded-lg text-sm w-full max-w-xs"
-      placeholder="搜索标题、摘要、标签..."
+      className="bg-surface px-4 py-2 rounded-lg text-sm w-full max-w-xs border border-border text-foreground placeholder:text-muted"
+      placeholder={t("placeholder")}
       value={value}
       onChange={(e) => setValue(e.target.value)}
       onKeyDown={(e) => {
