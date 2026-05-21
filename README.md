@@ -121,7 +121,44 @@ python main.py
 LOOKBACK_DAYS=3 python main.py
 ```
 
-运行后在 `output/` 目录下会生成 `AI Daily - 2026-05-18.md`。
+运行后在 `output/` 目录下会生成：
+
+- `output/AI Daily - YYYY-MM-DD.md` — Obsidian 日报
+- `output/digest-YYYY-MM-DD.json` — Web 前端数据
+- `output/latest.json` — 指向最近一日的 digest
+
+---
+
+## Web UI（可选）
+
+仓库内包含 Next.js 14 前端（`web/`），读取 `output/` 下的 JSON 展示日报。
+
+### 本地开发
+
+```bash
+# 确保已有 digest JSON（运行过 python main.py，或仓库已含 output/latest.json）
+cd web
+npm install
+npm run dev
+```
+
+浏览器打开 [http://localhost:3000](http://localhost:3000)。
+
+- **首页**：今日脉搏 + 精选文章
+- **探索**：按主题筛选、顶部搜索
+- **详情**：`/item/[id]` 查看单篇摘要与原文链接
+- 顶栏日期下拉可切换历史 digest（`?date=YYYY-MM-DD`）
+
+指定日期（环境变量）：`DIGEST_DATE=2026-05-19 npm run dev`
+
+### 部署到 Vercel
+
+1. 导入本 GitHub 仓库
+2. **Root Directory** 设为 `web`
+3. Framework Preset：Next.js（默认即可）
+4. 确保 CI 每日提交的 `output/latest.json` 在仓库中（与 Markdown 一同由 Actions 推送）
+
+全仓库 checkout 后，前端通过 `../output` 读取 digest；无 JSON 时显示示例数据并提示等待 CI。
 
 ---
 

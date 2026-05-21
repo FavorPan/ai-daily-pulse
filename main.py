@@ -18,7 +18,7 @@ from src.history import (
     save_history,
 )
 from src.scorer import process_articles
-from src.writer import write_output
+from src.writer import write_digest_json, write_output
 
 logger = logging.getLogger(__name__)
 
@@ -93,9 +93,11 @@ def main():
 
     t_write = time.monotonic()
     path = write_output(kept, output_dir=cfg["output_dir"])
+    json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today)
     t_write = time.monotonic() - t_write
 
     logger.info("Done. Output written to: %s", path)
+    logger.info("Web digest JSON: %s", json_path)
     logger.info("Final digest: %d articles | Rejected: %d articles", len(kept), len(rejected))
 
     history = record_pushed(history, kept, today=today)
