@@ -1,16 +1,12 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 
-export function SearchBar() {
+function SearchInput({ initialQ }: { initialQ: string }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [value, setValue] = useState(searchParams.get("q") ?? "");
-
-  useEffect(() => {
-    setValue(searchParams.get("q") ?? "");
-  }, [searchParams]);
+  const [value, setValue] = useState(initialQ);
 
   const submit = useCallback(
     (q: string) => {
@@ -38,4 +34,11 @@ export function SearchBar() {
       onBlur={() => submit(value)}
     />
   );
+}
+
+export function SearchBar() {
+  const searchParams = useSearchParams();
+  const initialQ = searchParams.get("q") ?? "";
+
+  return <SearchInput key={initialQ} initialQ={initialQ} />;
 }

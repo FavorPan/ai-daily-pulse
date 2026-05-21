@@ -5,11 +5,11 @@ import { getDaily, isUsingMockData } from "@/lib/api";
 const TRENDING_MIN_SCORE = 5;
 
 type PageProps = {
-  searchParams?: { date?: string };
+  searchParams: Promise<{ date?: string }>;
 };
 
 export default async function Page({ searchParams }: PageProps) {
-  const date = searchParams?.date;
+  const { date } = await searchParams;
   const data = await getDaily(date);
   const mock = isUsingMockData(date);
   const trending = data.items.filter((item) => item.score >= TRENDING_MIN_SCORE);

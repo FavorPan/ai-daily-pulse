@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 import "./globals.css";
 import { HeaderNav } from "@/components/HeaderNav";
@@ -26,9 +27,9 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           <header className="h-16 flex items-center justify-between gap-4 px-4 md:px-8 border-b border-[#2A2F3A]">
             <div className="flex items-center gap-6">
-              <a href="/" className="font-bold text-lg whitespace-nowrap">
+              <Link href="/" className="font-bold text-lg whitespace-nowrap">
                 AI Daily Pulse
-              </a>
+              </Link>
               <HeaderNav />
             </div>
             <div className="flex items-center gap-3">

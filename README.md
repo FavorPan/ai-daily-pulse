@@ -131,7 +131,7 @@ LOOKBACK_DAYS=3 python main.py
 
 ## Web UI（可选）
 
-仓库内包含 Next.js 14 前端（`web/`），读取 `output/` 下的 JSON 展示日报。
+仓库内包含 Next.js 16 前端（`web/`），读取 `output/` 下的 JSON 展示日报。
 
 ### 本地开发
 
@@ -324,41 +324,67 @@ API 调用失败时自动重试：
 
 ```
 ai-daily-pulse/
-├── main.py                  # 入口文件，运行整个流程
-├── config.toml              # AI 模型和运行参数配置
-├── feeds.toml               # 信息源列表
-├── requirements.txt         # Python 依赖
-├── PROMPTS.md               # AI 评分和摘要的 prompt 设计
-├── src/
-│   ├── config.py            # 读取配置（支持 env 覆盖）
-│   ├── feeds.py             # 抓取 RSS + HTML 清理 + 规则预筛选
-│   ├── feed_health.py       # Feed 健康监控
-│   ├── history.py           # 历史去重（90天窗口）
-│   ├── scorer.py            # AI 评分 / Jaccard 去重 / 摘要 / 自动重试
-│   └── writer.py            # 生成 Markdown 日报
-├── tests/                   # 70 个 pytest 测试
+├── main.py                      # 入口：抓取 → 去重 → 评分 → 写出
+├── config.toml                  # AI 模型与管线参数
+├── feeds.toml                   # RSS 信息源列表
+├── requirements.txt             # Python 依赖
+├── PROMPTS.md                   # 评分与摘要 prompt 说明
+│
+├── src/                         # Python 管线
+│   ├── config.py                # 配置加载（env 可覆盖）
+│   ├── feeds.py                 # RSS 抓取、内容清理、规则预筛选
+│   ├── feed_health.py           # Feed 健康监控
+│   ├── history.py               # URL 历史去重（90 天窗口）
+│   ├── scorer.py                # AI 评分、Jaccard 去重、摘要、重试
+│   └── writer.py                # 输出 Markdown + digest JSON
+│
+├── web/                         # Next.js 16 前端（可选）
+│   ├── app/
+│   │   ├── layout.tsx           # 顶栏、搜索、日期切换
+│   │   ├── page.tsx             # 首页：今日脉搏 + 精选
+│   │   ├── explore/page.tsx     # 探索：主题筛选
+│   │   └── item/[id]/page.tsx   # 文章详情
+│   ├── components/              # ProjectCard、Tag、SummaryBlock 等
+│   └── lib/
+│       ├── api.ts               # 读取 ../output/*.json
+│       └── types.ts             # DigestItem / DailyDigest 类型
+│
+├── output/                      # 管线产出（CI 每日提交）
+│   ├── AI Daily - YYYY-MM-DD.md # Obsidian 日报
+│   ├── digest-YYYY-MM-DD.json   # Web 用结构化数据
+│   └── latest.json              # 最近一日 digest 副本
+│
+├── data/
+│   ├── pushed.json              # 已推送 URL 记录
+│   └── feed_health.json         # Feed 健康状态
+│
+├── tests/                       # 74 个 pytest 测试
 │   ├── test_config.py
 │   ├── test_feeds.py
 │   ├── test_feed_health.py
 │   ├── test_history.py
 │   ├── test_scorer.py
 │   └── test_writer.py
-├── .github/workflows/
-│   └── daily.yml            # GitHub Actions 每日自动运行
-├── output/                  # 生成的日报
-└── data/
-    ├── pushed.json          # 已推送的 URL 记录
-    └── feed_health.json     # Feed 健康状态
+│
+├── examples/                    # 示例日报
+└── .github/workflows/
+    └── daily.yml                # 每日 09:00（北京时间）自动运行
 ```
 
 ---
 
 ## 技术栈
 
+**管线**
+
 - **Python 3.11+** + feedparser + OpenAI SDK
 - **GitHub Actions** 定时调度（每天北京时间 09:00）
-- **Obsidian Git** 本地同步（可选）
-- **logging** 结构化日志（支持 DEBUG/INFO/WARNING）
+- **logging** 结构化日志（DEBUG / INFO / WARNING）
+
+**展示（可选）**
+
+- **Next.js 16** + React 19 + TypeScript + Tailwind（`web/`）
+- **Obsidian Git** 同步 Markdown 日报（可选）
 
 ---
 

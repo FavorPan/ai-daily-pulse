@@ -3,11 +3,11 @@ import { ExploreClient } from "@/components/ExploreClient";
 import { getItems, isUsingMockData } from "@/lib/api";
 
 type PageProps = {
-  searchParams?: { date?: string };
+  searchParams: Promise<{ date?: string }>;
 };
 
 export default async function ExplorePage({ searchParams }: PageProps) {
-  const date = searchParams?.date;
+  const { date } = await searchParams;
   const items = await getItems(date);
   const mock = isUsingMockData(date);
 

@@ -4,15 +4,17 @@ import { SummaryBlock } from "@/components/SummaryBlock";
 import { getItem } from "@/lib/api";
 
 type PageProps = {
-  params: { id: string };
-  searchParams?: { date?: string };
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ date?: string }>;
 };
 
 export default async function ItemPage({ params, searchParams }: PageProps) {
-  const item = await getItem(params.id, searchParams?.date);
+  const { id } = await params;
+  const { date } = await searchParams;
+  const item = await getItem(id, date);
   if (!item) notFound();
 
-  const backQs = searchParams?.date ? `?date=${searchParams.date}` : "";
+  const backQs = date ? `?date=${date}` : "";
 
   return (
     <div className="max-w-3xl mx-auto space-y-6">
