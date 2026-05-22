@@ -27,7 +27,7 @@ function SearchInput({ initialQ }: { initialQ: string }) {
 
   return (
     <input
-      className="bg-surface px-4 py-2 rounded-lg text-sm w-full max-w-xs border border-border text-foreground placeholder:text-muted"
+      className="bg-surface px-4 py-2 rounded-lg text-sm w-full sm:max-w-xs border border-border text-foreground placeholder:text-muted focus-accent transition-colors"
       placeholder={t("placeholder")}
       value={value}
       onChange={(e) => setValue(e.target.value)}
@@ -35,6 +35,7 @@ function SearchInput({ initialQ }: { initialQ: string }) {
         if (e.key === "Enter") submit(value);
       }}
       onBlur={() => submit(value)}
+      aria-label={t("placeholder")}
     />
   );
 }

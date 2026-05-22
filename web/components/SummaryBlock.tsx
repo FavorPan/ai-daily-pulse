@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { ScoreBadge } from "./ScoreBadge";
 import { Tag } from "./Tag";
 import type { DigestItem } from "@/lib/types";
 
@@ -8,7 +9,7 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
   const t = useTranslations("item");
 
   return (
-    <div className="bg-surface p-6 rounded-2xl space-y-5 border border-border">
+    <div className="glass-surface p-6 rounded-2xl space-y-5 accent-line-top">
       <div>
         <div className="text-sm text-muted mb-1">{t("summary")}</div>
         <div className="leading-relaxed">{item.summary || t("noSummary")}</div>
@@ -19,7 +20,7 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
       </div>
       <div>
         <div className="text-sm text-muted mb-1">{t("score")}</div>
-        <div>{item.score}/10</div>
+        <ScoreBadge score={item.score} size="lg" />
       </div>
       {item.tags.length > 0 && (
         <div>
@@ -28,7 +29,7 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
             {item.tags.map((tag) => (
               <span
                 key={tag}
-                className="text-xs px-2 py-1 rounded bg-surface-muted text-foreground"
+                className="text-xs px-2 py-1 rounded-full bg-accent/10 text-accent border border-accent/20"
               >
                 #{tag}
               </span>
@@ -45,7 +46,7 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
           href={item.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-accent hover:opacity-80"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent text-background font-medium text-sm hover:opacity-90 transition-opacity"
         >
           {t("readOriginal")}
         </a>

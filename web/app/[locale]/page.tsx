@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ProductHero } from "@/components/ProductHero";
 import { ProjectCard } from "@/components/ProjectCard";
 import { StatsHero } from "@/components/StatsHero";
 import { getDaily, isUsingMockData } from "@/lib/api";
@@ -32,6 +33,7 @@ export default async function Page({ params, searchParams }: PageProps) {
         </p>
       )}
 
+      <ProductHero date={data.date} />
       <StatsHero date={data.date} items={data.items} />
 
       <div>
@@ -41,7 +43,7 @@ export default async function Page({ params, searchParams }: PageProps) {
           </h2>
           <Link
             href={`/${locale}/explore${date ? `?date=${date}` : ""}`}
-            className="text-sm text-accent hover:opacity-80"
+            className="text-sm text-accent hover:opacity-80 transition-opacity"
           >
             {t("viewAll")}
           </Link>

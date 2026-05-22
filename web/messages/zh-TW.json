@@ -1,7 +1,21 @@
 {
   "nav": {
-    "home": "首頁",
-    "explore": "探索",
+    "home": "今日",
+    "explore": "全部文章",
+    "about": "關於"
+  },
+  "hero": {
+    "tagline": "40+ RSS 源 · AI 評分去重 · 每日中文精選",
+    "subtitle": "每天打開，只看值得讀的 AI 資訊",
+    "step1": "自動抓取與預篩選",
+    "step2": "AI 打分與語義去重",
+    "step3": "在此閱讀精選與搜尋歷史",
+    "ctaExplore": "瀏覽今日全部",
+    "ctaAbout": "了解原理"
+  },
+  "footer": {
+    "tagline": "AI 資訊日報 · 自動聚合 · 智慧篩選",
+    "home": "今日",
     "about": "關於"
   },
   "theme": {
@@ -17,15 +31,16 @@
     "placeholder": "搜尋標題、摘要、標籤..."
   },
   "home": {
-    "title": "今日 AI 脈搏",
+    "title": "今日精選",
     "total": "今日共 {count} 篇",
-    "featured": "精選",
+    "featured": "高分精選",
     "viewAll": "查看全部 →",
     "mockHint": "暫無 output 資料，顯示範例內容。執行 python main.py 或等待 CI 產生 digest JSON。"
   },
   "explore": {
-    "title": "探索",
+    "title": "全部文章",
     "subtitle": "按主題篩選，或使用頂部搜尋",
+    "hint": "選主題 → 點卡片看摘要 → 閱讀原文",
     "topicFilter": "主題篩選",
     "allTopics": "全部",
     "searching": "搜尋：{q}",
@@ -34,7 +49,9 @@
     "mockHint": "目前為範例資料"
   },
   "item": {
-    "back": "← 返回探索",
+    "back": "← 返回全部文章",
+    "breadcrumbHome": "今日",
+    "breadcrumbExplore": "全部文章",
     "summary": "摘要",
     "noSummary": "暫無摘要",
     "topic": "主題",
@@ -48,6 +65,7 @@
   },
   "about": {
     "title": "關於",
+    "backHome": "← 返回今日",
     "motivationTitle": "為什麼做這個專案",
     "motivation1": "每天有大量 AI 資訊發布在各種平台上，手動刷太累、也容易漏。AI Daily Pulse 幫你自動從 40+ 個 RSS 資訊源抓取、預篩選、AI 評分與去重，產生中文日報。",
     "motivation2": "關注方向包括：OPC / 一人公司 / AI 賺錢案例、AI + 電商、AI 工具與 Agent 工作流、新技術與新模型、投融資動態。",

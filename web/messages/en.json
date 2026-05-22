@@ -1,7 +1,21 @@
 {
   "nav": {
-    "home": "Home",
-    "explore": "Explore",
+    "home": "Today",
+    "explore": "All articles",
+    "about": "About"
+  },
+  "hero": {
+    "tagline": "40+ RSS feeds · AI scoring & dedup · Daily Chinese digest",
+    "subtitle": "Open once a day — read only AI news worth your time",
+    "step1": "Auto fetch & pre-filter",
+    "step2": "AI score & semantic dedup",
+    "step3": "Read picks & search archives here",
+    "ctaExplore": "Browse today's articles",
+    "ctaAbout": "How it works"
+  },
+  "footer": {
+    "tagline": "AI news digest · Auto aggregation · Smart curation",
+    "home": "Today",
     "about": "About"
   },
   "theme": {
@@ -17,15 +31,16 @@
     "placeholder": "Search title, summary, tags..."
   },
   "home": {
-    "title": "Today's AI Pulse",
+    "title": "Today's picks",
     "total": "{count} articles today",
-    "featured": "Featured",
+    "featured": "Top scored",
     "viewAll": "View all →",
     "mockHint": "No output data yet — showing sample content. Run python main.py or wait for CI to generate digest JSON."
   },
   "explore": {
-    "title": "Explore",
+    "title": "All articles",
     "subtitle": "Filter by topic or use the header search",
+    "hint": "Pick a topic → open a card → read the original",
     "topicFilter": "Topics",
     "allTopics": "All",
     "searching": "Search: {q}",
@@ -34,7 +49,9 @@
     "mockHint": "Showing sample data"
   },
   "item": {
-    "back": "← Back to explore",
+    "back": "← Back to all articles",
+    "breadcrumbHome": "Today",
+    "breadcrumbExplore": "All articles",
     "summary": "Summary",
     "noSummary": "No summary",
     "topic": "Topic",
@@ -48,6 +65,7 @@
   },
   "about": {
     "title": "About",
+    "backHome": "← Back to today",
     "motivationTitle": "Why this project",
     "motivation1": "AI news drops everywhere every day — scrolling manually is exhausting and easy to miss. AI Daily Pulse fetches from 40+ RSS sources, pre-filters, scores with AI, deduplicates, and produces a daily Chinese digest.",
     "motivation2": "Focus areas: OPC / solo-founder monetization, AI + e-commerce, tools & agent workflows, new tech & models, and funding rounds.",

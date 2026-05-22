@@ -12,8 +12,9 @@ export function DateSwitcher({ dates }: { dates: string[] }) {
 
   return (
     <select
-      className="bg-surface text-sm px-3 py-2 rounded-lg border border-border text-foreground"
+      className="bg-surface text-sm px-3 py-2 rounded-lg border border-border text-foreground font-mono focus-accent transition-colors"
       value={current}
+      aria-label="Select date"
       onChange={(e) => {
         const params = new URLSearchParams(searchParams.toString());
         if (e.target.value) {
