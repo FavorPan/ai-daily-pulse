@@ -14,11 +14,10 @@ type Props = {
 export function ProjectCard({ item, showDate = false }: Props) {
   const locale = useLocale();
   const t = useTranslations("card");
-  const dateQs = item.digestDate ? `?date=${item.digestDate}` : "";
 
   return (
     <Link
-      href={`/${locale}/item/${item.id}${dateQs}`}
+      href={`/${locale}/item/${item.digestDate}/${item.id}/`}
       className="group block card-surface p-5 h-full accent-bar pl-6"
     >
       <div className="flex items-start justify-between gap-3 mb-2.5">

@@ -46,7 +46,8 @@
     "searching": "搜索：{q}",
     "globalSearchHint": "正在搜索全部 {days} 天数据",
     "empty": "没有匹配的文章。",
-    "mockHint": "当前为示例数据"
+    "mockHint": "当前为示例数据",
+    "searchPlaceholder": "搜索标题、摘要、标签..."
   },
   "item": {
     "back": "← 返回全部文章",

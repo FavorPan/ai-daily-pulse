@@ -1,29 +1,14 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
-import { useTranslations, useLocale } from "next-intl";
-import { useCallback, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { useState } from "react";
 
-function SearchInput({ initialQ }: { initialQ: string }) {
+export function SearchBar() {
   const router = useRouter();
   const locale = useLocale();
-  const searchParams = useSearchParams();
   const t = useTranslations("search");
-  const [value, setValue] = useState(initialQ);
-
-  const submit = useCallback(
-    (q: string) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (q.trim()) {
-        params.set("q", q.trim());
-      } else {
-        params.delete("q");
-      }
-      const qs = params.toString();
-      router.push(qs ? `/${locale}/explore?${qs}` : `/${locale}/explore`);
-    },
-    [router, searchParams, locale]
-  );
+  const [value, setValue] = useState("");
 
   return (
     <div className="relative">
@@ -42,18 +27,13 @@ function SearchInput({ initialQ }: { initialQ: string }) {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter") submit(value);
+          if (e.key === "Enter" && value.trim()) {
+            router.push(`/${locale}/explore/#q=${encodeURIComponent(value.trim())}`);
+            setValue("");
+          }
         }}
-        onBlur={() => submit(value)}
         aria-label={t("placeholder")}
       />
     </div>
   );
-}
-
-export function SearchBar() {
-  const searchParams = useSearchParams();
-  const initialQ = searchParams.get("q") ?? "";
-
-  return <SearchInput key={initialQ} initialQ={initialQ} />;
 }

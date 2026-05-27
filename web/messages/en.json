@@ -46,7 +46,8 @@
     "searching": "Search: {q}",
     "globalSearchHint": "Searching across {days} days of archives",
     "empty": "No matching articles.",
-    "mockHint": "Showing sample data"
+    "mockHint": "Showing sample data",
+    "searchPlaceholder": "Search titles, summaries, tags..."
   },
   "item": {
     "back": "← Back to all articles",

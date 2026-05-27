@@ -46,7 +46,8 @@
     "searching": "搜尋：{q}",
     "globalSearchHint": "正在搜尋全部 {days} 天資料",
     "empty": "沒有符合的文章。",
-    "mockHint": "目前為範例資料"
+    "mockHint": "目前為範例資料",
+    "searchPlaceholder": "搜尋標題、摘要、標籤..."
   },
   "item": {
     "back": "← 返回全部文章",

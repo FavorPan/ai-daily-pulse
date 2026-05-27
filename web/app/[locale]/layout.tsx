@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import localFont from "next/font/local";
-import { Suspense } from "react";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -27,8 +26,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   display: "swap",
 });
-
-export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -76,7 +73,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                   <div className="h-14 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-5 min-w-0">
                       <Link
-                        href={`/${locale}`}
+                        href={`/${locale}/`}
                         className="font-bold text-[15px] tracking-tight hover:text-accent transition-colors shrink-0"
                       >
                         AI Daily Pulse
@@ -84,12 +81,8 @@ export default async function LocaleLayout({ children, params }: Props) {
                       <HeaderNav />
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
-                      <Suspense fallback={null}>
-                        <SearchBar />
-                      </Suspense>
-                      <Suspense fallback={null}>
-                        <DateSwitcher dates={dates} />
-                      </Suspense>
+                      <SearchBar />
+                      <DateSwitcher dates={dates} />
                       <LocaleSwitcher />
                       <ThemeSwitcher />
                     </div>

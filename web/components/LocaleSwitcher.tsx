@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { routing, type AppLocale } from "@/i18n/routing";
 
@@ -15,19 +15,16 @@ export function LocaleSwitcher() {
   const locale = useLocale() as AppLocale;
   const pathname = usePathname();
   const router = useRouter();
-  const searchParams = useSearchParams();
   const t = useTranslations("locale");
 
   const switchLocale = (next: AppLocale) => {
-    const segments = pathname.split("/");
-    if (routing.locales.includes(segments[1] as AppLocale)) {
-      segments[1] = next;
+    const segments = pathname.split("/").filter(Boolean);
+    if (routing.locales.includes(segments[0] as AppLocale)) {
+      segments[0] = next;
     } else {
-      segments.splice(1, 0, next);
+      segments.unshift(next);
     }
-    const nextPath = segments.join("/") || `/${next}`;
-    const qs = searchParams.toString();
-    router.push(qs ? `${nextPath}?${qs}` : nextPath);
+    router.push(`/${segments.join("/")}/`);
   };
 
   return (

@@ -61,63 +61,11 @@ function resolveDigestPath(date?: string): string | null {
   return path.join(OUTPUT_DIR, files[0]);
 }
 
-function readDigest(date?: string): DailyDigest | null {
-  const filePath = resolveDigestPath(date);
-  if (!filePath) return null;
-  try {
-    const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw) as DailyDigest;
-  } catch {
-    return null;
-  }
+function readDigest(filePath: string): DailyDigest {
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
-export async function getDaily(date?: string): Promise<DailyDigest> {
-  const data = readDigest(date);
-  if (data) return data;
-  return MOCK_DIGEST;
-}
-
-export async function getItems(date?: string): Promise<DigestItem[]> {
-  const data = await getDaily(date);
-  return data.items;
-}
-
-export async function getItemsWithDate(date?: string): Promise<DigestItemWithDate[]> {
-  const data = await getDaily(date);
-  return data.items.map((item) => ({ ...item, digestDate: data.date }));
-}
-
-export async function getAllItems(): Promise<DigestItemWithDate[]> {
-  const dates = listDigestDates();
-  if (dates.length === 0) {
-    const mock = await getDaily();
-    return mock.items.map((item) => ({ ...item, digestDate: mock.date }));
-  }
-
-  const byId = new Map<string, DigestItemWithDate>();
-  for (const digestDate of [...dates].reverse()) {
-    const data = readDigest(digestDate);
-    if (!data) continue;
-    for (const item of data.items) {
-      byId.set(item.id, { ...item, digestDate });
-    }
-  }
-  return Array.from(byId.values()).sort((a, b) =>
-    b.digestDate.localeCompare(a.digestDate)
-  );
-}
-
-export async function getItem(id: string, date?: string): Promise<DigestItem | null> {
-  if (date) {
-    const items = await getItems(date);
-    return items.find((item) => item.id === id) ?? null;
-  }
-  const all = await getAllItems();
-  const found = all.find((item) => item.id === id);
-  return found ?? null;
-}
-
+/** Returns all available digest dates (sorted newest first). */
 export function listDigestDates(): string[] {
   if (!fs.existsSync(OUTPUT_DIR)) return [];
   return fs
@@ -128,6 +76,70 @@ export function listDigestDates(): string[] {
     .reverse();
 }
 
+/** Returns true if we're using mock data (no real output files). */
 export function isUsingMockData(date?: string): boolean {
-  return readDigest(date) === null;
+  return resolveDigestPath(date) === null;
+}
+
+/** Get daily digest for a given date (or latest). */
+export async function getDaily(date?: string): Promise<DailyDigest> {
+  const filePath = resolveDigestPath(date);
+  if (!filePath) return MOCK_DIGEST;
+  return readDigest(filePath);
+}
+
+/** Get a single item by ID across all digests (or a specific date). */
+export async function getItem(
+  id: string,
+  date?: string
+): Promise<DigestItem | null> {
+  if (date) {
+    const digest = await getDaily(date);
+    return digest.items.find((i) => i.id === id) ?? null;
+  }
+
+  // Search across all dates
+  const dates = listDigestDates();
+  for (const d of dates) {
+    const digest = await getDaily(d);
+    const item = digest.items.find((i) => i.id === id);
+    if (item) return item;
+  }
+  return null;
+}
+
+/** Get all items for a specific date (or latest). */
+export async function getItemsWithDate(
+  date?: string
+): Promise<DigestItemWithDate[]> {
+  const digest = await getDaily(date);
+  return digest.items.map((item) => ({ ...item, digestDate: digest.date }));
+}
+
+/** Get ALL items across all dates (for global search). */
+export async function getAllItems(): Promise<DigestItemWithDate[]> {
+  const dates = listDigestDates();
+  const all: DigestItemWithDate[] = [];
+  for (const d of dates) {
+    const digest = await getDaily(d);
+    for (const item of digest.items) {
+      all.push({ ...item, digestDate: digest.date });
+    }
+  }
+  return all;
+}
+
+/** Get all (date, id) pairs for static generation of item pages. */
+export function getAllItemParams(): { date: string; id: string }[] {
+  const dates = listDigestDates();
+  const params: { date: string; id: string }[] = [];
+  for (const d of dates) {
+    const filePath = resolveDigestPath(d);
+    if (!filePath) continue;
+    const digest = readDigest(filePath);
+    for (const item of digest.items) {
+      params.push({ date: d, id: item.id });
+    }
+  }
+  return params;
 }
