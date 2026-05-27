@@ -26,9 +26,9 @@ export default async function Page({ params, searchParams }: PageProps) {
   const t = await getTranslations("home");
 
   return (
-    <div className="space-y-8">
+    <div>
       {mock && (
-        <p className="text-sm text-amber-600 dark:text-amber-400/90 bg-amber-500/10 border border-amber-500/20 rounded-lg px-4 py-2">
+        <p className="text-xs text-muted bg-surface-muted border border-border rounded-md px-3 py-2 font-mono mb-6">
           {t("mockHint")}
         </p>
       )}
@@ -36,23 +36,30 @@ export default async function Page({ params, searchParams }: PageProps) {
       <ProductHero date={data.date} />
       <StatsHero date={data.date} items={data.items} />
 
+      {/* Featured section */}
       <div>
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold">
-            {t("featured")} ({trending.length})
+        <div className="flex items-baseline justify-between mb-5">
+          <h2 className="text-subhead">
+            {t("featured")}{" "}
+            <span className="text-sm font-normal text-muted">({trending.length})</span>
           </h2>
           <Link
-            href={`/${locale}/explore${date ? `?date=${date}` : ""}`}
+            href={`/${locale}/explore${date ? `?${new URLSearchParams({ date })}` : ""}`}
             className="text-sm text-accent hover:opacity-80 transition-opacity"
           >
             {t("viewAll")}
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {trending.map((item) => (
-            <ProjectCard key={item.id} item={item} />
-          ))}
-        </div>
+
+        {trending.length === 0 ? (
+          <p className="text-sm text-muted py-8 text-center">No trending items today.</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {trending.map((item) => (
+              <ProjectCard key={item.id} item={item} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

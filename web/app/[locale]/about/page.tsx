@@ -13,37 +13,46 @@ export default async function AboutPage({ params }: PageProps) {
   const t = await getTranslations("about");
 
   return (
-    <article className="max-w-3xl mx-auto space-y-8">
-      <Link
-        href={`/${locale}`}
-        className="text-sm text-muted hover:text-accent transition-colors inline-block"
-      >
-        {t("backHome")}
-      </Link>
-      <h1 className="text-3xl font-bold">{t("title")}</h1>
+    <article className="max-w-2xl mx-auto space-y-8">
+      <div>
+        <Link
+          href={`/${locale}`}
+          className="text-sm text-muted hover:text-foreground transition-colors inline-block mb-4"
+        >
+          {t("backHome")}
+        </Link>
+        <h1 className="text-headline">{t("title")}</h1>
+      </div>
 
-      <section className="glass-surface rounded-2xl p-6 space-y-3 accent-line-top">
-        <h2 className="text-xl font-semibold">{t("motivationTitle")}</h2>
-        <p className="text-muted leading-relaxed">{t("motivation1")}</p>
-        <p className="text-muted leading-relaxed">{t("motivation2")}</p>
-        <p className="text-muted leading-relaxed">{t("motivation3")}</p>
+      <section className="space-y-3">
+        <h2 className="text-base font-semibold text-foreground">{t("motivationTitle")}</h2>
+        <p className="text-sm text-muted leading-relaxed">{t("motivation1")}</p>
+        <p className="text-sm text-muted leading-relaxed">{t("motivation2")}</p>
+        <p className="text-sm text-muted leading-relaxed">{t("motivation3")}</p>
       </section>
 
-      <section className="glass-surface rounded-2xl p-6 space-y-3">
-        <h2 className="text-xl font-semibold">{t("authorTitle")}</h2>
-        <p className="font-medium text-foreground">{t("authorName")}</p>
-        <p className="text-muted leading-relaxed">{t("authorBio")}</p>
+      <div className="h-px bg-border" />
+
+      <section className="space-y-2">
+        <h2 className="text-base font-semibold text-foreground">{t("authorTitle")}</h2>
+        <p className="text-sm font-medium text-foreground">{t("authorName")}</p>
+        <p className="text-sm text-muted leading-relaxed">{t("authorBio")}</p>
       </section>
 
-      <section className="glass-surface rounded-2xl p-6 space-y-3">
-        <h2 className="text-xl font-semibold">{t("githubTitle")}</h2>
+      <div className="h-px bg-border" />
+
+      <section className="space-y-2">
+        <h2 className="text-base font-semibold text-foreground">{t("githubTitle")}</h2>
         <a
           href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-accent hover:opacity-80 transition-opacity"
+          className="text-sm text-accent hover:opacity-80 transition-opacity inline-flex items-center gap-1"
         >
-          {t("githubLink")} ↗
+          {t("githubLink")}
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
         </a>
       </section>
     </article>

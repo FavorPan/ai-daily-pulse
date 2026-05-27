@@ -16,17 +16,17 @@ export function HeaderNav() {
   ];
 
   return (
-    <nav className="flex items-center gap-4 md:gap-6 text-sm">
+    <nav className="hidden sm:flex items-center gap-1">
       {links.map(({ href, label, match }) => {
         const active = match(pathname);
         return (
           <Link
             key={href}
             href={href}
-            className={`transition-colors whitespace-nowrap ${
+            className={`text-[13px] px-3 py-1.5 rounded-md transition-colors ${
               active
-                ? "text-accent font-medium"
-                : "text-muted hover:text-foreground"
+                ? "text-foreground font-medium bg-surface-muted"
+                : "text-muted hover:text-foreground hover:bg-surface-muted/50"
             }`}
           >
             {label}

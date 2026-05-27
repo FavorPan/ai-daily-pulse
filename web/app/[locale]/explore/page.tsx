@@ -27,16 +27,15 @@ export default async function ExplorePage({ params, searchParams }: PageProps) {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold">{t("title")}</h1>
-        <p className="text-muted text-sm mt-1">{t("subtitle")}</p>
-        <p className="text-xs text-accent/90 mt-2 font-mono">{t("hint")}</p>
+        <h1 className="text-headline">{t("title")}</h1>
+        <p className="text-sm text-muted mt-1">{t("subtitle")}</p>
       </div>
       {mock && !globalSearch && (
-        <p className="text-sm text-amber-600 dark:text-amber-400/90 bg-amber-500/10 border border-amber-500/20 rounded-lg px-4 py-2">
+        <p className="text-xs text-muted bg-surface-muted border border-border rounded-md px-3 py-2 font-mono">
           {t("mockHint")}
         </p>
       )}
-      <Suspense fallback={<p className="text-muted">...</p>}>
+      <Suspense fallback={<p className="text-muted text-sm">...</p>}>
         <ExploreClient
           items={items}
           globalSearch={globalSearch}

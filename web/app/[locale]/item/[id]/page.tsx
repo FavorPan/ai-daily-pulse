@@ -24,23 +24,26 @@ export default async function ItemPage({ params, searchParams }: PageProps) {
   const homeHref = `/${locale}${date ? `?date=${date}` : ""}`;
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
-      <nav className="text-sm text-muted flex flex-wrap items-center gap-1.5" aria-label="Breadcrumb">
-        <Link href={homeHref} className="hover:text-accent transition-colors">
+    <div className="max-w-2xl mx-auto space-y-6">
+      <nav className="text-xs text-muted flex items-center gap-1.5 font-mono" aria-label="Breadcrumb">
+        <Link href={homeHref} className="hover:text-foreground transition-colors">
           {t("breadcrumbHome")}
         </Link>
-        <span aria-hidden>/</span>
-        <Link href={exploreHref} className="hover:text-accent transition-colors">
+        <span className="text-border">/</span>
+        <Link href={exploreHref} className="hover:text-foreground transition-colors">
           {t("breadcrumbExplore")}
         </Link>
-        <span aria-hidden>/</span>
-        <span className="text-foreground line-clamp-1">{item.title}</span>
+        <span className="text-border">/</span>
+        <span className="text-foreground truncate max-w-[200px]">{item.title}</span>
       </nav>
 
-      <Link href={exploreHref} className="text-sm text-muted hover:text-accent transition-colors inline-block">
-        {t("back")}
-      </Link>
-      <h1 className="text-2xl font-bold leading-snug">{item.title}</h1>
+      <div>
+        <Link href={exploreHref} className="text-sm text-muted hover:text-foreground transition-colors inline-block mb-3">
+          {t("back")}
+        </Link>
+        <h1 className="text-headline leading-snug">{item.title}</h1>
+      </div>
+
       <SummaryBlock item={item} />
     </div>
   );

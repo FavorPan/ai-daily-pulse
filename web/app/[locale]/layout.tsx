@@ -61,43 +61,50 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
   const dates = listDigestDates();
-  const tHero = await getTranslations("hero");
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background text-foreground antialiased min-h-screen bg-grid`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background text-foreground antialiased`}
       >
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            <div className="min-h-screen flex flex-col">
-              <header className="h-auto min-h-16 flex flex-wrap items-center justify-between gap-3 px-4 md:px-8 py-3 border-b border-border glass-surface">
-                <div className="flex items-center gap-4 md:gap-6 min-w-0">
-                  <div className="min-w-0">
-                    <Link
-                      href={`/${locale}`}
-                      className="font-bold text-lg whitespace-nowrap hover:text-accent transition-colors block"
-                    >
-                      AI Daily Pulse
-                    </Link>
-                    <p className="hidden sm:block text-xs text-muted truncate max-w-md mt-0.5">
-                      {tHero("tagline")}
-                    </p>
+            <div className="min-h-[100dvh] flex flex-col">
+              {/* Header */}
+              <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
+                <div className="max-w-6xl mx-auto px-4 md:px-8">
+                  <div className="h-14 flex items-center justify-between gap-4">
+                    <div className="flex items-center gap-5 min-w-0">
+                      <Link
+                        href={`/${locale}`}
+                        className="font-bold text-[15px] tracking-tight hover:text-accent transition-colors shrink-0"
+                      >
+                        AI Daily Pulse
+                      </Link>
+                      <HeaderNav />
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <Suspense fallback={null}>
+                        <SearchBar />
+                      </Suspense>
+                      <Suspense fallback={null}>
+                        <DateSwitcher dates={dates} />
+                      </Suspense>
+                      <LocaleSwitcher />
+                      <ThemeSwitcher />
+                    </div>
                   </div>
-                  <HeaderNav />
-                </div>
-                <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
-                  <Suspense fallback={null}>
-                    <DateSwitcher dates={dates} />
-                  </Suspense>
-                  <Suspense fallback={null}>
-                    <SearchBar />
-                  </Suspense>
-                  <LocaleSwitcher />
-                  <ThemeSwitcher />
                 </div>
               </header>
-              <main className="flex-1 px-4 md:px-8 py-6">{children}</main>
+
+              {/* Main */}
+              <main className="flex-1">
+                <div className="max-w-6xl mx-auto px-4 md:px-8 py-8">
+                  {children}
+                </div>
+              </main>
+
+              {/* Footer */}
               <SiteFooter />
             </div>
           </NextIntlClientProvider>

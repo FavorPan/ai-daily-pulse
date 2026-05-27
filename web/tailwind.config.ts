@@ -21,12 +21,30 @@ const config: Config = {
         border: "var(--border)",
         accent: "var(--accent)",
         "accent-muted": "var(--accent-muted)",
-        "accent-secondary": "var(--accent-secondary)",
         muted: "var(--muted)",
+        highlight: "var(--highlight)",
       },
-      boxShadow: {
-        "glow-sm": "0 0 20px var(--glow)",
-        "glow-md": "0 0 32px var(--glow)",
+      borderRadius: {
+        card: "12px",
+      },
+      fontSize: {
+        "display": ["3rem", { lineHeight: "1.05", letterSpacing: "-0.03em", fontWeight: "700" }],
+        "headline": ["1.75rem", { lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "subhead": ["1.25rem", { lineHeight: "1.35", letterSpacing: "-0.01em", fontWeight: "600" }],
+      },
+      animation: {
+        "fade-in": "fadeIn 0.5s ease-out forwards",
+        "slide-up": "slideUp 0.5s ease-out forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        slideUp: {
+          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
       },
     },
   },

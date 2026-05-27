@@ -12,7 +12,7 @@ export function DateSwitcher({ dates }: { dates: string[] }) {
 
   return (
     <select
-      className="bg-surface text-sm px-3 py-2 rounded-lg border border-border text-foreground font-mono focus-accent transition-colors"
+      className="bg-surface text-[13px] px-2.5 py-1.5 rounded-md border border-border text-foreground font-mono transition-colors cursor-pointer"
       value={current}
       aria-label="Select date"
       onChange={(e) => {
