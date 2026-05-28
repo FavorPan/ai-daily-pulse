@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: web
-        run: npm ci
+        run: npm install --no-audit
 
       - name: Build static site
         working-directory: web
