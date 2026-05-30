@@ -82,7 +82,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
                       <SearchBar />
-                      <DateSwitcher dates={dates} />
+                      <DateSwitcher dates={dates} locale={locale} />
                       <LocaleSwitcher />
                       <ThemeSwitcher />
                     </div>
