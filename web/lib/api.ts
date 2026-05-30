@@ -129,9 +129,15 @@ export async function getAllItems(): Promise<DigestItemWithDate[]> {
   return all;
 }
 
-/** Get all (date, id) pairs for static generation of item pages. */
+/** Get all (date, id) pairs for static generation of item pages.
+ *  Only returns items from the most recent `maxDays` dates to stay
+ *  under Cloudflare Pages' 20,000-file deployment limit.
+ *  Override with env STATIC_MAX_DAYS (set to 0 for all). */
 export function getAllItemParams(): { date: string; id: string }[] {
-  const dates = listDigestDates();
+  const envDays = process.env.STATIC_MAX_DAYS;
+  const maxDays = envDays !== undefined ? parseInt(envDays, 10) : 7;
+  const allDates = listDigestDates();
+  const dates = maxDays > 0 ? allDates.slice(0, maxDays) : allDates;
   const params: { date: string; id: string }[] = [];
   for (const d of dates) {
     const filePath = resolveDigestPath(d);
