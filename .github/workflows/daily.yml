@@ -1,16 +1,15 @@
-name: Daily AI Pulse
+name: Daily AI Pulse — Generate & Publish
 
 on:
   schedule:
-    - cron: "0 1 * * *" # UTC 01:00 = 北京时间 09:00
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # 每天北京时间 09:00 (UTC 01:00)
+    - cron: "0 1 * * *"
+  workflow_dispatch:  # 手动触发
 
 jobs:
-  run:
+  generate-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
@@ -23,21 +22,38 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Restore history cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/pushed.json
+            data/feed_health.json
+          key: daily-pulse-history-${{ github.ref }}
+          restore-keys: daily-pulse-history-
+
       - name: Run pipeline
         env:
           API_KEY: ${{ secrets.API_KEY }}
-          BASE_URL: "https://openrouter.ai/api/v1"
-          SCORING_MODEL: "owl-alpha"
         run: python main.py
 
-      - name: Commit and push output
+      - name: Commit output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update daily output $(date -u +%Y-%m-%d)"
-            git push
-          fi
+          git add output/ data/
+          git diff --cached --quiet || git commit -m "chore: daily output $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Setup xurl
+        if: ${{ secrets.XURL_CONFIG != '' }}
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          mkdir -p ~/.xurl
+          echo "${{ secrets.XURL_CONFIG }}" | base64 -d > ~/.xurl/config.yaml
+
+      - name: Publish to X
+        if: ${{ secrets.XURL_CONFIG != '' }}
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: python publish.py --lang zh

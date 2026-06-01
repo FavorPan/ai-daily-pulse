@@ -143,17 +143,4 @@ def write_digest_json(
     with open(latest_path, "w", encoding="utf-8") as f:
         f.write(text)
 
-    # Save social post to separate file for easy copy-paste
-    if insights and insights.get("social_post"):
-        post_path = os.path.join(output_dir, f"social-post-{date}.txt")
-        sp = insights["social_post"]
-        lines = ["=== 中文版 ===", sp.get("zh", ""), "", "=== English ===", sp.get("en", "")]
-        if insights.get("x_thread"):
-            lines.extend(["", "=== X Thread ==="])
-            for i, tweet in enumerate(insights["x_thread"], 1):
-                lines.append(f"\n--- Tweet {i} ---")
-                lines.append(tweet)
-        with open(post_path, "w", encoding="utf-8") as f:
-            f.write("\n".join(lines))
-
     return dated_path
