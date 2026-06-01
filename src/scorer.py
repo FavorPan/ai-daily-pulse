@@ -85,6 +85,20 @@ SUMMARY_PROMPT = """请为以下文章生成一段中文摘要，2-3 句话。
 
 只输出摘要文本，不要其他内容。"""
 
+WHY_NOW_PROMPT = """你是一位 AI 趋势分析师，面向独立开发者和一人公司创业者。
+
+根据以下文章，用一句话（30字以内）解释"为什么现在值得关注这件事"。
+
+要求：
+- 聚焦时效性：刚发布的 API、刚降价、竞品关服、新政策、市场窗口等
+- 不要泛泛的"趋势向好"，要有具体的时间节点或事件
+- 如果文章本身没有明确的时效性信号，输出""
+
+文章标题：{title}
+文章内容：{content}
+
+只输出一句话，不要其他内容。"""
+
 DEDUP_PROMPT = """以下是一批通过质量筛选的文章列表，格式为 [序号] 标题 (来源)。
 
 请找出其中报道同一件事/同一产品/同一发布的文章组。
@@ -213,6 +227,21 @@ def summarize_article(article: dict, client: OpenAI, model: str) -> str:
         return ""
 
 
+def generate_why_now(article: dict, client: OpenAI, model: str) -> str:
+    """Generate a one-line 'why now' explanation for high-scoring articles."""
+    content = article.get("content", "")[:4000]
+    prompt = WHY_NOW_PROMPT.format(title=article["title"], content=content)
+    try:
+        result = _call_with_retry(client, model, prompt, max_tokens=100, json_mode=False)
+        text = result.strip().strip('"').strip("'")
+        if len(text) < 4:
+            return ""
+        return text
+    except Exception as e:
+        logger.warning("Why-now failed for '%s': %s", article['title'], e)
+        return ""
+
+
 def _tokenize(text: str) -> set[str]:
     """Tokenize text for Jaccard comparison. Chinese: per-char; English: space-split."""
     tokens = set()
@@ -337,6 +366,23 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
             article = futures[future]
             article["summary"] = future.result()
     timings["summarize"] = time.monotonic() - t0
+
+    # [4/4] Generate "why now" for high-scoring articles
+    high_score_articles = [a for a in kept if a.get("score", 0) >= 7]
+    if high_score_articles:
+        logger.info("[4/4] Generating 'why now' for %d high-scoring articles...", len(high_score_articles))
+        t0 = time.monotonic()
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(generate_why_now, a, client, summary_model): a
+                for a in high_score_articles
+            }
+            for future in as_completed(futures):
+                article = futures[future]
+                article["why_now"] = future.result()
+        timings["why_now"] = time.monotonic() - t0
+    for a in kept:
+        a.setdefault("why_now", "")
 
     usage = get_usage()
     return kept, rejected, usage, timings

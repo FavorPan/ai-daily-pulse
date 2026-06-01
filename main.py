@@ -18,6 +18,7 @@ from src.history import (
     save_history,
 )
 from src.scorer import process_articles
+from src.trends import detect_trends
 from src.writer import write_digest_json, write_output
 
 logger = logging.getLogger(__name__)
@@ -86,6 +87,11 @@ def main():
     kept, rejected, usage, timings = process_articles(articles, api_key, cfg)
     t_score = time.monotonic() - t_score
 
+    # Trend detection
+    t_trend = time.monotonic()
+    kept = detect_trends(kept, min_sources=3)
+    t_trend = time.monotonic() - t_trend
+
     dedup_count = len(kept) + len([r for r in rejected if r.get("score", 0) >= 5])
 
     if not kept:
@@ -125,6 +131,9 @@ def main():
     in_k = usage["input"] / 1000
     out_k = usage["output"] / 1000
     logger.info("Token: %.0fK in / %.1fK out | 成本: $%.3f", in_k, out_k, cost)
+    trend_count = sum(1 for a in kept if a.get("trend_signal"))
+    if trend_count:
+        logger.info("趋势信号：%d 篇文章命中跨源主题", trend_count)
     logger.info("耗时: 总计 %.0fs（抓取 %.0fs + 评分 %.0fs + 去重 %.0fs + 摘要 %.0fs）",
                 t_total, t_fetch, timings.get("score", 0), timings.get("dedup", 0), timings.get("summarize", 0))
 

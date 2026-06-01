@@ -81,6 +81,21 @@ url = "https://hnrss.org/show"
 lang = "en"
 
 [[feeds]]
+name = "Hacker News Best"
+url = "https://hnrss.org/best"
+lang = "en"
+
+[[feeds]]
+name = "Lobsters"
+url = "https://lobste.rs/rss"
+lang = "en"
+
+[[feeds]]
+name = "DEV Community"
+url = "https://dev.to/feed"
+lang = "en"
+
+[[feeds]]
 name = "Reddit r/LocalLLaMA"
 url = "https://www.reddit.com/r/LocalLLaMA/.rss"
 lang = "en"

@@ -5627,6 +5627,594 @@
       "pushed_at": "2026-05-19",
       "title": "MacBook Neo 杀疯了，英特尔派出「野猫」接招？",
       "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttj871/built_a_videoediting_agent_skill_then_had_it_edit/",
+      "pushed_at": "2026-06-01",
+      "title": "Built a video-editing agent skill, then had it edit the walkthrough where I explain it",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttj01j/i_built_a_research_paper_writing_army_20/",
+      "pushed_at": "2026-06-01",
+      "title": "I built a \"Research Paper Writing Army\" – 20+ autonomous agents, 6 novelty engines, and 10 adversarial reviewers - Feel Free to contribute",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/nehaaaa6/-dev-submission-build-with-hermes-agent-2m2g",
+      "pushed_at": "2026-06-01",
+      "title": "# DEV Submission Build With Hermes Agent",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/zipviz/i-built-hermes-agent-continuous-monitoring-a2a-verified-claude-h52",
+      "pushed_at": "2026-06-01",
+      "title": "I Built Hermes Agent Continuous Monitoring. A2A Verified Claude!",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/jovan_chan_9500711396d4e6/warp-terminal-review-2026-open-source-ade-the-20-build-plan-and-who-should-actually-pay-for-it-5cin",
+      "pushed_at": "2026-06-01",
+      "title": "Warp Terminal Review 2026: Open-Source ADE, the $20 Build Plan, and Who Should Actually Pay For It",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/modulecollective/moe",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Ministry of Everything – CLI agent harness for a single operator",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Reliary/stria",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Crazy fast codebase analysis MCP: Stria",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/",
+      "pushed_at": "2026-06-01",
+      "title": "I ported NVIDIA Parakeet (speech-to-text) to ggml: same output as NeMo, faster, GGUF-quantized, no Python",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/",
+      "pushed_at": "2026-06-01",
+      "title": "Stepfun 3.7 Flash is very good",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tte2cu/built_a_fun_weekend_project_an_mcp_server_for/",
+      "pushed_at": "2026-06-01",
+      "title": "Built a fun weekend project: An MCP server for generating Mandelbrot visualizations",
+      "score": 8
+    },
+    {
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "pushed_at": "2026-06-01",
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "score": 8
+    },
+    {
+      "url": "https://openrouter.ai/announcements/series-b",
+      "pushed_at": "2026-06-01",
+      "title": "OpenRouter raises $113M Series B",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "pushed_at": "2026-06-01",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "pushed_at": "2026-06-01",
+      "title": "OpenBMB/VoxCPM",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/revfactory/harness",
+      "pushed_at": "2026-06-01",
+      "title": "revfactory/harness",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/nesquena/hermes-webui",
+      "pushed_at": "2026-06-01",
+      "title": "nesquena/hermes-webui",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/nicobailon/pi-subagents",
+      "pushed_at": "2026-06-01",
+      "title": "nicobailon/pi-subagents",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1667559?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-01",
+      "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
+      "score": 8
+    },
+    {
+      "url": "https://www.minimax.io/blog/minimax-m3",
+      "pushed_at": "2026-06-01",
+      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+      "score": 8
+    },
+    {
+      "url": "https://36kr.com/p/3833985105782402?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "硬氪观察 | 苹果代工厂开造人形机器人，一场豪赌未来的产能大迁移",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "pushed_at": "2026-06-01",
+      "title": "How we contain Claude across products",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "pushed_at": "2026-06-01",
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/jovan_chan_9500711396d4e6/vibe-coding-survival-guide-for-solo-developers-in-2026-34m2",
+      "pushed_at": "2026-06-01",
+      "title": "Vibe Coding Survival Guide for Solo Developers in 2026",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/jovan_chan_9500711396d4e6/windsurf-vs-cursor-2026-which-ai-editor-actually-wins-for-daily-use-2c25",
+      "pushed_at": "2026-06-01",
+      "title": "Windsurf vs Cursor 2026: Which AI Editor Actually Wins for Daily Use?",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/saheelwagh/build-your-fitness-coach-with-hermes-37nm",
+      "pushed_at": "2026-06-01",
+      "title": "Meet your fitness coach that lives on Hermes",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Mizerness/Ralphy",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Ralphy – open-source autonomous Claude Codd built on the Ralph loop",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsz4ji/yt_pewdiepie_released_his_harnesswebui/",
+      "pushed_at": "2026-06-01",
+      "title": "(YT) PewDiePie released his harness/webui",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tthxl4/i_was_a_data_scientist_for_10_years_before/",
+      "pushed_at": "2026-06-01",
+      "title": "I was a Data Scientist for 10 years before becoming a quadriplegic. For the past 3 months, I built VibeETL from scratch: A lightning-fast, visual Alteryx alternative powered by Polars & React Flow.",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+      "pushed_at": "2026-06-01",
+      "title": "13 abliterated Gemma 4 E2B variants, 44 GPU hours, Benchmark and Comparison - Abliterlitics",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttgqk6/what_are_some_cool_little_things_you_guys_are/",
+      "pushed_at": "2026-06-01",
+      "title": "What are some cool little things you guys are doing with < 10b models?",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt4pag/llama_studio_v020/",
+      "pushed_at": "2026-06-01",
+      "title": "Llama Studio v0.2.0",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsxul2/added_an_old_2070_super_to_my_rig_and_i_cant_go/",
+      "pushed_at": "2026-06-01",
+      "title": "Added an old 2070 Super to my rig and I can't go back...worse, now I need more",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/microsoft/markitdown",
+      "pushed_at": "2026-06-01",
+      "title": "microsoft/markitdown",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "pushed_at": "2026-06-01",
+      "title": "EveryInc/compound-engineering-plugin",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code",
+      "pushed_at": "2026-06-01",
+      "title": "anthropics/claude-code",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "pushed_at": "2026-06-01",
+      "title": "Crosstalk-Solutions/project-nomad",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1667641?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-01",
+      "title": "英伟达掀桌，Windows 终于迎来真 AI PC",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/AYi_AInotes/status/2060740414273941874",
+      "pushed_at": "2026-06-01",
+      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/googleaidevs/status/2060439904929382700",
+      "pushed_at": "2026-06-01",
+      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3830580716365449?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "千里科技再添筹码，或将整合吉利辅助驾驶团队｜36氪独家",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+      "pushed_at": "2026-06-01",
+      "title": "Quoting Karen Kwok for Reuters Breakingviews",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tte0b0/any_good_resources_on_raising/",
+      "pushed_at": "2026-06-01",
+      "title": "Any good resources on raising?",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttjgjv/i_built_a_free_llmstxt_generator_to_help_websites/",
+      "pushed_at": "2026-06-01",
+      "title": "I built a free LLMs.txt generator to help websites prepare for ChatGPT, Claude, Gemini & AI Search",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tt8kze/i_built_a_whatsapp_bot_that_turns_invoice_dave/",
+      "pushed_at": "2026-06-01",
+      "title": "I built a WhatsApp bot that turns \"invoice Dave £450 for the kitchen rewire\" into a proper VAT invoice. Just went live after a few sleepless nights",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttgfee/i_got_my_first_paying_customer/",
+      "pushed_at": "2026-06-01",
+      "title": "I got my first paying customer",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttk7i9/i_built_an_infinite_ai_canvas_for_creatives/",
+      "pushed_at": "2026-06-01",
+      "title": "I built an infinite AI canvas for creatives",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/ridhika_g/how-llms-actually-work-the-explanation-nobody-else-gives-you-j8d",
+      "pushed_at": "2026-06-01",
+      "title": "How LLMs Actually Work: The Explanation Nobody Else Gives You",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "pushed_at": "2026-06-01",
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "score": 6
+    },
+    {
+      "url": "https://www.therundown.ai/p/anthropic-just-eclipsed-openai",
+      "pushed_at": "2026-06-01",
+      "title": "Anthropic just eclipsed OpenAI",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+      "pushed_at": "2026-06-01",
+      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+      "score": 6
+    },
+    {
+      "url": "https://www.interpre.to",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Interpreto – Live Translation for Travel",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: AgentThreatBench – Benchmark for AI Agent Memory Security",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/r10d1nsec/hephaestus-forge",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Forge an idea into a build-ready spec, on the AI engine you have",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/singlr-ai/monolith",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Monolith, live typed queries on real Postgres for Java (no JDBC)",
+      "score": 6
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "pushed_at": "2026-06-01",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "score": 6
+    },
+    {
+      "url": "https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "pushed_at": "2026-06-01",
+      "title": "Paint By JSON | An API Client for Figma",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tter4t/use_html_as_the_primary_chat_language_of_your/",
+      "pushed_at": "2026-06-01",
+      "title": "Use HTML as the primary chat language of your LLM's so they can make interactive content",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt9r8j/gpu_prices_buy_now_or_buy_later/",
+      "pushed_at": "2026-06-01",
+      "title": "GPU Prices. Buy now, or buy later?",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tthnru/100_trillion_pretraining_data_this_is_the_largest/",
+      "pushed_at": "2026-06-01",
+      "title": "100 Trillion+ Pretraining data??? This is the largest data I've see a model being trained on.",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttboo2/get_you_some_gpus_its_not_worth_the_hacks_around/",
+      "pushed_at": "2026-06-01",
+      "title": "Get you some GPUs, it's not worth the hacks around lack of RAM",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttalm9/semantic_step_prediction_multistep_latent/",
+      "pushed_at": "2026-06-01",
+      "title": "Semantic Step Prediction: Multi-Step Latent Forecasting in LLM Reasoning Trajectories via Step Sampling",
+      "score": 6
+    },
+    {
+      "url": "https://twitter.com/i/status/2060746160558543217",
+      "pushed_at": "2026-06-01",
+      "title": "Codex just found a \"workaround\" of not having sudo on my PC",
+      "score": 6
+    },
+    {
+      "url": "https://blog.tymscar.com/posts/v100localllm/",
+      "pushed_at": "2026-06-01",
+      "title": "I put a datacenter GPU in my gaming PC",
+      "score": 6
+    },
+    {
+      "url": "https://specification.website/",
+      "pushed_at": "2026-06-01",
+      "title": "The Website Specification",
+      "score": 6
+    },
+    {
+      "url": "https://gptzero.me/investigations/ey",
+      "pushed_at": "2026-06-01",
+      "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "pushed_at": "2026-06-01",
+      "title": "FareedKhan-dev/train-llm-from-scratch",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/supermemoryai/supermemory",
+      "pushed_at": "2026-06-01",
+      "title": "supermemoryai/supermemory",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1667599?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-01",
+      "title": "早报｜曝苹果眼镜明年底发布/英伟达首款自研芯片PC本周亮相/特斯拉推出Model Y原厂手动遮阳帘",
+      "score": 6
+    },
+    {
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+      "pushed_at": "2026-06-01",
+      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/kimmonismus/status/2061058117304262999",
+      "pushed_at": "2026-06-01",
+      "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/sama/status/2061117302528188712",
+      "pushed_at": "2026-06-01",
+      "title": "OpenAI正式进军机器人领域并启动招聘",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
+      "pushed_at": "2026-06-01",
+      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/NVIDIAAI/status/2060781385686659416",
+      "pushed_at": "2026-06-01",
+      "title": "DynoSim：模拟驱动推理堆栈优化",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN： Tiny-vLLM--基于 C 和 CUDA 的高性能大型语言模型推理引擎",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/OpenRouter/status/2060511136932315259",
+      "pushed_at": "2026-06-01",
+      "title": "ComfyUI现已支持OpenRouter模型直接调用",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/hongming731/status/2060487110906527820",
+      "pushed_at": "2026-06-01",
+      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/rohanpaul_ai/status/2060409504693645440",
+      "pushed_at": "2026-06-01",
+      "title": "亲测为实：难以置信的推理速度",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/OpenRouter/status/2060395056196936054",
+      "pushed_at": "2026-06-01",
+      "title": "OpenRouter支持模型生成文件补丁",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3833859545343618?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "8点1氪丨停服三年后，天涯社区正式恢复访问；广东辟谣高考将用AI改卷；MiniMax拟科创板上市",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3831135917107075?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3831071878358659?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3834266511861632?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "蚂蚁集团旗下公司等入股光轮智能",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+      "pushed_at": "2026-06-01",
+      "title": "The solution might be cancelling my AI subscription",
+      "score": 5
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+      "pushed_at": "2026-06-01",
+      "title": "A rational conversation on where AI is actually going | Benedict Evans",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tsujcq/i_built_an_tool_to_apply_to_jobs_for_me_while_i/",
+      "pushed_at": "2026-06-01",
+      "title": "I built an tool to apply to jobs for me while I sleep (lol) Went from 1 interview a month to 19 in a week.",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "pushed_at": "2026-06-01",
+      "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "pushed_at": "2026-06-01",
+      "title": "Coders are refusing to work without AI — and that could come back to bite them",
+      "score": 5
+    },
+    {
+      "url": "https://www.manger.app/",
+      "pushed_at": "2026-06-01",
+      "title": "Show HN: Manger – Livestock Management App",
+      "score": 5
+    },
+    {
+      "url": "https://jbkempf.com/blog/2026/dav2d/",
+      "pushed_at": "2026-06-01",
+      "title": "Dav2d",
+      "score": 5
+    },
+    {
+      "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "pushed_at": "2026-06-01",
+      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/05/427005.html",
+      "pushed_at": "2026-06-01",
+      "title": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
+      "score": 5
+    },
+    {
+      "url": "https://sspai.com/post/110519",
+      "pushed_at": "2026-06-01",
+      "title": "派早报：Anthropic 估值超过 OpenAI",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1667523?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-01",
+      "title": "当一家车企开始为智驾兜底，它就不是单纯的车企了",
+      "score": 5
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
+      "pushed_at": "2026-06-01",
+      "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
+      "score": 5
+    },
+    {
+      "url": "https://www.ithome.com/0/957/938.htm",
+      "pushed_at": "2026-06-01",
+      "title": "全球首次：MWC26 上海将举办\"人形机器人点球大战\"，宇树科技等 8 支队伍参赛、参演",
+      "score": 5
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+      "pushed_at": "2026-06-01",
+      "title": "据报道：软银将在法国投资750亿欧元用于AI",
+      "score": 5
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "pushed_at": "2026-06-01",
+      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3834192173737859?f=rss",
+      "pushed_at": "2026-06-01",
+      "title": "追觅开放融资，单笔投资门槛最低3.5亿，Pre-IPO轮投前估值或700亿",
+      "score": 5
     }
   ]
 }

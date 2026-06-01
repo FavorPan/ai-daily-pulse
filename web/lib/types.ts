@@ -7,6 +7,10 @@ export type DigestItem = {
   source: string;
   url: string;
   tags: string[];
+  why_now?: string;
+  trend_signal?: boolean;
+  trend_topic?: string;
+  trend_source_count?: number;
 };
 
 export type DigestItemWithDate = DigestItem & {

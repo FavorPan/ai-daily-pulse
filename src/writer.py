@@ -51,6 +51,10 @@ def generate_markdown(articles: list[dict], date: str) -> str:
                 lines.append(f"- **标签**：{tags_str}")
             if a.get("summary"):
                 lines.append(f"- **摘要**：{a['summary']}")
+            if a.get("why_now"):
+                lines.append(f"- **为什么是现在**：{a['why_now']}")
+            if a.get("trend_signal"):
+                lines.append(f"- **🔥 跨源热点**：\"{a['trend_topic']}\"（{a['trend_source_count']} 个源同时报道）")
             lines.append("")
             lines.append("---")
             lines.append("")
@@ -94,6 +98,10 @@ def build_digest_json(articles: list[dict], date: str) -> dict:
             "source": a["source"],
             "url": a["url"],
             "tags": a.get("tags", []),
+            "why_now": a.get("why_now", ""),
+            "trend_signal": a.get("trend_signal", False),
+            "trend_topic": a.get("trend_topic", ""),
+            "trend_source_count": a.get("trend_source_count", 0),
         })
     highlights = [
         (it["summary"][:120] + "…") if len(it["summary"]) > 120 else it["summary"]
