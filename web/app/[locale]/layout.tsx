@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import localFont from "next/font/local";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -74,9 +75,17 @@ export default async function LocaleLayout({ children, params }: Props) {
                     <div className="flex items-center gap-5 min-w-0">
                       <Link
                         href={`/${locale}/`}
-                        className="font-bold text-[15px] tracking-tight hover:text-accent transition-colors shrink-0"
+                        className="flex items-center gap-2 hover:text-accent transition-colors shrink-0"
                       >
-                        AI Daily Pulse
+                        <Image
+                          src="/logo.png"
+                          alt="AI Daily Pulse"
+                          width={32}
+                          height={32}
+                          className="rounded-md"
+                          priority
+                        />
+                        <span className="font-bold text-[15px] tracking-tight">AI Daily Pulse</span>
                       </Link>
                       <HeaderNav />
                     </div>
