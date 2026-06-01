@@ -71,7 +71,17 @@ export function listDigestDates(): string[] {
   return fs
     .readdirSync(OUTPUT_DIR)
     .filter((f) => f.startsWith("digest-") && f.endsWith(".json"))
-    .map((f) => f.replace("digest-", "").replace(".json", ""))
+    .map((f) => {
+      const date = f.replace("digest-", "").replace(".json", "");
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, f), "utf-8"));
+        if (!data.items || data.items.length === 0) return null;
+      } catch {
+        return null;
+      }
+      return date;
+    })
+    .filter((d): d is string => d !== null)
     .sort()
     .reverse();
 }

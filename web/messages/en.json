@@ -5,7 +5,7 @@
     "about": "About"
   },
   "hero": {
-    "tagline": "40+ RSS feeds · AI scoring & dedup · Daily Chinese digest",
+    "tagline": "40+ RSS feeds · AI scoring & dedup · Daily digest",
     "subtitle": "Open once a day — read only AI news worth your time",
     "step1": "Auto fetch & pre-filter",
     "step2": "AI score & semantic dedup",
@@ -68,7 +68,7 @@
     "title": "About",
     "backHome": "← Back to today",
     "motivationTitle": "Why this project",
-    "motivation1": "AI news drops everywhere every day — scrolling manually is exhausting and easy to miss. AI Daily Pulse fetches from 40+ RSS sources, pre-filters, scores with AI, deduplicates, and produces a daily Chinese digest.",
+    "motivation1": "AI news drops everywhere every day — scrolling manually is exhausting and easy to miss. AI Daily Pulse fetches from 40+ RSS sources, pre-filters, scores with AI, deduplicates, and produces a daily digest.",
     "motivation2": "Focus areas: OPC / solo-founder monetization, AI + e-commerce, tools & agent workflows, new tech & models, and funding rounds.",
     "motivation3": "This site is the online reading UI for those digests — browse and search history without opening Markdown files each time.",
     "authorTitle": "Author",
