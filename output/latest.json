@@ -624,5 +624,56 @@
       "trend_source_count": 0,
       "trend_confidence": ""
     }
+  ],
+  "directions": [
+    {
+      "name": "SkillForge",
+      "description": "基于 Cursor 插件生态的 Markdown 技能库市场与运行时，允许开发者将重复工作流封装为可训练参数并一键部署为 Agent。",
+      "target_user": "独立开发者、全栈工程师、Cursor 重度用户",
+      "core_features": [
+        "支持将 Markdown 文件转化为可优化的 Skill 参数（参考 SkillOpt 理念）",
+        "一键发布/订阅 Cursor 插件市场",
+        "递归自我改进反馈循环，记录 Agent 操作成功率"
+      ],
+      "related_trends": [
+        "ai agent",
+        "一人公司",
+        "开源项目"
+      ],
+      "why_now": "过去 7 天内，'ai agent' 趋势涉及 12 个信源，GitHub 上 'cursor/plugins' 和 'SkillOpt' 相关项目持续上榜，表明围绕 IDE 的垂直 Agent 工具链已具备成熟的用户基础和商业化雏形。",
+      "monetization": "Freemium 模式：基础 Skill 免费，高级/专业版 Skill 库订阅制（$9/月），或按 Skill 下载次数抽成。",
+      "difficulty": "medium",
+      "estimated_mvp_days": 12
+    },
+    {
+      "name": "LocalOps Manager",
+      "description": "专为独立开发者设计的本地 LLM 全栈运维工具，集成 vLLM/llama.cpp 部署、GPU 资源监控及自动计费/开票系统。",
+      "target_user": "本地 AI 部署者、小型 SaaS 创始人、技术型一人公司",
+      "core_features": [
+        "一键配置 vLLM/llama.cpp 推理服务并监控吞吐量（参考本地部署优化趋势）",
+        "内置嵌入式计费与开票模块（参考 Reddit 热门开源 Billing Stack）",
+        "可视化资源仪表盘，支持 Windows/WSL 环境适配"
+      ],
+      "related_trends": [
+        "本地部署",
+        "一人公司",
+        "开源项目"
+      ],
+      "why_now": "'本地部署' 趋势在过去 7 天被 3 个信源高频报道，且涉及具体的性能优化（RTX 6000, Qwen 3.5），同时 '一人公司' 趋势中有 10 个信源关注独立开发者的基建痛点（如 Billing Stack），供需两端在本地化与自动化基建上高度重合。",
+      "monetization": "一次性买断（$49）或 Pro 版本订阅（$15/月，含企业级日志与多模型支持）。",
+      "difficulty": "medium",
+      "estimated_mvp_days": 15
+    }
+  ],
+  "social_post": {
+    "zh": "🚀 Llama 4 Scout 突破 10M 上下文窗口，推理成本极低！⚡️ 开发者抵制 Copilot 新计费模式，引发行业震动。🛠️ VibeETL 用 Polars 打造极速可视化 ETL，重塑数据工作流。\n\nAI 基础设施与应用工具双轮驱动，效率与公平性成关键议题。👇",
+    "en": "🚀 Meta's Llama 4 Scout hits 10M context window with rock-bottom costs! ⚡️ Devs revolt against GitHub Copilot's new token billing. 🛠️ VibeETL uses Polars for lightning-fast visual ETL.\n\nAI infra & apps drive change. Efficiency vs. fairness is the new battleground. 👇"
+  },
+  "x_thread": [
+    "🚀 重磅：SoftBank 宣布投资高达 750 亿欧元在法国建设数据中心！这不仅显示了对 AI 基础设施的狂热需求，也标志着欧洲算力版图的重新洗牌。🇫🇷💰\n#AI #SoftBank #DataCenter",
+    "💥 GitHub Copilot 推出基于 Token 的新计费模式，开发者社区炸锅了！😤 这种从订阅制转向按用量付费的做法，引发了关于成本可控性的激烈争论。你准备好为每次调用买单了吗？\n#GitHubCopilot #DevLife",
+    "🧠 惊喜发现：一个支持 10M 上下文窗口的大模型现身！🤯 这意味着 AI 能一次性处理整本技术书籍或长代码库，无需分段截断。长文本理解能力再次突破瓶颈，RAG 架构面临新挑战。\n#LLM #ContextWindow",
+    "♿️ 暖心且硬核：一位曾从事数据科学 10 年的四肢瘫痪开发者，用 3 个月从零构建了 VibeETL。⚡️ 基于 Polars 和 React Flow，这是 Alteryx 的极速可视化替代方案。科技真正赋能了每个人。\n#Accessibility #DataScience",
+    "📝 总结：AI 正在从“应用层”疯狂向“基建层”和“辅助层”渗透。算力投入激增，定价策略调整，以及更具包容性的工具诞生。行业正处于剧烈变革期。关注我，获取每日 AI 前沿洞察！🔔\n#AIInsights #TechTrends"
   ]
 }
