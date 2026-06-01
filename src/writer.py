@@ -88,7 +88,7 @@ def url_to_id(url: str) -> str:
     return hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
 
 
-def build_digest_json(articles: list[dict], date: str) -> dict:
+def build_digest_json(articles: list[dict], date: str, insights: dict | None = None) -> dict:
     """Build JSON digest for the web frontend."""
     sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
     items = []
@@ -116,18 +116,24 @@ def build_digest_json(articles: list[dict], date: str) -> dict:
     ]
     if not highlights:
         highlights = [it["title"] for it in items[:3]]
-    return {"date": date, "highlights": highlights, "items": items}
+    result = {"date": date, "highlights": highlights, "items": items}
+    if insights:
+        result["directions"] = insights.get("directions", [])
+        result["social_post"] = insights.get("social_post", {})
+        result["x_thread"] = insights.get("x_thread", [])
+    return result
 
 
 def write_digest_json(
     articles: list[dict],
     output_dir: str = "output",
     date: str | None = None,
+    insights: dict | None = None,
 ) -> str:
     """Write digest-{date}.json and latest.json. Returns dated file path."""
     if date is None:
         date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    payload = build_digest_json(articles, date)
+    payload = build_digest_json(articles, date, insights)
     os.makedirs(output_dir, exist_ok=True)
     dated_path = os.path.join(output_dir, f"digest-{date}.json")
     latest_path = os.path.join(output_dir, "latest.json")
@@ -136,5 +142,18 @@ def write_digest_json(
         f.write(text)
     with open(latest_path, "w", encoding="utf-8") as f:
         f.write(text)
-    return dated_path
 
+    # Save social post to separate file for easy copy-paste
+    if insights and insights.get("social_post"):
+        post_path = os.path.join(output_dir, f"social-post-{date}.txt")
+        sp = insights["social_post"]
+        lines = ["=== 中文版 ===", sp.get("zh", ""), "", "=== English ===", sp.get("en", "")]
+        if insights.get("x_thread"):
+            lines.extend(["", "=== X Thread ==="])
+            for i, tweet in enumerate(insights["x_thread"], 1):
+                lines.append(f"\n--- Tweet {i} ---")
+                lines.append(tweet)
+        with open(post_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+
+    return dated_path

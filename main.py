@@ -18,6 +18,7 @@ from src.history import (
     save_history,
 )
 from src.scorer import process_articles
+from src.insights import generate_all_insights
 from src.trends import detect_trends
 from src.writer import write_digest_json, write_output
 
@@ -97,9 +98,17 @@ def main():
     if not kept:
         logger.info("No articles passed the quality filter today.")
 
+    # Generate insights: build directions + social post + X thread
+    t_insights = time.monotonic()
+    logger.info("[Insights] Generating build directions + social posts...")
+    insights = generate_all_insights(kept, api_key, cfg)
+    t_insights = time.monotonic() - t_insights
+    logger.info("[Insights] Generated %d direction(s), %d tweet(s)",
+                len(insights.get("directions", [])), len(insights.get("x_thread", [])))
+
     t_write = time.monotonic()
     path = write_output(kept, output_dir=cfg["output_dir"])
-    json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today)
+    json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights)
     t_write = time.monotonic() - t_write
 
     logger.info("Done. Output written to: %s", path)

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductHero } from "@/components/ProductHero";
+import { BuildDirections } from "@/components/BuildDirections";
 import { ProjectCard } from "@/components/ProjectCard";
 import { StatsHero } from "@/components/StatsHero";
 import { getDaily } from "@/lib/api";
@@ -26,6 +27,10 @@ export default async function Page({ params }: PageProps) {
     <div>
       <ProductHero date={data.date} />
       <StatsHero date={data.date} items={data.items} />
+
+      {data.directions && data.directions.length > 0 && (
+        <BuildDirections directions={data.directions} />
+      )}
 
       {/* Featured section */}
       <div>
