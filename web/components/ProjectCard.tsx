@@ -14,6 +14,15 @@ type Props = {
 export function ProjectCard({ item, showDate = false }: Props) {
   const locale = useLocale();
   const t = useTranslations("card");
+  const isEn = locale === "en";
+  const displaySummary = isEn && item.summary_en ? item.summary_en : item.summary;
+
+  const trendStyles: Record<string, string> = {
+    high: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
+    medium: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
+    low: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200",
+  };
+  const trendIcons: Record<string, string> = { high: "🔥🔥🔥", medium: "🔥🔥", low: "🔥" };
 
   return (
     <Link
@@ -26,8 +35,8 @@ export function ProjectCard({ item, showDate = false }: Props) {
         </h3>
         <div className="flex items-center gap-2 shrink-0">
           {item.trend_signal && (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200">
-              🔥 {item.trend_topic}
+            <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${trendStyles[item.trend_confidence || "low"]}`}>
+              {trendIcons[item.trend_confidence || "low"]} {item.trend_topic}
             </span>
           )}
           <Tag label={item.topic} />
@@ -39,7 +48,7 @@ export function ProjectCard({ item, showDate = false }: Props) {
       )}
 
       <p className="text-sm text-muted leading-relaxed line-clamp-2 mb-4">
-        {item.summary}
+        {displaySummary}
       </p>
 
       {item.why_now && (

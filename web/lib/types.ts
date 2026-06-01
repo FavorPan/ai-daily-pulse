@@ -2,6 +2,7 @@ export type DigestItem = {
   id: string;
   title: string;
   summary: string;
+  summary_en?: string;
   score: number;
   topic: string;
   source: string;
@@ -11,6 +12,7 @@ export type DigestItem = {
   trend_signal?: boolean;
   trend_topic?: string;
   trend_source_count?: number;
+  trend_confidence?: "high" | "medium" | "low" | "";
 };
 
 export type DigestItemWithDate = DigestItem & {

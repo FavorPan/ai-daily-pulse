@@ -85,6 +85,20 @@ SUMMARY_PROMPT = """请为以下文章生成一段中文摘要，2-3 句话。
 
 只输出摘要文本，不要其他内容。"""
 
+EN_SUMMARY_PROMPT = """Generate a concise English summary for the following article, 2-3 sentences.
+
+Requirements:
+- Include the most critical facts (numbers, product names, technical details)
+- For OPC/money-making cases: include revenue scale, implementation method, acquisition channel
+- For tech/models: include core capability improvements and comparisons
+- For tools/workflows: include specific steps or reusable prompts
+- No filler phrases like "This article discusses..." — state facts directly
+
+Article title: {title}
+Article content: {content}
+
+Output only the summary text, nothing else."""
+
 WHY_NOW_PROMPT = """你是一位 AI 趋势分析师，面向独立开发者和一人公司创业者。
 
 根据以下文章，用一句话（30字以内）解释"为什么现在值得关注这件事"。
@@ -227,6 +241,19 @@ def summarize_article(article: dict, client: OpenAI, model: str) -> str:
         return ""
 
 
+def summarize_article_en(article: dict, client: OpenAI, model: str) -> str:
+    """Generate English summary for an article."""
+    prompt = EN_SUMMARY_PROMPT.format(
+        title=article["title"],
+        content=article["content"],
+    )
+    try:
+        return _call_with_retry(client, model, prompt, max_tokens=400, json_mode=False)
+    except Exception as e:
+        logger.warning("English summary failed for '%s': %s", article['title'], e)
+        return ""
+
+
 def generate_why_now(article: dict, client: OpenAI, model: str) -> str:
     """Generate a one-line 'why now' explanation for high-scoring articles."""
     content = article.get("content", "")[:4000]
@@ -366,6 +393,18 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
             article = futures[future]
             article["summary"] = future.result()
     timings["summarize"] = time.monotonic() - t0
+
+    logger.info("[3b/5] Summarizing %d articles (English)...", len(kept))
+    t0 = time.monotonic()
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {
+            executor.submit(summarize_article_en, a, client, summary_model): a
+            for a in kept
+        }
+        for future in as_completed(futures):
+            article = futures[future]
+            article["summary_en"] = future.result()
+    timings["summarize_en"] = time.monotonic() - t0
 
     # [4/4] Generate "why now" for high-scoring articles
     high_score_articles = [a for a in kept if a.get("score", 0) >= 7]

@@ -118,6 +118,7 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
             a["trend_signal"] = False
             a["trend_topic"] = ""
             a["trend_source_count"] = 0
+            a["trend_confidence"] = ""
         return articles
 
     # 按命中源数排序，取 top 信号
@@ -132,6 +133,7 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
         a["trend_signal"] = False
         a["trend_topic"] = ""
         a["trend_source_count"] = 0
+        a["trend_confidence"] = ""
 
         text = f"{a.get('title', '')} {a.get('summary', '')}"
         tags = a.get("tags", [])
@@ -153,6 +155,12 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
             a["trend_signal"] = True
             a["trend_topic"] = best_kw
             a["trend_source_count"] = best_count
+            if best_count >= 5:
+                a["trend_confidence"] = "high"
+            elif best_count >= 3:
+                a["trend_confidence"] = "medium"
+            else:
+                a["trend_confidence"] = "low"
 
     signal_count = sum(1 for a in articles if a["trend_signal"])
     logger.info("Trend detection: marked %d / %d articles as trend signals", signal_count, len(articles))
