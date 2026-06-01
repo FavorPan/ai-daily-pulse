@@ -1,792 +1,628 @@
 {
   "date": "2026-06-01",
   "highlights": [
-    "13 abliterated Gemma 4 E2B variants, 44 GPU hours, Benchmark and Comparison - Abliterlitics",
-    "Qwen3.6-35B vs Gemma4-26B on 7900 XTX",
-    "EveryInc/compound-engineering-plugin"
+    "Meta发布的Llama 4 Scout模型基于MoE架构和iRoPE技术，理论上下文窗口达1000万Token，参数量1090亿。尽管实际推理成本极低（OpenRouter单价0.08/百万Token），但在128K上下文内的理解准确率仅…",
+    "VibeETL是一款由10年经验数据科学家构建的可视化ETL工具，旨在作为轻量级Alteryx替代品，其后端核心采用Polars与Rust原生优化实现毫秒级数据处理。该技术通过集成React Flow与自研Topological BFS布局…",
+    "GitHub Copilot 新推出的基于令牌（token）的计费模式引发了开发者的强烈不满，被批评为荒谬之举。"
   ],
   "items": [
     {
-      "id": "85663c787954",
-      "title": "13 abliterated Gemma 4 E2B variants, 44 GPU hours, Benchmark and Comparison - Abliterlitics",
-      "summary": "",
-      "score": 9,
+      "id": "4b9eeab615b3",
+      "title": "I found this Massive 10M Context Window AI Model",
+      "summary": "Meta发布的Llama 4 Scout模型基于MoE架构和iRoPE技术，理论上下文窗口达1000万Token，参数量1090亿。尽管实际推理成本极低（OpenRouter单价0.08/百万Token），但在128K上下文内的理解准确率仅15.6%，有效推理上限约256K。目前主流托管平台如OpenRouter将其硬限制在327,680 Token，表明其1000万数据仅为理论上限而非生产可用状态。",
+      "score": 8,
       "topic": "AI新技术/新模型",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+      "source": "DEV Community",
+      "url": "https://dev.to/kimkom588r/i-found-this-massive-10m-context-window-ai-model-473c",
       "tags": [
-        "abliterated模型",
-        "Gemma4",
-        "benchmark对比",
+        "Llama 4 Scout",
+        "长上下文模型",
         "开源模型",
-        "安全对齐"
-      ]
-    },
-    {
-      "id": "d94415496b9c",
-      "title": "Qwen3.6-35B vs Gemma4-26B on 7900 XTX",
-      "summary": "",
-      "score": 9,
-      "topic": "AI新技术/新模型",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tszlsa/qwen3635b_vs_gemma426b_on_7900_xtx/",
-      "tags": [
-        "LLM推理性能",
-        "本地部署",
-        "硬件基准"
-      ]
-    },
-    {
-      "id": "47dca59f5e85",
-      "title": "EveryInc/compound-engineering-plugin",
-      "summary": "",
-      "score": 9,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "tags": [
-        "compound-engineering",
-        "Claude Code",
-        "Agent 工作流",
-        "AI 编程"
-      ]
-    },
-    {
-      "id": "558d5a7e9090",
-      "title": "I ported NVIDIA Parakeet (speech-to-text) to ggml: same output as NeMo, faster, GGUF-quantized, no Python",
-      "summary": "",
-      "score": 8,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/",
-      "tags": [
-        "开源",
-        "C++/GGML部署"
-      ]
-    },
-    {
-      "id": "485c98a3c8d0",
-      "title": "nesquena/hermes-webui",
-      "summary": "",
-      "score": 8,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/nesquena/hermes-webui",
-      "tags": [
-        "AI Agent",
-        "Self-hosted",
-        "Open source"
-      ]
-    },
-    {
-      "id": "7def51b1549a",
-      "title": "revfactory/harness",
-      "summary": "",
-      "score": 8,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/revfactory/harness",
-      "tags": [
-        "Claude Code",
-        "Agent团队架构",
-        "Harness",
-        "multi-agent",
-        "GitHub开源"
-      ]
-    },
-    {
-      "id": "13d96f6971ff",
-      "title": "anthropics/claude-code",
-      "summary": "",
-      "score": 8,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/anthropics/claude-code",
-      "tags": [
-        "Claude Code",
-        "Agent编程",
-        "开发者工具"
-      ]
-    },
-    {
-      "id": "d466ccc68189",
-      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
-      "summary": "",
-      "score": 8,
-      "topic": "AI新技术/新模型",
-      "source": "AI热榜",
-      "url": "https://www.minimax.io/blog/minimax-m3",
-      "tags": [
-        "MiniMax M3",
-        "稀疏注意力",
-        "开源模型"
-      ]
+        "Benchmark数据"
+      ],
+      "why_now": "Meta发布Llama 4 Scout，1000万上下文窗口，成本极低。",
+      "summary_en": "Meta’s Llama 4 Scout model features a 109B parameter Mixture-of-Experts architecture and a theoretical 10 million token context window enabled by iRoPE, yet it is currently hard-capped at 327,680 tokens on OpenRouter and priced at $0.08 per million input tokens. Independent benchmarks reveal that while needle-in-haystack retrieval works, the model’s effective reasoning capability drops significantly beyond 256K tokens, achieving only 15.6% accuracy on complex comprehension tasks within that shorter range.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
       "id": "3a8c31486ad3",
       "title": "I was a Data Scientist for 10 years before becoming a quadriplegic. For the past 3 months, I built VibeETL from scratch: A lightning-fast, visual Alteryx alternative powered by Polars & React Flow.",
-      "summary": "",
+      "summary": "VibeETL是一款由10年经验数据科学家构建的可视化ETL工具，旨在作为轻量级Alteryx替代品，其后端核心采用Polars与Rust原生优化实现毫秒级数据处理。该技术通过集成React Flow与自研Topological BFS布局算法，彻底消除了复杂节点矩阵下的UI计算延迟与输入卡顿。项目现已开源，支持在隔离子进程中运行Python脚本及自定义AI工具，并具备与Gemini Vision和Google Cloud等外部服务的集成能力。",
       "score": 7,
       "topic": "AI工具实操/Agent工作流",
       "source": "Reddit r/SideProject",
       "url": "https://www.reddit.com/r/SideProject/comments/1ttil11/i_was_a_data_scientist_for_10_years_before/",
       "tags": [
         "开源项目",
-        "ETL工具",
-        "一人公司创业",
+        "数据工程",
         "Polars",
-        "React Flow"
-      ]
+        "一人公司"
+      ],
+      "why_now": "VibeETL开源，Polars替代Alteryx",
+      "summary_en": "VibeETL is a visual ETL tool built on Polars and React Flow designed to eliminate computational and interface lag through Rust-native optimizations, zero-copy Apache Arrow memory transport, and a custom BFS layout algorithm. The platform features a lag-free UI with localized input shielding and an isolated Python subprocess jail with a strict 30-second execution cutoff to ensure stability. It offers community extensibility via a manifest-driven backend and currently seeks user testing for its Gemini Vision AI integration and cloud connector implementations.",
+      "trend_signal": true,
+      "trend_topic": "开源项目",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
     },
     {
-      "id": "1b18e849a1eb",
-      "title": "Built a video-editing agent skill, then had it edit the walkthrough where I explain it",
-      "summary": "",
+      "id": "1939531b33eb",
+      "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+      "summary": "GitHub Copilot 新推出的基于令牌（token）的计费模式引发了开发者的强烈不满，被批评为荒谬之举。",
       "score": 7,
       "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttj871/built_a_videoediting_agent_skill_then_had_it_edit/",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
       "tags": [
-        "AI Agent",
-        "视频编辑",
-        "技能复用"
-      ]
+        "GitHub Copilot",
+        "定价策略",
+        "开发者成本"
+      ],
+      "why_now": "GitHub Copilot新推按token计费引发开发者强烈不满。",
+      "summary_en": "GitHub Copilot has replaced flat-rate subscriptions with a usage-based billing model that charges $1 per one million tokens for code completions. This shift has sparked significant backlash from developers who view the new pricing structure as unpredictable and costly for high-volume usage.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "25499f9f6802",
-      "title": "Llama Studio v0.2.0",
-      "summary": "",
+      "id": "7bcbaea6b5b8",
+      "title": "Laravel Billing: one package, every gateway, working on day one",
+      "summary": "该库提供`cleaniquecoders/laravel-billing`包，通过`PaymentGateway`接口的`createCheckout`、`cancel`和`parseWebhook`三个核心方法实现网关抽象，支持Stripe、BayarCash、ToyyibPay等多种支付渠道接入。其核心能力提升在于隔离提供商特定逻辑，确保订阅引擎无需感知底层网关差异，同时内置的`LocalGateway`默认支持无商户号的本地模拟支付流程。开发者可直接运行迁移，在无需真实资金的情况下即可在开发、测试及CI环境中完整跑通从订阅到发票的全生命周期。",
       "score": 7,
       "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt4pag/llama_studio_v020/",
+      "source": "DEV Community",
+      "url": "https://dev.to/nasrulhazim/laravel-billing-one-package-every-gateway-working-on-day-one-109f",
       "tags": [
         "开源项目",
-        "Llama CPU/GPU推理",
-        "WebUI工具"
-      ]
+        "SaaS架构",
+        "支付集成",
+        "一人公司基建"
+      ],
+      "why_now": "Laravel Billing 发布，解决多支付网关集成痛点",
+      "summary_en": "Laravel Billing provides a unified package that abstracts multiple payment gateways, including Stripe, BayarCash, and ToyyibPay, through a single `PaymentGateway` interface with three core methods. It eliminates provider-specific fragmentation by using `CheckoutIntent` and `WebhookEvent` DTOs to isolate gateway logic, ensuring the subscription engine remains provider-agnostic. The package includes a `LocalGateway` that enables immediate full-cycle demo functionality without requiring a merchant account.",
+      "trend_signal": true,
+      "trend_topic": "开源项目",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
     },
     {
-      "id": "9610668fd94a",
-      "title": "Show HN: Ralphy – open-source autonomous Claude Codd built on the Ralph loop",
-      "summary": "",
-      "score": 7,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Mizerness/Ralphy",
-      "tags": [
-        "open-source-agent",
-        "Claude-Code",
-        "Ralph-loop"
-      ]
-    },
-    {
-      "id": "d2049bfd9d31",
-      "title": "Show HN: Monolith, live typed queries on real Postgres for Java (no JDBC)",
-      "summary": "",
-      "score": 7,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/singlr-ai/monolith",
-      "tags": [
-        "开源工具",
-        "Java后端",
-        "数据库集成"
-      ]
-    },
-    {
-      "id": "0604d6a7a7d7",
-      "title": "harry0703/MoneyPrinterTurbo",
-      "summary": "",
-      "score": 7,
-      "topic": "OPC/AI赚钱案例",
-      "source": "GitHub Trending",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "tags": [
-        "MoneyPrinterTurbo",
-        "免费开源"
-      ]
-    },
-    {
-      "id": "8cf5140931d8",
-      "title": "OpenBMB/VoxCPM",
-      "summary": "",
+      "id": "9de82c369aab",
+      "title": "A MOGONET-Style Multi-Omics Biomarker Pipeline: Why a Near-Random Graph Net Still Earns Its Place",
+      "summary": "该研究构建了一个基于MOGONET改性的多组学分类管道，在小样本合成数据（n=30）测试中，图网络单独评估时AUC仅为0.53。通过引入注意力融合机制替代原有的VCDN，该模型在5证据共识投票中使前10名排名指标的真实命中率达到90%。这一结果证明了即便单模型性能接近随机，作为共识投票者仍能有效识别关键生物标志物。",
       "score": 7,
       "topic": "AI新技术/新模型",
-      "source": "GitHub Trending",
-      "url": "https://github.com/OpenBMB/VoxCPM",
+      "source": "DEV Community",
+      "url": "https://dev.to/byeongsoo_kang_f8e3da9ab3/a-mogonet-style-multi-omics-biomarker-pipeline-why-a-near-random-graph-net-still-earns-its-place-28jc",
       "tags": [
-        "TTS",
-        "开源",
-        "多语言",
-        "语音克隆"
-      ]
+        "多组学",
+        "Graph Neural Networks",
+        "科研工程",
+        "Biomarker"
+      ],
+      "why_now": "无明确时效性信号，输出空字符串。",
+      "summary_en": "This sysofti R&D project implements a simplified MOGONET-style pipeline using attention-fused Graph Convolutional Networks for multi-omics integration, evaluated on a small synthetic cohort (n=30). While the graph network alone achieved near-random performance (AUC 0.53 ± 0.16), it functioned as a high-precision voter within a 5-evidence consensus, identifying 90% known periodontitis genes in the top-10 ranking. The architecture replaces the original VCDN fusion with attention-weighted fusion to reduce parameter liability in tiny cohorts.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "1db9a8486845",
-      "title": "FareedKhan-dev/train-llm-from-scratch",
-      "summary": "",
-      "score": 7,
+      "id": "150224c2c1da",
+      "title": "I built a visual dashboard to manage AI agents, like playing a video game, but for work",
+      "summary": "文章介绍了作者构建的一个可视化 AI 智能体管理仪表盘，其设计理念是将枯燥的工作管理转化为类似电子游戏的交互体验。该工具通过图形化界面提升了对多个 AI 智能体的调度与监控效率，为工作流自动化提供了新颖的可视化管理方案。",
+      "score": 6,
       "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttkmrl/i_built_a_visual_dashboard_to_manage_ai_agents/",
       "tags": [
-        "LLM训练",
-        "PyTorch",
-        "Transformer",
-        "开源项目"
-      ]
+        "AI Agent",
+        "工具开发",
+        "可视化界面"
+      ],
+      "why_now": "",
+      "summary_en": "The author developed a visual dashboard for managing AI agents, utilizing an interface that resembles gameplay to facilitate work management. Specific technical details, revenue models, or implementation steps are not provided in the text.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "3d7c7b2843ae",
-      "title": "Crosstalk-Solutions/project-nomad",
-      "summary": "",
-      "score": 7,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "id": "d118d28f26d8",
+      "title": "a trick for finding early users on reddit without sounding spammy",
+      "summary": "通过在相关 subreddit 中搜索“anyone know how to”或“struggling with x”等特定短语，精准定位有明确解决方案需求的早期用户。基于用户主动提出的痛点提供有价值的评论，而非直接推广产品名称，从而避免spammy感并建立信任。这种方法能有效吸引高质量的测试者，实现低成本的自然获客。",
+      "score": 6,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttkjbt/a_trick_for_finding_early_users_on_reddit_without/",
       "tags": [
-        "GitHub开源项目",
-        "AI离线部署",
-        "Docker容器化",
-        "自建知识库"
-      ]
+        "冷启动",
+        "用户获取"
+      ],
+      "why_now": "",
+      "summary_en": "Search Reddit for problem-oriented phrases like \"anyone know how to\" or \"struggling with x\" in related subreddits to identify users actively seeking solutions. Providing helpful comments that address these specific pain points serves as a non-spammy acquisition channel for securing early testers.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "82d803b5a5c5",
-      "title": "supermemoryai/supermemory",
-      "summary": "",
-      "score": 7,
+      "id": "8eaa94b24773",
+      "title": "Show HN: TIL – a timeline file format with a spiral viewer and editor",
+      "summary": "til 是一款包含事件、区间事件和标签的时序文件格式，其底层采用 postcard 进行二进制构建。项目提供 Rust CLI、基于 React 的 Web 查看器及编辑器，其中前端解析器编译为 WASM 以实现与后端共享实现。",
+      "score": 6,
       "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/supermemoryai/supermemory",
+      "source": "Hacker News Show HN",
+      "url": "https://til.rfy.nz",
       "tags": [
-        "Supermemory",
-        "Memory API",
+        "开源项目",
+        "Rust",
+        "数据格式"
+      ],
+      "why_now": "",
+      "summary_en": "TIL is a binary timeline file format built with Postcard that stores events, ranged events, and tags with arbitrary JSON attributes to serve as a temporal index. The ecosystem includes a Rust CLI and a React-based web viewer and editor, where the frontend parser is compiled to WASM to share implementation logic.",
+      "trend_signal": true,
+      "trend_topic": "开源项目",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "d87bbb85d4ff",
+      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "summary": "软银宣布投资高达750亿欧元在法国建设数据中心，旨在开发和运营总计5吉瓦的额外数据容量。",
+      "score": 6,
+      "topic": "AI投融资动态",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "tags": [
+        "基础设施",
+        "巨头投资"
+      ],
+      "why_now": "",
+      "summary_en": "SoftBank plans to invest up to €75 billion to build data centers in France, aiming to develop and operate an additional 5 gigawatts of capacity.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "78127eabced1",
+      "title": "May 2026 newsletter",
+      "summary": "该作者2026年5月的赞助者专属通讯回顾了Anthropic的良好表现及令模型发布略显失望的市场动态。内容涵盖了作者推出Datasette Agent的进展及2026年5月的常用工具盘点。赞助者可通过支付每月10美元的费用访问包含这些独家内容的完整版本。",
+      "score": 6,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
+      "tags": [
+        "newsletter",
+        "个人开发者"
+      ],
+      "why_now": "",
+      "summary_en": "The May 2026 sponsors-only newsletter highlights significant cost increases for Al and a successful month for Anthropic, alongside disappointing model releases. It also details the launch of Datasette Agent, conference updates, and the author’s current tool usage. The newsletter is available to sponsors for a $10/month subscription, which provides early access to content like this edition.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d94415496b9c",
+      "title": "Qwen3.6-35B vs Gemma4-26B on 7900 XTX",
+      "summary": "在7900 XTX上对比Qwen3.6-35B与Gemma4-26B，后者整体端到端速度快约20%（95.6秒 vs 118.8秒）。尽管Qwen的MTP机制使解码速度提升至130 tok/s，但其生成约2倍数量的推理代币导致延迟劣势，而Gemma仅生成7,386个代币。结论建议吞吐量任务使用Qwen以利用解码速度，延迟敏感场景使用Gemma。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tszlsa/qwen3635b_vs_gemma426b_on_7900_xtx/",
+      "tags": [
+        "模型评测",
+        "本地部署",
+        "推理性能"
+      ],
+      "why_now": "",
+      "summary_en": "In a benchmark on a Radeon 7900 XTX, Gemma4-26B-A4B outperformed Qwen3.6-35B-A3B by approximately 20% in end-to-end wall-clock time (95.6s vs 118.8s) across six real-world prompts, primarily because Qwen’s higher token generation volume offset its faster MTP decoder speed. While Qwen emitted roughly double the tokens (14,811 vs 7,386) with a majority dedicated to internal reasoning, both models demonstrated comparable quality and throughput for useful content. The author recommends using Gemma for latency-sensitive tasks and Qwen for throughput-bound batch work due to its superior decode speed and strict output formatting.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "cca6e33596fc",
+      "title": "Agentic Observability: How I Wired a Real App with Dynatrace MCP in Minutes!",
+      "summary": "该演示构建了包含购物车和结账流程的 Flask 电商应用，利用 OpenTelemetry 向 Dynatrace 发送遥测数据以监控服务健康与延迟。通过 Port 作为上下文层，结合 Dynatrace MCP 连接器，实现了运维信号与工程知识（如责任人、运行手册）的关联。该方案将传统的单一检测能力升级为具备组织上下文感知和可操作性的智能故障排查工作流。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/pavanbelagatti/agentic-observability-how-i-wired-a-real-app-with-dynatrace-mcp-in-minutes-1p02",
+      "tags": [
         "MCP",
-        "GitHub开源",
-        "AI记忆引擎",
-        "Agent工作流"
-      ]
+        "Dynatrace",
+        "Port",
+        "可观测性"
+      ],
+      "why_now": "",
+      "summary_en": "The author demonstrates an agentic observability workflow by integrating a Flask shopping app’s OpenTelemetry data with Dynatrace for telemetry and Port as a context layer for engineering knowledge. This setup connects technical health signals to organizational details like service ownership, dependencies, and runbooks via a Port MCP connector. The result is a unified troubleshooting system that provides both live metrics and human context to accelerate incident resolution.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "5e1ad6ae6478",
-      "title": "nicobailon/pi-subagents",
-      "summary": "",
-      "score": 7,
+      "id": "29d9cc5d5204",
+      "title": "llms.txt for Magento 2: Free vs Paid Modules (2026 Review)",
+      "summary": "llms.txt 旨在为 AI 系统提供 Magento 2 网站的结构化摘要，以解决 AI 误读产品上下文、定价和目录结构的问题。文章指出目前尚无证据表明其直接影响 Google 搜索排名，主要价值在于提升 AI 对商店结构的解读准确性并减少幻觉。针对 Magento 2，实施方案分为手动维护、付费扩展（如 Magedelight、Webkul 等提供管理后台）及开源自动化工具三类，且 JSONL 格式的机器友好型输出尚未成为主流标准。",
+      "score": 6,
       "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/nicobailon/pi-subagents",
+      "source": "DEV Community",
+      "url": "https://dev.to/angeo/llmstxt-for-magento-2-free-vs-paid-modules-2026-review-308l",
       "tags": [
-        "GitHub开源项目",
-        "Agent工作流",
-        "Subagent",
-        "AI编程工具"
-      ]
+        "llms.txt",
+        "Magento",
+        "AI搜索优化",
+        "开发者工具"
+      ],
+      "why_now": "",
+      "summary_en": "Magento 2 stores can implement the non-standard `llms.txt` endpoint to provide AI systems with structured content summaries, thereby reducing product misinterpretation and hallucination risks. While there is no evidence it directly improves SEO rankings, implementations range from manual Markdown files for small catalogs to paid admin-driven modules or open-source CLI tools with cron automation for larger operations.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "0aeca0984375",
-      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-      "summary": "",
-      "score": 7,
-      "topic": "AI新技术/新模型",
-      "source": "AI热榜",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-      "tags": [
-        "NVIDIA",
-        "RTX Spark",
-        "llama.cpp",
-        "多 token 预测",
-        "本地 AI 智能体",
-        "Windows 安全"
-      ]
-    },
-    {
-      "id": "bfed8a1a13a7",
-      "title": "硬氪观察 | 苹果代工厂开造人形机器人，一场豪赌未来的产能大迁移",
-      "summary": "",
-      "score": 7,
-      "topic": "AI对行业的冲击",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3833985105782402?f=rss",
-      "tags": [
-        "具身智能",
-        "手机供应链迁移"
-      ]
-    },
-    {
-      "id": "54cd43369046",
-      "title": "Any good resources on raising?",
-      "summary": "",
+      "id": "156ef689c2bb",
+      "title": "How I Built an AI Sales Advisor Using DeepSeek + Vercel — and What I Learned from 30 Years of B2B Deals",
+      "summary": "作者基于30年B2B销售经验构建AI教练Cliento，底层采用DeepSeek模型，通过Vercel Serverless Function托管，实现接近零的基础设施成本。该系统将复杂的销售框架结构化，能针对B2B多利益相关者决策中的痛点提供具体诊断与行动建议。",
       "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/Entrepreneur",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tte0b0/any_good_resources_on_raising/",
+      "topic": "AI赚钱案例",
+      "source": "DEV Community",
+      "url": "https://dev.to/andybai2000/how-i-built-an-ai-sales-advisor-using-deepseek-vercel-and-what-i-learned-from-30-years-of-b2b-3d0m",
       "tags": [
-        "创业融资",
-        "一人公司",
-        "高毛利产品"
-      ]
-    },
-    {
-      "id": "bf78a645286c",
-      "title": "What would you advise me if I'd get into niche specific SaaS?",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/Entrepreneur",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tt70pm/what_would_you_advise_me_if_id_get_into_niche/",
-      "tags": [
-        "SaaS",
-        "一人公司",
-        "营销变现"
-      ]
-    },
-    {
-      "id": "e06cae95787a",
-      "title": "Built my girlfriend a cozy book tracker app, now it's bringing in paying users :)",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1tt4sbf/built_my_girlfriend_a_cozy_book_tracker_app_now/",
-      "tags": [
-        "一人公司",
-        "独立开发",
-        "SaaS",
-        "Product-led Growth"
-      ]
-    },
-    {
-      "id": "e33737471ffe",
-      "title": "I built a WhatsApp bot that turns \"invoice Dave £450 for the kitchen rewire\" into a proper VAT invoice. Just went live after a few sleepless nights",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1tt8kze/i_built_a_whatsapp_bot_that_turns_invoice_dave/",
-      "tags": [
-        "一人公司",
-        "AI工具",
-        "SaaS",
-        "冷启动"
-      ]
-    },
-    {
-      "id": "6cd6039d0cbf",
-      "title": "I built an tool to apply to jobs for me while I sleep (lol) Went from 1 interview a month to 19 in a week.",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1tsujcq/i_built_an_tool_to_apply_to_jobs_for_me_while_i/",
-      "tags": [
-        "AI求职",
-        "一人公司",
-        "自动化工具"
-      ]
-    },
-    {
-      "id": "0f0012473d13",
-      "title": "I built Wendlore – an app that generates motorcycle routes and tells you audio stories about what you're passing",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttirug/i_built_wendlore_an_app_that_generates_motorcycle/",
-      "tags": [
-        "一人公司",
-        "独立开发",
-        "产品冷启动",
-        "AI应用"
-      ]
-    },
-    {
-      "id": "3c495e2f729c",
-      "title": "Built a finance app that replaces Mint, Wave, and a tax spreadsheet - 25 testers in, still looking for more",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttf2ks/built_a_finance_app_that_replaces_mint_wave_and_a/",
-      "tags": [
-        "一人公司",
-        "AI工具",
-        "财务SaaS",
-        "冷启动"
-      ]
-    },
-    {
-      "id": "60d6c1486ef9",
-      "title": "AI meets Robotics for Water Quality Monitoring",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttj6v9/ai_meets_robotics_for_water_quality_monitoring/",
-      "tags": [
-        "AI机器人",
-        "环境监测",
-        "自主导航",
+        "DeepSeek",
+        "Vercel",
+        "开源代码",
         "一人公司"
-      ]
+      ],
+      "why_now": "",
+      "summary_en": "Cliento is a free, open-source AI Sales Advisor built with DeepSeek and Vercel that distills 30 years of B2B sales expertise into structured coaching prompts. The tool guides account executives through complex deals by identifying key stakeholders and diagnosing sales bottlenecks using a simple architecture of HTML/CSS/JS and serverless functions. Deployed at near-zero cost in under five minutes, it offers high-speed reasoning capabilities as a cost-effective alternative to GPT-4 for sales strategy.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "b45af335d250",
-      "title": "I built a \"Research Paper Writing Army\" – 20+ autonomous agents, 6 novelty engines, and 10 adversarial reviewers - Feel Free to contribute",
-      "summary": "",
+      "id": "3142c51ebbff",
+      "title": "Why Attractor Guided Engineering Cannot Be Demoted to an AI Agent Skill",
+      "summary": "文章指出“吸引子引导工程（AGE）”无法被降级为AI Agent的Skill，因为Skill本质是基于任务意图匹配的语义级哈希，仅解决一次性能力调用问题。AGE的核心在于通过领域结构在代码库长期演进中保持系统收敛并抑制轨迹漂移，这是单一技能封装所无法实现的。若将AGE实践简化为Skill，会破坏代码库级别的全局收敛机制，导致系统失去持续控制力。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/canonical/why-attractor-guided-engineering-cannot-be-demoted-to-an-ai-agent-skill-2iik",
+      "tags": [
+        "Agent架构",
+        "Engineering方法论"
+      ],
+      "why_now": "",
+      "summary_en": "Attractor Guided Engineering (AGE) preserves repository-level convergence and suppresses trajectory drift during long-term evolution, addressing limitations of standard \"Agent Skills.\" While skills function as semantic-level hash maps for one-shot task invocation, demoting AGE to a skill collapses critical control mechanisms into isolated capabilities. Consequently, AGE cannot be reduced to a simple reusable skill without losing the structural integrity required for stable AI-driven software engineering.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9fdf561cb123",
+      "title": "Building a Privacy-First Agentic OS: Announcing SamarthyaBot v2.3.0 🚀",
+      "summary": "SamarthyaBot v2.3.0 实现了 Linux、macOS 和 Windows 的跨平台兼容，通过动态 Shell 发现和上下文注入提示词确保 LLM 适配各操作系统约束。版本引入了多层安全沙箱机制，采用进程生成替代 Shell 解释、命令分段验证及工作区范围限制，有效防止命令注入。同时，Agent 技能扩展至 34 项，新增密码生成、Hindi 翻译及 SSRF 防护等功能，并通过零延迟斜杠命令提升响应速度。",
       "score": 6,
       "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttj01j/i_built_a_research_paper_writing_army_20/",
+      "source": "DEV Community",
+      "url": "https://dev.to/mebishnusahu0595/building-a-privacy-first-agentic-os-announcing-samarthyabot-v230-ogm",
       "tags": [
-        "agent工作流",
-        "论文写作",
-        "开源项目"
-      ]
-    },
-    {
-      "id": "ffa3b77da408",
-      "title": "GPU Prices. Buy now, or buy later?",
-      "summary": "",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt9r8j/gpu_prices_buy_now_or_buy_later/",
-      "tags": [
-        "GPU投资决策",
-        "本地推理",
-        "一人公司基础设施"
-      ]
-    },
-    {
-      "id": "9e174e9f2f79",
-      "title": "Built a fun weekend project: An MCP server for generating Mandelbrot visualizations",
-      "summary": "",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tte2cu/built_a_fun_weekend_project_an_mcp_server_for/",
-      "tags": [
-        "MCP",
-        "Agent工具",
-        "开源项目"
-      ]
-    },
-    {
-      "id": "63b3ceec52dc",
-      "title": "Added an old 2070 Super to my rig and I can't go back...worse, now I need more",
-      "summary": "",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsxul2/added_an_old_2070_super_to_my_rig_and_i_cant_go/",
-      "tags": [
-        "本地LLM",
-        "硬件优化",
-        "VRAM"
-      ]
-    },
-    {
-      "id": "67ddb8fdd83e",
-      "title": "Show HN: Forge an idea into a build-ready spec, on the AI engine you have",
-      "summary": "",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/r10d1nsec/hephaestus-forge",
-      "tags": [
-        "GitHub开源项目",
-        "AI工作流",
-        "需求规格生成"
-      ]
-    },
-    {
-      "id": "3737be81472b",
-      "title": "Show HN: Manger – Livestock Management App",
-      "summary": "",
-      "score": 6,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Hacker News Show HN",
-      "url": "https://www.manger.app/",
-      "tags": [
-        "一人公司",
-        "硬件创业",
-        "离线优先",
-        "RFID",
-        "本地AI集成"
-      ]
-    },
-    {
-      "id": "dec36f96df8d",
-      "title": "microsoft/markitdown",
-      "summary": "",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "GitHub Trending",
-      "url": "https://github.com/microsoft/markitdown",
-      "tags": [
-        "Python",
-        "文档处理",
-        "LLM"
-      ]
+        "Agent",
+        "开源项目",
+        "本地部署",
+        "隐私安全"
+      ],
+      "why_now": "",
+      "summary_en": "SamarthyaBot v2.3.0 introduces a cross-platform local Agentic AI OS supporting Linux, macOS, and Windows through dynamic shell discovery and Node execution fallbacks. The update enhances security with multi-layered sandboxing that prevents command injection via process spawning, argument validation, and workspace-scoped boundaries. Additionally, the tool now offers 34 native skills and zero-latency slash commands for routine tasks without LLM invocation.",
+      "trend_signal": true,
+      "trend_topic": "开源项目",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
     },
     {
       "id": "185b7659ee21",
       "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
-      "summary": "",
+      "summary": "NVIDIA 发布基于 NemoClaw、AI-Q 和 Nemotron 的工厂运营蓝图（FOX），为 DGX Station 优化以构建自主工厂管理智能体。富士康率先采用 FOX 构建 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
       "score": 6,
-      "topic": "AI新技术/新模型",
+      "topic": "AI对行业的冲击",
       "source": "AI热榜",
       "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
       "tags": [
+        "工业制造",
+        "智能体",
         "NVIDIA",
-        "Fox Agent",
-        "工厂自动化"
-      ]
+        "效率提升"
+      ],
+      "why_now": "",
+      "summary_en": "NVIDIA launched the Factory Operations Blueprint (FOX) at GTC Taipei, a reference design for autonomous factory management agents built on NVIDIA Nemotron and optimized for DGX Station. Pioneered by Foxconn to create the MoMClaw multi-agent system, the solution integrates real-time machine signals and quality data to unify factory decision-making. Early adopters report an 80% reduction in root cause analysis time, a 15% increase in labor productivity, and a 10% decrease in machine failure rates.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "a481b5ba6472",
-      "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
-      "summary": "",
+      "id": "05a73fe5bec2",
+      "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+      "summary": "NVIDIA 预计于 6 月发布与联发科合作的 ARM 笔记本芯片 N1X，该芯片整合了基于 Blackwell 架构的 GPU 及 AI 单元。其目标是使轻薄本具备接近 RTX 4070 的图形性能。这一战略举措标志着 NVIDIA 从显卡供应商转型为整机核心方案提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。",
       "score": 6,
       "topic": "AI新技术/新模型",
       "source": "AI热榜",
-      "url": "https://x.com/kimmonismus/status/2061058117304262999",
+      "url": "https://x.com/AYi_AInotes/status/2060779431648547016",
       "tags": [
-        "苹果WWDC",
-        "Gemini蒸馏模型",
-        "设备端AI",
-        "Google Cloud",
-        "Nvidia机密计算"
-      ]
+        "NVIDIA",
+        "ARM芯片",
+        "PC硬件"
+      ],
+      "why_now": "",
+      "summary_en": "NVIDIA plans to launch the N1X ARM laptop chip, a joint collaboration with MediaTek, on June 1, featuring a CPU, Blackwell architecture GPU, and AI unit. The chip aims to deliver graphics performance comparable to the RTX 4070 in lightweight notebooks, signaling a strategic shift from graphics supplier to core solution provider. This move directly challenges Intel, AMD, and Qualcomm in the PC market.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "2c4995ffada2",
-      "title": "提前看看，今年新 iPhone 系统长什么样｜WWDC26",
-      "summary": "",
+      "id": "764359f8be0c",
+      "title": "DynoSim：模拟帕累托前沿",
+      "summary": "DynoSim 通过模拟帕累托前沿解决大语言模型服务难以调优的问题。它针对模型后端、张量并行形状、预填充/解码分割等相互关联的参数进行全局优化，避免局部优化导致瓶颈转移。",
       "score": 6,
       "topic": "AI新技术/新模型",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1667454?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "AI热榜",
+      "url": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
       "tags": [
-        "Apple Intelligence",
-        "WWDC26",
-        "Siri升级"
-      ]
+        "LLM推理优化",
+        "LLM部署调优"
+      ],
+      "why_now": "",
+      "summary_en": "DynoSim addresses the complex tuning challenges of modern LLM services, such as tensor parallel shapes, worker counts, and KV cache behaviors, where local optimizations often shift bottlenecks. It enables the simulation of Pareto fronts to effectively navigate these interrelated deployment choices across multiple layers.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "0c2c2fdae453",
-      "title": "早报｜曝苹果眼镜明年底发布/英伟达首款自研芯片PC本周亮相/特斯拉推出Model Y原厂手动遮阳帘",
-      "summary": "",
+      "id": "9641c7cd6876",
+      "title": "Codex可自主管理对话线程与并行任务",
+      "summary": "Codex现已具备自主管理对话线程的能力，支持自动创建、搜索、整理和固定重要线程。针对并行任务，该技术引入了工作树机制，实现了对多线程的高效管理与隔离。",
       "score": 6,
-      "topic": "AI对行业的冲击",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1667599?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "topic": "AI工具实操/Agent工作流",
+      "source": "AI热榜",
+      "url": "https://x.com/gdb/status/2060486309886443787",
       "tags": [
-        "AI硬件",
-        "算力能耗",
-        "AI就业影响"
-      ]
+        "Codex",
+        "工作流自动化"
+      ],
+      "why_now": "",
+      "summary_en": "Codex now autonomously manages its interface by creating, searching, organizing, and pinning conversation threads. It supports parallel tasks through the initiation of work trees.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "803c8495d276",
-      "title": "追觅开放融资，单笔投资门槛最低3.5亿，Pre-IPO轮投前估值或700亿",
-      "summary": "",
-      "score": 6,
-      "topic": "AI投融资动态",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3834192173737859?f=rss",
-      "tags": [
-        "Pre-IPO融资",
-        "估值700亿",
-        "追觅"
-      ]
-    },
-    {
-      "id": "24cd397b5278",
-      "title": "英伟达：Anthropic、OpenAI等企业将率先采用新款Vera芯片",
-      "summary": "",
+      "id": "6fc86224e193",
+      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+      "summary": "AOMedia 正式发布 AV2 视频标准（最终 v1.0 规范）。该规范旨在为下一代视频编码提供统一标准，以取代现有的 AV1 技术。",
       "score": 6,
       "topic": "AI新技术/新模型",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3834111706834560?f=rss",
+      "source": "Hacker News Best",
+      "url": "https://av2.aomedia.org",
       "tags": [
-        "英伟达",
-        "Vera芯片",
-        "数据中心基建"
-      ]
+        "视频编码",
+        "技术标准"
+      ],
+      "why_now": "",
+      "summary_en": "The AOMedia has released the final v1.0 specification for the AV2 video codec, designed to offer significant efficiency gains over its predecessor. This standard aims to reduce bandwidth and storage requirements while maintaining high video quality, marking a key advancement in next-generation video compression technology.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "35b192f95cc0",
-      "title": "宁德时代等入股赛力斯旗下赛豆科技公司",
-      "summary": "",
-      "score": 6,
-      "topic": "AI投融资动态",
-      "source": "36氪",
-      "url": "https://36kr.com/newsflashes/3834069899192192?f=rss",
-      "tags": [
-        "AI投融资",
-        "宁德时代",
-        "赛豆科技"
-      ]
-    },
-    {
-      "id": "12748bc14d33",
-      "title": "I got my first paying customer",
-      "summary": "",
+      "id": "d041d3cb1f02",
+      "title": "It's another Monday, drop your product. What are you building?",
+      "summary": "Productburst是一个支持初创企业和创作者的免费产品发布平台，目前已支持超过4500个产品及创作者，月访问量达2.5万。该平台旨在帮助用户免费发布产品、获取反馈、获得反向链接以及吸引早期用户。",
       "score": 5,
       "topic": "OPC/AI赚钱案例",
       "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttgfee/i_got_my_first_paying_customer/",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttketr/its_another_monday_drop_your_product_what_are_you/",
       "tags": [
-        "第一个付费客户",
         "一人公司",
-        "冷启动"
-      ]
+        "冷启动",
+        "社区推广"
+      ],
+      "why_now": "",
+      "summary_en": "Productburst is a free product launching platform that supports startups and creators with features including feedback, backlinks, and early user acquisition. The platform currently hosts over 4,500 products and creators while generating more than 25,000 monthly visitors.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "07feb3288fcf",
+      "title": "I built a weird little side project called Tip Jar.",
+      "summary": "Tip Jar 是一个基于社交实验理念的项目，用户通过支付1美元以上的小费并留下公开留言来竞争成为当前“持有者”。该项目使用了 TanStack Start、Supabase、Stripe Checkout 和 Vercel 等技术构建，并设定了当累计金额达到1,000美元等里程碑时改变网站视觉效果的机制。",
+      "score": 5,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ttenkf/i_built_a_weird_little_side_project_called_tip_jar/",
+      "tags": [
+        "侧车项目",
+        "技术栈分享",
+        "社会实验"
+      ],
+      "why_now": "",
+      "summary_en": "Tip Jar is a social experiment allowing users to tip $1+ to claim \"ownership\" of the jar, with the highest bidder becoming the Current Owner and triggering site changes at milestones like $1,000. Built using TanStack Start, Supabase, Stripe Checkout, Vercel, and Spline, it functions as a novelty-driven competition for recognition rather than a utilitarian tool.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
       "id": "c207b2601bf7",
       "title": "Built an app to satisfies my addiction to typing and language learning at the same time.",
-      "summary": "",
+      "summary": "开发者开发了“LangTyper”应用，旨在解决中文拼音输入与手写脱节的问题，实现打字练习与语言学习的结合。该应用提供1-5级难度模式、鼠标悬停翻译及登录用户的准确率等统计追踪功能，目前已上线供用户反馈。",
       "score": 5,
       "topic": "OPC/AI赚钱案例",
       "source": "Reddit r/SideProject",
       "url": "https://www.reddit.com/r/SideProject/comments/1ttdnce/built_an_app_to_satisfies_my_addiction_to_typing/",
       "tags": [
-        "一人公司",
-        "语言学习",
-        "独立开发",
-        "冷启动"
-      ]
+        "独立开发者",
+        "工具介绍"
+      ],
+      "why_now": "",
+      "summary_en": "The author developed LangTyper, a web app at https://app.langtyper.com/ that integrates touch-typing practice with Chinese language learning using Pinyin. The platform features five sentence difficulty modes, hover-to-translate functionality, and statistical tracking for user accuracy and word counts.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "4ae89c698233",
-      "title": "Built a tool that auto captions and converts videos for any platform. Already has 20 users.",
-      "summary": "",
-      "score": 5,
-      "topic": "OPC/AI赚钱案例",
-      "source": "Reddit r/SideProject",
-      "url": "https://www.reddit.com/r/SideProject/comments/1ttf47u/built_a_tool_that_auto_captions_and_converts/",
-      "tags": [
-        "视频工具",
-        "一人公司",
-        "冷启动"
-      ]
-    },
-    {
-      "id": "6bc995463d46",
-      "title": "A rational conversation on where AI is actually going | Benedict Evans",
-      "summary": "",
+      "id": "be16dbbb1785",
+      "title": "What happens when companies become too AI-pilled?",
+      "summary": "Box创始人Aaron Levie将盲目相信AI能替代工作的现象定义为“AI精神病”，指出决策者往往并不理解工作的真实内涵。以ClickUp为例，该公司近期因部署AI代理裁减了22%的员工，这一裁员规模反映出2026年的科技行业裁员趋势正逼近2025年全年水平。",
       "score": 5,
       "topic": "AI对行业的冲击",
-      "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
       "tags": [
-        "Benedict Evans",
-        "AI行业分析",
-        "一人公司/OPC 信号"
-      ]
+        "AI裁员",
+        "职场观点"
+      ],
+      "why_now": "",
+      "summary_en": "Box founder Aaron Levie warns that executives dismissing human roles exemplify \"AI psychosis,\" a trend driving tech layoffs in 2026 to nearly match the previous year's volume. This phenomenon is exemplified by ClickUp, which recently cut 22% of its workforce to prioritize AI agents.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "e48e1e23f160",
-      "title": "Use HTML as the primary chat language of your LLM's so they can make interactive content",
-      "summary": "",
+      "id": "901b43cfd946",
+      "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+      "summary": "Box创始人Aaron Levie指出高管存在“AI精神病”现象，导致其误判岗位价值。以ClickUp为例，该公司近期裁减了22%的员工以引入AI智能体，且2026年的科技裁员规模已接近2025年全年。",
       "score": 5,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tter4t/use_html_as_the_primary_chat_language_of_your/",
+      "topic": "AI对行业的冲击",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
       "tags": [
-        "LLM",
-        "HTML输出",
-        "交互式内容",
-        "一次性软件",
-        "Agent工作流"
-      ]
+        "AI裁员",
+        "CEO认知"
+      ],
+      "why_now": "",
+      "summary_en": "Box founder Aaron Levie identifies a trend of \"AI psychosis\" where executives lack genuine understanding of roles, leading to significant workforce reductions. This is evidenced by ClickUp cutting 22% of its staff for AI agents, with tech layoffs in 2026 already matching the volume of all 2025 layoffs.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "bedf11f83acf",
-      "title": "Stepfun 3.7 Flash is very good",
-      "summary": "",
+      "id": "e1f1a694869b",
+      "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+      "summary": "搭载FSD V14.3.3版本的特斯拉汽车历时4天21小时，完成全球首次全程零人工干预、横跨加拿大的6051公里自动驾驶行程。车辆从温哥华行驶至哈利法克斯，期间所有驾驶操作包括高速并线和自动泊车均由系统自主完成，无任何系统退出或人工修正。",
       "score": 5,
       "topic": "AI新技术/新模型",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/",
+      "source": "AI热榜",
+      "url": "https://www.ithome.com/0/957/718.htm",
       "tags": [
-        "Stepfun 3.7 Flash",
-        "本地模型对比"
-      ]
+        "特斯拉",
+        "FSD",
+        "自动驾驶"
+      ],
+      "why_now": "",
+      "summary_en": "A Tesla equipped with FSD V14.3.3 successfully completed the first global 6,051-kilometer autonomous drive across Canada from Vancouver to Halifax in 4 days and 21 hours. The journey featured zero human intervention, with the system autonomously managing all driving operations, including highway lane changes and complex terrain handling, without any exits or corrections. This achievement was delivered via the 2026.14.6.6 update, which integrates spring software features.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "fda0bd32a75c",
-      "title": "Show HN: AgentThreatBench – Benchmark for AI Agent Memory Security",
-      "summary": "",
+      "id": "db50bb46fabd",
+      "title": "Nano Banana Pro与Nano Banana 2正式发布",
+      "summary": "Google 正式发布 Nano Banana Pro（基于 gemini-3-pro-image）和 Nano Banana 2（基于 gemini-3.1-flash-image），两者现已可通过 Gemini API 投入生产使用。",
       "score": 5,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://x.com/googleaidevs/status/2060685345738375640",
       "tags": [
-        "AI Agent",
-        "Memory Security",
-        "Benchmark",
-        "OWASP",
-        "GitHub"
-      ]
+        "模型发布",
+        "Gemini API"
+      ],
+      "why_now": "",
+      "summary_en": "Gemini-3-pro-image (Nano Banana Pro) and Gemini-3.1-flash-image (Nano Banana 2) are officially released and available for production via the Gemini API.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "e63eced64c56",
-      "title": "Show HN: Llmff v1.0 FFmpeg for Inference",
-      "summary": "",
+      "id": "1e85d65c358e",
+      "title": "xAI放弃JAX GPU转向自研训练框架",
+      "summary": "xAI因JAX堆栈在NVIDIA GPU上的机器利用率（MFU）低于10%，决定放弃JAX转而自研训练框架Grok Build。",
       "score": 5,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/syndicalt/llmff",
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://x.com/SemiAnalysis_/status/2060571944575963482",
       "tags": [
-        "开源工具",
-        "LLM部署"
-      ]
+        "xAI",
+        "JAX",
+        "训练框架",
+        "基础设施"
+      ],
+      "why_now": "",
+      "summary_en": "xAI has abandoned the JAX and NVIDIA GPU stack due to a Meshflow Utilization (MFU) below 10%, switching to a self-developed C-based training framework.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "5ccade801878",
-      "title": "8点1氪丨停服三年后，天涯社区正式恢复访问；广东辟谣高考将用AI改卷；MiniMax拟科创板上市",
-      "summary": "",
+      "id": "394973d37030",
+      "title": "耀客传媒等成立AI新公司，注册资本100万",
+      "summary": "北京市橘耀客人工智能有限公司近日成立，注册资本100万人民币。该公司由上海耀客文化股份有限公司与深圳市相由橘生数字科技有限公司共同持股，业务涵盖人工智能应用基础及理论算法软件开发。",
       "score": 5,
       "topic": "AI投融资动态",
       "source": "36氪",
-      "url": "https://36kr.com/p/3833859545343618?f=rss",
+      "url": "https://36kr.com/newsflashes/3834273572792192?f=rss",
       "tags": [
-        "MiniMax科创板上市",
-        "OpenAI数学难题",
-        "AI公司IPO纪录"
-      ]
+        "初创公司",
+        "文娱行业"
+      ],
+      "why_now": "",
+      "summary_en": "Beijing Juanyoke AI Co., Ltd., a new subsidiary jointly established by Shanghai Yoke Culture and Shenzhen Xiangyou Jus Digital Technology, was recently incorporated with a registered capital of 1 million RMB. The company's business scope focuses on the development of artificial intelligence application software, foundational software, and theoretical algorithms.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     },
     {
-      "id": "b061ce37eec1",
-      "title": "“世纪合并”落空，雅诗兰黛松了一口气",
-      "summary": "",
-      "score": 5,
-      "topic": "AI对行业的冲击",
-      "source": "36氪",
-      "url": "https://36kr.com/p/3825786926633607?f=rss",
-      "tags": [
-        "美妆",
-        "行业整合",
-        "家族企业"
-      ]
-    },
-    {
-      "id": "5924bbd53efe",
-      "title": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
-      "summary": "",
+      "id": "2c4995ffada2",
+      "title": "提前看看，今年新 iPhone 系统长什么样｜WWDC26",
+      "summary": "iOS 27将支持iPhone 12系列，重点通过重构底层代码提升稳定性，并优化“液态玻璃”界面设计。AI方面，Siri将被打造为独立应用的对话式机器人（SiriBot），深度整合Apple Intelligence能力。新功能涵盖跨应用信息调用、相机“视觉智能”、照片AI重构以及快捷指令的自然语言搭建。",
       "score": 5,
       "topic": "AI新技术/新模型",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/05/427005.html",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1667454?utm_source=rss&utm_medium=rss&utm_campaign=",
       "tags": [
-        "Agent",
-        "Tool",
-        "CUA训练范式"
-      ]
+        "WWDC26",
+        "Siri",
+        "Apple Intelligence"
+      ],
+      "why_now": "",
+      "summary_en": "iOS 27 and macOS 27 focus on stabilizing the \"Liquid Glass\" interface, optimizing performance, and retiring support for iPhone 11 and older devices. The update significantly enhances Apple Intelligence, particularly Siri, which gains independent app status, deep cross-app integration, and multimodal capabilities, while also introducing AI-powered photo editing features like \"Recompose\" and \"Expand.\"",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
     }
   ]
 }
