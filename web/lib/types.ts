@@ -15,12 +15,16 @@ export type DigestItem = {
   trend_confidence?: "high" | "medium" | "low" | "";
 };
 
-export type BuildDirection = {
-  direction: string;
+export type BuildProject = {
+  name: string;
+  description: string;
+  target_user: string;
+  core_features: string[];
+  related_trends: string[];
   why_now: string;
-  evidence: string[];
-  difficulty: "easy" | "medium" | "hard";
   monetization: string;
+  difficulty: "easy" | "medium" | "hard";
+  estimated_mvp_days?: number;
 };
 
 export type DigestItemWithDate = DigestItem & {
@@ -31,7 +35,7 @@ export type DailyDigest = {
   date: string;
   highlights: string[];
   items: DigestItem[];
-  directions?: BuildDirection[];
+  directions?: BuildProject[];
   social_post?: { zh?: string; en?: string };
   x_thread?: string[];
 };

@@ -1,7 +1,7 @@
-import type { BuildDirection } from "@/lib/types";
+import type { BuildProject } from "@/lib/types";
 
 type Props = {
-  directions: BuildDirection[];
+  directions: BuildProject[];
 };
 
 const difficultyColors: Record<string, string> = {
@@ -22,41 +22,73 @@ export function BuildDirections({ directions }: Props) {
   return (
     <section className="mb-8">
       <h2 className="text-subhead mb-4">
-        🎯 今日构建方向
+        🎯 可做的项目
         <span className="text-sm font-normal text-muted ml-2">
-          来自 AI 分析的 OPC 建议
+          基于 7 天以上持续趋势
         </span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {directions.map((d, i) => (
+        {directions.map((p, i) => (
           <div
             key={i}
             className="card-surface p-5 border-l-4 border-accent"
           >
             <div className="flex items-start justify-between gap-2 mb-2">
               <h3 className="font-semibold text-[15px] leading-snug text-foreground">
-                {d.direction}
+                {p.name}
               </h3>
-              <span
-                className={`shrink-0 px-2 py-0.5 rounded-full text-xs font-medium ${difficultyColors[d.difficulty]}`}
-              >
-                {difficultyLabels[d.difficulty] || d.difficulty}
-              </span>
+              <div className="flex items-center gap-2 shrink-0">
+                <span
+                  className={`px-2 py-0.5 rounded-full text-xs font-medium ${difficultyColors[p.difficulty]}`}
+                >
+                  {difficultyLabels[p.difficulty] || p.difficulty}
+                </span>
+                {p.estimated_mvp_days && (
+                  <span className="text-xs text-muted">
+                    {p.estimated_mvp_days}天MVP
+                  </span>
+                )}
+              </div>
             </div>
 
+            <p className="text-sm text-muted mb-2">
+              {p.description}
+            </p>
+
+            <p className="text-sm text-muted mb-2">
+              👤 {p.target_user}
+            </p>
+
             <p className="text-sm text-amber-600 dark:text-amber-400 mb-2">
-              ⏰ {d.why_now}
+              ⏰ {p.why_now}
             </p>
 
-            <p className="text-sm text-muted mb-3">
-              💰 {d.monetization}
+            {p.core_features && p.core_features.length > 0 && (
+              <div className="text-sm text-muted mb-2">
+                <span className="font-medium">核心功能：</span>
+                <ul className="mt-1 space-y-0.5">
+                  {p.core_features.map((f, j) => (
+                    <li key={j} className="ml-3">• {f}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <p className="text-sm text-muted mb-2">
+              💰 {p.monetization}
             </p>
 
-            {d.evidence && d.evidence.length > 0 && (
-              <div className="text-xs text-muted">
-                <span className="font-medium">依据：</span>
-                {d.evidence.join("；")}
+            {p.related_trends && p.related_trends.length > 0 && (
+              <div className="flex flex-wrap gap-1 mt-2">
+                {p.related_trends.map((t, j) => (
+                  <span
+                    key={j}
+                    className="px-2 py-0.5 rounded-full text-xs bg-accent/10 text-accent"
+                  >
+                    {t}
+                  </span>
+                ))}
               </div>
             )}
           </div>
