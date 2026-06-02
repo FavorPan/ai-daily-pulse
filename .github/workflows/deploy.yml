@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages
 
+# 已停用自动触发：站点改用 Cloudflare Pages 部署（监听 main 分支 push）。
+# 此 workflow 保留为备份，仅支持手动触发，避免与 CF Pages 重复构建。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

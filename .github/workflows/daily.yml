@@ -1,4 +1,4 @@
-name: Daily AI Pulse — Generate & Publish
+name: Daily AI Pulse — Generate
 
 on:
   schedule:
@@ -43,17 +43,3 @@ jobs:
           git add output/ data/
           git diff --cached --quiet || git commit -m "chore: daily output $(date -u +%Y-%m-%d)"
           git push
-
-      - name: Setup xurl
-        if: ${{ secrets.XURL_CONFIG != '' }}
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh | bash
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-          mkdir -p ~/.xurl
-          echo "${{ secrets.XURL_CONFIG }}" | base64 -d > ~/.xurl/config.yaml
-
-      - name: Publish to X
-        if: ${{ secrets.XURL_CONFIG != '' }}
-        env:
-          API_KEY: ${{ secrets.API_KEY }}
-        run: python publish.py --lang zh
