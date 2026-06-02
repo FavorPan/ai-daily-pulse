@@ -6403,33 +6403,51 @@
       "score": 5
     },
     {
-      "url": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-      "pushed_at": "2026-06-02",
-      "title": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tukrtf/qwen_3635ba3b_with_977_tks_prompt_processing_and/",
-      "pushed_at": "2026-06-02",
-      "title": "Qwen 3.6-35B-A3B with 977 tk/s prompt processing and 262k context window on Intel Arc B70 Pro",
-      "score": 9
-    },
-    {
       "url": "https://www.ifanr.com/1667829?utm_source=rss&utm_medium=rss&utm_campaign=",
       "pushed_at": "2026-06-02",
       "title": "Anthropic 抢跑 IPO，AI 巨头接连秘密上市，背后是怎样的攻防战",
       "score": 9
     },
     {
-      "url": "https://x.com/shao__meng/status/2061612512580346245",
+      "url": "https://x.com/AYi_AInotes/status/2061419197154857286",
       "pushed_at": "2026-06-02",
-      "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
+      "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
       "score": 9
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tudmvr/still_need_to_think_like_a_dev_even_if_you_do/",
+      "url": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
       "pushed_at": "2026-06-02",
-      "title": "Still need to think like a dev even if you do vibe coding. No?",
+      "title": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tu9qob/stripe_mcp_for_churn_analysis/",
+      "pushed_at": "2026-06-02",
+      "title": "Stripe MCP for Churn Analysis",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+      "pushed_at": "2026-06-02",
+      "title": "Pasted File Editor",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/mcsee/ai-coding-tip-022-give-ai-a-harness-to-work-with-274a",
+      "pushed_at": "2026-06-02",
+      "title": "AI Coding Tip 022 - Give AI a Harness to Work With",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/vikasprogrammer/i-priced-10-saas-tools-vs-self-hosting-in-2026-3-cost-more-heres-which-4n0a",
+      "pushed_at": "2026-06-02",
+      "title": "I Priced 10 SaaS Tools vs Self-Hosting in 2026 (3 Cost More, Here's Which)",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tui1sl/nvidialocateanything3b_detects_sushi_as_sweet_in/",
+      "pushed_at": "2026-06-02",
+      "title": "nvidia-LocateAnything-3B detects sushi as sweet in the video demo",
       "score": 8
     },
     {
@@ -6445,22 +6463,22 @@
       "score": 8
     },
     {
+      "url": "https://x.com/Khazix0918/status/2061669881725309048",
+      "pushed_at": "2026-06-02",
+      "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+      "score": 8
+    },
+    {
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "pushed_at": "2026-06-02",
       "title": "Anthropic 保密向 SEC 提交 S-1 草案",
       "score": 8
     },
     {
-      "url": "https://36kr.com/p/3835814391100550?f=rss",
+      "url": "https://x.com/vista8/status/2061443708374208769",
       "pushed_at": "2026-06-02",
-      "title": "豆包6月下旬正式付费，并加速打通抖音电商丨36氪独家",
+      "title": "作者分享使用 Codex App 开发的开源项目合集",
       "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tu9qob/stripe_mcp_for_churn_analysis/",
-      "pushed_at": "2026-06-02",
-      "title": "Stripe MCP for Churn Analysis",
-      "score": 7
     },
     {
       "url": "https://www.reddit.com/r/SideProject/comments/1tumqjt/i_built_handler_to_review_ai_code_before_it/",
@@ -6469,9 +6487,9 @@
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tumpe1/i_built_a_tool_that_shows_any_github_repos_real/",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tungox/hollywood_just_proved_the_ai_video_business_model/",
       "pushed_at": "2026-06-02",
-      "title": "I built a tool that shows any GitHub repo's real test coverage in 2 min (no CI setup)",
+      "title": "Hollywood just proved the ai video business model by accident and this is what small operators should take from it.",
       "score": 7
     },
     {
@@ -6481,51 +6499,33 @@
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/video-agents",
+      "url": "https://github.com/jrecyclebin/jabsco",
       "pushed_at": "2026-06-02",
-      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "title": "Show HN: Jabsco – agent harness that works remotely through RDP",
       "score": 7
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
+      "url": "https://www.therundown.ai/p/nvidia-corners-the-ai-agent-stack",
       "pushed_at": "2026-06-02",
-      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
+      "title": "Nvidia corners the AI agent stack",
       "score": 7
     },
     {
-      "url": "https://dev.to/uzoma_uche_3ec83974b4a8a5/claudemd-as-a-forcing-function-how-writing-a-project-constitution-cleans-up-your-tooling-3bhk",
+      "url": "https://dev.to/cognitalk/xaide-ethan-heqian-nvidia-cosmoscan-yu-zhe-tan-videogenvideo-agents-1am9",
       "pushed_at": "2026-06-02",
-      "title": "CLAUDE.md as a Forcing Function: How Writing a Project Constitution Cleans Up Your Tooling",
+      "title": "xAI的Ethan He(前NVIDIA Cosmos参与者 )谈Videogen,Video Agents",
       "score": 7
     },
     {
-      "url": "https://dev.to/monirz001/building-your-first-mcp-server-in-go-1l6a",
+      "url": "https://dev.to/arihantdeva/how-claude-codes-skills-system-actually-works-3d81",
       "pushed_at": "2026-06-02",
-      "title": "Building Your First MCP Server in Go",
+      "title": "How Claude Code's Skills System Actually Works",
       "score": 7
     },
     {
-      "url": "https://dev.to/dotnetwithai/5-surprises-migrating-net-framework-to-net-9-with-claude-opus-39fp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tukrtf/qwen_3635ba3b_with_977_tks_prompt_processing_and/",
       "pushed_at": "2026-06-02",
-      "title": "5 Surprises Migrating .NET Framework to .NET 9 with Claude Opus",
-      "score": 7
-    },
-    {
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "pushed_at": "2026-06-02",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-      "pushed_at": "2026-06-02",
-      "title": "AI Agent Guidelines for CS336 at Stanford",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/pbakaus/impeccable",
-      "pushed_at": "2026-06-02",
-      "title": "pbakaus/impeccable",
+      "title": "Qwen 3.6-35B-A3B with 977 tk/s prompt processing and 262k context window on Intel Arc B70 Pro",
       "score": 7
     },
     {
@@ -6541,45 +6541,27 @@
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
+      "url": "https://www.qbitai.com/2026/06/427729.html",
       "pushed_at": "2026-06-02",
-      "title": "Intel Arc Pro B70 llama.cpp benchmarks posted",
+      "title": "机器人运控训练步入分钟级时代！清华AIR开源UniLab：3分钟训好人形，速度暴涨10倍，Mac上也能跑",
       "score": 7
     },
     {
-      "url": "https://www.ifanr.com/1667792?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "url": "https://36kr.com/p/3835814391100550?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "早报｜OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首日被挤爆",
+      "title": "豆包6月下旬正式付费，并加速打通抖音电商丨36氪独家",
       "score": 7
     },
     {
-      "url": "https://www.ifanr.com/1667680?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "url": "https://36kr.com/p/3834544830721671?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率",
+      "title": "豆包6月下旬正式付费，并加速打通抖音电商丨独家",
       "score": 7
     },
     {
-      "url": "https://www.ithome.com/0/958/810.htm",
+      "url": "https://x.com/StepFun_ai/status/2061655529731342402",
       "pushed_at": "2026-06-02",
-      "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/Khazix0918/status/2061669881725309048",
-      "pushed_at": "2026-06-02",
-      "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
-      "score": 7
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
-      "pushed_at": "2026-06-02",
-      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/perplexity_ai/status/2061506359326384319",
-      "pushed_at": "2026-06-02",
-      "title": "Perplexity发布Search as Code搜索架构",
+      "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
       "score": 7
     },
     {
@@ -6589,10 +6571,34 @@
       "score": 7
     },
     {
-      "url": "https://36kr.com/p/3826034537223043?f=rss",
+      "url": "https://x.com/OpenRouter/status/2061452942385783050",
       "pushed_at": "2026-06-02",
-      "title": "量坤科技获数亿元天使轮融资，AI4S急需量子级精度数据 | 36氪独家",
+      "title": "构建每周千美元预算上限的智能体教程",
       "score": 7
+    },
+    {
+      "url": "https://x.com/OpenBMB/status/2061432928492810535",
+      "pushed_at": "2026-06-02",
+      "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "pushed_at": "2026-06-02",
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/video-agents",
+      "pushed_at": "2026-06-02",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tudmvr/still_need_to_think_like_a_dev_even_if_you_do/",
+      "pushed_at": "2026-06-02",
+      "title": "Still need to think like a dev even if you do vibe coding. No?",
+      "score": 6
     },
     {
       "url": "https://www.reddit.com/r/SideProject/comments/1tum7ky/aisdr_review_has_anyone_gotten_real_meetings_from/",
@@ -6601,15 +6607,15 @@
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tul6bx/i_built_an_mvp_that_tracks_your_bikes_maintenance/",
-      "pushed_at": "2026-06-02",
-      "title": "I built an MVP that tracks your bike's maintenance with a single picture",
-      "score": 6
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1tukegg/ai_slop_helped_me_to_transform_my_private_cli/",
       "pushed_at": "2026-06-02",
       "title": "AI Slop helped me to transform my private CLI tool in a usable App for normal people",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tumjzn/spent_a_year_building_a_stressrecovery_app_for/",
+      "pushed_at": "2026-06-02",
+      "title": "Spent a year building a stress/recovery app for myself — solved the privacy part by keeping raw health data on-device",
       "score": 6
     },
     {
@@ -6625,27 +6631,15 @@
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tuiuuh/built_qrnotify_an_anonymous_scantomessage_layer/",
       "pushed_at": "2026-06-02",
-      "title": "Pasted File Editor",
+      "title": "Built QrNotify: An anonymous 'Scan-to-Message' layer for physical objects. Keep your identity completely private.",
       "score": 6
     },
     {
-      "url": "https://news.ycombinator.com/item?id=48367301",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
       "pushed_at": "2026-06-02",
-      "title": "Show HN: Assist Debug Card for Home Assistant",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/jrecyclebin/jabsco",
-      "pushed_at": "2026-06-02",
-      "title": "Show HN: Jabsco – agent harness that works remotely through RDP",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/memex-lab/memex",
-      "pushed_at": "2026-06-02",
-      "title": "Show HN: Memex – A local-first AI journal that keeps everything as Markdown",
+      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
       "score": 6
     },
     {
@@ -6655,57 +6649,45 @@
       "score": 6
     },
     {
-      "url": "https://dev.to/spekond_152d06042cf902f82/agentic-coding-without-guardrails-how-ai-can-break-your-software-architecture-32am",
+      "url": "https://datm.nl/chat-together/",
       "pushed_at": "2026-06-02",
-      "title": "Agentic Coding Without Guardrails: How AI Can Break Your Software Architecture",
+      "title": "Show HN: PoC to use the Chrome Prompt API on other people's machine",
       "score": 6
     },
     {
-      "url": "https://dev.to/devil_scrapes/reverb-scraper-pull-historical-sold-prices-for-any-musical-gear-425e",
+      "url": "https://news.ycombinator.com/item?id=48367301",
       "pushed_at": "2026-06-02",
-      "title": "Reverb Scraper: pull historical sold prices for any musical gear",
+      "title": "Show HN: Assist Debug Card for Home Assistant",
       "score": 6
     },
     {
-      "url": "https://mullvad.net/en/blog/age-verification-for-social-media-the-beginning-of-the-end-for-a-free-internet",
+      "url": "https://github.com/memex-lab/memex",
       "pushed_at": "2026-06-02",
-      "title": "Age verification for social media, the beginning of the end for a free internet?",
+      "title": "Show HN: Memex – A local-first AI journal that keeps everything as Markdown",
       "score": 6
     },
     {
-      "url": "https://github.com/cyberpapiii/chipotlai-max",
+      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
       "pushed_at": "2026-06-02",
-      "title": "Chipotlai Max",
+      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
       "score": 6
     },
     {
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
       "pushed_at": "2026-06-02",
-      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "title": "Alphabet plans to raise $80B to pay for AI buildout",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "url": "https://dev.to/palash_bagchi_cbdebd259d4/non-human-identity-nhi-in-2026-the-hidden-backbone-and-biggest-risk-in-the-age-of-agentic-ai-l9n",
       "pushed_at": "2026-06-02",
-      "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "title": "Non-Human Identity (NHI) in 2026: The Hidden Backbone and Biggest Risk in the Age of Agentic AI",
       "score": 6
     },
     {
-      "url": "https://cs336.stanford.edu/",
+      "url": "https://dev.to/albert_zhang_f468830cf0e6/real-time-monitoring-for-ai-agents-beyond-log-streaming-4d6h",
       "pushed_at": "2026-06-02",
-      "title": "CS336: Language Modeling from Scratch",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu9vgv/i_hate_to_be_this_guy_but_any_good_recent_coding/",
-      "pushed_at": "2026-06-02",
-      "title": "I hate to be this guy but: Any good, recent CODING models in the 70-80B range?",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/",
-      "pushed_at": "2026-06-02",
-      "title": "Stepfun 3.7 Flash: Sonic-like platformer",
+      "title": "Real-Time Monitoring for AI Agents: Beyond Log Streaming",
       "score": 6
     },
     {
@@ -6715,69 +6697,33 @@
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/06/427810.html",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu625w/stepfun_37_flash_soniclike_platformer/",
       "pushed_at": "2026-06-02",
-      "title": "字节开源统一框架Bernini：给DiT配个“大模型军师”，AI视频编辑先理解再动手",
+      "title": "Stepfun 3.7 Flash: Sonic-like platformer",
       "score": 6
     },
     {
-      "url": "https://x.com/StepFun_ai/status/2061655529731342402",
+      "url": "https://github.com/pbakaus/impeccable",
       "pushed_at": "2026-06-02",
-      "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+      "title": "pbakaus/impeccable",
       "score": 6
     },
     {
-      "url": "https://x.com/Replit/status/2061534759520760112",
+      "url": "https://www.ifanr.com/1667792?utm_source=rss&utm_medium=rss&utm_campaign=",
       "pushed_at": "2026-06-02",
-      "title": "Replit 用单个提示词构建完整业务",
+      "title": "早报｜OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首日被挤爆",
       "score": 6
     },
     {
-      "url": "https://www.ithome.com/0/958/444.htm",
+      "url": "https://36kr.com/p/3800191597583621?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "智谱：建议 A 股发行并在科创板上市",
+      "title": "深创投押注全球植纤皮革头部品牌，超级皮儿PEELSPHERE®完成近亿级融资｜36氪首发",
       "score": 6
     },
     {
-      "url": "https://x.com/vista8/status/2061443708374208769",
+      "url": "https://36kr.com/newsflashes/3835905603646592?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "作者分享使用 Codex App 开发的开源项目合集",
-      "score": 6
-    },
-    {
-      "url": "https://x.com/OpenBMB/status/2061432928492810535",
-      "pushed_at": "2026-06-02",
-      "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/958/410.htm",
-      "pushed_at": "2026-06-02",
-      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3835387558065541?f=rss",
-      "pushed_at": "2026-06-02",
-      "title": "36氪首发｜原小天才团队做老年硬件，切入居家看护赛道，即将进入海外市场",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3834292242130825?f=rss",
-      "pushed_at": "2026-06-02",
-      "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3834400181741440?f=rss",
-      "pushed_at": "2026-06-02",
-      "title": "首轮融资数千万美元、估值2.5亿美元，「Aippy」正在打造下一代AI游戏社区 | 36氪首发",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3835278829008257?f=rss",
-      "pushed_at": "2026-06-02",
-      "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
+      "title": "惠丰钻石“30CM”涨停，公司回应：对产品是否应用到金刚石散热领域不知情",
       "score": 6
     },
     {
@@ -6793,15 +6739,81 @@
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tui8f2/i_sell_3d_printed_art_for_runners/",
+      "url": "https://www.ithome.com/0/958/810.htm",
       "pushed_at": "2026-06-02",
-      "title": "I sell 3d printed art for runners",
+      "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/shao__meng/status/2061612512580346245",
+      "pushed_at": "2026-06-02",
+      "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
+      "score": 6
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
+      "pushed_at": "2026-06-02",
+      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/OpenRouter/status/2061476882470580329",
+      "pushed_at": "2026-06-02",
+      "title": "Auto Router 新增成本质量权衡参数",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/958/444.htm",
+      "pushed_at": "2026-06-02",
+      "title": "智谱：建议 A 股发行并在科创板上市",
+      "score": 6
+    },
+    {
+      "url": "https://x.com/SenseTime_AI/status/2061465029959209106",
+      "pushed_at": "2026-06-02",
+      "title": "SenseNova新模型解决AI图表生成难题",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/958/410.htm",
+      "pushed_at": "2026-06-02",
+      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
+      "score": 6
+    },
+    {
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "pushed_at": "2026-06-02",
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/cyberpapiii/chipotlai-max",
+      "pushed_at": "2026-06-02",
+      "title": "Chipotlai Max",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "pushed_at": "2026-06-02",
+      "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "score": 6
+    },
+    {
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "pushed_at": "2026-06-02",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tul34f/why_were_building_beryl_a_vibe_verify_manifesto/",
+      "pushed_at": "2026-06-02",
+      "title": "Why we're building Beryl: A \"Vibe & Verify\" manifesto for the solo builder.",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tujadv/i_built_a_keyword_research_tool_for_kdp_authors/",
+      "url": "https://www.reddit.com/r/SideProject/comments/1tumpe1/i_built_a_tool_that_shows_any_github_repos_real/",
       "pushed_at": "2026-06-02",
-      "title": "I built a keyword research tool for KDP authors as a side project — looking for beta users",
+      "title": "I built a tool that shows any GitHub repo's real test coverage in 2 min (no CI setup)",
       "score": 5
     },
     {
@@ -6811,45 +6823,33 @@
       "score": 5
     },
     {
-      "url": "https://www.therundown.ai/p/nvidia-corners-the-ai-agent-stack",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1ttyxmz/i_spent_a_two_months_being_too_soft_to_sell_my/",
       "pushed_at": "2026-06-02",
-      "title": "Nvidia corners the AI agent stack",
+      "title": "I spent a two months being too soft to sell my own product. Done.",
       "score": 5
     },
     {
-      "url": "https://github.com/kouhxp/fftext",
+      "url": "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything",
       "pushed_at": "2026-06-02",
-      "title": "Show HN: CPU-only fact-check, summarize, explain, translate anything",
+      "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
       "score": 5
     },
     {
-      "url": "https://chromewebstore.google.com/detail/contextbridge-–-local-rag/jokgmcedjecppdfnbicfonbmgjpbglko?authuser=0&hl=en-GB",
+      "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
       "pushed_at": "2026-06-02",
-      "title": "Show HN: ContextBridge – Local-first AI reading sidebar using Ollama",
+      "title": "Water access is now a risk factor in SpaceX’s IPO",
       "score": 5
     },
     {
-      "url": "https://dillondesilva.substack.com/p/playing-with-genomics-foundation",
+      "url": "https://dev.to/tokenmixai/gpt-56-is-real-a-codex-log-says-so-everything-else-is-made-up-1ep1",
       "pushed_at": "2026-06-02",
-      "title": "Show HN: Playing with genomics foundation models | Tutorial/Explainer article",
+      "title": "GPT-5.6 Is Real (a Codex Log Says So) — Everything Else Is Made Up",
       "score": 5
     },
     {
-      "url": "https://dev.to/alterlab/build-a-token-efficient-rag-pipeline-with-pgvector-markdown-bae",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuh5ko/moss_tts_15_8b_examples_it_is_the_currently_best/",
       "pushed_at": "2026-06-02",
-      "title": "Build a Token-Efficient RAG Pipeline with pgvector & Markdown",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/ashutosh_piprode_cb7575e3/open-source-ai-hugging-face-and-the-building-blocks-of-modern-ai-development-4911",
-      "pushed_at": "2026-06-02",
-      "title": "Open-Source AI, Hugging Face, and the Building Blocks of Modern AI Development",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-      "pushed_at": "2026-06-02",
-      "title": "Alphabet plans to raise $80B to pay for AI buildout",
+      "title": "Moss tts 1.5 8b Examples. It is the currently best voice cloning model for English as of June 2026",
       "score": 5
     },
     {
@@ -6859,45 +6859,21 @@
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "url": "https://www.qbitai.com/2026/06/427810.html",
       "pushed_at": "2026-06-02",
-      "title": "This AI weather startup is out-forecasting government agencies",
+      "title": "字节开源统一框架Bernini：给DiT配个“大模型军师”，AI视频编辑先理解再动手",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tum94w/dual_rtx_3090_build/",
+      "url": "https://36kr.com/p/3834292242130825?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "Dual rtx 3090 build",
+      "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu2kbq/computex_2026_intel_launches_crescent_island_gpu/",
+      "url": "https://36kr.com/p/3835278829008257?f=rss",
       "pushed_at": "2026-06-02",
-      "title": "Computex 2026: Intel launches Crescent Island GPU with up to 480GB VRAM",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/06/427729.html",
-      "pushed_at": "2026-06-02",
-      "title": "机器人运控训练步入分钟级时代！清华AIR开源UniLab：3分钟训好人形，速度暴涨10倍，Mac上也能跑",
-      "score": 5
-    },
-    {
-      "url": "https://x.com/AYi_AInotes/status/2061419197154857286",
-      "pushed_at": "2026-06-02",
-      "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
-      "score": 5
-    },
-    {
-      "url": "https://x.com/alibaba_cloud/status/2061400724018217381",
-      "pushed_at": "2026-06-02",
-      "title": "Apache RocketMQ 发布 AI 专用消息引擎",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3835511712363657?f=rss",
-      "pushed_at": "2026-06-02",
-      "title": "做了18年民宿的爱彼迎，开始卖酒店了？",
+      "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
       "score": 5
     }
   ]
