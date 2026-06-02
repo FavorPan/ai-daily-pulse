@@ -6,6 +6,9 @@ on:
     - cron: "17 23 * * *"
   workflow_dispatch:  # 手动触发
 
+permissions:
+  contents: write
+
 jobs:
   generate-and-publish:
     runs-on: ubuntu-latest
