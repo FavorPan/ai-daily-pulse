@@ -1,8 +1,8 @@
 [api]
 api_key = ""                    # or set env var API_KEY
-base_url = "https://api.deepseek.com"
-scoring_model = "deepseek-v4-flash"
-summary_model = "deepseek-v4-flash"
+base_url = "https://openrouter.ai/api/v1"
+scoring_model = "openrouter/owl-alpha"
+summary_model = "openrouter/owl-alpha"
 price_in_per_m = 0.14
 price_out_per_m = 0.28
 
