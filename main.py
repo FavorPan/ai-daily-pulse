@@ -96,7 +96,8 @@ def main():
     dedup_count = len(kept) + len([r for r in rejected if r.get("score", 0) >= 5])
 
     if not kept:
-        logger.info("No articles passed the quality filter today.")
+        logger.info("No articles passed the quality filter today. Skipping digest write.")
+        sys.exit(0)
 
     # Generate insights: build directions + social post + X thread
     t_insights = time.monotonic()
