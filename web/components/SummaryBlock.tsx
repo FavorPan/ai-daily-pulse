@@ -32,6 +32,15 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
         </div>
       </div>
 
+      {item.why_now && (
+        <div>
+          <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("whyNow")}</div>
+          <div className="text-sm text-amber-600 dark:text-amber-400 leading-relaxed">
+            💡 {item.why_now}
+          </div>
+        </div>
+      )}
+
       {item.tags.length > 0 && (
         <div>
           <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("tags")}</div>

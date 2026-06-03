@@ -53,7 +53,7 @@ export function ProjectCard({ item, showDate = false }: Props) {
 
       {item.why_now && (
         <p className="text-sm text-amber-600 dark:text-amber-400 mb-3 line-clamp-1">
-          ⏰ {item.why_now}
+          💡 {item.why_now}
         </p>
       )}
 
