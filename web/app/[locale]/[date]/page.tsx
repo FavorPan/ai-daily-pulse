@@ -48,7 +48,7 @@ export default async function DatePage({ params }: PageProps) {
             <span className="text-sm font-normal text-muted">({trending.length})</span>
           </h2>
           <Link
-            href={`/${locale}/explore/`}
+            href={`/${locale}/explore/${data.date}/`}
             className="text-sm text-accent hover:opacity-80 transition-opacity"
           >
             {t("viewAll")}

@@ -6,13 +6,24 @@ export function DateSwitcher({ dates, locale }: { dates: string[]; locale?: stri
   const router = useRouter();
   const pathname = usePathname();
 
-  // Extract current date from pathname (e.g., /zh-CN/2026-05-29/ -> 2026-05-29)
+  // Extract current date and detect page type from pathname
   const segments = pathname.split("/").filter(Boolean);
-  // segments: [locale, date?] or [locale, "item", date, id]
+  // segments examples:
+  //   [locale]              -> home
+  //   [locale, date]        -> date page
+  //   [locale, "explore"]   -> explore (no date)
+  //   [locale, "explore", date] -> explore with date
+  //   [locale, "item", date, id] -> item detail
+
+  const isExplore = segments[1] === "explore";
+
+  // Current date: for explore pages it's segments[2], for others it's segments[1]
   const currentDate =
-    segments.length >= 2 && segments[1] !== "item" && segments[1] !== "explore" && segments[1] !== "about"
-      ? segments[1]
-      : dates[0] ?? "";
+    isExplore
+      ? (segments.length >= 3 ? segments[2] : dates[0] ?? "")
+      : segments.length >= 2 && segments[1] !== "item" && segments[1] !== "about"
+        ? segments[1]
+        : dates[0] ?? "";
 
   if (dates.length === 0) return null;
 
@@ -25,7 +36,11 @@ export function DateSwitcher({ dates, locale }: { dates: string[]; locale?: stri
       aria-label="Select date"
       onChange={(e) => {
         const d = e.target.value;
-        router.push(`/${loc}/${d}/`);
+        if (isExplore) {
+          router.push(`/${loc}/explore/${d}/`);
+        } else {
+          router.push(`/${loc}/${d}/`);
+        }
       }}
     >
       {dates.map((d) => (
