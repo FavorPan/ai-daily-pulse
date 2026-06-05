@@ -1,5 +1,7 @@
 # AI Daily Pulse
 
+[📖 Read this in English](README-en.md)
+
 > 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 47 个信息源自动抓取 → 规则预筛选 → AI 智能评分 → 语义去重 → 趋势检测 → 构建方向提炼 → 中英双语日报，每天早上打开就能看。
 
 ---
