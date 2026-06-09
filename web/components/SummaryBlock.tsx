@@ -41,11 +41,11 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
         </div>
       )}
 
-      {item.tags.length > 0 && (
+      {Array.isArray(item.tags) && item.tags.length > 0 && (
         <div>
           <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("tags")}</div>
           <div className="flex flex-wrap gap-2">
-            {item.tags.map((tag) => (
+            {item.tags.map((tag: string) => (
               <span
                 key={tag}
                 className="text-xs px-2.5 py-1 rounded-md bg-surface-muted text-muted border border-border font-mono"

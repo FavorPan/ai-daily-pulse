@@ -214,13 +214,19 @@ def score_article(article: dict, client: OpenAI, model: str) -> dict:
         result = _call_with_retry(client, model, prompt, max_tokens=384, json_mode=True)
         topic = result.get("topic", "无关")
         score = int(result.get("score", 0))
+        tags = result.get("tags", [])
+        # Normalize: LLM sometimes returns tags as a comma-separated string
+        if isinstance(tags, str):
+            tags = [t.strip() for t in tags.split(",") if t.strip()]
+        elif not isinstance(tags, list):
+            tags = []
         is_github_trending = article.get("source") == "GitHub Trending"
         threshold = 4 if is_github_trending else 5
         keep = score >= threshold and topic != "无关"
         article.update({
             "topic": topic,
             "score": score,
-            "tags": result.get("tags", []),
+            "tags": tags,
             "keep": keep,
         })
     except Exception as e:

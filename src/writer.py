@@ -93,6 +93,12 @@ def build_digest_json(articles: list[dict], date: str, insights: dict | None = N
     sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
     items = []
     for a in sorted_articles:
+        tags = a.get("tags", [])
+        # Normalize: ensure tags is always a list
+        if isinstance(tags, str):
+            tags = [t.strip() for t in tags.split(",") if t.strip()]
+        elif not isinstance(tags, list):
+            tags = []
         items.append({
             "id": url_to_id(a["url"]),
             "title": a["title"],
@@ -101,7 +107,7 @@ def build_digest_json(articles: list[dict], date: str, insights: dict | None = N
             "topic": a["topic"],
             "source": a["source"],
             "url": a["url"],
-            "tags": a.get("tags", []),
+            "tags": tags,
             "why_now": a.get("why_now", ""),
             "summary_en": a.get("summary_en", ""),
             "trend_signal": a.get("trend_signal", False),

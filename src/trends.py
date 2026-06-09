@@ -93,6 +93,10 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
     for a in articles:
         # 优先用 LLM 标签（更精准），再补充文本关键词
         tags = a.get("tags", [])
+        if isinstance(tags, str):
+            tags = [t.strip() for t in tags.split(",") if t.strip()]
+        elif not isinstance(tags, list):
+            tags = []
         keywords = set()
         # LLM 标签直接作为关键词（不拆分，保留完整短语）
         for tag in tags:
@@ -137,6 +141,10 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
 
         text = f"{a.get('title', '')} {a.get('summary', '')}"
         tags = a.get("tags", [])
+        if isinstance(tags, str):
+            tags = [t.strip() for t in tags.split(",") if t.strip()]
+        elif not isinstance(tags, list):
+            tags = []
         keywords = set()
         for tag in tags:
             tag_clean = tag.strip().lower()
