@@ -104,7 +104,10 @@
     "crossPlatform": "Trending across {count} platforms",
     "homeBanner": "{count} buildable project(s) today",
     "homeBannerHint": "Based on real community discussion heat — see what's worth building",
-    "homeBannerCta": "View Builder →"
+    "homeBannerCta": "View Builder →",
+    "expand": "Show details",
+    "collapse": "Hide details",
+    "discussionLinks": "Discussion links"
   },
   "common": {
     "loading": "Loading..."

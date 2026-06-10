@@ -25,7 +25,7 @@ export default async function BuilderPage({ params }: PageProps) {
     <div>
       {/* Header */}
       <div className="mb-6">
-        <h1 className="text-headline">🛠️ {t("title")}</h1>
+        <h1 className="text-headline">{t("title")}</h1>
         <p className="text-sm text-muted mt-1">{t("subtitle")}</p>
         <p className="text-xs text-muted mt-0.5">{t("dataSource")}</p>
       </div>
@@ -41,6 +41,7 @@ export default async function BuilderPage({ params }: PageProps) {
               key={i}
               project={proj}
               maxEngagement={maxEngagement}
+              index={i}
             />
           ))}
         </div>

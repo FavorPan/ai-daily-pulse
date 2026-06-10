@@ -104,7 +104,10 @@
     "crossPlatform": "跨 {count} 个平台热议",
     "homeBanner": "今日有 {count} 个可做的项目",
     "homeBannerHint": "基于真实社区讨论热度，看看今天值得做什么",
-    "homeBannerCta": "查看 Builder →"
+    "homeBannerCta": "查看 Builder →",
+    "expand": "展开详情",
+    "collapse": "收起详情",
+    "discussionLinks": "讨论链接"
   },
   "common": {
     "loading": "加载中..."

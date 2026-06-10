@@ -33,7 +33,7 @@ export default async function BuilderDatePage({ params }: PageProps) {
     <div>
       {/* Header */}
       <div className="mb-6">
-        <h1 className="text-headline">🛠️ {t("title")}</h1>
+        <h1 className="text-headline">{t("title")}</h1>
         <p className="text-sm text-muted mt-1">
           {date} · {t("subtitle")}
         </p>
@@ -51,6 +51,7 @@ export default async function BuilderDatePage({ params }: PageProps) {
               key={i}
               project={proj}
               maxEngagement={maxEngagement}
+              index={i}
             />
           ))}
         </div>

@@ -15,19 +15,28 @@ export function BuilderOverview({ itemsCount, directions }: Props) {
   ).length;
 
   const stats = [
-    { label: t("overviewArticles", { count: itemsCount }), value: itemsCount },
-    { label: t("overviewTopics", { count: hotTopics }), value: hotTopics },
-    { label: t("overviewProjects", { count: directions.length }), value: directions.length },
+    { value: itemsCount, label: t("overviewArticles", { count: itemsCount }) },
+    { value: hotTopics, label: t("overviewTopics", { count: hotTopics }) },
+    { value: directions.length, label: t("overviewProjects", { count: directions.length }) },
   ];
 
   return (
-    <section className="mb-8">
-      <h2 className="text-subhead mb-4">{t("overview")}</h2>
-      <div className="flex flex-wrap gap-6">
-        {stats.map((s) => (
-          <div key={s.label} className="text-center min-w-[80px]">
-            <div className="text-2xl font-bold text-accent">{s.value}</div>
-            <div className="text-xs text-muted mt-0.5">{s.label}</div>
+    <section className="mb-10">
+      <h2 className="text-xs font-semibold uppercase tracking-[0.14em] text-muted mb-4">
+        {t("overview")}
+      </h2>
+      <div className="flex items-center gap-0">
+        {stats.map((s, i) => (
+          <div key={s.label} className="flex items-center gap-0">
+            {i > 0 && (
+              <div className="w-px h-8 bg-border mx-5" />
+            )}
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-bold text-accent tabular-nums">
+                {s.value}
+              </span>
+              <span className="text-sm text-muted">{s.label}</span>
+            </div>
           </div>
         ))}
       </div>
