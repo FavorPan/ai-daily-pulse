@@ -82,12 +82,14 @@ Duration: 66s total (fetch 6s + scoring 55s + dedup 0s + summary 5s)
 
 Browse the digest online: [**ai-daily-pulse.top**](https://ai-daily-pulse.top)
 
-- **Home**: today's pulse + 🎯 Buildable Projects (AI product ideas from 7-day persistent trends) + featured articles
+- **Home**: today's pulse + featured articles
+- **Builder**: actionable AI project ideas from 7-day persistent trends, with difficulty rating, MVP days, monetization, and community heat. Cards default collapsed showing key info, click to expand details
 - **Explore**: filter by topic, search by keyword
 - **Detail**: full summary, AI insight, tags, original link
 - **Date switcher**: top bar dropdown to browse historical digests
 - **Multilingual**: zh-CN / zh-TW / English
 - **Dark mode**: auto-follows system or manual toggle
+- **Root path**: `/` auto-redirects to `/zh-CN/`
 
 Hosted on Cloudflare Pages, auto-updated after every GitHub Actions run.
 
@@ -413,8 +415,10 @@ ai-daily-pulse/
 │   ├── app/
 │   │   ├── [locale]/
 │   │   │   ├── layout.tsx       # Top bar, search, date switcher, multilingual, dark mode
-│   │   │   ├── page.tsx         # Home: today's pulse + build directions + featured
+│   │   │   ├── page.tsx         # Home: today's pulse + featured
 │   │   │   ├── [date]/page.tsx  # Historical date page
+│   │   │   ├── builder/page.tsx # Builder: buildable projects (collapsible cards)
+│   │   │   ├── builder/[date]/page.tsx  # Builder historical date
 │   │   │   ├── explore/page.tsx # Explore: topic filtering
 │   │   │   ├── item/[date]/[id]/page.tsx  # Article detail
 │   │   │   └── about/page.tsx   # About page

@@ -81,12 +81,14 @@ Token: 76K in / 4.2K out | 成本: $0.012
 
 在线浏览日报：[**ai-daily-pulse.top**](https://ai-daily-pulse.top)
 
-- **首页**：今日脉搏 + 🎯 可做的项目（基于 7 天持续趋势的 AI 产品建议）+ 精选文章
+- **首页**：今日脉搏 + 精选文章
+- **Builder（可做项目）**：基于 7 天持续趋势的 AI 产品建议，含难度评级、MVP 天数、变现模式、社区热度。卡片默认折叠只展示关键信息，点击展开查看详情
 - **探索**：按主题筛选、关键词搜索
 - **详情**：查看单篇完整摘要、AI 评语、标签、原文链接
 - **日期切换**：顶栏下拉可浏览历史日报
 - **多语言**：zh-CN / zh-TW / English 三语切换
 - **暗色模式**：自动跟随系统或手动切换
+- **根路径**：访问 `/` 自动跳转 `/zh-CN/`
 
 部署在 Cloudflare Pages，每次 GitHub Actions 跑完自动更新。
 
@@ -411,8 +413,10 @@ ai-daily-pulse/
 │   ├── app/
 │   │   ├── [locale]/
 │   │   │   ├── layout.tsx       # 顶栏、搜索、日期切换、多语言、暗色模式
-│   │   │   ├── page.tsx         # 首页：今日脉搏 + 构建方向 + 精选
+│   │   │   ├── page.tsx         # 首页：今日脉搏 + 精选
 │   │   │   ├── [date]/page.tsx  # 历史日期页面
+│   │   │   ├── builder/page.tsx # Builder：可做项目（折叠卡片）
+│   │   │   ├── builder/[date]/page.tsx  # Builder 历史日期
 │   │   │   ├── explore/page.tsx # 探索：主题筛选
 │   │   │   ├── item/[date]/[id]/page.tsx  # 文章详情
 │   │   │   └── about/page.tsx   # 关于页面

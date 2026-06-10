@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Daily Pulse - Web Frontend
 
-## Getting Started
+Next.js 16 static export frontend for [AI Daily Pulse](https://ai-daily-pulse.top).
 
-First, run the development server:
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Auto-redirect to `/zh-CN/` |
+| `/[locale]/` | Home: today's pulse + featured articles |
+| `/[locale]/builder/` | Builder: collapsible project cards with community heat |
+| `/[locale]/builder/[date]/` | Builder for a specific date |
+| `/[locale]/explore/` | All articles with topic filter + search |
+| `/[locale]/explore/[date]/` | Explore for a specific date |
+| `/[locale]/item/[date]/[id]/` | Single article detail |
+| `/[locale]/about/` | About page |
+
+## Tech Stack
+
+- **Next.js 16** + React 19 + TypeScript
+- **Tailwind CSS 3** with CSS variable theming (light/dark)
+- **next-intl** for i18n (zh-CN / zh-TW / en)
+- **next-themes** for dark mode toggle
+- **Static export** (`output: "export"`) for Cloudflare Pages
+
+## Development
 
 ```bash
+cd web
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The app reads digest JSON from `../output/`. Make sure you've run `python main.py` at least once, or the repo already contains `output/latest.json`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Output goes to `web/out/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployed to Cloudflare Pages at [ai-daily-pulse.top](https://ai-daily-pulse.top):
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Build command: `cd web && npm install && npm run build`
+- Output directory: `web/out`
+- Environment: `NODE_VERSION=20`, `SKIP_DEPENDENCY_INSTALL=true`
