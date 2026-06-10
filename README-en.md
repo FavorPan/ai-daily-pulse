@@ -2,7 +2,7 @@
 
 [📖 阅读中文版](README.md)
 
-> 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 47 sources auto-fetched → rule-based prefiltering → AI scoring → semantic dedup → trend detection → build direction extraction → bilingual daily digest. Open it every morning and you're caught up.
+> 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 47 sources auto-fetched → rule-based prefiltering → AI scoring → semantic dedup → trend detection → last30days build direction extraction → bilingual daily digest. Open it every morning and you're caught up.
 
 ---
 
@@ -18,7 +18,7 @@ Every day, a flood of AI news is published across dozens of platforms. Manually 
 4. **Jaccard title dedup**: coarse similarity screening first, only sends suspicious duplicates to AI for precise judgment
 5. **Bilingual summaries**: auto-generates Chinese + English summaries for every selected article
 6. **Trend detection**: cross-source clustering based on LLM tags, identifying recurring themes
-7. **Build direction extraction**: based on 7-day cumulative trends, auto-generates actionable AI project suggestions (difficulty, MVP days, monetization)
+7. **Build direction extraction**: based on last30days community discussion heat, auto-generates actionable AI project suggestions (difficulty, MVP days, monetization)
 8. **Social media copy**: auto-generates X/Twitter post copy + Thread
 
 The entire process is fully automated. All you need to do is **open it once a day**.
@@ -83,7 +83,7 @@ Duration: 66s total (fetch 6s + scoring 55s + dedup 0s + summary 5s)
 Browse the digest online: [**ai-daily-pulse.top**](https://ai-daily-pulse.top)
 
 - **Home**: today's pulse + featured articles
-- **Builder**: actionable AI project ideas from 7-day persistent trends, with difficulty rating, MVP days, monetization, and community heat. Cards default collapsed showing key info, click to expand details
+- **Builder**: actionable AI project ideas distilled from the past 30 days of real community discussion, with difficulty rating, MVP days, monetization, and community heat. Cards default collapsed showing key info, click to expand details
 - **Explore**: filter by topic, search by keyword
 - **Detail**: full summary, AI insight, tags, original link
 - **Date switcher**: top bar dropdown to browse historical digests
@@ -321,10 +321,10 @@ Detailed per-topic scoring rubrics are in [PROMPTS.md](PROMPTS.md).
 
 ### Build Direction Extraction (BuilderPulse)
 
-`src/insights.py` doesn't just look at what's hot today — it analyzes **themes that have persisted over the past 7 days**:
+`src/insights.py` uses last30days to globally search real community discussion data and match against today's articles:
 
-1. Loads the past 7 days of digest JSON
-2. Identifies tags that have appeared for 7+ consecutive days
+1. Calls last30days to search Reddit/Hacker News discussions from the past 30 days
+2. Picks the top 2 articles by discussion heat
 3. Only persistent trends generate build suggestions — filters out one-day-wonder hype
 4. LLM generates exactly 2 concrete, actionable projects, each with:
    - Product name, description, target user
