@@ -6403,447 +6403,585 @@
       "score": 5
     },
     {
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "pushed_at": "2026-06-09",
-      "title": "RyanCodrai/turbovec",
+      "url": "https://dev.to/_53fb7c03dd741a6124e4e/yeogdae-coegang-modeli-pokesmoneul-bijeonmaneuro-ggaessda-fable-5-gagyeogseongneung-jeongri-3nch",
+      "pushed_at": "2026-06-10",
+      "title": "역대 최강 모델이 포켓몬을 비전만으로 깼다 — Fable 5 가격·성능 정리",
       "score": 9
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u06qb0/got_tired_of_ats_filtering_me_out_so_i_built_one/",
-      "pushed_at": "2026-06-09",
-      "title": "Got tired of ATS filtering me out, so i built one that filters companies instead",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/",
+      "pushed_at": "2026-06-10",
+      "title": "Our ICML paper on predictable hallucination (information-budget abstention gate), + ntkMirror: a training-free open-weight implementation we're releasing today",
+      "score": 9
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "pushed_at": "2026-06-10",
+      "title": "Claude Fable 5 和 Claude Mythos 5",
+      "score": 9
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-frontiercode-benchmarking",
+      "pushed_at": "2026-06-10",
+      "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
       "score": 8
     },
     {
-      "url": "https://dev.to/raxxostudios/5-claude-api-errors-that-cost-me-money-and-how-i-trapped-them-2abi",
-      "pushed_at": "2026-06-09",
-      "title": "5 Claude API Errors That Cost Me Money (And How I Trapped Them)",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "pushed_at": "2026-06-10",
+      "title": "RyanCodrai/turbovec",
       "score": 8
-    },
-    {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "pushed_at": "2026-06-09",
-      "title": "mvanhorn/last30days-skill",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
-      "pushed_at": "2026-06-09",
-      "title": "Luce Spark: a 35B MoE on a 16 GB GPU, without the offload tax",
-      "score": 8
-    },
-    {
-      "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
-      "pushed_at": "2026-06-09",
-      "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0okqs/finna_euhosted_search_and_rag_for_ai_apps_keyword/",
-      "pushed_at": "2026-06-09",
-      "title": "Finna – EU-hosted search and RAG for AI apps (keyword + vector + hybrid)",
-      "score": 7
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/shopping-with-claude",
-      "pushed_at": "2026-06-09",
-      "title": "Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz",
-      "score": 7
-    },
-    {
-      "url": "https://twitter.com/konstipaulus/status/2064011863889788972",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: Generate production grade Lottie animations with Claude Code",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "pushed_at": "2026-06-09",
-      "title": "Leonxlnx/taste-skill",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/lfnovo/open-notebook",
-      "pushed_at": "2026-06-09",
-      "title": "lfnovo/open-notebook",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u08zhx/3090_gemma4_qat_mtp_quick_tps_numbers_tldr_1218x/",
-      "pushed_at": "2026-06-09",
-      "title": "[3090] Gemma4 QAT + MTP quick TPS numbers [TLDR 1.2-1.8x better]",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0p3b2/pipeline_parallelism_in_llamacpp_may_be_wasting/",
-      "pushed_at": "2026-06-09",
-      "title": "Pipeline parallelism in llama.cpp may be wasting your VRAM",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0isbo/qwen3635ba3b_tool_calling_benchmark_byteshape_vs/",
-      "pushed_at": "2026-06-09",
-      "title": "Qwen3.6-35B-A3B tool calling benchmark: ByteShape vs. Unsloth GGUFs, KV cache quants & long context performance",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3844006775360002?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3841459663030532?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "「华超神控」获亿元天使系列融资，加速打造新一代AI超声脑机接口平台 | 36氪首发",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3845178784434688?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "马斯克谈SpaceX未来规划，展示AI数据中心卫星更多细节",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3845169671850247?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "SpaceX、OpenAI、Anthropic相继推进上市进程，全球超级IPO潮或重塑市场预期",
-      "score": 7
-    },
-    {
-      "url": "https://www.anthropic.com/research/agents-in-biology",
-      "pushed_at": "2026-06-09",
-      "title": "为生物学AI智能体铺路",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/XiaomiMiMo/status/2063993790587904362",
-      "pushed_at": "2026-06-09",
-      "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1，000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/xiaohu/status/2063972223170556302",
-      "pushed_at": "2026-06-09",
-      "title": "小互开源视频翻译工具：一句话自动下载、转写、翻译、烧字幕",
-      "score": 7
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
-      "pushed_at": "2026-06-09",
-      "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1668274?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "300 个 AI 和我的八块腹肌",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1668041?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "英伟达：带领 PC，重铸 PC｜硬哲学",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1668337?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "对话 MiniMax 择因：Agent 终会超过人类，我们又将何去何从？",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tzztv9/my_side_project_went_viral_then_someone_cloned/",
-      "pushed_at": "2026-06-09",
-      "title": "My side project went viral, then someone cloned the source and shared it publicly",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0ivkd/i_built_an_app_that_converts_any_text_into/",
-      "pushed_at": "2026-06-09",
-      "title": "I built an app that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.",
-      "score": 6
-    },
-    {
-      "url": "https://www.therundown.ai/p/washington-wants-a-piece-of-openai",
-      "pushed_at": "2026-06-09",
-      "title": "Washington wants a piece of OpenAI",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0kbzw/built_a_news_map_to_help_people_understand/",
-      "pushed_at": "2026-06-09",
-      "title": "Built a news map to help people understand stories instead of headlines",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0li53/i_got_1300_visitors_in_30_days_from_people_tired/",
-      "pushed_at": "2026-06-09",
-      "title": "I got 1,300 visitors in 30 days from people tired of paywalled \"free\" tools. Just shipped an AI background remover.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0kcy0/my_first_app_a_tool_that_scans_leases_for_risky/",
-      "pushed_at": "2026-06-09",
-      "title": "My first app: a tool that scans leases for risky clauses",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0j78p/i_built_a_free_skill_that_takes_you_from_i_have/",
-      "pushed_at": "2026-06-09",
-      "title": "I built a free skill that takes you from \"I have an app idea\" to a real plan and solid MVP",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0mbp5/any_link_to_md_file/",
-      "pushed_at": "2026-06-09",
-      "title": "Any link to MD file",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u08hwa/launched_yesterday_celebrating_small_wins/",
-      "pushed_at": "2026-06-09",
-      "title": "Launched yesterday. Celebrating small wins",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1u0m34e/my_12yearold_built_an_ai_chess_roast_app_now_hes/",
-      "pushed_at": "2026-06-09",
-      "title": "My 12-year-old built an AI chess roast app - now he’s building AI World Cup fan bots. Would love feedback",
-      "score": 6
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
-      "pushed_at": "2026-06-09",
-      "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
-      "score": 6
-    },
-    {
-      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
-      "pushed_at": "2026-06-09",
-      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
-      "score": 6
-    },
-    {
-      "url": "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/",
-      "pushed_at": "2026-06-09",
-      "title": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
-      "score": 6
-    },
-    {
-      "url": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
-      "pushed_at": "2026-06-09",
-      "title": "The Smallest Brain You Can Build: A Perceptron in Python",
-      "score": 6
-    },
-    {
-      "url": "https://www.cc.dev/",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: Command Center, the AI coding env for people who care about quality",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/las7/Guarden",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: Guarden – Authorization for AI agent actions powered by OPA",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/Nick-is-building/ast-guard",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: AST-guard – Fast, zero-cost structural checks for LLM code execution",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/Alradyin/wallie-V2",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: Wallie – Open-source AI streamer that watches and hears your screen",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/kerbelp/metatron",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: Metatron – give coding agents your team's conventions over MCP",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/pvgomes/agent-platforms-have-migrations-too-lk1",
-      "pushed_at": "2026-06-09",
-      "title": "agent platforms have migrations too",
-      "score": 6
     },
     {
       "url": "https://github.com/refactoringhq/tolaria",
-      "pushed_at": "2026-06-09",
+      "pushed_at": "2026-06-10",
       "title": "refactoringhq/tolaria",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/santifer/career-ops",
+      "pushed_at": "2026-06-10",
+      "title": "santifer/career-ops",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/phuryn/pm-skills",
+      "pushed_at": "2026-06-10",
+      "title": "phuryn/pm-skills",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "pushed_at": "2026-06-10",
+      "title": "Andyyyy64/whichllm",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "pushed_at": "2026-06-10",
+      "title": "Panniantong/Agent-Reach",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1m8bd/finetuned_qwen257b_to_96_of_claude_haiku_on_a/",
+      "pushed_at": "2026-06-10",
+      "title": "Fine-tuned Qwen2.5-7B to 96% of Claude Haiku on a domain-specific task using ~$3 of API calls and zero human labelers",
+      "score": 8
+    },
+    {
+      "url": "https://36kr.com/p/3845645258541319?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "登顶GitHub Hacker News，这个开源项目让AI编程成本降低 98%｜涌现新项目",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1668423?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-10",
+      "title": "微信发布Skill 文档，数百万小程序，一夜之间变成了 AI 的手和脚",
+      "score": 8
+    },
+    {
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "pushed_at": "2026-06-10",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
+      "pushed_at": "2026-06-10",
+      "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
+      "score": 8
+    },
+    {
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "pushed_at": "2026-06-10",
+      "title": "What it feels like to work with Mythos",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/hashwnath/KMCP",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: KnowledgeMCP – Turn any docs into an MCP endpoint (0 LLM at query time)",
+      "score": 7
+    },
+    {
+      "url": "https://craftbot.live",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: The agent that builds and operates its own SaaS tools",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/sarhej/claude-fix",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: Separate Work/Personal Claude Desktop profiles on one Mac(bash,no deps)",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "pushed_at": "2026-06-10",
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+      "pushed_at": "2026-06-10",
+      "title": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/michael_manley/stop-sending-every-ai-coding-request-to-the-expensive-model-33g",
+      "pushed_at": "2026-06-10",
+      "title": "Stop sending every AI coding request to the expensive model",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/quolu/how-i-fixed-the-infinite-feedback-loop-when-auditing-project-plans-with-claude-4gh",
+      "pushed_at": "2026-06-10",
+      "title": "How I Fixed the Infinite Feedback Loop When Auditing Project Plans with Claude",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "pushed_at": "2026-06-10",
+      "title": "mvanhorn/last30days-skill",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/MemPalace/mempalace",
+      "pushed_at": "2026-06-10",
+      "title": "MemPalace/mempalace",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "pushed_at": "2026-06-10",
+      "title": "CopilotKit/CopilotKit",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "pushed_at": "2026-06-10",
+      "title": "luongnv89/claude-howto",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/",
+      "pushed_at": "2026-06-10",
+      "title": "Cohere North Mini Code 1.0",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1l9u4/furiosa_ai_selling_inference_chip_to_consumer/",
+      "pushed_at": "2026-06-10",
+      "title": "Furiosa AI selling inference chip to consumer market will be a game changer to local llm",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u11wvo/jetson_orin_nx_build_for_hermes_agent_benchmarking/",
+      "pushed_at": "2026-06-10",
+      "title": "Jetson Orin NX Build for Hermes Agent + Benchmarking",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/",
+      "pushed_at": "2026-06-10",
+      "title": "I put together a Rust-native, CPU-only implementation of LFM2.5-8B-A1B",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3844720012151040?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1668544?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-10",
+      "title": "早报｜微信朋友圈搜索全面开放/Claude发布「Mythos级」模型/王传福：比亚迪5年后规模要做到全球第一",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1668500?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-10",
+      "title": "坏了，苹果 AI 真成了？｜iOS 27 上手体验",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1668443?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-10",
+      "title": "iPhone 一夜变成 AiPhone，但 AI 手机的未来不在手机里",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/shao__meng/status/2064508455051043008",
+      "pushed_at": "2026-06-10",
+      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+      "score": 7
+    },
+    {
+      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "pushed_at": "2026-06-10",
+      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+      "score": 7
+    },
+    {
+      "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
+      "pushed_at": "2026-06-10",
+      "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
+      "score": 7
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+      "pushed_at": "2026-06-10",
+      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+      "score": 7
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
+      "pushed_at": "2026-06-10",
+      "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
+      "score": 7
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+      "pushed_at": "2026-06-10",
+      "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
+      "pushed_at": "2026-06-10",
+      "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "pushed_at": "2026-06-10",
+      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+      "score": 7
+    },
+    {
+      "url": "https://www.bensbites.com/p/hey-siri-meet-ai",
+      "pushed_at": "2026-06-10",
+      "title": "Hey Siri, meet AI",
+      "score": 6
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new",
+      "pushed_at": "2026-06-10",
+      "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
+      "pushed_at": "2026-06-10",
+      "title": "Setting a custom price for a model in AgentsView",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1u18gae/cate_opensource_canvas_ide_for_agentic_coding/",
+      "pushed_at": "2026-06-10",
+      "title": "Cate – Open-source canvas IDE for agentic coding workflows",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1h3h5/built_a_freelance_rate_calculator_that_shows_the/",
+      "pushed_at": "2026-06-10",
+      "title": "Built a freelance rate calculator that shows the number most freelancers never calculate",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1n00y/coding_system_design_mock_interview_platform/",
+      "pushed_at": "2026-06-10",
+      "title": "Coding / System design mock interview platform",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/plannotator/effective-html",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: agent skill to generate aesthetic and interactive diagrams",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/kouhxp/fftext",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: Free summary, fact check, ELI5 of any text on CPU",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/localcodeai/localcode",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: LocalCode – turn plain English into CLI commands with Apple's local AI",
+      "score": 6
+    },
+    {
+      "url": "https://messagevisor.com/",
+      "pushed_at": "2026-06-10",
+      "title": "Show HN: Messagevisor – Git-based internationalization and l10n management",
+      "score": 6
+    },
+    {
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "pushed_at": "2026-06-10",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/vivian_chi_5018aa69d5ef43/the-first-review-loop-i-use-before-i-trust-an-ai-generated-mvp-2ln5",
+      "pushed_at": "2026-06-10",
+      "title": "The first review loop I use before I trust an AI-generated MVP",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "pushed_at": "2026-06-10",
+      "title": "How an e-scooter founder raised $5 million to build space data centers",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/diyaburman/the-bottleneck-moved-did-you-notice-5beb",
+      "pushed_at": "2026-06-10",
+      "title": "The Bottleneck Moved. Did You Notice?",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/sm_0b5d48cf121/shipped-my-first-open-source-repo-i0j",
+      "pushed_at": "2026-06-10",
+      "title": "Shipped my first open-source repo",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/google/skills",
+      "pushed_at": "2026-06-10",
+      "title": "google/skills",
       "score": 6
     },
     {
       "url": "https://github.com/openai/plugins",
-      "pushed_at": "2026-06-09",
+      "pushed_at": "2026-06-10",
       "title": "openai/plugins",
       "score": 6
     },
     {
-      "url": "https://github.com/microsoft/pg_durable",
-      "pushed_at": "2026-06-09",
-      "title": "microsoft/pg_durable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/",
+      "pushed_at": "2026-06-10",
+      "title": "zai-org/SCAIL-2 · Hugging Face",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cpbm/i_bundled_a_fully_local_llm_inside_my_unity_game/",
-      "pushed_at": "2026-06-09",
-      "title": "I bundled a fully local LLM inside my Unity game. No internet, no cloud, no API key. The conversation is the gameplay.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
+      "pushed_at": "2026-06-10",
+      "title": "Apple announced new on device inference engine for Apple Silicon",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u09ybx/openenv_is_now_owned_by_hf_torch_prime_intellect/",
-      "pushed_at": "2026-06-09",
-      "title": "OpenEnv is now owned by HF, Torch, Prime Intellect, Unsloth, Modal, Mercor, and more! Use it for training agents.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19a8d/texttospeech_tts_benchmark_revamped_with/",
+      "pushed_at": "2026-06-10",
+      "title": "Text-to-Speech (TTS) Benchmark Revamped with Objective Standards and Blind Voting (46 models and counting)",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3844559758936582?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "氪星晚报｜追觅质押嘉美包装2.47亿股，向兴业银行贷款提供担保；黄仁勋：SK海力士到2030年将晶圆产能翻倍的计划还不够",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yzts/gemma_4_31bs_competence_surprised_me/",
+      "pushed_at": "2026-06-10",
+      "title": "Gemma 4 31B's competence surprised me",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3844018911889924?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "腾讯汤道生评价姚顺雨、混元 3和元宝",
+      "url": "https://www.qbitai.com/2026/06/433066.html",
+      "pushed_at": "2026-06-10",
+      "title": "你天天刷的小红书，正在长出一个GitHub",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3844199957236227?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "改变全球速度的AI，付款却卡在上一个时代",
+      "url": "https://36kr.com/p/3846601462073600?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
       "score": 6
     },
     {
-      "url": "https://claude.com/blog/observability-for-developers-building-connectors",
-      "pushed_at": "2026-06-09",
-      "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
+      "url": "https://36kr.com/p/3845356968839680?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "硬氪观察 | WWDC 2026：苹果终于在AI上迈出一小步，国内iPhone还是用不上",
       "score": 6
     },
     {
-      "url": "https://x.com/kimmonismus/status/2064001045391462907",
-      "pushed_at": "2026-06-09",
-      "title": "Hivemind推出面向AI编程智能体的持续学习功能，即日起开放",
+      "url": "https://36kr.com/p/3845295918909954?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "36氪首发 | 国内唯一POD材料产业化团队再创业，布局3C与AI芯片散热，技术积累全球领先",
       "score": 6
     },
     {
-      "url": "https://x.com/OpenBMB/status/2063991963133903317",
-      "pushed_at": "2026-06-09",
-      "title": "VoxCPM2 技术报告发布",
+      "url": "https://36kr.com/p/3845899768760580?f=rss",
+      "pushed_at": "2026-06-10",
+      "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
-      "pushed_at": "2026-06-09",
-      "title": "Kimi Code 焕新升级（附视频教程）",
+      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+      "pushed_at": "2026-06-10",
+      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647683054&idx=1&sn=dcaa25bd4fdfc9bd5c0211532021bf7c",
-      "pushed_at": "2026-06-09",
-      "title": "微信AI Agent生态曝光：嵌入小程序调用与手机厂商合作",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+      "pushed_at": "2026-06-10",
+      "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
-      "pushed_at": "2026-06-09",
-      "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "pushed_at": "2026-06-10",
+      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
       "score": 6
     },
     {
-      "url": "https://x.com/shao__meng/status/2063902211978223678",
-      "pushed_at": "2026-06-09",
-      "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
+      "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
+      "pushed_at": "2026-06-10",
+      "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
       "score": 6
     },
     {
-      "url": "https://www.ithome.com/0/961/480.htm",
-      "pushed_at": "2026-06-09",
-      "title": "微信AI官宣内测：两种接入模式供开发者选择",
+      "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab",
+      "pushed_at": "2026-06-10",
+      "title": "NVIDIA cuTile Python 教程：在 Colab 中构建用于向量加法、矩阵加法和矩阵乘法的 Tiled GPU 内核",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1668385?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "iPhone 终于支持 Siri AI！但国行无缘首发，闹钟成为最大惊喜",
+      "url": "https://www.ithome.com/0/961/868.htm",
+      "pushed_at": "2026-06-10",
+      "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1668275?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "苹果发布会最全预测：今晚你的 iPhone，会变成这个样子｜WWDC2026",
+      "url": "https://www.ithome.com/0/961/792.htm",
+      "pushed_at": "2026-06-10",
+      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0idg3/cofounder_offer/",
-      "pushed_at": "2026-06-09",
-      "title": "Cofounder Offer",
+      "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
+      "pushed_at": "2026-06-10",
+      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+      "score": 6
+    },
+    {
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "pushed_at": "2026-06-10",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "score": 6
+    },
+    {
+      "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
+      "pushed_at": "2026-06-10",
+      "title": "NeuroBait：微调AI助手，为ADHD大脑点燃多巴胺火花",
+      "score": 6
+    },
+    {
+      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "pushed_at": "2026-06-10",
+      "title": "Cleaning up after AI rockstar developers",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u1enb1/6_years_ago_i_was_a_college_student_building_my/",
+      "pushed_at": "2026-06-10",
+      "title": "6 years ago I was a college student building my business in the dorms. Yesterday I got invited to speak on a panel about my companies growth at my college to kids like me.",
       "score": 5
     },
     {
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "pushed_at": "2026-06-09",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.therundown.ai/p/apple-siri-ai-overhaul-is-here-sort-of",
+      "pushed_at": "2026-06-10",
+      "title": "Apple’s new Siri AI overhaul is here (sort of)",
       "score": 5
     },
     {
-      "url": "https://runapi.ai/",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: RunAPI – one API for AI video, image, music, audio, and LLMs",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+      "pushed_at": "2026-06-10",
+      "title": "Initial impressions of Claude Fable 5",
       "score": 5
     },
     {
-      "url": "https://github.com/jaketothepast/codetutor",
-      "pushed_at": "2026-06-09",
-      "title": "Show HN: AI Pair Programmer for Emacs",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1ht3x/i_built_a_tool_that_scores_company_culture_so_you/",
+      "pushed_at": "2026-06-10",
+      "title": "I built a tool that scores company culture so you can tell if you'd actually fit before taking the job",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "pushed_at": "2026-06-09",
-      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1kabh/adding_ai_to_our_product_raised_the_support/",
+      "pushed_at": "2026-06-10",
+      "title": "Adding \"AI\" to our product raised the support burden instead of lowering it",
       "score": 5
     },
     {
-      "url": "https://dev.to/azam-akram/i-built-a-collection-of-100-free-developer-tools-that-run-entirely-in-the-browser-4421",
-      "pushed_at": "2026-06-09",
-      "title": "I Built a Collection of 100+ Free Developer Tools That Run Entirely in the Browser",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1n5pu/my_wife_and_i_argued_about_whats_for_dinner/",
+      "pushed_at": "2026-06-10",
+      "title": "My wife and I argued about \"what's for dinner\" almost every night, so I spent the last few months building an app to end it",
       "score": 5
     },
     {
-      "url": "https://36kr.com/newsflashes/3845166909835785?f=rss",
-      "pushed_at": "2026-06-09",
-      "title": "华泰证券策略：关注AI通胀与资源通胀",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1m2no/what_would_you_like_ai_to_monitor_for_you_so_you/",
+      "pushed_at": "2026-06-10",
+      "title": "What would you like AI to monitor for you so you don’t have to keep checking?",
       "score": 5
     },
     {
-      "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
-      "pushed_at": "2026-06-09",
-      "title": "OpenAI计划到2028年由AI主导研究",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1kn4z/i_built_a_gunslol_alternative_with_no_credit/",
+      "pushed_at": "2026-06-10",
+      "title": "I built a guns.lol alternative with no credit system, free analytics, and a one-time €5 lifetime tier",
       "score": 5
     },
     {
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-      "pushed_at": "2026-06-09",
-      "title": "五个模型经济体中消失的崩溃：控制与涌现",
+      "url": "https://www.reddit.com/r/SideProject/comments/1u1bscw/launched_a_home_inventory_app_in_march_and_still/",
+      "pushed_at": "2026-06-10",
+      "title": "Launched a home inventory app in March and still working on it every spare minute",
       "score": 5
     },
     {
-      "url": "https://x.com/PixVerse_/status/2063890444413706442",
-      "pushed_at": "2026-06-09",
-      "title": "PixVerse Creative Partner Program 2.0 上线",
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+      "pushed_at": "2026-06-10",
+      "title": "Google just fired a warning shot in the AI subscription price wars",
       "score": 5
     },
     {
-      "url": "https://www.ifanr.com/1668272?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-09",
-      "title": "早报｜苹果发布会限量礼品曝光/字节跳动：没有造车计划/谷歌每月花9.2亿美元向SpaceX租算力",
+      "url": "https://dev.to/onefreeman1337/i-built-a-pay-per-record-data-marketplace-for-ai-agents-on-x402-on-the-cdp-bazaar-1a8j",
+      "pushed_at": "2026-06-10",
+      "title": "I built a pay-per-record data marketplace for AI agents on x402 - On the CDP Bazaar",
+      "score": 5
+    },
+    {
+      "url": "https://dev.to/jenueldev/we-do-not-just-write-code-anymore-we-direct-agents-2ci7",
+      "pushed_at": "2026-06-10",
+      "title": "We Do Not Just Write Code Anymore. We Direct Agents.",
+      "score": 5
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "pushed_at": "2026-06-10",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
+      "pushed_at": "2026-06-10",
+      "title": "Unsloth Gemma 4 QAT MTP assistant models now available",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ggo9/newer_qwen_models_are_worse_at_summarization/",
+      "pushed_at": "2026-06-10",
+      "title": "Newer Qwen models are worse at summarization?",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1668457?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-10",
+      "title": "第一批 Agent 员工上岗，腾讯云想帮企业把它们安顿好",
+      "score": 5
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
+      "pushed_at": "2026-06-10",
+      "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
       "score": 5
     }
   ]
