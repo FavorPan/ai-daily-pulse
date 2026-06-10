@@ -16,10 +16,11 @@ export function DateSwitcher({ dates, locale }: { dates: string[]; locale?: stri
   //   [locale, "item", date, id] -> item detail
 
   const isExplore = segments[1] === "explore";
+  const isBuilder = segments[1] === "builder";
 
-  // Current date: for explore pages it's segments[2], for others it's segments[1]
+  // Current date: for explore/builder pages it's segments[2], for others it's segments[1]
   const currentDate =
-    isExplore
+    isExplore || isBuilder
       ? (segments.length >= 3 ? segments[2] : dates[0] ?? "")
       : segments.length >= 2 && segments[1] !== "item" && segments[1] !== "about"
         ? segments[1]
@@ -38,6 +39,8 @@ export function DateSwitcher({ dates, locale }: { dates: string[]; locale?: stri
         const d = e.target.value;
         if (isExplore) {
           router.push(`/${loc}/explore/${d}/`);
+        } else if (isBuilder) {
+          router.push(`/${loc}/builder/${d}/`);
         } else {
           router.push(`/${loc}/${d}/`);
         }

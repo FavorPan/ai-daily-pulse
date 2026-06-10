@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductHero } from "@/components/ProductHero";
-import { BuildDirections } from "@/components/BuildDirections";
 import { ProjectCard } from "@/components/ProjectCard";
 import { StatsHero } from "@/components/StatsHero";
 import { getDaily } from "@/lib/api";
@@ -22,14 +21,34 @@ export default async function Page({ params }: PageProps) {
     .map((item) => ({ ...item, digestDate: data.date }));
 
   const t = await getTranslations("home");
+  const tb = await getTranslations("builder");
+  const hasDirections = data.directions && data.directions.length > 0;
 
   return (
     <div>
       <ProductHero date={data.date} />
       <StatsHero date={data.date} items={data.items} />
 
-      {data.directions && data.directions.length > 0 && (
-        <BuildDirections directions={data.directions} />
+      {/* Builder banner */}
+      {hasDirections && (
+        <Link
+          href={`/${locale}/builder/`}
+          className="block mb-8 p-4 rounded-lg bg-accent/5 border border-accent/20 hover:bg-accent/10 transition-colors"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm font-semibold text-foreground">
+                🎯 {tb("homeBanner", { count: data.directions!.length })}
+              </p>
+              <p className="text-xs text-muted mt-0.5">
+                {tb("homeBannerHint")}
+              </p>
+            </div>
+            <span className="text-sm text-accent font-medium shrink-0 ml-4">
+              {tb("homeBannerCta")}
+            </span>
+          </div>
+        </Link>
       )}
 
       {/* Featured section */}

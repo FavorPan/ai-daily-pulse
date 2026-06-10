@@ -88,6 +88,21 @@ def main():
     kept, rejected, usage, timings = process_articles(articles, api_key, cfg)
     t_score = time.monotonic() - t_score
 
+    # Same-day URL dedup: keep highest-scored per URL
+    seen_urls: dict[str, dict] = {}
+    deduped_kept = []
+    for a in sorted(kept, key=lambda x: x.get("score", 0), reverse=True):
+        url = a.get("url", "")
+        if url and url in seen_urls:
+            rejected.append(a)
+        else:
+            if url:
+                seen_urls[url] = a
+            deduped_kept.append(a)
+    if len(deduped_kept) < len(kept):
+        logger.info("Same-day URL dedup: removed %d duplicate(s)", len(kept) - len(deduped_kept))
+    kept = deduped_kept
+
     # Trend detection
     t_trend = time.monotonic()
     kept = detect_trends(kept, min_sources=3)

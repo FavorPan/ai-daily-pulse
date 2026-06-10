@@ -12,6 +12,7 @@ export function HeaderNav() {
   const links = [
     { href: `/${locale}`, label: t("home"), match: (p: string) => p === `/${locale}` || p === `/${locale}/` },
     { href: `/${locale}/explore`, label: t("explore"), match: (p: string) => p.includes("/explore") },
+    { href: `/${locale}/builder`, label: t("builder"), match: (p: string) => p.includes("/builder") },
     { href: `/${locale}/about`, label: t("about"), match: (p: string) => p.includes("/about") },
   ];
 

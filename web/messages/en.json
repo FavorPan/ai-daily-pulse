@@ -2,7 +2,8 @@
   "nav": {
     "home": "Today",
     "explore": "All articles",
-    "about": "About"
+    "about": "About",
+    "builder": "Builder"
   },
   "hero": {
     "tagline": "40+ RSS feeds · AI scoring & dedup · Daily digest",
@@ -77,6 +78,33 @@
     "authorBio": "Independent developer focused on AI news aggregation and solo-founder workflows.",
     "githubTitle": "Open source",
     "githubLink": "View on GitHub"
+  },
+  "builder": {
+    "title": "Builder",
+    "subtitle": "Actionable projects distilled from today's AI news, ranked by real community discussion heat",
+    "dataSource": "Powered by: last30days community signals + AI Daily RSS curation",
+    "overview": "Today at a glance",
+    "overviewArticles": "{count} articles",
+    "overviewTopics": "{count} hot topics",
+    "overviewProjects": "{count} projects",
+    "empty": "No project suggestions today",
+    "emptyHint": "When the AI daily detects enough hot topics with community discussion, project ideas will appear here.",
+    "backToToday": "← Back to today",
+    "whyNow": "Why now",
+    "targetUser": "Target user",
+    "coreFeatures": "Core features",
+    "monetization": "Monetization",
+    "socialPulse": "Community heat",
+    "socialPulseEmpty": "No community discussion data available",
+    "sourceArticle": "Source article",
+    "readOriginal": "Read original →",
+    "relatedTrends": "Related trends",
+    "difficulty": "Difficulty",
+    "mvpDays": "{days}d MVP",
+    "crossPlatform": "Trending across {count} platforms",
+    "homeBanner": "{count} buildable project(s) today",
+    "homeBannerHint": "Based on real community discussion heat — see what's worth building",
+    "homeBannerCta": "View Builder →"
   },
   "common": {
     "loading": "Loading..."

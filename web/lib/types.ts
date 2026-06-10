@@ -25,6 +25,21 @@ export type BuildProject = {
   monetization: string;
   difficulty: "easy" | "medium" | "hard";
   estimated_mvp_days?: number;
+  social_pulse?: {
+    total_engagement: number;
+    source_count: number;
+    community_sources: string[];
+    matched_items: Array<{
+      source: string;
+      title: string;
+      url: string;
+      engagement: Record<string, number>;
+    }>;
+  };
+  source_article?: string;
+  source_article_url?: string;
+  source_article_score?: number;
+  source_article_source?: string;
 };
 
 export type DigestItemWithDate = DigestItem & {

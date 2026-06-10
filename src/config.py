@@ -23,6 +23,11 @@ DEFAULTS = {
     "fetch_workers": 8,
     "score_workers": 4,
     "log_level": "INFO",
+    "last30days_enabled": False,
+    "last30days_engine_path": "~/.hermes/skills/last30days/scripts/last30days.py",
+    "last30days_python_path": "python3.12",
+    "last30days_timeout": 30,
+    "last30days_search_sources": "reddit,hackernews",
 }
 
 NUMERIC_INT_KEYS = {
@@ -52,10 +57,12 @@ def load_config(path: str = "config.toml") -> dict:
     if os.path.exists(path):
         with open(path, "rb") as f:
             data = tomllib.load(f)
-        for section in ("api", "pipeline"):
+        for section in ("api", "pipeline", "last30days"):
             if section in data:
                 for k, v in data[section].items():
-                    if k in cfg:
+                    if section == "last30days":
+                        cfg[f"last30days_{k}"] = v
+                    elif k in cfg:
                         cfg[k] = v
 
     for env_var, cfg_key in ENV_MAP.items():

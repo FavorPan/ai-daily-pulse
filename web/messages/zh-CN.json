@@ -2,7 +2,8 @@
   "nav": {
     "home": "今日",
     "explore": "全部文章",
-    "about": "关于"
+    "about": "关于",
+    "builder": "可做项目"
   },
   "hero": {
     "tagline": "40+ RSS 源 · AI 评分去重 · 每日精选",
@@ -77,6 +78,33 @@
     "authorBio": "独立开发者，关注 AI 资讯聚合与一人公司实践。",
     "githubTitle": "开源仓库",
     "githubLink": "在 GitHub 上查看源码"
+  },
+  "builder": {
+    "title": "可做项目",
+    "subtitle": "基于真实社区讨论热度，从今日 AI 资讯中提炼的可做项目",
+    "dataSource": "数据来源：last30days 社区讨论 + AI 日报 RSS 精选",
+    "overview": "今日概览",
+    "overviewArticles": "{count} 篇入选文章",
+    "overviewTopics": "{count} 个热议话题",
+    "overviewProjects": "{count} 个可做项目",
+    "empty": "今日暂无项目建议",
+    "emptyHint": "当 AI 日报检测到足够的热议话题时，会在这里生成可做项目",
+    "backToToday": "← 返回今日文章",
+    "whyNow": "为什么是现在",
+    "targetUser": "目标用户",
+    "coreFeatures": "核心功能",
+    "monetization": "变现模式",
+    "socialPulse": "社区讨论度",
+    "socialPulseEmpty": "暂无社区讨论数据",
+    "sourceArticle": "来源文章",
+    "readOriginal": "阅读原文 →",
+    "relatedTrends": "相关趋势",
+    "difficulty": "难度",
+    "mvpDays": "{days}天 MVP",
+    "crossPlatform": "跨 {count} 个平台热议",
+    "homeBanner": "今日有 {count} 个可做的项目",
+    "homeBannerHint": "基于真实社区讨论热度，看看今天值得做什么",
+    "homeBannerCta": "查看 Builder →"
   },
   "common": {
     "loading": "加载中..."

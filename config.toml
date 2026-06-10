@@ -6,6 +6,13 @@ summary_model = "openrouter/owl-alpha"
 price_in_per_m = 0.14
 price_out_per_m = 0.28
 
+[last30days]
+enabled = true
+engine_path = "~/.hermes/skills/last30days/scripts/last30days.py"
+python_path = "python3.12"
+timeout = 30
+search_sources = "reddit,hackernews"
+
 [pipeline]
 lookback_days = 1
 dedup_window_days = 90

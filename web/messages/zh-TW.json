@@ -2,7 +2,8 @@
   "nav": {
     "home": "今日",
     "explore": "全部文章",
-    "about": "關於"
+    "about": "關於",
+    "builder": "可做項目"
   },
   "hero": {
     "tagline": "40+ RSS 源 · AI 評分去重 · 每日精選",
@@ -77,6 +78,33 @@
     "authorBio": "獨立開發者，關注 AI 資訊聚合與一人公司實踐。",
     "githubTitle": "開源倉庫",
     "githubLink": "在 GitHub 上查看原始碼"
+  },
+  "builder": {
+    "title": "可做項目",
+    "subtitle": "基於真實社群討論熱度，從今日 AI 資訊中提煉的可做項目",
+    "dataSource": "資料來源：last30days 社群討論 + AI 日報 RSS 精選",
+    "overview": "今日概覽",
+    "overviewArticles": "{count} 篇入選文章",
+    "overviewTopics": "{count} 個熱議話題",
+    "overviewProjects": "{count} 個可做項目",
+    "empty": "今日暫無項目建議",
+    "emptyHint": "當 AI 日報偵測到足夠的熱議話題時，會在這裡生成可做項目",
+    "backToToday": "← 返回今日文章",
+    "whyNow": "為什麼是現在",
+    "targetUser": "目標用戶",
+    "coreFeatures": "核心功能",
+    "monetization": "變現模式",
+    "socialPulse": "社群討論度",
+    "socialPulseEmpty": "暫無社群討論資料",
+    "sourceArticle": "來源文章",
+    "readOriginal": "閱讀原文 →",
+    "relatedTrends": "相關趨勢",
+    "difficulty": "難度",
+    "mvpDays": "{days}天 MVP",
+    "crossPlatform": "跨 {count} 個平台熱議",
+    "homeBanner": "今日有 {count} 個可做的項目",
+    "homeBannerHint": "基於真實社群討論熱度，看看今天值得做什麼",
+    "homeBannerCta": "檢視 Builder →"
   },
   "common": {
     "loading": "載入中..."
