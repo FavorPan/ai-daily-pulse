@@ -7,6 +7,7 @@ import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/routing";
+import { getBaseMetadata } from "@/lib/metadata";
 
 const TRENDING_MIN_SCORE = 5;
 
@@ -20,21 +21,26 @@ export async function generateMetadata({
   const { locale } = await params;
   const data = await getDaily();
   const siteUrl = "https://ai-daily-pulse.top";
+  const base = getBaseMetadata(locale);
+  const desc = `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`;
 
   return {
     title: { absolute: "AI Daily Pulse" },
-    description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+    description: desc,
     alternates: {
+      ...base.alternates,
       canonical: `${siteUrl}/${locale}/`,
     },
     openGraph: {
+      ...base.openGraph,
       title: "AI Daily Pulse",
-      description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+      description: desc,
       url: `${siteUrl}/${locale}/`,
     },
     twitter: {
+      ...base.twitter,
       title: "AI Daily Pulse",
-      description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+      description: desc,
     },
   };
 }

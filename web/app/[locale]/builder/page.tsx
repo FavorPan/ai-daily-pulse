@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { BuilderOverview } from "@/components/BuilderOverview";
 import { BuilderProjectCard } from "@/components/BuilderProjectCard";
 import { getDaily } from "@/lib/api";
+import { getBaseMetadata } from "@/lib/metadata";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -15,6 +16,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations("builder");
   const siteUrl = "https://ai-daily-pulse.top";
+  const base = getBaseMetadata(locale);
   const title = t("title");
   const desc = t("subtitle");
 
@@ -22,14 +24,17 @@ export async function generateMetadata({
     title,
     description: desc,
     alternates: {
+      ...base.alternates,
       canonical: `${siteUrl}/${locale}/builder/`,
     },
     openGraph: {
+      ...base.openGraph,
       title,
       description: desc,
       url: `${siteUrl}/${locale}/builder/`,
     },
     twitter: {
+      ...base.twitter,
       title,
       description: desc,
     },

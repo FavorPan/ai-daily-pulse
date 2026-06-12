@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ExploreClient } from "@/components/ExploreClient";
 import { getItemsWithDate } from "@/lib/api";
 import type { Metadata } from "next";
+import { getBaseMetadata } from "@/lib/metadata";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -13,6 +14,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations("explore");
   const siteUrl = "https://ai-daily-pulse.top";
+  const base = getBaseMetadata(locale);
   const title = t("title");
   const desc = t("subtitle");
 
@@ -20,14 +22,17 @@ export async function generateMetadata({
     title,
     description: desc,
     alternates: {
+      ...base.alternates,
       canonical: `${siteUrl}/${locale}/explore/`,
     },
     openGraph: {
+      ...base.openGraph,
       title,
       description: desc,
       url: `${siteUrl}/${locale}/explore/`,
     },
     twitter: {
+      ...base.twitter,
       title,
       description: desc,
     },

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SummaryBlock } from "@/components/SummaryBlock";
 import { getItem, getAllItemParams } from "@/lib/api";
+import { getBaseMetadata } from "@/lib/metadata";
 
 type PageProps = {
   params: Promise<{ locale: string; date: string; id: string }>;
@@ -22,6 +23,7 @@ export async function generateMetadata({
 
   const siteUrl = "https://ai-daily-pulse.top";
   const pageUrl = `${siteUrl}/${locale}/item/${date}/${id}/`;
+  const base = getBaseMetadata(locale);
   const desc = item.summary
     ? item.summary.length > 160
       ? item.summary.slice(0, 157) + "..."
@@ -38,9 +40,11 @@ export async function generateMetadata({
     title: item.title,
     description: desc,
     alternates: {
+      ...base.alternates,
       canonical: pageUrl,
     },
     openGraph: {
+      ...base.openGraph,
       title: item.title,
       description: desc,
       url: pageUrl,
@@ -57,7 +61,7 @@ export async function generateMetadata({
       ],
     },
     twitter: {
-      card: "summary_large_image",
+      ...base.twitter,
       title: item.title,
       description: desc,
       images: [`${siteUrl}/logo.png`],
@@ -95,7 +99,7 @@ export default async function ItemPage({ params }: PageProps) {
             "@context": "https://schema.org",
             "@type": "Article",
             headline: item.title,
-            description: item.summary,
+            ...(item.summary ? { description: item.summary } : {}),
             datePublished: date,
             author: {
               "@type": "Person",

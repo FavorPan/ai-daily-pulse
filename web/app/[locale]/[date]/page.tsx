@@ -8,6 +8,7 @@ import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/routing";
+import { getBaseMetadata } from "@/lib/metadata";
 
 const TRENDING_MIN_SCORE = 5;
 
@@ -21,6 +22,7 @@ export async function generateMetadata({
   const { locale, date } = await params;
   const data = await getDaily(date);
   const siteUrl = "https://ai-daily-pulse.top";
+  const base = getBaseMetadata(locale);
   const title = `${date} AI 资讯`;
   const desc = data && data.items
     ? `${data.items.length} articles on ${date} — AI-scored news digest.`
@@ -30,14 +32,17 @@ export async function generateMetadata({
     title,
     description: desc,
     alternates: {
+      ...base.alternates,
       canonical: `${siteUrl}/${locale}/${date}/`,
     },
     openGraph: {
+      ...base.openGraph,
       title,
       description: desc,
       url: `${siteUrl}/${locale}/${date}/`,
     },
     twitter: {
+      ...base.twitter,
       title,
       description: desc,
     },

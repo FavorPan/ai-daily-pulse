@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getBaseMetadata } from "@/lib/metadata";
 
 const GITHUB_URL = "https://github.com/FavorPan/ai-daily-pulse";
 
@@ -14,6 +15,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations("about");
   const siteUrl = "https://ai-daily-pulse.top";
+  const base = getBaseMetadata(locale);
   const title = t("title");
   const desc = t("motivation1").slice(0, 160);
 
@@ -21,14 +23,17 @@ export async function generateMetadata({
     title,
     description: desc,
     alternates: {
+      ...base.alternates,
       canonical: `${siteUrl}/${locale}/about/`,
     },
     openGraph: {
+      ...base.openGraph,
       title,
       description: desc,
       url: `${siteUrl}/${locale}/about/`,
     },
     twitter: {
+      ...base.twitter,
       title,
       description: desc,
     },
