@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const GITHUB_URL = "https://github.com/FavorPan/ai-daily-pulse";
@@ -6,6 +7,33 @@ const GITHUB_URL = "https://github.com/FavorPan/ai-daily-pulse";
 type PageProps = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations("about");
+  const siteUrl = "https://ai-daily-pulse.top";
+  const title = t("title");
+  const desc = t("motivation1").slice(0, 160);
+
+  return {
+    title,
+    description: desc,
+    alternates: {
+      canonical: `${siteUrl}/${locale}/about/`,
+    },
+    openGraph: {
+      title,
+      description: desc,
+      url: `${siteUrl}/${locale}/about/`,
+    },
+    twitter: {
+      title,
+      description: desc,
+    },
+  };
+}
 
 export default async function AboutPage({ params }: PageProps) {
   const { locale } = await params;
