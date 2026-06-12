@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { getDaily } from "@/lib/api";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
+import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/routing";
 
 const TRENDING_MIN_SCORE = 5;
@@ -12,6 +13,31 @@ const TRENDING_MIN_SCORE = 5;
 type PageProps = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const data = await getDaily();
+  const siteUrl = "https://ai-daily-pulse.top";
+
+  return {
+    title: { absolute: "AI Daily Pulse" },
+    description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+    alternates: {
+      canonical: `${siteUrl}/${locale}/`,
+    },
+    openGraph: {
+      title: "AI Daily Pulse",
+      description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+      url: `${siteUrl}/${locale}/`,
+    },
+    twitter: {
+      title: "AI Daily Pulse",
+      description: `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`,
+    },
+  };
+}
 
 export default async function Page({ params }: PageProps) {
   const { locale } = await params;

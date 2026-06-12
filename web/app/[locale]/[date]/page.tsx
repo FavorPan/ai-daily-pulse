@@ -6,6 +6,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { getDaily, listDigestDates } from "@/lib/api";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
+import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/routing";
 
 const TRENDING_MIN_SCORE = 5;
@@ -13,6 +14,35 @@ const TRENDING_MIN_SCORE = 5;
 type PageProps = {
   params: Promise<{ locale: string; date: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale, date } = await params;
+  const data = await getDaily(date);
+  const siteUrl = "https://ai-daily-pulse.top";
+  const title = `${date} AI 资讯`;
+  const desc = data && data.items
+    ? `${data.items.length} articles on ${date} — AI-scored news digest.`
+    : `AI news digest for ${date}.`;
+
+  return {
+    title,
+    description: desc,
+    alternates: {
+      canonical: `${siteUrl}/${locale}/${date}/`,
+    },
+    openGraph: {
+      title,
+      description: desc,
+      url: `${siteUrl}/${locale}/${date}/`,
+    },
+    twitter: {
+      title,
+      description: desc,
+    },
+  };
+}
 
 export function generateStaticParams() {
   const dates = listDigestDates().slice(0, 7);
