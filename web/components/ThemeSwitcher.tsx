@@ -40,7 +40,6 @@ export function ThemeSwitcher() {
     return <div className="w-8 h-8 rounded-md bg-surface-muted border border-border" />;
   }
 
-  // Cycle through themes on click
   const next = () => {
     const idx = THEMES.indexOf((theme ?? "system") as (typeof THEMES)[number]);
     setTheme(THEMES[(idx + 1) % THEMES.length]);

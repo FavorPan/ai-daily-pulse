@@ -53,7 +53,7 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
 
   return (
     <article
-      className="card-surface animate-slide-up"
+      className="border border-border animate-slide-up"
       style={{ animationDelay: `${index * 80}ms`, animationFillMode: "backwards" }}
     >
       <div className="p-5">
@@ -87,7 +87,7 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
           {p.description}
         </p>
 
-        {/* Row 3: Why Now — border-left accent, same left edge as other text */}
+        {/* Row 3: Why Now — border-left accent */}
         <div className="border-l-2 border-accent/40 pl-3 mb-3">
           <p className="text-sm text-foreground/80 leading-relaxed">
             <span className="font-semibold text-accent">{t("whyNow")}</span>
@@ -98,7 +98,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
         {/* Row 4: community heat */}
         {hasPulse ? (
           <div className="mb-3">
-            {/* Platform stats */}
             <div className="flex flex-wrap items-center gap-x-4 gap-y-0.5 text-xs text-muted mb-2">
               {visibleItems.map((item, idx) => (
                 <span key={idx} className="whitespace-nowrap">
@@ -113,7 +112,7 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
 
             {/* Heat bar */}
             <div className="flex items-center gap-2">
-              <div className="flex-1 h-1.5 rounded-full bg-border/40 overflow-hidden">
+              <div className="flex-1 h-1.5 rounded-full bg-accent/10 overflow-hidden">
                 <div
                   className="h-full rounded-full bg-accent transition-all duration-700"
                   style={{ width: `${barWidth}%` }}
@@ -161,7 +160,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
       {/* EXPANDED DETAILS */}
       {expanded && hasDetails && (
         <div className="border-t border-border px-5 py-4 space-y-3 animate-slide-up">
-          {/* Target user + Monetization */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
             {p.target_user && (
               <div>
@@ -177,7 +175,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
             )}
           </div>
 
-          {/* Core features */}
           {p.core_features && p.core_features.length > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">{t("coreFeatures")}</span>
@@ -195,7 +192,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
             </div>
           )}
 
-          {/* All platforms (expanded view) */}
           {hasPulse && hiddenCount > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">
@@ -212,7 +208,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
             </div>
           )}
 
-          {/* Discussion links */}
           {hasPulse && pulse!.matched_items.filter((item) => item.url).length > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">{t("discussionLinks")}</span>
@@ -234,7 +229,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
             </div>
           )}
 
-          {/* Source article */}
           {p.source_article && (
             <div className="text-xs">
               <span className="font-medium text-foreground/70">{t("sourceArticle")}: </span>
@@ -259,7 +253,6 @@ export function BuilderProjectCard({ project, maxEngagement, index }: Props) {
             </div>
           )}
 
-          {/* Related trends */}
           {p.related_trends && p.related_trends.length > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">{t("relatedTrends")}</span>

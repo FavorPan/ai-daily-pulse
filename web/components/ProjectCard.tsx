@@ -17,28 +17,16 @@ export function ProjectCard({ item, showDate = false }: Props) {
   const isEn = locale === "en";
   const displaySummary = isEn && item.summary_en ? item.summary_en : item.summary;
 
-  const trendStyles: Record<string, string> = {
-    high: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
-    medium: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
-    low: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200",
-  };
-  const trendIcons: Record<string, string> = { high: "🔥🔥🔥", medium: "🔥🔥", low: "🔥" };
-
   return (
     <Link
       href={`/${locale}/item/${item.digestDate}/${item.id}/`}
-      className="group block card-surface p-5 h-full accent-bar pl-6"
+      className="group block editorial-card pb-4 mb-4 last:border-b-0 last:mb-0 accent-bar pl-6"
     >
-      <div className="flex items-start justify-between gap-3 mb-2.5">
+      <div className="flex items-start justify-between gap-3 mb-2">
         <h3 className="font-semibold text-[15px] leading-snug text-foreground group-hover:text-accent transition-colors line-clamp-2">
           {item.title}
         </h3>
         <div className="flex items-center gap-2 shrink-0">
-          {item.trend_signal && (
-            <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${trendStyles[item.trend_confidence || "low"]}`}>
-              {trendIcons[item.trend_confidence || "low"]} {item.trend_topic}
-            </span>
-          )}
           <Tag label={item.topic} />
         </div>
       </div>
@@ -47,17 +35,17 @@ export function ProjectCard({ item, showDate = false }: Props) {
         <span className="text-xs font-mono text-muted mb-2 block">{item.digestDate}</span>
       )}
 
-      <p className="text-sm text-muted leading-relaxed line-clamp-2 mb-4">
+      <p className="text-sm text-muted leading-relaxed line-clamp-2 mb-3">
         {displaySummary}
       </p>
 
       {item.why_now && (
-        <p className="text-sm text-amber-600 dark:text-amber-400 mb-3 line-clamp-1">
-          💡 {item.why_now}
+        <p className="text-sm text-accent mb-3 line-clamp-1">
+          {item.why_now}
         </p>
       )}
 
-      <div className="flex items-center justify-between gap-2 pt-3 border-t border-border">
+      <div className="flex items-center justify-between gap-2">
         <ScoreBadge score={item.score} />
         <span className="text-xs text-muted truncate flex-1 text-center">{item.source}</span>
         <span className="text-xs text-accent opacity-0 group-hover:opacity-100 transition-opacity shrink-0">

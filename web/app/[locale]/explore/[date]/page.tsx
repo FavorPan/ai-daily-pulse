@@ -23,12 +23,6 @@ export default async function ExploreDatePage({ params }: PageProps) {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-headline">{t("title")}</h1>
-        <p className="text-sm text-muted mt-1">
-          {t("subtitle")} — {date}
-        </p>
-      </div>
       <ExploreClient items={items} />
     </div>
   );

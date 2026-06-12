@@ -70,7 +70,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <div className="min-h-[100dvh] flex flex-col">
               {/* Header */}
               <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
-                <div className="max-w-6xl mx-auto px-4 md:px-8">
+                <div className="px-4 md:px-8">
                   <div className="h-14 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-5 min-w-0">
                       <Link
@@ -101,7 +101,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
               {/* Main */}
               <main className="flex-1">
-                <div className="max-w-6xl mx-auto px-4 md:px-8 py-8">
+                <div className="px-4 md:px-8 py-8">
                   {children}
                 </div>
               </main>

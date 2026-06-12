@@ -6,19 +6,11 @@ export function DateSwitcher({ dates, locale }: { dates: string[]; locale?: stri
   const router = useRouter();
   const pathname = usePathname();
 
-  // Extract current date and detect page type from pathname
   const segments = pathname.split("/").filter(Boolean);
-  // segments examples:
-  //   [locale]              -> home
-  //   [locale, date]        -> date page
-  //   [locale, "explore"]   -> explore (no date)
-  //   [locale, "explore", date] -> explore with date
-  //   [locale, "item", date, id] -> item detail
 
   const isExplore = segments[1] === "explore";
   const isBuilder = segments[1] === "builder";
 
-  // Current date: for explore/builder pages it's segments[2], for others it's segments[1]
   const currentDate =
     isExplore || isBuilder
       ? (segments.length >= 3 ? segments[2] : dates[0] ?? "")

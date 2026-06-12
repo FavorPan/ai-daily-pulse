@@ -9,7 +9,7 @@ export async function SiteFooter() {
 
   return (
     <footer className="border-t border-border">
-      <div className="max-w-6xl mx-auto px-4 md:px-8 py-6">
+      <div className="px-4 md:px-8 py-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted">
           <p>{t("tagline")}</p>
           <div className="flex items-center gap-4">

@@ -9,7 +9,7 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
   const t = useTranslations("item");
 
   return (
-    <div className="card-surface p-6 space-y-6">
+    <div className="space-y-6">
       <div>
         <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("summary")}</div>
         <div className="text-foreground leading-relaxed text-[15px]">
@@ -35,8 +35,8 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
       {item.why_now && (
         <div>
           <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("whyNow")}</div>
-          <div className="text-sm text-amber-600 dark:text-amber-400 leading-relaxed">
-            💡 {item.why_now}
+          <div className="text-sm text-accent leading-relaxed">
+            {item.why_now}
           </div>
         </div>
       )}

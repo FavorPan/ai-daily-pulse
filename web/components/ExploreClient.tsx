@@ -12,30 +12,6 @@ type Props = {
   items: DigestItemWithDate[];
 };
 
-function TopicChip({
-  active,
-  label,
-  onClick,
-}: {
-  active: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`shrink-0 text-xs px-3 py-1.5 rounded-md border transition-colors font-medium ${
-        active
-          ? "bg-foreground text-background border-foreground"
-          : "bg-surface text-muted border-border hover:border-foreground/30 hover:text-foreground"
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
-
 export function ExploreClient({ items }: Props) {
   const locale = useLocale() as AppLocale;
   const t = useTranslations("explore");
@@ -72,40 +48,77 @@ export function ExploreClient({ items }: Props) {
     });
   }, [items, topic, q]);
 
-  return (
-    <div className="space-y-4">
-      {/* Search + topic filter bar */}
-      <div className="sticky top-14 z-10 -mx-4 px-4 py-3 bg-background/90 backdrop-blur-md border-b border-border space-y-3">
-        <input
-          type="text"
-          className="bg-surface px-3 py-1.5 rounded-md text-[13px] w-full sm:w-64 border border-border text-foreground placeholder:text-muted transition-colors"
-          placeholder={t("searchPlaceholder")}
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-        />
-        <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-          {topicOptions.map(({ key, label }) => (
-            <TopicChip
-              key={key}
-              active={topic === key}
-              label={label}
-              onClick={() => setTopic(key)}
-            />
-          ))}
-        </div>
-      </div>
+  const counts = useMemo(() => {
+    const map = new Map<string, number>();
+    for (const item of items) {
+      map.set(item.topic, (map.get(item.topic) || 0) + 1);
+    }
+    return map;
+  }, [items]);
 
-      {filtered.length === 0 ? (
-        <div className="text-center py-16">
-          <p className="text-muted text-sm">{t("empty")}</p>
+  return (
+    <div className="flex flex-col md:flex-row gap-8">
+      {/* Left sidebar: topic filter */}
+      <aside className="w-full md:w-48 shrink-0">
+        <h1 className="text-headline mb-1">{t("title")}</h1>
+        <p className="text-sm text-muted mb-4">{t("subtitle")}</p>
+        <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-muted mb-3">
+          {t("topicFilter")}
+        </h3>
+        <div className="space-y-1">
+          {topicOptions.map(({ key, label }) => {
+            const count = key === "__all__" ? items.length : counts.get(key) ?? 0;
+            const active = topic === key;
+            return (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setTopic(key)}
+                className={`w-full flex items-center justify-between px-3 py-1.5 rounded-md text-sm transition-colors text-left ${
+                  active
+                    ? "bg-accent/10 text-accent font-medium"
+                    : "text-muted hover:text-foreground hover:bg-surface-muted"
+                }`}
+              >
+                <span className="truncate">{label}</span>
+                <span className={`text-xs font-mono ml-3 ${active ? "text-accent" : "text-muted"}`}>
+                  {count}
+                </span>
+              </button>
+            );
+          })}
         </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {filtered.map((item) => (
-            <ProjectCard key={`${item.digestDate}-${item.id}`} item={item} showDate />
-          ))}
+      </aside>
+
+      {/* Right: search + articles */}
+      <div className="flex-1 min-w-0 space-y-4">
+        {/* Search */}
+        <div className="sticky top-14 z-10 bg-background/90 backdrop-blur-md pb-3">
+          <input
+            type="text"
+            className="bg-surface px-3 py-1.5 rounded-md text-[13px] w-full sm:w-72 border border-border text-foreground placeholder:text-muted transition-colors"
+            placeholder={t("searchPlaceholder")}
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+          />
         </div>
-      )}
+
+        {q && (
+          <p className="text-xs text-muted">{t("searching", { q })}</p>
+        )}
+
+        {filtered.length === 0 ? (
+          <div className="text-center py-16">
+            <p className="text-muted text-sm">{t("empty")}</p>
+          </div>
+        ) : (
+          <div>
+            {filtered.map((item) => (
+              <ProjectCard key={`${item.digestDate}-${item.id}`} item={item} showDate />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
