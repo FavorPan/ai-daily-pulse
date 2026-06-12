@@ -106,6 +106,21 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background text-foreground antialiased`}
       >
+        {/* WebSite JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "AI Daily Pulse",
+              url: "https://ai-daily-pulse.top",
+              description:
+                "40+ RSS feeds · AI scoring & dedup · Daily digest",
+              inLanguage: ["zh-CN", "zh-TW", "en"],
+            }),
+          }}
+        />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <div className="min-h-[100dvh] flex flex-col">
