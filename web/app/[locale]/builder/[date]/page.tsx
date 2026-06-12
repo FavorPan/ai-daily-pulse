@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -8,6 +9,33 @@ import { getDaily, listDigestDates } from "@/lib/api";
 type PageProps = {
   params: Promise<{ locale: string; date: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale, date } = await params;
+  const t = await getTranslations("builder");
+  const siteUrl = "https://ai-daily-pulse.top";
+  const title = `${t("title")} - ${date}`;
+  const desc = `${t("subtitle")} - ${date}`;
+
+  return {
+    title,
+    description: desc,
+    alternates: {
+      canonical: `${siteUrl}/${locale}/builder/${date}/`,
+    },
+    openGraph: {
+      title,
+      description: desc,
+      url: `${siteUrl}/${locale}/builder/${date}/`,
+    },
+    twitter: {
+      title,
+      description: desc,
+    },
+  };
+}
 
 export function generateStaticParams() {
   const dates = listDigestDates().slice(0, 7);
