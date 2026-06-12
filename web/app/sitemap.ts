@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 const SITE_URL = "https://ai-daily-pulse.top";
 const LOCALES = ["zh-CN", "zh-TW", "en"] as const;
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+export default function sitemap(): MetadataRoute.Sitemap {
   const dates = listDigestDates();
   const itemParams = getAllItemParams();
   const entries: MetadataRoute.Sitemap = [];
