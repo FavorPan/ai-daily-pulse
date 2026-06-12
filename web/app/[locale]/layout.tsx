@@ -35,9 +35,50 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "hero" });
+  const siteUrl = "https://ai-daily-pulse.top";
+
   return {
-    title: "AI Daily Pulse",
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: "AI Daily Pulse",
+      template: "%s | AI Daily Pulse",
+    },
     description: t("tagline"),
+    robots: {
+      index: true,
+      follow: true,
+    },
+    alternates: {
+      canonical: `${siteUrl}/${locale}/`,
+      languages: {
+        "zh-CN": `${siteUrl}/zh-CN/`,
+        "zh-TW": `${siteUrl}/zh-TW/`,
+        en: `${siteUrl}/en/`,
+        "x-default": `${siteUrl}/zh-CN/`,
+      },
+    },
+    openGraph: {
+      title: "AI Daily Pulse",
+      description: t("tagline"),
+      url: `${siteUrl}/${locale}/`,
+      siteName: "AI Daily Pulse",
+      locale: locale === "zh-CN" ? "zh_CN" : locale === "zh-TW" ? "zh_TW" : "en_US",
+      type: "website",
+      images: [
+        {
+          url: `${siteUrl}/logo.png`,
+          width: 512,
+          height: 512,
+          alt: "AI Daily Pulse",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "AI Daily Pulse",
+      description: t("tagline"),
+      images: [`${siteUrl}/logo.png`],
+    },
   };
 }
 
