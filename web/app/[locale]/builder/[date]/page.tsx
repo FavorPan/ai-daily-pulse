@@ -17,7 +17,7 @@ export async function generateMetadata({
   const { locale, date } = await params;
   const t = await getTranslations("builder");
   const siteUrl = "https://ai-daily-pulse.top";
-  const base = getBaseMetadata(locale);
+  const base = getBaseMetadata(locale, `/builder/${date}/`);
   const title = `${t("title")} - ${date}`;
   const desc = `${t("subtitle")} - ${date}`;
 

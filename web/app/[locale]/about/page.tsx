@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations("about");
   const siteUrl = "https://ai-daily-pulse.top";
-  const base = getBaseMetadata(locale);
+  const base = getBaseMetadata(locale, "/about/");
   const title = t("title");
   const desc = t("motivation1").slice(0, 160);
 

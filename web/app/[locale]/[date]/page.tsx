@@ -22,7 +22,7 @@ export async function generateMetadata({
   const { locale, date } = await params;
   const data = await getDaily(date);
   const siteUrl = "https://ai-daily-pulse.top";
-  const base = getBaseMetadata(locale);
+  const base = getBaseMetadata(locale, `/${date}/`);
   const title = `${date} AI 资讯`;
   const desc = data && data.items
     ? `${data.items.length} articles on ${date} — AI-scored news digest.`
