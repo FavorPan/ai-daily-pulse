@@ -911,7 +911,77 @@
       "source_article": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
       "source_article_url": "https://openrouter.ai/blog/tutorials/hermes-agent",
       "source_article_score": 8,
-      "source_article_source": "AI热榜"
+      "source_article_source": "AI热榜",
+      "social_pulse": {
+        "total_engagement": 486,
+        "source_count": 2,
+        "community_sources": [
+          "hackernews",
+          "reddit"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "How to setup a local coding agent on macOS",
+            "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+            "engagement": {
+              "comments": 72,
+              "points": 287
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Lapdog: Local Coding Agent Assistant",
+            "url": "https://lapdog.datadoghq.com/",
+            "engagement": {
+              "comments": 2,
+              "points": 9
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Improving Local Techdocs for Your AI Coding Agent",
+            "url": "https://www.heltweg.org/posts/improving-local-techdocs-for-your-ai-coding-agent/",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Show HN: Local Coding Agent with LLMs to Delegate Tool Calls to Small AI Models",
+            "url": "https://github.com/district-solutions/open-agent-tools-coder",
+            "engagement": {
+              "comments": 0,
+              "points": 9
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Eve Agent V2 Unleashed – open-source local coding agent, powered by Ollama, FREE",
+            "url": "https://github.com/JeffGreen311/eve-agent-v2-unleashed",
+            "engagement": {
+              "comments": 0,
+              "points": 5
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "OpenRouter Agent Hub",
@@ -934,7 +1004,93 @@
       "source_article": "How to setup a local coding agent on macOS",
       "source_article_url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
       "source_article_score": 8,
-      "source_article_source": "Hacker News Best"
+      "source_article_source": "Hacker News Best",
+      "social_pulse": {
+        "total_engagement": 486,
+        "source_count": 2,
+        "community_sources": [
+          "hackernews",
+          "reddit"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "How to setup a local coding agent on macOS",
+            "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+            "engagement": {
+              "comments": 72,
+              "points": 287
+            },
+            "overlap_keywords": [
+              "on",
+              "to",
+              "local",
+              "setup",
+              "how",
+              "coding",
+              "macos",
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Lapdog: Local Coding Agent Assistant",
+            "url": "https://lapdog.datadoghq.com/",
+            "engagement": {
+              "comments": 2,
+              "points": 9
+            },
+            "overlap_keywords": [
+              "coding",
+              "local",
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Improving Local Techdocs for Your AI Coding Agent",
+            "url": "https://www.heltweg.org/posts/improving-local-techdocs-for-your-ai-coding-agent/",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "coding",
+              "local",
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Show HN: Local Coding Agent with LLMs to Delegate Tool Calls to Small AI Models",
+            "url": "https://github.com/district-solutions/open-agent-tools-coder",
+            "engagement": {
+              "comments": 0,
+              "points": 9
+            },
+            "overlap_keywords": [
+              "to",
+              "coding",
+              "local",
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Eve Agent V2 Unleashed – open-source local coding agent, powered by Ollama, FREE",
+            "url": "https://github.com/JeffGreen311/eve-agent-v2-unleashed",
+            "engagement": {
+              "comments": 0,
+              "points": 5
+            },
+            "overlap_keywords": [
+              "coding",
+              "local",
+              "agent"
+            ]
+          }
+        ]
+      }
     }
   ],
   "social_post": {

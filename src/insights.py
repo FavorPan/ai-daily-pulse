@@ -109,19 +109,55 @@ def _tokenize(text: str) -> set[str]:
 
 
 def _build_search_query(articles: list[dict]) -> str:
-    """从所有 articles 提取 trend_topic + 高频 tag，返回空格分隔的搜索词。"""
-    # 1. 收集所有 trend_topic（跨源热点词，优先级最高）
-    trend_topics = [a["trend_topic"] for a in articles if a.get("trend_topic")]
+    """从所有 articles 提取英文关键词，返回空格分隔的搜索词。
 
-    # 2. 收集所有 tags，按出现频次排序
+    last30days 搜索的是 Reddit/HN 等英文平台，所以搜索词必须用英文。
+    从文章标题中提取高频英文词作为搜索词，过滤掉中文标签。
+    """
+    # 常见英文停用词，对搜索无意义
+    _STOP_WORDS = {
+        "the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "for",
+        "of", "with", "by", "from", "is", "are", "was", "were", "be", "been",
+        "being", "have", "has", "had", "do", "does", "did", "will", "would",
+        "can", "could", "shall", "should", "may", "might", "must", "about",
+        "into", "through", "during", "before", "after", "above", "below",
+        "between", "out", "off", "over", "under", "again", "further", "then",
+        "once", "here", "there", "when", "where", "why", "how", "all", "each",
+        "every", "both", "few", "more", "most", "other", "some", "such", "no",
+        "nor", "not", "only", "own", "same", "so", "than", "too", "very",
+        "just", "because", "as", "until", "while", "it", "its", "this", "that",
+        "these", "those", "he", "she", "they", "them", "his", "her", "their",
+        "what", "which", "who", "whom", "show", "hn", "new", "your", "our",
+        "my", "up", "down", "get", "set", "use", "using", "used", "make",
+        "made", "like", "one", "two", "way", "part", "vs", "via", "also",
+        "yet", "now", "still", "even", "back", "top", "first", "last", "next",
+    }
+
+    # 1. 从文章标题提取英文高频词
+    title_freq: Counter = Counter()
+    for a in articles:
+        title = a.get("title", "")
+        words = re.findall(r"[a-zA-Z][a-zA-Z0-9+#.-]*", title.lower())
+        for w in words:
+            w = w.strip(".#-+")
+            if len(w) >= 3 and w not in _STOP_WORDS:
+                title_freq[w] += 1
+
+    # 2. 从 tags 提取英文部分
     tag_freq: Counter = Counter()
     for a in articles:
         for t in a.get("tags", []):
-            tag_freq[t.lower()] += 1
+            words = re.findall(r"[a-zA-Z][a-zA-Z0-9+#.-]*", t.lower())
+            for w in words:
+                w = w.strip(".#-+")
+                if len(w) >= 2 and w not in _STOP_WORDS:
+                    tag_freq[w] += 1
 
-    # 3. 组合：trend_topics 优先 + top 3 高频 tag
-    candidates = list(dict.fromkeys(trend_topics))  # 去重保序
-    candidates += [t for t, _ in tag_freq.most_common(3) if t not in candidates]
+    # 3. 组合：标题高频词优先 + tag 高频词补充
+    candidates = [w for w, _ in title_freq.most_common(10)]
+    for w, _ in tag_freq.most_common(10):
+        if w not in candidates:
+            candidates.append(w)
 
     return " ".join(candidates[:5])
 
