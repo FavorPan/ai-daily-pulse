@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  deployments: write
 
 jobs:
   generate-and-publish:
@@ -46,3 +47,20 @@ jobs:
           git add output/ data/
           git diff --cached --quiet || git commit -m "chore: daily output $(date -u +%Y-%m-%d)"
           git pull --rebase && git push
+
+      - name: Create GitHub Deployment
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DEPLOY_ID=$(gh api \
+            /repos/${{ github.repository }}/deployments \
+            -f ref="${{ github.ref_name }}" \
+            -f environment="production" \
+            -f description="Daily AI Pulse - $(date -u +%Y-%m-%d)" \
+            -f auto_merge=false \
+            --jq '.id')
+          gh api \
+            /repos/${{ github.repository }}/deployments/$DEPLOY_ID/statuses \
+            -f state="success" \
+            -f description="Pipeline completed"
