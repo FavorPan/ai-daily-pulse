@@ -1554,7 +1554,52 @@
       "source_article": "Clipping Businesses: Pay-Per-View Distribution, Clip Armies, View Verification",
       "source_article_url": "https://trends.vc/clipping-businesses-pay-per-view-distribution-clip-armies-view-verification/",
       "source_article_score": 8,
-      "source_article_source": "Trends.vc"
+      "source_article_source": "Trends.vc",
+      "social_pulse": {
+        "total_engagement": 9,
+        "source_count": 1,
+        "community_sources": [
+          "hackernews"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "How the Internet Invented Bread Clip Science",
+            "url": "https://www.youtube.com/watch?v=TNwHnHL2Pgs",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "clip"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Show HN: Luminous – fast image viewer in Rust, SAM 3 and CLIP support",
+            "url": "https://github.com/jaroslavszkandera/luminous",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "clip"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "HN Reader – Browse Hacker News and Clip Articles to Obsidian",
+            "url": "https://hn.jsdev.space/",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "clip"
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "RigidFlow",
@@ -1577,7 +1622,40 @@
       "source_article": "Hot Take \"Rigid code is better than Flexible code if you're on a budget\"",
       "source_article_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2ch6u/hot_take_rigid_code_is_better_than_flexible_code/",
       "source_article_score": 7,
-      "source_article_source": "Reddit r/LocalLLaMA"
+      "source_article_source": "Reddit r/LocalLLaMA",
+      "social_pulse": {
+        "total_engagement": 9,
+        "source_count": 1,
+        "community_sources": [
+          "hackernews"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "Claude Fable 5 Launches at #1 on the Artificial Analysis Intelligence Index",
+            "url": "https://artificialanalysis.ai/articles/claude-fable-5-mythos-intelligence-index",
+            "engagement": {
+              "comments": 0,
+              "points": 4
+            },
+            "overlap_keywords": [
+              "on"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Fable 5 on par with GPT-5.5 in Artificial Analysis Coding Agent Index",
+            "url": "https://artificialanalysis.ai/agents/coding-agents",
+            "engagement": {
+              "comments": 1,
+              "points": 4
+            },
+            "overlap_keywords": [
+              "on"
+            ]
+          }
+        ]
+      }
     }
   ],
   "social_post": {

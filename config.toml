@@ -10,7 +10,7 @@ price_out_per_m = 0.28
 enabled = true
 engine_path = "~/.hermes/skills/last30days/scripts/last30days.py"
 python_path = "python3.12"
-timeout = 30
+timeout = 60
 search_sources = "reddit,hackernews"
 
 [pipeline]

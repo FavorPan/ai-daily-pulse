@@ -1203,7 +1203,77 @@
       "source_article": "Stop Asserting Equality: How to Test Agents When Every Run Is Different",
       "source_article_url": "https://dev.to/saurav_bhattacharya/stop-asserting-equality-how-to-test-agents-when-every-run-is-different-3024",
       "source_article_score": 9,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "social_pulse": {
+        "total_engagement": 4027,
+        "source_count": 1,
+        "community_sources": [
+          "hackernews"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "AI agent bankrupted their operator while trying to scan DN42",
+            "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+            "engagement": {
+              "comments": 505,
+              "points": 1389
+            },
+            "overlap_keywords": [
+              "to",
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "AI agent runs amok in Fedora and elsewhere",
+            "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+            "engagement": {
+              "comments": 243,
+              "points": 548
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "A €0.01 bank transfer could compromise a banking AI agent",
+            "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+            "engagement": {
+              "comments": 199,
+              "points": 206
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Build a Basic AI Agent from Scratch: Long Task Planning",
+            "url": "https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d",
+            "engagement": {
+              "comments": 53,
+              "points": 136
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "AI Agent Guidelines for CS336 at Stanford",
+            "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+            "engagement": {
+              "comments": 153,
+              "points": 502
+            },
+            "overlap_keywords": [
+              "agent"
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "AgentFlow Canvas",
@@ -1226,7 +1296,52 @@
       "source_article": "luongnv89/claude-howto",
       "source_article_url": "https://github.com/luongnv89/claude-howto",
       "source_article_score": 8,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "social_pulse": {
+        "total_engagement": 28,
+        "source_count": 1,
+        "community_sources": [
+          "hackernews"
+        ],
+        "matched_items": [
+          {
+            "source": "hackernews",
+            "title": "Show HN: A police department for your Claude Code agents",
+            "url": "https://github.com/varmabudharaju/agent-pd/blob/master/README.md",
+            "engagement": {
+              "comments": 8,
+              "points": 10
+            },
+            "overlap_keywords": [
+              "claude"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Why Claude Code's Agent Loop Is over 1,400 Lines",
+            "url": "https://internals.laxmena.com/p/why-claude-codes-agent-loop-is-over",
+            "engagement": {
+              "comments": 0,
+              "points": 7
+            },
+            "overlap_keywords": [
+              "claude"
+            ]
+          },
+          {
+            "source": "hackernews",
+            "title": "Teaching tmux to babysit my Claude Code agents",
+            "url": "https://blog.angeloff.name/post/2026/05/29/teaching-tmux-to-babysit-my-claude-code-agents/",
+            "engagement": {
+              "comments": 0,
+              "points": 3
+            },
+            "overlap_keywords": [
+              "claude"
+            ]
+          }
+        ]
+      }
     }
   ],
   "social_post": {
