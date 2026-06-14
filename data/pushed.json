@@ -6403,260 +6403,242 @@
       "score": 5
     },
     {
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "pushed_at": "2026-06-13",
-      "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+      "url": "https://dev.to/fiercedash/scaling-ai-code-review-to-999-uptime-across-regions-cjh",
+      "pushed_at": "2026-06-14",
+      "title": "Scaling AI Code Review to 99.9% Uptime Across Regions",
+      "score": 9
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+      "pushed_at": "2026-06-14",
+      "title": "Mapping SQLite result columns back to their source `table.column`",
       "score": 8
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48520757",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: I am running 3 coding agents non-stop over the last 3 days. Here is how",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/rileykim/i-cut-rag-costs-65-with-deepseek-chromadb-full-data-lcc",
+      "pushed_at": "2026-06-14",
+      "title": "I Cut RAG Costs 65% With DeepSeek + ChromaDB — Full Data",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/zoharbabin/web-researcher-mcp",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: Web Researcher MCP – Search with verify citations and sources",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/ku_0dfe543e8243f19f5/i-made-a-sitemap-generator-for-mdbook-it-was-my-first-time-releasing-a-crate-53ge",
+      "pushed_at": "2026-06-14",
+      "title": "I made a sitemap generator for mdBook. It was my first time releasing a crate!",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/_553af38aefbe6c8b9dbc9/ditch-electron-building-a-local-first-sync-engine-with-turso-sqlmodel-bl",
+      "pushed_at": "2026-06-14",
+      "title": "Ditch Electron: Building a Local-First Sync Engine with Turso & SQLModel",
+      "score": 7
     },
     {
       "url": "https://github.com/phuryn/pm-skills",
-      "pushed_at": "2026-06-13",
+      "pushed_at": "2026-06-14",
       "title": "phuryn/pm-skills",
-      "score": 8
-    },
-    {
-      "url": "https://openrouter.ai/blog/tutorials/hermes-agent",
-      "pushed_at": "2026-06-13",
-      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
-      "score": 8
-    },
-    {
-      "url": "https://x.com/MiniMax_AI/status/2065436935188058208",
-      "pushed_at": "2026-06-13",
-      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
-      "score": 8
-    },
-    {
-      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
-      "pushed_at": "2026-06-13",
-      "title": "How to setup a local coding agent on macOS",
-      "score": 8
-    },
-    {
-      "url": "https://www.therundown.ai/p/jeff-bezos-41b-artificial-general-engineer",
-      "pushed_at": "2026-06-13",
-      "title": "Jeff Bezos' $41B 'artificial general engineer'",
       "score": 7
     },
     {
-      "url": "https://github.com/Kapperchino/agent-joe",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Agent Joe – a Rust only coding agent with no shell access",
+      "url": "https://36kr.com/p/3851106394117383?f=rss",
+      "pushed_at": "2026-06-14",
+      "title": "“宁王系”，排队 IPO",
       "score": 7
     },
     {
-      "url": "https://dev.to/hannune/i-built-a-local-llm-rig-to-escape-api-bills-then-i-paid-openai-again-4bi7",
-      "pushed_at": "2026-06-13",
-      "title": "I Built a Local LLM Rig to Escape API Bills. Then I Paid OpenAI Again.",
-      "score": 7
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking",
-      "pushed_at": "2026-06-13",
-      "title": "[AINews] Loopcraft: The Art of Stacking Loops",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/refactoringhq/tolaria",
-      "pushed_at": "2026-06-13",
-      "title": "refactoringhq/tolaria",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1668716?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-13",
-      "title": "用了两天 iOS 27，我「AI」上了 Siri",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1668693?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-13",
-      "title": "AI 给土豆编了一门学科，我去查了查，它竟然是真的",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/oran_ge/status/2065566882774868125",
-      "pushed_at": "2026-06-13",
-      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/xiaohu/status/2065278092441268246",
-      "pushed_at": "2026-06-13",
-      "title": "小互开源公众号自动排版技能组合",
-      "score": 7
-    },
-    {
-      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
-      "pushed_at": "2026-06-13",
-      "title": "\"Don't You Just Upload It to ChatGPT?\"",
-      "score": 7
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-      "pushed_at": "2026-06-13",
-      "title": "OpenAI WebRTC Audio Session, now with document context",
+      "url": "https://github.com/aws-samples/sample-GEDD",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: GEDD – A Systematic Evidence Driven LLM as a Judge Framework",
       "score": 6
     },
     {
-      "url": "https://github.com/DO-SAY-GO/web-cli",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: WebCLI – make the web browser just another agent skill",
+      "url": "https://traceapp.info",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: Trace, offline Mac meeting transcripts you can flag mid-call",
       "score": 6
     },
     {
-      "url": "https://github.com/RichSchefren/atlas",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Atlas – local-first memory that re-evaluates beliefs when facts change",
+      "url": "https://github.com/YasserCR/galdor",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: Galdor – a Go LLM agent framework with built-in tracing and replay",
       "score": 6
     },
     {
-      "url": "https://github.com/link-society/localaz",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Vibecoded local Azure emulator inspired by LocalStack and localgcp",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u4s8up/making_sales_but_unsure_if_business_is_sustainable/",
+      "pushed_at": "2026-06-14",
+      "title": "Making sales but unsure if business is sustainable.",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "pushed_at": "2026-06-13",
-      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "pushed_at": "2026-06-14",
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-      "pushed_at": "2026-06-13",
-      "title": "Mistral is rumored to be raising €3B at €20B valuation",
+      "url": "https://dev.to/supunhewagamage/im-building-got-a-smarter-companion-for-git-and-no-its-not-a-replacement-37k1",
+      "pushed_at": "2026-06-14",
+      "title": "I’m building GOT — a smarter companion for Git (and no, it’s not a replacement)",
       "score": 6
     },
     {
-      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-price-predict-v1-model-by-humbleworth-on-replicate-2o9e",
-      "pushed_at": "2026-06-13",
-      "title": "A beginner's guide to the Price-Predict-V1 model by Humbleworth on Replicate",
+      "url": "https://dev.to/denisarruda/building-resilient-multi-agent-systems-4df1",
+      "pushed_at": "2026-06-14",
+      "title": "Building Resilient Multi-Agent Systems",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3850898430989577?f=rss",
-      "pushed_at": "2026-06-13",
-      "title": "9点1氪｜SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍；胖东来回应“员工不值这么多钱”等言论；FIFA联名款labubu世界杯销量暴涨30倍",
+      "url": "https://dev.to/someoddcodeguy/using-the-system-prompt-preferences-field-1l1b",
+      "pushed_at": "2026-06-14",
+      "title": "Using the System Prompt / Preferences Field",
       "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3846798967818752?f=rss",
-      "pushed_at": "2026-06-13",
-      "title": "36氪研究院 | 2026年中国工业用品制造与流通报告",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3850887488443392?f=rss",
-      "pushed_at": "2026-06-13",
-      "title": "具身智能行业5月融资额环比降近六成",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1668803?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-13",
-      "title": "华为发布鸿蒙 7：AI 时代，追赶者正在反超",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/06/434761.html",
-      "pushed_at": "2026-06-13",
-      "title": "BEV 杀入具身智能：跨维把机器人数据带上 Scaling 快车道",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/963/725.htm",
-      "pushed_at": "2026-06-13",
-      "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
-      "score": 6
-    },
-    {
-      "url": "https://x.com/MiniMax_AI/status/2065623672485015867",
-      "pushed_at": "2026-06-13",
-      "title": "MiniMax M3 开源模型发布：1M-token 上下文与 MSA 稀疏注意力",
-      "score": 6
-    },
-    {
-      "url": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
-      "pushed_at": "2026-06-13",
-      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
-      "score": 6
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
-      "pushed_at": "2026-06-13",
-      "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
-      "score": 6
-    },
-    {
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "pushed_at": "2026-06-13",
-      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
-      "pushed_at": "2026-06-13",
-      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-      "score": 5
-    },
-    {
-      "url": "https://itsbabel.com",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Babel realtime calls with strangers in any language",
-      "score": 5
-    },
-    {
-      "url": "https://accint.xyz/",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: AccInt – a Work Model for AI coding agents",
-      "score": 5
-    },
-    {
-      "url": "https://www.datacompany.dev",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Open-source Git-like Markdown docs for humans and agents",
-      "score": 5
-    },
-    {
-      "url": "https://www.webcli.sh/?hn",
-      "pushed_at": "2026-06-13",
-      "title": "Show HN: Full-self browsing - agents can drive any web task using this CLI Skill",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-      "pushed_at": "2026-06-13",
-      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/_fd62359cd3c9c677f9e9f6/how-i-built-a-24-game-solver-brute-force-meets-elegance-in-typescript-50ko",
-      "pushed_at": "2026-06-13",
-      "title": "How I Built a 24 Game Solver: Brute-Force Meets Elegance in TypeScript",
-      "score": 5
     },
     {
       "url": "https://github.com/maziyarpanahi/openmed",
-      "pushed_at": "2026-06-13",
+      "pushed_at": "2026-06-14",
       "title": "maziyarpanahi/openmed",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3851572421432324?f=rss",
+      "pushed_at": "2026-06-14",
+      "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/refactoringhq/tolaria",
+      "pushed_at": "2026-06-14",
+      "title": "refactoringhq/tolaria",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3851073239372809?f=rss",
+      "pushed_at": "2026-06-14",
+      "title": "读懂SpaceX的两万亿故事：为什么马斯克每一手棋，永远都可以提前摆好？",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/963/858.htm",
+      "pushed_at": "2026-06-14",
+      "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
+      "pushed_at": "2026-06-14",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/963/834.htm",
+      "pushed_at": "2026-06-14",
+      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/963/888.htm",
+      "pushed_at": "2026-06-14",
+      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "score": 6
+    },
+    {
+      "url": "https://minigames.world/en",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: I built 80 mini-games using Fable before it was shut down",
       "score": 5
     },
     {
-      "url": "https://www.ifanr.com/1668871?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-13",
-      "title": "早报｜SpaceX上市首日暴涨/苹果高管：Siri不想做用户的情感伴侣/华为余承东：要带盘古大模型从中国第一走向世界第一",
+      "url": "https://github.com/ayushh0110/ScreenMind",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
       "score": 5
     },
     {
-      "url": "https://github.com/apple/container",
-      "pushed_at": "2026-06-13",
-      "title": "apple/container",
-      "score": 4
+      "url": "https://github.com/expanso-io/log-simulators",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: A bunch of Apache2/MIT log generators",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/Approxima-AI/Approxima-OSS",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: Open-Sourced Approxima, Our Agentic QA Tool to Catch Breakages Faster",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/ptobey/local-memory-mcp",
+      "pushed_at": "2026-06-14",
+      "title": "Show HN: Local RAG memory system that AI can write directly to",
+      "score": 5
+    },
+    {
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "pushed_at": "2026-06-14",
+      "title": "Every Frame Perfect",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u4xmp4/meta_ads/",
+      "pushed_at": "2026-06-14",
+      "title": "Meta Ads",
+      "score": 5
+    },
+    {
+      "url": "https://slopscan.ava.pet/",
+      "pushed_at": "2026-06-14",
+      "title": "repo-slopscore: Detecting AI/LLM contributions in git repositories via commit history analysis",
+      "score": 5
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+      "pushed_at": "2026-06-14",
+      "title": "[AINews] Fable and Mythos officially too dangerous to release",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "pushed_at": "2026-06-14",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "pushed_at": "2026-06-14",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "pushed_at": "2026-06-14",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3851264775804160?f=rss",
+      "pushed_at": "2026-06-14",
+      "title": "智谱：GLM-5.2将面向GLM Coding Plan全量用户开放",
+      "score": 5
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "pushed_at": "2026-06-14",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "score": 5
     },
     {
       "url": "https://github.com/LMCache/LMCache",
-      "pushed_at": "2026-06-13",
+      "pushed_at": "2026-06-14",
       "title": "LMCache/LMCache",
       "score": 4
     }
