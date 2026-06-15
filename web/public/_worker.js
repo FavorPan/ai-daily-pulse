@@ -103,19 +103,21 @@ function render404(locale) {
 var ITEM_RE = /^\/(zh-CN|zh-TW|en)\/item\/(\d{4}-\d{2}-\d{2})\/([a-f0-9]+)\/?$/;
 
 // ---------------------------------------------------------------------------
-// Fetch event handler
+// ES Module worker — Cloudflare Pages advanced mode
 // ---------------------------------------------------------------------------
-addEventListener("fetch", function(event) {
-  var url = new URL(event.request.url);
-  var match = url.pathname.match(ITEM_RE);
+export default {
+  async fetch(request, env) {
+    var url = new URL(request.url);
+    var match = url.pathname.match(ITEM_RE);
 
-  if (!match) {
-    // Not an item page — pass through to static assets
-    return;
+    if (!match) {
+      // Not an item page — pass through to static assets
+      return env.ASSETS.fetch(request);
+    }
+
+    return handleItem(match[1], match[2], match[3], url);
   }
-
-  event.respondWith(handleItem(match[1], match[2], match[3], url));
-});
+};
 
 async function handleItem(locale, date, id, requestUrl) {
   try {
