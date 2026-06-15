@@ -25,7 +25,7 @@ export async function generateMetadata({
   const desc = `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`;
 
   return {
-    title: { absolute: "AI Daily Pulse" },
+    title: { absolute: `AI Daily Pulse — ${data.items.length} articles today` },
     description: desc,
     alternates: {
       ...base.alternates,

@@ -17,7 +17,7 @@ export async function ProductHero({ date }: Props) {
           <p className="text-[13px] font-mono text-muted tracking-wide uppercase">
             AI Daily Pulse
           </p>
-          <h1 className="text-display text-foreground leading-none whitespace-nowrap">
+          <h1 className="text-headline text-foreground">
             {t("tagline")}
           </h1>
           <p className="text-muted text-base leading-relaxed">

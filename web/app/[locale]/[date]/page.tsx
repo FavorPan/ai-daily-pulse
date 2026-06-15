@@ -50,7 +50,7 @@ export async function generateMetadata({
 }
 
 export function generateStaticParams() {
-  const dates = listDigestDates().slice(0, 7);
+  const dates = listDigestDates();
   return dates.map((date) => ({ date }));
 }
 

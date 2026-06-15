@@ -53,9 +53,9 @@ export async function generateMetadata({
       tags,
       images: [
         {
-          url: `${siteUrl}/logo.png`,
-          width: 512,
-          height: 512,
+          url: `${siteUrl}/og-image.png`,
+          width: 1200,
+          height: 630,
           alt: item.title,
         },
       ],
@@ -64,7 +64,7 @@ export async function generateMetadata({
       ...base.twitter,
       title: item.title,
       description: desc,
-      images: [`${siteUrl}/logo.png`],
+      images: [`${siteUrl}/og-image.png`],
     },
   };
 }
@@ -111,8 +111,37 @@ export default async function ItemPage({ params }: PageProps) {
               url: "https://ai-daily-pulse.top",
             },
             url: `https://ai-daily-pulse.top/${locale}/item/${date}/${id}/`,
-            image: "https://ai-daily-pulse.top/logo.png",
+            image: "https://ai-daily-pulse.top/og-image.png",
             keywords: normalizedTags.join(", "),
+          }),
+        }}
+      />
+      {/* BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "AI Daily Pulse",
+                item: `https://ai-daily-pulse.top/${locale}/`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: date,
+                item: `https://ai-daily-pulse.top/${locale}/${date}/`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: item.title,
+              },
+            ],
           }),
         }}
       />

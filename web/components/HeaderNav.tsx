@@ -29,6 +29,7 @@ export function HeaderNav() {
                 ? "text-foreground font-medium bg-surface-muted"
                 : "text-muted hover:text-foreground hover:bg-surface-muted/50"
             }`}
+            aria-current={active ? "page" : undefined}
           >
             {label}
           </Link>
