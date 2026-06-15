@@ -1,5 +1,0 @@
-{
-  "version": 1,
-  "include": ["/zh-CN/item/*", "/en/item/*", "/zh-TW/item/*"],
-  "exclude": []
-}
