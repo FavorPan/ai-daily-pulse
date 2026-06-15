@@ -6403,243 +6403,225 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/fiercedash/scaling-ai-code-review-to-999-uptime-across-regions-cjh",
-      "pushed_at": "2026-06-14",
-      "title": "Scaling AI Code Review to 99.9% Uptime Across Regions",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
-      "pushed_at": "2026-06-14",
-      "title": "Mapping SQLite result columns back to their source `table.column`",
+      "url": "https://github.com/willhackett/wtdb",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: Wtdb – give every Git worktree its own database",
       "score": 8
     },
     {
-      "url": "https://news.ycombinator.com/item?id=48520757",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: I am running 3 coding agents non-stop over the last 3 days. Here is how",
+      "url": "https://dev.to/qasim157/spam-detection-for-inbound-agent-mail-h30",
+      "pushed_at": "2026-06-15",
+      "title": "Spam Detection for Inbound Agent Mail",
       "score": 8
     },
     {
-      "url": "https://dev.to/rileykim/i-cut-rag-costs-65-with-deepseek-chromadb-full-data-lcc",
-      "pushed_at": "2026-06-14",
-      "title": "I Cut RAG Costs 65% With DeepSeek + ChromaDB — Full Data",
+      "url": "https://dev.to/riversea/i-wasted-43-rebuilding-a-vectorize-index-the-wrong-way-heres-the-550-fix-5jp",
+      "pushed_at": "2026-06-15",
+      "title": "I wasted $43 rebuilding a Vectorize index the wrong way — here's the $5.50 fix",
       "score": 8
     },
     {
-      "url": "https://github.com/zoharbabin/web-researcher-mcp",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: Web Researcher MCP – Search with verify citations and sources",
+      "url": "https://dev.to/01_a125211d8c3da3fdcfd/your-ai-agent-has-amnesia-heres-the-file-architecture-i-use-to-fix-it-558e",
+      "pushed_at": "2026-06-15",
+      "title": "Your AI agent has amnesia. Here's the file architecture I use to fix it.",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/andrewyng/aisuite",
+      "pushed_at": "2026-06-15",
+      "title": "andrewyng/aisuite",
+      "score": 8
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3853744868348932?f=rss",
+      "pushed_at": "2026-06-15",
+      "title": "“世航智能”完成A轮融资，融资金额超过10亿元",
+      "score": 8
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "pushed_at": "2026-06-15",
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
       "score": 7
     },
     {
-      "url": "https://dev.to/ku_0dfe543e8243f19f5/i-made-a-sitemap-generator-for-mdbook-it-was-my-first-time-releasing-a-crate-53ge",
-      "pushed_at": "2026-06-14",
-      "title": "I made a sitemap generator for mdBook. It was my first time releasing a crate!",
+      "url": "https://dev.to/rshade/introducing-gh-aw-fleet-57f4",
+      "pushed_at": "2026-06-15",
+      "title": "introducing gh-aw-fleet",
       "score": 7
     },
     {
-      "url": "https://dev.to/_553af38aefbe6c8b9dbc9/ditch-electron-building-a-local-first-sync-engine-with-turso-sqlmodel-bl",
-      "pushed_at": "2026-06-14",
-      "title": "Ditch Electron: Building a Local-First Sync Engine with Turso & SQLModel",
+      "url": "https://dev.to/qasim157/least-privilege-for-ai-agents-one-identity-one-scope-5ggm",
+      "pushed_at": "2026-06-15",
+      "title": "Least Privilege for AI Agents: One Identity, One Scope",
       "score": 7
     },
     {
-      "url": "https://github.com/phuryn/pm-skills",
-      "pushed_at": "2026-06-14",
-      "title": "phuryn/pm-skills",
+      "url": "https://dev.to/__c1b9e06dc90a7e0a676b/when-regex-fails-my-journey-to-ai-powered-data-extraction-1k7e",
+      "pushed_at": "2026-06-15",
+      "title": "When Regex Fails: My Journey to AI-Powered Data Extraction",
       "score": 7
     },
     {
-      "url": "https://36kr.com/p/3851106394117383?f=rss",
-      "pushed_at": "2026-06-14",
-      "title": "“宁王系”，排队 IPO",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "pushed_at": "2026-06-15",
+      "title": "NVIDIA/SkillSpector",
       "score": 7
     },
     {
-      "url": "https://github.com/aws-samples/sample-GEDD",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: GEDD – A Systematic Evidence Driven LLM as a Judge Framework",
+      "url": "https://x.com/vista8/status/2066165703443726749",
+      "pushed_at": "2026-06-15",
+      "title": "乔木小说创作 Skill 开源发布",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything",
+      "pushed_at": "2026-06-15",
+      "title": "Why AI hasn’t replaced software engineers, and won’t",
       "score": 6
     },
     {
-      "url": "https://traceapp.info",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: Trace, offline Mac meeting transcripts you can flag mid-call",
+      "url": "https://morningstack.app/demo/",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: Morning Stack finds real job openings, tweaks resume and cover letter",
       "score": 6
     },
     {
-      "url": "https://github.com/YasserCR/galdor",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: Galdor – a Go LLM agent framework with built-in tracing and replay",
+      "url": "https://github.com/vagnerfirminopro/v-cos",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: V-COS – Governance layer that keeps AI coding agents coherent",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u4s8up/making_sales_but_unsure_if_business_is_sustainable/",
-      "pushed_at": "2026-06-14",
-      "title": "Making sales but unsure if business is sustainable.",
+      "url": "https://solaris.franzai.com/",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: Solaris the Thinking Ocean Simulator",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-      "pushed_at": "2026-06-14",
-      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "url": "https://github.com/skrrt-sh/raif-standard",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: RAIF – an experimental structured I/O format for LLMs",
       "score": 6
     },
     {
-      "url": "https://dev.to/supunhewagamage/im-building-got-a-smarter-companion-for-git-and-no-its-not-a-replacement-37k1",
-      "pushed_at": "2026-06-14",
-      "title": "I’m building GOT — a smarter companion for Git (and no, it’s not a replacement)",
+      "url": "https://github.com/tamnd/kage",
+      "pushed_at": "2026-06-15",
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
       "score": 6
     },
     {
-      "url": "https://dev.to/denisarruda/building-resilient-multi-agent-systems-4df1",
-      "pushed_at": "2026-06-14",
-      "title": "Building Resilient Multi-Agent Systems",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "pushed_at": "2026-06-15",
+      "title": "Don't trust large context windows",
       "score": 6
     },
     {
-      "url": "https://dev.to/someoddcodeguy/using-the-system-prompt-preferences-field-1l1b",
-      "pushed_at": "2026-06-14",
-      "title": "Using the System Prompt / Preferences Field",
+      "url": "https://sqltoerdiagram.com/",
+      "pushed_at": "2026-06-15",
+      "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
       "score": 6
     },
     {
-      "url": "https://github.com/maziyarpanahi/openmed",
-      "pushed_at": "2026-06-14",
-      "title": "maziyarpanahi/openmed",
+      "url": "https://dev.to/earlgreyhot1701d/aws-summit-los-angeles-2026-why-am-i-always-learning-the-hard-way-46lb",
+      "pushed_at": "2026-06-15",
+      "title": "AWS Summit Los Angeles 2026: Why Am I Always Learning the Hard Way?",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3851572421432324?f=rss",
-      "pushed_at": "2026-06-14",
-      "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
+      "url": "https://dev.to/tech_nuggets/the-model-context-protocol-mcp-what-it-is-and-how-to-build-a-server-4fbi",
+      "pushed_at": "2026-06-15",
+      "title": "The Model Context Protocol (MCP): what it is and how to build a server",
       "score": 6
     },
     {
-      "url": "https://github.com/refactoringhq/tolaria",
-      "pushed_at": "2026-06-14",
-      "title": "refactoringhq/tolaria",
+      "url": "https://github.com/kenn-io/agentsview",
+      "pushed_at": "2026-06-15",
+      "title": "kenn-io/agentsview",
       "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3851073239372809?f=rss",
-      "pushed_at": "2026-06-14",
-      "title": "读懂SpaceX的两万亿故事：为什么马斯克每一手棋，永远都可以提前摆好？",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/963/858.htm",
-      "pushed_at": "2026-06-14",
-      "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
-      "pushed_at": "2026-06-14",
-      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/963/834.htm",
-      "pushed_at": "2026-06-14",
-      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/963/888.htm",
-      "pushed_at": "2026-06-14",
-      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
-      "score": 6
-    },
-    {
-      "url": "https://minigames.world/en",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: I built 80 mini-games using Fable before it was shut down",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/ayushh0110/ScreenMind",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/expanso-io/log-simulators",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: A bunch of Apache2/MIT log generators",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/Approxima-AI/Approxima-OSS",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: Open-Sourced Approxima, Our Agentic QA Tool to Catch Breakages Faster",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/ptobey/local-memory-mcp",
-      "pushed_at": "2026-06-14",
-      "title": "Show HN: Local RAG memory system that AI can write directly to",
-      "score": 5
-    },
-    {
-      "url": "https://tonsky.me/blog/every-frame-perfect/",
-      "pushed_at": "2026-06-14",
-      "title": "Every Frame Perfect",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u4xmp4/meta_ads/",
-      "pushed_at": "2026-06-14",
-      "title": "Meta Ads",
-      "score": 5
-    },
-    {
-      "url": "https://slopscan.ava.pet/",
-      "pushed_at": "2026-06-14",
-      "title": "repo-slopscore: Detecting AI/LLM contributions in git repositories via commit history analysis",
-      "score": 5
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
-      "pushed_at": "2026-06-14",
-      "title": "[AINews] Fable and Mythos officially too dangerous to release",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-      "pushed_at": "2026-06-14",
-      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-      "pushed_at": "2026-06-14",
-      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-      "pushed_at": "2026-06-14",
-      "title": "OpenAI faces investigation from state attorneys general",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3851264775804160?f=rss",
-      "pushed_at": "2026-06-14",
-      "title": "智谱：GLM-5.2将面向GLM Coding Plan全量用户开放",
-      "score": 5
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
-      "pushed_at": "2026-06-14",
-      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
-      "score": 5
     },
     {
       "url": "https://github.com/LMCache/LMCache",
-      "pushed_at": "2026-06-14",
+      "pushed_at": "2026-06-15",
       "title": "LMCache/LMCache",
+      "score": 6
+    },
+    {
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "pushed_at": "2026-06-15",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1668931?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-15",
+      "title": "HDC 2026 深度解构：鸿蒙全面向 Agent 架构演进，小艺做了这三件事",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3853252135654660?f=rss",
+      "pushed_at": "2026-06-15",
+      "title": "36氪首发 | EBike变速器供应商打破海外巨头垄断，获国泰、达晨参与新一轮数千万元融资",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3853670570743040?f=rss",
+      "pushed_at": "2026-06-15",
+      "title": "8点1氪丨诺奖得主称马斯克是庞氏骗局；SK海力士去年新增员工超2000人；人形机器人U1仅限成人购买",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3853718682375433?f=rss",
+      "pushed_at": "2026-06-15",
+      "title": "“大晓机器人”完成天使+轮融资",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u5mvsc/dont_spend_tons_of_money_and_time_test_now/",
+      "pushed_at": "2026-06-15",
+      "title": "don't spend tons of money and time, test NOW",
+      "score": 5
+    },
+    {
+      "url": "https://dev.to/qasim157/auditing-what-your-email-agent-actually-did-ejc",
+      "pushed_at": "2026-06-15",
+      "title": "Auditing What Your Email Agent Actually Did",
+      "score": 5
+    },
+    {
+      "url": "https://dev.to/joshuabvarghese/building-loom-part-3-real-time-browser-ui-with-sse-goroutines-and-channels-3e8c",
+      "pushed_at": "2026-06-15",
+      "title": "Building Loom (Part 3): Real-Time Browser UI with SSE, Goroutines, and Channels",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/chatwoot/chatwoot",
+      "pushed_at": "2026-06-15",
+      "title": "chatwoot/chatwoot",
+      "score": 5
+    },
+    {
+      "url": "https://www.searchenginejournal.com/stripe-projects-opens-cloud-infrastructure-buying-to-ai-agents/575504/",
+      "pushed_at": "2026-06-15",
+      "title": "Stripe Projects Opens Cloud Infrastructure Buying To AI Agents via @sejournal, @slobodanmanic",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "pushed_at": "2026-06-15",
+      "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/music-assistant/server",
+      "pushed_at": "2026-06-15",
+      "title": "music-assistant/server",
+      "score": 4
+    },
+    {
+      "url": "https://github.com/apple/container",
+      "pushed_at": "2026-06-15",
+      "title": "apple/container",
       "score": 4
     }
   ]
