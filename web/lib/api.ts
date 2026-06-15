@@ -139,12 +139,14 @@ export async function getAllItems(): Promise<DigestItemWithDate[]> {
   return all;
 }
 
-/** Get all (date, id) pairs for sitemap generation.
- *  Item pages are served by Cloudflare Pages Functions, not static export. */
-export function getAllItemParams(): { date: string; id: string }[] {
+/** Get (date, id) pairs for static generation / sitemap.
+ *  maxDays defaults to 1 (one day of static pages for output:export).
+ *  Pass 0 for all dates (used by sitemap). */
+export function getAllItemParams(maxDays = 1): { date: string; id: string }[] {
   const allDates = listDigestDates();
+  const dates = maxDays > 0 ? allDates.slice(0, maxDays) : allDates;
   const params: { date: string; id: string }[] = [];
-  for (const d of allDates) {
+  for (const d of dates) {
     const filePath = resolveDigestPath(d);
     if (!filePath) continue;
     const digest = readDigest(filePath);

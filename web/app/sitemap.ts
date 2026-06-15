@@ -8,7 +8,7 @@ const LOCALES = ["zh-CN", "zh-TW", "en"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const dates = listDigestDates();
-  const itemParams = getAllItemParams();
+  const itemParams = getAllItemParams(0); // 0 = all dates
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of LOCALES) {
