@@ -10,9 +10,16 @@ import logging
 import os
 import re
 import subprocess
+import time
 from collections import Counter
 
-from openai import OpenAI
+from openai import (
+    APIStatusError,
+    APIConnectionError,
+    APITimeoutError,
+    OpenAI,
+    RateLimitError,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -84,21 +91,58 @@ X_THREAD_PROMPT = """你是一位 AI 内容运营专家。根据今日 AI 日报
 只输出 JSON，不要其他文字。"""
 
 
-def _call_llm(client: OpenAI, model: str, prompt: str, max_tokens: int = 1000) -> dict | None:
-    """Call LLM with JSON mode, return parsed dict or None."""
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            max_tokens=max_tokens,
-            messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"},
-        )
-        raw = (response.choices[0].message.content or "").strip()
-        match = re.search(r"\{.*\}", raw, re.DOTALL)
-        if match:
-            return json.loads(match.group())
-    except Exception as e:
-        logger.warning("Insights LLM call failed: %s", e)
+def _call_llm(client: OpenAI, model: str, prompt: str, max_tokens: int = 1000,
+              attempts: int = 3) -> dict | None:
+    """Call LLM with JSON mode and retry logic, return parsed dict or None."""
+    last_err: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}],
+                response_format={"type": "json_object"},
+            )
+            raw = (response.choices[0].message.content or "").strip()
+            if not raw:
+                last_err = ValueError("empty response content")
+                if attempt < attempts - 1:
+                    time.sleep(2 ** (attempt + 1))
+                continue
+            match = re.search(r"\{.*\}", raw, re.DOTALL)
+            if match:
+                try:
+                    result = json.loads(match.group())
+                    if result is not None:
+                        return result
+                    last_err = ValueError("JSON parsed as null")
+                except json.JSONDecodeError as e:
+                    last_err = e
+            else:
+                last_err = ValueError(f"no JSON object found in response: {raw[:200]}")
+            if attempt < attempts - 1:
+                time.sleep(2 ** (attempt + 1))
+        except RateLimitError as e:
+            last_err = e
+            if attempt < attempts - 1:
+                time.sleep(2 ** (attempt + 1))
+        except APIStatusError as e:
+            if e.status_code == 401:
+                logger.warning("Insights LLM: 401 unauthorized, not retrying")
+                return None
+            if e.status_code >= 500:
+                last_err = e
+                if attempt < attempts - 1:
+                    time.sleep(2 ** (attempt + 1))
+            else:
+                logger.warning("Insights LLM: API error %d, not retrying", e.status_code)
+                return None
+        except (APIConnectionError, APITimeoutError) as e:
+            last_err = e
+            if attempt < attempts - 1:
+                time.sleep(2 ** (attempt + 1))
+
+    logger.warning("Insights LLM call failed after %d attempts: %s", attempts, last_err)
     return None
 
 
