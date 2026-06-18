@@ -6403,916 +6403,226 @@
       "score": 5
     },
     {
-      "url": "https://github.com/willhackett/wtdb",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: Wtdb – give every Git worktree its own database",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/qasim157/spam-detection-for-inbound-agent-mail-h30",
-      "pushed_at": "2026-06-15",
-      "title": "Spam Detection for Inbound Agent Mail",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/riversea/i-wasted-43-rebuilding-a-vectorize-index-the-wrong-way-heres-the-550-fix-5jp",
-      "pushed_at": "2026-06-15",
-      "title": "I wasted $43 rebuilding a Vectorize index the wrong way — here's the $5.50 fix",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/01_a125211d8c3da3fdcfd/your-ai-agent-has-amnesia-heres-the-file-architecture-i-use-to-fix-it-558e",
-      "pushed_at": "2026-06-15",
-      "title": "Your AI agent has amnesia. Here's the file architecture I use to fix it.",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/andrewyng/aisuite",
-      "pushed_at": "2026-06-15",
-      "title": "andrewyng/aisuite",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3853744868348932?f=rss",
-      "pushed_at": "2026-06-15",
-      "title": "“世航智能”完成A轮融资，融资金额超过10亿元",
-      "score": 8
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=48528029",
-      "pushed_at": "2026-06-15",
-      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/rshade/introducing-gh-aw-fleet-57f4",
-      "pushed_at": "2026-06-15",
-      "title": "introducing gh-aw-fleet",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/qasim157/least-privilege-for-ai-agents-one-identity-one-scope-5ggm",
-      "pushed_at": "2026-06-15",
-      "title": "Least Privilege for AI Agents: One Identity, One Scope",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/__c1b9e06dc90a7e0a676b/when-regex-fails-my-journey-to-ai-powered-data-extraction-1k7e",
-      "pushed_at": "2026-06-15",
-      "title": "When Regex Fails: My Journey to AI-Powered Data Extraction",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "pushed_at": "2026-06-15",
-      "title": "NVIDIA/SkillSpector",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/vista8/status/2066165703443726749",
-      "pushed_at": "2026-06-15",
-      "title": "乔木小说创作 Skill 开源发布",
-      "score": 7
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything",
-      "pushed_at": "2026-06-15",
-      "title": "Why AI hasn’t replaced software engineers, and won’t",
-      "score": 6
-    },
-    {
-      "url": "https://morningstack.app/demo/",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: Morning Stack finds real job openings, tweaks resume and cover letter",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/vagnerfirminopro/v-cos",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: V-COS – Governance layer that keeps AI coding agents coherent",
-      "score": 6
-    },
-    {
-      "url": "https://solaris.franzai.com/",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: Solaris the Thinking Ocean Simulator",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/skrrt-sh/raif-standard",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: RAIF – an experimental structured I/O format for LLMs",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/tamnd/kage",
-      "pushed_at": "2026-06-15",
-      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
-      "score": 6
-    },
-    {
-      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
-      "pushed_at": "2026-06-15",
-      "title": "Don't trust large context windows",
-      "score": 6
-    },
-    {
-      "url": "https://sqltoerdiagram.com/",
-      "pushed_at": "2026-06-15",
-      "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/earlgreyhot1701d/aws-summit-los-angeles-2026-why-am-i-always-learning-the-hard-way-46lb",
-      "pushed_at": "2026-06-15",
-      "title": "AWS Summit Los Angeles 2026: Why Am I Always Learning the Hard Way?",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/tech_nuggets/the-model-context-protocol-mcp-what-it-is-and-how-to-build-a-server-4fbi",
-      "pushed_at": "2026-06-15",
-      "title": "The Model Context Protocol (MCP): what it is and how to build a server",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/kenn-io/agentsview",
-      "pushed_at": "2026-06-15",
-      "title": "kenn-io/agentsview",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/LMCache/LMCache",
-      "pushed_at": "2026-06-15",
-      "title": "LMCache/LMCache",
-      "score": 6
-    },
-    {
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "pushed_at": "2026-06-15",
-      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1668931?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-15",
-      "title": "HDC 2026 深度解构：鸿蒙全面向 Agent 架构演进，小艺做了这三件事",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3853252135654660?f=rss",
-      "pushed_at": "2026-06-15",
-      "title": "36氪首发 | EBike变速器供应商打破海外巨头垄断，获国泰、达晨参与新一轮数千万元融资",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3853670570743040?f=rss",
-      "pushed_at": "2026-06-15",
-      "title": "8点1氪丨诺奖得主称马斯克是庞氏骗局；SK海力士去年新增员工超2000人；人形机器人U1仅限成人购买",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3853718682375433?f=rss",
-      "pushed_at": "2026-06-15",
-      "title": "“大晓机器人”完成天使+轮融资",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u5mvsc/dont_spend_tons_of_money_and_time_test_now/",
-      "pushed_at": "2026-06-15",
-      "title": "don't spend tons of money and time, test NOW",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/qasim157/auditing-what-your-email-agent-actually-did-ejc",
-      "pushed_at": "2026-06-15",
-      "title": "Auditing What Your Email Agent Actually Did",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/joshuabvarghese/building-loom-part-3-real-time-browser-ui-with-sse-goroutines-and-channels-3e8c",
-      "pushed_at": "2026-06-15",
-      "title": "Building Loom (Part 3): Real-Time Browser UI with SSE, Goroutines, and Channels",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/chatwoot/chatwoot",
-      "pushed_at": "2026-06-15",
-      "title": "chatwoot/chatwoot",
-      "score": 5
-    },
-    {
-      "url": "https://www.searchenginejournal.com/stripe-projects-opens-cloud-infrastructure-buying-to-ai-agents/575504/",
-      "pushed_at": "2026-06-15",
-      "title": "Stripe Projects Opens Cloud Infrastructure Buying To AI Agents via @sejournal, @slobodanmanic",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "pushed_at": "2026-06-15",
-      "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/music-assistant/server",
-      "pushed_at": "2026-06-15",
-      "title": "music-assistant/server",
-      "score": 4
-    },
-    {
-      "url": "https://github.com/apple/container",
-      "pushed_at": "2026-06-15",
-      "title": "apple/container",
-      "score": 4
-    },
-    {
-      "url": "https://www.therundown.ai/p/cursor-officially-joins-the-spacex-ai-machine",
-      "pushed_at": "2026-06-16",
-      "title": "Cursor officially joins the SpaceX AI machine",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "pushed_at": "2026-06-16",
-      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "score": 8
-    },
-    {
       "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
       "score": 8
     },
     {
-      "url": "https://github.com/rmyndharis/OpenWA",
-      "pushed_at": "2026-06-16",
-      "title": "rmyndharis/OpenWA",
+      "url": "https://dev.to/aman_sachan_126d19c4a2773/how-i-pack-eleven-tool-domains-into-one-pyside6-window-without-spaghetti-wiring-1e7b",
+      "pushed_at": "2026-06-18",
+      "title": "How I Pack Eleven Tool Domains into One PySide6 Window Without Spaghetti Wiring",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8p9s1/i_released_inflectnano_an_ultraextreme_tiny_463m/",
-      "pushed_at": "2026-06-16",
-      "title": "I released Inflect-Nano, an ultra-extreme tiny 4.63m parameter TTS model.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "pushed_at": "2026-06-18",
+      "title": "Panniantong/Agent-Reach",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u89f2q/headless_screenshot_loops_let_a_local_30b_agent/",
-      "pushed_at": "2026-06-16",
-      "title": "Headless screenshot loops let a local 30B agent finish a raytraced FPS demo in pure C",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "pushed_at": "2026-06-18",
+      "title": "calesthio/OpenMontage",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1669123?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-16",
-      "title": "早报｜曝苹果明年推出带摄像头AirPods/DeepSeek完成500亿融资/曝微信支付「AI专属卡」最快本周上线",
+      "url": "https://trends.vc/serialized-fiction-apps-cliffhanger-economics-rented-audience-werewolf-formula/",
+      "pushed_at": "2026-06-18",
+      "title": "Serialized Fiction Apps: Cliffhanger Economics, Rented Audience, Werewolf formula",
       "score": 8
     },
     {
-      "url": "https://36kr.com/p/3856708724315400?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "红杉、阿里押注过的具身大脑公司再融资，上交等投资数亿元｜硬氪首发",
+      "url": "https://www.ifanr.com/1669127?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-18",
+      "title": "实测 GLM-5.2 ：Claude 5 关停后，它真能稳稳接住这波用户",
       "score": 8
     },
     {
-      "url": "https://36kr.com/p/3857959588418823?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "中科院博士冲上市，市值超105亿港币",
-      "score": 8
+      "url": "https://www.therundown.ai/p/cursor-officially-joins-the-spacex-ai-machine",
+      "pushed_at": "2026-06-18",
+      "title": "Cursor officially joins the SpaceX AI machine",
+      "score": 7
     },
     {
-      "url": "https://36kr.com/p/3857011810112521?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "浙大系创业者冲港股IPO，仙工智能招股书五大看点",
-      "score": 8
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "pushed_at": "2026-06-18",
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "score": 7
     },
     {
-      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year",
-      "pushed_at": "2026-06-16",
-      "title": "泄露文件显示OpenAI年营收130亿但亏损远超收入",
-      "score": 8
+      "url": "https://github.com/agent-data/job-search",
+      "pushed_at": "2026-06-18",
+      "title": "Show HN: An open source job search plugin for Claude Code",
+      "score": 7
     },
     {
-      "url": "https://www.lmsys.org/blog/2026-06-17-ling-2-6-tpu",
-      "pushed_at": "2026-06-16",
-      "title": "用SGLang-JAX在TPU上优化Ling-2.6-1T：一个Pallas核将MoE数据移动隐藏在计算中",
-      "score": 8
+      "url": "https://github.com/LegalRabbit-AI/legalrabbit-docx-claude-plugin",
+      "pushed_at": "2026-06-18",
+      "title": "Show HN: Cowork/Codex DOCX plugin. Uses 2x fewer tokens than the docx skill",
+      "score": 7
     },
     {
-      "url": "https://x.com/dotey/status/2067039941960327204",
-      "pushed_at": "2026-06-16",
-      "title": "baoyu-design 本地动画视频导出功能更新",
-      "score": 8
-    },
-    {
-      "url": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction",
-      "pushed_at": "2026-06-16",
-      "title": "人工智能是否已经让自助类非虚构书籍销声匿迹了？",
-      "score": 8
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-      "pushed_at": "2026-06-16",
-      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-      "score": 8
-    },
-    {
-      "url": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
-      "pushed_at": "2026-06-16",
-      "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
-      "score": 8
+      "url": "https://www.rigthhand.ai",
+      "pushed_at": "2026-06-18",
+      "title": "Show HN: Righthand – Autonomous AI assistants with skills, goals, and a CLI",
+      "score": 7
     },
     {
       "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
       "score": 7
     },
     {
       "url": "https://www.latent.space/p/radical-ai",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
-      "pushed_at": "2026-06-16",
-      "title": "[AINews] Satya on Loopcraft: Building Frontier Ecosystems",
+      "url": "https://dev.to/stephanie_dover_b49c2e8d1/building-repo-conventions-aware-coding-agents-1ep8",
+      "pushed_at": "2026-06-18",
+      "title": "Building repo conventions aware coding agents",
       "score": 7
     },
     {
-      "url": "https://github.com/alibaba/zvec",
-      "pushed_at": "2026-06-16",
-      "title": "alibaba/zvec",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "pushed_at": "2026-06-18",
+      "title": "DeusData/codebase-memory-mcp",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
-      "pushed_at": "2026-06-16",
-      "title": "World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names",
+      "url": "https://github.com/google-research/timesfm",
+      "pushed_at": "2026-06-18",
+      "title": "google-research/timesfm",
       "score": 7
     },
     {
-      "url": "https://dev.to/zaerohell/building-content-automation-2026-06-15-23c9",
-      "pushed_at": "2026-06-16",
-      "title": "Building content-automation — 2026-06-15",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/srihari_p_v/i-built-an-amazon-style-ai-review-summarizer-for-any-dataset-nlp-transformers-streamlit-1h7d",
-      "pushed_at": "2026-06-16",
-      "title": "I Built an \"Amazon-Style\" AI Review Summarizer for Any Dataset (NLP, Transformers, Streamlit)",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/gnomeman4201/r4b1th0l3-5aa3",
-      "pushed_at": "2026-06-16",
-      "title": "r4b1t_h0l3",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8ai2a/glm52_is_a_win_for_local_ai/",
-      "pushed_at": "2026-06-16",
-      "title": "GLM-5.2 is a win for local AI",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8i79d/llamacpp_how_to_free_up_even_more_space_on_your/",
-      "pushed_at": "2026-06-16",
-      "title": "llama.cpp - how to free up even more space on your GPU",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8kes0/lemonade_v108_auto_memory_management_cloud/",
-      "pushed_at": "2026-06-16",
-      "title": "Lemonade v10.8: auto memory management, cloud offload, Omni improvements, and call your local models as MCP tools",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7mexd/glm52_is_the_first_openweights_model_to_cross_80/",
-      "pushed_at": "2026-06-16",
-      "title": "GLM-5.2 is the first open-weights model to cross 80% on Terminal-Bench and beats every other open model available",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8d9rf/trellis2_now_runs_natively_on_mlx_image_to_3d/",
-      "pushed_at": "2026-06-16",
-      "title": "TRELLIS.2 now runs natively on MLX (Image to 3d object model)",
-      "score": 7
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
-      "pushed_at": "2026-06-16",
-      "title": "Want to get a data center online quickly? Give it some flex.",
-      "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/06/436138.html",
-      "pushed_at": "2026-06-16",
-      "title": "林俊旸新公司卜拉格亮相！首轮估值135亿，腾讯高榕红杉全投了",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1669127?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-16",
-      "title": "实测 GLM-5.2 ：Claude 5 关停后，它真能稳稳接住这波用户",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3855480467543042?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "北大科学家下场做脑机接口，种子轮融了近亿元",
-      "score": 7
-    },
-    {
-      "url": "https://www.ithome.com/0/965/694.htm",
-      "pushed_at": "2026-06-16",
-      "title": "库克：AI 浪潮引发存储芯片价格暴涨，iPhone 等苹果产品涨价已\"不可避免\"",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/AYi_AInotes/status/2067327021005656135",
-      "pushed_at": "2026-06-16",
-      "title": "Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%",
-      "score": 7
-    },
-    {
-      "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
-      "pushed_at": "2026-06-16",
-      "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
-      "score": 7
-    },
-    {
-      "url": "https://x.com/DrJimFan/status/2067283904986517866",
-      "pushed_at": "2026-06-16",
-      "title": "NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验",
-      "score": 7
-    },
-    {
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "pushed_at": "2026-06-16",
-      "title": "MolmoMotion：语言引导的3D运动预测模型",
-      "score": 7
-    },
-    {
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "pushed_at": "2026-06-16",
-      "title": "Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人",
-      "score": 7
-    },
-    {
-      "url": "https://www.ithome.com/0/965/335.htm",
-      "pushed_at": "2026-06-16",
-      "title": "消息称 OpenAI 今年一季度现金消耗达 37 亿美元，超同期收入的一半",
-      "score": 7
-    },
-    {
-      "url": "https://x.ai/news/grok-amazon-bedrock",
-      "pushed_at": "2026-06-16",
-      "title": "Grok 4.3 在 Amazon Bedrock 正式可用",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
-      "pushed_at": "2026-06-16",
-      "title": "Anthropic 5月企业AI订阅份额首超OpenAI，特朗普政府禁令反促采用量创新高",
-      "score": 7
-    },
-    {
-      "url": "https://trends.vc/serialized-fiction-apps-cliffhanger-economics-rented-audience-werewolf-formula/",
-      "pushed_at": "2026-06-16",
-      "title": "Serialized Fiction Apps: Cliffhanger Economics, Rented Audience, Werewolf formula",
-      "score": 7
-    },
-    {
-      "url": "https://www.bensbites.com/p/bye-bye-fable",
-      "pushed_at": "2026-06-16",
-      "title": "Bye bye Fable",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
-      "pushed_at": "2026-06-16",
-      "title": "Quoting Georgi Gerganov",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
-      "pushed_at": "2026-06-16",
-      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/LegalRabbit-AI/legalrabbit-docx-claude-plugin",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: Cowork/Codex DOCX plugin. Uses 2x fewer tokens than the docx skill",
+      "url": "https://github.com/idodekerobo/draft",
+      "pushed_at": "2026-06-18",
+      "title": "Show HN: Draft, Open Source Agent Context Sync/Collaboration",
       "score": 6
     },
     {
       "url": "https://github.com/Rocketgraph/rocketgraph",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "Show HN: ML condenses billions of logs into a tiny snapshot your LLM can debug",
       "score": 6
     },
     {
-      "url": "https://www.rigthhand.ai",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: Righthand – Autonomous AI assistants with skills, goals, and a CLI",
-      "score": 6
-    },
-    {
       "url": "https://www.usereyn.com/",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "Show HN: Reyn – local-first AI that journals and recalls your work",
       "score": 6
     },
     {
-      "url": "https://tablething.com/",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: Tablething – local-first database client with BYOK AI",
-      "score": 6
-    },
-    {
-      "url": "https://spellabee.com/",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: I built a spelling app for kids with my 7-year-old",
-      "score": 6
-    },
-    {
-      "url": "https://maximumroulette.com/apps/webgpu/examples.html",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: Matrix Engine WGPU – focus on mobile]",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/swc-project/swc",
-      "pushed_at": "2026-06-16",
-      "title": "swc-project/swc",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/puppeteer/puppeteer",
-      "pushed_at": "2026-06-16",
-      "title": "puppeteer/puppeteer",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
-      "pushed_at": "2026-06-16",
-      "title": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
-      "score": 6
-    },
-    {
-      "url": "https://www.therundown.ai/p/why-100-security-experts-say-the-fable-5-ban-backfires",
-      "pushed_at": "2026-06-16",
-      "title": "Why 100+ security experts say the Fable 5 ban backfires",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
-      "pushed_at": "2026-06-16",
-      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "pushed_at": "2026-06-18",
+      "title": "World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names",
       "score": 6
     },
     {
       "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "Canadian pension giant joins race to fund India’s AI-fueled data center boom",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
-      "pushed_at": "2026-06-16",
-      "title": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "pushed_at": "2026-06-18",
+      "title": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
       "score": 6
     },
     {
-      "url": "https://dev.to/tonywangca/14-of-the-web-is-actually-dead-but-not-how-you-think-we-scanned-10m-domains-35g9",
-      "pushed_at": "2026-06-16",
-      "title": "14% of the Web Is Actually Dead — But Not How You Think (We Scanned 10M Domains)",
+      "url": "https://dev.to/gyu07/rigor-compresses-why-ai-agents-need-graphs-not-more-context-5404",
+      "pushed_at": "2026-06-18",
+      "title": "Rigor Compresses: Why AI Agents Need Graphs, Not More Context",
       "score": 6
     },
     {
-      "url": "https://dev.to/jun_uen0/playing-hide-and-seek-with-an-api-key-our-cfos-claude-code-kept-hiding-job",
-      "pushed_at": "2026-06-16",
-      "title": "Playing hide-and-seek with an API key our CFO's Claude Code kept hiding",
+      "url": "https://dev.to/hiyoyok/usb-hotplug-detection-in-rust-on-macos-reacting-to-device-connectdisconnect-55do",
+      "pushed_at": "2026-06-18",
+      "title": "USB Hotplug Detection in Rust on macOS — Reacting to Device Connect/Disconnect",
       "score": 6
     },
     {
-      "url": "https://dev.to/r0bertini/webkit-opposes-webmcp-heres-what-to-actually-build-today-18dn",
-      "pushed_at": "2026-06-16",
-      "title": "WebKit opposes WebMCP. Here's what to actually build today",
+      "url": "https://dev.to/glendel/ai-agents-dont-need-more-memory-they-need-governed-recall-3p73",
+      "pushed_at": "2026-06-18",
+      "title": "AI Agents Don't Need More Memory. They Need Governed Recall.",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8g3d0/gemma_4_e2b_running_inbrowser_at_255_toks_using/",
-      "pushed_at": "2026-06-16",
-      "title": "Gemma 4 E2B running in-browser at 255 tok/s using WebGPU kernels written by Fable 5",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "pushed_at": "2026-06-18",
+      "title": "nautechsystems/nautilus_trader",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u85t9c/local_models_went_from_mostly_useless_to_actually/",
-      "pushed_at": "2026-06-16",
-      "title": "Local models went from mostly useless to actually useful really fast. What changed?",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "pushed_at": "2026-06-18",
+      "title": "chatwoot/chatwoot",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8p9w7/llamacpp_now_supports_model_management/",
-      "pushed_at": "2026-06-16",
-      "title": "llama.cpp now supports model management (downloading etc) via API",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u894z7/i_released_a_local_llmpowered_rpg_where_generated/",
-      "pushed_at": "2026-06-16",
-      "title": "I released a local LLM-powered RPG where generated NPCs, locations, items, and quests persist as in-game objects",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8i8t3/i_posttrained_a_model_to_reliably_roll_a_die/",
-      "pushed_at": "2026-06-16",
-      "title": "i post-trained a model to reliably roll a die",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8hnl4/my_glm52fp8_hgxh200_sglang_docker_deploy_config/",
-      "pushed_at": "2026-06-16",
-      "title": "My GLM-5.2-FP8 HGX-H200 SGLang docker deploy config",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8gceo/multilingualmultimodalnlploopcoderv2_hugging_face/",
-      "pushed_at": "2026-06-16",
-      "title": "Multilingual-Multimodal-NLP/LoopCoder-V2 · Hugging Face",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u88ywc/siq1_qwen36_for_autoresearch_and_autonomous_agency/",
-      "pushed_at": "2026-06-16",
-      "title": "SIQ-1 Qwen3.6 for autoresearch and autonomous agency",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1669281?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-16",
-      "title": "早报｜曝第二代iPhone Air明年春季推出/特斯拉「车顶维权」名誉权案再审被驳回/微信支付推出AI专属卡",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1669043?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-16",
-      "title": "华为小艺：藏器于身，待时而动｜AI 器物志",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1669022?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-16",
-      "title": "起猛了，看见 Gemini 上长了个手机",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3857980507919622?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "36氪「2026最具价值成长企业100」正式发布",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3857925631104004?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "8点1氪丨山姆首席采购官张青已提交辞呈；豆包每天收入不足百万；不得以长期、大额补贴扰乱市场秩序，外卖平台新规公开征求意见",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3857175761081348?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "氪星晚报｜菜鸟将在荷兰建设欧洲供应链履约中心；有道词典笔获2026 EdTech Breakthrough Award年度K-12教育科技应用大奖；国务院：深入实施“人工智能+”行动，探索人机协同的新型工作形态",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3848483761493250?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3857939710203144?f=rss",
-      "pushed_at": "2026-06-16",
-      "title": "科创板第五套标准扩围至大模型企业，智谱、MiniMax“回A”有望提速",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/965/734.htm",
-      "pushed_at": "2026-06-16",
-      "title": "苹果 Xcode 27 核心首次深度集成 AI 智能体：支持自然语言修 Bug、构建 App",
-      "score": 6
-    },
-    {
-      "url": "https://www.ithome.com/0/965/735.htm",
-      "pushed_at": "2026-06-16",
-      "title": "上交所发布指引：AI大模型企业可适用科创板第五套上市标准",
-      "score": 6
-    },
-    {
-      "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
-      "pushed_at": "2026-06-16",
-      "title": "Claude Design 更新：跨项目保持品牌一致，与Claude Code协同",
-      "score": 6
-    },
-    {
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
-      "pushed_at": "2026-06-16",
-      "title": "Google 医学推理 AI 系统 AMIE 新研究：从诊断迈向长期疾病管理",
-      "score": 6
-    },
-    {
-      "url": "https://blog.cloudflare.com/cloudflare-one-stack",
-      "pushed_at": "2026-06-16",
-      "title": "Cloudflare 发布 Cloudflare One stack：智能体驱动的部署工具集",
-      "score": 6
-    },
-    {
-      "url": "https://alignment.openai.com/validating-public-evals",
-      "pushed_at": "2026-06-16",
-      "title": "公开聊天数据能否预测真实世界AI失调？",
-      "score": 6
-    },
-    {
-      "url": "https://openrouter.ai/blog/tutorials/any-coding-agent",
-      "pushed_at": "2026-06-16",
-      "title": "如何用 OpenRouter 接入任意编码代理或 AI 工具",
-      "score": 6
-    },
-    {
-      "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-      "pushed_at": "2026-06-16",
-      "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-      "pushed_at": "2026-06-16",
-      "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
+      "url": "https://github.com/alexzhang13/rlm",
+      "pushed_at": "2026-06-18",
+      "title": "alexzhang13/rlm",
       "score": 6
     },
     {
       "url": "https://trends.vc/what-are-the-7-neuro-writing-tricks-that-make-content-impossible-to-ignore/",
-      "pushed_at": "2026-06-16",
+      "pushed_at": "2026-06-18",
       "title": "✍️ What Are the 7 Neuro-Writing Tricks That Make Content Impossible to Ignore?",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u7hvxm/built_the_product_myself_now_i_need_a_partner_but/",
-      "pushed_at": "2026-06-16",
-      "title": "Built the product myself. Now I need a partner, but afraid to give away equity.",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u7q4ul/i_just_received_my_first_google_admob_cheque/",
-      "pushed_at": "2026-06-16",
-      "title": "I just received my first Google AdMob cheque after 50,000 downloads. Here’s the part nobody talks about.",
-      "score": 5
-    },
-    {
-      "url": "https://www.chattylingo.com",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: Chatty Lingo – A language practicing app",
-      "score": 5
-    },
-    {
-      "url": "https://punnerud.github.io/pyspell/",
-      "pushed_at": "2026-06-16",
-      "title": "Show HN: ESP32 512kB – Tailscale, English to Python LLM and 8 containers local",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/rshade/where-did-the-knife-come-from-1ebp",
-      "pushed_at": "2026-06-16",
-      "title": "where did the knife come from",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/armorer_labs/local-agents-need-a-control-plane-41ck",
-      "pushed_at": "2026-06-16",
-      "title": "Local Agents Need a Control Plane",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/zaerohell/load-content-data-from-json-file-1c51",
-      "pushed_at": "2026-06-16",
-      "title": "Load content data from JSON file",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8n4km/lin_junyang_ai_lab_closes_round_at_2b_valuation/",
-      "pushed_at": "2026-06-16",
-      "title": "Lin Junyang AI Lab Closes Round at $2B Valuation",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8g1om/gamecraftbench_can_agents_build_playable_games/",
-      "pushed_at": "2026-06-16",
-      "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
-      "score": 5
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/e6SOMeRbdMB_zATsNcYmUQ",
-      "pushed_at": "2026-06-16",
-      "title": "Kickart 3.0发布，让广告视频创作更精准高效",
-      "score": 5
-    },
-    {
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "pushed_at": "2026-06-16",
-      "title": "LifeSciBench 发布",
-      "score": 5
-    },
-    {
-      "url": "https://x.com/kimmonismus/status/2066946013026263110",
-      "pushed_at": "2026-06-16",
-      "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
-      "score": 5
-    },
-    {
-      "url": "https://www.zhipuai.cn/zh/research/161",
-      "pushed_at": "2026-06-16",
-      "title": "GLM-5.2 上线并开源：专注 Coding 与长程任务",
-      "score": 5
-    },
-    {
-      "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-      "pushed_at": "2026-06-16",
-      "title": "OpenAI 的领先优势正在快速缩小",
-      "score": 5
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/iAgbUzPrsbpqvu4s2XiH0g",
-      "pushed_at": "2026-06-16",
-      "title": "WorkBuddy日活飙升至行业第二的3-4倍，非技术用户涌入",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/n0-computer/iroh",
-      "pushed_at": "2026-06-16",
-      "title": "n0-computer/iroh",
-      "score": 4
-    },
-    {
-      "url": "https://dev.to/gyu07/rigor-compresses-why-ai-agents-need-graphs-not-more-context-5404",
-      "pushed_at": "2026-06-17",
-      "title": "Rigor Compresses: Why AI Agents Need Graphs, Not More Context",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/agent-data/job-search",
-      "pushed_at": "2026-06-17",
-      "title": "Show HN: An open source job search plugin for Claude Code",
-      "score": 7
-    },
-    {
-      "url": "https://freebuff.com",
-      "pushed_at": "2026-06-17",
-      "title": "Show HN: A free CLI coding agent, powered by ads",
+      "url": "https://www.ifanr.com/1669210?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-18",
+      "title": "营收涨了 30 倍，ARR 3 亿美金，这家 AI 公司已经在赚钱了",
       "score": 6
     },
     {
-      "url": "https://lore.org/",
-      "pushed_at": "2026-06-17",
-      "title": "Lore – Open source version control system designed for scalability",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/06/436456.html",
-      "pushed_at": "2026-06-17",
-      "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/06/436148.html",
-      "pushed_at": "2026-06-17",
-      "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
-      "score": 6
-    },
-    {
-      "url": "https://x.com/Yuchenj_UW/status/2067273020352380950",
-      "pushed_at": "2026-06-17",
-      "title": "Omnigent开源：AI智能体团队元框架",
+      "url": "https://www.ifanr.com/1669281?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-18",
+      "title": "早报｜曝第二代iPhone Air明年春季推出/特斯拉「车顶维权」名誉权案再审被驳回/微信支付推出AI专属卡",
       "score": 6
     },
     {
       "url": "https://startupswiki.vercel.app/",
-      "pushed_at": "2026-06-17",
+      "pushed_at": "2026-06-18",
       "title": "Show HN: Free Alternative to Crunchbase",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
-      "pushed_at": "2026-06-17",
-      "title": "Only 16 Percent of Americans Think AI Will Have a Positive Impact on Society",
+      "url": "https://spellabee.com/",
+      "pushed_at": "2026-06-18",
+      "title": "Show HN: I built a spelling app for kids with my 7-year-old",
       "score": 5
     },
     {
-      "url": "https://www.ithome.com/0/965/652.htm",
-      "pushed_at": "2026-06-17",
-      "title": "阿里云发布HappyOyster 1.0：一句话生成可实时交互的数字世界",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "pushed_at": "2026-06-18",
+      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
       "score": 5
+    },
+    {
+      "url": "https://dev.to/nersisiian/lexicon-ai-powered-terminal-dictionary-youll-actually-enjoy-using-27c0",
+      "pushed_at": "2026-06-18",
+      "title": "Lexicon: AI-powered terminal dictionary you’ll actually enjoy using",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/n0-computer/iroh",
+      "pushed_at": "2026-06-18",
+      "title": "n0-computer/iroh",
+      "score": 4
+    },
+    {
+      "url": "https://github.com/continuedev/continue",
+      "pushed_at": "2026-06-18",
+      "title": "continuedev/continue",
+      "score": 4
     }
   ]
 }
