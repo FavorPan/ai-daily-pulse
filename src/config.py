@@ -48,6 +48,7 @@ ENV_MAP = {
     "HISTORY_PATH": "history_path",
     "FEED_HEALTH_PATH": "feed_health_path",
     "LOG_LEVEL": "log_level",
+    "TODAY": "today",
 }
 
 

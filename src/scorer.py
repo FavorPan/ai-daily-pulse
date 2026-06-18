@@ -173,7 +173,13 @@ def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
                 if match:
                     raw = match.group()
                 try:
-                    return json.loads(raw)
+                    result = json.loads(raw)
+                    if result is None:
+                        last_err = ValueError("JSON parsed as null")
+                        if attempt < attempts - 1:
+                            time.sleep(2 ** (attempt + 1))
+                        continue
+                    return result
                 except json.JSONDecodeError as e:
                     last_err = e
                     if attempt < attempts - 1:

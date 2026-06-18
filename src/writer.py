@@ -69,10 +69,11 @@ def generate_markdown(articles: list[dict], date: str) -> str:
     return "\n".join(lines)
 
 
-def write_output(articles: list[dict], output_dir: str = "output") -> str:
+def write_output(articles: list[dict], output_dir: str = "output", date: str | None = None) -> str:
     """Write the daily digest to output_dir/AI Daily - YYYY-MM-DD.md. Returns file path."""
     import os
-    date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if date is None:
+        date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     content = generate_markdown(articles, date)
 
     os.makedirs(output_dir, exist_ok=True)

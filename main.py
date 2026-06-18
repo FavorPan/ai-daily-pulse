@@ -46,7 +46,7 @@ def main():
         sys.exit(1)
 
     lookback_days = cfg["lookback_days"]
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = cfg.get("today") or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     logger.info("=== AI Info Aggregator ===")
     logger.info("Model: %s | Base URL: %s", cfg['scoring_model'], cfg['base_url'])
@@ -123,7 +123,7 @@ def main():
                 len(insights.get("directions", [])), len(insights.get("x_thread", [])))
 
     t_write = time.monotonic()
-    path = write_output(kept, output_dir=cfg["output_dir"])
+    path = write_output(kept, output_dir=cfg["output_dir"], date=today)
     json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights)
     t_write = time.monotonic() - t_write
 
