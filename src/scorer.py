@@ -162,6 +162,11 @@ def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
         try:
             response = client.chat.completions.create(**kwargs)
             _track(response)
+            if not response.choices:
+                last_err = ValueError("API returned empty choices list")
+                if attempt < attempts - 1:
+                    time.sleep(2 ** (attempt + 1))
+                continue
             raw = (response.choices[0].message.content or "").strip()
             if not raw:
                 last_err = ValueError("empty response content")
