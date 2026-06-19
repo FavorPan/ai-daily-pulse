@@ -6403,225 +6403,351 @@
       "score": 5
     },
     {
-      "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-      "pushed_at": "2026-06-18",
-      "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
+      "url": "https://github.com/zai-org/GLM-5",
+      "pushed_at": "2026-06-19",
+      "title": "zai-org/GLM-5",
       "score": 8
     },
     {
-      "url": "https://dev.to/aman_sachan_126d19c4a2773/how-i-pack-eleven-tool-domains-into-one-pyside6-window-without-spaghetti-wiring-1e7b",
-      "pushed_at": "2026-06-18",
-      "title": "How I Pack Eleven Tool Domains into One PySide6 Window Without Spaghetti Wiring",
+      "url": "https://github.com/withastro/flue",
+      "pushed_at": "2026-06-19",
+      "title": "withastro/flue",
       "score": 8
     },
     {
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "pushed_at": "2026-06-18",
-      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "pushed_at": "2026-06-19",
+      "title": "Kilo-Org/kilocode",
       "score": 8
     },
     {
-      "url": "https://github.com/calesthio/OpenMontage",
-      "pushed_at": "2026-06-18",
-      "title": "calesthio/OpenMontage",
+      "url": "https://dev.to/_cbd692d476c5faf3b61bcf/dify-agentic-workflow-platform-5-hidden-uses-of-the-145k-star-open-source-ai-stack-56ai",
+      "pushed_at": "2026-06-19",
+      "title": "Dify Agentic Workflow Platform: 5 Hidden Uses of the 145K-Star Open Source AI Stack",
       "score": 8
     },
     {
-      "url": "https://trends.vc/serialized-fiction-apps-cliffhanger-economics-rented-audience-werewolf-formula/",
-      "pushed_at": "2026-06-18",
-      "title": "Serialized Fiction Apps: Cliffhanger Economics, Rented Audience, Werewolf formula",
+      "url": "https://dev.to/_cbd692d476c5faf3b61bcf/dify-de-5-ge-yin-cang-yong-fa-145-mo-star-de-kai-yuan-ai-gong-zuo-liu-ping-tai-3bc1",
+      "pushed_at": "2026-06-19",
+      "title": "Dify 的 5 个隐藏用法：14.5 万 Star 的开源 AI 工作流平台",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1669127?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-18",
-      "title": "实测 GLM-5.2 ：Claude 5 关停后，它真能稳稳接住这波用户",
+      "url": "https://36kr.com/p/3858329994875908?f=rss",
+      "pushed_at": "2026-06-19",
+      "title": "蔚来补上“智驾课”，任少卿总结：智驾技术创新将重构竞争",
       "score": 8
     },
     {
-      "url": "https://www.therundown.ai/p/cursor-officially-joins-the-spacex-ai-machine",
-      "pushed_at": "2026-06-18",
-      "title": "Cursor officially joins the SpaceX AI machine",
+      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "pushed_at": "2026-06-19",
+      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1u97zle/vibecoded_automations_are_becoming_a_real_problem/",
+      "pushed_at": "2026-06-19",
+      "title": "Vibe-coded automations are becoming a real problem and I don't think we're talking about it enough",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "pushed_at": "2026-06-18",
-      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "url": "https://github.com/spronta/crawlie",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
       "score": 7
     },
     {
-      "url": "https://github.com/agent-data/job-search",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: An open source job search plugin for Claude Code",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "pushed_at": "2026-06-19",
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
       "score": 7
     },
     {
-      "url": "https://github.com/LegalRabbit-AI/legalrabbit-docx-claude-plugin",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: Cowork/Codex DOCX plugin. Uses 2x fewer tokens than the docx skill",
-      "score": 7
-    },
-    {
-      "url": "https://www.rigthhand.ai",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: Righthand – Autonomous AI assistants with skills, goals, and a CLI",
-      "score": 7
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
-      "pushed_at": "2026-06-18",
-      "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
-      "score": 7
-    },
-    {
-      "url": "https://www.latent.space/p/radical-ai",
-      "pushed_at": "2026-06-18",
-      "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/stephanie_dover_b49c2e8d1/building-repo-conventions-aware-coding-agents-1ep8",
-      "pushed_at": "2026-06-18",
-      "title": "Building repo conventions aware coding agents",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "pushed_at": "2026-06-18",
-      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+      "pushed_at": "2026-06-19",
+      "title": "General Intuition in talks to raise $300M at around $2B valuation",
       "score": 7
     },
     {
       "url": "https://github.com/google-research/timesfm",
-      "pushed_at": "2026-06-18",
+      "pushed_at": "2026-06-19",
       "title": "google-research/timesfm",
       "score": 7
     },
     {
-      "url": "https://github.com/idodekerobo/draft",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: Draft, Open Source Agent Context Sync/Collaboration",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "pushed_at": "2026-06-19",
+      "title": "DeusData/codebase-memory-mcp",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/alibaba/zvec",
+      "pushed_at": "2026-06-19",
+      "title": "alibaba/zvec",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/yifanfeng97/Hyper-Extract",
+      "pushed_at": "2026-06-19",
+      "title": "yifanfeng97/Hyper-Extract",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-2",
+      "pushed_at": "2026-06-19",
+      "title": "Lightricks/LTX-2",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/lavkeshdwivedi/our-cloud-bill-exploded-after-ai-went-live-561i",
+      "pushed_at": "2026-06-19",
+      "title": "Our cloud bill exploded after AI went live",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1669442?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-19",
+      "title": "早报｜追觅组织调整，取消未落地业务/DeepSeek识图模式上线/《GTA6》预购时间官宣",
+      "score": 7
+    },
+    {
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "pushed_at": "2026-06-19",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "pushed_at": "2026-06-19",
+      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+      "score": 7
+    },
+    {
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "pushed_at": "2026-06-19",
+      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "pushed_at": "2026-06-19",
+      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
       "score": 6
     },
     {
-      "url": "https://github.com/Rocketgraph/rocketgraph",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: ML condenses billions of logs into a tiny snapshot your LLM can debug",
+      "url": "https://github.com/caudena/beam_weaver",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: BeamWeaver – LangChain/DeepAgents-style agents and workflows for Elixir",
       "score": 6
     },
     {
-      "url": "https://www.usereyn.com/",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: Reyn – local-first AI that journals and recalls your work",
+      "url": "https://toby.github.io/flashback/",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: Flashback – an agent skill that references 127 years of design trends",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
-      "pushed_at": "2026-06-18",
-      "title": "World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names",
+      "url": "https://github.com/sricola/drydock",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: Drydock – VM Sandboxes for macOS Autonomous Coding Agents",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
-      "pushed_at": "2026-06-18",
-      "title": "Canadian pension giant joins race to fund India’s AI-fueled data center boom",
+      "url": "https://github.com/scicco/hermzner",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: Hermzner – Provisioning an Hardened Hermes Agent on Hetzner VPS",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
-      "pushed_at": "2026-06-18",
-      "title": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
+      "url": "https://apicalculators.com/",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: I built a free API cost calculator after a $340 surprise invoice",
       "score": 6
     },
     {
-      "url": "https://dev.to/gyu07/rigor-compresses-why-ai-agents-need-graphs-not-more-context-5404",
-      "pushed_at": "2026-06-18",
-      "title": "Rigor Compresses: Why AI Agents Need Graphs, Not More Context",
+      "url": "https://www.tryveneerly.com/",
+      "pushed_at": "2026-06-19",
+      "title": "Show HN: Veneerly – See your own face with veneers before you commit",
       "score": 6
     },
     {
-      "url": "https://dev.to/hiyoyok/usb-hotplug-detection-in-rust-on-macos-reacting-to-device-connectdisconnect-55do",
-      "pushed_at": "2026-06-18",
-      "title": "USB Hotplug Detection in Rust on macOS — Reacting to Device Connect/Disconnect",
+      "url": "https://www.latent.space/p/anj",
+      "pushed_at": "2026-06-19",
+      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
       "score": 6
     },
     {
-      "url": "https://dev.to/glendel/ai-agents-dont-need-more-memory-they-need-governed-recall-3p73",
-      "pushed_at": "2026-06-18",
-      "title": "AI Agents Don't Need More Memory. They Need Governed Recall.",
+      "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
+      "pushed_at": "2026-06-19",
+      "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
       "score": 6
     },
     {
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "pushed_at": "2026-06-18",
-      "title": "nautechsystems/nautilus_trader",
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "pushed_at": "2026-06-19",
+      "title": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
       "score": 6
     },
     {
-      "url": "https://github.com/chatwoot/chatwoot",
-      "pushed_at": "2026-06-18",
-      "title": "chatwoot/chatwoot",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "pushed_at": "2026-06-19",
+      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
       "score": 6
     },
     {
-      "url": "https://github.com/alexzhang13/rlm",
-      "pushed_at": "2026-06-18",
-      "title": "alexzhang13/rlm",
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "pushed_at": "2026-06-19",
+      "title": "owainlewis/awesome-artificial-intelligence",
       "score": 6
     },
     {
-      "url": "https://trends.vc/what-are-the-7-neuro-writing-tricks-that-make-content-impossible-to-ignore/",
-      "pushed_at": "2026-06-18",
-      "title": "✍️ What Are the 7 Neuro-Writing Tricks That Make Content Impossible to Ignore?",
+      "url": "https://dev.to/deepfox/the-hard-part-of-national-id-ocr-isnt-the-ocr-1oon",
+      "pushed_at": "2026-06-19",
+      "title": "The hard part of national ID OCR isn't the OCR",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1669210?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-18",
-      "title": "营收涨了 30 倍，ARR 3 亿美金，这家 AI 公司已经在赚钱了",
+      "url": "https://dev.to/nucleusos/eidetic-works-pro-is-live-persistent-memory-for-your-ai-agents-29mo-49n5",
+      "pushed_at": "2026-06-19",
+      "title": "Eidetic Works Pro is live: persistent memory for your AI agents, $29/mo",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1669281?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-18",
-      "title": "早报｜曝第二代iPhone Air明年春季推出/特斯拉「车顶维权」名誉权案再审被驳回/微信支付推出AI专属卡",
+      "url": "https://dev.to/andmd555/i-built-a-real-time-multiplayer-3d-ide-with-webrtc-voice-chat-and-ai-generation-from-scratch-4l5k",
+      "pushed_at": "2026-06-19",
+      "title": "I built a real-time multiplayer 3D IDE with WebRTC voice chat and AI generation from scratch 🚀",
       "score": 6
     },
     {
-      "url": "https://startupswiki.vercel.app/",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: Free Alternative to Crunchbase",
+      "url": "https://36kr.com/p/3858015526704129?f=rss",
+      "pushed_at": "2026-06-19",
+      "title": "氪星晚报｜BilibiliWorld 2026成国内首个海外售票的综合性ACG展会；让AI走进千家万户，17项举措推进“人工智能+消费”发展；快舟十一号遥十三运载火箭发射成功",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3859409625256963?f=rss",
+      "pushed_at": "2026-06-19",
+      "title": "亚马逊员工遭公司内部调查，曾公开批评数据中心扩张",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3859408242004996?f=rss",
+      "pushed_at": "2026-06-19",
+      "title": "因AI安全隐患遭监管，Anthropic承诺加强与美政府沟通",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1669287?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-19",
+      "title": "2026 最强智能眼镜发布，但「iPhone 时刻」还没到来",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+      "pushed_at": "2026-06-19",
+      "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+      "score": 6
+    },
+    {
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
+      "pushed_at": "2026-06-19",
+      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+      "score": 6
+    },
+    {
+      "url": "https://alignment.openai.com/beneficial-rl",
+      "pushed_at": "2026-06-19",
+      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "score": 6
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+      "pushed_at": "2026-06-19",
+      "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "pushed_at": "2026-06-19",
+      "title": "AI数据中心获政府强制电网快车道",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/966/272.htm",
+      "pushed_at": "2026-06-19",
+      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
+      "score": 6
+    },
+    {
+      "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
+      "pushed_at": "2026-06-19",
+      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
+      "score": 6
+    },
+    {
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "pushed_at": "2026-06-19",
+      "title": "GPT-5.5 Instant提升ChatGPT健康智能",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s/L4BJnexabQu5DAxDnwEGxw",
+      "pushed_at": "2026-06-19",
+      "title": "火山引擎上线豆包实时语音模型3.0 API 服务，开启邀测",
+      "score": 6
+    },
+    {
+      "url": "https://www.ithome.com/0/966/154.htm",
+      "pushed_at": "2026-06-19",
+      "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
+      "score": 6
+    },
+    {
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "pushed_at": "2026-06-19",
+      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
+      "score": 6
+    },
+    {
+      "url": "https://www.bensbites.com/p/the-first-big-exit-in-ai",
+      "pushed_at": "2026-06-19",
+      "title": "The first big exit in AI",
       "score": 5
     },
     {
-      "url": "https://spellabee.com/",
-      "pushed_at": "2026-06-18",
-      "title": "Show HN: I built a spelling app for kids with my 7-year-old",
+      "url": "https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html",
+      "pushed_at": "2026-06-19",
+      "title": "Google workspace threatening to block firefox access",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
-      "pushed_at": "2026-06-18",
-      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "pushed_at": "2026-06-19",
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
       "score": 5
     },
     {
-      "url": "https://dev.to/nersisiian/lexicon-ai-powered-terminal-dictionary-youll-actually-enjoy-using-27c0",
-      "pushed_at": "2026-06-18",
-      "title": "Lexicon: AI-powered terminal dictionary you’ll actually enjoy using",
+      "url": "https://www.ifanr.com/1669294?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-19",
+      "title": "玩了一天AI支付宝，张嘴就能点麦当劳、收能量，超级App开始卷Agent OS了",
+      "score": 5
+    },
+    {
+      "url": "https://claude.com/blog/enterprise-managed-auth",
+      "pushed_at": "2026-06-19",
+      "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理",
+      "score": 5
+    },
+    {
+      "url": "https://www.ithome.com/0/966/233.htm",
+      "pushed_at": "2026-06-19",
+      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
       "score": 5
     },
     {
       "url": "https://github.com/n0-computer/iroh",
-      "pushed_at": "2026-06-18",
+      "pushed_at": "2026-06-19",
       "title": "n0-computer/iroh",
-      "score": 4
-    },
-    {
-      "url": "https://github.com/continuedev/continue",
-      "pushed_at": "2026-06-18",
-      "title": "continuedev/continue",
       "score": 4
     }
   ]
