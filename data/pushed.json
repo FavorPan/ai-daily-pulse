@@ -6403,326 +6403,170 @@
       "score": 5
     },
     {
-      "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
-      "pushed_at": "2026-06-20",
-      "title": "[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uaangp/i_built_a_free_llm_observability_tool_that/",
-      "pushed_at": "2026-06-20",
-      "title": "I built a free LLM observability tool that replaces easy LLM calls with small ML models",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/houleixx/stop-flying-blind-with-coding-agents-inspect-claude-code-and-codex-requests-with-ccglass-1oe8",
-      "pushed_at": "2026-06-20",
-      "title": "Stop Flying Blind with Coding Agents: Inspect Claude Code and Codex Requests with ccglass",
-      "score": 8
-    },
-    {
       "url": "https://github.com/zai-org/GLM-5",
-      "pushed_at": "2026-06-20",
+      "pushed_at": "2026-06-21",
       "title": "zai-org/GLM-5",
+      "score": 9
+    },
+    {
+      "url": "https://github.com/alex-reysa/glueRun-go",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
       "score": 8
-    },
-    {
-      "url": "https://www.ifanr.com/1669204?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-20",
-      "title": "刚刚，Codex 大更新，你在电脑的操作正在成为 AI 经验包",
-      "score": 8
-    },
-    {
-      "url": "https://x.com/dotey/status/2068042001895809420",
-      "pushed_at": "2026-06-20",
-      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-      "score": 8
-    },
-    {
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "pushed_at": "2026-06-20",
-      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-      "score": 8
-    },
-    {
-      "url": "https://hyperc.com/preview/index.html",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: P34 – tabular profit prediction without the optimism bias",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua8uk2/i_built_an_automation_that_tells_a_youtube/",
-      "pushed_at": "2026-06-20",
-      "title": "I built an automation that tells a YouTube creator what her audience is actually struggling with (not views, not CTR)",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/robcube/moving-codex-threads-to-a-new-mac-2n3i",
-      "pushed_at": "2026-06-20",
-      "title": "Moving Codex Threads to a New Mac",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/_vjk/i-made-claude-code-think-before-it-codes-then-i-gave-it-a-team-2bl8",
-      "pushed_at": "2026-06-20",
-      "title": "I Made Claude Code Think Before It Codes. Then I Gave It a Team.",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/judy_miranttie/ai-called-me-back-recoverflow-dev-diary-day-2-two-hours-with-the-voice-agent-4ko8",
-      "pushed_at": "2026-06-20",
-      "title": "AI Called Me Back — Recoverflow Dev Diary Day 2: Two Hours with the Voice Agent",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/netops76/your-pink-slip-is-an-algorithm-what-the-ai-jobs-debate-means-for-developers-5e2m",
-      "pushed_at": "2026-06-20",
-      "title": "Your Pink Slip Is an Algorithm — What the AI & Jobs Debate Means for Developers",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/google-research/timesfm",
-      "pushed_at": "2026-06-20",
-      "title": "google-research/timesfm",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/yifanfeng97/Hyper-Extract",
-      "pushed_at": "2026-06-20",
-      "title": "yifanfeng97/Hyper-Extract",
-      "score": 7
     },
     {
       "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "pushed_at": "2026-06-20",
+      "pushed_at": "2026-06-21",
       "title": "DeusData/codebase-memory-mcp",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/chopratejas/headroom",
+      "pushed_at": "2026-06-21",
+      "title": "chopratejas/headroom",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/__c1b9e06dc90a7e0a676b/struggling-with-slow-ai-responses-building-a-streaming-chat-ui-with-sse-n1g",
+      "pushed_at": "2026-06-21",
+      "title": "Struggling with Slow AI Responses: Building a Streaming Chat UI with SSE",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1669460?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-21",
+      "title": "诺奖得主转投Anthropic，谷歌48小时连失两大牛，内部信仰崩塌？",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/man-consult/code-mapper",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Codeflowmap – map a codebase's read/write/auth data flows",
+      "score": 7
+    },
+    {
+      "url": "https://www.savemarkdown.co/api/",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Save, an API that turns any URL into clean Markdown for LLMs",
       "score": 7
     },
     {
       "url": "https://github.com/withastro/flue",
-      "pushed_at": "2026-06-20",
+      "pushed_at": "2026-06-21",
       "title": "withastro/flue",
       "score": 7
     },
     {
-      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
-      "pushed_at": "2026-06-20",
-      "title": "owainlewis/awesome-artificial-intelligence",
+      "url": "https://dev.to/gabrielmahia/build-rails-not-trains-a-framework-for-ai-infrastructure-in-the-global-south-3nk2",
+      "pushed_at": "2026-06-21",
+      "title": "Build Rails, Not Trains: A Framework for AI Infrastructure in the Global South",
       "score": 7
     },
     {
       "url": "https://github.com/Lightricks/LTX-2",
-      "pushed_at": "2026-06-20",
+      "pushed_at": "2026-06-21",
       "title": "Lightricks/LTX-2",
       "score": 7
     },
     {
-      "url": "https://github.com/Kilo-Org/kilocode",
-      "pushed_at": "2026-06-20",
-      "title": "Kilo-Org/kilocode",
+      "url": "https://dev.to/sjh9714/ci-gates-for-ai-generated-prs-need-re-derivable-evidence-2g4e",
+      "pushed_at": "2026-06-21",
+      "title": "CI gates for AI-generated PRs need re-derivable evidence",
       "score": 7
     },
     {
-      "url": "https://36kr.com/p/3859926114161665?f=rss",
-      "pushed_at": "2026-06-20",
-      "title": "硬氪首发|moody前高管搭档大疆骨干入局陪伴机器人，锦秋领投，融资数千万",
+      "url": "https://dev.to/saurav_bhattacharya/goodharts-law-comes-for-your-agent-evals-why-your-green-dashboard-stops-meaning-anything-3akc",
+      "pushed_at": "2026-06-21",
+      "title": "Goodhart's Law Comes for Your Agent Evals: Why Your Green Dashboard Stops Meaning Anything",
       "score": 7
     },
     {
-      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "pushed_at": "2026-06-20",
-      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
+      "url": "https://dev.to/jakub_inithouse/lovable-vs-bolt-vs-v0-vs-cursor-real-picks-after-17-shipped-products-at-inithouse-3k4k",
+      "pushed_at": "2026-06-21",
+      "title": "Lovable vs Bolt vs v0 vs Cursor: real picks after 17 shipped products at Inithouse",
       "score": 7
     },
     {
-      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-      "pushed_at": "2026-06-20",
-      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "url": "https://x.com/shao__meng/status/2068306942184034471",
+      "pushed_at": "2026-06-21",
+      "title": "开源教程《Deep Agents 实战》发布",
       "score": 7
     },
     {
-      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-      "pushed_at": "2026-06-20",
-      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-      "score": 7
-    },
-    {
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "pushed_at": "2026-06-20",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Teycir/SkillsGuard",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: SkillsGuard – static scanner for malicious AI agent skills",
+      "url": "https://github.com/BetaBots-LLC/callimachus",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Callimachus – Local search across your AI coding-agent history",
       "score": 6
     },
     {
-      "url": "https://simlink.snaz.cz/",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: Let agents send/receive SMS using your old Android phone",
+      "url": "https://github.com/KarelTestSpecial/real-agent-setup",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Maccha – Cross Agent Brain for Antigravity, Claude Code, OpenCode etc.",
       "score": 6
     },
     {
-      "url": "https://github.com/akatzmann/slash-agent",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: slash-agent – Native LLM copilot for your terminal",
+      "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "pushed_at": "2026-06-21",
+      "title": "The Wholesale Plagiarism of Obscure Sorrows",
       "score": 6
     },
     {
-      "url": "https://github.com/fayzan123/claude-workflow-composer",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: CWC scans your Claude Code history and auto-builds agent workflows",
+      "url": "https://github.com/google-research/timesfm",
+      "pushed_at": "2026-06-21",
+      "title": "google-research/timesfm",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua6t1g/i_made_my_first_money_from_a_vibecoded_side/",
-      "pushed_at": "2026-06-20",
-      "title": "I made my first money from a vibecoded side project, and it made me feel better than closing huge deals for my main business",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "pushed_at": "2026-06-21",
+      "title": "palmier-io/palmier-pro",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua96s0/my_relocation_spreadsheet_kept_lying_to_me_so_i/",
-      "pushed_at": "2026-06-20",
-      "title": "My relocation spreadsheet kept lying to me so I built something else",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "pushed_at": "2026-06-21",
+      "title": "calesthio/OpenMontage",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua9tp6/so_i_bought_my_own_app_for_13us_i_was_quite_happy/",
-      "pushed_at": "2026-06-20",
-      "title": "So I bought my own app for 13US. I was quite happy. Next time, it’ll be 10k. ))) Will it make me even happier,",
+      "url": "https://dev.to/feidou/conversion-rate-optimization-for-saas-ab-testing-psychology-and-data-2mn8",
+      "pushed_at": "2026-06-21",
+      "title": "Conversion Rate Optimization for SaaS: A/B Testing, Psychology, and Data",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua8okj/made_an_app_to_detect_the_tiny_imperfections_on/",
-      "pushed_at": "2026-06-20",
-      "title": "Made an app to detect the tiny imperfections on your Pokemon cards",
-      "score": 6
-    },
-    {
-      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
-      "pushed_at": "2026-06-20",
-      "title": "Hyundai buys Boston Dynamics",
-      "score": 6
-    },
-    {
-      "url": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
-      "pushed_at": "2026-06-20",
-      "title": "Step into Midjourney's spa for a body scan",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/judy_miranttie/why-this-system-looks-the-way-it-does-recoverflows-6-day-design-journey-5a7o",
-      "pushed_at": "2026-06-20",
-      "title": "Why This System Looks the Way It Does — Recoverflow's 6-Day Design Journey",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-      "pushed_at": "2026-06-20",
-      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/mattwatsonkc/ai-wont-make-you-a-10x-developer-4lgj",
-      "pushed_at": "2026-06-20",
-      "title": "AI Won’t Make You a 10x Developer",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/induwara_ashinsana_9e4d5b/ais-real-bottleneck-is-electricity-not-chips-3a97",
-      "pushed_at": "2026-06-20",
-      "title": "AI's real bottleneck is electricity, not chips",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/netops76/how-ai-will-shape-the-technology-industry-in-2027-3eko",
-      "pushed_at": "2026-06-20",
-      "title": "How AI Will Shape the Technology Industry in 2027",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/alibaba/zvec",
-      "pushed_at": "2026-06-20",
-      "title": "alibaba/zvec",
-      "score": 6
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-      "pushed_at": "2026-06-20",
-      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "score": 6
-    },
-    {
-      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
-      "pushed_at": "2026-06-20",
-      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
-      "score": 6
-    },
-    {
-      "url": "https://openrouter.ai/blog/insights/openrouter-vs-portkey",
-      "pushed_at": "2026-06-20",
-      "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
-      "score": 6
-    },
-    {
-      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
-      "pushed_at": "2026-06-20",
-      "title": "AI中心的数据黑洞",
-      "score": 6
-    },
-    {
-      "url": "https://blog.cloudflare.com/temporary-accounts",
-      "pushed_at": "2026-06-20",
-      "title": "Cloudflare 为 AI 智能体推出临时账户",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
-      "pushed_at": "2026-06-20",
-      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
-      "score": 6
-    },
-    {
-      "url": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-      "pushed_at": "2026-06-20",
-      "title": "禁止开源AI将是一个错误",
-      "score": 6
-    },
-    {
-      "url": "https://konxios.com",
-      "pushed_at": "2026-06-20",
-      "title": "Show HN: Konxios a local first AI OS that connects LM Studio, Ollama and cloud",
+      "url": "https://github.com/msradam/rocannon",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Rocannon – Any Ansible module to MCP Tool, record sessions as playbooks",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ua94z1/i_built_a_plant_disease_detection_app_because/",
-      "pushed_at": "2026-06-20",
-      "title": "I built a plant disease detection app because r/plantclinic replies take 3 days and my monstera was dying",
+      "url": "https://github.com/GerardoRdz96/rlsgate",
+      "pushed_at": "2026-06-21",
+      "title": "Show HN: Rlsgate – Block the Supabase RLS leak before you deploy (CLI)",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uag49n/i_built_pixten_an_aipowered_photo_enhancement_app/",
-      "pushed_at": "2026-06-20",
-      "title": "I built Pixten, an AI-powered photo enhancement app for iPhone",
+      "url": "https://dev.to/philbraham/the-history-of-umm-3d60",
+      "pushed_at": "2026-06-21",
+      "title": "The history of UMM",
       "score": 5
     },
     {
-      "url": "https://36kr.com/newsflashes/3859744295965956?f=rss",
-      "pushed_at": "2026-06-20",
-      "title": "Meta洽谈投资印度金融科技支付初创公司Cred",
-      "score": 5
+      "url": "https://github.com/BuilderIO/agent-native",
+      "pushed_at": "2026-06-21",
+      "title": "BuilderIO/agent-native",
+      "score": 4
     },
     {
-      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-      "pushed_at": "2026-06-20",
-      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
-      "score": 5
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "pushed_at": "2026-06-21",
+      "title": "aishwaryanr/awesome-generative-ai-guide",
+      "score": 4
     },
     {
       "url": "https://github.com/n0-computer/iroh",
-      "pushed_at": "2026-06-20",
+      "pushed_at": "2026-06-21",
       "title": "n0-computer/iroh",
       "score": 4
     }
