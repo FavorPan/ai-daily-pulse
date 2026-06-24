@@ -6403,370 +6403,370 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/_eb7f2a654e97a60ae9f96e/we-caught-90-more-ai-memory-bugs-using-playwright-e2e-tests-2hdn",
-      "pushed_at": "2026-06-23",
-      "title": "We Caught 90% More AI Memory Bugs Using Playwright E2E Tests",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
-      "pushed_at": "2026-06-23",
-      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "url": "https://github.com/allenv0/AirPosture",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: AirPosture – Open-Source Posture Coach Using AirPods",
       "score": 8
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
-      "pushed_at": "2026-06-23",
-      "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "pushed_at": "2026-06-24",
+      "title": "heygen-com/hyperframes",
       "score": 8
     },
     {
-      "url": "https://dev.to/devsignal/262k-tokens-agent-deployment-platforms-level-up-4hen",
-      "pushed_at": "2026-06-23",
-      "title": "262k tokens + agent deployment platforms level up",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "pushed_at": "2026-06-24",
+      "title": "firecrawl/firecrawl",
       "score": 8
     },
     {
-      "url": "https://dev.to/max_polaczuk/stop-benchmarking-ai-coding-agents-on-todo-apps-make-them-build-an-mmo-4ecl",
-      "pushed_at": "2026-06-23",
-      "title": "Stop Benchmarking AI Coding Agents on Todo Apps. Make Them Build an MMO.",
+      "url": "https://trends.vc/what-happens-after-600-days-of-failure/",
+      "pushed_at": "2026-06-24",
+      "title": "🧪 What Happens After 600 Days of Failure?",
       "score": 8
     },
     {
-      "url": "https://dev.to/niclydon/the-confabulation-cascade-when-your-agent-learns-nothing-from-its-own-mistakes-m08",
-      "pushed_at": "2026-06-23",
-      "title": "The Confabulation Cascade: When Your Agent Learns Nothing From Its Own Mistakes",
+      "url": "https://36kr.com/p/3865630193030145?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "圆桌论坛：比共识更早一步 AI 创投的真实棋局 | 2026WAVES",
       "score": 8
     },
     {
-      "url": "https://github.com/chopratejas/headroom",
-      "pushed_at": "2026-06-23",
-      "title": "chopratejas/headroom",
+      "url": "https://aihot.virxact.com/items/cmqqo96e30bv9slp5ds265bki",
+      "pushed_at": "2026-06-24",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
       "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqq8ww0e07m4slp5mk5snl0z",
+      "pushed_at": "2026-06-24",
+      "title": "京东全栈开源JoyAI-VL-Interaction，从\"一问一答\"走向\"边看边说\"",
+      "score": 8
+    },
+    {
+      "url": "https://www.therundown.ai/p/sakana-fugu-takes-aim-at-the-frontier",
+      "pushed_at": "2026-06-24",
+      "title": "Sakana’s Fugu takes aim at the frontier",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1udicyd/looking_for_pros_and_students_to_test_a_100/",
+      "pushed_at": "2026-06-24",
+      "title": "Looking for pros and students to test a 100% offline annotation tool (Runs on 2015 hardware)",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Karthick-Ramachandran/persist-os",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: Persist OS – Durable decisions for AI code",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "pushed_at": "2026-06-24",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
+      "pushed_at": "2026-06-24",
+      "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/hexisteme/a-file-based-work-bus-for-orchestrating-a-fleet-of-agent-clis-coordination-without-a-message-1kdo",
+      "pushed_at": "2026-06-24",
+      "title": "A file-based work-bus for orchestrating a fleet of agent CLIs — coordination without a message broker",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/rapls/i-trusted-my-claudemd-wordpressorg-rejected-the-exact-thing-it-was-supposed-to-prevent-o1g",
+      "pushed_at": "2026-06-24",
+      "title": "I trusted my CLAUDE.md. WordPress.org rejected the exact thing it was supposed to prevent.",
+      "score": 7
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "pushed_at": "2026-06-24",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "score": 7
+    },
+    {
+      "url": "https://mistral.ai/news/ocr-4/",
+      "pushed_at": "2026-06-24",
+      "title": "Mistral OCR 4",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "pushed_at": "2026-06-24",
+      "title": "Unlimited OCR: One-shot long-horizon parsing",
+      "score": 7
     },
     {
       "url": "https://github.com/calesthio/OpenMontage",
-      "pushed_at": "2026-06-23",
+      "pushed_at": "2026-06-24",
       "title": "calesthio/OpenMontage",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "pushed_at": "2026-06-23",
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "pushed_at": "2026-06-23",
-      "title": "DeusData/codebase-memory-mcp",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqpgzgfq00hislp5hwlbgz0h",
-      "pushed_at": "2026-06-23",
-      "title": "Google ADK 与 A2A 协议：跨语言多智能体团队构建实战",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqpamzm108huslx6vf1oonz9",
-      "pushed_at": "2026-06-23",
-      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqpi3u8v00smslp5or0d3mx7",
-      "pushed_at": "2026-06-23",
-      "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "pushed_at": "2026-06-23",
-      "title": "Prompt Injection as Role Confusion",
       "score": 7
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
-      "pushed_at": "2026-06-23",
-      "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
-      "score": 7
-    },
-    {
-      "url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked/",
-      "pushed_at": "2026-06-23",
-      "title": "Jobs and Software Is Fucked",
-      "score": 7
-    },
-    {
-      "url": "https://sakana.ai/fugu/",
-      "pushed_at": "2026-06-23",
-      "title": "Sakana Fugu",
-      "score": 7
-    },
-    {
-      "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
-      "pushed_at": "2026-06-23",
-      "title": "GLM 5.2 vs. Opus",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/yansen_zhu_9b0dae1c4cc0da/we-security-graded-117854-ai-agent-skills-heres-what-we-found-3hhh",
-      "pushed_at": "2026-06-23",
-      "title": "We security-graded 117,854 AI agent skills. Here's what we found.",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "pushed_at": "2026-06-23",
-      "title": "palmier-io/palmier-pro",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/tw93/Pake",
-      "pushed_at": "2026-06-23",
-      "title": "tw93/Pake",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "pushed_at": "2026-06-23",
-      "title": "asgeirtj/system_prompts_leaks",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3864071269569540?f=rss",
-      "pushed_at": "2026-06-23",
-      "title": "映界科技：一支00后团队的空间智能“赌注” | 水下项目",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3865030627595529?f=rss",
-      "pushed_at": "2026-06-23",
-      "title": "SpaceX与AI初创公司Reflection达成数十亿美元协议，将向后者提供算力",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1669656?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-23",
-      "title": "早报｜豆包联合曹操出行推出打车功能/淘宝闪购灰测高端外卖「家宴」/日本卫浴厂商TOTO计划投800亿日元做1nm芯片",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1669522?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-23",
-      "title": "微信终于要给 AI 手机开门了｜AI 器物志",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqpyc83704y1slp584b2av9b",
-      "pushed_at": "2026-06-23",
-      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-      "score": 7
-    },
-    {
-      "url": "https://www.therundown.ai/p/google-s-nobel-winner-jumps-to-anthropic",
-      "pushed_at": "2026-06-23",
-      "title": "Google's Nobel winner jumps to Anthropic",
-      "score": 6
-    },
-    {
-      "url": "https://steviee.github.io/git-issues/",
-      "pushed_at": "2026-06-23",
-      "title": "Show HN: Git Issues – versioned task management for AI agents",
-      "score": 6
-    },
-    {
-      "url": "https://findgovdata.org",
-      "pushed_at": "2026-06-23",
-      "title": "Show HN: Hybrid search of 540K+ US Government datasets on 2 CPU cores. No LLMs",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/hxii/sixwhyo",
-      "pushed_at": "2026-06-23",
-      "title": "Show HN: Sixwhyo – A 6-year-old code reviewer who asks \"why?\" about everything",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucgpt8/this_weekends_project_style_change_on_the/",
-      "pushed_at": "2026-06-23",
-      "title": "This weekend's project. Style change on the real-time feed.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucf0pt/i_built_this_trying_to_save_my_marriage_still/",
-      "pushed_at": "2026-06-23",
-      "title": "I built this trying to save my marriage. Still divorced, but I have an app now.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucmhub/i_built_an_automation_tool_to_escape_screenshot/",
-      "pushed_at": "2026-06-23",
-      "title": "I built an automation tool to escape \"Screenshot Hell\" after my boss asked for 300 manual web captures.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucjhmi/i_built_facegate_worlds_first_macos_app_locker/",
-      "pushed_at": "2026-06-23",
-      "title": "I built FaceGate — World's first macOS app locker with on-device Face Unlock (Open Source)",
-      "score": 6
-    },
-    {
-      "url": "https://hustvl.github.io/Moebius/",
-      "pushed_at": "2026-06-23",
-      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/openai/codex/issues/28224",
-      "pushed_at": "2026-06-23",
-      "title": "Codex logging bug may write TBs to local SSDs",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-      "pushed_at": "2026-06-23",
-      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-      "pushed_at": "2026-06-23",
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/susiloharjo/claude-code-vs-cursor-2026-the-honest-comparison-27pi",
-      "pushed_at": "2026-06-23",
-      "title": "Claude Code vs Cursor 2026: The Honest Comparison",
-      "score": 6
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-      "pushed_at": "2026-06-23",
-      "title": "Three things to watch amid Anthropic’s latest feud with the government",
-      "score": 6
     },
     {
       "url": "https://github.com/tursodatabase/turso",
-      "pushed_at": "2026-06-23",
+      "pushed_at": "2026-06-24",
       "title": "tursodatabase/turso",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqr73j5g0h1nslp5g9y52k0v",
+      "pushed_at": "2026-06-24",
+      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqr4zhkm0gidslp5x8ow892r",
+      "pushed_at": "2026-06-24",
+      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "pushed_at": "2026-06-24",
+      "title": "OPFS + Pyodide test harness",
       "score": 6
     },
     {
-      "url": "https://github.com/smicallef/spiderfoot",
-      "pushed_at": "2026-06-23",
-      "title": "smicallef/spiderfoot",
+      "url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "pushed_at": "2026-06-24",
+      "title": "datasette 1.0a35",
       "score": 6
     },
     {
-      "url": "https://github.com/topoteretes/cognee",
-      "pushed_at": "2026-06-23",
-      "title": "topoteretes/cognee",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uddniw/you_code_as_usual_a_cat_logs_your_development_my/",
+      "pushed_at": "2026-06-24",
+      "title": "You code as usual. A cat logs your development (my new desktop pet)",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3864054145209602?f=rss",
-      "pushed_at": "2026-06-23",
-      "title": "圆桌论坛：在没人相信之前，乘风破浪的创er | 36氪WAVES2026新浪潮",
+      "url": "https://www.reddit.com/r/SideProject/comments/1udrjfh/i_built_an_app_that_checks_decisions_against_your/",
+      "pushed_at": "2026-06-24",
+      "title": "I built an app that checks decisions against your own principles, not averaged AI advice",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3865001641006081?f=rss",
-      "pushed_at": "2026-06-23",
-      "title": "8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子",
+      "url": "https://www.reddit.com/r/SideProject/comments/1udvi32/built_a_chrome_extension_that_pays_users_to_watch/",
+      "pushed_at": "2026-06-24",
+      "title": "Built a Chrome extension that pays users to watch ads they actually choose. Here is what we learned after 10,000 users and 60+ brand partners",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1669508?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-23",
-      "title": "华为和 Google 都在抢！手机小组件，为什么是 AI 必争之地？｜AI 器物志",
+      "url": "https://www.reddit.com/r/SideProject/comments/1udkbpx/i_built_an_android_launcher_to_help_me_fix_my_bad/",
+      "pushed_at": "2026-06-24",
+      "title": "I built an Android launcher to help me fix my bad phone habits so I can focus.",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqppo7c402qnslp5p92n6y3b",
-      "pushed_at": "2026-06-23",
-      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "pushed_at": "2026-06-24",
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqpez1uu001gslp5j4h23mih",
-      "pushed_at": "2026-06-23",
-      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+      "url": "https://dev.to/rish_maniar_cc6d83c22c5d8/most-agents-are-state-blind-i-built-an-orchestration-layer-with-a-synthetic-visual-tree-to-give-3ek2",
+      "pushed_at": "2026-06-24",
+      "title": "Most agents are \"state blind\". I built an orchestration layer with a synthetic visual tree to give agents actual Episodic Memory (LanceDB + Postgres).",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqpeu90600l4sldksepc49lt",
-      "pushed_at": "2026-06-23",
-      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+      "url": "https://dev.to/aws-builders/every-alarm-is-a-crime-scene-meet-poirot-the-read-only-incident-detective-58pa",
+      "pushed_at": "2026-06-24",
+      "title": "Every Alarm Is a Crime Scene: Meet Poirot, the Read-Only Incident Detective",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqpl4smd01j1slp5npj3krmn",
-      "pushed_at": "2026-06-23",
-      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+      "url": "https://dev.to/nazar_boyko/evaluating-llm-output-quality-in-production-39an",
+      "pushed_at": "2026-06-24",
+      "title": "Evaluating LLM Output Quality In Production",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqpaflwr08cpslx6umzww19d",
-      "pushed_at": "2026-06-23",
-      "title": "Anthropic 工程负责人：Claude Code 让程序员更孤独",
+      "url": "https://tikz.dev/editor/",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqpbc21e08laslx6gica1m67",
-      "pushed_at": "2026-06-23",
-      "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "pushed_at": "2026-06-24",
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucpcct/just_hit_73_in_revenue_with_40_users/",
-      "pushed_at": "2026-06-23",
-      "title": "Just hit 💲73 in revenue with 40 users!",
+      "url": "https://github.com/jamiepine/voicebox",
+      "pushed_at": "2026-06-24",
+      "title": "jamiepine/voicebox",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "pushed_at": "2026-06-24",
+      "title": "mukul975/Anthropic-Cybersecurity-Skills",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "pushed_at": "2026-06-24",
+      "title": "DeusData/codebase-memory-mcp",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "pushed_at": "2026-06-24",
+      "title": "JCodesMore/ai-website-cloner-template",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/lyogavin/airllm",
+      "pushed_at": "2026-06-24",
+      "title": "lyogavin/airllm",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3865523201692931?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "主题圆桌：从无声到轰鸣，令人期待的消费硬件 | WAVES2026",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3866383189021954?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "AI算力需求传导，“纤维之王”对位芳纶步入高景气周期",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqr15pz20fjzslp5eps5gotw",
+      "pushed_at": "2026-06-24",
+      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqqwge4a0e6tslp50f3tli27",
+      "pushed_at": "2026-06-24",
+      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqqjmqyn0afsslp5fgdp81yv",
+      "pushed_at": "2026-06-24",
+      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqqdbcno08taslp5yd9dbxjt",
+      "pushed_at": "2026-06-24",
+      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqq876yf07gsslp5eix31xaq",
+      "pushed_at": "2026-06-24",
+      "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1udh41z/solo_dev_confession_ive_got_five_free_tools_and_a/",
+      "pushed_at": "2026-06-24",
+      "title": "Solo dev confession: I've got five free tools and a focus problem, and one of them is a meme maker",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ucxowb/one_year_progress/",
-      "pushed_at": "2026-06-23",
-      "title": "One year progress",
+      "url": "https://www.reddit.com/r/SideProject/comments/1udruz8/app_to_keep_your_agents_running_while_your/",
+      "pushed_at": "2026-06-24",
+      "title": "App to Keep your agents running while your macbook lid is closed",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ud11ya/i_built_parry_an_ai_reply_assistant_that_helps/",
-      "pushed_at": "2026-06-23",
-      "title": "I built parry, an AI reply assistant that helps you \"counter\" any message",
+      "url": "https://www.bensbites.com/p/record-a-skill",
+      "pushed_at": "2026-06-24",
+      "title": "Record a skill",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ud0qm8/i_built_a_voice_ai_agent_that_instantly_calls/",
-      "pushed_at": "2026-06-23",
-      "title": "I built a Voice AI Agent that instantly calls your leads from Paid Ads. Only serious leads go into your CRM.",
+      "url": "https://answerjournal.com/",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uczc22/got_my_first_paid_subscriber_from_outside_my/",
-      "pushed_at": "2026-06-23",
-      "title": "Got my first paid subscriber from outside my network. What should I do next?",
+      "url": "https://github.com/kjhq/linkedin-unfiltered",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: LinkedIn Unfiltered: Translate corpo to human",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1ud3955/built_an_sdk_to_see_what_every_ai_feature_costs/",
-      "pushed_at": "2026-06-23",
-      "title": "Built an sdk to see what every AI feature costs",
+      "url": "https://github.com/workweave/router",
+      "pushed_at": "2026-06-24",
+      "title": "Show HN: Optimal model routing directly in Claude, Codex and Cursor",
       "score": 5
     },
     {
-      "url": "https://36kr.com/p/3864065855706120?f=rss",
-      "pushed_at": "2026-06-23",
-      "title": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex",
+      "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
+      "pushed_at": "2026-06-24",
+      "title": "The new inner game: Your unfair advantage in the age of AI",
       "score": 5
     },
     {
-      "url": "https://github.com/byoungd/English-level-up-tips",
-      "pushed_at": "2026-06-23",
-      "title": "byoungd/English-level-up-tips",
-      "score": 4
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "pushed_at": "2026-06-24",
+      "title": "palmier-io/palmier-pro",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "pushed_at": "2026-06-24",
+      "title": "Stirling-Tools/Stirling-PDF",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1669694?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-24",
+      "title": "微信 AI 全网最细体验，我又爱上了刷朋友圈",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1669611?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-24",
+      "title": "第二属性大于 AI 能力，像编剧一样做产品｜对话美图AKA小白",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3865565708752134?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "回到没有AI的那一天，寻找第一性原理 | WAVES2026",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3865513055540481?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "氪星晚报｜索尼集团计划近三十年来首次发行美元债券；甲骨文上财年裁员约2.1万；豆包发布2.1 Pro模型",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3865226824389892?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "WAVES 2026：今年盛夏，在创投浪潮里，做迎风而立的少数人！",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3866365717386499?f=rss",
+      "pushed_at": "2026-06-24",
+      "title": "英伟达发布BioNeMo Agent工具包",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqqxfykz0ehkslp55nlmaje0",
+      "pushed_at": "2026-06-24",
+      "title": "Krea 2 技术报告正式发布",
+      "score": 5
     }
   ]
 }
