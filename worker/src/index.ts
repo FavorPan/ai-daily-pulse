@@ -1,11 +1,24 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import type { D1Database } from "@cloudflare/workers-types";
 import { authRoutes } from "./auth";
 import { ideasRoutes } from "./ideas";
 import { voteRoutes } from "./vote";
 import { getDB, initDB } from "./db";
 
-const app = new Hono();
+type Bindings = {
+  DB: D1Database;
+  FRONTEND_URL: string;
+  SYNC_API_KEY: string;
+  JWT_SECRET: string;
+  GITHUB_CLIENT_ID?: string;
+  GITHUB_CLIENT_SECRET?: string;
+  GOOGLE_CLIENT_ID?: string;
+  GOOGLE_CLIENT_SECRET?: string;
+  RESEND_API_KEY?: string;
+};
+
+const app = new Hono<{ Bindings: Bindings }>();
 
 app.use(
   "*",
