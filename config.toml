@@ -23,3 +23,6 @@ fetch_timeout = 15
 fetch_workers = 8
 score_workers = 4
 log_level = "INFO"
+
+[insight]
+sync_enabled = false

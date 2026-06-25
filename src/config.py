@@ -28,6 +28,7 @@ DEFAULTS = {
     "last30days_python_path": "python3.12",
     "last30days_timeout": 30,
     "last30days_search_sources": "reddit,hackernews",
+    "insight_sync_enabled": False,
 }
 
 NUMERIC_INT_KEYS = {
@@ -58,11 +59,11 @@ def load_config(path: str = "config.toml") -> dict:
     if os.path.exists(path):
         with open(path, "rb") as f:
             data = tomllib.load(f)
-        for section in ("api", "pipeline", "last30days"):
+        for section in ("api", "pipeline", "last30days", "insight"):
             if section in data:
                 for k, v in data[section].items():
-                    if section == "last30days":
-                        cfg[f"last30days_{k}"] = v
+                    if section in ("last30days", "insight"):
+                        cfg[f"{section}_{k}"] = v
                     elif k in cfg:
                         cfg[k] = v
 

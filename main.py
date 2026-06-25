@@ -131,6 +131,11 @@ def main():
     logger.info("Web digest JSON: %s", json_path)
     logger.info("Final digest: %d articles | Rejected: %d articles", len(kept), len(rejected))
 
+    # Sync insights to Worker API
+    if cfg.get("insight_sync_enabled", False):
+        from src.sync_insights import sync_insights
+        sync_insights(insights.get("directions", []), today)
+
     history = record_pushed(history, kept, today=today)
     history = prune_history(history, days=cfg["dedup_window_days"], today=today)
     save_history(cfg["history_path"], history)
