@@ -1,0 +1,16 @@
+name = "ai-daily-pulse-api"
+main = "src/index.ts"
+compatibility_date = "2025-06-25"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-daily-pulse"
+database_id = ""
+
+[vars]
+FRONTEND_URL = "https://ai-daily-pulse.top"
+
+[env.production]
+routes = [
+  { pattern = "api.ai-daily-pulse.top", custom_domain = true }
+]

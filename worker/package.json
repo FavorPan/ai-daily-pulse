@@ -1,0 +1,20 @@
+{
+  "name": "ai-daily-pulse-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute ai-daily-pulse --local --file=schema.sql",
+    "db:init:remote": "wrangler d1 execute ai-daily-pulse --file=schema.sql"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "jose": "^5.9.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250624.0",
+    "wrangler": "^3.107.0",
+    "typescript": "^5.7.0"
+  }
+}
