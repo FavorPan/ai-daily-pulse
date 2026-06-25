@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, useEffect, useCallback } from "react";
 import type { ReactNode } from "react";
 import type { AuthUser } from "./types";
-import { fetchMe, logout as apiLogout } from "./api";
+import { fetchMe, logout as apiLogout } from "./api-client";
 
 type AuthContextType = {
   user: AuthUser | null;

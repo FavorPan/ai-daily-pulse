@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import type { InsightIdea, VoteCounts, VoteType } from "@/lib/types";
-import { fetchIdeas } from "@/lib/api";
+import { fetchIdeas } from "@/lib/api-client";
 import { InsightCard } from "./InsightCard";
 import { AuthModal } from "./AuthModal";
 import { useAuth } from "@/lib/auth";

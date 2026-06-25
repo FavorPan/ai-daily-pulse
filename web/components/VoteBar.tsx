@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { VoteCounts, VoteType } from "@/lib/types";
-import { castVote } from "@/lib/api";
+import { castVote } from "@/lib/api-client";
 import { useAuth } from "@/lib/auth";
 
 type Props = {
