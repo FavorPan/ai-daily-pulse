@@ -54,3 +54,39 @@ export type DailyDigest = {
   social_post?: { zh?: string; en?: string };
   x_thread?: string[];
 };
+
+export type VoteType = "good" | "maybe" | "dont";
+
+export type VoteCounts = {
+  good: number;
+  maybe: number;
+  dont: number;
+  total: number;
+};
+
+export type InsightIdea = {
+  id: string;
+  date: string;
+  name: string;
+  description: string | null;
+  target_user: string | null;
+  core_features: string[];
+  related_trends: string[];
+  why_now: string | null;
+  monetization: string | null;
+  difficulty: string | null;
+  estimated_mvp_days: number | null;
+  source_article: string | null;
+  source_article_url: string | null;
+  source_article_score: number | null;
+  source_article_source: string | null;
+  social_pulse: BuildProject["social_pulse"] | null;
+  votes: VoteCounts;
+  my_vote: VoteType | null;
+};
+
+export type AuthUser = {
+  sub: string;
+  email: string;
+  name: string | null;
+};
