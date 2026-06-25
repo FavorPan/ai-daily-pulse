@@ -7,6 +7,9 @@ const nextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
+  env: {
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL ?? "https://api.ai-daily-pulse.top",
+  },
 };
 
 export default withNextIntl(nextConfig);

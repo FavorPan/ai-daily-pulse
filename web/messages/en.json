@@ -3,7 +3,8 @@
     "home": "Today",
     "explore": "All articles",
     "about": "About",
-    "builder": "Builder"
+    "builder": "Builder",
+    "insight": "Insight"
   },
   "hero": {
     "tagline": "40+ RSS feeds · AI scoring & dedup · Daily digest",
