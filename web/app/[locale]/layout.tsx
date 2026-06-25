@@ -15,6 +15,7 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import { listDigestDates } from "@/lib/api";
+import { AuthProvider } from "@/lib/auth";
 import { routing } from "@/i18n/routing";
 
 const geistSans = localFont({
@@ -124,7 +125,8 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            <div className="min-h-[100dvh] flex flex-col">
+            <AuthProvider>
+              <div className="min-h-[100dvh] flex flex-col">
               {/* Header */}
               <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
                 <div className="px-4 md:px-8">
@@ -185,6 +187,7 @@ export default async function LocaleLayout({ children, params }: Props) {
               {/* Footer */}
               <SiteFooter />
             </div>
+            </AuthProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
