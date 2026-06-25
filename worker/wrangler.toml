@@ -9,6 +9,8 @@ database_id = ""
 
 [vars]
 FRONTEND_URL = "https://ai-daily-pulse.top"
+SYNC_API_KEY = "dev-sync-key-12345"
+JWT_SECRET = "dev-jwt-secret-not-for-production"
 
 [env.production]
 routes = [

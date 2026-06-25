@@ -85,11 +85,6 @@ export function InsightClient() {
     });
   };
 
-  const allDates = useMemo(() => {
-    const dates = [...new Set(ideas.map((i) => i.date))].sort().reverse();
-    return dates;
-  }, [ideas]);
-
   if (loading) {
     return (
       <div className="text-center py-16">
@@ -158,26 +153,20 @@ export function InsightClient() {
           {t("dateFilter")}
         </h3>
         <div className="space-y-2">
-          <select
+          <input
+            type="date"
             value={dateStart}
             onChange={(e) => setDateStart(e.target.value)}
             className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
-          >
-            <option value="">{t("dateFrom")}</option>
-            {allDates.map((d) => (
-              <option key={d} value={d}>{d}</option>
-            ))}
-          </select>
-          <select
+            aria-label={t("dateFrom")}
+          />
+          <input
+            type="date"
             value={dateEnd}
             onChange={(e) => setDateEnd(e.target.value)}
             className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
-          >
-            <option value="">{t("dateTo")}</option>
-            {allDates.map((d) => (
-              <option key={d} value={d}>{d}</option>
-            ))}
-          </select>
+            aria-label={t("dateTo")}
+          />
         </div>
 
         {/* User info */}
@@ -197,7 +186,7 @@ export function InsightClient() {
             <p className="text-muted text-sm">{t("empty")}</p>
           </div>
         ) : (
-          <div className="space-y-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <p className="text-xs text-muted">
               {t("ideaCount", { count: filtered.length })}
             </p>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import type { InsightIdea, VoteCounts, VoteType } from "@/lib/types";
 import { VoteBar } from "./VoteBar";
 
@@ -20,14 +20,24 @@ const difficultyLabels: Record<string, string> = {
 
 export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props) {
   const t = useTranslations("insight");
+  const locale = useLocale();
+  const isEn = locale === "en";
   const [expanded, setExpanded] = useState(false);
 
+  const displayName = isEn ? (idea.name_en || idea.name) : idea.name;
+  const displayDescription = isEn ? (idea.description_en || idea.description) : idea.description;
+  const displayWhyNow = isEn ? (idea.why_now_en || idea.why_now) : idea.why_now;
+  const displayTargetUser = isEn ? (idea.target_user_en || idea.target_user) : idea.target_user;
+  const displayMonetization = isEn ? (idea.monetization_en || idea.monetization) : idea.monetization;
+  const displayCoreFeatures = isEn ? (idea.core_features_en || idea.core_features) : idea.core_features;
+  const displayRelatedTrends = isEn ? (idea.related_trends_en || idea.related_trends) : idea.related_trends;
+
   const hasDetails =
-    (idea.core_features && idea.core_features.length > 0) ||
+    (displayCoreFeatures && displayCoreFeatures.length > 0) ||
     idea.source_article ||
-    (idea.related_trends && idea.related_trends.length > 0) ||
-    idea.target_user ||
-    idea.monetization;
+    (displayRelatedTrends && displayRelatedTrends.length > 0) ||
+    displayTargetUser ||
+    displayMonetization;
 
   return (
     <article
@@ -42,7 +52,7 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
               #{String(index + 1).padStart(2, "0")}
             </span>
             <h3 className="font-semibold text-[15px] leading-snug text-foreground truncate">
-              {idea.name}
+              {displayName}
             </h3>
           </div>
           <div className="flex items-center gap-2.5 shrink-0">
@@ -64,15 +74,15 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
 
         {/* Row 2: description */}
         <p className="text-sm text-muted leading-relaxed mb-3">
-          {idea.description}
+          {displayDescription}
         </p>
 
         {/* Row 3: Why Now */}
-        {idea.why_now && (
+        {displayWhyNow && (
           <div className="border-l-2 border-accent/40 pl-3 mb-3">
             <p className="text-sm text-foreground/80 leading-relaxed">
               <span className="font-semibold text-accent">{t("whyNow")}</span>
-              {" "}{idea.why_now}
+              {" "}{displayWhyNow}
             </p>
           </div>
         )}
@@ -109,25 +119,25 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
       {expanded && hasDetails && (
         <div className="border-t border-border px-5 py-4 space-y-3 animate-slide-up">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
-            {idea.target_user && (
+            {displayTargetUser && (
               <div>
                 <span className="text-xs font-medium text-foreground/70">{t("targetUser")}</span>
-                <p className="text-xs text-muted mt-0.5">{idea.target_user}</p>
+                <p className="text-xs text-muted mt-0.5">{displayTargetUser}</p>
               </div>
             )}
-            {idea.monetization && (
+            {displayMonetization && (
               <div>
                 <span className="text-xs font-medium text-foreground/70">{t("monetization")}</span>
-                <p className="text-xs text-muted mt-0.5">{idea.monetization}</p>
+                <p className="text-xs text-muted mt-0.5">{displayMonetization}</p>
               </div>
             )}
           </div>
 
-          {idea.core_features && idea.core_features.length > 0 && (
+          {displayCoreFeatures && displayCoreFeatures.length > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">{t("coreFeatures")}</span>
               <div className="flex flex-wrap gap-1.5 mt-1.5">
-                {idea.core_features.map((f, j) => (
+                {displayCoreFeatures.map((f, j) => (
                   <span key={j} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs bg-surface-muted text-muted border border-border/50">
                     {f}
                   </span>
@@ -155,11 +165,11 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
             </div>
           )}
 
-          {idea.related_trends && idea.related_trends.length > 0 && (
+          {displayRelatedTrends && displayRelatedTrends.length > 0 && (
             <div>
               <span className="text-xs font-medium text-foreground/70">{t("relatedTrends")}</span>
               <div className="flex flex-wrap gap-1.5 mt-1.5">
-                {idea.related_trends.map((tag, j) => (
+                {displayRelatedTrends.map((tag, j) => (
                   <span key={j} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs bg-accent/10 text-accent font-medium">
                     {tag}
                   </span>

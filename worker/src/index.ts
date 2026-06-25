@@ -3,6 +3,7 @@ import { cors } from "hono/cors";
 import { authRoutes } from "./auth";
 import { ideasRoutes } from "./ideas";
 import { voteRoutes } from "./vote";
+import { getDB, initDB } from "./db";
 
 const app = new Hono();
 
@@ -15,6 +16,12 @@ app.use(
     allowHeaders: ["Content-Type", "Authorization"],
   })
 );
+
+// Auto-migrate D1 tables on every request (no-op after first call)
+app.use("*", async (c, next) => {
+  await initDB(getDB(c));
+  await next();
+});
 
 app.route("/api/auth", authRoutes);
 app.route("/api", ideasRoutes);

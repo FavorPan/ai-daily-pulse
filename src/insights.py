@@ -31,15 +31,22 @@ BUILD_DIRECTIONS_PROMPT = """你是一位 AI 创业顾问，面向独立开发�
 
 输出恰好 {n} 个项目。每个项目必须是一个可独立开发的产品（不是"做 AI 工具"这种废话）。
 
-每个项目必须包含：
-- name: 产品名
-- description: 一句话描述
-- target_user: 目标用户
-- core_features: 核心功能列表（2-3 个）
-- related_trends: 相关趋势标签（2-3 个）
-- why_now: 为什么现在是好时机（引用社区讨论数据和文章信息）
-- monetization: 变现模式
-- difficulty: 难度（easy/medium/hard）
+每个项目必须包含以下字段（中文版 + 英文版）：
+- name: 产品名（中文）
+- name_en: 产品名（英文）
+- description: 一句话描述（中文）
+- description_en: 一句话描述（英文）
+- target_user: 目标用户（中文）
+- target_user_en: 目标用户（英文）
+- core_features: 核心功能列表 2-3 个（中文）
+- core_features_en: 核心功能列表 2-3 个（英文）
+- related_trends: 相关趋势标签 2-3 个（中文）
+- related_trends_en: 相关趋势标签 2-3 个（英文）
+- why_now: 为什么现在是好时机（中文，引用社区讨论数据和文章信息）
+- why_now_en: 为什么现在是好时机（英文）
+- monetization: 变现模式（中文）
+- monetization_en: 变现模式（英文）
+- difficulty: 难度 easy/medium/hard
 - estimated_mvp_days: MVP 预估天数
 
 要求：
@@ -51,7 +58,7 @@ BUILD_DIRECTIONS_PROMPT = """你是一位 AI 创业顾问，面向独立开发�
 {articles}
 
 按以下 JSON 格式输出：
-{{"projects": [{{"name": "...", "description": "...", "target_user": "...", "core_features": ["..."], "related_trends": ["..."], "why_now": "...", "monetization": "...", "difficulty": "...", "estimated_mvp_days": N}}]}}
+{{"projects": [{{"name": "...", "name_en": "...", "description": "...", "description_en": "...", "target_user": "...", "target_user_en": "...", "core_features": ["..."], "core_features_en": ["..."], "related_trends": ["..."], "related_trends_en": ["..."], "why_now": "...", "why_now_en": "...", "monetization": "...", "monetization_en": "...", "difficulty": "...", "estimated_mvp_days": N}}]}}
 只输出 JSON，不要其他文字。"""
 
 
@@ -437,7 +444,7 @@ def generate_build_directions(
         n=n,
         articles="\n\n".join(article_blocks),
     )
-    result = _call_llm(client, model, prompt, max_tokens=1200)
+    result = _call_llm(client, model, prompt, max_tokens=2000)
 
     if not result or "projects" not in result:
         logger.warning("Build directions generation returned no result")
@@ -447,8 +454,18 @@ def generate_build_directions(
     if not isinstance(directions, list):
         return []
 
-    # Attach source_article and social_pulse to each project
+    # Attach source_article and social_pulse to each project.
+    # Also ensure _en fields have graceful fallback if LLM doesn't provide them.
     for i, proj in enumerate(directions):
+        # Graceful fallback for English fields (LLM may not provide them)
+        proj.setdefault("name_en", None)
+        proj.setdefault("description_en", None)
+        proj.setdefault("target_user_en", None)
+        proj.setdefault("core_features_en", None)
+        proj.setdefault("related_trends_en", None)
+        proj.setdefault("why_now_en", None)
+        proj.setdefault("monetization_en", None)
+
         if i < len(top_picks):
             a = top_picks[i]["article"]
             pulse = top_picks[i]["social_pulse"]
