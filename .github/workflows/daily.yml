@@ -38,6 +38,8 @@ jobs:
       - name: Run pipeline
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          INSIGHT_API_URL: ${{ secrets.INSIGHT_API_URL }}
+          INSIGHT_SYNC_KEY: ${{ secrets.INSIGHT_SYNC_KEY }}
         run: python main.py
 
       - name: Commit output
