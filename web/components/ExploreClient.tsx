@@ -8,6 +8,8 @@ import { getTopicLabel } from "@/lib/topicLabels";
 import type { AppLocale } from "@/i18n/routing";
 import type { DigestItemWithDate } from "@/lib/types";
 
+const PAGE_SIZE = 15;
+
 type Props = {
   items: DigestItemWithDate[];
   dates: string[];
@@ -22,6 +24,10 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
   const [q, setQ] = useState("");
   const [dateStart, setDateStart] = useState("");
   const [dateEnd, setDateEnd] = useState("");
+  const [page, setPage] = useState(1);
+
+  // Reset page when filters change
+  useEffect(() => { setPage(1); }, [topic, q, dateStart, dateEnd]);
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -62,6 +68,12 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
     }
     return map;
   }, [items]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const paged = useMemo(() => {
+    const start = (page - 1) * PAGE_SIZE;
+    return filtered.slice(start, start + PAGE_SIZE);
+  }, [filtered, page]);
 
   return (
     <div className="flex flex-col md:flex-row gap-8">
@@ -141,9 +153,32 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
           </div>
         ) : (
           <div>
-            {filtered.map((item, i) => (
+            {paged.map((item, i) => (
               <ProjectCard key={`${item.digestDate}-${item.id}-${i}`} item={item} showDate />
             ))}
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-3 pt-4">
+                <button
+                  onClick={() => setPage((p) => Math.max(1, p - 1))}
+                  disabled={page === 1}
+                  className="px-3 py-1.5 rounded-md text-xs border border-border hover:bg-surface-muted transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  {ti("prevPage")}
+                </button>
+                <span className="text-xs text-muted tabular-nums">
+                  {page} / {totalPages}
+                </span>
+                <button
+                  onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                  disabled={page === totalPages}
+                  className="px-3 py-1.5 rounded-md text-xs border border-border hover:bg-surface-muted transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  {ti("nextPage")}
+                </button>
+              </div>
+            )}
           </div>
         )}
       </div>

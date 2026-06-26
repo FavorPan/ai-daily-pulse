@@ -131,6 +131,8 @@
     "dateFilter": "日期范围",
     "dateFrom": "起始日期",
     "dateTo": "截止日期",
+    "prevPage": "上一页",
+    "nextPage": "下一页",
     "voteGood": "看好",
     "voteMaybe": "观望",
     "voteDont": "不看好",

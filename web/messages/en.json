@@ -131,6 +131,8 @@
     "dateFilter": "Date Range",
     "dateFrom": "From",
     "dateTo": "To",
+    "prevPage": "Prev",
+    "nextPage": "Next",
     "voteGood": "Good",
     "voteMaybe": "Maybe",
     "voteDont": "Don't",

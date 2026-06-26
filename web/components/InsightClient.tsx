@@ -18,6 +18,7 @@ const SORT_OPTIONS: { key: SortKey; labelKey: string }[] = [
 ];
 
 const DIFFICULTY_OPTIONS = ["easy", "medium", "hard"] as const;
+const PAGE_SIZE = 30;
 
 export function InsightClient() {
   const t = useTranslations("insight");
@@ -29,7 +30,10 @@ export function InsightClient() {
   const [difficultyFilter, setDifficultyFilter] = useState<Set<string>>(new Set());
   const [dateStart, setDateStart] = useState("");
   const [dateEnd, setDateEnd] = useState("");
+  const [page, setPage] = useState(1);
   const [authOpen, setAuthOpen] = useState(false);
+
+  useEffect(() => { setPage(1); }, [sort, difficultyFilter, dateStart, dateEnd]);
 
   useEffect(() => {
     fetchIdeas()
@@ -75,6 +79,12 @@ export function InsightClient() {
         }
       });
   }, [ideas, sort, difficultyFilter, dateStart, dateEnd]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const paged = useMemo(() => {
+    const start = (page - 1) * PAGE_SIZE;
+    return filtered.slice(start, start + PAGE_SIZE);
+  }, [filtered, page]);
 
   const toggleDifficulty = (d: string) => {
     setDifficultyFilter((prev) => {
@@ -191,16 +201,39 @@ export function InsightClient() {
               {t("ideaCount", { count: filtered.length })}
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-              {filtered.map((idea, i) => (
+              {paged.map((idea, i) => (
                 <InsightCard
                   key={idea.id}
                   idea={idea}
-                  index={i}
+                  index={(page - 1) * PAGE_SIZE + i}
                   onVoteChange={handleVoteChange}
                   onAuthRequired={() => setAuthOpen(true)}
                 />
               ))}
             </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-3 mt-6 pt-4 border-t border-border">
+                <button
+                  onClick={() => setPage((p) => Math.max(1, p - 1))}
+                  disabled={page === 1}
+                  className="px-3 py-1.5 rounded-md text-xs border border-border hover:bg-surface-muted transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  {t("prevPage")}
+                </button>
+                <span className="text-xs text-muted tabular-nums">
+                  {page} / {totalPages}
+                </span>
+                <button
+                  onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                  disabled={page === totalPages}
+                  className="px-3 py-1.5 rounded-md text-xs border border-border hover:bg-surface-muted transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  {t("nextPage")}
+                </button>
+              </div>
+            )}
           </div>
         )}
       </div>
