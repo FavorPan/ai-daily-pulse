@@ -17,3 +17,6 @@ web/.next/
 # OS
 .DS_Store
 Thumbs.db
+
+# Docs (local only)
+docs/
