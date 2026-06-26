@@ -6,7 +6,7 @@ import { useRouter, useParams } from "next/navigation";
 export default function BuilderRedirect() {
   const router = useRouter();
   const params = useParams();
-  const locale = (params?.locale as string) ?? "zh-CN";
+  const locale = (params?.locale as string) ?? "en";
 
   useEffect(() => {
     router.replace(`/${locale}/insight`);

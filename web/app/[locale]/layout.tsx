@@ -54,7 +54,7 @@ export async function generateMetadata({
         "zh-CN": `${siteUrl}/zh-CN/`,
         "zh-TW": `${siteUrl}/zh-TW/`,
         en: `${siteUrl}/en/`,
-        "x-default": `${siteUrl}/zh-CN/`,
+        "x-default": `${siteUrl}/en/`,
       },
     },
     openGraph: {
