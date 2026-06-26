@@ -1,8 +1,9 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { ProjectCard } from "./ProjectCard";
+import { DateSwitcher } from "./DateSwitcher";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { AppLocale } from "@/i18n/routing";
@@ -10,10 +11,12 @@ import type { DigestItemWithDate } from "@/lib/types";
 
 type Props = {
   items: DigestItemWithDate[];
+  dates: string[];
+  locale: string;
 };
 
-export function ExploreClient({ items }: Props) {
-  const locale = useLocale() as AppLocale;
+export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
+  const locale = currentLocale as AppLocale;
   const t = useTranslations("explore");
   const [topic, setTopic] = useState<string>("__all__");
   const [q, setQ] = useState("");
@@ -62,6 +65,9 @@ export function ExploreClient({ items }: Props) {
       <aside className="w-full md:w-48 shrink-0">
         <h1 className="text-headline mb-1">{t("title")}</h1>
         <p className="text-sm text-muted mb-4">{t("subtitle")}</p>
+        <div className="mb-4">
+          <DateSwitcher dates={dates} locale={locale} />
+        </div>
         <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-muted mb-3">
           {t("topicFilter")}
         </h3>

@@ -2,7 +2,8 @@ import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductHero } from "@/components/ProductHero";
 import { ProjectCard } from "@/components/ProjectCard";
-import { getDaily } from "@/lib/api";
+import { DateSwitcher } from "@/components/DateSwitcher";
+import { getDaily, listDigestDates } from "@/lib/api";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { Metadata } from "next";
@@ -50,6 +51,7 @@ export default async function Page({ params }: PageProps) {
   setRequestLocale(locale);
 
   const data = await getDaily();
+  const dates = listDigestDates();
   const trending = data.items
     .filter((item) => item.score >= TRENDING_MIN_SCORE)
     .map((item) => ({ ...item, digestDate: data.date }));
@@ -77,6 +79,9 @@ export default async function Page({ params }: PageProps) {
               {data.items.length}
             </div>
             <div className="text-sm text-muted">{t("total", { count: data.items.length })}</div>
+            <div className="mt-2">
+              <DateSwitcher dates={dates} locale={locale} />
+            </div>
           </div>
 
           {/* Topic breakdown */}
@@ -107,10 +112,10 @@ export default async function Page({ params }: PageProps) {
                 全部文章 →
               </Link>
               <Link
-                href={`/${locale}/builder/`}
+                href={`/${locale}/insight/`}
                 className="block text-sm text-muted hover:text-foreground transition-colors"
               >
-                Builder →
+                Insight →
               </Link>
               <Link
                 href={`/${locale}/about/`}
@@ -127,7 +132,7 @@ export default async function Page({ params }: PageProps) {
           {/* Builder banner */}
           {hasDirections && (
             <Link
-              href={`/${locale}/builder/`}
+              href={`/${locale}/insight/`}
               className="block mb-8 p-4 rounded-lg bg-accent/5 border border-accent/20 hover:bg-accent/10 transition-colors"
             >
               <div className="flex items-center justify-between">

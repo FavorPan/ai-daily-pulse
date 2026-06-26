@@ -9,12 +9,10 @@ import "../globals.css";
 import { HeaderNav } from "@/components/HeaderNav";
 import { MobileMenu } from "@/components/MobileMenu";
 import { SearchBar } from "@/components/SearchBar";
-import { DateSwitcher } from "@/components/DateSwitcher";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
-import { listDigestDates } from "@/lib/api";
 import { AuthProvider } from "@/lib/auth";
 import { routing } from "@/i18n/routing";
 
@@ -101,7 +99,6 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   setRequestLocale(locale);
   const messages = await getMessages();
-  const dates = listDigestDates();
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -169,7 +166,6 @@ export default async function LocaleLayout({ children, params }: Props) {
                       <div className="flex-1 sm:flex-none min-w-0">
                         <SearchBar />
                       </div>
-                      <DateSwitcher dates={dates} locale={locale} />
                       {/* Mobile menu (hidden on desktop) */}
                       <MobileMenu />
                     </div>

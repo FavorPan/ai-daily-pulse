@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ExploreClient } from "@/components/ExploreClient";
-import { getItemsWithDate } from "@/lib/api";
+import { DateSwitcher } from "@/components/DateSwitcher";
+import { getItemsWithDate, listDigestDates } from "@/lib/api";
 import type { Metadata } from "next";
 import { getBaseMetadata } from "@/lib/metadata";
 
@@ -44,11 +45,12 @@ export default async function ExplorePage({ params }: PageProps) {
   setRequestLocale(locale);
 
   const items = await getItemsWithDate();
+  const dates = listDigestDates();
   const t = await getTranslations("explore");
 
   return (
     <div className="space-y-6">
-      <ExploreClient items={items} />
+      <ExploreClient items={items} dates={dates} locale={locale} />
     </div>
   );
 }

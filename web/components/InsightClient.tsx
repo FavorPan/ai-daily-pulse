@@ -153,19 +153,19 @@ export function InsightClient() {
           {t("dateFilter")}
         </h3>
         <div className="space-y-2">
+          <label className="text-xs text-muted block">{t("dateFrom")}</label>
           <input
             type="date"
             value={dateStart}
             onChange={(e) => setDateStart(e.target.value)}
             className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
-            aria-label={t("dateFrom")}
           />
+          <label className="text-xs text-muted block mt-1">{t("dateTo")}</label>
           <input
             type="date"
             value={dateEnd}
             onChange={(e) => setDateEnd(e.target.value)}
             className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
-            aria-label={t("dateTo")}
           />
         </div>
 

@@ -52,11 +52,12 @@ export default async function ExploreDatePage({ params }: PageProps) {
   const items = await getItemsWithDate(date);
   if (items.length === 0) notFound();
 
+  const dates = listDigestDates();
   const t = await getTranslations("explore");
 
   return (
     <div className="space-y-6">
-      <ExploreClient items={items} />
+      <ExploreClient items={items} dates={dates} locale={locale} />
     </div>
   );
 }
