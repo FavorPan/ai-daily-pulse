@@ -981,7 +981,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "LocalAgent Starter Kit",
+      "description_en": "One-click local AI coding assistant deployment tool designed for macOS users, integrating an automated configuration wizard for Ollama, VS Code, and the Continue extension.",
+      "target_user_en": "Solo developers and one-person company founders who want to run AI coding assistants locally to protect data privacy and avoid API fees.",
+      "core_features_en": [
+        "One-click installation of Ollama and recommended models (e.g., codellama 7B)",
+        "Automatic configuration of VS Code and the Continue extension",
+        "Model parameter optimization suggestions tailored for different hardware configurations"
+      ],
+      "related_trends_en": [
+        "Local coding",
+        "Agent",
+        "Data privacy"
+      ],
+      "why_now_en": "Discussions about local coding Agents on Hacker News continue to heat up, and user demand for data privacy and avoiding cloud-based API fees is growing. The article mentions that local deployment avoids network latency and usage limits, but the complex configuration process presents a clear pain point.",
+      "monetization_en": "Free base version + paid premium features (such as multi-model management, performance optimization suggestions)"
     },
     {
       "name": "OpenRouter Agent Hub",
@@ -1090,7 +1105,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "OpenRouter Agent Hub",
+      "description_en": "An AI Agent management platform based on OpenRouter, providing model usage routing, usage monitoring, and cost optimization recommendations to help developers efficiently manage multi-model calls.",
+      "target_user_en": "AI developers and one-person companies using OpenRouter who need to manage multiple AI models and optimize costs.",
+      "core_features_en": [
+        "Multi-model routing and automatic switching",
+        "Real-time usage monitoring and cost analysis",
+        "Intelligently recommending the optimal model combination to reduce costs"
+      ],
+      "related_trends_en": [
+        "Agent",
+        "OpenRouter",
+        "Cost optimization"
+      ],
+      "why_now_en": "Agent usage guides on OpenRouter received high scores on AI trending lists, and agent-related discussions frequently appear across multiple sources, indicating strong market demand for efficient multi-model calling management.",
+      "monetization_en": "Subscription model (basic version free, advanced features billed monthly)"
     }
   ],
   "social_post": {

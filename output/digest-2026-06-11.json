@@ -1599,7 +1599,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "ClipForge Pro",
+      "description_en": "An AI-powered auto-clipping tool for vertical domains (such as finance and tech podcasting), converting long videos into high-retention short video clips with one-click, designed for solo video editing studios.",
+      "target_user_en": "Independent content creators, small MCN agencies, enterprise marketing department video specialists",
+      "core_features_en": [
+        "AI automatically identifies and extracts high-value clips from videos (e.g., key financial data, keynote catchphrases)",
+        "Built-in 'Golden 3 Seconds' opening hook generator to boost click-through rates",
+        "One-click multi-platform distribution to TikTok/YouTube Shorts/Instagram Reels, supporting account matrix management"
+      ],
+      "related_trends_en": [
+        "clipping-agency",
+        "one-person company",
+        "content distribution"
+      ],
+      "why_now_en": "Whop's platform reaches 3.5 billion monthly views with over $2.7 billion GMV, validating the revenue-share-per-view model; Reddit communities are buzzing about using local LLMs for unstructured data processing, yet current AI clipping tools like OpusClip only serve general entertainment content, leaving vertical domains untapped; YouTube has started banning low-quality click-farmed channels, driving rising demand for professional-grade clipping.",
+      "monetization_en": "$39/month subscription fee + 15% revenue-share commission (when users receive orders through the platform and complete valid view settlements)"
     },
     {
       "name": "RigidFlow",
@@ -1655,7 +1670,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "RigidFlow",
+      "description_en": "A 'rigid process control' middleware for local LLM users, breaking down complex AI tasks into deterministic scripts + lightweight LLM calls to ensure a low-cost, highly stable automated pipeline.",
+      "target_user_en": "Independent developers and solo founders of one-person companies using small local models (such as Gemma or Qwen)",
+      "core_features_en": [
+        "Visual drag-and-drop process editor that enforces users to define the input/output formats for each step",
+        "Automatically converts fuzzy AI tasks into a 'script-driven main control + LLM for entity extraction only' hybrid architecture",
+        "Built-in fault circuit-breaking and retry mechanisms to ensure 7x24 stable operation"
+      ],
+      "related_trends_en": [
+        "Agent Workflows",
+        "Local LLMs",
+        "One-Person Business"
+      ],
+      "why_now_en": "Actual tests in the Reddit r/LocalLLaMA community show that rigid Python script + small model combinations are 3x more stable/flexible than pure flexible agent solutions and have achieved four days of zero-fault operation; current mainstream agent frameworks rely too heavily on large-scale model inference, while budget-limited independent developers urgently need lightweight, 'good enough' and stable solutions.",
+      "monetization_en": "Basic features are free, while advanced template library and team collaboration features are $19/month subscription"
     }
   ],
   "social_post": {

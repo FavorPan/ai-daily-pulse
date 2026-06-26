@@ -1142,7 +1142,22 @@
       "source_article": "Stop Flying Blind with Coding Agents: Inspect Claude Code and Codex Requests with ccglass",
       "source_article_url": "https://dev.to/houleixx/stop-flying-blind-with-coding-agents-inspect-claude-code-and-codex-requests-with-ccglass-1oe8",
       "source_article_score": 8,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "AgentScope",
+      "description_en": "A local observability dashboard for AI coding agents, capturing prompts, tool calls, token usage, and costs from tools like Claude Code and Codex in real time, solving the \"black box\" debugging challenge of AI coding agents.",
+      "target_user_en": "Indie developers and one-person company founders who use AI coding agents (such as Claude Code and Codex) for daily development and need precise prompt debugging and cost control.",
+      "core_features_en": [
+        "Local proxy auto-configures BASE_URL with no need to install CA certificates or modify source code",
+        "Web dashboard displaying system prompts, message history, tool calls, token usage, cache utilization, latency, and estimated costs in real time",
+        "Precisely locating issues such as missing prompt context, tool call errors, and abnormal session costs"
+      ],
+      "related_trends_en": [
+        "AI Coding Agents",
+        "Observability",
+        "Open Source Tools"
+      ],
+      "why_now_en": "Community discussions show that AI coding agents (such as Claude Code and Codex) have become core tools for indie developers, yet there is a lack of effective debugging and cost monitoring solutions. On DEV Community, ccglass received a selection score of 8/10, and the open source tools category had 4 source reports, indicating strong community demand for AI coding agent observability. The current market lacks lightweight local solutions that require no complex configuration, leaving a clear gap.",
+      "monetization_en": "Core features are free and open source; advanced features (such as multi-agent management, historical data analysis, and team collaboration) are offered via a subscription model ($9/month)."
     },
     {
       "name": "CommentPulse",
@@ -1165,7 +1180,22 @@
       "source_article": "I built an automation that tells a YouTube creator what her audience is actually struggling with (not views, not CTR)",
       "source_article_url": "https://www.reddit.com/r/SideProject/comments/1ua8uk2/i_built_an_automation_that_tells_a_youtube/",
       "source_article_score": 7,
-      "source_article_source": "Reddit r/SideProject"
+      "source_article_source": "Reddit r/SideProject",
+      "name_en": "CommentPulse",
+      "description_en": "An automated YouTube comment sentiment analysis tool that periodically scrapes comments and classifies emotional signals such as anxiety and shame, flags urgent distress, and generates video topic ideas, helping content creators gain precise insights into their audience's real needs.",
+      "target_user_en": "Small-to-medium YouTube creators (especially those running mental health, education, and lifestyle channels) who want to optimize their content strategy based on their audience's real struggles rather than surface-level metrics like view counts.",
+      "core_features_en": [
+        "Periodically scrapes YouTube comments and uses sentiment classification to identify deep emotional signals such as anxiety, shame, and confusion",
+        "Flags urgent distress and generates video topic suggestions traceable back to original comment IDs",
+        "Automated workflow (YouTube Data API + FastAPI + Vercel) with scheduled insight report push notifications"
+      ],
+      "related_trends_en": [
+        "YouTube comment analysis",
+        "solo entrepreneurship",
+        "content creation assistance"
+      ],
+      "why_now_en": "This tool was featured on Reddit r/SideProject with a rating of 7/10 and has 5 source reports in the solo entrepreneurship category, indicating strong community demand for content creation tools based on genuine audience insights. Most existing tools focus on surface-level metrics like view counts and CTR, lacking automated deep emotional analysis of comments. YouTube creators commonly face the pain point of 'not knowing what their audience truly wants,' and this tool has already been validated through Millie The Pocket Psychologist channel, demonstrating solid market validation.",
+      "monetization_en": "Free trial for 7 days, then $15/month per channel subscription, with tiered pricing available based on comment volume."
     }
   ],
   "social_post": {

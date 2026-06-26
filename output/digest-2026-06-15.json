@@ -782,7 +782,21 @@
       "source_article": "Show HN: Wtdb – give every Git worktree its own database",
       "source_article_url": "https://github.com/willhackett/wtdb",
       "source_article_score": 8,
-      "source_article_source": "Hacker News Show HN"
+      "source_article_source": "Hacker News Show HN",
+      "name_en": "BranchDB",
+      "description_en": "Automatically creates isolated local database instances for each Git branch, solving schema conflicts during multi-branch parallel development",
+      "target_user_en": "Individual developers and small teams using Git worktree for parallel development",
+      "core_features_en": [
+        "Automatically detects Git worktree and creates independent database instances",
+        "Automatically migrates and syncs schema when switching branches with one click",
+        "Visual interface displaying branch database status and migration history"
+      ],
+      "related_trends_en": [
+        "AI Tool Practice",
+        "Agent Workflows"
+      ],
+      "why_now_en": "The Wtdb project received an 8/10 rating on Hacker News, and community discussions indicate that schema contention issues in multi-branch concurrent database operations under agentic coding scenarios are becoming increasingly prominent, and developers urgently need automated solutions",
+      "monetization_en": "Basic features are free; advanced features (such as team collaboration and cloud sync) adopt a subscription model"
     },
     {
       "name": "FleetOps",
@@ -804,7 +818,21 @@
       "source_article": "introducing gh-aw-fleet",
       "source_article_url": "https://dev.to/rshade/introducing-gh-aw-fleet-57f4",
       "source_article_score": 7,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "FleetOps",
+      "description_en": "A declarative GitHub Agentic Workflows fleet management tool that manages multi-repository workflow deployment through a single configuration file",
+      "target_user_en": "DevOps engineers and solopreneurs managing multiple GitHub repositories",
+      "core_features_en": [
+        "Declarative fleet.json configuration for workflow profiles per repository",
+        "CLI providing deploy/sync/upgrade subcommands with dry-run by default",
+        "Cross-fleet drift detection and JSON structured output"
+      ],
+      "related_trends_en": [
+        "GitHub Agentic Workflows",
+        "FinOps"
+      ],
+      "why_now_en": "The gh-aw-fleet project on DEV Community received a 7/10 rating, cross-source hot topics show coverage from 4 sources in the open-source tool category, and Copilot usage-based billing takes effect on 2026-06-01, creating urgent demand for cost attribution",
+      "monetization_en": "Open-source core features, with enterprise edition supporting private deployment and advanced security scanning"
     }
   ],
   "social_post": {

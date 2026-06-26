@@ -1273,7 +1273,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "AssertGuard",
+      "description_en": "A lightweight invariant testing tool designed for AI Agent developers, replacing traditional string assertions with dual-dimensional structural and semantic verification.",
+      "target_user_en": "Backend/DevOps engineers in indie developer and one-person companies who are building quality assurance for AI Agents.",
+      "core_features_en": [
+        "Supports YAML structural assertions (field existence, type, length, regex, nesting)",
+        "Built-in cosine similarity comparison for embedding vectors (configurable threshold) for semantic-level judgment",
+        "One-click integration with Claude Code / Cursor workflows, generating and auto-fixing failed test cases via custom sub-agents"
+      ],
+      "related_trends_en": [
+        "agent",
+        "testing",
+        "invariant"
+      ],
+      "why_now_en": "The DEV Community article 'Stop Asserting Equality' received 4 bylined citations in agent sources; Reddit r/LocalLLaMA and r/programming communities frequently complain about test failures triggered by minor output fine-tuning in every PR, with false positive rates exceeding 70%. Combined with the Claude Code public tutorial claude-howto, where hooks/MCP sub-agent templates are now copy-paste ready, enabling one-person teams to integrate automated quality gates within 2 hours — this is the perfect window to enter Agent testing automation.",
+      "monetization_en": "Free and open-source core engine (structural assertions) + paid advanced plugins (batch semantic similarity runs, team collaboration quota management), starting at $9/user/month"
     },
     {
       "name": "AgentFlow Canvas",
@@ -1341,7 +1356,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "AgentFlow Canvas",
+      "description_en": "A visual drag-and-drop Claude Code workflow orchestration interface that allows non-developers to one-click deploy document generation, code review, and automated deployment pipelines.",
+      "target_user_en": "One-person company founders, product managers, open-source contributors, and tech evangelists (1-3 person teams) who lack deep terminal skills but want to use Claude Code to automate repetitive tasks.",
+      "core_features_en": [
+        "WYSIWYG flowchart editor: directly drag and drop to generate CLAUDE.md, hooks, and sub-agent definitions, with the ability to export as a zip package ready for immediate use in Claude Code",
+        "Built-in claude-howto official tutorial node library, with out-of-the-box templates covering 10 major features including MCP, slash commands, and plugin packages",
+        "Cloud preview execution sandbox + embedded self-assessment quizzes (/lesson-quiz), enabling users to complete the full design-to-validation workflow in the browser"
+      ],
+      "related_trends_en": [
+        "agent workflows",
+        "Claude Code",
+        "developer tools"
+      ],
+      "why_now_en": "The GitHub project claude-howto topped Trending and gained 5000+ Stars in its first week; 60% of comments on HN discussion threads expressed the desire to \"avoid manual environment setup and just click a few times to run workflows\"; meanwhile, official Claude Code documentation does not cover visual orchestration capabilities, and the Reddit r/ClaudeAI community has been proactively sharing screenshots and requesting open-source solutions—integrating and packaging official templates into a visual platform right now addresses a genuine market gap.",
+      "monetization_en": "Core editor is free (zip export) + cloud execution sandbox billed per run ($0.01/run); team seats at $15/month for unlimited execution; enterprise private deployment starts at $199/month"
     }
   ],
   "social_post": {

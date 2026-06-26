@@ -2080,7 +2080,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "TokenRouter",
+      "description_en": "A lightweight local proxy that automatically routes AI coding requests to the most cost-effective model based on complexity, significantly reducing AI usage costs for developers.",
+      "target_user_en": "Solo developers and one-person startup founders who frequently use AI coding tools (such as Cursor, GitHub Copilot) but want to control API spending.",
+      "core_features_en": [
+        "Intelligent task complexity assessment and automatic routing (local / low-cost cloud / premium models)",
+        "Real-time spending tracking and routing path visualization dashboard",
+        "One-click integration: developers simply point their coding tool to the local proxy address to enable"
+      ],
+      "related_trends_en": [
+        "AI coding",
+        "Cost optimization",
+        "Agent workflows"
+      ],
+      "why_now_en": "DEV Community articles reveal a widespread pain point among developers of 'wasting expensive tokens on simple tasks,' and agent workflows have been reported as a cross-source trend by 8 independent sources. While related discussions on Hacker News are few, they show high engagement (5,042 combined interactions), indicating growing community sensitivity to AI costs. Existing solutions like Badgr Auto have not yet formed a monopoly, leaving a market gap.",
+      "monetization_en": "Free basic tier + premium feature subscriptions (e.g., multi-team collaboration, custom routing rules, historical data analysis), or a percentage cut of the amount saved."
     },
     {
       "name": "AI Infra Lease",
@@ -2177,7 +2192,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "AI Infra Lease",
+      "description_en": "An on-demand GPU compute leasing platform for small and medium-sized AI startups, integrating the Apollo-Blackstone financing model to lower the barrier to entry for AI infrastructure.",
+      "target_user_en": "Early-stage AI startup teams and independent developers with high-performance GPU compute needs but limited capital.",
+      "core_features_en": [
+        "Hourly billing for on-demand rental of premium AI chips (such as H100/A100)",
+        "Built-in financing options: partnerships with third-party capital to provide 'use-now-pay-later' or revenue-sharing models",
+        "One-click deployment of mainstream AI framework environments (PyTorch/TensorFlow)"
+      ],
+      "related_trends_en": [
+        "AI Infrastructure",
+        "Wall Street financing models",
+        "Anthropic"
+      ],
+      "why_now_en": "Apollo and Blackstone unveiled a $35 billion AI financing deal, signaling traditional capital's systematic entry into AI infrastructure. Anthropic has been reported as a cross-source hot topic by 5 independent sources, and Hacker News discussions about AI self-improvement risks (22 points, 7 comments) reflect growing industry anxiety about compute dependency. Entering the 'asset-light + financing-enabled' compute leasing model at this time can bridge the infrastructure gap between tech giants and individual developers.",
+      "monetization_en": "Compute leasing fees + financing service fees (commissions from successful financing projects) + enterprise custom packages."
     }
   ],
   "social_post": {

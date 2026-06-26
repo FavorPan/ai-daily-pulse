@@ -890,7 +890,22 @@
       "source_article": "MCP server for repo behavior indexing — entrypoints, impact, context packs before the agent edits (FlowIndex)",
       "source_article_url": "https://dev.to/aditi_chatterji_acb54593a/mcp-server-for-repo-behavior-indexing-entrypoints-impact-context-packs-before-the-agent-edits-bk7",
       "source_article_score": 7,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "DevPilot",
+      "description_en": "An MCP behavior indexing agent for independent developers that automatically generates impact reports and test suggestions before AI coding agents modify code.",
+      "target_user_en": "Independent developers and small team developers",
+      "core_features_en": [
+        "Build codebase graph through static analysis (entry points, dependencies, impact scope)",
+        "Provide actionable suggestions before AI agent submits diffs",
+        "Integrate with mainstream AI coding tools (e.g., Cursor, Copilot)"
+      ],
+      "related_trends_en": [
+        "MCP",
+        "AI Agent",
+        "Open Source"
+      ],
+      "why_now_en": "The FlowIndex team has open-sourced the repo behavior indexing MCP, the community is highly interested in 'graph-based solutions without embeddings', and developers are looking for out-of-the-box integration tools.",
+      "monetization_en": "Free behavior reports + paid team version (daily reports, Slack notifications, risk scoring)"
     },
     {
       "name": "ShortCG",
@@ -912,7 +927,21 @@
       "source_article": "calesthio/OpenMontage",
       "source_article_url": "https://github.com/calesthio/OpenMontage",
       "source_article_score": 7,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "ShortCG",
+      "description_en": "An YouTube Shorts/TikTok AI auto-editing tool that automatically compiles long videos or scripts into short videos, helping creators distribute content with one click through rhythm adaptation and subtitle effects generation.",
+      "target_user_en": "Content creators, small MCNs, and self-media accounts looking to attract traffic using short videos",
+      "core_features_en": [
+        "Automatic script breakdown + shot suggestions (golden hooks, subtitle cards)",
+        "One-click vertical screen ratio adaptation + intelligent editing rhythm",
+        "Integration with AI video generation APIs to automatically supplement materials"
+      ],
+      "related_trends_en": [
+        "AI video production",
+        "AI Agent"
+      ],
+      "why_now_en": "OpenMontage sparked heated community discussion, with video costs as low as $0.15–$1.33, and the article being selected for GitHub Trending, indicating an explosive market demand for low-cost AI video editing agents.",
+      "monetization_en": "Freemium (free with watermark, paid for HD export and watermark removal) + subscription-based asset library"
     }
   ],
   "social_post": {

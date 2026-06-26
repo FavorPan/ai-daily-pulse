@@ -1296,7 +1296,22 @@
       "source_article": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
       "source_article_url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
       "source_article_score": 8,
-      "source_article_source": "Simon Willison's Blog"
+      "source_article_source": "Simon Willison's Blog",
+      "name_en": "InpaintKit",
+      "description_en": "A browser-based image inpainting tool built on WebGPU that allows users to complete local image restoration directly on their device without ever uploading files to a server.",
+      "target_user_en": "Designers, photographers, and content creators",
+      "core_features_en": [
+        "Client-side image inpainting (server-less)",
+        "Multiple inpainting modes (erase, fill, replace)",
+        "One-click export of results"
+      ],
+      "related_trends_en": [
+        "WebGPU",
+        "ONNX",
+        "Agent workflows"
+      ],
+      "why_now_en": "Simon Willison's blog post demonstrated the feasibility of porting lightweight inpainting models to the browser using Claude Code. Community interest in Agent discussions is extremely high (6 sources covered), indicating strong developer demand for such tools.",
+      "monetization_en": "Freemium model — basic features are free, with advanced features (e.g., batch processing, higher-precision models) available via a monthly subscription"
     },
     {
       "name": "BugHunter",
@@ -1319,7 +1334,22 @@
       "source_article": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
       "source_article_url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
       "source_article_score": 8,
-      "source_article_source": "Lenny's Newsletter"
+      "source_article_source": "Lenny's Newsletter",
+      "name_en": "BugHunter",
+      "description_en": "An automated code auditing tool that leverages an LLM pipeline to automatically detect potential security vulnerabilities in open-source projects.",
+      "target_user_en": "Open-source project maintainers and security engineers",
+      "core_features_en": [
+        "Automated code scanning and vulnerability detection",
+        "LLM-driven false positive filtering",
+        "Generation of fix recommendation reports"
+      ],
+      "related_trends_en": [
+        "Agent workflows",
+        "Claude Code",
+        "Bug detection"
+      ],
+      "why_now_en": "Mozilla engineers used Claude Code to build an automated bug detection pipeline that successfully uncovered a hidden 15-year-old Firefox vulnerability. Community discussions about Agent workflows are extremely hot (reported by 6 sources), indicating an urgent developer need for automated security auditing tools.",
+      "monetization_en": "Pay-per-scan pricing or enterprise subscription services"
     }
   ],
   "social_post": {

@@ -643,7 +643,22 @@
       "why_now": "过去 7 天内，'ai agent' 趋势涉及 12 个信源，GitHub 上 'cursor/plugins' 和 'SkillOpt' 相关项目持续上榜，表明围绕 IDE 的垂直 Agent 工具链已具备成熟的用户基础和商业化雏形。",
       "monetization": "Freemium 模式：基础 Skill 免费，高级/专业版 Skill 库订阅制（$9/月），或按 Skill 下载次数抽成。",
       "difficulty": "medium",
-      "estimated_mvp_days": 12
+      "estimated_mvp_days": 12,
+      "name_en": "SkillForge",
+      "description_en": "A Markdown skill library marketplace and runtime based on the Cursor plugin ecosystem, allowing developers to encapsulate repetitive workflows into trained parameters and deploy them as Agents with one click.",
+      "target_user_en": "Independent developers, full-stack engineers, power users of Cursor",
+      "core_features_en": [
+        "Support for converting Markdown files into optimizable Skill parameters (referencing the SkillOpt concept)",
+        "One-click publishing/subscribing to the Cursor plugin marketplace",
+        "Recursive self-improvement feedback loop, recording Agent operation success rate"
+      ],
+      "related_trends_en": [
+        "ai agent",
+        "one-person company",
+        "open source project"
+      ],
+      "why_now_en": "In the past 7 days, the 'ai agent' trend involved 12 sources, and projects related to 'cursor/plugins' and 'SkillOpt' on GitHub continue to rank high, indicating that the vertical Agent toolchains around IDEs have mature user foundations and commercial viability.",
+      "monetization_en": "Freemium model: basic Skills are free, Premium/Pro skill libraries are subscription-based ($9/month), or commission based on the number of Skill downloads."
     },
     {
       "name": "LocalOps Manager",
@@ -662,7 +677,22 @@
       "why_now": "'本地部署' 趋势在过去 7 天被 3 个信源高频报道，且涉及具体的性能优化（RTX 6000, Qwen 3.5），同时 '一人公司' 趋势中有 10 个信源关注独立开发者的基建痛点（如 Billing Stack），供需两端在本地化与自动化基建上高度重合。",
       "monetization": "一次性买断（$49）或 Pro 版本订阅（$15/月，含企业级日志与多模型支持）。",
       "difficulty": "medium",
-      "estimated_mvp_days": 15
+      "estimated_mvp_days": 15,
+      "name_en": "LocalOps Manager",
+      "description_en": "A full-stack local operations tool designed for independent developers to manage local LLM deployments, integrating vLLM/llama.cpp hosting, GPU resource monitoring, and automated billing/invoicing systems.",
+      "target_user_en": "Local AI deployers, Small SaaS founders, Tech-first solopreneurs",
+      "core_features_en": [
+        "One-click configuration for vLLM/llama.cpp inference services with throughput monitoring (aligning with local deployment optimization trends)",
+        "Built-in embedded billing and invoicing module (inspired by popular open-source Billing Stack discussions on Reddit)",
+        "Visualized resource dashboard with Windows/WSL environment adaptation"
+      ],
+      "related_trends_en": [
+        "Local deployment",
+        "Solopreneurship",
+        "Open-source projects"
+      ],
+      "why_now_en": "The 'local deployment' trend has been frequently reported by 3 sources in the past 7 days, involving specific performance optimizations (RTX 6000, Qwen 3.5), while the 'Solopreneurship' trend has 10 sources focusing on infrastructure pain points for independent developers (such as Billing Stack). The supply and demand sides highly overlap in localized and automated infrastructure.",
+      "monetization_en": "One-time purchase ($49) or Pro version subscription ($15/month, including enterprise-grade logging and multi-model support)."
     }
   ],
   "social_post": {

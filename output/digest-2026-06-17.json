@@ -230,7 +230,22 @@
       "source_article": "Rigor Compresses: Why AI Agents Need Graphs, Not More Context",
       "source_article_url": "https://dev.to/gyu07/rigor-compresses-why-ai-agents-need-graphs-not-more-context-5404",
       "source_article_score": 7,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "DepGraph",
+      "description_en": "A VS Code extension that analyzes call graphs and data flow graphs of codebases in real time, automatically answering 'who will be affected' and 'is it destructive' before AI coding agents modify code.",
+      "target_user_en": "Full-stack developers using AI coding tools like Cursor/Claude Code",
+      "core_features_en": [
+        "Real-time generation of function-level call graphs and data flow graphs",
+        "Automatic annotation of impact scope and high-risk dependencies before AI agents commit changes",
+        "One-click generation of 'safe modification suggestions' for AI agents to reference"
+      ],
+      "related_trends_en": [
+        "AI Agent",
+        "Token Efficiency",
+        "Code Analysis"
+      ],
+      "why_now_en": "DEV Community articles point out that AI coding agents frequently make errors when handling global dependency issues, while 'ai agent' has been hotly discussed by 3 sources on Reddit/Hacker News, indicating developers' high concern about AI coding reliability pain points. The current market lacks tools specifically targeting AI agent context quality, rather than more context.",
+      "monetization_en": ""
     },
     {
       "name": "AgentOrchestrator",
@@ -253,7 +268,22 @@
       "source_article": "Omnigent开源：AI智能体团队元框架",
       "source_article_url": "https://x.com/Yuchenj_UW/status/2067273020352380950",
       "source_article_score": 6,
-      "source_article_source": "AI热榜"
+      "source_article_source": "AI热榜",
+      "name_en": "AgentOrchestrator",
+      "description_en": "A lightweight web console that allows solo developers to orchestrate multiple AI agents—such as Claude Code, Codex, and Cursor—within a single interface, assign subtasks, and aggregate results.",
+      "target_user_en": "One-person company founders and solo developers who want to accelerate product development through multi-agent collaboration",
+      "core_features_en": [
+        "Unified dashboard to manage multiple AI agent sessions",
+        "Intelligent task decomposition: input requirements and automatically assign them to the most suitable agent",
+        "Result aggregation and conflict detection: automatically merge outputs from all agents and flag contradictions"
+      ],
+      "related_trends_en": [
+        "AI Agent",
+        "Open-source frameworks",
+        "Multi-agent collaboration"
+      ],
+      "why_now_en": "The open-sourcing of Omnigent has sparked heated community discussion around multi-agent collaborative programming, with 'AI agent' being reported across 3 sources. However, Omnigent targets enterprise users, and solo developers need a lighter, ready-to-use solution. Developers on Reddit have already complained that 'juggling multiple AI tools simultaneously is too chaotic,' indicating clear demand.",
+      "monetization_en": ""
     }
   ],
   "social_post": {

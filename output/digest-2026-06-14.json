@@ -847,7 +847,22 @@
       "source_article": "I made a sitemap generator for mdBook. It was my first time releasing a crate!",
       "source_article_url": "https://dev.to/ku_0dfe543e8243f19f5/i-made-a-sitemap-generator-for-mdbook-it-was-my-first-time-releasing-a-crate-53ge",
       "source_article_score": 7,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "ReviewRouter",
+      "description_en": "Intelligent AI code review router designed to reduce review costs for small-to-medium teams and independent developers",
+      "target_user_en": "CTOs/SREs at SMEs with 5-50 person dev teams who want to lower AI code review costs while maintaining high-quality reviews",
+      "core_features_en": [
+        "Automatically evaluates complexity after Diff input—simple changes go to low-cost models like DeepSeek Flash, complex PRs trigger premium models",
+        "Single p99 first-token latency < 3 seconds, per-review cost compressible to ~$0.05 level",
+        "Provides a clean Dashboard showing how much review cost was saved and per-PR issue detection quality scores"
+      ],
+      "related_trends_en": [
+        "Cost optimization",
+        "LLM model selection",
+        "Production-grade deployment"
+      ],
+      "why_now_en": "Community discussions show developers are actively reducing AI code review costs while maintaining quality (multi-model routing, complexity-based intelligent routing becoming mainstream). Independent developers and SMEs bear higher costs due to lack of multi-model routing capability. We deliver a managed SDK so small teams can enjoy routing-based savings too",
+      "monetization_en": "Per-PR pricing (e.g., 50 free/month, then $0.1/PR), or direct API integration billed by usage volume (offering 3-5x discount vs. direct GPT-4 pricing)"
     },
     {
       "name": "mdbook-cookiecutter",
@@ -870,7 +885,18 @@
       "source_article": "Scaling AI Code Review to 99.9% Uptime Across Regions",
       "source_article_url": "https://dev.to/fiercedash/scaling-ai-code-review-to-999-uptime-across-regions-cjh",
       "source_article_score": 9,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "mdbook-cookiecutter",
+      "description_en": "One-click publish, one-click deploy mdBook sitemap generator for Rust developers",
+      "target_user_en": "Solo Rustaceans/developers who write tech blogs but find SEO, RSS, sitemap, and other trivialities tedious",
+      "core_features_en": [
+        "`cargo install` for one-click installation, auto-updates book.toml and generates sitemap.xml",
+        "Built-in GitHub Actions CI template that automatically pushes mdBook build artifacts to Pages/Vercel and syncs sitemap to search engines on every push",
+        "Compatible with the latest mdBook JSON output structure, no manual config tweaking required"
+      ],
+      "related_trends_en": [],
+      "why_now_en": "Multiple sources report high community interest in the first mdBook sitemap generator, and its author—a high school student coding with Claude Sonnet—exemplifies how indie devs can rapidly ship useful crates with AI. Open-source tool attention continues to rise, especially in the Rust ecosystem",
+      "monetization_en": "Open-source + Pro managed hosting tier ($5/site/month, including auto-builds, auto sitemap updates, one-click deploys, and email tech support)"
     }
   ],
   "social_post": {

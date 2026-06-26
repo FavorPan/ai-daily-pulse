@@ -2226,7 +2226,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "GLM-Code Review Bot",
+      "description_en": "An automated frontend code review tool based on GLM-5.2, focused on UI/UX compliance checks and component quality scoring in PRs.",
+      "target_user_en": "Tech leads of small to medium-sized frontend teams",
+      "core_features_en": [
+        "Automated frontend code review for PRs based on GLM-5.2, focusing on UI consistency, accessibility, and component standards",
+        "GitHub/GitLab Webhook integration to automatically add inline comments on PRs",
+        "Support for uploading custom team design system rules as agent skills"
+      ],
+      "related_trends_en": [
+        "GLM-5.2 ranks #1 globally in frontend coding",
+        "Long-context Agent workflows",
+        "Claude Code PR review loops"
+      ],
+      "why_now_en": "GLM-5.2 surpasses all Opus versions to rank #1 in frontend coding, and its 1M token context window enables reviewing large component files in a single pass; meanwhile, Reddit users are discussing fallback model chains for Claude Code, indicating existing community demand for code review automation",
+      "monetization_en": "Pay-per-PR-review pricing ($0.1/PR), with a free tier of 10 PRs/day"
     },
     {
       "name": "Agent Loop Monitor",
@@ -2284,7 +2299,22 @@
             ]
           }
         ]
-      }
+      },
+      "name_en": "Agent Loop Monitor",
+      "description_en": "AI Agent task loop tracking dashboard displaying goal/heartbeat/cron/hook loop status, token consumption, and sub-agent progress.",
+      "target_user_en": "Solopreneurs or individual developers running multiple AI agents",
+      "core_features_en": [
+        "Visualize Claude Code/Codex loops (heartbeat/cron/hook/goal)",
+        "Track agent progress by goal with token consumption trend charts",
+        "Sub-agent completion tracking with automatic alerts for failed loops"
+      ],
+      "related_trends_en": [
+        "AI Agent loop design",
+        "Claude Code sub-agent workflows",
+        "Token consumption optimization"
+      ],
+      "why_now_en": "Community discussions indicate engineers are implementing fallback model chains for Claude Code, and articles point out that goal-type loops are the hardest to write well and tend to waste tokens unnecessarily, signaling a developer need for loop tracking and cost management",
+      "monetization_en": "Free basic tier; advanced loop analysis (trend forecasting, cost optimization suggestions) at $9.99/month"
     }
   ],
   "social_post": {

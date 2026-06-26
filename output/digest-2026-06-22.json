@@ -823,7 +823,22 @@
       "source_article": "chopratejas/headroom",
       "source_article_url": "https://github.com/chopratejas/headroom",
       "source_article_score": 8,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "TokenGuard",
+      "description_en": "A lightweight context compression middleware for AI Agent developers that automatically compresses logs, RAG snippets, and tool outputs within tool-calling chains, significantly reducing token consumption.",
+      "target_user_en": "Independent developers and small teams building LLM-based automated workflows or AI Agents who face issues of excessive token costs or context overflow.",
+      "core_features_en": [
+        "One-click integration middleware: Supports Python/TypeScript, intercepts and compresses tool outputs and logs before they are sent to the LLM",
+        "Multi-algorithm compression engine: Built-in SmartCrusher (JSON), CodeCompressor (AST), and Kompress-base (text) algorithms, automatically selected by data type",
+        "Local reversible compression (CCR): Original data stored locally, retrieved and restored on demand to ensure no critical information is lost"
+      ],
+      "related_trends_en": [
+        "AI Agent",
+        "Context compression",
+        "Token optimization"
+      ],
+      "why_now_en": "Headroom received an 8/10 rating on GitHub Trending and was covered across 4 open-source tool sources, indicating strong community demand for token optimization tools. As AI Agents become widespread, developers generally face surging token costs and insufficient context windows. Existing solutions are mostly closed-source or complex to integrate, and the market lacks a lightweight, easy-to-integrate open-source alternative.",
+      "monetization_en": "Open-source core features are free; paid cloud services (hosted compression engine, team collaboration, advanced algorithms) and SaaS subscriptions billed by token savings are offered."
     },
     {
       "name": "LaunchClip",
@@ -846,7 +861,22 @@
       "source_article": "I built a Claude Code skill called /brag that turns your side project into a launch video",
       "source_article_url": "https://www.reddit.com/r/SideProject/comments/1ubr7ng/i_built_a_claude_code_skill_called_brag_that/",
       "source_article_score": 7,
-      "source_article_source": "Reddit r/SideProject"
+      "source_article_source": "Reddit r/SideProject",
+      "name_en": "LaunchClip",
+      "description_en": "An automated product launch video generator for indie developers. Users upload project screenshots and descriptions, and the tool automatically produces 15–30 second promotional short videos for social media.",
+      "target_user_en": "Indie developers and solopreneurs who need to quickly publish promotional videos on platforms like Twitter, LinkedIn, and Product Hunt but lack video production skills or time.",
+      "core_features_en": [
+        "One-click video generation: Upload project screenshots and copy, and the tool automatically matches templates, transitions, and background music to produce a 15–30 second promotional video",
+        "Multi-platform preset templates: Video dimension and style templates for platforms such as Twitter, LinkedIn, Product Hunt, and YouTube Shorts",
+        "AI copy optimization: Automatically generates engaging video captions and narration scripts based on the project description"
+      ],
+      "related_trends_en": [
+        "Claude Code",
+        "Agent workflows",
+        "Open-source tools"
+      ],
+      "why_now_en": "The /brag plugin sparked heated discussion on Reddit's r/SideProject community and was covered across four Claude Code–related sources, signaling strong developer demand for automated product launch showcases. Indie developers currently need to quickly produce promotional videos but lack the right tools—existing solutions are either expensive (professional video production) or complex (manual editing). The market lacks a lightweight, developer-focused automated solution.",
+      "monetization_en": "Free basic tier (watermarked, 3 videos per month), paid subscription (Pro at $9/month, unlimited, no watermark, advanced templates), and Enterprise tier (team collaboration, brand customization)."
     }
   ],
   "social_post": {

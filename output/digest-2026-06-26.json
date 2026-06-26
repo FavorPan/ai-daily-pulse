@@ -824,7 +824,22 @@
       "source_article": "interviewstreet/hiring-agent",
       "source_article_url": "https://github.com/interviewstreet/hiring-agent",
       "source_article_score": 8,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "HireLens",
+      "description_en": "An AI-powered resume screening SaaS for SMBs that automatically parses resumes and integrates GitHub signals to generate structured candidate scoring reports",
+      "target_user_en": "HR professionals and technical hiring managers at small and medium-sized businesses",
+      "core_features_en": [
+        "Automatic parsing of PDF/Word resumes into structured data (skills, experience, projects)",
+        "Automatic GitHub repository crawling and representative project selection to generate open-source contribution scores",
+        "Multi-candidate comparison panel with dimension-based sorting and CSV export"
+      ],
+      "related_trends_en": [
+        "AI Agent",
+        "LLM Local Deployment",
+        "GitHub Integration"
+      ],
+      "why_now_en": "Open-source Hiring Agent projects on GitHub Trending have sparked heated discussions, with community conversations showing strong developer interest in combining GitHub signals with resume scoring. Meanwhile, the maturation of local LLMs (Ollama + gemma3) makes low-cost deployment feasible, and SMB demand for automated recruiting tools continues to rise.",
+      "monetization_en": "SaaS subscription model (billed by number of resumes screened), free tier limited to 10/month, Pro tier at $29/month with unlimited screening and in-depth GitHub analysis"
     },
     {
       "name": "CloneLaunch",
@@ -847,7 +862,22 @@
       "source_article": "JCodesMore/ai-website-cloner-template",
       "source_article_url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "source_article_score": 7,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "CloneLaunch",
+      "description_en": "A competitive analysis tool for indie developers that clones any website with a single command and automatically generates an editable Next.js codebase and design specification document",
+      "target_user_en": "Indie developers, solopreneur, freelance designers",
+      "core_features_en": [
+        "Single-command website cloning: input a URL to automatically extract design tokens, assets, and component specifications",
+        "Parallel zone construction: break pages into multiple zones and generate Next.js components in parallel",
+        "Visual diff comparison: compare cloned results against original site screenshots and highlight areas of difference"
+      ],
+      "related_trends_en": [
+        "AI Agent",
+        "Open-source templates",
+        "AI coding agents"
+      ],
+      "why_now_en": "The ai-website-cloner-template project on GitHub Trending sparked heated community discussions, with developers focusing on leveraging AI coding agents like Claude Code to achieve one-click cloning workflows. Community feedback shows a large number of developers need to quickly migrate existing websites to modern codebases, and the maturity of Next.js 16 + Tailwind CSS v4 makes automated reconstruction possible",
+      "monetization_en": "Freemium model with 3 free clones/month; Pro at $19/month with unlimited clones and priority build queue; Enterprise at $49/month with support for private template libraries"
     }
   ],
   "social_post": {

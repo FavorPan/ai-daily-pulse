@@ -602,7 +602,22 @@
       "source_article": "chopratejas/headroom",
       "source_article_url": "https://github.com/chopratejas/headroom",
       "source_article_score": 8,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "TokenGuard",
+      "description_en": "A lightweight middleware that automatically compresses AI Agent context inputs, significantly reducing API call costs.",
+      "target_user_en": "Indie developers and one-person startup founders",
+      "core_features_en": [
+        "Smart context compression (supports logs, tool outputs, RAG chunks)",
+        "Multi-algorithm adaptation (SmartCrusher, CodeCompressor, etc.)",
+        "One-click integration (Python/TypeScript libraries)"
+      ],
+      "related_trends_en": [
+        "Context compression",
+        "Token saving",
+        "Agent optimization"
+      ],
+      "why_now_en": "The Headroom project received an 8/10 rating on GitHub Trending, with the community widely discussing its 60-95% token savings. MCP cross-source trending shows coverage from 3 sources, indicating strong developer demand for reducing AI Agent operational costs.",
+      "monetization_en": "Free basic tier + paid subscription for advanced compression algorithms"
     },
     {
       "name": "AgentFlow",
@@ -625,7 +640,22 @@
       "source_article": "withastro/flue",
       "source_article_url": "https://github.com/withastro/flue",
       "source_article_score": 7,
-      "source_article_source": "GitHub Trending"
+      "source_article_source": "GitHub Trending",
+      "name_en": "AgentFlow",
+      "description_en": "A TypeScript agent development framework providing sandbox execution and persistent session management features",
+      "target_user_en": "Independent developers and one-person startup founders",
+      "core_features_en": [
+        "Sandbox execution environment",
+        "Persistent session management",
+        "Sub-delegate delegation"
+      ],
+      "related_trends_en": [
+        "Agent Framework",
+        "TypeScript",
+        "MCP"
+      ],
+      "why_now_en": "Flue project received a 7/10 score on GitHub Trending, MCP cross-source hotspots show coverage from 3 sources, and there is strong community demand for TypeScript agent frameworks, particularly for sandbox and session management features",
+      "monetization_en": "Open-source core + Paid hosted deployment services"
     }
   ],
   "social_post": {

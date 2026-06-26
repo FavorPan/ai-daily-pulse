@@ -1264,7 +1264,22 @@
       "source_article": "Show HN: AirPosture – Open-Source Posture Coach Using AirPods",
       "source_article_url": "https://github.com/allenv0/AirPosture",
       "source_article_score": 8,
-      "source_article_source": "Hacker News Show HN"
+      "source_article_source": "Hacker News Show HN",
+      "name_en": "PosturePod",
+      "description_en": "A macOS menu bar tool that uses AirPods sensors to monitor prolonged sitting posture in real time and provides corrective feedback via bone conduction audio",
+      "target_user_en": "Programmers, designers, and remote workers who spend long hours at a computer",
+      "core_features_en": [
+        "Uses AirPods accelerometer/gyroscope to track head tilt angle and cervical curvature in real time",
+        "Customizable poor posture thresholds with AirPods audio alerts or system notifications when exceeded",
+        "Daily/weekly posture reports with visualizations of sitting trends and cervical spine health scores"
+      ],
+      "related_trends_en": [
+        "Open-source hardware sensing applications",
+        "AI health monitoring",
+        "macOS menu bar productivity tools"
+      ],
+      "why_now_en": "AirPosture sparked heated discussion on Hacker News Show HN, with community excitement centered on two core points: 'zero additional hardware cost' and 'underutilized AirPods sensors'. Multiple top comments noted 'finally someone is using AirPods sensors for something genuinely useful,' while discussions on HN about 'programmer cervical spondylosis' consistently maintain high engagement. Open-source solutions exist but lack a polished product experience (no persistent background operation, no data tracking), leaving clear room for a superior experience. macOS menu bar tools remain a low-barrier, high-visibility category within the indie developer community.",
+      "monetization_en": "Free basic version (basic reminders) + Pro subscription ($4.99/month, unlocks history reports, custom alert sounds, multi-device sync)"
     },
     {
       "name": "ShipSignal",
@@ -1287,7 +1302,22 @@
       "source_article": "🧪 What Happens After 600 Days of Failure?",
       "source_article_url": "https://trends.vc/what-happens-after-600-days-of-failure/",
       "source_article_score": 8,
-      "source_article_source": "Trends.vc"
+      "source_article_source": "Trends.vc",
+      "name_en": "ShipSignal",
+      "description_en": "A pre-launch user validation tool for indie developers that automatically discovers target users and collects willingness-to-pay signals through Substack/Reddit/Discord communities",
+      "target_user_en": "Indie developers and solopreneurs in the cold-start phase before their official product launch",
+      "core_features_en": [
+        "Automatically scan communities like Reddit, Hacker News, Substack, and Discord for discussions related to the target product direction, extracting potential user pain points and demand signals",
+        "Generate community hype reports and competitor sentiment analysis to determine whether the product direction is worth continued investment",
+        "One-click generate a pre-launch landing page and track visitor emails to build an initial waitlist before launch"
+      ],
+      "related_trends_en": [
+        "Solopreneur cold-start",
+        "AI competitor monitoring",
+        "Product validation"
+      ],
+      "why_now_en": "Trends.vc reported the story of an indie developer who, after 600 days of failure, successfully grew WriteStack to $100K ARR by publicly building in the Substack creator community and deeply engaging with target users, sparking widespread discussion across 5 sources. The community's hot topics centered on 'have users before launch' and 'don't build in isolation.' Meanwhile, the AI competitor monitoring tool HeadsProduct mentioned in the article generated competitor insight reports in 60 seconds and reached #1 on Product Hunt's daily chart, indicating real and strong market demand for tools that 'lower the barrier to startup validation.' On HN, discussion volume for 'indie hacker launch failure' related posts increased by 40% over the past 30 days.",
+      "monetization_en": "Free 3 searches/month + Pro subscription ($19/month, unlimited searches, automated monitoring, waitlist management)"
     }
   ],
   "social_post": {

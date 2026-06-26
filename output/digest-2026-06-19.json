@@ -1216,7 +1216,22 @@
       "source_article": "Dify Agentic Workflow Platform: 5 Hidden Uses of the 145K-Star Open Source AI Stack",
       "source_article_url": "https://dev.to/_cbd692d476c5faf3b61bcf/dify-agentic-workflow-platform-5-hidden-uses-of-the-145k-star-open-source-ai-stack-56ai",
       "source_article_score": 8,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "WorkflowYAML",
+      "description_en": "A Git-native version control and diff tool for Dify agentic workflows, enabling teams to track, review, and rollback AI workflow changes like code.",
+      "target_user_en": "Small AI dev teams and solo founders using Dify to build production agentic workflows who need version control and collaboration.",
+      "core_features_en": [
+        "Visual YAML diff viewer for Dify workflow exports with side-by-side comparison",
+        "One-click rollback to any previous workflow version with changelog",
+        "Git integration that auto-commits workflow YAML on each Dify export"
+      ],
+      "related_trends_en": [
+        "Agentic workflows",
+        "LLMOps",
+        "Open-source tools"
+      ],
+      "why_now_en": "Dify v1.14.2 (May 2026) just introduced YAML export for workflows with version control and replay capabilities, and agent workflows are a cross-source trending topic covered by 3 separate sources. The 145K+ GitHub stars and 460+ contributors signal massive adoption, yet no dedicated Git-layer tool exists for non-technical workflow authors to manage versions. Community discussions on DEV Community highlight demand for production-grade workflow management beyond Dify's built-in features.",
+      "monetization_en": "Freemium SaaS: free for public repos, $19/mo for private repos and team collaboration features; enterprise self-hosted license at $99/mo"
     },
     {
       "name": "FailoverRouter",
@@ -1239,7 +1254,22 @@
       "source_article": "Dify 的 5 个隐藏用法：14.5 万 Star 的开源 AI 工作流平台",
       "source_article_url": "https://dev.to/_cbd692d476c5faf3b61bcf/dify-de-5-ge-yin-cang-yong-fa-145-mo-star-de-kai-yuan-ai-gong-zuo-liu-ping-tai-3bc1",
       "source_article_score": 8,
-      "source_article_source": "DEV Community"
+      "source_article_source": "DEV Community",
+      "name_en": "FailoverRouter",
+      "description_en": "A plug-and-play multi-model failover middleware that sits between any LLM app and model providers, offering configurable degradation chains with sub-second health checks.",
+      "target_user_en": "Indie developers and small teams building LLM-powered products who need production reliability without vendor lock-in.",
+      "core_features_en": [
+        "Configurable multi-model degradation chains (e.g., GPT-4o → Claude 3.5 Sonnet → GPT-4o-mini) with YAML config",
+        "Real-time latency and cost dashboard per model provider",
+        "Automatic failover with <500ms switchover and request retry logic"
+      ],
+      "related_trends_en": [
+        "Multi-model routing",
+        "Agent workflows",
+        "LLMOps"
+      ],
+      "why_now_en": "Dify v1.14.2's built-in multi-model auto-degradation routing (GPT-4o → Claude 3.5 Sonnet → GPT-4o-mini) is one of its highlighted features, proving demand for model-agnostic failover. Agent workflows are trending across 3 independent sources. However, Dify's solution is locked inside its platform — developers using LangChain, custom code, or other frameworks have no equivalent lightweight middleware. The 22,915 forks indicate developers are actively extending Dify, suggesting a market for standalone routing components.",
+      "monetization_en": "Usage-based pricing: free up to 10K requests/mo, then $0.001 per routed request; premium tier with custom model endpoints at $49/mo"
     }
   ],
   "social_post": {
