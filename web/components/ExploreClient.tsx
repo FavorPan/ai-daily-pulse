@@ -141,8 +141,8 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
           </div>
         ) : (
           <div>
-            {filtered.map((item) => (
-              <ProjectCard key={`${item.digestDate}-${item.id}`} item={item} showDate />
+            {filtered.map((item, i) => (
+              <ProjectCard key={`${item.digestDate}-${item.id}-${i}`} item={item} showDate />
             ))}
           </div>
         )}
