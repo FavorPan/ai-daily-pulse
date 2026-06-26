@@ -56,33 +56,7 @@
 - **分页**：Explore 15 条/页，Insight 30 条/页
 - **响应式**：桌面端两列卡片布局
 
-部署在 Cloudflare Pages + Cloudflare Workers（API 后端 + D1 数据库）。
-
 ---
-
-## 架构
-
-```
-┌──────────────────────────────────────────────────┐
-│              Cloudflare Pages                      │
-│  Next.js 16 静态导出 (ai-daily-pulse.top)          │
-│  读取 output/digest-*.json                         │
-└──────────────────────────────────────────────────┘
-                        │
-                        ▼
-┌──────────────────────────────────────────────────┐
-│        Cloudflare Worker (api.ai-daily-pulse.top)  │
-│        Hono + D1 (SQLite)                          │
-│        登录 (GitHub/Google/邮箱) + 投票 API         │
-└──────────────────────────────────────────────────┘
-                        │
-                        ▼
-┌──────────────────────────────────────────────────┐
-│              GitHub Actions (每天 09:00 运行)       │
-│  Python 管线 → output/digest-*.json                │
-│  同步构建方向到 Worker API                          │
-└──────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -269,8 +243,6 @@ fetch (并发8) → prefilter (规则) → history dedup (URL) → score (并发
 **前端**：Next.js 16 · React 19 · TypeScript · Tailwind CSS · next-intl
 
 **后端 API**：Cloudflare Workers · Hono · D1 (SQLite) · JWT (jose) · Resend (邮件)
-
-**托管**：Cloudflare Pages + Cloudflare Workers
 
 ---
 

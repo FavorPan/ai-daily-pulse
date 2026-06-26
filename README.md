@@ -56,33 +56,7 @@ Online at [**ai-daily-pulse.top**](https://ai-daily-pulse.top)
 - **Pagination**: Explore 15/page, Insight 30/page
 - **Responsive**: two-column card layout on desktop
 
-Deployed on Cloudflare Pages + Cloudflare Workers (API backend with D1 database).
-
 ---
-
-## Architecture
-
-```
-┌──────────────────────────────────────────────────┐
-│              Cloudflare Pages                      │
-│  Next.js 16 static export (ai-daily-pulse.top)     │
-│  Reads output/digest-*.json                        │
-└──────────────────────────────────────────────────┘
-                        │
-                        ▼
-┌──────────────────────────────────────────────────┐
-│        Cloudflare Worker (api.ai-daily-pulse.top)  │
-│        Hono + D1 (SQLite)                          │
-│        Auth (GitHub/Google/Email) + Voting API      │
-└──────────────────────────────────────────────────┘
-                        │
-                        ▼
-┌──────────────────────────────────────────────────┐
-│              GitHub Actions (daily at 09:00 CST)   │
-│  Python pipeline → output/digest-*.json            │
-│  Syncs build directions to Worker API              │
-└──────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -307,8 +281,6 @@ fetch (8 concurrent) → prefilter (rules) → history dedup (URL) → score (4 
 **Frontend**: Next.js 16 · React 19 · TypeScript · Tailwind CSS · next-intl
 
 **Backend API**: Cloudflare Workers · Hono · D1 (SQLite) · JWT (jose) · Resend (email)
-
-**Hosting**: Cloudflare Pages + Cloudflare Workers
 
 ---
 
