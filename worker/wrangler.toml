@@ -1,11 +1,11 @@
-name = "ai-daily-pulse-api"
+name = "ai-daily-pulse"
 main = "src/index.ts"
 compatibility_date = "2025-06-25"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "ai-daily-pulse"
-database_id = ""
+database_id = "${D1_DATABASE_ID}"
 
 [vars]
 FRONTEND_URL = "https://ai-daily-pulse.top"
