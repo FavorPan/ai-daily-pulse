@@ -186,19 +186,21 @@ export function InsightClient() {
             <p className="text-muted text-sm">{t("empty")}</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <p className="text-xs text-muted">
+          <div>
+            <p className="text-xs text-muted mb-3">
               {t("ideaCount", { count: filtered.length })}
             </p>
-            {filtered.map((idea, i) => (
-              <InsightCard
-                key={idea.id}
-                idea={idea}
-                index={i}
-                onVoteChange={handleVoteChange}
-                onAuthRequired={() => setAuthOpen(true)}
-              />
-            ))}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              {filtered.map((idea, i) => (
+                <InsightCard
+                  key={idea.id}
+                  idea={idea}
+                  index={i}
+                  onVoteChange={handleVoteChange}
+                  onAuthRequired={() => setAuthOpen(true)}
+                />
+              ))}
+            </div>
           </div>
         )}
       </div>
