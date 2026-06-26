@@ -12,12 +12,6 @@ type Props = {
   onAuthRequired: () => void;
 };
 
-const difficultyLabels: Record<string, string> = {
-  easy: "简单",
-  medium: "中等",
-  hard: "困难",
-};
-
 export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props) {
   const t = useTranslations("insight");
   const locale = useLocale();
@@ -31,6 +25,10 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
   const displayMonetization = isEn ? (idea.monetization_en || idea.monetization) : idea.monetization;
   const displayCoreFeatures = isEn ? (idea.core_features_en || idea.core_features) : idea.core_features;
   const displayRelatedTrends = isEn ? (idea.related_trends_en || idea.related_trends) : idea.related_trends;
+
+  const difficultyLabel = idea.difficulty
+    ? t(`difficulty${idea.difficulty.charAt(0).toUpperCase() + idea.difficulty.slice(1)}`)
+    : idea.difficulty;
 
   const hasDetails =
     (displayCoreFeatures && displayCoreFeatures.length > 0) ||
@@ -57,7 +55,7 @@ export function InsightCard({ idea, index, onVoteChange, onAuthRequired }: Props
           </div>
           <div className="flex items-center gap-2.5 shrink-0">
             <span className="text-xs text-muted">
-              {difficultyLabels[idea.difficulty ?? ""] ?? idea.difficulty}
+              {difficultyLabel}
             </span>
             {idea.estimated_mvp_days != null && (
               <>
