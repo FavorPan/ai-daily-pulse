@@ -18,6 +18,8 @@
   "footer": {
     "tagline": "AI news digest · Auto aggregation · Smart curation",
     "home": "Today",
+    "explore": "All articles",
+    "insight": "Insight",
     "about": "About"
   },
   "theme": {
@@ -155,7 +157,10 @@
     "authBack": "Back",
     "authInvalidEmail": "Please enter a valid email",
     "authSendFailed": "Failed to send, please retry",
-    "authVerifyFailed": "Verification failed, please check your code"
+    "authVerifyFailed": "Verification failed, please check your code",
+    "homeBanner": "{count} buildable project(s) today",
+    "homeBannerHint": "Based on real community discussion heat — see what's worth building",
+    "homeBannerCta": "View Insight →"
   },
   "common": {
     "loading": "Loading..."

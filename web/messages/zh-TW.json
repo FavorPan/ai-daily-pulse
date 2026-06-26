@@ -18,6 +18,8 @@
   "footer": {
     "tagline": "AI 資訊日報 · 自動聚合 · 智慧篩選",
     "home": "今日",
+    "explore": "全部文章",
+    "insight": "專案靈感",
     "about": "關於"
   },
   "theme": {
@@ -155,7 +157,10 @@
     "authBack": "返回",
     "authInvalidEmail": "請輸入有效的信箱地址",
     "authSendFailed": "發送失敗，請稍後重試",
-    "authVerifyFailed": "驗證失敗，請檢查驗證碼"
+    "authVerifyFailed": "驗證失敗，請檢查驗證碼",
+    "homeBanner": "今日有 {count} 個可做的專案",
+    "homeBannerHint": "基於真實社群討論熱度，看看今天值得做什麼",
+    "homeBannerCta": "查看 Insight →"
   },
   "common": {
     "loading": "載入中..."

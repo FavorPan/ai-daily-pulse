@@ -16,6 +16,12 @@ export async function SiteFooter() {
             <Link href={`/${locale}`} className="hover:text-foreground transition-colors">
               {t("home")}
             </Link>
+            <Link href={`/${locale}/explore`} className="hover:text-foreground transition-colors">
+              {t("explore")}
+            </Link>
+            <Link href={`/${locale}/insight`} className="hover:text-foreground transition-colors">
+              {t("insight")}
+            </Link>
             <Link href={`/${locale}/about`} className="hover:text-foreground transition-colors">
               {t("about")}
             </Link>

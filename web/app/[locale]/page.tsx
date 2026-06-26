@@ -2,8 +2,7 @@ import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductHero } from "@/components/ProductHero";
 import { ProjectCard } from "@/components/ProjectCard";
-import { DateSwitcher } from "@/components/DateSwitcher";
-import { getDaily, listDigestDates } from "@/lib/api";
+import { getDaily } from "@/lib/api";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { Metadata } from "next";
@@ -51,13 +50,12 @@ export default async function Page({ params }: PageProps) {
   setRequestLocale(locale);
 
   const data = await getDaily();
-  const dates = listDigestDates();
   const trending = data.items
     .filter((item) => item.score >= TRENDING_MIN_SCORE)
     .map((item) => ({ ...item, digestDate: data.date }));
 
   const t = await getTranslations("home");
-  const tb = await getTranslations("builder");
+  const ti = await getTranslations("insight");
   const hasDirections = data.directions && data.directions.length > 0;
 
   const topicCounts = TOPIC_ORDER.map((topic) => ({
@@ -79,9 +77,6 @@ export default async function Page({ params }: PageProps) {
               {data.items.length}
             </div>
             <div className="text-sm text-muted">{t("total", { count: data.items.length })}</div>
-            <div className="mt-2">
-              <DateSwitcher dates={dates} locale={locale} />
-            </div>
           </div>
 
           {/* Topic breakdown */}
@@ -138,14 +133,14 @@ export default async function Page({ params }: PageProps) {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-semibold text-foreground">
-                    🎯 {tb("homeBanner", { count: data.directions!.length })}
+                    🎯 {ti("homeBanner", { count: data.directions!.length })}
                   </p>
                   <p className="text-xs text-muted mt-0.5">
-                    {tb("homeBannerHint")}
+                    {ti("homeBannerHint")}
                   </p>
                 </div>
                 <span className="text-sm text-accent font-medium shrink-0 ml-4">
-                  {tb("homeBannerCta")}
+                  {ti("homeBannerCta")}
                 </span>
               </div>
             </Link>

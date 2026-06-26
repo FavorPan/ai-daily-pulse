@@ -18,6 +18,8 @@
   "footer": {
     "tagline": "AI 资讯日报 · 自动聚合 · 智能筛选",
     "home": "今日",
+    "explore": "全部文章",
+    "insight": "项目灵感",
     "about": "关于"
   },
   "theme": {
@@ -105,7 +107,7 @@
     "crossPlatform": "跨 {count} 个平台热议",
     "homeBanner": "今日有 {count} 个可做的项目",
     "homeBannerHint": "基于真实社区讨论热度，看看今天值得做什么",
-    "homeBannerCta": "查看 Builder →",
+    "homeBannerCta": "查看 Insight →",
     "expand": "展开详情",
     "collapse": "收起详情",
     "discussionLinks": "讨论链接"
@@ -155,7 +157,10 @@
     "authBack": "返回",
     "authInvalidEmail": "请输入有效的邮箱地址",
     "authSendFailed": "发送失败，请稍后重试",
-    "authVerifyFailed": "验证失败，请检查验证码"
+    "authVerifyFailed": "验证失败，请检查验证码",
+    "homeBanner": "今日有 {count} 个可做的项目",
+    "homeBannerHint": "基于真实社区讨论热度，看看今天值得做什么",
+    "homeBannerCta": "查看 Insight →"
   },
   "common": {
     "loading": "加载中..."

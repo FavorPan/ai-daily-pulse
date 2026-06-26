@@ -3,7 +3,6 @@
 import { useMemo, useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { ProjectCard } from "./ProjectCard";
-import { DateSwitcher } from "./DateSwitcher";
 import { TOPIC_ORDER } from "@/lib/topics";
 import { getTopicLabel } from "@/lib/topicLabels";
 import type { AppLocale } from "@/i18n/routing";
@@ -18,8 +17,11 @@ type Props = {
 export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
   const locale = currentLocale as AppLocale;
   const t = useTranslations("explore");
+  const ti = useTranslations("insight");
   const [topic, setTopic] = useState<string>("__all__");
   const [q, setQ] = useState("");
+  const [dateStart, setDateStart] = useState("");
+  const [dateEnd, setDateEnd] = useState("");
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -43,13 +45,15 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
   const filtered = useMemo(() => {
     return items.filter((item) => {
       if (topic !== "__all__" && item.topic !== topic) return false;
+      if (dateStart && item.digestDate < dateStart) return false;
+      if (dateEnd && item.digestDate > dateEnd) return false;
       if (!q) return true;
       const haystack = [item.title, item.summary, item.source, item.topic, ...item.tags]
         .join(" ")
         .toLowerCase();
       return haystack.includes(q.toLowerCase());
     });
-  }, [items, topic, q]);
+  }, [items, topic, q, dateStart, dateEnd]);
 
   const counts = useMemo(() => {
     const map = new Map<string, number>();
@@ -66,7 +70,25 @@ export function ExploreClient({ items, dates, locale: currentLocale }: Props) {
         <h1 className="text-headline mb-1">{t("title")}</h1>
         <p className="text-sm text-muted mb-4">{t("subtitle")}</p>
         <div className="mb-4">
-          <DateSwitcher dates={dates} locale={locale} />
+          <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-muted mb-3">
+            {ti("dateFilter")}
+          </h3>
+          <div className="space-y-2">
+            <label className="text-xs text-muted block">{ti("dateFrom")}</label>
+            <input
+              type="date"
+              value={dateStart}
+              onChange={(e) => setDateStart(e.target.value)}
+              className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
+            />
+            <label className="text-xs text-muted block mt-1">{ti("dateTo")}</label>
+            <input
+              type="date"
+              value={dateEnd}
+              onChange={(e) => setDateEnd(e.target.value)}
+              className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
+            />
+          </div>
         </div>
         <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-muted mb-3">
           {t("topicFilter")}
