@@ -20,7 +20,7 @@ from src.history import (
 from src.scorer import process_articles
 from src.insights import generate_all_insights
 from src.trends import detect_trends
-from src.writer import write_digest_json, write_output
+from src.writer import write_digest_json
 
 logger = logging.getLogger(__name__)
 
@@ -123,12 +123,10 @@ def main():
                 len(insights.get("directions", [])), len(insights.get("x_thread", [])))
 
     t_write = time.monotonic()
-    path = write_output(kept, output_dir=cfg["output_dir"], date=today)
     json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights)
     t_write = time.monotonic() - t_write
 
-    logger.info("Done. Output written to: %s", path)
-    logger.info("Web digest JSON: %s", json_path)
+    logger.info("Done. Web digest JSON: %s", json_path)
     logger.info("Final digest: %d articles | Rejected: %d articles", len(kept), len(rejected))
 
     # Sync insights to Worker API
