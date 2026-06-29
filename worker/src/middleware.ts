@@ -36,9 +36,12 @@ export async function createToken(
 }
 
 export function setAuthCookie(c: Context, token: string): void {
+  // Domain set to `.ai-daily-pulse.top` so the cookie is sent to both
+  // `ai-daily-pulse.top` (frontend) and `api.ai-daily-pulse.top` (Worker API)
+  // without a cross-domain gap.
   c.header(
     "Set-Cookie",
-    `auth_token=${token}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=2592000`
+    `auth_token=${token}; HttpOnly; Secure; SameSite=Lax; Domain=.ai-daily-pulse.top; Path=/; Max-Age=2592000`
   );
 }
 

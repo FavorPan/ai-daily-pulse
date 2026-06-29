@@ -44,7 +44,7 @@ export async function fetchMyVotes(): Promise<{ idea_id: string; vote_type: Vote
 }
 
 export async function fetchMe(): Promise<AuthUser | null> {
-  const res = await fetch(`${API_BASE}/api/me`, {
+  const res = await fetch(`${API_BASE}/api/auth/me`, {
     credentials: "include",
   });
   if (!res.ok) return null;
