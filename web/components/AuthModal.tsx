@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { useAuth } from "@/lib/auth";
 
@@ -19,6 +20,11 @@ export function AuthModal({ open, onClose }: Props) {
   const [code, setCode] = useState("");
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   if (!open) return null;
 
@@ -72,8 +78,12 @@ export function AuthModal({ open, onClose }: Props) {
     }
   };
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
+  // Render into <body> via portal so the fixed overlay escapes the sticky
+  // header's stacking context and centers relative to the viewport.
+  if (!mounted) return null;
+
+  return createPortal(
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center">
       <div className="absolute inset-0 bg-black/50" onClick={onClose} />
       <div className="relative bg-background border border-border rounded-lg p-6 w-full max-w-sm mx-4 shadow-xl">
         <button
@@ -187,5 +197,7 @@ export function AuthModal({ open, onClose }: Props) {
         )}
       </div>
     </div>
+    ,
+    document.body
   );
 }

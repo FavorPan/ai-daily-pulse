@@ -68,7 +68,7 @@ authRoutes.get("/github/callback", async (c) => {
   const token = await createToken(user, JWT_SECRET);
   setAuthCookie(c, token);
 
-  return c.redirect(`${FRONTEND_URL}/insight?authed=true`);
+  return c.redirect(`${FRONTEND_URL}/?authed=true`);
 });
 
 // GET /api/auth/google — redirect to Google OAuth
@@ -120,7 +120,7 @@ authRoutes.get("/google/callback", async (c) => {
   const token = await createToken(user, JWT_SECRET);
   setAuthCookie(c, token);
 
-  return c.redirect(`${FRONTEND_URL}/insight?authed=true`);
+  return c.redirect(`${FRONTEND_URL}/?authed=true`);
 });
 
 // POST /api/auth/email/send — send verification code

@@ -6,6 +6,7 @@ export interface AuthUser {
   sub: string;
   email: string;
   name: string | null;
+  avatar_url: string | null;
 }
 
 declare module "hono" {
@@ -26,6 +27,7 @@ export async function createToken(
     sub: user.id,
     email: user.email,
     name: user.name,
+    avatar_url: user.avatar_url,
   })
     .setProtectedHeader({ alg: "HS256" })
     .setExpirationTime("30d")

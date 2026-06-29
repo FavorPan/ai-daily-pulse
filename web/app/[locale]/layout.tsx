@@ -14,6 +14,7 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { SiteFooter } from "@/components/SiteFooter";
 import { AuthProvider } from "@/lib/auth";
+import { AuthButton } from "@/components/AuthButton";
 import { routing } from "@/i18n/routing";
 
 const geistSans = localFont({
@@ -166,6 +167,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                       <div className="flex-1 sm:flex-none min-w-0">
                         <SearchBar />
                       </div>
+                      <AuthButton />
                       {/* Mobile menu (hidden on desktop) */}
                       <MobileMenu />
                     </div>

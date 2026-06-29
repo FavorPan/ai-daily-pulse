@@ -4,7 +4,9 @@
     "explore": "All articles",
     "about": "About",
     "builder": "Builder",
-    "insight": "Insight"
+    "insight": "Insight",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
   },
   "hero": {
     "tagline": "40+ RSS feeds · AI scoring & dedup · Daily digest",
