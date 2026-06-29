@@ -6403,243 +6403,261 @@
       "score": 5
     },
     {
-      "url": "https://github.com/alibaba/page-agent",
-      "pushed_at": "2026-06-27",
-      "title": "alibaba/page-agent",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
-      "pushed_at": "2026-06-27",
-      "title": "Quoting OpenAI",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uhu96g/i_got_obsessed_with_building_a_tool_to_find/",
+      "pushed_at": "2026-06-29",
+      "title": "I got obsessed with building a tool to find forgotten games/movies/books based on vague memories. It beat raw Gemini in my tests.",
       "score": 8
     },
     {
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "pushed_at": "2026-06-27",
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://dev.to/javaking1129/running-a-whole-rag-agent-offline-langgraph-ollama-embedded-qdrant-zero-api-keys-2hfd",
+      "pushed_at": "2026-06-29",
+      "title": "Running a Whole RAG Agent Offline: LangGraph + Ollama + Embedded Qdrant (Zero API Keys)",
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqvkko1q0dvqsl80vjsqu4rm",
-      "pushed_at": "2026-06-27",
-      "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
+      "url": "https://dev.to/susumun/sweeping-i18n-leaks-with-four-parallel-ai-agents-from-300-candidates-down-to-60-real-bugs-4mgc",
+      "pushed_at": "2026-06-29",
+      "title": "Sweeping i18n leaks with four parallel AI agents — from 300 candidates down to 60 real bugs",
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmqv4vak40a1ssl805nqs76uk",
-      "pushed_at": "2026-06-27",
-      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "url": "https://dev.to/erayates/how-i-built-roomful-zero-backend-collaboration-primitives-for-frontend-apps-3gia",
+      "pushed_at": "2026-06-29",
+      "title": "How I Built Roomful: Zero-Backend Collaboration Primitives for Frontend Apps",
       "score": 8
     },
     {
-      "url": "https://dev.to/judy_miranttie/what-happens-when-companies-become-too-ai-pilled-27fo",
-      "pushed_at": "2026-06-27",
-      "title": "What happens when companies become too AI-pilled?",
+      "url": "https://dev.to/komo/ai-is-not-replacing-developers-it-is-replacing-the-on-ramp-19l6",
+      "pushed_at": "2026-06-29",
+      "title": "AI Is Not Replacing Developers. It Is Replacing the On-Ramp.",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "pushed_at": "2026-06-29",
+      "title": "luongnv89/claude-howto",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqy1fj3003cislwfljtykjvx",
+      "pushed_at": "2026-06-29",
+      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmqxiel9h004ysl50umg2c011",
+      "pushed_at": "2026-06-29",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1uidwm5/presswork_is_officially_live_after_18_months_of/",
+      "pushed_at": "2026-06-29",
+      "title": "Presswork is officially live 🚀 — after 18 months of dev, the writing tool I built post-Jona",
       "score": 7
     },
     {
-      "url": "https://github.com/google-labs-code/design.md",
-      "pushed_at": "2026-06-27",
-      "title": "google-labs-code/design.md",
+      "url": "https://github.com/loopedautomation/whisper",
+      "pushed_at": "2026-06-29",
+      "title": "Show HN: Looped Whisper (FOSS) – Voice transcription menubar app for macOS",
       "score": 7
+    },
+    {
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "pushed_at": "2026-06-29",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/mqasimca/let-your-agent-rsvp-to-invites-it-receives-3dia",
+      "pushed_at": "2026-06-29",
+      "title": "Let your agent RSVP to invites it receives",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "pushed_at": "2026-06-29",
+      "title": "NanmiCoder/MediaCrawler",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "pushed_at": "2026-06-29",
+      "title": "HKUDS/Vibe-Trading",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1670360?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-29",
+      "title": "早报｜曝iPhone 18标准版内存升至9GB/B站17周年，陈睿：去年首次全年盈利/自变量机器人2个月完成4轮融资，估值突破200亿元",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1670322?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-06-29",
+      "title": "连融 4 轮，投资方群星闪耀，自变量估值突破 200 亿",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ui2dnf/got_tired_of_greedy_apps_charging_a_fortune_for/",
+      "pushed_at": "2026-06-29",
+      "title": "Got tired of greedy apps charging a fortune for SAT prep so i made the better alternative.",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1uhz2z1/most_free_tv_remote_apps_make_you_pay_a_weekly/",
+      "pushed_at": "2026-06-29",
+      "title": "Most \"free\" TV remote apps make you pay a weekly subscription. So I built one that's actually free — and it auto-skips Netflix intros by watching your screen with the camera.",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1ui98yd/i_built_an_offline_qa_chatbot_for_my_university/",
+      "pushed_at": "2026-06-29",
+      "title": "I built an offline Q&A Chatbot for my University using FastAPI and BM25 (No heavy LLMs required!)",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1uieiwk/i_created_yet_another_memory_layer_skill_for_codex/",
+      "pushed_at": "2026-06-29",
+      "title": "I created yet another memory layer skill for Codex",
+      "score": 6
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
+      "pushed_at": "2026-06-29",
+      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "pushed_at": "2026-06-29",
+      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "score": 6
+    },
+    {
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "pushed_at": "2026-06-29",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "score": 6
+    },
+    {
+      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "pushed_at": "2026-06-29",
+      "title": "Ford hired AI and sacked humans. It backfired badly",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/vansharora21/looping-vs-prompting-why-i-stopped-writing-better-prompts-and-started-building-better-context-23nj",
+      "pushed_at": "2026-06-29",
+      "title": "Looping vs Prompting: Why I Stopped Writing Better Prompts and Started Building Better Context",
+      "score": 6
     },
     {
       "url": "https://github.com/xbtlin/ai-berkshire",
-      "pushed_at": "2026-06-27",
+      "pushed_at": "2026-06-29",
       "title": "xbtlin/ai-berkshire",
-      "score": 7
+      "score": 6
     },
     {
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "pushed_at": "2026-06-27",
+      "pushed_at": "2026-06-29",
       "title": "JCodesMore/ai-website-cloner-template",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "pushed_at": "2026-06-27",
-      "title": "aws/agent-toolkit-for-aws",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "pushed_at": "2026-06-27",
-      "title": "shanraisshan/claude-code-best-practice",
-      "score": 7
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
-      "pushed_at": "2026-06-27",
-      "title": "What happened after 2,000 people tried to hack my AI assistant",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1ug0089/the_age_of_the_solopreneur_stripe_report/",
-      "pushed_at": "2026-06-27",
-      "title": "The age of the solopreneur (stripe report)",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "pushed_at": "2026-06-29",
+      "title": "ripienaar/free-for-dev",
       "score": 6
     },
     {
-      "url": "https://www.statey.ai",
-      "pushed_at": "2026-06-27",
-      "title": "Show HN: Statey – the database your AI shares across every chat, over MCP",
-      "score": 6
-    },
-    {
-      "url": "https://devenv.sh/blog/2026/06/26/making-devenv-start-fast-and-the-whole-nixpkgs-with-it/",
-      "pushed_at": "2026-06-27",
-      "title": "Making devenv start fast, and the whole nixpkgs with it - devenv",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/amising6/why-enterprise-ai-needs-structured-dissent-not-just-more-agents-5cn",
-      "pushed_at": "2026-06-27",
-      "title": "Why Enterprise AI Needs Structured Dissent, Not Just More Agents",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/beck_moulton/mastering-the-quantified-self-building-a-blazing-fast-heart-rate-dashboard-with-duckdb-and-1eed",
-      "pushed_at": "2026-06-27",
-      "title": "Mastering the \"Quantified Self\": Building a Blazing-Fast Heart Rate Dashboard with DuckDB and Streamlit",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/ailles/i-tried-connecting-an-openai-compatible-api-to-wordpress-ai-k9m",
-      "pushed_at": "2026-06-27",
-      "title": "I Tried Connecting an OpenAI-Compatible API to WordPress AI",
+      "url": "https://github.com/topoteretes/cognee",
+      "pushed_at": "2026-06-29",
+      "title": "topoteretes/cognee",
       "score": 6
     },
     {
       "url": "https://github.com/every-app/open-seo",
-      "pushed_at": "2026-06-27",
+      "pushed_at": "2026-06-29",
       "title": "every-app/open-seo",
       "score": 6
     },
     {
-      "url": "https://github.com/opendatalab/MinerU",
-      "pushed_at": "2026-06-27",
-      "title": "opendatalab/MinerU",
+      "url": "https://aihot.virxact.com/items/cmqx7behn03g3slp0pzrofqz9",
+      "pushed_at": "2026-06-29",
+      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3869884559332356?f=rss",
-      "pushed_at": "2026-06-27",
-      "title": "氪星晚报 ｜智元旗下灵巧手估值10亿美元，成立仅5个月首季实现盈利；DeepSeek计划将所有部门规模扩大至少一倍",
+      "url": "https://36kr.com/p/3873476968272902?f=rss",
+      "pushed_at": "2026-06-29",
+      "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3866837793952769?f=rss",
-      "pushed_at": "2026-06-27",
-      "title": "对话张亚勤：AI不是泡沫，但AI公司有泡沫",
+      "url": "https://36kr.com/newsflashes/3873554111796232?f=rss",
+      "pushed_at": "2026-06-29",
+      "title": "“源策未来Archon Robotics”完成数亿元种子轮融资",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3869445453305090?f=rss",
-      "pushed_at": "2026-06-27",
-      "title": "戴宗宏和他的「工业世界模型」：一人两周，干完百人级定制化“累活”",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqvdw37s0cb7sl80kpi0thke",
-      "pushed_at": "2026-06-27",
-      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqv2tn1509khsl80vpek6zqe",
-      "pushed_at": "2026-06-27",
-      "title": "Anthropic Economic Index 报告：使用节奏",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqu93tek02e2sl80iom0bica",
-      "pushed_at": "2026-06-27",
-      "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmquanuro02prsl8053rbhfjl",
-      "pushed_at": "2026-06-27",
-      "title": "Claude Code 6个实用Hook玩法",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
-      "pushed_at": "2026-06-27",
-      "title": "Incident Report: CVE-2026-LGTM",
+      "url": "https://www.reddit.com/r/SideProject/comments/1ui1yh0/i_built_a_telegram_bot_that_filters_good_com/",
+      "pushed_at": "2026-06-29",
+      "title": "I built a Telegram bot that filters good .com domains right after they drop",
       "score": 5
     },
     {
-      "url": "https://github.com/Bennyoooo/skillmaxxing",
-      "pushed_at": "2026-06-27",
-      "title": "Show HN: Skillmaxxing – make every agent self-evolving",
+      "url": "https://www.reddit.com/r/SideProject/comments/1uielut/experienced_the_pain_of_job_hunting_now_im_helping/",
+      "pushed_at": "2026-06-29",
+      "title": "Experienced the pain of job hunting, now I'm helping",
       "score": 5
     },
     {
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-      "pushed_at": "2026-06-27",
-      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://news.ycombinator.com/item?id=48712130",
+      "pushed_at": "2026-06-29",
+      "title": "Show HN: Selixes - Self-hosted LLM failover gateway, budget caps and PII",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-      "pushed_at": "2026-06-27",
-      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
+      "url": "https://github.com/gi-dellav/use-zerostack/",
+      "pushed_at": "2026-06-29",
+      "title": "Show HN: Use-zerostack – delegate any task to a lightweight coding agent",
       "score": 5
     },
     {
-      "url": "https://github.com/calesthio/OpenMontage",
-      "pushed_at": "2026-06-27",
-      "title": "calesthio/OpenMontage",
+      "url": "https://github.com/anomalyco/opencode",
+      "pushed_at": "2026-06-29",
+      "title": "anomalyco/opencode",
       "score": 5
     },
     {
-      "url": "https://github.com/mauriceboe/TREK",
-      "pushed_at": "2026-06-27",
-      "title": "mauriceboe/TREK",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "pushed_at": "2026-06-29",
+      "title": "Fission-AI/OpenSpec",
       "score": 5
     },
     {
-      "url": "https://36kr.com/p/3870720040588295?f=rss",
-      "pushed_at": "2026-06-27",
-      "title": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
+      "url": "https://36kr.com/p/3868055841641476?f=rss",
+      "pushed_at": "2026-06-29",
+      "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
       "score": 5
     },
     {
-      "url": "https://www.ifanr.com/1670118?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-06-27",
-      "title": "你的Codex 可能只解锁了1%，大神让它一天肝 71小时",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqv67led0aejsl80grsdthsq",
-      "pushed_at": "2026-06-27",
-      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmqugodz30481sl80as72hqx1",
-      "pushed_at": "2026-06-27",
-      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmquitk6o04qnsl805yictrvb",
-      "pushed_at": "2026-06-27",
-      "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+      "url": "https://aihot.virxact.com/items/cmqx9k72u0425slp05ijlfezl",
+      "pushed_at": "2026-06-29",
+      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
       "score": 5
     },
     {
       "url": "https://github.com/IceWhaleTech/CasaOS",
-      "pushed_at": "2026-06-27",
+      "pushed_at": "2026-06-29",
       "title": "IceWhaleTech/CasaOS",
       "score": 4
     },
     {
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "pushed_at": "2026-06-27",
-      "title": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/google-labs-code/design.md",
+      "pushed_at": "2026-06-29",
+      "title": "google-labs-code/design.md",
       "score": 4
     }
   ]
