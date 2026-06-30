@@ -25,4 +25,4 @@ score_workers = 4
 log_level = "INFO"
 
 [insight]
-sync_enabled = false
+sync_enabled = true
