@@ -2,6 +2,10 @@
   <a href="README.md">English</a> · <a href="README-zh.md">中文</a>
 </p>
 
+<p align="center">
+  <img src="web/public/logo.png" width="160" alt="AI Daily Pulse">
+</p>
+
 # AI Daily Pulse
 
 > 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 47 个信息源自动抓取 → AI 智能评分 → 语义去重 → 趋势检测 → 构建方向提炼 → 中英双语日报，每天早上打开就能看。
