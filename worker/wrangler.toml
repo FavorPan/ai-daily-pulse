@@ -2,6 +2,7 @@ name = "ai-daily-pulse"
 main = "src/index.ts"
 compatibility_date = "2025-06-25"
 
+# Default environment — used by `wrangler dev` and non-env deploys
 [[d1_databases]]
 binding = "DB"
 database_name = "ai-daily-pulse"
@@ -11,6 +12,16 @@ database_id = "19bf9f5f-3f07-4d33-a704-cfdca3a7c5ef"
 FRONTEND_URL = "https://ai-daily-pulse.top"
 
 [env.production]
+# Wrangler v4 does NOT inherit top-level [[d1_databases]] or [vars] into sub-envs,
+# so they must be duplicated here to survive `wrangler deploy --env production`.
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "ai-daily-pulse"
+database_id = "19bf9f5f-3f07-4d33-a704-cfdca3a7c5ef"
+
+[env.production.vars]
+FRONTEND_URL = "https://ai-daily-pulse.top"
+
 routes = [
   { pattern = "api.ai-daily-pulse.top", custom_domain = true }
 ]
