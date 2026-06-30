@@ -242,10 +242,14 @@ export async function findOrCreateUser(
     ).bind(id, email, name ?? null, avatar_url ?? null, provider, provider_id ?? null, now).run();
     return { id, email, name: name ?? null, avatar_url: avatar_url ?? null, provider, provider_id: provider_id ?? null, created_at: now };
   } catch (err: unknown) {
+    console.error("findOrCreateUser INSERT failed:", err);
     // UNIQUE constraint on email → another provider already registered this email.
     // Fall back: look up by email and update it to link this provider.
-    const e = err as { cause?: { code?: string } };
-    if (e?.cause?.code === "SQLITE_CONSTRAINT_UNIQUE") {
+    const e = err as { cause?: { code?: string; message?: string }; message?: string };
+    const isUnique = (e?.cause?.code === "SQLITE_CONSTRAINT_UNIQUE") ||
+      (e?.cause?.message?.includes("UNIQUE constraint failed")) ||
+      (e?.message?.includes("UNIQUE constraint failed"));
+    if (isUnique) {
       const existing = await db.prepare("SELECT * FROM users WHERE email = ?").bind(email).first<UserRow>();
       if (existing) {
         await db.prepare("UPDATE users SET name = ?, avatar_url = ?, provider = ?, provider_id = ? WHERE id = ?")
