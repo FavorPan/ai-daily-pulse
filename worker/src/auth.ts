@@ -16,15 +16,7 @@ interface Bindings {
 
 const authRoutes = new Hono<{ Bindings: Bindings }>();
 
-// GET /api/auth/github — redirect to GitHub OAuth
-authRoutes.get("/github", (c) => {
-  const clientId = c.env.GITHUB_CLIENT_ID;
-  const redirectUri = `${new URL(c.req.url).origin}/api/auth/github/callback`;
-  const url = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=user:email`;
-  return c.redirect(url);
-});
-
-// GET /api/auth/github/callback — handle GitHub OAuth callback
+// GET /api/auth/github/callback — handle GitHub OAuth callback (MUST be before /github to avoid being swallowed by the catch-all)
 authRoutes.get("/github/callback", async (c) => {
   try {
     const code = c.req.query("code");
@@ -83,15 +75,15 @@ authRoutes.get("/github/callback", async (c) => {
   }
 });
 
-// GET /api/auth/google — redirect to Google OAuth
-authRoutes.get("/google", (c) => {
-  const clientId = c.env.GOOGLE_CLIENT_ID;
-  const redirectUri = `${new URL(c.req.url).origin}/api/auth/google/callback`;
-  const url = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=code&scope=openid%20email%20profile`;
+// GET /api/auth/github — redirect to GitHub OAuth (must be AFTER /github/callback)
+authRoutes.get("/github", (c) => {
+  const clientId = c.env.GITHUB_CLIENT_ID;
+  const redirectUri = `${new URL(c.req.url).origin}/api/auth/github/callback`;
+  const url = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=user:email`;
   return c.redirect(url);
 });
 
-// GET /api/auth/google/callback — handle Google OAuth callback
+// GET /api/auth/google/callback — handle Google OAuth callback (must be BEFORE /google)
 authRoutes.get("/google/callback", async (c) => {
   try {
     const code = c.req.query("code");
@@ -143,6 +135,14 @@ authRoutes.get("/google/callback", async (c) => {
     console.error("Google OAuth callback error:", err);
     return c.json({ error: "Internal error", detail: String(err) }, 500);
   }
+});
+
+// GET /api/auth/google — redirect to Google OAuth (must be AFTER /google/callback)
+authRoutes.get("/google", (c) => {
+  const clientId = c.env.GOOGLE_CLIENT_ID;
+  const redirectUri = `${new URL(c.req.url).origin}/api/auth/google/callback`;
+  const url = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=code&scope=openid%20email%20profile`;
+  return c.redirect(url);
 });
 
 // POST /api/auth/email/send — send verification code
