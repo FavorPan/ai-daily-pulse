@@ -6401,6 +6401,498 @@
       "pushed_at": "2026-06-01",
       "title": "提前看看，今年新 iPhone 系统长什么样｜WWDC26",
       "score": 5
+    },
+    {
+      "url": "https://dev.to/penloom_studio_829b7817d3/five-tool-calling-patterns-that-separate-hobby-ai-agents-from-production-ones-6jc",
+      "pushed_at": "2026-07-01",
+      "title": "Five tool-calling patterns that separate hobby AI agents from production ones",
+      "score": 9
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+      "pushed_at": "2026-07-01",
+      "title": "[AINews] not much happened today",
+      "score": 8
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
+      "pushed_at": "2026-07-01",
+      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "pushed_at": "2026-07-01",
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/copyleftdev/the-ai-cost-modeling-handbook-i-let-claude-do-the-modeling-but-never-the-arithmetic-3h95",
+      "pushed_at": "2026-07-01",
+      "title": "The AI Cost-Modeling Handbook: I let Claude do the modeling, but never the arithmetic",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1ujzku1/experience_starting_an_app_with_ai_0_experience/",
+      "pushed_at": "2026-07-01",
+      "title": "Experience \"Starting an App\" with AI -0 experience, 2,900 users and community funded",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "pushed_at": "2026-07-01",
+      "title": "diegosouzapw/OmniRoute",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "pushed_at": "2026-07-01",
+      "title": "xbtlin/ai-berkshire",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/ogulcancelik/herdr",
+      "pushed_at": "2026-07-01",
+      "title": "ogulcancelik/herdr",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/browser-use/video-use",
+      "pushed_at": "2026-07-01",
+      "title": "browser-use/video-use",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr1eiq770260slnlxguii7jy",
+      "pushed_at": "2026-07-01",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1670629?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-01",
+      "title": "早报｜苹果iPhone 18 Pro大规模泄露/SK海力士启动赴美IPO/Claude Sonnet 5正式上线",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+      "pushed_at": "2026-07-01",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "score": 8
+    },
+    {
+      "url": "https://36kr.com/p/3873626697470985?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "氪星晚报｜Kimi估值升至315亿美元，ARR突破3亿美元；优艾智合具身智能系列新品全球首发，3年赋能10000个工业现场；国家航天局：我国将建立近地小行星天地协同监测体系",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "pushed_at": "2026-07-01",
+      "title": "What's new in Claude Sonnet 5",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+      "pushed_at": "2026-07-01",
+      "title": "shot-scraper 1.10",
+      "score": 7
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations",
+      "pushed_at": "2026-07-01",
+      "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
+      "score": 7
+    },
+    {
+      "url": "https://bugzero.dev",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Turning Sentry errors into AI generated GitHub PRs with fixes",
+      "score": 7
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48739038",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/therepanic/openleetcode/releases/tag/v1.0.0",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Openleetcode – LeetCode runner where tests live in the repo",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/superlinked/synty",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0]",
+      "score": 7
+    },
+    {
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "pushed_at": "2026-07-01",
+      "title": "I ported Kubernetes to the browser",
+      "score": 7
+    },
+    {
+      "url": "https://www.therundown.ai/p/meta-brain-reading-ai-leaves-letters-behind",
+      "pushed_at": "2026-07-01",
+      "title": "Meta's brain-reading AI leaves letters behind",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/muildev/github-trending-digest-2026-07-01-3if8",
+      "pushed_at": "2026-07-01",
+      "title": "GitHub Trending Digest — 2026-07-01",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/zein_saleh_866d073614f017/i-found-10-bugs-in-my-own-security-scanner-heres-what-they-taught-me-about-false-positives-4o8m",
+      "pushed_at": "2026-07-01",
+      "title": "I found 10 bugs in my own security scanner. Here's what they taught me about false positives.",
+      "score": 7
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/routerbasecom/a-simple-way-to-test-model-fallbacks-with-routerbase-5d85",
+      "pushed_at": "2026-07-01",
+      "title": "A simple way to test model fallbacks with RouterBase",
+      "score": 7
+    },
+    {
+      "url": "https://www.producthunt.com/products/meta",
+      "pushed_at": "2026-07-01",
+      "title": "Brain2Qwerty v2",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "pushed_at": "2026-07-01",
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "pushed_at": "2026-07-01",
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/usestrix/strix",
+      "pushed_at": "2026-07-01",
+      "title": "usestrix/strix",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "pushed_at": "2026-07-01",
+      "title": "hasaneyldrm/exercises-dataset",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "pushed_at": "2026-07-01",
+      "title": "altic-dev/FluidVoice",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/google/agents-cli",
+      "pushed_at": "2026-07-01",
+      "title": "google/agents-cli",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "pushed_at": "2026-07-01",
+      "title": "microsoft/AI-For-Beginners",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "pushed_at": "2026-07-01",
+      "title": "HKUDS/Vibe-Trading",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/CoreBunch/Instatic",
+      "pushed_at": "2026-07-01",
+      "title": "CoreBunch/Instatic",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/07/440985.html",
+      "pushed_at": "2026-07-01",
+      "title": "视频版Nano Banana来了！内置Gemini世界知识；原版香蕉出图仅需4秒",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0yev3s005cslw8omm20ml6",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Sonnet 5 发布",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0yab2e003oslw8uw5zghrc",
+      "pushed_at": "2026-07-01",
+      "title": "Acti 将 AI 智能体直接放入手机键盘",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0xc7sg0040slb3yenz5k02",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Science 科研工作台正式上线",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0x7y97001yslb3tyb8w4ce",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Code 入门：智能体循环",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0wwa6g0085sl40xkkzeruy",
+      "pushed_at": "2026-07-01",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0wupt4007gsl403t7s6dbn",
+      "pushed_at": "2026-07-01",
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0vkch300f5slate2n251dm",
+      "pushed_at": "2026-07-01",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
+      "pushed_at": "2026-07-01",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0ucc880030slatw1gfkq2h",
+      "pushed_at": "2026-07-01",
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr03h5tq03jjslki3a281zet",
+      "pushed_at": "2026-07-01",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
+      "pushed_at": "2026-07-01",
+      "title": "AI就业争论变得更加混乱",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
+      "pushed_at": "2026-07-01",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3876318522077442?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "8点1氪丨“史上最严电池安全令”正式施行；苹果大量机密文件遭泄露；OpenAI首款硬件曝光",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ahmad-osman-local-ai",
+      "pushed_at": "2026-07-01",
+      "title": "Ahmad Osman on why local AI is catching up",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+      "pushed_at": "2026-07-01",
+      "title": "The AI Compass",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/arman-jalili/rigorix-oss",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
+      "score": 6
+    },
+    {
+      "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
+      "pushed_at": "2026-07-01",
+      "title": "GPT-5.6 is here but...",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/Tako-Research/TakoVM",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: TakoVM – open-source sandboxing for your agent's code",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/almakit/alma",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Yourself, in Every Light",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/muxshed/shed",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Open-source restreaming and live studio",
+      "score": 6
+    },
+    {
+      "url": "https://kage-core.com/",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/Perseus-Computing-LLC/mimir",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Mimir – local-first encrypted memory for AI agents (single Rust binary)",
+      "score": 6
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "pushed_at": "2026-07-01",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "score": 6
+    },
+    {
+      "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "pushed_at": "2026-07-01",
+      "title": "The twilight of the chatbots",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/induwara_ashinsana_9e4d5b/upis-ai-bet-why-payment-data-beats-fancy-models-53fn",
+      "pushed_at": "2026-07-01",
+      "title": "UPI's AI bet: why payment data beats fancy models",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "pushed_at": "2026-07-01",
+      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "pushed_at": "2026-07-01",
+      "title": "The AI jobs debate just got messier",
+      "score": 6
+    },
+    {
+      "url": "https://trends.vc/why-cant-incumbents-copy-you-even-when-they-obviously-should/",
+      "pushed_at": "2026-07-01",
+      "title": "♟️ Why Can’t Incumbents Copy You (Even When They Obviously Should)?",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "pushed_at": "2026-07-01",
+      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/facebook/astryx",
+      "pushed_at": "2026-07-01",
+      "title": "facebook/astryx",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1670396?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-01",
+      "title": "刚刚，Codex 首款硬件曝光",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr1bxokg01eoslnlem278yfq",
+      "pushed_at": "2026-07-01",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3867992509125636?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "告别硬件出海上一个十年，前安克CMO做了款AI时代的Memory产品｜硬氪专访",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3874358072710407?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3875120747942913?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "成立9个月，在手订单4.4亿，「谱星航天」连续完成两轮数亿元融资｜36氪首发",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3876424926540033?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "“求之科技”完成超1亿美元首轮融资",
+      "score": 6
+    },
+    {
+      "url": "https://aos.injecting.ai/",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Agentic OS – the operating system for AI agents",
+      "score": 5
+    },
+    {
+      "url": "https://frontierjobs.org/",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Frontier AI Lab Jobs – Open Jobs by Function at OpenAI, Anthropic",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "pushed_at": "2026-07-01",
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "pushed_at": "2026-07-01",
+      "title": "Robbyant/lingbot-map",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr190seo00nsslnlxmfddenz",
+      "pushed_at": "2026-07-01",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0v1pn7009kslatrt4gncmj",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Desktop 推出 Linux 公测版",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3875622047805447?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "赤子城独家投资：4人创业团队「MobAI」，推出AI互动平台「Lunaverse Stories」 | 36氪首发",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3876463093592321?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "小马智行在重庆成立新科技公司，注册资本3000万",
+      "score": 5
     }
   ]
 }
