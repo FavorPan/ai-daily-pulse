@@ -1,10 +1,10 @@
 [api]
 api_key = ""                    # or set env var API_KEY
 base_url = "https://openrouter.ai/api/v1"
-scoring_model = "openrouter/owl-alpha"
-summary_model = "openrouter/owl-alpha"
-price_in_per_m = 0.14
-price_out_per_m = 0.28
+scoring_model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+summary_model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+price_in_per_m = 0
+price_out_per_m = 0
 
 [last30days]
 enabled = true
