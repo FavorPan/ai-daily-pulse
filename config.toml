@@ -1,8 +1,8 @@
 [api]
 api_key = ""                    # or set env var API_KEY
 base_url = "https://openrouter.ai/api/v1"
-scoring_model = "nvidia/nemotron-3-ultra-550b-a55b:free"
-summary_model = "nvidia/nemotron-3-ultra-550b-a55b:free"
+scoring_model = "nvidia/nemotron-3-super-120b-a12b:free"
+summary_model = "nvidia/nemotron-3-super-120b-a12b:free"
 price_in_per_m = 0
 price_out_per_m = 0
 
