@@ -61,7 +61,10 @@ def sync_insights(
             resp = requests.post(
                 f"{api_url}/api/ideas/sync",
                 json=payload,
-                headers={"Authorization": f"Bearer {api_key}"},
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "User-Agent": "ai-daily-pulse/1.0 (daily-pipeline)",
+                },
                 timeout=30,
             )
             if resp.ok:
