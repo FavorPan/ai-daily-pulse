@@ -6403,21 +6403,9 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/penloom_studio_829b7817d3/five-tool-calling-patterns-that-separate-hobby-ai-agents-from-production-ones-6jc",
+      "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
       "pushed_at": "2026-07-01",
-      "title": "Five tool-calling patterns that separate hobby AI agents from production ones",
-      "score": 9
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-      "pushed_at": "2026-07-01",
-      "title": "[AINews] not much happened today",
-      "score": 8
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-      "pushed_at": "2026-07-01",
-      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+      "title": "GPT-5.6 is here but...",
       "score": 8
     },
     {
@@ -6427,9 +6415,15 @@
       "score": 8
     },
     {
-      "url": "https://dev.to/copyleftdev/the-ai-cost-modeling-handbook-i-let-claude-do-the-modeling-but-never-the-arithmetic-3h95",
+      "url": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
       "pushed_at": "2026-07-01",
-      "title": "The AI Cost-Modeling Handbook: I let Claude do the modeling, but never the arithmetic",
+      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "pushed_at": "2026-07-01",
+      "title": "What's new in Claude Sonnet 5",
       "score": 8
     },
     {
@@ -6439,21 +6433,21 @@
       "score": 8
     },
     {
-      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations",
       "pushed_at": "2026-07-01",
-      "title": "diegosouzapw/OmniRoute",
+      "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
       "score": 8
     },
     {
-      "url": "https://github.com/xbtlin/ai-berkshire",
+      "url": "https://www.therundown.ai/p/meta-brain-reading-ai-leaves-letters-behind",
       "pushed_at": "2026-07-01",
-      "title": "xbtlin/ai-berkshire",
+      "title": "Meta's brain-reading AI leaves letters behind",
       "score": 8
     },
     {
-      "url": "https://github.com/ogulcancelik/herdr",
+      "url": "https://dev.to/yang_goufang_23c7ba674984/wo-rang-san-ge-ai-ge-si-qi-zhi-xie-cheng-shi-codex-chu-ce-shi-grok-xie-shi-zuo-claude-yan-shou-4408",
       "pushed_at": "2026-07-01",
-      "title": "ogulcancelik/herdr",
+      "title": "我讓三個 AI 各司其職寫程式：Codex 出測試、Grok 寫實作、Claude 驗收",
       "score": 8
     },
     {
@@ -6463,21 +6457,33 @@
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr1eiq770260slnlxguii7jy",
+      "url": "https://github.com/xbtlin/ai-berkshire",
       "pushed_at": "2026-07-01",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "title": "xbtlin/ai-berkshire",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1670629?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
       "pushed_at": "2026-07-01",
-      "title": "早报｜苹果iPhone 18 Pro大规模泄露/SK海力士启动赴美IPO/Claude Sonnet 5正式上线",
+      "title": "diegosouzapw/OmniRoute",
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+      "url": "https://github.com/ogulcancelik/herdr",
       "pushed_at": "2026-07-01",
-      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "title": "ogulcancelik/herdr",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "pushed_at": "2026-07-01",
+      "title": "HKUDS/Vibe-Trading",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "pushed_at": "2026-07-01",
+      "title": "Robbyant/lingbot-map",
       "score": 8
     },
     {
@@ -6487,21 +6493,39 @@
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "url": "https://aihot.virxact.com/items/cmr1js18u03imslnld2yrjboo",
       "pushed_at": "2026-07-01",
-      "title": "What's new in Claude Sonnet 5",
+      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr1eiq770260slnlxguii7jy",
+      "pushed_at": "2026-07-01",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0wwa6g0085sl40xkkzeruy",
+      "pushed_at": "2026-07-01",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
+      "pushed_at": "2026-07-01",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "score": 8
+    },
+    {
+      "url": "https://www.latent.space/p/ahmad-osman-local-ai",
+      "pushed_at": "2026-07-01",
+      "title": "Ahmad Osman on why local AI is catching up",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+      "url": "https://github.com/hyperb1iss/sibyl",
       "pushed_at": "2026-07-01",
-      "title": "shot-scraper 1.10",
-      "score": 7
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations",
-      "pushed_at": "2026-07-01",
-      "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
+      "title": "Show HN: Sibyl – self-hosted cross-agent memory for AI coding agents",
       "score": 7
     },
     {
@@ -6511,21 +6535,21 @@
       "score": 7
     },
     {
+      "url": "https://github.com/Perseus-Computing-LLC/mimir",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Mimir – local-first encrypted memory for AI agents (single Rust binary)",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "pushed_at": "2026-07-01",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "score": 7
+    },
+    {
       "url": "https://news.ycombinator.com/item?id=48739038",
       "pushed_at": "2026-07-01",
       "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/therepanic/openleetcode/releases/tag/v1.0.0",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Openleetcode – LeetCode runner where tests live in the repo",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/superlinked/synty",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0]",
       "score": 7
     },
     {
@@ -6535,51 +6559,45 @@
       "score": 7
     },
     {
-      "url": "https://www.therundown.ai/p/meta-brain-reading-ai-leaves-letters-behind",
+      "url": "https://vercel.com/blog/dockerfile-on-vercel",
       "pushed_at": "2026-07-01",
-      "title": "Meta's brain-reading AI leaves letters behind",
+      "title": "Run any Dockerfile on Vercel",
       "score": 7
     },
     {
-      "url": "https://dev.to/muildev/github-trending-digest-2026-07-01-3if8",
+      "url": "https://dev.to/mizanur_rahaman_513a18e42/calcmora-just-crossed-200-tools-heres-what-changed-under-the-hood-4dfc",
       "pushed_at": "2026-07-01",
-      "title": "GitHub Trending Digest — 2026-07-01",
+      "title": "CalcMora just crossed 200 tools | Here's what changed under the hood",
       "score": 7
     },
     {
-      "url": "https://dev.to/zein_saleh_866d073614f017/i-found-10-bugs-in-my-own-security-scanner-heres-what-they-taught-me-about-false-positives-4o8m",
+      "url": "https://dev.to/_0c004e5fde78250aee362/ke-hu-kai-jia-tai-di-ma-freelancer-jie-an-qian-de-3-wen-jue-ce-shu-58am",
       "pushed_at": "2026-07-01",
-      "title": "I found 10 bugs in my own security scanner. Here's what they taught me about false positives.",
+      "title": "客戶開價太低嗎？Freelancer 接案前的 3 問決策樹",
       "score": 7
     },
     {
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "url": "https://dev.to/correctover/introducing-correctover-patronus-6-dimensional-verification-for-patronus-ai-cah",
       "pushed_at": "2026-07-01",
-      "title": "Claude Science is Anthropic’s newest flagship product",
+      "title": "Introducing correctover-patronus: 6-Dimensional Verification for Patronus AI",
       "score": 7
     },
     {
-      "url": "https://dev.to/routerbasecom/a-simple-way-to-test-model-fallbacks-with-routerbase-5d85",
+      "url": "https://dev.to/emma_schmidt_/from-vibe-coding-to-production-a-step-by-step-guide-to-shipping-ai-generated-code-safely-in-2026-jmp",
       "pushed_at": "2026-07-01",
-      "title": "A simple way to test model fallbacks with RouterBase",
+      "title": "From Vibe Coding to Production: A Step-by-Step Guide to Shipping AI-Generated Code Safely in 2026",
       "score": 7
     },
     {
-      "url": "https://www.producthunt.com/products/meta",
+      "url": "https://dev.to/tech_tales_daa8a7eab515b3/taming-the-ai-agent-a-developers-guide-to-better-prompting-5k2",
       "pushed_at": "2026-07-01",
-      "title": "Brain2Qwerty v2",
+      "title": "Taming the AI Agent: A Developer's Guide to Better Prompting",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "url": "https://dev.to/clippoutline/how-we-process-7500-product-images-daily-without-breaking-the-pipeline-20cc",
       "pushed_at": "2026-07-01",
-      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
-      "pushed_at": "2026-07-01",
-      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "title": "How We Process 7,500 Product Images Daily Without Breaking the Pipeline",
       "score": 7
     },
     {
@@ -6589,15 +6607,21 @@
       "score": 7
     },
     {
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "pushed_at": "2026-07-01",
-      "title": "hasaneyldrm/exercises-dataset",
-      "score": 7
-    },
-    {
       "url": "https://github.com/altic-dev/FluidVoice",
       "pushed_at": "2026-07-01",
       "title": "altic-dev/FluidVoice",
+      "score": 7
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "pushed_at": "2026-07-01",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "pushed_at": "2026-07-01",
+      "title": "ripienaar/free-for-dev",
       "score": 7
     },
     {
@@ -6607,33 +6631,39 @@
       "score": 7
     },
     {
+      "url": "https://github.com/facebook/astryx",
+      "pushed_at": "2026-07-01",
+      "title": "facebook/astryx",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "pushed_at": "2026-07-01",
+      "title": "hasaneyldrm/exercises-dataset",
+      "score": 7
+    },
+    {
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "pushed_at": "2026-07-01",
       "title": "microsoft/AI-For-Beginners",
       "score": 7
     },
     {
-      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "url": "https://36kr.com/p/3874358072710407?f=rss",
       "pushed_at": "2026-07-01",
-      "title": "HKUDS/Vibe-Trading",
+      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
       "score": 7
     },
     {
-      "url": "https://github.com/CoreBunch/Instatic",
+      "url": "https://36kr.com/p/3876318522077442?f=rss",
       "pushed_at": "2026-07-01",
-      "title": "CoreBunch/Instatic",
+      "title": "8点1氪丨“史上最严电池安全令”正式施行；苹果大量机密文件遭泄露；OpenAI首款硬件曝光",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/07/440985.html",
+      "url": "https://aihot.virxact.com/items/cmr190seo00nsslnlxmfddenz",
       "pushed_at": "2026-07-01",
-      "title": "视频版Nano Banana来了！内置Gemini世界知识；原版香蕉出图仅需4秒",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmr0yev3s005cslw8omm20ml6",
-      "pushed_at": "2026-07-01",
-      "title": "Claude Sonnet 5 发布",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
       "score": 7
     },
     {
@@ -6649,15 +6679,15 @@
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr0x7y97001yslb3tyb8w4ce",
+      "url": "https://aihot.virxact.com/items/cmr0yev3s005cslw8omm20ml6",
       "pushed_at": "2026-07-01",
-      "title": "Claude Code 入门：智能体循环",
+      "title": "Claude Sonnet 5 发布",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr0wwa6g0085sl40xkkzeruy",
+      "url": "https://aihot.virxact.com/items/cmr0x7y97001yslb3tyb8w4ce",
       "pushed_at": "2026-07-01",
-      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "title": "Claude Code 入门：智能体循环",
       "score": 7
     },
     {
@@ -6667,105 +6697,15 @@
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr0vkch300f5slate2n251dm",
-      "pushed_at": "2026-07-01",
-      "title": "Grant Sanderson 谈 AI 与数学的未来",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
-      "pushed_at": "2026-07-01",
-      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
-      "score": 7
-    },
-    {
       "url": "https://aihot.virxact.com/items/cmr0ucc880030slatw1gfkq2h",
       "pushed_at": "2026-07-01",
       "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr03h5tq03jjslki3a281zet",
-      "pushed_at": "2026-07-01",
-      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
-      "pushed_at": "2026-07-01",
-      "title": "AI就业争论变得更加混乱",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
-      "pushed_at": "2026-07-01",
-      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3876318522077442?f=rss",
-      "pushed_at": "2026-07-01",
-      "title": "8点1氪丨“史上最严电池安全令”正式施行；苹果大量机密文件遭泄露；OpenAI首款硬件曝光",
-      "score": 7
-    },
-    {
-      "url": "https://www.latent.space/p/ahmad-osman-local-ai",
-      "pushed_at": "2026-07-01",
-      "title": "Ahmad Osman on why local AI is catching up",
-      "score": 6
-    },
-    {
       "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
       "pushed_at": "2026-07-01",
       "title": "The AI Compass",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/arman-jalili/rigorix-oss",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
-      "score": 6
-    },
-    {
-      "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
-      "pushed_at": "2026-07-01",
-      "title": "GPT-5.6 is here but...",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/Tako-Research/TakoVM",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: TakoVM – open-source sandboxing for your agent's code",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/almakit/alma",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Yourself, in Every Light",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/muxshed/shed",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Open-source restreaming and live studio",
-      "score": 6
-    },
-    {
-      "url": "https://kage-core.com/",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/Perseus-Computing-LLC/mimir",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Mimir – local-first encrypted memory for AI agents (single Rust binary)",
-      "score": 6
-    },
-    {
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "pushed_at": "2026-07-01",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "score": 6
     },
     {
@@ -6775,21 +6715,57 @@
       "score": 6
     },
     {
-      "url": "https://dev.to/induwara_ashinsana_9e4d5b/upis-ai-bet-why-payment-data-beats-fancy-models-53fn",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
       "pushed_at": "2026-07-01",
-      "title": "UPI's AI bet: why payment data beats fancy models",
+      "title": "shot-scraper 1.10",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "url": "https://www.latent.space/p/aiewf-daily-dispatch-loops",
       "pushed_at": "2026-07-01",
-      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
+      "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "url": "https://paulinatorrr.itch.io/sword-of-ghix-chapter-1",
       "pushed_at": "2026-07-01",
-      "title": "The AI jobs debate just got messier",
+      "title": "Show HN: The Sword of Ghix – a retro game made by a 13 yo with AI Assisted tools",
+      "score": 6
+    },
+    {
+      "url": "https://vivify.video/realtime-face-swap",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Live face swap and outfit try-on in the browser",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/arman-jalili/rigorix-oss",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/Tako-Research/TakoVM",
+      "pushed_at": "2026-07-01",
+      "title": "Show HN: TakoVM – open-source sandboxing for your agent's code",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "pushed_at": "2026-07-01",
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "pushed_at": "2026-07-01",
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/ali_abbas_d8086e0f96d8173/nobody-wants-to-review-the-robots-600-line-pull-request-4po8",
+      "pushed_at": "2026-07-01",
+      "title": "Nobody wants to review the robot's 600-line pull request",
       "score": 6
     },
     {
@@ -6799,21 +6775,39 @@
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "url": "https://www.qbitai.com/2026/07/440985.html",
       "pushed_at": "2026-07-01",
-      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+      "title": "视频版Nano Banana来了！内置Gemini世界知识；原版香蕉出图仅需4秒",
       "score": 6
     },
     {
-      "url": "https://github.com/facebook/astryx",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
       "pushed_at": "2026-07-01",
-      "title": "facebook/astryx",
+      "title": "Claude Code is steganographically marking requests",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1670396?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "url": "https://www.ifanr.com/1670629?utm_source=rss&utm_medium=rss&utm_campaign=",
       "pushed_at": "2026-07-01",
-      "title": "刚刚，Codex 首款硬件曝光",
+      "title": "早报｜苹果iPhone 18 Pro大规模泄露/SK海力士启动赴美IPO/Claude Sonnet 5正式上线",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/p/3875622047805447?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "赤子城独家投资：4人创业团队「MobAI」，推出AI互动平台「Lunaverse Stories」 | 36氪首发",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3876636066689287?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "松下计划进一步拓展人工智能业务，在未来两个财年投资约5000亿日元",
+      "score": 6
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3876618772967433?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "AOL母公司Bending Spoons的16.8亿美元IPO定价高于指导区间",
       "score": 6
     },
     {
@@ -6823,39 +6817,21 @@
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3867992509125636?f=rss",
+      "url": "https://aihot.virxact.com/items/cmr1bb1gr01adslnlt43fwfff",
       "pushed_at": "2026-07-01",
-      "title": "告别硬件出海上一个十年，前安克CMO做了款AI时代的Memory产品｜硬氪专访",
+      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3874358072710407?f=rss",
+      "url": "https://aihot.virxact.com/items/cmr0x8nxp002gslb33ixw5j4z",
       "pushed_at": "2026-07-01",
-      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
+      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3875120747942913?f=rss",
+      "url": "https://www.latent.space/p/forward-deployed-engineers-aiewf",
       "pushed_at": "2026-07-01",
-      "title": "成立9个月，在手订单4.4亿，「谱星航天」连续完成两轮数亿元融资｜36氪首发",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3876424926540033?f=rss",
-      "pushed_at": "2026-07-01",
-      "title": "“求之科技”完成超1亿美元首轮融资",
-      "score": 6
-    },
-    {
-      "url": "https://aos.injecting.ai/",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Agentic OS – the operating system for AI agents",
-      "score": 5
-    },
-    {
-      "url": "https://frontierjobs.org/",
-      "pushed_at": "2026-07-01",
-      "title": "Show HN: Frontier AI Lab Jobs – Open Jobs by Function at OpenAI, Anthropic",
+      "title": "Forward Deployed Engineers and the future of software engineering",
       "score": 5
     },
     {
@@ -6865,15 +6841,21 @@
       "score": 5
     },
     {
-      "url": "https://github.com/Robbyant/lingbot-map",
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
       "pushed_at": "2026-07-01",
-      "title": "Robbyant/lingbot-map",
+      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
       "score": 5
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr190seo00nsslnlxmfddenz",
+      "url": "https://github.com/CoreBunch/Instatic",
       "pushed_at": "2026-07-01",
-      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "title": "CoreBunch/Instatic",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/p/3867992509125636?f=rss",
+      "pushed_at": "2026-07-01",
+      "title": "告别硬件出海上一个十年，前安克CMO做了款AI时代的Memory产品｜硬氪专访",
       "score": 5
     },
     {
@@ -6883,15 +6865,9 @@
       "score": 5
     },
     {
-      "url": "https://36kr.com/p/3875622047805447?f=rss",
+      "url": "https://aihot.virxact.com/items/cmr0vkch300f5slate2n251dm",
       "pushed_at": "2026-07-01",
-      "title": "赤子城独家投资：4人创业团队「MobAI」，推出AI互动平台「Lunaverse Stories」 | 36氪首发",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3876463093592321?f=rss",
-      "pushed_at": "2026-07-01",
-      "title": "小马智行在重庆成立新科技公司，注册资本3000万",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
       "score": 5
     }
   ]
