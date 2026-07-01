@@ -13,6 +13,8 @@ web/.next/
 
 # Secrets
 .env
+*.dev.vars
+.dev.vars
 
 # OS
 .DS_Store
