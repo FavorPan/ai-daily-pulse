@@ -1,19 +1,23 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { ScoreBadge } from "./ScoreBadge";
 import { Tag } from "./Tag";
 import type { DigestItem } from "@/lib/types";
 
 export function SummaryBlock({ item }: { item: DigestItem }) {
+  const locale = useLocale();
   const t = useTranslations("item");
+  const isEn = locale === "en";
+  const displaySummary = isEn && item.summary_en ? item.summary_en : item.summary;
+  const displayWhyNow = isEn && item.why_now_en ? item.why_now_en : item.why_now;
 
   return (
     <div className="space-y-6">
       <div>
         <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("summary")}</div>
         <div className="text-foreground leading-relaxed text-[15px]">
-          {item.summary || t("noSummary")}
+          {displaySummary || t("noSummary")}
         </div>
       </div>
 
@@ -32,11 +36,11 @@ export function SummaryBlock({ item }: { item: DigestItem }) {
         </div>
       </div>
 
-      {item.why_now && (
+      {displayWhyNow && (
         <div>
           <div className="text-xs font-medium text-muted uppercase tracking-wide mb-2">{t("whyNow")}</div>
           <div className="text-sm text-accent leading-relaxed">
-            {item.why_now}
+            {displayWhyNow}
           </div>
         </div>
       )}

@@ -16,6 +16,7 @@ export function ProjectCard({ item, showDate = false }: Props) {
   const t = useTranslations("card");
   const isEn = locale === "en";
   const displaySummary = isEn && item.summary_en ? item.summary_en : item.summary;
+  const displayWhyNow = isEn && item.why_now_en ? item.why_now_en : item.why_now;
 
   return (
     <Link
@@ -39,9 +40,9 @@ export function ProjectCard({ item, showDate = false }: Props) {
         {displaySummary}
       </p>
 
-      {item.why_now && (
+      {displayWhyNow && (
         <p className="text-sm text-accent mb-3 line-clamp-1">
-          {item.why_now}
+          {displayWhyNow}
         </p>
       )}
 

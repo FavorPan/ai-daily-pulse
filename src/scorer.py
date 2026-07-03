@@ -113,6 +113,17 @@ WHY_NOW_PROMPT = """你是一位 AI 趋势分析师，面向独立开发者和�
 
 只输出一句话，不要其他内容。"""
 
+WHY_NOW_PROMPT_EN = """You are an AI trend analyst for indie hackers and solo founders.
+
+Based on the following article, explain in one sentence (30 chars or fewer) why this is worth paying attention to right now.
+
+Focus on timeliness: newly released APIs, price drops, competitor shutdowns, new policies, market windows — anything with a specific time signal. Avoid generic "trending upward" statements. If the article has no clear timeliness signal, output nothing.
+
+Article title: {title}
+Article content: {content}
+
+Output only the sentence, nothing else."""
+
 DEDUP_PROMPT = """以下是一批通过质量筛选的文章列表，格式为 [序号] 标题 (来源)。
 
 请找出其中报道同一件事/同一产品/同一发布的文章组。
@@ -286,6 +297,21 @@ def generate_why_now(article: dict, client: OpenAI, model: str) -> str:
         return ""
 
 
+def generate_why_now_en(article: dict, client: OpenAI, model: str) -> str:
+    """Generate English 'why now' explanation for high-scoring articles."""
+    content = article.get("content", "")[:4000]
+    prompt = WHY_NOW_PROMPT_EN.format(title=article["title"], content=content)
+    try:
+        result = _call_with_retry(client, model, prompt, max_tokens=100, json_mode=False)
+        text = result.strip().strip('"').strip("'")
+        if len(text) < 4:
+            return ""
+        return text
+    except Exception as e:
+        logger.warning("Why-now-en failed for '%s': %s", article['title'], e)
+        return ""
+
+
 def _tokenize(text: str) -> set[str]:
     """Tokenize text for Jaccard comparison. Chinese: per-char; English: space-split."""
     tokens = set()
@@ -423,7 +449,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
             article["summary_en"] = future.result()
     timings["summarize_en"] = time.monotonic() - t0
 
-    # [4/4] Generate "why now" for high-scoring articles
+    # [4/4] Generate "why now" for high-scoring articles (Chinese + English)
     high_score_articles = [a for a in kept if a.get("score", 0) >= 7]
     if high_score_articles:
         logger.info("[4/4] Generating 'why now' for %d high-scoring articles...", len(high_score_articles))
@@ -437,8 +463,21 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
                 article = futures[future]
                 article["why_now"] = future.result()
         timings["why_now"] = time.monotonic() - t0
+
+        logger.info("[4b/5] Generating 'why now' (English) for %d articles...", len(high_score_articles))
+        t0 = time.monotonic()
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(generate_why_now_en, a, client, summary_model): a
+                for a in high_score_articles
+            }
+            for future in as_completed(futures):
+                article = futures[future]
+                article["why_now_en"] = future.result()
+        timings["why_now_en"] = time.monotonic() - t0
     for a in kept:
         a.setdefault("why_now", "")
+        a.setdefault("why_now_en", "")
 
     usage = get_usage()
     return kept, rejected, usage, timings

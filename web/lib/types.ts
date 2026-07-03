@@ -9,6 +9,7 @@ export type DigestItem = {
   url: string;
   tags: string[];
   why_now?: string;
+  why_now_en?: string;
   trend_signal?: boolean;
   trend_topic?: string;
   trend_source_count?: number;
