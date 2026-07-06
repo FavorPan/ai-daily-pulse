@@ -6403,225 +6403,213 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/zxpmail/i-tested-the-deterministic-agent-loop-claims-with-four-experiments-they-all-failed-including-38kj",
-      "pushed_at": "2026-07-05",
-      "title": "I tested the 'deterministic agent loop' claims with four experiments. They all failed — including my own fix.",
-      "score": 8
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "pushed_at": "2026-07-06",
+      "title": "alirezarezvani/claude-skills",
+      "score": 9
     },
     {
-      "url": "https://dev.to/ksparth12/the-safari-mcp-server-could-change-how-developers-debug-websites-223g",
-      "pushed_at": "2026-07-05",
-      "title": "The Safari MCP Server Could Change How Developers Debug Websites",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "pushed_at": "2026-07-05",
-      "title": "JuliusBrussee/caveman",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+      "pushed_at": "2026-07-06",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
       "score": 8
     },
     {
       "url": "https://github.com/ogulcancelik/herdr",
-      "pushed_at": "2026-07-05",
+      "pushed_at": "2026-07-06",
       "title": "ogulcancelik/herdr",
       "score": 8
     },
     {
-      "url": "https://github.com/TencentCloud/CubeSandbox",
-      "pushed_at": "2026-07-05",
-      "title": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "pushed_at": "2026-07-06",
+      "title": "CoplayDev/unity-mcp",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1un6jm9/a_browser_that_passes_all_antibot_and_captcha/",
-      "pushed_at": "2026-07-05",
-      "title": "A Browser that passes all anti-bot and CAPTCHA (open-source)",
+      "url": "https://36kr.com/p/3882361033322755?f=rss",
+      "pushed_at": "2026-07-06",
+      "title": "硬氪首发 | 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmr7z00up0065sl0472bil7hs",
+      "pushed_at": "2026-07-06",
+      "title": "Anthropic Claude Design 反向工程提示词开源更新",
+      "score": 8
+    },
+    {
+      "url": "https://clip.video/",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: clip.video - Turn podcasts and long videos into short vertical clips",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unkw5f/got_tired_of_opening_obsidian_every_time_i_needed/",
-      "pushed_at": "2026-07-05",
-      "title": "Got tired of opening Obsidian every time I needed to jot one quick thing, so I built floating sticky notes that sync straight to my vault",
+      "url": "https://www.opentools.studio/",
+      "pushed_at": "2026-07-06",
+      "title": "OpenPrinter",
       "score": 7
     },
     {
-      "url": "https://dev.to/paperquire_e3fdb510bbe49c/paperquire-v030-your-ai-agents-pdf-tool-3c1n",
-      "pushed_at": "2026-07-05",
-      "title": "PaperQuire v0.3.0 — Your AI Agent's PDF Tool",
+      "url": "https://dev.to/kimlike/the-deployment-permission-i-deliberately-withheld-from-my-ai-agents-5b54",
+      "pushed_at": "2026-07-06",
+      "title": "The deployment permission I deliberately withheld from my AI agents",
       "score": 7
     },
     {
-      "url": "https://dev.to/akahkhanna/two-ai-reviews-passed-my-change-the-correct-architecture-was-documented-one-file-away-1fnd",
-      "pushed_at": "2026-07-05",
-      "title": "Two AI reviews passed my change. The correct architecture was documented one file away.",
+      "url": "https://dev.to/pvgomes/copilot-browser-tools-make-the-frontend-reviewable-293p",
+      "pushed_at": "2026-07-06",
+      "title": "copilot browser tools make the frontend reviewable",
       "score": 7
     },
     {
-      "url": "https://github.com/usestrix/strix",
-      "pushed_at": "2026-07-05",
-      "title": "usestrix/strix",
+      "url": "https://dev.to/mage0535/vibe-coding-universal-v10-accurate-version-labels-in-comparison-tables-3339",
+      "pushed_at": "2026-07-06",
+      "title": "Vibe Coding Universal v1.0: Accurate Version Labels in Comparison Tables",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/purecast/i-spent-two-weeks-testing-chinese-ai-models-and-got-surprised-1lg8",
+      "pushed_at": "2026-07-06",
+      "title": "I Spent Two Weeks Testing Chinese AI Models and Got Surprised",
       "score": 7
     },
     {
       "url": "https://github.com/openai/codex-plugin-cc",
-      "pushed_at": "2026-07-05",
+      "pushed_at": "2026-07-06",
       "title": "openai/codex-plugin-cc",
       "score": 7
     },
     {
-      "url": "https://github.com/facebook/astryx",
-      "pushed_at": "2026-07-05",
-      "title": "facebook/astryx",
-      "score": 7
-    },
-    {
       "url": "https://github.com/harvard-edge/cs249r_book",
-      "pushed_at": "2026-07-05",
+      "pushed_at": "2026-07-06",
       "title": "harvard-edge/cs249r_book",
       "score": 7
     },
     {
+      "url": "https://github.com/dotnet/skills",
+      "pushed_at": "2026-07-06",
+      "title": "dotnet/skills",
+      "score": 7
+    },
+    {
       "url": "https://github.com/agentskills/agentskills",
-      "pushed_at": "2026-07-05",
+      "pushed_at": "2026-07-06",
       "title": "agentskills/agentskills",
       "score": 7
     },
     {
-      "url": "https://36kr.com/p/3880629882679301?f=rss",
-      "pushed_at": "2026-07-05",
-      "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
+      "url": "https://github.com/chthollyphile/folia-major",
+      "pushed_at": "2026-07-06",
+      "title": "chthollyphile/folia-major",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr65ieko002tslf0xiomac0c",
-      "pushed_at": "2026-07-05",
-      "title": "26000名学生研究显示AI隐藏学习成本需两年才显现",
+      "url": "https://36kr.com/p/3882365879005186?f=rss",
+      "pushed_at": "2026-07-06",
+      "title": "硬氪首发 | 港大教授成立的忆生科技获数亿天使轮融资，致力于为机器人造一套记忆系统",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr5wizx2067eslc7xynzcf9y",
-      "pushed_at": "2026-07-05",
-      "title": "我国研制全球首款基于可控存内计算的忆阻器神经动力学芯片",
+      "url": "https://aihot.virxact.com/items/cmr7vpphy007oslgnz4aotpx4",
+      "pushed_at": "2026-07-06",
+      "title": "美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmr5zuihg0739slc7nv4mlc5r",
-      "pushed_at": "2026-07-05",
-      "title": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
+      "url": "https://aihot.virxact.com/items/cmr7ita5g00reslxdrprk52b0",
+      "pushed_at": "2026-07-06",
+      "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
-      "pushed_at": "2026-07-05",
-      "title": "Better Models: Worse Tools",
+      "url": "https://terminai.app",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: AI integrated in any terminal that's invisible until you need it",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unhpaj/reached_750_stars_and_170_tools_all_the_tools_are/",
-      "pushed_at": "2026-07-05",
-      "title": "Reached 750+ stars and 170+ tools! All the tools are open-source, no-signup, no-download, and work instantly in your browser!",
+      "url": "https://github.com/puffinsoft/peek-cli",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Peek-CLI: Let Claude Code See the Browser",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1un3mjz/i_built_a_disposable_camera_that_lives_inside_a/",
-      "pushed_at": "2026-07-05",
-      "title": "I built a disposable camera that lives inside a QR code. Guests shoot from the browser, the gallery stays sealed until the morning after",
+      "url": "https://lucidcode.com/2026/06/20/inspec-with-cgx-patch-clinical-eeg-sleep-stage-classification/",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: A bedside camera detects REM sleep and agrees with a clinical EEG",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unky4k/i_created_an_locally_running_application_to/",
-      "pushed_at": "2026-07-05",
-      "title": "I created an locally running application to transcribe my videos",
+      "url": "https://github.com/bharadwaj-pendyala/sidenote",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unlr60/koda_an_ios_app_that_pulls_your_calendar/",
-      "pushed_at": "2026-07-05",
-      "title": "Koda, an iOS app that pulls your calendar, reminders, money, health, and weather into one place",
+      "url": "https://twitter.com/plannotator/status/2073845811847512372",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Open-source guided code reviews",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1un75p0/i_spend_more_time_babysitting_my_coding_agents/",
-      "pushed_at": "2026-07-05",
-      "title": "I spend more time babysitting my coding agents than actually writing code",
+      "url": "https://github.com/momomuchu/make-no-mistakes",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Make No Mistakes – AI coding agents must prove their work",
       "score": 6
     },
     {
-      "url": "https://dev.to/alfinohatta/building-corroborateai-an-auditable-way-to-decide-what-an-ai-actually-knows-1n9m",
-      "pushed_at": "2026-07-05",
-      "title": "Building Corroborate.ai: An Auditable Way to Decide What an AI Actually \"Knows\"",
+      "url": "https://www.nomlings.cc/",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Nomlings – a virtual pet that eats your Claude Code session's tokens",
       "score": 6
     },
     {
-      "url": "https://dev.to/kalpick_sharma_d32ace423a/agentic-software-development-explained-a-frontend-developers-learning-journey-28a1",
-      "pushed_at": "2026-07-05",
-      "title": "Agentic Software Development Explained: A Frontend Developer's Learning Journey",
+      "url": "https://github.com/suveshmoza/diffy",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Diffy – browser extension for faster GitHub PR review experience",
       "score": 6
     },
     {
-      "url": "https://dev.to/dayan_elvisjahuirapilco/cicd-testing-tools-compared-the-same-pipeline-in-github-actions-gitlab-ci-and-jenkins-53",
-      "pushed_at": "2026-07-05",
-      "title": "CI/CD Testing Tools Compared: the Same Pipeline in GitHub Actions, GitLab CI and Jenkins",
+      "url": "https://github.com/immich-app/immich",
+      "pushed_at": "2026-07-06",
+      "title": "immich-app/immich",
       "score": 6
     },
     {
-      "url": "https://36kr.com/newsflashes/3881013448683785?f=rss",
-      "pushed_at": "2026-07-05",
-      "title": "具身智能公司光象科技累计完成数亿元天使轮融资",
+      "url": "https://36kr.com/p/3880060701388809?f=rss",
+      "pushed_at": "2026-07-06",
+      "title": "鄂尔多斯、和达金服共同领投，「贻如科技」完成超亿元A轮融资｜36氪首发",
       "score": 6
     },
     {
-      "url": "https://github.com/leonardosalasd/doc-engine-cli",
-      "pushed_at": "2026-07-05",
-      "title": "Show HN: Markdown to PDF CLI Tool",
+      "url": "https://36kr.com/p/3882364132077577?f=rss",
+      "pushed_at": "2026-07-06",
+      "title": "硬氪首发 | 清华车辆学院师兄弟创业具身智能，已完成数亿元天使融资，将落地汽车产业",
       "score": 6
     },
     {
-      "url": "https://texposit.com/",
-      "pushed_at": "2026-07-05",
-      "title": "Show HN: TeXposit – LaTeX and Markdown Editor",
+      "url": "https://www.ifanr.com/1670995?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-06",
+      "title": "早报｜曝折叠屏iPhone发售将推迟/华为何庭波发布「韬定律」V2版论文/7-Eleven起诉耐克新鞋配色涉嫌抄袭",
       "score": 6
     },
     {
-      "url": "https://www.instasong.co/tools/desunofier",
-      "pushed_at": "2026-07-05",
-      "title": "Show HN: Desunofier – Removing shimmer from Suno songs",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/routing24/skill",
-      "pushed_at": "2026-07-05",
-      "title": "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unja6o/i_replicated_a_52m_startup_speechify_as_just_one/",
-      "pushed_at": "2026-07-05",
-      "title": "I replicated a 52M startup (Speechify) as just one feature — it does real-time AI voice with word-by-word highlighting",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1unxhry/is_anyone_else_building_an_ai_native_service/",
+      "pushed_at": "2026-07-06",
+      "title": "Is anyone else building an AI native service business?",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1unhnde/i_built_an_ai_tool_that_autopicks_background/",
-      "pushed_at": "2026-07-05",
-      "title": "I built an AI tool that auto-picks background music for videos, but I still can't explain it in one sentence. How would you describe it?",
+      "url": "https://effectssdk.ai/sdk/dev/avatars.html",
+      "pushed_at": "2026-07-06",
+      "title": "Show HN: Video Effects SDK – Face Avatars",
       "score": 5
     },
     {
-      "url": "https://36kr.com/p/3880770270425089?f=rss",
-      "pushed_at": "2026-07-05",
-      "title": "对话傲鲨创始人徐振华：当科幻机甲成为户外装备，外骨骼如何重新定义人机关系？",
-      "score": 5
-    },
-    {
-      "url": "https://www.moon-zine.net/",
-      "pushed_at": "2026-07-05",
-      "title": "Show HN: A home for short stories generated from 5 random emojis",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1670957?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-07-05",
-      "title": "早报｜大疆影石专利战火烧回国内/阿里内部全面禁用Claude Code/茉莉奶白被判赔LV 1030万后，月薪4万招法务",
+      "url": "https://36kr.com/p/3883400536453381?f=rss",
+      "pushed_at": "2026-07-06",
+      "title": "8点1氪丨7-11指控耐克新鞋配色抄袭；A股新版交易规则今起施行；华尔街称苹果采购长鑫内存是为了压价",
       "score": 5
     }
   ]
