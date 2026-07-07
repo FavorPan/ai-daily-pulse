@@ -6,7 +6,6 @@ import type { InsightIdea, VoteCounts, VoteType } from "@/lib/types";
 import { fetchIdeas } from "@/lib/api-client";
 import { InsightCard } from "./InsightCard";
 import { AuthModal } from "./AuthModal";
-import { useAuth } from "@/lib/auth";
 
 type SortKey = "votes_good" | "votes_total" | "date_newest" | "difficulty";
 
@@ -22,7 +21,6 @@ const PAGE_SIZE = 30;
 
 export function InsightClient() {
   const t = useTranslations("insight");
-  const { user } = useAuth();
   const [ideas, setIdeas] = useState<InsightIdea[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -178,15 +176,6 @@ export function InsightClient() {
             className="w-full px-2 py-1.5 rounded-md border border-border bg-surface text-xs text-foreground"
           />
         </div>
-
-        {/* User info */}
-        {user && (
-          <div className="mt-6 pt-4 border-t border-border">
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-muted truncate">{user.email}</span>
-            </div>
-          </div>
-        )}
       </aside>
 
       {/* Right: ideas */}
