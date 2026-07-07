@@ -52,8 +52,6 @@ export type DailyDigest = {
   highlights: string[];
   items: DigestItem[];
   directions?: BuildProject[];
-  social_post?: { zh?: string; en?: string };
-  x_thread?: string[];
 };
 
 export type VoteType = "good" | "maybe" | "dont";

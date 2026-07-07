@@ -116,11 +116,11 @@ def main():
 
     # Generate insights: build directions + social post + X thread
     t_insights = time.monotonic()
-    logger.info("[Insights] Generating build directions + social posts...")
+    logger.info("[Insights] Generating build directions...")
     insights = generate_all_insights(kept, api_key, cfg)
     t_insights = time.monotonic() - t_insights
-    logger.info("[Insights] Generated %d direction(s), %d tweet(s)",
-                len(insights.get("directions", [])), len(insights.get("x_thread", [])))
+    logger.info("[Insights] Generated %d direction(s)",
+                len(insights.get("directions", [])))
 
     t_write = time.monotonic()
     json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights)

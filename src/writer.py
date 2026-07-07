@@ -47,8 +47,6 @@ def build_digest_json(articles: list[dict], date: str, insights: dict | None = N
     result = {"date": date, "highlights": highlights, "items": items}
     if insights:
         result["directions"] = insights.get("directions", [])
-        result["social_post"] = insights.get("social_post", {})
-        result["x_thread"] = insights.get("x_thread", [])
     return result
 
 
