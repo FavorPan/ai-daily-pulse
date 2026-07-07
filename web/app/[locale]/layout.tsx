@@ -41,10 +41,21 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(siteUrl),
     title: {
-      default: "AI Daily Pulse",
+      default: "AI Daily Pulse: Your Daily Digest of AI News",
       template: "%s | AI Daily Pulse",
     },
-    description: t("tagline"),
+    description:
+      "Stay updated with AI Daily Pulse! Get curated AI news from over 40 RSS feeds, featuring insights, articles, and daily digests.",
+    keywords: [
+      "AI news",
+      "daily digest",
+      "AI tools",
+      "AI monetization",
+      "AI funding",
+      "AI scoring",
+      "AI industry impact",
+      "autonomous coding agents",
+    ],
     robots: {
       index: true,
       follow: true,
