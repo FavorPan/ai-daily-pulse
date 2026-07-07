@@ -22,10 +22,14 @@ export async function generateMetadata({
   const data = await getDaily();
   const siteUrl = "https://ai-daily-pulse.top";
   const base = getBaseMetadata(locale);
-  const desc = `${data.items.length} articles today — AI-scored news from 40+ RSS feeds.`;
+  const desc =
+    "Stay updated with AI Daily Pulse! Get curated AI news from over 40 RSS feeds, featuring insights, articles, and daily digests.";
 
   return {
-    title: { absolute: `AI Daily Pulse — ${data.items.length} articles today` },
+    title: {
+      default: "AI Daily Pulse: Your Daily Digest of AI News",
+      template: "%s | AI Daily Pulse",
+    },
     description: desc,
     alternates: {
       ...base.alternates,
@@ -33,13 +37,13 @@ export async function generateMetadata({
     },
     openGraph: {
       ...base.openGraph,
-      title: "AI Daily Pulse",
+      title: "AI Daily Pulse: Your Daily Digest of AI News",
       description: desc,
       url: `${siteUrl}/${locale}/`,
     },
     twitter: {
       ...base.twitter,
-      title: "AI Daily Pulse",
+      title: "AI Daily Pulse: Your Daily Digest of AI News",
       description: desc,
     },
   };
