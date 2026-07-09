@@ -6403,279 +6403,177 @@
       "score": 5
     },
     {
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "pushed_at": "2026-07-08",
-      "title": "alirezarezvani/claude-skills",
-      "score": 9
+      "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
+      "pushed_at": "2026-07-09",
+      "title": "What a harness is and how to build one with Claude Agent SDK",
+      "score": 8
     },
     {
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "pushed_at": "2026-07-08",
-      "title": "Leonxlnx/taste-skill",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+      "pushed_at": "2026-07-09",
+      "title": "Rewriting Bun in Rust",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "pushed_at": "2026-07-09",
+      "title": "MadsLorentzen/ai-job-search",
       "score": 8
     },
     {
       "url": "https://github.com/bradautomates/claude-video",
-      "pushed_at": "2026-07-08",
+      "pushed_at": "2026-07-09",
       "title": "bradautomates/claude-video",
       "score": 8
     },
     {
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "pushed_at": "2026-07-08",
-      "title": "openai/codex-plugin-cc",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "pushed_at": "2026-07-09",
+      "title": "kyutai-labs/pocket-tts",
       "score": 8
     },
     {
-      "url": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
-      "pushed_at": "2026-07-08",
-      "title": "[AINews] The Field Guide to Fable",
+      "url": "https://www.ifanr.com/1671236?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-09",
+      "title": "用美国豆包做了个 app，停不下来了！",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "pushed_at": "2026-07-09",
+      "title": "Introducing GPT‑Live",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
-      "pushed_at": "2026-07-08",
-      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "pushed_at": "2026-07-09",
+      "title": "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uptts3/i_left_my_fulltime_job_to_go_all_in_on_my_products/",
-      "pushed_at": "2026-07-08",
-      "title": "I left my full-time job to go all in on my products",
+      "url": "https://botkit.fedify.dev/",
+      "pushed_at": "2026-07-09",
+      "title": "BotKit: Standalone ActivityPub bots in TypeScript",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1upuf4z/how_ive_gotten_15m_reddit_views_and_thousands_of/",
-      "pushed_at": "2026-07-08",
-      "title": "How I've gotten 1.5M reddit views and thousands of users across every product I've launched",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "pushed_at": "2026-07-09",
+      "title": "Zackriya-Solutions/meetily",
       "score": 7
     },
     {
-      "url": "https://www.bensbites.com/p/my-thoughts-on-fable",
-      "pushed_at": "2026-07-08",
-      "title": "My thoughts on Fable",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1upyr6k/i_got_tired_of_checking_every_terminal_tab_so_i/",
-      "pushed_at": "2026-07-08",
-      "title": "I got tired of checking every terminal tab, so I made Claude Code light up my keyboard",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uq8bss/i_built_an_api_that_detects_where_a_business/",
-      "pushed_at": "2026-07-08",
-      "title": "I built an API that detects where a business actually takes bookings, orders, or reservations",
-      "score": 7
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
-      "pushed_at": "2026-07-08",
-      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Fanfulla/OCR-buddy",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: OCR Buddy: local browser OCR for code, formulas (LaTeX) and tables",
-      "score": 7
-    },
-    {
-      "url": "https://www.therundown.ai/p/the-part-of-claude-s-brain-nobody-built",
-      "pushed_at": "2026-07-08",
-      "title": "The part of Claude's brain nobody built",
-      "score": 7
-    },
-    {
-      "url": "https://polygres.com",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Instant GraphRAG over any Postgres database",
-      "score": 7
-    },
-    {
-      "url": "https://twitter.com/CameronPak/status/2074262605779124317",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Workflowy but Open Source",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/mazen160/backlog",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Backlog – tasks and contexts manager for AI coding agents",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/roriau0422/AgentBus",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Agent Bus – IRC-style message bus for AI agents (MCP)",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/apoxy-dev/clrk",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails",
-      "score": 7
-    },
-    {
-      "url": "https://mkrrm.com/",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Mkrrm – a waitlist only AI can use",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Salnika/dejavu",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Dejavu, stop showing coding agents the same command output twice",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "pushed_at": "2026-07-08",
-      "title": "mvanhorn/last30days-skill",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/firecrawl/firecrawl",
-      "pushed_at": "2026-07-08",
-      "title": "firecrawl/firecrawl",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ogulcancelik/herdr",
-      "pushed_at": "2026-07-08",
-      "title": "ogulcancelik/herdr",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "pushed_at": "2026-07-09",
+      "title": "TencentCloud/CubeSandbox",
       "score": 7
     },
     {
       "url": "https://github.com/steipete/CodexBar",
-      "pushed_at": "2026-07-08",
+      "pushed_at": "2026-07-09",
       "title": "steipete/CodexBar",
       "score": 7
     },
     {
-      "url": "https://github.com/alibaba/zvec",
-      "pushed_at": "2026-07-08",
-      "title": "alibaba/zvec",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "pushed_at": "2026-07-09",
+      "title": "iOfficeAI/OfficeCLI",
       "score": 7
     },
     {
-      "url": "https://github.com/gastownhall/gastown",
-      "pushed_at": "2026-07-08",
-      "title": "gastownhall/gastown",
+      "url": "https://github.com/dotnet/skills",
+      "pushed_at": "2026-07-09",
+      "title": "dotnet/skills",
       "score": 7
     },
     {
-      "url": "https://36kr.com/p/3885560015220997?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "瑞为技术暗盘破发，收盘跌17%｜敲钟时刻",
+      "url": "https://trends.vc/synthetic-ugc-ads-ai-actors-managed-agencies-creative-fatigue/",
+      "pushed_at": "2026-07-09",
+      "title": "Synthetic UGC Ads: AI Actors, Managed Agencies, Creative Fatigue",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uq32hz/i_built_a_machine_that_reads_complaints_from_all/",
-      "pushed_at": "2026-07-08",
-      "title": "i built a machine that reads complaints from all over the internet, and here is the software people are begging for",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "pushed_at": "2026-07-09",
+      "title": "asgeirtj/system_prompts_leaks",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3887659913083392?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "上市前夜｜35岁清华学霸冲港股IPO，做出手机指纹中国第二",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3886403765596418?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "AI 视频全面成熟：Seedance 2.0 领衔，6 款主流工具深度横评",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1671401?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-09",
+      "title": "早报｜努比亚确认推出全球首款AI智能体手机/法拉利高管:中国车企做的是快消品/华为天才少年回应DeepSeek面试争议",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "pushed_at": "2026-07-09",
+      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1uphqaz/i_built_an_unbeatable_rockpaperscissors_machine/",
-      "pushed_at": "2026-07-08",
-      "title": "I built an unbeatable Rock–Paper–Scissors machine.",
+      "url": "https://www.latent.space/p/modal2026",
+      "pushed_at": "2026-07-09",
+      "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
-      "pushed_at": "2026-07-08",
-      "title": "github-code Web Component",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "pushed_at": "2026-07-09",
+      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
       "score": 6
     },
     {
-      "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/",
-      "pushed_at": "2026-07-08",
-      "title": "98% isn't much",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "pushed_at": "2026-07-09",
+      "title": "hesreallyhim/awesome-claude-code",
       "score": 6
     },
     {
-      "url": "https://dev.to/cleberdelima/your-coding-agents-are-drowning-in-context-you-pay-twice-in-tokens-and-in-precision-1pp7",
-      "pushed_at": "2026-07-08",
-      "title": "Your Coding Agents Are Drowning in Context: You Pay Twice, in Tokens and in Precision",
+      "url": "https://36kr.com/p/3886678879727880?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间；SpaceX AI将于明日向公众开放Grok4.5",
       "score": 6
     },
     {
-      "url": "https://dev.to/thefreetier/we-read-5-free-credits-terms-of-service-so-you-dont-have-to-542b",
-      "pushed_at": "2026-07-08",
-      "title": "We read 5 \\\"free credits\\\" Terms of Service so you don't have to",
+      "url": "https://36kr.com/p/3886301334630407?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "36氪首发 | 获上海国投领投，这家量子传感企业产品已落地惯性导航、气体监测等",
       "score": 6
     },
     {
-      "url": "https://github.com/gomilesf/convergo",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Convergo – plan/build review loops for coding agents",
+      "url": "https://36kr.com/p/3887648675133960?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "8点1氪｜小米将发布澎程系列增程SUV；OpenAI首席未来学家宣布离职；张小龙辞任粉笔首席执行官、董事会主席",
       "score": 6
     },
     {
-      "url": "https://github.com/lucky-verma/mwb-linux",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Mouse Without Borders for Linux (Go Client for the PowerToys Protocol)",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/karakeep-app/karakeep",
-      "pushed_at": "2026-07-08",
-      "title": "karakeep-app/karakeep",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3885479689465858?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "「德睿智药」获5200万美元B轮融资，AI设计的减肥药已进入3期临床｜36氪首发",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3886238403129353?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "8点1氪丨前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭；苹果折叠屏已在量产；特朗普呼吁购买戴尔电脑，引发戴尔暴涨百亿美元",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3885061350617350?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "\"龙虾\"为什么这么火？OpenClaw登顶GitHub后，AI Agent时代真的来了？",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3886185002823686?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "微软开始在部分软件中改用自研AI模型，减少对OpenAI和Anthropic依赖",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1671116?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-07-08",
-      "title": "早报｜曝华为Mate90将搭载「韬定律」新麒麟芯片/英特尔上调CPU售价/企业微信发布AI录音硬件",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-      "pushed_at": "2026-07-08",
-      "title": "sqlite-utils 4.0rc4",
+      "url": "https://trends.vc/what-1-minute-fix-helps-people-finish-50-books-a-year/",
+      "pushed_at": "2026-07-09",
+      "title": "📚 What 1-Minute Fix Helps People Finish 50 Books a Year?",
       "score": 5
     },
     {
-      "url": "https://www.autosprite.io",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: I built an AI spritesheet generator for game developers",
+      "url": "https://36kr.com/p/3886574096265481?f=rss",
+      "pushed_at": "2026-07-09",
+      "title": "从跨境电商到AI大模型：一个旅欧10年90后女生的两次出海",
       "score": 5
     },
     {
-      "url": "https://github.com/Neelagiri65/gawk-cli",
-      "pushed_at": "2026-07-08",
-      "title": "Show HN: Gawk CLI – a live AI update feed in your terminal",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3886201242497031?f=rss",
-      "pushed_at": "2026-07-08",
-      "title": "摩根大通：投资者低估了特斯拉与SpaceX合并的潜在障碍",
+      "url": "https://www.ifanr.com/1671340?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-09",
+      "title": "那个当面把马斯克怼到破防的刺头，也离开 OpenAI 了",
       "score": 5
     }
   ]
