@@ -8,7 +8,7 @@
 
 # AI Daily Pulse
 
-> 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 47 RSS feeds → AI scoring → semantic dedup → trend detection → build directions → bilingual daily digest. Open once a day, read only what matters.
+> 🌐 **[ai-daily-pulse.top](https://ai-daily-pulse.top)** — 51 RSS feeds → AI scoring → semantic dedup → trend detection → build directions → bilingual daily digest. Open once a day, read only what matters.
 
 ---
 
@@ -18,14 +18,17 @@ Every day, massive amounts of AI news is published across platforms. Manually ke
 
 **AI Daily Pulse** automates this:
 
-1. Fetches from 47 RSS sources (English + Chinese)
-2. **Rule-based prefiltering**: drops low-quality articles (saves AI costs)
-3. AI scores each article (0-10), keeps only high-quality content
-4. **Jaccard title dedup**: coarse similarity check before LLM precise dedup
-5. **Bilingual summaries**: Chinese + English summaries for every article
-6. **Trend detection**: cross-source clustering based on LLM tags
-7. **Build directions (Insight)**: AI-generated project ideas with difficulty, MVP days, monetization — community-voted
-8. **Social media copy**: auto-generated X/Twitter posts + Threads
+1. Fetches from 51 RSS sources (English + Chinese)
+2. **Full-text extraction**: when RSS content is thin (< 400 chars), falls back to trafilatura to fetch the full article body
+3. **Rule-based prefiltering**: drops low-quality articles (saves AI costs)
+4. AI scores each article (0-10), keeps only high-quality content
+5. **Jaccard title dedup**: coarse similarity check before LLM precise dedup
+6. **Bilingual summaries**: Chinese + English summaries for every article
+7. **why_now anti-hallucination**: lightweight fact-token grounding check blanks commentary that isn't backed by source content (zero extra LLM cost)
+8. **Trend detection**: cross-source clustering based on LLM tags
+9. **Digest quotas**: per-topic and total caps keep the daily digest balanced (no single topic flooding)
+10. **Build directions (Insight)**: AI-generated project ideas with difficulty, MVP days, monetization — community-voted
+11. **Social media copy**: auto-generated X/Twitter posts + Threads
 
 Fully automated. You just **open it once a day**.
 
@@ -146,15 +149,26 @@ scoring_model = "deepseek-v4-flash"
 summary_model = "deepseek-v4-flash"
 price_in_per_m = 0.14
 price_out_per_m = 0.28
+max_concurrency = 0                  # 0 = unlimited; set >0 to cap in-flight LLM calls (eases 429s)
 
 [pipeline]
 lookback_days = 1
 dedup_window_days = 90
 content_cap = 4000
 output_dir = "output"
-fetch_timeout = 15
+fetch_timeout = 15                   # mirror of [timeouts].fetch (kept for back-compat)
 fetch_workers = 8
 score_workers = 4
+
+[timeouts]                           # unified timeout config (prefix-mapped)
+fetch = 15                           # RSS fetch
+extract = 20                         # trafilatura full-text extraction
+llm = 60                             # LLM API calls
+
+[digest]                             # daily digest quotas
+max_per_topic = 8                    # cap articles per topic (score desc)
+min_per_topic = 1                    # guarantee minimum if available
+max_total = 60                       # global cap, truncate by score desc
 
 [insight]
 sync_enabled = false                  # set to true after deploying Worker
@@ -169,6 +183,9 @@ Environment variables override config.toml:
 | `SCORING_MODEL` | Scoring model |
 | `SUMMARY_MODEL` | Summary model |
 | `LOOKBACK_DAYS` | Lookback days |
+| `LLM_MAX_CONCURRENCY` | Cap in-flight LLM calls (0 = unlimited) |
+| `TIMEOUTS_FETCH` / `TIMEOUTS_EXTRACT` / `TIMEOUTS_LLM` | Per-stage timeouts (seconds) |
+| `DIGEST_MAX_PER_TOPIC` / `DIGEST_MIN_PER_TOPIC` / `DIGEST_MAX_TOTAL` | Digest quotas |
 | `INSIGHT_API_URL` | Worker API URL for sync |
 | `INSIGHT_SYNC_KEY` | Worker API sync key |
 
@@ -196,9 +213,12 @@ Built-in cost controls:
 |-----------|-------------|
 | Rule prefilter | Drop titles < 5 chars, content < 100 chars without AI keywords |
 | 150+ keywords | AI tech, business models, growth, ecommerce, open source |
+| Full-text extraction | Only triggered when RSS content < 400 chars (avoids unnecessary fetches) |
 | Jaccard dedup | Title similarity > 0.4 before LLM check |
 | 90-day history dedup | Already-pushed URLs are skipped |
 | Content cap | 4000 chars max per article |
+| why_now fact-check | Regex-based grounding check, no extra LLM call |
+| LLM concurrency cap | Optional semaphore (default off) proactively reduces 429 storms |
 
 Typical cost per run: **~$0.01-0.02** (DeepSeek V4 Flash).
 
@@ -206,9 +226,13 @@ Typical cost per run: **~$0.01-0.02** (DeepSeek V4 Flash).
 
 ## Reliability
 
-- **Auto retry**: 3 attempts with exponential backoff (2s, 4s) for 429/5xx/timeout
+- **tenacity retry**: exponential backoff for 429/5xx/timeout (401 fails immediately); 429s are retried, and the optional concurrency semaphore proactively reduces their occurrence
+- **Provider fallback**: configurable primary → fallback model/base_url so a single provider outage doesn't kill the run
+- **Atomic writes**: all output files written via temp-file + atomic rename, so a crashed run can't leave a half-written digest
+- **Pydantic score validation**: LLM scoring responses are schema-validated before use, rejecting malformed JSON
 - **Feed health monitoring**: tracks per-feed success/failure, warns at ≥ 3 consecutive failures
 - **Empty run protection**: 0 articles passing quality filter → exits without overwriting `latest.json`
+- **Same-day URL dedup**: keeps the highest-scored article per URL within a single run
 
 ---
 
@@ -218,19 +242,26 @@ Typical cost per run: **~$0.01-0.02** (DeepSeek V4 Flash).
 ai-daily-pulse/
 ├── main.py                      # Entry: fetch → dedup → score → trends → insights → write
 ├── config.toml                  # AI model & pipeline config
-├── feeds.toml                   # RSS feed list (47 sources)
+├── feeds.toml                   # RSS feed list (51 sources)
 ├── requirements.txt             # Python dependencies
 │
 ├── src/                         # Python pipeline
-│   ├── config.py                # Config loader (env overrides)
-│   ├── feeds.py                 # RSS fetch, content cleanup, rule prefilter
+│   ├── config.py                # Config loader (env overrides, section prefixes)
+│   ├── models.py                # Pydantic ContentItem + ScoreResult models
+│   ├── llm.py                   # LLMClient: retry, provider fallback, concurrency semaphore
+│   ├── scrapers/                # Scraper abstraction
+│   │   ├── base.py              # BaseScraper interface
+│   │   └── rss.py               # RSS fetch + trafilatura full-text fallback
+│   ├── feeds.py                 # Feed loading + concurrent fetch orchestration
 │   ├── feed_health.py           # Feed health monitoring
 │   ├── history.py               # URL history dedup (90-day window)
-│   ├── scorer.py                # AI scoring, Jaccard dedup, bilingual summaries, why_now
+│   ├── dedup.py                 # Jaccard + LLM precise dedup
+│   ├── scorer.py                # AI scoring, bilingual summaries, why_now + fact-check
 │   ├── trends.py                # Trend detection: LLM tag cross-source clustering
 │   ├── insights.py              # Build directions + social media copy (bilingual)
+│   ├── file_utils.py            # Atomic write helpers
 │   ├── sync_insights.py         # Sync directions to Worker API
-│   └── writer.py                # Digest JSON output
+│   └── writer.py                # Digest JSON output + quota enforcement
 │
 ├── web/                         # Next.js 16 frontend
 │   ├── app/[locale]/
@@ -273,7 +304,7 @@ ai-daily-pulse/
 ## Pipeline Flow
 
 ```
-fetch (8 concurrent) → prefilter (rules) → history dedup (URL) → score (4 concurrent) → dedup (Jaccard+LLM) → summarize_zh (4 concurrent) → summarize_en (4 concurrent) → why_now (score≥7) → trend_detect (tags) → insights (build directions + social posts) → write (JSON) → sync to Worker API
+fetch (8 concurrent) → fulltext extract (if content thin) → prefilter (rules) → history dedup (URL) → score (4 concurrent) → dedup (Jaccard+LLM) → summarize_zh (4 concurrent) → summarize_en (4 concurrent) → why_now (score≥7, fact-checked) → trend_detect (tags) → insights (build directions + social posts) → write (JSON, quota-enforced) → sync to Worker API
 ```
 
 ---
