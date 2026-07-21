@@ -121,6 +121,16 @@ name = "MIT Technology Review AI"
 url = "https://www.technologyreview.com/topic/artificial-intelligence/feed"
 lang = "en"
 
+[[feeds]]
+name = "Nature"
+url = "https://www.nature.com/nature.rss"
+lang = "en"
+
+[[feeds]]
+name = "Quanta Magazine"
+url = "https://api.quantamagazine.org/feed/"
+lang = "en"
+
 # ── 商业趋势 ──────────────────────────────────────────────────
 [[feeds]]
 name = "Trends.vc"
@@ -167,6 +177,17 @@ lang = "en"
 [[feeds]]
 name = "量子位"
 url = "https://www.qbitai.com/feed"
+lang = "zh"
+
+# 量子位公众号（via wechat2rss）：与官网 RSS 互补，官网偏产业新闻、公众号偏作者观点
+[[feeds]]
+name = "量子位（公众号）"
+url = "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml"
+lang = "zh"
+
+[[feeds]]
+name = "新智元"
+url = "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml"
 lang = "zh"
 
 [[feeds]]
