@@ -10,6 +10,10 @@ price_out_per_m = 0
 fallback_base_url = ""
 fallback_api_key = ""
 fallback_model = ""
+# 并发限流：同时在飞的 LLM 请求数上限。0=不限。
+# provider 限流时调小此值可减少 429；429 仍会走 tenacity 退避重试。
+# env: LLM_MAX_CONCURRENCY
+max_concurrency = 0
 
 [last30days]
 enabled = true
@@ -31,3 +35,16 @@ log_level = "INFO"
 
 [insight]
 sync_enabled = true
+
+[timeouts]
+# 各环节超时（秒）。env: TIMEOUTS_FETCH / TIMEOUTS_EXTRACT / TIMEOUTS_LLM
+fetch = 15       # RSS 抓取（原 fetch_timeout 迁移至此）
+extract = 20     # trafilatura 全文提取
+llm = 60         # 单次 LLM 调用
+
+[digest]
+# digest 配额：防止单 topic 刷屏。
+# env: DIGEST_MAX_PER_TOPIC / DIGEST_MIN_PER_TOPIC / DIGEST_MAX_TOTAL
+max_per_topic = 8   # 每 topic 最多入选条数
+min_per_topic = 1   # 每 topic 至少保留条数（若有）
+max_total = 60      # 全 digest 总上限（按 score 全局降序截断）

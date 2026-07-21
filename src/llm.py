@@ -178,6 +178,11 @@ class LLMClient:
                 "model": fb_model,
                 "label": "fallback",
             }
+        self._timeout = cfg.get("timeouts_llm", 60)
+        max_conc = cfg.get("max_concurrency", 0) or 0
+        self._sem: Optional[threading.Semaphore] = (
+            threading.Semaphore(max_conc) if max_conc > 0 else None
+        )
 
     def _provider(self, spec: dict) -> OpenAI:
         return OpenAI(api_key=spec["api_key"], base_url=spec["base_url"])
@@ -201,6 +206,15 @@ class LLMClient:
         last_err: Optional[Exception] = None
         for idx, spec in enumerate(providers):
             try:
+                if self._sem is not None:
+                    with self._sem:
+                        return self._call_with_retry(
+                            spec,
+                            model or spec["model"],
+                            prompt,
+                            max_tokens=max_tokens,
+                            json_mode=json_mode,
+                        )
                 return self._call_with_retry(
                     spec,
                     model or spec["model"],
@@ -259,6 +273,7 @@ class LLMClient:
             "model": model,
             "max_tokens": max_tokens,
             "messages": [{"role": "user", "content": prompt}],
+            "timeout": self._timeout,
         }
         if json_mode:
             kwargs["response_format"] = {"type": "json_object"}

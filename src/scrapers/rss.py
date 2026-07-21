@@ -54,6 +54,36 @@ def _extract_content(entry) -> str:
     return _clean_html(raw)
 
 
+# Threshold below which we attempt full-text extraction. RSS summaries are
+# often truncated/garbled (notably WeWe / 微信公众号), so when the feed gives
+# us less than this we try to fetch the article URL directly.
+_FULLTEXT_MIN_CHARS = 400
+
+
+def extract_fulltext(url: str, timeout: int = 20) -> str:
+    """Fetch `url` and extract main-text via trafilatura. Returns '' on any failure.
+
+    trafilatura is imported lazily so the pipeline still runs if the optional
+    dependency is absent (we just skip extraction and keep the RSS content).
+    """
+    if not url:
+        return ""
+    try:
+        import trafilatura  # lazy import
+    except ImportError:
+        logger.warning("trafilatura not installed; skipping full-text extraction for %s", url)
+        return ""
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            return ""
+        text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
+        return text or ""
+    except Exception as e:
+        logger.debug("full-text extraction failed for %s: %s", url, e)
+        return ""
+
+
 class RssScraper(BaseScraper):
     """Fetch articles from a list of RSS feeds within a lookback window."""
 
@@ -64,6 +94,7 @@ class RssScraper(BaseScraper):
         timeout: int = 60,
         content_cap: int = 4000,
         workers: int = 8,
+        extract_timeout: int = 20,
     ):
         super().__init__({
             "feeds": feeds,
@@ -71,12 +102,14 @@ class RssScraper(BaseScraper):
             "timeout": timeout,
             "content_cap": content_cap,
             "workers": workers,
+            "extract_timeout": extract_timeout,
         })
         self.feeds = feeds
         self.lookback_days = lookback_days
         self.timeout = timeout
         self.content_cap = content_cap
         self.workers = workers
+        self.extract_timeout = extract_timeout
 
     def fetch(self) -> tuple[list[dict], list[dict]]:
         """Fetch all feeds concurrently.
@@ -125,6 +158,16 @@ class RssScraper(BaseScraper):
 
             content = _extract_content(entry)
             title = entry.get("title", "").strip()
+            url = entry.get("link", "")
+
+            # If the feed gave us thin/garbled content, try fetching the full
+            # article directly (trafilatura). Falls back to title if that also
+            # yields nothing usable.
+            if len(content.strip()) < _FULLTEXT_MIN_CHARS and url:
+                full = extract_fulltext(url, timeout=self.extract_timeout)
+                if len(full.strip()) >= _FULLTEXT_MIN_CHARS:
+                    content = full
+
             if not content or len(content.strip()) < 100:
                 if title:
                     content = title
@@ -133,7 +176,7 @@ class RssScraper(BaseScraper):
 
             articles.append({
                 "title": title,
-                "url": entry.get("link", ""),
+                "url": url,
                 "content": content[:self.content_cap],
                 "source": feed["name"],
                 "lang": feed["lang"],

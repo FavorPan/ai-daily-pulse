@@ -282,3 +282,52 @@ def test_usage_tracking_accumulates():
     usage = llm_mod.get_usage()
     assert usage["input"] == 100
     assert usage["output"] == 50
+
+
+# --- Concurrency limiting (semaphore) ---
+
+def test_semaphore_caps_in_flight_when_configured():
+    """With max_concurrency=2, at most 2 complete() calls run simultaneously."""
+    import threading
+    import time
+
+    peak = 0
+    cur = 0
+    lock = threading.Lock()
+
+    class TrackingCompletions(FakeCompletions):
+        def create(self, **kwargs):
+            nonlocal peak, cur
+            with lock:
+                cur += 1
+                peak = max(peak, cur)
+            time.sleep(0.02)  # hold the slot briefly so concurrency is observable
+            with lock:
+                cur -= 1
+            return FakeResponse('{"ok": true}')
+
+    class TrackingOpenAI:
+        def __init__(self):
+            self.chat = type("C", (), {"completions": TrackingCompletions("")})()
+
+    llm = LLMClient(_cfg(max_concurrency=2))
+    llm._provider = lambda spec: TrackingOpenAI()  # type: ignore[assignment]
+
+    import concurrent.futures
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(lambda _: llm.complete("p", max_tokens=100, json_mode=True), range(10)))
+
+    assert peak <= 2, f"peak in-flight {peak} exceeded cap 2"
+    assert peak >= 2, "semaphore never saturated — test may not be exercising concurrency"
+
+
+def test_no_semaphore_when_max_concurrency_zero():
+    """max_concurrency=0 means unlimited; _sem is None."""
+    llm = LLMClient(_cfg(max_concurrency=0))
+    assert llm._sem is None
+
+
+def test_no_semaphore_when_unset():
+    """Default config (no max_concurrency key) means unlimited."""
+    llm = LLMClient(_cfg())
+    assert llm._sem is None

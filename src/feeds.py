@@ -132,7 +132,8 @@ def _prefilter_articles(articles: list[dict]) -> list[dict]:
 
 
 def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,
-              timeout: int = 60, content_cap: int = 4000, workers: int = 8) -> tuple[list[dict], list[dict]]:
+              timeout: int = 60, content_cap: int = 4000, workers: int = 8,
+              extract_timeout: int = 20) -> tuple[list[dict], list[dict]]:
     feeds = load_feeds(config_path)
     scraper = RssScraper(
         feeds,
@@ -140,6 +141,7 @@ def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,
         timeout=timeout,
         content_cap=content_cap,
         workers=workers,
+        extract_timeout=extract_timeout,
     )
     articles, feed_results = scraper.fetch()
     return _prefilter_articles(articles), feed_results

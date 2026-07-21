@@ -11,6 +11,46 @@ def url_to_id(url: str) -> str:
     return hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
 
 
+def apply_quotas(articles: list[dict], cfg: dict | None = None) -> list[dict]:
+    """Apply per-topic and total caps to balance the digest.
+
+    - Each topic keeps at most ``digest_max_per_topic`` articles (highest score first).
+    - Each topic with any articles keeps at least ``digest_min_per_topic``.
+    - If total exceeds ``digest_max_total``, truncate by global score descending.
+    """
+    if not articles:
+        return articles
+    cfg = cfg or {}
+    max_per = cfg.get("digest_max_per_topic", 0) or 0
+    min_per = cfg.get("digest_min_per_topic", 0) or 0
+    max_total = cfg.get("digest_max_total", 0) or 0
+
+    # Group by topic, each group sorted by score desc.
+    by_topic: dict[str, list[dict]] = {}
+    for a in articles:
+        by_topic.setdefault(a.get("topic", "未分类"), []).append(a)
+    for group in by_topic.values():
+        group.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    selected: list[dict] = []
+    if max_per > 0:
+        for topic, group in by_topic.items():
+            take = group[:max_per]
+            # Guarantee the minimum if the topic had enough articles.
+            if min_per > 0 and len(take) < min_per and len(group) >= min_per:
+                take = group[:min_per]
+            selected.extend(take)
+    else:
+        selected = list(articles)
+
+    # Global total cap: keep highest-scoring across all topics.
+    if max_total > 0 and len(selected) > max_total:
+        selected.sort(key=lambda x: x.get("score", 0), reverse=True)
+        selected = selected[:max_total]
+
+    return selected
+
+
 def build_digest_json(articles: list[dict], date: str, insights: dict | None = None) -> dict:
     """Build JSON digest for the web frontend."""
     sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
@@ -57,10 +97,12 @@ def write_digest_json(
     output_dir: str = "output",
     date: str | None = None,
     insights: dict | None = None,
+    cfg: dict | None = None,
 ) -> str:
     """Write digest-{date}.json and latest.json. Returns dated file path."""
     if date is None:
         date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    articles = apply_quotas(articles, cfg)
     payload = build_digest_json(articles, date, insights)
     os.makedirs(output_dir, exist_ok=True)
     dated_path = os.path.join(output_dir, f"digest-{date}.json")

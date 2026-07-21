@@ -63,6 +63,7 @@ def main():
         timeout=cfg["fetch_timeout"],
         content_cap=cfg["content_cap"],
         workers=cfg["fetch_workers"],
+        extract_timeout=cfg.get("timeouts_extract", 20),
     )
     t_fetch = time.monotonic() - t_fetch
     fetched_count = len(articles)
@@ -124,7 +125,7 @@ def main():
                 len(insights.get("directions", [])))
 
     t_write = time.monotonic()
-    json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights)
+    json_path = write_digest_json(kept, output_dir=cfg["output_dir"], date=today, insights=insights, cfg=cfg)
     t_write = time.monotonic() - t_write
 
     logger.info("Done. Web digest JSON: %s", json_path)

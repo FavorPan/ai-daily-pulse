@@ -68,3 +68,26 @@ def test_env_numeric_override(tmp_path, monkeypatch):
     assert isinstance(cfg["lookback_days"], int)
     assert cfg["content_cap"] == 8000
     assert isinstance(cfg["content_cap"], int)
+
+
+def test_timeouts_section_parsed_with_prefix(tmp_path):
+    path = tmp_path / "config.toml"
+    path.write_text(
+        "[timeouts]\nfetch = 30\nextract = 25\nllm = 90\n",
+        encoding="utf-8",
+    )
+    cfg = load_config(str(path))
+    assert cfg["timeouts_fetch"] == 30
+    assert cfg["timeouts_extract"] == 25
+    assert cfg["timeouts_llm"] == 90
+    # fetch_timeout mirrors timeouts_fetch for back-compat.
+    assert cfg["fetch_timeout"] == 30
+
+
+def test_timeouts_env_override(tmp_path, monkeypatch):
+    path = tmp_path / "config.toml"
+    path.write_text("", encoding="utf-8")
+    monkeypatch.setenv("TIMEOUTS_LLM", "120")
+    cfg = load_config(str(path))
+    assert cfg["timeouts_llm"] == 120
+    assert isinstance(cfg["timeouts_llm"], int)

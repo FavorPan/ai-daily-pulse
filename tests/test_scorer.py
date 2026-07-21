@@ -113,3 +113,42 @@ def test_score_result_non_dict_degrades():
     r = ScoreResult.from_raw("not a dict")  # type: ignore[arg-type]
     assert r.score == 0
     assert r.topic == "无关"
+
+
+# --- why_now fact-check ---
+
+from src.scorer import verify_why_now, _fact_tokens
+
+
+def test_fact_tokens_extracts_numbers_and_quoted_and_proper():
+    text = 'OpenAI released Claude, price cut 50%, "Project Strawberry" live'
+    tokens = _fact_tokens(text)
+    assert "project strawberry" in tokens
+    assert any("50" in t for t in tokens)
+    assert "openai" in tokens
+    assert "claude" in tokens
+
+
+def test_verify_why_now_passes_when_grounded():
+    content = "OpenAI released GPT-5 with 50% price drop on Project Strawberry."
+    why = "GPT-5 dropped prices by 50%."
+    assert verify_why_now(why, content) == why
+
+
+def test_verify_why_now_blanks_hallucination():
+    content = "Some unrelated article about cats and dogs."
+    why = "GPT-5 launched at $99 with 90% discount on Project Strawberry."
+    # Most fact tokens absent from content -> blanked.
+    assert verify_why_now(why, content) == ""
+
+
+def test_verify_why_now_short_passes_through():
+    """A why_now with <=2 fact tokens is too thin to judge; pass through."""
+    content = "Unrelated content here."
+    why = "刚刚发布的 API 降价了。"
+    assert verify_why_now(why, content) == why
+
+
+def test_verify_why_now_empty_returns_empty():
+    assert verify_why_now("", "content") == ""
+    assert verify_why_now("   ", "content") == ""

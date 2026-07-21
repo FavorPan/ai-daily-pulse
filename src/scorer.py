@@ -139,6 +139,63 @@ DEDUP_PROMPT = """以下是一批通过质量筛选的文章列表，格式为 [
 # scorer re-exports get_usage/reset_usage for main.py compatibility.
 
 
+# --- why_now fact-check (lightweight anti-hallucination) ---
+#
+# Extracts "fact tokens" from a why_now sentence (numbers, quoted names,
+# Capitalized proper nouns) and verifies each appears in the source content.
+# If a majority of fact tokens are absent, the why_now is likely fabricated
+# and we blank it out rather than surface a hallucination.
+
+import re as _re
+
+_FACT_NUMBER = _re.compile(r"\d+(?:\.\d+)?\s?(?:%|\$|万|亿|k|K|M|B|亿美金)?")
+_FACT_QUOTED = _re.compile(r"[\"“]([^\"”]{2,})[\"”]")
+_FACT_PROPER = _re.compile(r"\b[A-Z][a-zA-Z0-9]{2,}\b")
+
+
+def _fact_tokens(text: str) -> list[str]:
+    """Extract checkable fact tokens (lowercased) from a why_now sentence."""
+    tokens: list[str] = []
+    for m in _FACT_QUOTED.finditer(text):
+        tokens.append(m.group(1).lower())
+    for m in _FACT_NUMBER.finditer(text):
+        tokens.append(m.group(0).strip().lower())
+    for m in _FACT_PROPER.finditer(text):
+        word = m.group(0).lower()
+        if word not in ("the", "this", "that", "these", "those", "now", "today",
+                        "api", "ai", "llm", "gpt", "new", "why"):
+            tokens.append(word)
+    # dedupe, preserve order
+    seen: set[str] = set()
+    out: list[str] = []
+    for t in tokens:
+        if t and t not in seen:
+            seen.add(t)
+            out.append(t)
+    return out
+
+
+def verify_why_now(why_now: str, content: str) -> str:
+    """Return why_now if its fact tokens are mostly grounded in content, else ''.
+
+    A why_now with <=2 fact tokens is too thin to judge and passes through.
+    Otherwise, if more than half the tokens are absent from content, treat it
+    as a likely hallucination and blank it.
+    """
+    if not why_now or len(why_now.strip()) < 4:
+        return ""
+    tokens = _fact_tokens(why_now)
+    if len(tokens) <= 2:
+        return why_now
+    content_lower = content.lower()
+    grounded = sum(1 for t in tokens if t in content_lower)
+    if grounded < (len(tokens) + 1) // 2:
+        logger.debug("why_now fact-check failed (%d/%d grounded): %s",
+                     grounded, len(tokens), why_now)
+        return ""
+    return why_now
+
+
 def score_article(article: dict, llm: LLMClient, model: str) -> dict:
     prompt = SCORE_PROMPT.format(
         title=article["title"],
@@ -199,7 +256,7 @@ def generate_why_now(article: dict, llm: LLMClient, model: str) -> str:
         text = result.strip().strip('"').strip("'")
         if len(text) < 4:
             return ""
-        return text
+        return verify_why_now(text, content)
     except Exception as e:
         logger.warning("Why-now failed for '%s': %s", article['title'], e)
         return ""
@@ -214,7 +271,7 @@ def generate_why_now_en(article: dict, llm: LLMClient, model: str) -> str:
         text = result.strip().strip('"').strip("'")
         if len(text) < 4:
             return ""
-        return text
+        return verify_why_now(text, content)
     except Exception as e:
         logger.warning("Why-now-en failed for '%s': %s", article['title'], e)
         return ""
