@@ -3,6 +3,8 @@ import logging
 import os
 from datetime import datetime, timezone
 
+from src.file_utils import atomic_write_text
+
 logger = logging.getLogger(__name__)
 
 
@@ -17,11 +19,8 @@ def load_feed_health(path: str) -> dict[str, dict]:
 
 
 def save_feed_health(path: str, health: dict[str, dict]) -> None:
-    parent = os.path.dirname(path)
-    if parent:
-        os.makedirs(parent, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(health, f, ensure_ascii=False, indent=2)
+    text = json.dumps(health, ensure_ascii=False, indent=2)
+    atomic_write_text(path, text)
 
 
 def check_feed_health(health: dict[str, dict], feed_results: list[dict]) -> dict[str, dict]:

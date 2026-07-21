@@ -157,3 +157,20 @@ def test_save_history_roundtrips_with_load_history(tmp_path):
     ]
     save_history(str(path), entries)
     assert load_history(str(path)) == entries
+
+
+def test_filter_unseen_normalizes_tracking_params():
+    """A URL with utm params should match a bare URL in history."""
+    articles = [{"url": "https://a.com/post?utm_source=twitter&utm_medium=social", "title": "A"}]
+    history = [{"url": "https://a.com/post", "pushed_at": "2026-04-15", "title": "A", "score": 8}]
+    unseen, skipped = filter_unseen(articles, history, days=90, today="2026-04-21")
+    assert unseen == []
+    assert len(skipped) == 1
+
+
+def test_filter_unseen_normalizes_trailing_slash_and_scheme_case():
+    articles = [{"url": "HTTPS://a.com/post/", "title": "A"}]
+    history = [{"url": "https://a.com/post", "pushed_at": "2026-04-15", "title": "A", "score": 8}]
+    unseen, skipped = filter_unseen(articles, history, days=90, today="2026-04-21")
+    assert unseen == []
+    assert len(skipped) == 1

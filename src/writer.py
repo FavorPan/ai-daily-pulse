@@ -3,6 +3,8 @@ import json
 import os
 from datetime import datetime, timezone
 
+from src.file_utils import atomic_write_text
+
 
 def url_to_id(url: str) -> str:
     """Stable short id for web routes from article URL."""
@@ -64,9 +66,7 @@ def write_digest_json(
     dated_path = os.path.join(output_dir, f"digest-{date}.json")
     latest_path = os.path.join(output_dir, "latest.json")
     text = json.dumps(payload, ensure_ascii=False, indent=2)
-    with open(dated_path, "w", encoding="utf-8") as f:
-        f.write(text)
-    with open(latest_path, "w", encoding="utf-8") as f:
-        f.write(text)
+    atomic_write_text(dated_path, text)
+    atomic_write_text(latest_path, text)
 
     return dated_path

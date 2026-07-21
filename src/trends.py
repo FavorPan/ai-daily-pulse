@@ -11,6 +11,8 @@ import logging
 import re
 from collections import defaultdict
 
+from src.models import Article
+
 logger = logging.getLogger(__name__)
 
 # 停用词：太通用的词不参与聚类
@@ -86,28 +88,17 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
     if not articles:
         return articles
 
+    # Bridge to Article for safe field access; tags are normalized by from_dict.
+    arts = [Article.from_dict(a) for a in articles]
+
     # 构建 keyword -> set(sources) 映射
     keyword_sources: dict[str, set[str]] = defaultdict(set)
-    keyword_articles: dict[str, list[dict]] = defaultdict(list)
 
-    for a in articles:
-        # 优先用 LLM 标签（更精准），再补充文本关键词
-        tags = a.get("tags", [])
-        if isinstance(tags, str):
-            tags = [t.strip() for t in tags.split(",") if t.strip()]
-        elif not isinstance(tags, list):
-            tags = []
-        keywords = set()
-        # LLM 标签直接作为关键词（不拆分，保留完整短语）
-        for tag in tags:
-            tag_clean = tag.strip().lower()
-            if len(tag_clean) >= 2 and tag_clean not in _STOPWORDS:
-                keywords.add(tag_clean)
-
-        source = a.get("source", "unknown")
+    for art in arts:
+        keywords = _article_keywords(art)
+        source = art.source or "unknown"
         for kw in keywords:
             keyword_sources[kw].add(source)
-            keyword_articles[kw].append(a)
 
     # 找出跨源命中的关键词
     strong_signals = {
@@ -118,11 +109,12 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
 
     if not strong_signals:
         logger.info("Trend detection: no strong signals found (need %d+ sources)", min_sources)
-        for a in articles:
-            a["trend_signal"] = False
-            a["trend_topic"] = ""
-            a["trend_source_count"] = 0
-            a["trend_confidence"] = ""
+        for art in arts:
+            art.trend_signal = False
+            art.trend_topic = ""
+            art.trend_source_count = 0
+            art.trend_confidence = ""
+        _write_back(articles, arts)
         return articles
 
     # 按命中源数排序，取 top 信号
@@ -133,23 +125,13 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
         logger.info("  '%s' — %d sources: %s", kw, len(sources), ", ".join(sorted(sources)[:5]))
 
     # 标记文章
-    for a in articles:
-        a["trend_signal"] = False
-        a["trend_topic"] = ""
-        a["trend_source_count"] = 0
-        a["trend_confidence"] = ""
+    for art in arts:
+        art.trend_signal = False
+        art.trend_topic = ""
+        art.trend_source_count = 0
+        art.trend_confidence = ""
 
-        text = f"{a.get('title', '')} {a.get('summary', '')}"
-        tags = a.get("tags", [])
-        if isinstance(tags, str):
-            tags = [t.strip() for t in tags.split(",") if t.strip()]
-        elif not isinstance(tags, list):
-            tags = []
-        keywords = set()
-        for tag in tags:
-            tag_clean = tag.strip().lower()
-            if len(tag_clean) >= 2 and tag_clean not in _STOPWORDS:
-                keywords.add(tag_clean)
+        keywords = _article_keywords(art)
 
         # 找该文章命中的最强信号
         best_kw = ""
@@ -160,16 +142,37 @@ def detect_trends(articles: list[dict], min_sources: int = 3) -> list[dict]:
                 best_count = len(strong_signals[kw])
 
         if best_kw:
-            a["trend_signal"] = True
-            a["trend_topic"] = best_kw
-            a["trend_source_count"] = best_count
+            art.trend_signal = True
+            art.trend_topic = best_kw
+            art.trend_source_count = best_count
             if best_count >= 5:
-                a["trend_confidence"] = "high"
+                art.trend_confidence = "high"
             elif best_count >= 3:
-                a["trend_confidence"] = "medium"
+                art.trend_confidence = "medium"
             else:
-                a["trend_confidence"] = "low"
+                art.trend_confidence = "low"
 
-    signal_count = sum(1 for a in articles if a["trend_signal"])
-    logger.info("Trend detection: marked %d / %d articles as trend signals", signal_count, len(articles))
+    _write_back(articles, arts)
+
+    signal_count = sum(1 for art in arts if art.trend_signal)
+    logger.info("Trend detection: marked %d / %d articles as trend signals", signal_count, len(arts))
     return articles
+
+
+def _article_keywords(art: Article) -> set[str]:
+    """Keywords from an article's LLM tags (lowercased, stopwords filtered)."""
+    keywords: set[str] = set()
+    for tag in art.tags:
+        tag_clean = tag.strip().lower()
+        if len(tag_clean) >= 2 and tag_clean not in _STOPWORDS:
+            keywords.add(tag_clean)
+    return keywords
+
+
+def _write_back(articles: list[dict], arts: list[Article]) -> None:
+    """Copy trend fields from Article objects back into the original dicts."""
+    for a, art in zip(articles, arts):
+        a["trend_signal"] = art.trend_signal
+        a["trend_topic"] = art.trend_topic
+        a["trend_source_count"] = art.trend_source_count
+        a["trend_confidence"] = art.trend_confidence

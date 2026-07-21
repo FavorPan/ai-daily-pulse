@@ -1,13 +1,11 @@
-import html
 import logging
-import re
 import sys
+
 import feedparser
 import requests
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
-from dateutil import parser as dateparser
-from typing import Optional
+
+from src.scrapers.rss import RssScraper, _clean_html, _extract_content, _parse_date
 
 if sys.version_info >= (3, 11):
     import tomllib
@@ -63,36 +61,6 @@ def fetch_feed(feed: dict, lookback_days: int = 1,
         })
 
     return articles
-
-
-def _parse_date(entry) -> Optional[datetime]:
-    for field in ("published", "updated", "created"):
-        raw = entry.get(field)
-        if raw:
-            try:
-                dt = dateparser.parse(raw)
-                if dt and dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                return dt
-            except Exception:
-                continue
-    return None
-
-
-def _clean_html(raw: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", raw)
-    text = html.unescape(text)
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-def _extract_content(entry) -> str:
-    if entry.get("content"):
-        raw = entry["content"][0].get("value", "")
-    else:
-        raw = entry.get("summary", "") or entry.get("description", "")
-    return _clean_html(raw)
 
 
 AI_KEYWORDS = {
@@ -166,23 +134,12 @@ def _prefilter_articles(articles: list[dict]) -> list[dict]:
 def fetch_all(config_path: str = "feeds.toml", lookback_days: int = 1,
               timeout: int = 60, content_cap: int = 4000, workers: int = 8) -> tuple[list[dict], list[dict]]:
     feeds = load_feeds(config_path)
-    all_articles = []
-    feed_results = []
-
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        future_to_feed = {
-            executor.submit(fetch_feed, feed, lookback_days, timeout, content_cap): feed
-            for feed in feeds
-        }
-        for future in as_completed(future_to_feed):
-            feed = future_to_feed[future]
-            try:
-                articles = future.result()
-                logger.info("  %s: %d articles", feed['name'], len(articles))
-                all_articles.extend(articles)
-                feed_results.append({"name": feed["name"], "success": True, "count": len(articles)})
-            except Exception as e:
-                logger.warning("  %s: %s", feed['name'], e)
-                feed_results.append({"name": feed["name"], "success": False, "count": 0, "error": str(e)})
-
-    return _prefilter_articles(all_articles), feed_results
+    scraper = RssScraper(
+        feeds,
+        lookback_days=lookback_days,
+        timeout=timeout,
+        content_cap=content_cap,
+        workers=workers,
+    )
+    articles, feed_results = scraper.fetch()
+    return _prefilter_articles(articles), feed_results

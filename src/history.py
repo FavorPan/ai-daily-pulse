@@ -2,6 +2,9 @@ import json
 import os
 from datetime import datetime, timedelta
 
+from src.dedup import url_key
+from src.file_utils import atomic_write_text
+
 
 def load_history(path: str) -> list[dict]:
     if not os.path.exists(path):
@@ -39,10 +42,10 @@ def filter_unseen(
         except ValueError:
             continue
         if pushed_dt >= cutoff:
-            recent_urls.add(url)
+            recent_urls.add(url_key(url))
 
-    unseen = [a for a in articles if a.get("url") not in recent_urls]
-    skipped = [a for a in articles if a.get("url") in recent_urls]
+    unseen = [a for a in articles if url_key(a.get("url", "")) not in recent_urls]
+    skipped = [a for a in articles if url_key(a.get("url", "")) in recent_urls]
     return unseen, skipped
 
 
@@ -81,8 +84,5 @@ def prune_history(history: list[dict], days: int, today: str) -> list[dict]:
 
 def save_history(path: str, history: list[dict]) -> None:
     """Write history to path, creating parent dirs as needed."""
-    parent = os.path.dirname(path)
-    if parent:
-        os.makedirs(parent, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump({"pushed": history}, f, ensure_ascii=False, indent=2)
+    text = json.dumps({"pushed": history}, ensure_ascii=False, indent=2)
+    atomic_write_text(path, text)

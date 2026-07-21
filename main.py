@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from src.config import load_config
+from src.dedup import url_key
 from src.feeds import fetch_all
 from src.feed_health import check_feed_health, load_feed_health, save_feed_health
 from src.history import (
@@ -89,15 +90,15 @@ def main():
     t_score = time.monotonic() - t_score
 
     # Same-day URL dedup: keep highest-scored per URL
-    seen_urls: dict[str, dict] = {}
+    seen_urls: dict[tuple, dict] = {}
     deduped_kept = []
     for a in sorted(kept, key=lambda x: x.get("score", 0), reverse=True):
-        url = a.get("url", "")
-        if url and url in seen_urls:
+        key = url_key(a.get("url", ""))
+        if key and key in seen_urls:
             rejected.append(a)
         else:
-            if url:
-                seen_urls[url] = a
+            if key:
+                seen_urls[key] = a
             deduped_kept.append(a)
     if len(deduped_kept) < len(kept):
         logger.info("Same-day URL dedup: removed %d duplicate(s)", len(kept) - len(deduped_kept))

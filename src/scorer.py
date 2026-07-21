@@ -1,10 +1,8 @@
-import json
 import logging
-import re
-import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from openai import OpenAI, APIStatusError, RateLimitError, APIConnectionError, APITimeoutError
+
+from src.llm import LLMClient, ScoreResult, get_usage, reset_usage
 
 logger = logging.getLogger(__name__)
 
@@ -137,111 +135,21 @@ DEDUP_PROMPT = """以下是一批通过质量筛选的文章列表，格式为 [
 {{"to_remove": [2, 5, 8]}}
 只输出 JSON，不要其他文字。"""
 
-USAGE = {"input": 0, "output": 0}
-_usage_lock = threading.Lock()
+# Token/cost tracking and retry now live in src/llm.py (LLMClient).
+# scorer re-exports get_usage/reset_usage for main.py compatibility.
 
 
-def _track(response) -> None:
-    if getattr(response, "usage", None):
-        with _usage_lock:
-            USAGE["input"] += response.usage.prompt_tokens
-            USAGE["output"] += response.usage.completion_tokens
-
-
-def _reset_usage() -> None:
-    with _usage_lock:
-        USAGE["input"] = 0
-        USAGE["output"] = 0
-
-
-def get_usage() -> dict:
-    with _usage_lock:
-        return {"input": USAGE["input"], "output": USAGE["output"]}
-
-
-def _call_with_retry(client: OpenAI, model: str, prompt: str, max_tokens: int,
-                     json_mode: bool = False, attempts: int = 3):
-    last_err: Exception | None = None
-    for attempt in range(attempts):
-        kwargs = {
-            "model": model,
-            "max_tokens": max_tokens,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-        if json_mode:
-            kwargs["response_format"] = {"type": "json_object"}
-        try:
-            response = client.chat.completions.create(**kwargs)
-            _track(response)
-            if not response.choices:
-                last_err = ValueError("API returned empty choices list")
-                if attempt < attempts - 1:
-                    time.sleep(2 ** (attempt + 1))
-                continue
-            raw = (response.choices[0].message.content or "").strip()
-            if not raw:
-                last_err = ValueError("empty response content")
-                if attempt < attempts - 1:
-                    time.sleep(2 ** (attempt + 1))
-                continue
-            if json_mode:
-                match = re.search(r"\{.*\}", raw, re.DOTALL)
-                if match:
-                    raw = match.group()
-                try:
-                    result = json.loads(raw)
-                    if result is None:
-                        last_err = ValueError("JSON parsed as null")
-                        if attempt < attempts - 1:
-                            time.sleep(2 ** (attempt + 1))
-                        continue
-                    return result
-                except json.JSONDecodeError as e:
-                    last_err = e
-                    if attempt < attempts - 1:
-                        time.sleep(2 ** (attempt + 1))
-                    continue
-            return raw
-        except RateLimitError as e:
-            # 429: retry with backoff
-            last_err = e
-            if attempt < attempts - 1:
-                time.sleep(2 ** (attempt + 1))
-            continue
-        except APIStatusError as e:
-            if e.status_code == 401:
-                raise
-            if e.status_code >= 500:
-                # 5xx: retry with backoff
-                last_err = e
-                if attempt < attempts - 1:
-                    time.sleep(2 ** (attempt + 1))
-                continue
-            raise
-        except (APIConnectionError, APITimeoutError) as e:
-            # Network/transient errors: retry with backoff
-            last_err = e
-            if attempt < attempts - 1:
-                time.sleep(2 ** (attempt + 1))
-            continue
-    raise last_err  # type: ignore[misc]
-
-
-def score_article(article: dict, client: OpenAI, model: str) -> dict:
+def score_article(article: dict, llm: LLMClient, model: str) -> dict:
     prompt = SCORE_PROMPT.format(
         title=article["title"],
         content=article["content"],
     )
     try:
-        result = _call_with_retry(client, model, prompt, max_tokens=384, json_mode=True)
-        topic = result.get("topic", "无关")
-        score = int(result.get("score", 0))
-        tags = result.get("tags", [])
-        # Normalize: LLM sometimes returns tags as a comma-separated string
-        if isinstance(tags, str):
-            tags = [t.strip() for t in tags.split(",") if t.strip()]
-        elif not isinstance(tags, list):
-            tags = []
+        result = llm.complete(prompt, model=model, max_tokens=384, json_mode=True)
+        validated = ScoreResult.from_raw(result)
+        topic = validated.topic
+        score = validated.score
+        tags = validated.tags
         is_github_trending = article.get("source") == "GitHub Trending"
         threshold = 4 if is_github_trending else 5
         keep = score >= threshold and topic != "无关"
@@ -257,37 +165,37 @@ def score_article(article: dict, client: OpenAI, model: str) -> dict:
     return article
 
 
-def summarize_article(article: dict, client: OpenAI, model: str) -> str:
+def summarize_article(article: dict, llm: LLMClient, model: str) -> str:
     prompt = SUMMARY_PROMPT.format(
         title=article["title"],
         content=article["content"],
     )
     try:
-        return _call_with_retry(client, model, prompt, max_tokens=400, json_mode=False)
+        return llm.complete(prompt, model=model, max_tokens=400, json_mode=False)
     except Exception as e:
         logger.warning("Summary failed for '%s': %s", article['title'], e)
         return ""
 
 
-def summarize_article_en(article: dict, client: OpenAI, model: str) -> str:
+def summarize_article_en(article: dict, llm: LLMClient, model: str) -> str:
     """Generate English summary for an article."""
     prompt = EN_SUMMARY_PROMPT.format(
         title=article["title"],
         content=article["content"],
     )
     try:
-        return _call_with_retry(client, model, prompt, max_tokens=400, json_mode=False)
+        return llm.complete(prompt, model=model, max_tokens=400, json_mode=False)
     except Exception as e:
         logger.warning("English summary failed for '%s': %s", article['title'], e)
         return ""
 
 
-def generate_why_now(article: dict, client: OpenAI, model: str) -> str:
+def generate_why_now(article: dict, llm: LLMClient, model: str) -> str:
     """Generate a one-line 'why now' explanation for high-scoring articles."""
     content = article.get("content", "")[:4000]
     prompt = WHY_NOW_PROMPT.format(title=article["title"], content=content)
     try:
-        result = _call_with_retry(client, model, prompt, max_tokens=100, json_mode=False)
+        result = llm.complete(prompt, model=model, max_tokens=100, json_mode=False)
         text = result.strip().strip('"').strip("'")
         if len(text) < 4:
             return ""
@@ -297,12 +205,12 @@ def generate_why_now(article: dict, client: OpenAI, model: str) -> str:
         return ""
 
 
-def generate_why_now_en(article: dict, client: OpenAI, model: str) -> str:
+def generate_why_now_en(article: dict, llm: LLMClient, model: str) -> str:
     """Generate English 'why now' explanation for high-scoring articles."""
     content = article.get("content", "")[:4000]
     prompt = WHY_NOW_PROMPT_EN.format(title=article["title"], content=content)
     try:
-        result = _call_with_retry(client, model, prompt, max_tokens=100, json_mode=False)
+        result = llm.complete(prompt, model=model, max_tokens=100, json_mode=False)
         text = result.strip().strip('"').strip("'")
         if len(text) < 4:
             return ""
@@ -353,7 +261,7 @@ def _find_suspect_groups(articles: list[dict], threshold: float = 0.4) -> list[l
     return groups
 
 
-def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[list[dict], list[dict]]:
+def dedup_articles(articles: list[dict], llm: LLMClient, model: str) -> tuple[list[dict], list[dict]]:
     if len(articles) <= 1:
         return articles, []
 
@@ -380,7 +288,7 @@ def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[li
     prompt = DEDUP_PROMPT.format(articles="\n".join(lines))
 
     try:
-        result = _call_with_retry(client, model, prompt, max_tokens=384, json_mode=True)
+        result = llm.complete(prompt, model=model, max_tokens=384, json_mode=True)
         to_remove_local = set(result.get("to_remove", []))
         to_remove = {index_map[i] for i in to_remove_local if i in index_map}
     except Exception as e:
@@ -394,8 +302,8 @@ def dedup_articles(articles: list[dict], client: OpenAI, model: str) -> tuple[li
 
 
 def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[list[dict], list[dict], dict, dict]:
-    client = OpenAI(api_key=api_key, base_url=cfg["base_url"])
-    _reset_usage()
+    llm = LLMClient(cfg)
+    reset_usage()
 
     scoring_model = cfg["scoring_model"]
     summary_model = cfg["summary_model"]
@@ -408,7 +316,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
     scored = []
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
-            executor.submit(score_article, a, client, scoring_model): a
+            executor.submit(score_article, a, llm,scoring_model): a
             for a in articles
         }
         for future in as_completed(futures):
@@ -421,7 +329,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
 
     logger.info("[2/3] Deduplicating %d articles...", len(kept))
     t0 = time.monotonic()
-    kept, dupes = dedup_articles(kept, client, scoring_model)
+    kept, dupes = dedup_articles(kept, llm,scoring_model)
     rejected.extend(dupes)
     timings["dedup"] = time.monotonic() - t0
 
@@ -429,7 +337,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
     t0 = time.monotonic()
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
-            executor.submit(summarize_article, a, client, summary_model): a
+            executor.submit(summarize_article, a, llm,summary_model): a
             for a in kept
         }
         for future in as_completed(futures):
@@ -441,7 +349,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
     t0 = time.monotonic()
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
-            executor.submit(summarize_article_en, a, client, summary_model): a
+            executor.submit(summarize_article_en, a, llm,summary_model): a
             for a in kept
         }
         for future in as_completed(futures):
@@ -456,7 +364,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
         t0 = time.monotonic()
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = {
-                executor.submit(generate_why_now, a, client, summary_model): a
+                executor.submit(generate_why_now, a, llm,summary_model): a
                 for a in high_score_articles
             }
             for future in as_completed(futures):
@@ -468,7 +376,7 @@ def process_articles(articles: list[dict], api_key: str, cfg: dict) -> tuple[lis
         t0 = time.monotonic()
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = {
-                executor.submit(generate_why_now_en, a, client, summary_model): a
+                executor.submit(generate_why_now_en, a, llm,summary_model): a
                 for a in high_score_articles
             }
             for future in as_completed(futures):

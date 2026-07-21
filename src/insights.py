@@ -10,16 +10,10 @@ import logging
 import os
 import re
 import subprocess
-import time
 from collections import Counter
 
-from openai import (
-    APIStatusError,
-    APIConnectionError,
-    APITimeoutError,
-    OpenAI,
-    RateLimitError,
-)
+from src.llm import LLMClient
+from src.models import Article
 
 logger = logging.getLogger(__name__)
 
@@ -62,59 +56,19 @@ BUILD_DIRECTIONS_PROMPT = """你是一位 AI 创业顾问，面向独立开发�
 只输出 JSON，不要其他文字。"""
 
 
-def _call_llm(client: OpenAI, model: str, prompt: str, max_tokens: int = 1000,
-              attempts: int = 3) -> dict | None:
-    """Call LLM with JSON mode and retry logic, return parsed dict or None."""
-    last_err: Exception | None = None
-    for attempt in range(attempts):
-        try:
-            response = client.chat.completions.create(
-                model=model,
-                max_tokens=max_tokens,
-                messages=[{"role": "user", "content": prompt}],
-                response_format={"type": "json_object"},
-            )
-            raw = (response.choices[0].message.content or "").strip()
-            if not raw:
-                last_err = ValueError("empty response content")
-                if attempt < attempts - 1:
-                    time.sleep(2 ** (attempt + 1))
-                continue
-            match = re.search(r"\{.*\}", raw, re.DOTALL)
-            if match:
-                try:
-                    result = json.loads(match.group())
-                    if result is not None:
-                        return result
-                    last_err = ValueError("JSON parsed as null")
-                except json.JSONDecodeError as e:
-                    last_err = e
-            else:
-                last_err = ValueError(f"no JSON object found in response: {raw[:200]}")
-            if attempt < attempts - 1:
-                time.sleep(2 ** (attempt + 1))
-        except RateLimitError as e:
-            last_err = e
-            if attempt < attempts - 1:
-                time.sleep(2 ** (attempt + 1))
-        except APIStatusError as e:
-            if e.status_code == 401:
-                logger.warning("Insights LLM: 401 unauthorized, not retrying")
-                return None
-            if e.status_code >= 500:
-                last_err = e
-                if attempt < attempts - 1:
-                    time.sleep(2 ** (attempt + 1))
-            else:
-                logger.warning("Insights LLM: API error %d, not retrying", e.status_code)
-                return None
-        except (APIConnectionError, APITimeoutError) as e:
-            last_err = e
-            if attempt < attempts - 1:
-                time.sleep(2 ** (attempt + 1))
+def _call_llm(llm: LLMClient, model: str, prompt: str, max_tokens: int = 1000) -> dict | None:
+    """Call LLM in JSON mode with retry/fallback handled by LLMClient.
 
-    logger.warning("Insights LLM call failed after %d attempts: %s", attempts, last_err)
-    return None
+    Returns parsed dict, or None on failure (preserving the legacy contract).
+    """
+    try:
+        result = llm.complete(prompt, model=model, max_tokens=max_tokens, json_mode=True)
+    except Exception as e:
+        logger.warning("Insights LLM call failed: %s", e)
+        return None
+    if not isinstance(result, dict):
+        return None
+    return result
 
 
 def _tokenize(text: str) -> set[str]:
@@ -314,7 +268,7 @@ def _pick_top_discussed(
 
 def generate_build_directions(
     articles: list[dict],
-    client: OpenAI,
+    llm: LLMClient,
     model: str,
     cfg: dict,
 ) -> list[dict]:
@@ -364,18 +318,18 @@ def generate_build_directions(
     # Build prompt with article info + community data
     article_blocks = []
     for i, pick in enumerate(top_picks):
-        a = pick["article"]
+        art = Article.from_dict(pick["article"])
         pulse = pick["social_pulse"]
 
-        block = f"文章 {i + 1}: {a.get('title', '')}\n"
-        block += f"  来源: {a.get('source', '')}\n"
-        block += f"  RSS 入选评分: {a.get('score', 0)}/10\n"
-        block += f"  摘要: {a.get('summary', '')[:300]}\n"
-        block += f"  标签: {', '.join(a.get('tags', []))}\n"
-        if a.get("trend_topic"):
+        block = f"文章 {i + 1}: {art.title}\n"
+        block += f"  来源: {art.source}\n"
+        block += f"  RSS 入选评分: {art.score}/10\n"
+        block += f"  摘要: {art.summary[:300]}\n"
+        block += f"  标签: {', '.join(art.tags)}\n"
+        if art.trend_topic:
             block += (
-                f"  跨源热点: {a['trend_topic']}"
-                f" ({a.get('trend_source_count', 0)} 个源报道)\n"
+                f"  跨源热点: {art.trend_topic}"
+                f" ({art.trend_source_count} 个源报道)\n"
             )
 
         if pulse and pulse.get("total_engagement", 0) > 0:
@@ -408,7 +362,7 @@ def generate_build_directions(
         n=n,
         articles="\n\n".join(article_blocks),
     )
-    result = _call_llm(client, model, prompt, max_tokens=2000)
+    result = _call_llm(llm, model, prompt, max_tokens=2000)
 
     if not result or "projects" not in result:
         logger.warning("Build directions generation returned no result")
@@ -431,12 +385,12 @@ def generate_build_directions(
         proj.setdefault("monetization_en", None)
 
         if i < len(top_picks):
-            a = top_picks[i]["article"]
+            art = Article.from_dict(top_picks[i]["article"])
             pulse = top_picks[i]["social_pulse"]
-            proj["source_article"] = a.get("title", "")
-            proj["source_article_url"] = a.get("url", "")
-            proj["source_article_score"] = a.get("score", 0)
-            proj["source_article_source"] = a.get("source", "")
+            proj["source_article"] = art.title
+            proj["source_article_url"] = art.url
+            proj["source_article_score"] = art.score
+            proj["source_article_source"] = art.source
             if pulse and pulse.get("total_engagement", 0) > 0:
                 proj["social_pulse"] = {
                     "total_engagement": pulse["total_engagement"],
@@ -454,10 +408,10 @@ def generate_build_directions(
 
 def generate_all_insights(articles: list[dict], api_key: str, cfg: dict) -> dict:
     """Generate all insights: build directions."""
-    client = OpenAI(api_key=api_key, base_url=cfg["base_url"])
+    llm = LLMClient(cfg)
     model = cfg["summary_model"]
 
-    directions = generate_build_directions(articles, client, model, cfg)
+    directions = generate_build_directions(articles, llm, model, cfg)
 
     return {
         "directions": directions,

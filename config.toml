@@ -5,6 +5,11 @@ scoring_model = "agnes-2.0-flash"
 summary_model = "agnes-2.0-flash"
 price_in_per_m = 0
 price_out_per_m = 0
+# 可选：主 provider 故障时自动切换（留空则不启用 fallback）
+# env: FALLBACK_BASE_URL / FALLBACK_API_KEY / FALLBACK_MODEL
+fallback_base_url = ""
+fallback_api_key = ""
+fallback_model = ""
 
 [last30days]
 enabled = true
