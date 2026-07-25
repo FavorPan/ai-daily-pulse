@@ -1,156 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
-      "pushed_at": "2026-04-25",
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suur3s/qwen36_27bs_surprising_kv_cache_quantization_test/",
-      "pushed_at": "2026-04-25",
-      "title": "Qwen3.6 27B's surprising KV cache quantization test results (Turbo3/4 vs F16 vs Q8 vs Q4)",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "pushed_at": "2026-04-25",
-      "title": "dani-garcia/vaultwarden",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3781532841581576?f=rss",
-      "pushed_at": "2026-04-25",
-      "title": "9点1氪丨马斯克花4000多亿买下00后公司；世界杯决赛门票转手价近230万美元",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3780352721851397?f=rss",
-      "pushed_at": "2026-04-25",
-      "title": "融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1suz5zq/i_built_an_offline_survival_ai_update/",
-      "pushed_at": "2026-04-25",
-      "title": "I built an offline survival AI [Update]",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1suyuoo/i_built_a_cli_to_measure_the_health_of_my/",
-      "pushed_at": "2026-04-25",
-      "title": "I built a CLI to measure the health of my codebase (JS/TS)",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1suh8d4/clients_form_opinions_about_your_ai_in_the_first/",
-      "pushed_at": "2026-04-25",
-      "title": "Clients form opinions about your AI in the first few seconds of waiting for a reply",
-      "score": 7
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
-      "pushed_at": "2026-04-25",
-      "title": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/vinhnx/VTCode",
-      "pushed_at": "2026-04-25",
-      "title": "Show HN: VT Code – Rust TUI coding agent with multi-provider support",
-      "score": 7
-    },
-    {
-      "url": "https://www.npmjs.com/package/pando-proxy",
-      "pushed_at": "2026-04-25",
-      "title": "Show HN: Codex context bloat? 87% avg reduction on SWE-bench Verified traces",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/NoahCristino/llmcat",
-      "pushed_at": "2026-04-25",
-      "title": "Show HN: I built a CLI that turns your codebase into clean LLM input",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/abi/lilo",
-      "pushed_at": "2026-04-25",
-      "title": "Show HN: Lilo – a self-hosted, open-source intelligent personal OS",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/adam-s/HNswered",
-      "pushed_at": "2026-04-25",
-      "title": "Show HN: HNswered – watches for replies to your Hacker News posts and comments",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suef7t/anthropic_admits_to_have_made_hosted_models_more/",
-      "pushed_at": "2026-04-25",
-      "title": "Anthropic admits to have made hosted models more stupid, proving the importance of open weight, local models",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suh3sz/gemma_4_and_qwen_36_with_q8_0_and_q4_0_kv_cache/",
-      "pushed_at": "2026-04-25",
-      "title": "Gemma 4 and Qwen 3.6 with q8_0 and q4_0 KV cache: KL divergence results",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "pushed_at": "2026-04-25",
-      "title": "codecrafters-io/build-your-own-x",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/microsoft/typescript-go",
-      "pushed_at": "2026-04-25",
-      "title": "microsoft/typescript-go",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "pushed_at": "2026-04-25",
-      "title": "Google to invest up to $40B in Anthropic in cash and compute",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3781548853533959?f=rss",
-      "pushed_at": "2026-04-25",
-      "title": "36氪首发 | 核心团队来自微软，获近亿投资，要打通AI进厂最后一公里",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3777694346548482?f=rss",
-      "pushed_at": "2026-04-25",
-      "title": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3781546314357767?f=rss",
-      "pushed_at": "2026-04-25",
-      "title": "谷歌计划向Anthropic投资至多400亿美元，支持后者大幅扩展算力",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1663666?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-04-25",
-      "title": "刚刚，GPT-5.5 发布！Claude Code 连夜治好降智，「奥特曼瘫倒」喜提续集",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/PostHog/posthog",
-      "pushed_at": "2026-04-25",
-      "title": "PostHog/posthog",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/deepseek-ai/DeepEP",
-      "pushed_at": "2026-04-25",
-      "title": "deepseek-ai/DeepEP",
-      "score": 6
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1sveoea/real_numbers_from_my_saas_this_month_heres_what/",
       "pushed_at": "2026-04-26",
       "title": "Real numbers from my SaaS this month. Here's what they mean and how I got here",
@@ -5749,267 +5599,255 @@
       "score": 5
     },
     {
-      "url": "https://github.com/FedericoTs/quantprobe",
-      "pushed_at": "2026-07-24",
-      "title": "Show HN: Run GLM-4.5-Air(110B)on a 16GBRAM consumer machine",
-      "score": 9
-    },
-    {
-      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
-      "pushed_at": "2026-07-24",
-      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://dev.to/robertpelloni/cross-harness-tool-parity-write-one-custom-mcp-tool-deploy-it-everywhere-1elo",
+      "pushed_at": "2026-07-25",
+      "title": "Cross-Harness Tool Parity: Write One Custom MCP Tool, Deploy It Everywhere",
       "score": 8
     },
     {
-      "url": "https://www.latent.space/p/poolside",
-      "pushed_at": "2026-07-24",
-      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "url": "https://dev.to/agentdev9/my-llm-drift-tracker-flagged-four-regressions-this-week-all-four-were-wrong-2i6e",
+      "pushed_at": "2026-07-25",
+      "title": "My LLM drift tracker flagged four regressions this week. All four were wrong.",
       "score": 8
     },
     {
-      "url": "https://dev.to/xbill/teaching-codex-to-paint-a-stateful-image-editing-skill-built-on-geminis-interactions-api-and-mcp-26lc",
-      "pushed_at": "2026-07-24",
-      "title": "Teaching Codex to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP",
+      "url": "https://dev.to/dineshstack/how-to-contribute-to-an-open-source-ai-trading-bot-5a0d",
+      "pushed_at": "2026-07-25",
+      "title": "How to Contribute to an Open-Source AI Trading Bot",
       "score": 8
     },
     {
-      "url": "https://dev.to/alden_menzalji/github-copilot-vs-codex-vs-claude-code-the-real-2026-comparison-2ok4",
-      "pushed_at": "2026-07-24",
-      "title": "GitHub Copilot vs Codex vs Claude Code: The Real 2026 Comparison",
+      "url": "https://dev.to/rajveer__gill__/i-built-a-memory-layer-that-works-across-claude-chatgpt-and-cursor-and-rendered-it-as-a-3d-brain-1b9k",
+      "pushed_at": "2026-07-25",
+      "title": "I built a memory layer that works across Claude, ChatGPT and Cursor — and rendered it as a 3D brain",
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc",
-      "pushed_at": "2026-07-24",
-      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
+      "url": "https://github.com/koala73/worldmonitor",
+      "pushed_at": "2026-07-25",
+      "title": "koala73/worldmonitor",
       "score": 8
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrx3iki50075ro694xrjogs3",
-      "pushed_at": "2026-07-24",
-      "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5k08a/cachyllamas_llamacpp_fork_with_persistent_kv/",
+      "pushed_at": "2026-07-25",
+      "title": "CachyLLama’s: llama.cpp fork with persistent KV cache that makes long local-agent sessions much less painful",
       "score": 8
     },
     {
-      "url": "https://github.com/highflame-ai/ai-factory",
-      "pushed_at": "2026-07-24",
-      "title": "Show HN: AI-factory – a spec-driven pipeline that stops AI agents rotting code",
+      "url": "https://www.ifanr.com/1673060?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-25",
+      "title": "Codex 键盘第一波上手来了，有人反手让 Codex 破解了它",
       "score": 8
     },
     {
-      "url": "https://www.therundown.ai/p/openai-cyber-test-escapes-the-lab",
-      "pushed_at": "2026-07-24",
-      "title": "OpenAI’s cyber test escapes the lab",
+      "url": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv",
+      "pushed_at": "2026-07-25",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "score": 8
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
+      "pushed_at": "2026-07-25",
+      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
       "score": 7
     },
     {
-      "url": "https://dev.to/mage0535/knowledge-and-memory-management-v002-portable-knowledge-collection-and-memory-management-3lcf",
-      "pushed_at": "2026-07-24",
-      "title": "Knowledge-and-Memory-Management v0.0.2: Portable Knowledge Collection and Memory Management",
+      "url": "https://www.therundown.ai/p/black-forest-labs-teaches-video-ai-to-run-robots",
+      "pushed_at": "2026-07-25",
+      "title": "Black Forest Labs teaches video AI to run robots",
       "score": 7
     },
     {
-      "url": "https://dev.to/hexisteme/the-ai-cant-see-what-it-drew-30ph",
-      "pushed_at": "2026-07-24",
-      "title": "The AI Can't See What It Drew",
+      "url": "https://dev.to/beck_moulton/stop-guessing-your-macros-building-an-autonomous-ai-health-agent-with-autogen-and-healthkit-3abo",
+      "pushed_at": "2026-07-25",
+      "title": "Stop Guessing Your Macros: Building an Autonomous AI Health Agent with AutoGen and HealthKit",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "pushed_at": "2026-07-24",
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://dev.to/bokuwalily/automating-a-daily-morning-health-check-for-your-claude-code-setup-with-launchd-5f2d",
+      "pushed_at": "2026-07-25",
+      "title": "Automating a Daily Morning Health Check for Your Claude Code Setup with launchd",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-      "pushed_at": "2026-07-24",
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "pushed_at": "2026-07-25",
+      "title": "citrolabs/ego-lite",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714514&idx=2&sn=821d99b44f0440868bc13b3e16dbd9da",
-      "pushed_at": "2026-07-24",
-      "title": "Claude Agent突然大更新！狂塞500个技能，网友直呼疯狂",
+      "url": "https://www.reddit.com/r/SideProject/comments/1v5qfy1/i_made_a_local_ai_assistant_for_my_homelab_that/",
+      "pushed_at": "2026-07-25",
+      "title": "I made a local AI assistant for my homelab that runs on a Pi 4",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714514&idx=3&sn=5bb9b83e8925752ce4d72877c010b9e3",
-      "pushed_at": "2026-07-24",
-      "title": "AI PPT一改就崩？MemSlides登顶抱抱脸，让Agent记住你的改稿习惯",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5j35f/paper_statisticallylossless_quantization_of_large/",
+      "pushed_at": "2026-07-25",
+      "title": "[Paper] Statistically-Lossless Quantization of Large Language Models",
       "score": 7
     },
     {
-      "url": "https://www.producthunt.com/products/opencode-superapp",
-      "pushed_at": "2026-07-24",
-      "title": "OpenCode Superapp",
+      "url": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1",
+      "pushed_at": "2026-07-25",
+      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
       "score": 7
     },
     {
-      "url": "https://www.producthunt.com/products/chimlo-agents-in-your-macbook-notch",
-      "pushed_at": "2026-07-24",
-      "title": "Chimlo",
+      "url": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on",
+      "pushed_at": "2026-07-25",
+      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
       "score": 7
     },
     {
-      "url": "https://www.bensbites.com/p/caught-cheating",
-      "pushed_at": "2026-07-24",
-      "title": "Caught cheating",
+      "url": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls",
+      "pushed_at": "2026-07-25",
+      "title": "FLUX 3 x mimic：新一代视频动作模型",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/baidu-baige/LoongForge/tree/master/loongforge/embodied",
+      "pushed_at": "2026-07-25",
+      "title": "Show HN：LoongForge - High-performance training system for embodied models",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "pushed_at": "2026-07-25",
+      "title": "Introducing Claude Opus 5",
       "score": 6
     },
     {
-      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
-      "pushed_at": "2026-07-24",
-      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+      "pushed_at": "2026-07-25",
+      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
       "score": 6
     },
     {
-      "url": "https://dev.to/poetryofcode/mit-hackathon-puzzle-that-turned-into-a-data-science-project-5183",
-      "pushed_at": "2026-07-24",
-      "title": "MIT Hackathon Puzzle That Turned Into a Data Science Project",
+      "url": "https://dev.to/rafael_arantes_9833461dce/building-a-rock-music-recommender-with-mlnet-from-training-to-model-evaluation-3d5a",
+      "pushed_at": "2026-07-25",
+      "title": "Building a Rock Music Recommender with ML.NET: From Training to Model Evaluation",
       "score": 6
     },
     {
-      "url": "https://dev.to/raxxostudios/ohnine-why-i-built-a-menu-bar-app-for-claude-limits-3f25",
-      "pushed_at": "2026-07-24",
-      "title": "OhNine: Why I Built a Menu Bar App for Claude Limits",
+      "url": "https://github.com/block/buzz",
+      "pushed_at": "2026-07-25",
+      "title": "block/buzz",
       "score": 6
     },
     {
-      "url": "https://dev.to/jeremiafourie/how-i-use-claude-code-without-becoming-its-passenger-63d",
-      "pushed_at": "2026-07-24",
-      "title": "How I use Claude Code without becoming its passenger",
+      "url": "https://www.reddit.com/r/SideProject/comments/1v5r65g/built_3_n8n_workflows_that_draft_replies_for/",
+      "pushed_at": "2026-07-25",
+      "title": "Built 3 n8n workflows that draft replies for fitness studios (never auto-send)",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-      "pushed_at": "2026-07-24",
-      "title": "Anthropic updates Claude voice mode with more capable models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v59aek/hugging_face_releases_the_stack_v3_largest_open/",
+      "pushed_at": "2026-07-25",
+      "title": "Hugging Face releases The Stack v3 – largest open code dataset yet",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "pushed_at": "2026-07-24",
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5p5sf/gemma_4_26b_a4b_running_on_iphone_17_pro_via/",
+      "pushed_at": "2026-07-25",
+      "title": "Gemma 4 26B A4B running on iPhone 17 Pro via model paging",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "pushed_at": "2026-07-24",
-      "title": "Runway launches AI model router as generative media gets crowded",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5qb9b/im_impressed_by_laguna_s_21/",
+      "pushed_at": "2026-07-25",
+      "title": "I'm impressed by Laguna S 2.1",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "pushed_at": "2026-07-24",
-      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5etch/using_the_bonsai_27b_1b_quant_locally_regularly/",
+      "pushed_at": "2026-07-25",
+      "title": "Using the Bonsai 27b 1b quant locally - regularly.",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1672867?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-07-24",
-      "title": "苹果 Mac 将迎来全线换代，一种给人用，一种给 AI 用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714734&idx=3&sn=cebd2da28f59a494a9b5178084805572",
+      "pushed_at": "2026-07-25",
+      "title": "清华弄了个镜像错觉艺术生成器，支持3D打印 | CVPR'26亮点",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrxlqjnm002oroxpyia19ufa",
-      "pushed_at": "2026-07-24",
-      "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
+      "url": "https://www.ifanr.com/1673003?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-25",
+      "title": "刚拿完菲尔兹奖，他扭头加盟 OpenAI",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrwz39z703xjrobh5ex10yo7",
-      "pushed_at": "2026-07-24",
-      "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存\"作弊\"行为",
+      "url": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2",
+      "pushed_at": "2026-07-25",
+      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrwztuqg0000roqpmbblplr7",
-      "pushed_at": "2026-07-24",
-      "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
+      "url": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8",
+      "pushed_at": "2026-07-25",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
       "score": 6
     },
     {
-      "url": "https://news.ycombinator.com/item?id=49028737",
-      "pushed_at": "2026-07-24",
-      "title": "Show HN: Mumble Dictation – local dictation that learns your vocabulary",
+      "url": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j",
+      "pushed_at": "2026-07-25",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
       "score": 6
     },
     {
-      "url": "https://www.producthunt.com/products/rehello",
-      "pushed_at": "2026-07-24",
-      "title": "Rehello",
+      "url": "https://www.qbitai.com/2026/07/458687.html",
+      "pushed_at": "2026-07-25",
+      "title": "长内容创作者苦AI失忆久矣，这个新Agent漂亮填坑！门槛低到只需要会用键盘打字",
       "score": 6
     },
     {
-      "url": "https://www.producthunt.com/products/ai-eyes-2",
-      "pushed_at": "2026-07-24",
-      "title": "AI Eyes",
+      "url": "https://github.com/AngelOnFira/weblings",
+      "pushed_at": "2026-07-25",
+      "title": "weblings: Compiling Rust to WASM from inside WASM",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3907934819521670?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "独家｜混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
+      "url": "https://36kr.com/p/3909160840451465?f=rss",
+      "pushed_at": "2026-07-25",
+      "title": "氪星晚报 ｜黄仁勋力挺中国AI开源模型；市场监管总局：深入整治“内卷式”竞争",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3907953777120385?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "专访郭列：做出脸萌、FaceU、剪映等爆款后，他第一次阐释如何在AI时代做产品",
+      "url": "https://36kr.com/p/3909084356433025?f=rss",
+      "pushed_at": "2026-07-25",
+      "title": "DeepSeek不是理想��义公司，它只是把现实服务于理想",
       "score": 6
     },
     {
-      "url": "https://36kr.com/p/3906474040153220?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "硬氪首发 | 大疆系AI自然探索公司获五源、顺为投资，首创水下光学系统",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
-      "pushed_at": "2026-07-24",
-      "title": "Nvidia is sending GPUs to the moon",
+      "url": "https://www.reddit.com/r/SideProject/comments/1v5fg58/built_a_teleprompter_that_lets_you_click_through/",
+      "pushed_at": "2026-07-25",
+      "title": "Built a teleprompter that lets you click through the script while it's on screen (100+ trials in, AMA)",
       "score": 5
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrxihn0u00e7ro4jy78efqxq",
-      "pushed_at": "2026-07-24",
-      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
+      "url": "https://www.ifanr.com/1672964?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-25",
+      "title": "全世界都在讲 AI 话｜AI 器物志",
       "score": 5
     },
     {
-      "url": "https://aihot.virxact.com/items/cmrxfjpf800tero983dojzltm",
-      "pushed_at": "2026-07-24",
-      "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
+      "url": "https://www.ifanr.com/1673039?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-07-25",
+      "title": "对话腾讯副总裁林松涛：意图正在代替入口，Agent 需要一颗「小脑」",
       "score": 5
     },
     {
-      "url": "https://github.com/Amal-David/bookshelf",
-      "pushed_at": "2026-07-24",
-      "title": "Show HN: Bookshelf – book quotes that appear between Claude Code and Codex turns",
+      "url": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv",
+      "pushed_at": "2026-07-25",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
       "score": 5
     },
     {
-      "url": "https://sspai.com/post/112647",
-      "pushed_at": "2026-07-24",
-      "title": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3907676111983745?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "不拼通用能力、聚焦端侧，腾讯副总裁林松涛：Marvis专注做好系统级操作",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3907536767833473?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "36氪首发 | 前华尔街投资人下场造“手”，以“自研视触觉+软硬闭环”破解行业数据难题",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3908864340252038?f=rss",
-      "pushed_at": "2026-07-24",
-      "title": "韩国7月31日起将杠杆ETF交易的现金存款要求提高至3000万韩元",
+      "url": "https://nesbitt.io/2026/07/24/interview-with-a-maintainer.html",
+      "pushed_at": "2026-07-25",
+      "title": "Interview with a Maintainer",
       "score": 5
     }
   ]
