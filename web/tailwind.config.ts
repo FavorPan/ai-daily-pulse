@@ -23,6 +23,9 @@ const config: Config = {
         "accent-muted": "var(--accent-muted)",
         muted: "var(--muted)",
         highlight: "var(--highlight)",
+        "diff-easy": "var(--diff-easy)",
+        "diff-medium": "var(--diff-medium)",
+        "diff-hard": "var(--diff-hard)",
       },
       borderRadius: {
         card: "12px",

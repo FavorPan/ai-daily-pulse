@@ -18,12 +18,19 @@ export type DigestItem = {
 
 export type BuildProject = {
   name: string;
+  name_en?: string;
   description: string;
+  description_en?: string;
   target_user: string;
+  target_user_en?: string;
   core_features: string[];
+  core_features_en?: string[];
   related_trends: string[];
+  related_trends_en?: string[];
   why_now: string;
+  why_now_en?: string;
   monetization: string;
+  monetization_en?: string;
   difficulty: "easy" | "medium" | "hard";
   estimated_mvp_days?: number;
   social_pulse?: {

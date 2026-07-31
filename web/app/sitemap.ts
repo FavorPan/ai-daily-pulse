@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Static pages
     entries.push({
+      url: `${baseUrl}/today/`,
+      lastModified: dates[0] ? new Date(dates[0]) : new Date(),
+      changeFrequency: "daily",
+      priority: 0.9,
+    });
+    entries.push({
       url: `${baseUrl}/about/`,
       lastModified: new Date("2026-06-01"),
       changeFrequency: "monthly",

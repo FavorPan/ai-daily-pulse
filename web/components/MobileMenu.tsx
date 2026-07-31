@@ -67,7 +67,7 @@ export function MobileMenu() {
   }, [open]);
 
   const links = [
-    { href: `/${locale}`, label: t("home") },
+    { href: `/${locale}/today`, label: t("home") },
     { href: `/${locale}/explore`, label: t("explore") },
     { href: `/${locale}/builder`, label: t("builder") },
     { href: `/${locale}/about`, label: t("about") },
@@ -99,10 +99,7 @@ export function MobileMenu() {
 
         <nav className="p-4 space-y-1">
           {links.map(({ href, label }) => {
-            const isHome = href === `/${locale}`;
-            const active = isHome
-              ? pathname === href || pathname === `${href}/`
-              : pathname.startsWith(href);
+            const active = pathname === href || pathname === `${href}/` || pathname.startsWith(`${href}/`);
             return (
               <Link
                 key={href}

@@ -14,6 +14,9 @@
   --glow: rgba(37, 99, 235, 0.08);
   --card-hover: #fafafa;
   --highlight: #eff6ff;
+  --diff-easy: #047857;
+  --diff-medium: #b45309;
+  --diff-hard: #b91c1c;
 }
 
 .dark {
@@ -28,6 +31,9 @@
   --glow: rgba(59, 130, 246, 0.12);
   --card-hover: #262629;
   --highlight: #172554;
+  --diff-easy: #34d399;
+  --diff-medium: #fbbf24;
+  --diff-hard: #f87171;
 }
 
 body {

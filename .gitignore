@@ -22,3 +22,6 @@ Thumbs.db
 
 # Docs (local only)
 docs/
+
+# Playwright MCP artifacts (local dev only)
+.playwright-mcp/
