@@ -1,156 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t30xda/i_built_tutortrack_to_help_tutors_launch_manage/",
-      "pushed_at": "2026-05-03",
-      "title": "I built TutorTrack to help tutors launch, manage, and grow their tutoring practice",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t31cb9/i_got_tired_of_filling_out_the_same_job/",
-      "pushed_at": "2026-05-03",
-      "title": "I got tired of filling out the same job applications over and over, so I built an opensource desktop app that does it for me and self learn the more it applies",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t2qj3v/solo_dev_shipping_subscription_apps_but_have_no/",
-      "pushed_at": "2026-05-03",
-      "title": "Solo dev shipping subscription apps but have no budget for marketing. Publisher? growth partner? what would you do?",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t3066m/dripify_review_safe_to_use_or_asking_for_a_ban/",
-      "pushed_at": "2026-05-03",
-      "title": "dripify review - safe to use or asking for a ban?",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1t2r5ab/0_to_500k_arr_solo_with_ai_as_my_only_team/",
-      "pushed_at": "2026-05-03",
-      "title": "0 to 500K ARR, solo, with AI as my only team. already at $103K. documenting everything",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1t26swe/the_ai_startup_playbook_whats_actually_working_in/",
-      "pushed_at": "2026-05-03",
-      "title": "The AI Startup Playbook: What's Actually Working in 2026",
-      "score": 9
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
-      "pushed_at": "2026-05-03",
-      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
-      "score": 5
-    },
-    {
-      "url": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-      "pushed_at": "2026-05-03",
-      "title": "Quoting Anthropic",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2ywn7/amd_strix_halo_refresh_with_192gb/",
-      "pushed_at": "2026-05-03",
-      "title": "AMD Strix Halo refresh with 192gb!",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2rhkg/a_qwen_finetune_that_feels_very_human/",
-      "pushed_at": "2026-05-03",
-      "title": "A Qwen finetune, that feels VERY human",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2ab5y/qwen3627b_vs_codernext/",
-      "pushed_at": "2026-05-03",
-      "title": "Qwen3.6-27B vs Coder-Next",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2s7ik/what_a_time_to_be_alive_from_1tksec_to_20100tksec/",
-      "pushed_at": "2026-05-03",
-      "title": "What a time to be alive from 1tk/sec to 20-100tk/sec for huge models",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2kpzn/paper_on_hummingbird_lowcost_fpgas_for_llm/",
-      "pushed_at": "2026-05-03",
-      "title": "[Paper on Hummingbird+: low-cost FPGAs for LLM inference] Qwen3-30B-A3B Q4 at 18 t/s token-gen, 24GB, expected $150 mass production cost",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2zapy/pushing_a_5yearold_6gb_vram_laptop_to_its_limits/",
-      "pushed_at": "2026-05-03",
-      "title": "Pushing a 5-Year-Old 6GB VRAM laptop to Its Limits: Qwen3.6-35B-A3B",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2t1w4/gemma_4_e2b_runs_surprisingly_well_on_my_8gb/",
-      "pushed_at": "2026-05-03",
-      "title": "Gemma 4 E2B runs surprisingly well on my 8GB Android phone, so I built a private voice notes app around it.",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2twu1/mistral_medium_35_on_amd_strix_halo/",
-      "pushed_at": "2026-05-03",
-      "title": "Mistral Medium 3.5 on AMD Strix Halo",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t28bfj/karpathys_microgpt_running_at_50000_tps_on_an_fpga/",
-      "pushed_at": "2026-05-03",
-      "title": "Karpathy's MicroGPT running at 50,000 tps on an FPGA",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2v0zh/qwen3tts_but_in_openvino_from_scratch/",
-      "pushed_at": "2026-05-03",
-      "title": "Qwen3-TTS but in OpenVINO, from scratch",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2pisc/built_a_voice_agents_from_scratch_github_tutorial/",
-      "pushed_at": "2026-05-03",
-      "title": "Built a Voice Agents from Scratch GitHub tutorial: mic > Whisper > local LLM (GGUF) > Kokoro > speaker, fully local, no API keys",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t2m7wi/local_llm_benchmark_about_backend_generation_by/",
-      "pushed_at": "2026-05-03",
-      "title": "Local LLM Benchmark about Backend Generation by Function Calling (GLM vs Qwen vs DeepSeek)",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t25ohs/qwen3627b_vs_35b_i_prefer_35b_but_more_people/",
-      "pushed_at": "2026-05-03",
-      "title": "Qwen3.6-27B vs 35B, I prefer 35B but more people here post about 27B...",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/ruvnet/ruflo",
-      "pushed_at": "2026-05-03",
-      "title": "ruvnet/ruflo",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3793154827000832?f=rss",
-      "pushed_at": "2026-05-03",
-      "title": "韩国政府将向AI初创公司Upstage投资5600亿韩元",
-      "score": 8
-    },
-    {
-      "url": "https://www.ifanr.com/1664765?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-03",
-      "title": "OpenAI「复活」了 QQ宠物，网友直接玩疯，把奥特曼和他死对头都养在了电脑里",
-      "score": 7
-    },
-    {
-      "url": "http://www.geekpark.net/news/363698",
-      "pushed_at": "2026-05-03",
-      "title": "张雪机车夺得 WSBK 第三冠；传苹果正在酝酿一笔大型 AI 收购；创始人加入后，OpenAI 宣布开放 OpenClaw 直连｜极客早知道",
-      "score": 8
-    },
-    {
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3vlrx/fastdms_64x_kvcache_compression_running_faster/",
       "pushed_at": "2026-05-04",
       "title": "FastDMS: 6.4X KV-cache compression running faster than vLLM BF16/FP8",
@@ -4477,45 +4327,57 @@
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/07/464277.html",
-      "pushed_at": "2026-08-01",
-      "title": "视频后期，危！MiniMax H3手绘即特效，多模态的「Coding时刻」来了",
+      "url": "https://github.com/1jehuang/jcode",
+      "pushed_at": "2026-08-02",
+      "title": "1jehuang/jcode",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
-      "pushed_at": "2026-08-01",
-      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+      "url": "https://github.com/JamelHammoud/crew",
+      "pushed_at": "2026-08-02",
+      "title": "Show HN: Crew, a local collaborative (people and agents) IDE",
       "score": 7
     },
     {
-      "url": "https://www.ifanr.com/1673481?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-08-01",
-      "title": "Seedance 级别的全模态控制，MiniMax H3 的商业视频成片新解法",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/EXXETA/exxperts",
-      "pushed_at": "2026-08-01",
-      "title": "Show HN: Agents that learn and remember. On your machine, under your control",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/CyrusNuevoDia/skill-language-server",
-      "pushed_at": "2026-08-01",
-      "title": "Show HN: An LSP for agent skills–rename, references, completion, and diagnostics",
+      "url": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
+      "pushed_at": "2026-08-02",
+      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "pushed_at": "2026-08-01",
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://watm.ddyo.dev/",
+      "pushed_at": "2026-08-02",
+      "title": "Show HN: Wage Against the Machine – MacWages Index for AI Tasks",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/emsi/OneNoteViewer",
+      "pushed_at": "2026-08-02",
+      "title": "Show HN: Open OneNote Viewer in Rust",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "pushed_at": "2026-08-02",
+      "title": "microsoft/AI-For-Beginners",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "pushed_at": "2026-08-01",
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "url": "https://www.qbitai.com/2026/08/464781.html",
+      "pushed_at": "2026-08-02",
+      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/464412.html",
+      "pushed_at": "2026-08-02",
+      "title": "Anthropic模型，也失控了。。。",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3920416879062662?f=rss",
+      "pushed_at": "2026-08-02",
+      "title": "中国—乌兹别克斯坦AEO互认安排正式实施",
       "score": 5
     }
   ]
