@@ -1,150 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3vlrx/fastdms_64x_kvcache_compression_running_faster/",
-      "pushed_at": "2026-05-04",
-      "title": "FastDMS: 6.4X KV-cache compression running faster than vLLM BF16/FP8",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/czlonkowski/n8n-mcp",
-      "pushed_at": "2026-05-04",
-      "title": "czlonkowski/n8n-mcp",
-      "score": 9
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
-      "pushed_at": "2026-05-04",
-      "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3hokh/llmsearchindex_an_open_source_local_web_search/",
-      "pushed_at": "2026-05-04",
-      "title": "LLMSearchIndex- an Open Source Local Web Search Library with over 200 million indexed Web Pages for RAG applications",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3eixr/deep_research_report_a_la_mckinsey_with_hermes/",
-      "pushed_at": "2026-05-04",
-      "title": "Deep research + report \"a la McKinsey\" with Hermes Agent and qwen3.6-35b-a3b Q6_K.",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3u4r0/best_llama_config_for_turboquant_plus_stats_below/",
-      "pushed_at": "2026-05-04",
-      "title": "Best Llama Config for Turboquant_Plus? (Stats below)",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3j126/m3_ultra_dgx_spark_m5_ultralite/",
-      "pushed_at": "2026-05-04",
-      "title": "M3 Ultra + DGX Spark = M5 Ultra-lite?",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "pushed_at": "2026-05-04",
-      "title": "Hmbown/DeepSeek-TUI",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t3snjc/i_built_the_memory_layer_i_wish_existed_when_my/",
-      "pushed_at": "2026-05-04",
-      "title": "I built the memory layer I wish existed when my AI agent kept asking the same questions",
-      "score": 7
-    },
-    {
-      "url": "https://byallo.com/",
-      "pushed_at": "2026-05-04",
-      "title": "Show HN: ByAllo – the online bookstore that runs itself",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3nh7d/the_first_ai_model_in_egypt/",
-      "pushed_at": "2026-05-04",
-      "title": "The first AI Model in Egypt 🇪🇬",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3guw3/live_demo_of_localvqe_tiny_1m_param_audio_model/",
-      "pushed_at": "2026-05-04",
-      "title": "Live demo of LocalVQE: Tiny ~1M param audio model that cancels echo and noise in realtime",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3lwji/comparison_of_the_development_status_of_various/",
-      "pushed_at": "2026-05-04",
-      "title": "Comparison of the development status of various claw/assistant projects",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t3j1xk/traditional_dev_tools_feel_outdated_after/",
-      "pushed_at": "2026-05-04",
-      "title": "Traditional dev tools feel outdated after switching to this AI stack",
-      "score": 6
-    },
-    {
-      "url": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room",
-      "pushed_at": "2026-05-04",
-      "title": "AI shows its skills in the emergency room",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/fsilavong/agent-eval",
-      "pushed_at": "2026-05-04",
-      "title": "Show HN: Agent-evals – Claude skill to build your own evals",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3guzw/llamacpp_mtp_support_now_in_beta/",
-      "pushed_at": "2026-05-04",
-      "title": "Llama.cpp MTP support now in beta!",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3n6jo/apex_moe_quants_update_25_new_models_since_the/",
-      "pushed_at": "2026-05-04",
-      "title": "APEX MoE quants update: 25+ new models since the Qwen 3.5 post + new I-Nano tier",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-      "pushed_at": "2026-05-04",
-      "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t3xxjr/i_built_a_job_tracker_saas_and_im_stuck_on/",
-      "pushed_at": "2026-05-04",
-      "title": "I built a job tracker SaaS and I’m stuck on getting users - need feedback on growth direction",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t3bcuq/my_side_project_got_9_customers_in_one_day/",
-      "pushed_at": "2026-05-04",
-      "title": "My side project got 9 customers in one day",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/haifengl/smile/tree/master/serve",
-      "pushed_at": "2026-05-04",
-      "title": "Show HN: Smile-Serve – Inference Server for ML, ONNX, and LLM",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t3duwm/ryzen_ai_max_495_gorgon_halo_with_192gb_vram/",
-      "pushed_at": "2026-05-04",
-      "title": "Ryzen AI Max+ 495 (Gorgon Halo) with 192GB VRAM!",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
-      "pushed_at": "2026-05-04",
-      "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
-      "score": 5
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1t4f8s2/ive_been_running_a_media_network_and_made_21m/",
       "pushed_at": "2026-05-05",
       "title": "I've been running a media network and made 2.1M since last year using a hybrid AI architecture",
@@ -4327,57 +4183,69 @@
       "score": 5
     },
     {
-      "url": "https://github.com/1jehuang/jcode",
-      "pushed_at": "2026-08-02",
-      "title": "1jehuang/jcode",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "pushed_at": "2026-08-03",
+      "title": "zhaoxuya520/reverse-skill",
       "score": 8
     },
     {
-      "url": "https://github.com/JamelHammoud/crew",
-      "pushed_at": "2026-08-02",
-      "title": "Show HN: Crew, a local collaborative (people and agents) IDE",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "pushed_at": "2026-08-03",
+      "title": "huggingface/speech-to-speech",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "pushed_at": "2026-08-03",
+      "title": "microsoft/TRELLIS.2",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=3&sn=1f4f3bf12d5fa00e2c37a4dcb7f71de9",
+      "pushed_at": "2026-08-03",
+      "title": "阿里22B模型实现实时分钟级稳定数字人生成，自定义角色流式交互模型开源",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/mage0535/knowledge-and-memory-management-v002-portable-knowledge-collection-memory-management-3cac",
+      "pushed_at": "2026-08-03",
+      "title": "Knowledge-and-Memory-Management v0.0.2: Portable Knowledge Collection & Memory Management",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
-      "pushed_at": "2026-08-02",
-      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+      "url": "https://dev.to/jacksonxly/human-in-the-loop-is-not-a-switch-classify-the-commands-13h2",
+      "pushed_at": "2026-08-03",
+      "title": "Human in the loop is not a switch: classify the commands",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/TimRots/kimi3",
+      "pushed_at": "2026-08-03",
+      "title": "Show HN: I implemented the Kimi K3 paper from scratch in PyTorch",
       "score": 6
     },
     {
-      "url": "https://watm.ddyo.dev/",
-      "pushed_at": "2026-08-02",
-      "title": "Show HN: Wage Against the Machine – MacWages Index for AI Tasks",
+      "url": "https://www.kota.place/",
+      "pushed_at": "2026-08-03",
+      "title": "Show HN: Kota – Bring AI agent CLIs into the same room",
       "score": 6
     },
     {
-      "url": "https://github.com/emsi/OneNoteViewer",
-      "pushed_at": "2026-08-02",
-      "title": "Show HN: Open OneNote Viewer in Rust",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "pushed_at": "2026-08-02",
-      "title": "microsoft/AI-For-Beginners",
+      "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "pushed_at": "2026-08-03",
+      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/08/464781.html",
-      "pushed_at": "2026-08-02",
-      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "pushed_at": "2026-08-03",
+      "title": "microsoft/generative-ai-for-beginners",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/08/464412.html",
-      "pushed_at": "2026-08-02",
-      "title": "Anthropic模型，也失控了。。。",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3920416879062662?f=rss",
-      "pushed_at": "2026-08-02",
-      "title": "中国—乌兹别克斯坦AEO互认安排正式实施",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "pushed_at": "2026-08-03",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
       "score": 5
     }
   ]
