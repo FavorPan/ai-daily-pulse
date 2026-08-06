@@ -1,162 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.bensbites.com/p/elon-doubled-limits",
-      "pushed_at": "2026-05-07",
-      "title": "Elon doubled limits",
-      "score": 5
-    },
-    {
-      "url": "https://www.therundown.ai/p/anthropic-spacex-ai-become-unlikely-compute-partners",
-      "pushed_at": "2026-05-07",
-      "title": "Anthropic, SpaceX(AI) become unlikely compute partners",
-      "score": 6
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
-      "pushed_at": "2026-05-07",
-      "title": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-      "score": 8
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/code-with-claude-the-5-biggest-updates",
-      "pushed_at": "2026-05-07",
-      "title": "Code with Claude: The 5 biggest updates explained",
-      "score": 5
-    },
-    {
-      "url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
-      "pushed_at": "2026-05-07",
-      "title": "Notes on the xAI/Anthropic data center deal",
-      "score": 6
-    },
-    {
-      "url": "https://disputron.ai",
-      "pushed_at": "2026-05-07",
-      "title": "Show HN: Disputron – AI small claims court for petty disputes",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/lightfeed/resurf",
-      "pushed_at": "2026-05-07",
-      "title": "Show HN: Resurf – realistic, reproducible test framework for AI browser agents",
-      "score": 6
-    },
-    {
-      "url": "https://www.swipecopilot.com/",
-      "pushed_at": "2026-05-07",
-      "title": "Show HN: Swipe Copilot – Less time on Tinder, more dates worth going on",
-      "score": 7
-    },
-    {
-      "url": "https://pokecartcheck.com/",
-      "pushed_at": "2026-05-07",
-      "title": "Show HN: Pokemon Cartridge Authenticity Checker",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-05-07",
-      "title": "addyosmani/agent-skills",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/InsForge/InsForge",
-      "pushed_at": "2026-05-07",
-      "title": "InsForge/InsForge",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/anthropics/financial-services",
-      "pushed_at": "2026-05-07",
-      "title": "anthropics/financial-services",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/cheahjs/free-llm-api-resources",
-      "pushed_at": "2026-05-07",
-      "title": "cheahjs/free-llm-api-resources",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/bytedance/deer-flow",
-      "pushed_at": "2026-05-07",
-      "title": "bytedance/deer-flow",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "pushed_at": "2026-05-07",
-      "title": "D4Vinci/Scrapling",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-      "pushed_at": "2026-05-07",
-      "title": "Voi founders’ new AI startup Pit has become the latest rising star out of Stockholm",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-      "pushed_at": "2026-05-07",
-      "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3786528811572481?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3799089350712324?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "氪星晚报 ｜千问PC端上线AI语音输入；宝马一季度利润降25%，至23亿欧元",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3797155747748867?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3798462137637892?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3799402405338119?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "深圳机器人产业产值超2400亿元",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3799401290308612?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "预测平台Kalshi完成10亿美元F轮融资，估值达220亿美元",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3799397980101637?f=rss",
-      "pushed_at": "2026-05-07",
-      "title": "SpaceX 冲刺上市，资本开支飙升数百亿",
-      "score": 5
-    },
-    {
-      "url": "http://www.geekpark.net/news/363804",
-      "pushed_at": "2026-05-07",
-      "title": "比 OpenClaw 更火的 「Agent 员工」赛道，杀出一个新王者｜AI 上新",
-      "score": 7
-    },
-    {
-      "url": "http://www.geekpark.net/news/363777",
-      "pushed_at": "2026-05-07",
-      "title": "平头哥发布首款智能网卡「磐脉 920」，补齐 AI 算力最后一块短板",
-      "score": 6
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1t7ah4h/built_a_platform_that_turns_any_document_into/",
       "pushed_at": "2026-05-08",
       "title": "built a platform that turns any document into explainer videos (ANY DOC).",
@@ -3667,129 +3511,69 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/rulestack/claude-code-plugin-structure-the-minimal-layout-that-actually-loads-33p2",
-      "pushed_at": "2026-08-05",
-      "title": "Claude Code plugin structure: the minimal layout that actually loads",
+      "url": "https://dev.to/ordewell/how-i-stopped-my-coding-agents-from-writing-files-before-i-could-see-the-plan-10g7",
+      "pushed_at": "2026-08-06",
+      "title": "How I stopped my coding agents from writing files before I could see the plan",
       "score": 8
     },
     {
-      "url": "https://www.therundown.ai/p/ai-giants-head-to-the-white-house-to-discuss-safety",
-      "pushed_at": "2026-08-05",
-      "title": "AI giants head to the White House to discuss safety",
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "pushed_at": "2026-08-06",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "pushed_at": "2026-08-06",
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
       "score": 7
     },
     {
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "pushed_at": "2026-08-05",
-      "title": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "pushed_at": "2026-08-06",
+      "title": "firecrawl/pdf-inspector",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
-      "pushed_at": "2026-08-05",
-      "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+      "url": "https://tdiniz.dev/thoughts/building-a-personal-finance-tracker-with-claude",
+      "pushed_at": "2026-08-06",
+      "title": "Show HN: Spltty – a Markdown-based personal finance CLI built with Claude",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y",
-      "pushed_at": "2026-08-05",
-      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71",
+      "pushed_at": "2026-08-06",
+      "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/unpacking-chatgpt-work",
-      "pushed_at": "2026-08-05",
-      "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+      "url": "https://dev.to/xtsoftwarelabs/ai-memory-is-not-a-trust-model-for-team-knowledge-4j5j",
+      "pushed_at": "2026-08-06",
+      "title": "AI Memory Is Not a Trust Model for Team Knowledge",
       "score": 6
     },
     {
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "pushed_at": "2026-08-05",
-      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://aihot.virxact.com/items/cmsff72yv1q6nro2etf4cmbuj",
+      "pushed_at": "2026-08-06",
+      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "pushed_at": "2026-08-05",
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-      "pushed_at": "2026-08-05",
-      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=2&sn=e2fa7bc0803bd3d6cf5f152e99729b46",
-      "pushed_at": "2026-08-05",
-      "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/watchfire-io/watchfire",
-      "pushed_at": "2026-08-05",
-      "title": "Show HN: Watchfire, an open-source control room for AI coding agents",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
-      "pushed_at": "2026-08-05",
-      "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw",
-      "pushed_at": "2026-08-05",
-      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/gonzalo_terrones_7737b137/medir-si-un-llm-nombra-a-tu-empresa-por-que-una-captura-no-sirve-como-metrica-32e8",
-      "pushed_at": "2026-08-05",
-      "title": "Medir si un LLM nombra a tu empresa: por qué una captura no sirve como métrica",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "pushed_at": "2026-08-06",
+      "title": "[AINews] Megakernels are so dead and so back",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
-      "pushed_at": "2026-08-05",
-      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+      "pushed_at": "2026-08-06",
+      "title": "AI models shock UK testers by using fake identities to try to trick developers",
       "score": 5
     },
     {
-      "url": "https://mcp.mint.gg",
-      "pushed_at": "2026-08-05",
-      "title": "Show HN: Mint MCP – Generate 3D assets from coding agents",
-      "score": 5
-    },
-    {
-      "url": "https://seam.obverselabs.com/",
-      "pushed_at": "2026-08-05",
-      "title": "Show HN: Find what users want by analyzing app reviews",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3924634192673153?f=rss",
-      "pushed_at": "2026-08-05",
-      "title": "36氪首发 | 两位“三清”博士联合创业做空间态势感知服务，完成数千万天使+轮融资",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3925833749117320?f=rss",
-      "pushed_at": "2026-08-05",
-      "title": "港股7月领涨全球，结构性行情折射估值修复逻辑",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3925840944576904?f=rss",
-      "pushed_at": "2026-08-05",
-      "title": "落后产能有序出清，多晶硅价格四季度或温和修复",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3925828500224392?f=rss",
-      "pushed_at": "2026-08-05",
-      "title": "Anthropic与Volta达成100亿美元算力协议",
+      "url": "https://ocean.mosaic.inc/",
+      "pushed_at": "2026-08-06",
+      "title": "Show HN: Ocean – All your team's agent sessions in one place",
       "score": 5
     }
   ]
