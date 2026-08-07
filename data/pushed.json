@@ -1,222 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7ah4h/built_a_platform_that_turns_any_document_into/",
-      "pushed_at": "2026-05-08",
-      "title": "built a platform that turns any document into explainer videos (ANY DOC).",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7ijjv/41_selftaught_just_shipped_my_first_saas_would/",
-      "pushed_at": "2026-05-08",
-      "title": "41, self-taught, just shipped my first SaaS — would love to know if this idea is actually useful or if I've built something only I would use",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t75cv1/free_simple_chess_analysis_app/",
-      "pushed_at": "2026-05-08",
-      "title": "Free & simple chess analysis app",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7e1gk/how_many_hours_of_your_life_does_your_morning/",
-      "pushed_at": "2026-05-08",
-      "title": "How many hours of your life does your morning coffee cost? I built a free app to find out — and it changed how I spend money.",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7o708/i_built_a_video_editor_that_runs_entirely_in_your/",
-      "pushed_at": "2026-05-08",
-      "title": "I built a video editor that runs entirely in your browser - No uploads, no watermarks and free 4k.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7j3l8/sharing_my_success_story_how_i_built_apifreellm/",
-      "pushed_at": "2026-05-08",
-      "title": "Sharing my success story: how I built apifreellm -> 1700+ of net revenue so far",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t7m1g5/an_easter_egg_on_my_site_brought_me_more/",
-      "pushed_at": "2026-05-08",
-      "title": "An easter egg on my site brought me more marketing wins than Google Ads and SEO combined",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t6wzy5/i_built_a_claude_code_skill_that_acts_as_my_ai/",
-      "pushed_at": "2026-05-08",
-      "title": "I built a Claude Code skill that acts as my AI video editor",
-      "score": 8
-    },
-    {
-      "url": "https://www.therundown.ai/p/openai-closes-reasoning-gap-in-voice-agents",
-      "pushed_at": "2026-05-08",
-      "title": "OpenAI closes reasoning gap in voice agents",
-      "score": 6
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
-      "pushed_at": "2026-05-08",
-      "title": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
-      "pushed_at": "2026-05-08",
-      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7g70j/vllm_rocm_has_been_added_to_lemonade_as_an/",
-      "pushed_at": "2026-05-08",
-      "title": "vLLM ROCm has been added to Lemonade as an experimental backend",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7l56a/qwen_35ba3b_is_very_usable_with_12gb_of_vram/",
-      "pushed_at": "2026-05-08",
-      "title": "Qwen 35B-A3B is very usable with 12GB of VRAM",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kgy4/new_moe_from_ai2_emo/",
-      "pushed_at": "2026-05-08",
-      "title": "new MoE from ai2, EMO",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kyju/got_mtp_turboquant_running_qwen3627b_80_ts_at/",
-      "pushed_at": "2026-05-08",
-      "title": "Got MTP + TurboQuant running — Qwen3.6-27B -- 80+ t/s at 262K context on a single RTX 4090",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t79ayh/zlab_released_gemma426ba4bitdflash_anybody_tried/",
-      "pushed_at": "2026-05-08",
-      "title": "z-lab released gemma-4-26B-A4B-it-DFlash. Anybody tried it yet?",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bfpw/reports_suggest_deepseek_is_seeking_735_billion/",
-      "pushed_at": "2026-05-08",
-      "title": "Reports suggest DeepSeek is seeking $7.35 billion in funding and plans to release its V4.1 update next month.",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
-      "pushed_at": "2026-05-08",
-      "title": "Gemma 4 26B Hits 600 Tok/s on One RTX 5090",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6se6r/multitoken_prediction_mtp_for_llamacpp_gemma_4/",
-      "pushed_at": "2026-05-08",
-      "title": "Multi-Token Prediction (MTP) for LLaMA.cpp - Gemma 4 speedup by 40%",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t72tk9/ds4_a_deepseek_4_flash_specific_inference_engine/",
-      "pushed_at": "2026-05-08",
-      "title": "DS4: a DeepSeek 4 flash specific inference engine for 128gb MacBooks",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7et9q/testing_local_llms_in_practice_code_generation/",
-      "pushed_at": "2026-05-08",
-      "title": "Testing Local LLMs in Practice: Code Generation, Quality vs. Speed",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/z-lab/dflash",
-      "pushed_at": "2026-05-08",
-      "title": "z-lab/dflash",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/vercel-labs/open-agents",
-      "pushed_at": "2026-05-08",
-      "title": "vercel-labs/open-agents",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/decolua/9router",
-      "pushed_at": "2026-05-08",
-      "title": "decolua/9router",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose",
-      "pushed_at": "2026-05-08",
-      "title": "aaif-goose/goose",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "pushed_at": "2026-05-08",
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3800495686163721?f=rss",
-      "pushed_at": "2026-05-08",
-      "title": "「维新宇航」完成数千万元天使+轮融资，7座3吨级eVTOL将于7月进行首飞测试｜36氪首发",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3799028783439111?f=rss",
-      "pushed_at": "2026-05-08",
-      "title": "小红书四年AI 路：FOMO、犹豫，到突然加速",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3799984046333186?f=rss",
-      "pushed_at": "2026-05-08",
-      "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3799129165863937?f=rss",
-      "pushed_at": "2026-05-08",
-      "title": "Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3800643284245513?f=rss",
-      "pushed_at": "2026-05-08",
-      "title": "高盛：美国数据中心用电需求或在两年内翻倍",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1665181?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-08",
-      "title": "AI 硬件时代，手机不会轻易的狗带｜AI 器物志",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1665148?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-08",
-      "title": "ChatGPT，别再「稳稳接住我」了｜附指南",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1665134?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-08",
-      "title": "独家｜苹果带摄像头的AirPods或被迫暂停，部分产线「原地解散」",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1665115?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-08",
-      "title": "终于能听 GPT-5 给我说人话了",
-      "score": 8
-    },
-    {
-      "url": "http://www.geekpark.net/news/363854",
-      "pushed_at": "2026-05-08",
-      "title": "550 亿美元！马斯克的「芯片工厂」开始成为现实",
-      "score": 8
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1t82ef8/100_paid_users_in_month_one_for_a_mac_app_solo/",
       "pushed_at": "2026-05-09",
       "title": "100+ paid users in month one for a Mac app. solo dev. zero ads. here's the playbook.",
@@ -3511,69 +3295,51 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/ordewell/how-i-stopped-my-coding-agents-from-writing-files-before-i-could-see-the-plan-10g7",
-      "pushed_at": "2026-08-06",
-      "title": "How I stopped my coding agents from writing files before I could see the plan",
-      "score": 8
-    },
-    {
-      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-      "pushed_at": "2026-08-06",
-      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-      "pushed_at": "2026-08-06",
-      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "url": "https://dev.to/thomasmoore157/eu-speech-to-text-api-procurement-compare-startup-pricing-slos-and-exit-tests-7ef",
+      "pushed_at": "2026-08-07",
+      "title": "EU Speech-to-Text API Procurement: Compare Startup Pricing, SLOs, and Exit Tests",
       "score": 7
     },
     {
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "pushed_at": "2026-08-06",
-      "title": "firecrawl/pdf-inspector",
-      "score": 7
-    },
-    {
-      "url": "https://tdiniz.dev/thoughts/building-a-personal-finance-tracker-with-claude",
-      "pushed_at": "2026-08-06",
-      "title": "Show HN: Spltty – a Markdown-based personal finance CLI built with Claude",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71",
-      "pushed_at": "2026-08-06",
-      "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/xtsoftwarelabs/ai-memory-is-not-a-trust-model-for-team-knowledge-4j5j",
-      "pushed_at": "2026-08-06",
-      "title": "AI Memory Is Not a Trust Model for Team Knowledge",
+      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "pushed_at": "2026-08-07",
+      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmsff72yv1q6nro2etf4cmbuj",
-      "pushed_at": "2026-08-06",
-      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "pushed_at": "2026-08-07",
+      "title": "ChatGPT brings unlimited text chats to free users",
       "score": 6
     },
     {
-      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-      "pushed_at": "2026-08-06",
-      "title": "[AINews] Megakernels are so dead and so back",
-      "score": 5
+      "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+      "pushed_at": "2026-08-07",
+      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+      "score": 6
     },
     {
-      "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
-      "pushed_at": "2026-08-06",
-      "title": "AI models shock UK testers by using fake identities to try to trick developers",
-      "score": 5
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "pushed_at": "2026-08-07",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "score": 6
     },
     {
-      "url": "https://ocean.mosaic.inc/",
-      "pushed_at": "2026-08-06",
-      "title": "Show HN: Ocean – All your team's agent sessions in one place",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "pushed_at": "2026-08-07",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "score": 6
+    },
+    {
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "pushed_at": "2026-08-07",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/germey/a-practical-guide-to-running-codex-cli-with-a-custom-responses-provider-n1o",
+      "pushed_at": "2026-08-07",
+      "title": "A Practical Guide to Running Codex CLI with a Custom Responses Provider",
       "score": 5
     }
   ]
