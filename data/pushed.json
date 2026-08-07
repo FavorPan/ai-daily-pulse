@@ -3295,51 +3295,291 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/thomasmoore157/eu-speech-to-text-api-procurement-compare-startup-pricing-slos-and-exit-tests-7ef",
+      "url": "https://github.com/addyosmani/agent-skills",
       "pushed_at": "2026-08-07",
-      "title": "EU Speech-to-Text API Procurement: Compare Startup Pricing, SLOs, and Exit Tests",
+      "title": "addyosmani/agent-skills",
+      "score": 9
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=3&sn=ed0d03f1c359c897e017abdeee7c1bcb",
+      "pushed_at": "2026-08-07",
+      "title": "600倍加速，720p视频实时生成！单卡也能带的动14B模型",
+      "score": 9
+    },
+    {
+      "url": "https://dev.to/multigrid/confidence-scores-in-structured-extraction-1ie0",
+      "pushed_at": "2026-08-07",
+      "title": "Confidence Scores in Structured Extraction",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/multigrid/fact-checking-what-an-ai-told-you-4m3k",
+      "pushed_at": "2026-08-07",
+      "title": "Fact-Checking What an AI Told You",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-08-07",
+      "title": "mattpocock/skills",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=1&sn=b814cb5b87c9cb3677ac63eb1016e090",
+      "pushed_at": "2026-08-07",
+      "title": "实时视频版「Nano Banana」来了！160亿参数重磅开源",
+      "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/368563",
+      "pushed_at": "2026-08-07",
+      "title": "Seedance 2.5 实测：从「片段」到「叙事」，AI 视频的下半场开始了｜AI 上新",
+      "score": 8
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/466738.html",
+      "pushed_at": "2026-08-07",
+      "title": "AI批量轰炸苹果bug赏金计划，审核团队已下线",
+      "score": 8
+    },
+    {
+      "url": "https://c.mov/lymphosat/",
+      "pushed_at": "2026-08-07",
+      "title": "Domain-specific hyperspecialization (for SAT)",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+      "pushed_at": "2026-08-07",
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "url": "https://www.bensbites.com/p/bens-session",
       "pushed_at": "2026-08-07",
-      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+      "title": "Ben's session",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "pushed_at": "2026-08-07",
+      "title": "[AINews] AMD buys Taalas",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/briarvoss47291/selecting-a-compatible-api-gateway-token-cost-batch-work-and-data-residency-1am7",
+      "pushed_at": "2026-08-07",
+      "title": "Selecting a Compatible API Gateway: Token Cost, Batch Work, and Data Residency",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "pushed_at": "2026-08-07",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=2&sn=066eaef430c7d9307d33ebf126ba348c",
+      "pushed_at": "2026-08-07",
+      "title": "AI推翻80年数学猜想，菲尔兹奖得主一夜没睡：以为要出局",
+      "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/368556",
+      "pushed_at": "2026-08-07",
+      "title": "DeepSeek 的「斩杀线」，正在重塑 AI 行业的世界观",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/montanaflynn/agent-feedback",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Have your coding agent fix web UI issues without leaving the browser",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/morluto/jacobian",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Jacobian: Pure maths library and tools for agents",
+      "score": 7
+    },
+    {
+      "url": "https://voiceduel.com/",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Arena for Speech-to-Speech Models",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Podiom/Podiom",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Podiom – Persistent project context, goals and scheduling for AI agents",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/kannandreams/secchi",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Secchi – Package intelligence in your terminal",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/multigrid/can-you-trust-a-models-stated-reasoning-2gj5",
+      "pushed_at": "2026-08-07",
+      "title": "Can You Trust a Model’s Stated Reasoning?",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "url": "https://dev.to/multigrid/refusals-when-safety-training-blocks-legitimate-work-52g7",
       "pushed_at": "2026-08-07",
-      "title": "ChatGPT brings unlimited text chats to free users",
+      "title": "Refusals: When Safety Training Blocks Legitimate Work",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+      "url": "https://dev.to/multigrid/pattern-extract-then-reason-6ji",
       "pushed_at": "2026-08-07",
-      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+      "title": "Pattern: Extract, Then Reason",
       "score": 6
     },
     {
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "url": "https://github.com/cloudflare/computer",
       "pushed_at": "2026-08-07",
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "title": "cloudflare/computer",
       "score": 6
     },
     {
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
       "pushed_at": "2026-08-07",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
       "score": 6
     },
     {
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
       "pushed_at": "2026-08-07",
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
       "score": 6
     },
     {
-      "url": "https://dev.to/germey/a-practical-guide-to-running-codex-cli-with-a-custom-responses-provider-n1o",
+      "url": "https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text",
       "pushed_at": "2026-08-07",
-      "title": "A Practical Guide to Running Codex CLI with a Custom Responses Provider",
+      "title": "Rescript for Desktop",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/368562",
+      "pushed_at": "2026-08-07",
+      "title": "Fitbit Air 手环深度体验：「无屏」只是手段，模型能力才是护城河",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/368561",
+      "pushed_at": "2026-08-07",
+      "title": "AI Agent 手机下半场，「国标」L3 只是起点",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/468305.html",
+      "pushed_at": "2026-08-07",
+      "title": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生产环境",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/467878.html",
+      "pushed_at": "2026-08-07",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "score": 6
+    },
+    {
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "pushed_at": "2026-08-07",
+      "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+      "score": 6
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49216195",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Hermes Missions – crash-safe durable execution for AI agents, no deps",
+      "score": 6
+    },
+    {
+      "url": "https://www.therundown.ai/p/ai-designs-viruses-never-seen-in-nature",
+      "pushed_at": "2026-08-07",
+      "title": "AI designs viruses never seen in nature",
+      "score": 5
+    },
+    {
+      "url": "https://dev.to/multigrid/fabricated-citations-and-fake-references-41kg",
+      "pushed_at": "2026-08-07",
+      "title": "Fabricated Citations and Fake References",
+      "score": 5
+    },
+    {
+      "url": "https://www.practicalecommerce.com/emotion-led-ads-cut-costs-30",
+      "pushed_at": "2026-08-07",
+      "title": "Emotion-Led Ads Cut Costs 30%",
+      "score": 5
+    },
+    {
+      "url": "https://www.ecommercebytes.com/2026/08/06/etsy-announces-layoffs-after-1-4-billion-infusion-in-cash/",
+      "pushed_at": "2026-08-07",
+      "title": "Etsy Announces Layoffs after $1.4 Billion Infusion in Cash",
+      "score": 5
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=1&sn=cd32d309b7df9150014246363ae5a7a4",
+      "pushed_at": "2026-08-07",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/467877.html",
+      "pushed_at": "2026-08-07",
+      "title": "阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/467871.html",
+      "pushed_at": "2026-08-07",
+      "title": "蚂蚁集团开源Avernet，让人与智能体像组织一样高效协作",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/467840.html",
+      "pushed_at": "2026-08-07",
+      "title": "AI SSD：大模型推理的存储范式转移",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/08/467730.html",
+      "pushed_at": "2026-08-07",
+      "title": "智元下架了首席科学家罗剑岚",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/xoreaxeaxeax/repsych",
+      "pushed_at": "2026-08-07",
+      "title": "REpsych: Psychological warfare in reverse engineering",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
+      "pushed_at": "2026-08-07",
+      "title": "扩展分类流映射（Categorical Flow Maps）规模",
+      "score": 5
+    },
+    {
+      "url": "https://agenttunnels.com/",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Agent Tunnels – coding agents collaborate across companies",
+      "score": 5
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/tocic-chatbot-table-of-content/",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: Tocic – Chatbot table of content browser extension",
+      "score": 5
+    },
+    {
+      "url": "https://huggingface.co/spaces/adec314/point-to-grid",
+      "pushed_at": "2026-08-07",
+      "title": "Show HN: From raw Point Cloud dataset to regular Grid index",
       "score": 5
     }
   ]

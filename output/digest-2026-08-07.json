@@ -1,185 +1,610 @@
 {
   "date": "2026-08-07",
   "highlights": [
-    "欧盟初创公司采购语音转文字API时，OpenAI、Deepgram、AssemblyAI和Google Cloud等供应商需通过EU数据边界、转录质量、端到端延迟（p50/p95/p99）和重放成本等门控测试，而非直接参考公开报价。月度运行…",
-    "在一项针对",
-    "Jeff Dean、Sanjay Ghemawat、Oriol Vinyals和Quoc Le四位Google DeepMind核心研究者联合离职，共同创立面向自动科学发现的初创公司Discovery Loop，由Radical Ventu…"
+    "addyosmani/agent-skills",
+    "600倍加速，720p视频实时生成！单卡也能带的动14B模型",
+    "Confidence Scores in Structured Extraction"
   ],
   "items": [
     {
-      "id": "fab207c9cc10",
-      "title": "EU Speech-to-Text API Procurement: Compare Startup Pricing, SLOs, and Exit Tests",
-      "summary": "欧盟初创公司采购语音转文字API时，OpenAI、Deepgram、AssemblyAI和Google Cloud等供应商需通过EU数据边界、转录质量、端到端延迟（p50/p95/p99）和重放成本等门控测试，而非直接参考公开报价。月度运行成本计算公式为：计费处理 + 存储 + 传输 + 实测重放，需冻结实际工作负载并 replay 测试语料库获取 dated quotes。采购应\"fail closed\"，任何未通过接受标准的低价选项均应排除。",
+      "id": "dae9f02535f7",
+      "title": "addyosmani/agent-skills",
+      "summary": "",
+      "score": 9,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "tags": [
+        "GitHub开源",
+        "AI Agent",
+        "开发者工具",
+        "Addy Osmani"
+      ],
+      "why_now": "Addy Osmani开源的AI编程Agent技能库，支持70+工具一键安装。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "ai agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "3fa413f800d3",
+      "title": "600倍加速，720p视频实时生成！单卡也能带的动14B模型",
+      "summary": "",
+      "score": 9,
+      "topic": "AI新技术/新模型",
+      "source": "新智元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=3&sn=ed0d03f1c359c897e017abdeee7c1bcb",
+      "tags": [
+        "视频生成",
+        "开源模型",
+        "Wan2.2",
+        "推理优化",
+        "一人公司"
+      ],
+      "why_now": "2026年8月，LightX2V开源，单张RTX 5090即可实时生成720p视频。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "e374223be25b",
+      "title": "Confidence Scores in Structured Extraction",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/multigrid/confidence-scores-in-structured-extraction-1ie0",
+      "tags": [
+        "结构化提取",
+        "LLM",
+        "置信度校准",
+        "技术实操"
+      ],
+      "why_now": "技术文章解析了LLM自信度陷阱，为独立开发者优化结构化提取提供即时可行的替代方案。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "5edc37a69aaf",
+      "title": "Fact-Checking What an AI Told You",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/multigrid/fact-checking-what-an-ai-told-you-4m3k",
+      "tags": [
+        "AI使用技巧",
+        "提示词工程",
+        "事实核查"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "637c99109af3",
+      "title": "mattpocock/skills",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mattpocock/skills",
+      "tags": [
+        "Claude Code",
+        "Agent工具",
+        "开源项目",
+        "一人公司"
+      ],
+      "why_now": "Matt Pocock推出可直接安装的Claude Code和Codex插件，供独立开发者快速部署工程级AI技能。",
+      "why_now_en": "",
+      "summary_en": "mattpocock/skills is a collection of composable agent skills for Claude Code and Codex, designed to reduce misalignment and verbosity in software development. Installation is handled via a 30-second setup using either the `claude plugins install` command or the `npx skills@latest` installer, which allows users to customize files directly. Key features include `/grill-me` and `/grill-with-docs` to align agent understanding before coding, and the system supports GitHub, Linear, or local file issue trackers.",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "2610f4699631",
+      "title": "Seedance 2.5 实测：从「片段」到「叙事」，AI 视频的下半场开始了｜AI 上新",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368563",
+      "tags": [
+        "Seedance",
+        "AI视频",
+        "即梦",
+        "实操"
+      ],
+      "why_now": "7月31日Seedance 2.5发布，AI视频进入叙事阶段。",
+      "why_now_en": "",
+      "summary_en": "ByteDance released Seedance 2.5, doubling single-generation video duration from 15 to 30 seconds and enabling extensions up to 3 minutes while maintaining character consistency. The model supports up to 50 mixed modality reference inputs (images, video, audio, text) and is available on Jimeng, Doubao Pro, Coze, and XiaoYunQue. This shift marks the second stage of AI video competition, focusing on narrative capability rather than just visual quality.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "1a7d55aa8511",
+      "title": "Domain-specific hyperspecialization (for SAT)",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Lobsters",
+      "url": "https://c.mov/lymphosat/",
+      "tags": [
+        "Agent",
+        "SAT求解",
+        "LLM工程化",
+        "Cost Analysis"
+      ],
+      "why_now": "LymphoSAT刚夺得SC26冠军，展示用LLM低成本构建126个专家模块替代人工开发成为可能。",
+      "why_now_en": "",
+      "summary_en": "LymphoSAT won the SAT track at SC26 by defeating 27 other entrants using an ensemble of 126 domain-specific specialists built in a few days for approximately $15,000 in LLM and cloud costs. Developed primarily with GPT-5.5 in Codex, the system leverages AI-driven hyperspecialization to replace traditional SAT algorithms with tailored strategies for diverse problem classes like circuit enumeration and puzzle solving. This approach demonstrates that frontier coding agents can economically replicate expert human software engineering labor through token expenditure.",
+      "trend_signal": true,
+      "trend_topic": "agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "94965be6dd7e",
+      "title": "实时视频版「Nano Banana」来了！160亿参数重磅开源",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "新智元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=1&sn=b814cb5b87c9cb3677ac63eb1016e090",
+      "tags": [
+        "开源模型",
+        "视频生成",
+        "京东"
+      ],
+      "why_now": "8月5日京东开源16B实时视频编辑模型，流式速度质量双突破，创作与直播迎来新范式。",
+      "why_now_en": "",
+      "summary_en": "Jingdong has open-sourced JoyAI-Video-Edit, a 16B parameter streaming video editing model that achieves 24 FPS at 720P resolution on a single Nvidia B200 GPU. By compressing iterative diffusion from over ten steps to just two via SA-DMD training, the model offers a 226ms end-to-end latency and supports unlimited duration stable editing through bounded KV state inference. In benchmarks, it scored 3.60 on OpenVE-Bench, surpassing all streaming competitors and matching offline commercial models like Runway Aleph.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ef7e44e5a7d0",
+      "title": "AI批量轰炸苹果bug赏金计划，审核团队已下线",
+      "summary": "",
+      "score": 8,
+      "topic": "AI对行业的冲击",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/466738.html",
+      "tags": [
+        "AI漏洞挖掘",
+        "赏金计划",
+        "安全审计",
+        "AI幻觉"
+      ],
+      "why_now": "苹果8月2日设冷静期，漏洞审核陷入AI洪峰混乱。",
+      "why_now_en": "",
+      "summary_en": "Facing an influx of AI-generated noise and false vulnerabilities, Apple imposed a 30-day cooling-off period and submission caps on its bug bounty program. The surge in reports is driven by AI tools like Claude’s Mythos Preview, which enabled a three-person team to bypass Apple’s Memory Integrity Enforcement (MIE) in just five days. In response, Apple’s July security update repaired 194 CVEs and marked its first formal致谢 to AI models, including Claude and Codex Security, for accelerating vulnerability discovery.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "68b0d8364869",
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+      "summary": "",
       "score": 7,
       "topic": "AI工具实操/Agent工作流",
-      "source": "DEV Community",
-      "url": "https://dev.to/thomasmoore157/eu-speech-to-text-api-procurement-compare-startup-pricing-slos-and-exit-tests-7ef",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
       "tags": [
-        "语音转文字",
-        "API采购",
-        "EU合规",
-        "初创公司工具选型"
+        "AI工具实操",
+        "Agent工作流",
+        "游戏开发",
+        "GPT-5.6"
       ],
-      "why_now": "",
+      "why_now": "OpenAI发布GPT-5.6 Sol Ultra模式，支持多子Agent协作，显著提升AI编程能力。",
       "why_now_en": "",
-      "summary_en": "The cheapest speech-to-text API for an EU startup isn't determined by per-minute pricing alone; vendors like OpenAI, Deepgram, AssemblyAI, and Google Cloud must first pass gates for EU data boundary compliance, transcript quality, end-to-end latency, and reliability before cost is compared. The recommended evaluation method freezes",
+      "summary_en": "Using Codex Desktop with GPT-5.6 Sol Ultra, the author generated a significantly improved \"Raccoon Heist\" game featuring cooperative museum stealth mechanics, compared to Claude Fable 5’s simpler coin-collection version. The process required two follow-up prompts to fix a visual bug involving oversized raccoon eyes, and the 52-minute session was tracked via an AgentsView cost estimate.",
       "trend_signal": false,
       "trend_topic": "",
       "trend_source_count": 0,
       "trend_confidence": ""
     },
     {
-      "id": "87291e20d00a",
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "summary": "在一项针对",
-      "score": 6,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Best",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "tags": [
-        "AI Agent安全",
-        "人因工程",
-        "权限管理"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "A browser game testing human-in-the-loop oversight of AI coding agents revealed that humans missed 1 in 3 threats across over 40,000 runs and 409,000 approve/deny decisions, with 32.9% of sessions ending in a negative score. The most dangerous blind spot was `npm run` commands, which were approved 64.7% of the time even when the malicious payload was visible in the history log—hiding threats behind familiar script names roughly doubled the miss rate. The findings underscore that asking users to validate individual commands is a fragile security model, as agents can bypass approvals by modifying files to inject malicious code into trusted-looking commands.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "f98620a14048",
-      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-      "summary": "Jeff Dean、Sanjay Ghemawat、Oriol Vinyals和Quoc Le四位Google DeepMind核心研究者联合离职，共同创立面向自动科学发现的初创公司Discovery Loop，由Radical Ventures和Khosla Ventures领投种子轮融资。与此同时，Demis Hassabis从CEO转任DeepMind主席兼Alphabet首席科学家，Koray Kavukcuoglu接任DeepMind SVP并接管Gemini等日常运营。这一管理层大地震引发了外界对Google AI战略方向、Gemini Pro近半年无重大更新以及底层研发文化是否受阻的广泛猜测。",
-      "score": 6,
-      "topic": "AI 投融资动态",
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-      "tags": [
-        "DeepMind",
-        "Discovery Loop",
-        "Jeff Dean",
-        "人才流动",
-        "融资动态"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "Key figures including Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, and Quoc Le are departing Google DeepMind to cofound Discovery Loop, a seed-funded automated ML and science discovery startup backed by Radical Ventures, Khosla Ventures, and Alphabet. Simultaneously, Demis Hassabis steps down as CEO to become Chair of DeepMind and Chief Scientist of Alphabet, while Koray Kavukcuoglu takes over as SVP running day-to-day operations. The article also notes Meta Spark 1.2 and Muse Code launching a 5.6T-parameter model with resumable background agents, and Prime Agent's self-improving RLM harness claiming 95.5% on ARC-AGI-3.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "a0fa1b12099f",
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "summary": "OpenAI宣布取消ChatGPT文本聊天限制，面向所有免费和Go用户开放，同时推出GPT-5.6 Luna作为默认模型并新增\"Think\"按钮以提升复杂问题的推理能力。Plus和Pro用户可获得升级版GPT-5.6 Sol模型，内部评估显示该模型较GPT-",
-      "score": 6,
-      "topic": "AI新技术/新模型",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "免费策略",
-        "模型更新"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "OpenAI is removing text-chat limits for all ChatGPT users, with the new GPT-5.6 Luna model replacing GPT-5.5 as the default for Free and Go users. Plus and Pro subscribers gain access to an upgraded GPT-5.6 Sol model and a thinking slider, with factual errors reduced by 62–68% compared to GPT-5.5-Instant. The app also recently surpassed 1 billion weekly users.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "2e264d5c0ad4",
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "summary": "Qwen3.8 Max在Artificial Analysis的Agentic Index中跃居综合排名第一。该指数基于Elo-500评分，通过agentic工具调用、编码、科学推理及长周期知识工作等任务评估模型表现。文章同时展示了AA-Briefcase、AA-Omniscience等多个独立基准的对比数据及成本性能分析。",
-      "score": 6,
-      "topic": "AI新技术/新模型",
-      "source": "Hacker News Best",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "tags": [
-        "模型评测",
-        "benchmark",
-        "一人公司工具选型"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "Qwen3.8 Max has been ranked the best overall AI model by Artificial Analysis's Agentic Index, which evaluates frontier models on real-world agentic tasks including tool use, coding, reasoning, and knowledge work. The evaluation platform also provides leaderboards across image, video, and speech generation, alongside metrics for cost per task, latency, openness, and hallucination rates through benchmarks like AA-Briefcase and AA-Omniscience.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "d328724fdcb5",
-      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+      "id": "ccb81ea8cc6c",
+      "title": "Ben's session",
       "summary": "",
-      "score": 6,
-      "topic": "AI投融资动态",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
-      "tags": [
-        "AI推荐引擎",
-        "e-commerce",
-        "Bessemer",
-        "Gradient"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "Malachyte, a startup founded by three ex-Spotify engineers behind its Vector AI recommendation engine, has raised $10 million in seed funding to bring real-time, intent-aware personalization to e-commerce. The platform's \"two-headed Vector AI\" predicts shopper intent within a session using signals like clicks, hovers, and searches—no account or purchase history required—and has already served 20+ enterprise customers. It launched with Fun.com in fall 2025 and became generally available to Shopify merchants via a native integration in June 2026, with an API option for larger retailers.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "7c0d4eb2283c",
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "summary": "AMD收购AI芯片初创公司Taalas，通过在硅片上蚀刻模型专用集成电路（ASIC）来提升推理性能。早期技术演示显示，该方案可实现每秒高达17,000个token的处理速度，显著优于传统GPU推理方案。",
-      "score": 6,
-      "topic": "AI投融资动态",
-      "source": "Hacker News Best",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "tags": [
-        "AMD收购",
-        "推理芯片",
-        "AI基础设施"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "AMD has acquired AI chip startup Taalas to enhance inference performance by etching AI models directly into silicon. Early tech demos demonstrated model-specific integrated circuits capable of generating up to 17,000 tokens per second, marking a significant leap in inference speed over traditional approaches.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "3b5728ad69f6",
-      "title": "A Practical Guide to Running Codex CLI with a Custom Responses Provider",
-      "summary": "通过修改 Codex CLI 的 `~/.codex/config.toml` 配置文件，将 `base_url` 指向 Ace Data Cloud 的 `https://api.acedata.cloud/v1` 并设置 `wire_api = \"responses\"`，可将原生终端编程代理的请求路由至该兼容接口。配置前需通过 `export ACEDATACLOUD_API_KEY=\"{token}\"` 设置环境变量，并执行 `codex logout` 清除原有 OpenAI 缓存。该方法支持 macOS、Linux、Windows 及 WSL，安装方式为 `npm install -g @openai/codex` 或 macOS 的 `brew install --cask codex`。",
-      "score": 5,
+      "score": 7,
       "topic": "AI工具实操/Agent工作流",
-      "source": "DEV Community",
-      "url": "https://dev.to/germey/a-practical-guide-to-running-codex-cli-with-a-custom-responses-provider-n1o",
+      "source": "Ben's Bites",
+      "url": "https://www.bensbites.com/p/bens-session",
       "tags": [
-        "Codex CLI",
-        "Agent工具",
-        "API配置",
-        "技术教程"
+        "Agent工作流",
+        "实操反思",
+        "Chrome Extension"
+      ],
+      "why_now": "Luna定价暴跌80%引发市场关注，是测试新一代智能体效能的经济窗口。",
+      "why_now_en": "",
+      "summary_en": "Ben experimented with ChatGPT’s Luna Max reasoning mode, priced at an 80% reduction, to automate creating a drag-and-drop appointment link in Google Calendar. The agent completed the initial build in 55 seconds using two web searches, but failed to install or end-to-end test the extension via Computer Use. This omission caused significant debugging delays, escalating from text to 61-minute voice and screen-recorded feedback loops to resolve syncing issues.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "411dc759a074",
+      "title": "AI推翻80年数学猜想，菲尔兹奖得主一夜没睡：以为要出局",
+      "summary": "OpenAI内部模型Astra和Anthropic的Claude Fable近期在单位距离猜想、雅可比猜想等高维数学领域取得突破，仅消耗约2000美元token成本。菲尔兹奖得主邓煜认为AI将负责技术细节验证，而陶哲轩警示数学正进入“证明过剩”时代，AI能加速证明生成但人类仍需负责理解与阐释。",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "新智元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=2&sn=066eaef430c7d9307d33ebf126ba348c",
+      "tags": [
+        "数学",
+        "AI能力边界",
+        "菲尔兹奖",
+        "陶哲轩"
+      ],
+      "why_now": "2026年8月OpenAI连发多项进展，验证AI已逼近独立做研究级数学的能力边界。",
+      "why_now_en": "2000 USD solved 80-year math conjectures.",
+      "summary_en": "AI models OpenAI’s undisclosed internal model and Anthropic’s Claude Fable recently overturned the 80-year-old unit distance conjecture and found a counterexample for the Jacobian conjecture, with OpenAI’s Astra model delivering ten advances in mathematics and computer science for approximately $2,000 in API costs. A First Proof evaluation showed that 7 out of 10 research-level problems achieved publishable quality, prompting Fields medalist Terence Tao to warn that mathematics is entering an era of \"proof overload\" and \"digestive indigestion,\" where proofs are generated faster than they can be understood. While some mathematicians fear this will devalue human insight, others remain optimistic that AI will augment rather than replace researchers, as humans continue to drive theory construction and understanding beyond raw problem-solving.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "7975c398460c",
+      "title": "DeepSeek 的「斩杀线」，正在重塑 AI 行业的世界观",
+      "summary": "DeepSeek V4 Flash 凭借输入 1 元/百万 token、输出 2 元/百万 token 的极致性价比登顶全球调用量榜首，单日处理 token 总量达 8 万亿，被 Artificial Analysis 定义为重塑行业的「斩杀线」。然而因请求量激增导致基础设施承压，DeepSeek 于 8 月 6 日宣布大幅上调 API 价格，智谱 GLM-5-Turbo 和月之暗面 Kimi K3 也相继涨价，标志着中国 AI 行业从价格战转向基于成本回收与长期竞争力的定价逻辑。文章指出 Token 正走向大宗商品化，未来竞争核心将从极致性价比上移至生态锁定、Agent 工具链及垂直场景适配。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368556",
+      "tags": [
+        "DeepSeek",
+        "AI定价",
+        "创业风险"
+      ],
+      "why_now": "8月6日DeepSeek宣布API计划大幅涨价，依赖超低价成本结构的独立开发者面临生死考验。",
+      "why_now_en": "DeepSeek raises prices after a massive surge in usage on Aug 4-6.",
+      "summary_en": "DeepSeek V4 Flash, with API pricing of 1 CNY/million input tokens and 2 CNY/million output tokens, processed 8 trillion tokens in a single day on August 1, surpassing the entire OpenRouter platform's daily throughput of 6.6 trillion tokens. Following this massive surge in demand that caused capacity issues, DeepSeek announced significant price increases on August 6, joining competitors like Zhipu (83% price increase in Q1) and Moonshot AI (3-4x price increase for Kimi K3), signaling the commoditization of AI tokens and a shift toward ecosystem and vertical integration as the primary competitive dimension.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "25f0af2b3ded",
+      "title": "[AINews] AMD buys Taalas",
+      "summary": "",
+      "score": 7,
+      "topic": "AI投融资动态",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "tags": [
+        "AMD",
+        "ASIC",
+        "Taalas",
+        "AI硬件"
+      ],
+      "why_now": "2026年8月，AMD收购Taalas，押注垂直推理芯片，Lisa Su力挺ASIC对抗行业质疑。",
+      "why_now_en": "",
+      "summary_en": "AMD has acquired Taalas, reinforcing its strategy in custom ASICs for AI inference as the company moves vertically. In parallel news, Meta’s Muse Spark 1.2 reached top-tier performance at $0.69/test—10x cheaper than Opus 5—while achieving gold-medal results in five STEM Olympiads without external tools. Meanwhile, OpenAI unified its ChatGPT offerings under GPT-5.6 Sol, which reduces factual errors by 68% compared to GPT-5.5 Instant, and introduced Agent Plugins alongside a free-tier expansion.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "182829b4a634",
+      "title": "Can You Trust a Model’s Stated Reasoning?",
+      "summary": "研究表明大模型的链式思维存在严重的忠实度问题，例如Turpin等人在2023年的实验中，通过注入偏差导致BIG-Bench Hard任务准确率下降高达36%，但推理过程从未提及该偏差。Anthropic等机构通过截断、插入错误及提示词注入提示等干预手段发现，忠实度并非模型固有属性而是模型-任务对属性，且不会单纯随规模扩大而改善，2025年针对推理模型的测试也显示其承认提示线索的比例仅约25%至50%。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/multigrid/can-you-trust-a-models-stated-reasoning-2gj5",
+      "tags": [
+        "可解释性",
+        "Chain-of-Thought",
+        "研究洞察"
       ],
       "why_now": "",
       "why_now_en": "",
-      "summary_en": "This guide shows how to configure OpenAI's Codex CLI with Ace Data Cloud (api.acedata.cloud/v1) as a custom OpenAI Responses-compatible provider, using the wire_api = \"responses\" protocol and env_key = \"ACEDATACLOUD_API_KEY\" for authentication. The setup requires adding a provider block to ~/.codex/config.toml with the base URL, model (e.g., gpt-5), and reasoning effort, then clearing any cached OpenAI login via codex logout or by removing ~/.codex/auth.json. Codex CLI is installed globally via npm install -g @openai/codex or Homebrew on macOS.",
+      "summary_en": "Recent studies test chain-of-thought faithfulness—the causal link between stated reasoning and actual model computation—revealing that models often generate plausible but unfaithful explanations. Research by Turpin et al. found bias injection altered predictions by up to 36% without changing stated reasoning, while Anthropic’s interventions showed faithfulness is task-dependent and does not automatically improve with scale. Even trained reasoning models acknowledged planted hints in their traces only 25–50% of the time, confirming that longer explanations do not guarantee factual accuracy.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "41bb5fab0690",
+      "title": "Refusals: When Safety Training Blocks Legitimate Work",
+      "summary": "文章分析了大型语言模型在安全训练中出现的“过度拒绝”现象，指出模型往往基于词汇特征而非真实意图拒绝合法请求，如工程师查询漏洞或作家构思反派对话。作者引用XSTest（250个安全提示）和OR-Bench（约80,000个自动生成提示）等基准测试，强调需区分政策拒绝与能力拒绝，并通过测量模型在特定领域的表现来优化路由策略。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/multigrid/refusals-when-safety-training-blocks-legitimate-work-52g7",
+      "tags": [
+        "AI安全",
+        "提示词工程",
+        " refusals"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Exaggerated safety in AI models often leads to false refusals on legitimate requests by keying on surface lexical features rather than intent. This issue is measured using benchmarks like XSTest, which includes 250 safe prompts, and OR-Bench, which uses approximately 80,000 automatically generated benign-but-toxic prompts. Common triggers include technical jargon with violent verbs, professional queries in ambiguous contexts, and accurate descriptions of security work or fiction.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "66165609f5f2",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "summary": "Cloudflare推出专为AI代理设计的云托管浏览器Kitesurf，基于Workers平台构建，采用Blitz渲染引擎、Firefox Stylo CSS解析器和Boa JS引擎。相比Chromium，Kitesurf在截图和HTML提取等常见代理任务中显著降低CPU和内存消耗。该产品目前处于Browser Run中的免费测试阶段，已通过网络平台测试215,000多项，支持Wikipedia、Hacker News等网站渲染。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "tags": [
+        "Cloudflare",
+        "Kitesurf",
+        "AI Agent",
+        "浏览器技术",
+        "Rust"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Cloudflare launched Kitesurf, a cloud-hosted browser built on its Workers serverless platform specifically for AI agents to navigate the web without relying on resource-heavy Chromium. Developed in just 12 weeks, Kitesurf offers significantly higher efficiency in CPU and memory consumption for agentic tasks like screenshots and HTML extraction. It is available for free during its beta phase through Browser Run, with current test coverage exceeding 215,000 web platform tests.",
+      "trend_signal": true,
+      "trend_topic": "ai agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "af09b5f27706",
+      "title": "Fitbit Air 手环深度体验：「无屏」只是手段，模型能力才是护城河",
+      "summary": "Fitbit Air 是一款 5.2 克重的无屏手环，通过取消屏幕和复杂交互实现数据连续采集，配合 Health Coach 基于 Gemini 等大模型提供个性化健康建议。产品售价 99.99 美元并附赠三个月 Google Health Premium，核心竞争壁垒在于长期个人基线积累与模型能力形成的切换成本，而非硬件形态本身。作者指出，通用模型接入仅是门槛，真正的护城河是数据治理、长期记忆及垂直领域的安全评估能力，这决定了 AI 健康教练的可信度。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368562",
+      "tags": [
+        "AI硬件",
+        "健康科技",
+        "Fitbit",
+        "Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "3f01fb137372",
+      "title": "AI Agent 手机下半场，「国标」L3 只是起点",
+      "summary": "2026年7月，工信部发布人工智能终端智能化分级标准，首批11款移动终端（含华为、小米、vivo等9款手机和2款平板）通过L3级认证。L3作为当前最高评级，要求设备具备跨应用任务拆解、多工具编排及长短期记忆能力，测试需在至少3个典型场景中达到80%的工具调用成功率。消费级L3体验预计在2026年下半年随荣耀AgenticOS内核等旗舰产品集中落地，2027年有望向中端机及生态普及。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368561",
+      "tags": [
+        "AI Agent",
+        "手机国标",
+        "行业趋势"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "ai agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "32445d4c1e9b",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "summary": "Airbnb AI已编写其60%的代码，并将功能从概念到发布的周期缩短了60%，今年已交付的功能数量同比增加近80%。公司正在测试AI搜索功能，用户可通过开关切换至支持自然语言查询的可视化界面；其AI客服机器人已扩展至50多种语言，解决了近45%的初始客户问题，推动每笔预订的客服成本同比下降16%。",
+      "score": 6,
+      "topic": "OPC/AI赚钱案例",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "tags": [
+        "Airbnb",
+        "AI提效",
+        "搜索",
+        "客服自动化"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b42d87cebc4e",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "summary": "Keep发布“超级AI会员”，基于自研运动大模型Keepace.ai，打通运动前计划、运动中语音互动、运动后反馈的全流程服务。对标多邻国Duolingo Max（2025年订阅破10亿美元）和Cursor（年化收入突破20亿美元），Keep试图让AI从技术投入转化为独立付费的新增长引擎。",
+      "score": 6,
+      "topic": "AI赚钱案例",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/467878.html",
+      "tags": [
+        "Keep",
+        "多邻国",
+        "Cursor",
+        "AI商业模式",
+        "Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "agent",
+      "trend_source_count": 5,
+      "trend_confidence": "high"
+    },
+    {
+      "id": "0e4fd0c5a136",
+      "title": "Etsy Announces Layoffs after $1.4 Billion Infusion in Cash",
+      "summary": "",
+      "score": 5,
+      "topic": "AI对行业的冲击",
+      "source": "eCommerceBytes",
+      "url": "https://www.ecommercebytes.com/2026/08/06/etsy-announces-layoffs-after-1-4-billion-infusion-in-cash/",
+      "tags": [
+        "Etsy",
+        "裁员",
+        "AI去人工化争议"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f2d39c3d9653",
+      "title": "智元下架了首席科学家罗剑岚",
+      "summary": "",
+      "score": 5,
+      "topic": "AI投融资动态",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/467730.html",
+      "tags": [
+        "高管离职",
+        "机器人",
+        "IPO"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Zhiyuan Robotics has removed Chief Scientist Luo Jianlan from its official partner list, signaling his departure approximately 1 year and 4 months after joining in April 2025. Luo, known for developing the SERL and HIL-SERL reinforcement learning systems during his tenure at Google X and UC Berkeley, had led Zhiyuan's Embodied Intelligence Research Center. The leadership change occurs shortly after the company confirmed it launched a Hong Kong IPO process in July 2026.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "c83be7d24197",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "summary": "",
+      "score": 5,
+      "topic": "AI赚钱案例",
+      "source": "量子位（公众号）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=1&sn=cd32d309b7df9150014246363ae5a7a4",
+      "tags": [
+        "AI+运动",
+        "会员订阅",
+        "Cursor收购",
+        "多邻国"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
       "trend_signal": false,
       "trend_topic": "",
       "trend_source_count": 0,
       "trend_confidence": ""
     }
   ],
-  "directions": []
+  "directions": [
+    {
+      "name": "SkillForge：AI Agent 技能共享平台",
+      "name_en": "SkillForge: AI Agent Skill Marketplace",
+      "description": "一个让独立开发者打包、发布和复用 AI Agent 技能的 npm/PyPI 式平台，支持一键安装到主流 Agent 框架。",
+      "description_en": "A npm/PyPI-style platform for indie developers to package, publish, and reuse AI Agent skills, with one-click install for major Agent frameworks.",
+      "target_user": "独立开发者、AI Agent 构建者、一人公司创业者",
+      "target_user_en": "Indie developers, AI Agent builders, solo founders",
+      "core_features": [
+        "技能包管理器（Skill CLI）",
+        "社区技能市场与评分系统",
+        "与主流框架（AutoGPT、Claude、LangChain）的即插即用集成"
+      ],
+      "core_features_en": [
+        "Skill Package Manager (Skill CLI)",
+        "Community skill marketplace with ratings",
+        "Plug-and-play integration with major frameworks (AutoGPT, Claude, LangChain)"
+      ],
+      "related_trends": [
+        "AI Agent 生态",
+        "开源工具链",
+        "一人公司"
+      ],
+      "related_trends_en": [
+        "AI Agent Ecosystem",
+        "Open Source Tooling",
+        "Solopreneur"
+      ],
+      "why_now": "GitHub Trending 上 addyosmani/agent-skills 以 9/10 评分迅速走红，跨源热点显示 'ai agent' 在 5 个源头被热议。社区对 Agent 技能标准化、可复用性的需求爆发，但缺乏类似 npm 的轻量级分发机制，这正是独立开发者的切入点。",
+      "why_now_en": "addyosmani/agent-skills hit GitHub Trending with a 9/10 score, and 'ai agent' trended across 5 sources. Community demand for standardized, reusable Agent skills is surging, but a lightweight distribution mechanism like npm is missing — a perfect opening for indie developers.",
+      "monetization": "技能市场交易抽成（15%）+ 高级技能包订阅（$9/月）",
+      "monetization_en": "Marketplace transaction fee (15%) + Premium skill pack subscription ($9/month)",
+      "difficulty": "medium",
+      "estimated_mvp_days": 21,
+      "source_article": "addyosmani/agent-skills",
+      "source_article_url": "https://github.com/addyosmani/agent-skills",
+      "source_article_score": 9,
+      "source_article_source": "GitHub Trending"
+    },
+    {
+      "name": "VidMini：单人视频生成工作台",
+      "name_en": "VidMini: Solo Video Creation Studio",
+      "description": "专为一人公司设计的轻量级视频生成工具，利用本地 14B 模型在单卡上实时生成 720p 视频，无需云端 API。",
+      "description_en": "A lightweight video generation tool for solo founders, using local 14B models to generate 720p video in real-time on a single GPU, without cloud APIs.",
+      "target_user": "一人公司创始人、内容创作者、独立视频制作者",
+      "target_user_en": "Solo founders, content creators, indie video producers",
+      "core_features": [
+        "本地 14B 模型推理（支持 Wan2.2）",
+        "720p 实时预览与生成",
+        "一键导出到 TikTok/YouTube Shorts 格式"
+      ],
+      "core_features_en": [
+        "Local 14B model inference (supports Wan2.2)",
+        "720p real-time preview and generation",
+        "One-click export to TikTok/YouTube Shorts format"
+      ],
+      "related_trends": [
+        "视频生成开源化",
+        "推理优化",
+        "一人公司"
+      ],
+      "related_trends_en": [
+        "Open Source Video Generation",
+        "Inference Optimization",
+        "Solopreneur"
+      ],
+      "why_now": "新智元文章显示单卡即可运行 14B 模型实现 720p 实时视频生成，'一人公司'热点在 4 个源头热议。独立开发者和内容创作者急需低成本、无 API 依赖的视频生成方案，而现有工具多依赖云端昂贵 API 或需要高性能集群，本地化、轻量化产品正逢其时。",
+      "why_now_en": "The article highlights that a single GPU can run a 14B model for real-time 720p video generation, with 'solopreneur' trending across 4 sources. Indie developers and creators urgently need low-cost, API-free video generation tools, while existing solutions rely on expensive cloud APIs or high-performance clusters — a local, lightweight product is timely.",
+      "monetization": "一次性买断（$49）+ Pro 版高级特效订阅（$19/月）",
+      "monetization_en": "One-time purchase ($49) + Pro edition advanced effects subscription ($19/month)",
+      "difficulty": "hard",
+      "estimated_mvp_days": 35,
+      "source_article": "600倍加速，720p视频实时生成！单卡也能带的动14B模型",
+      "source_article_url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=3&sn=ed0d03f1c359c897e017abdeee7c1bcb",
+      "source_article_score": 9,
+      "source_article_source": "新智元"
+    }
+  ]
 }
