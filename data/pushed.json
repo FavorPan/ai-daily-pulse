@@ -1,138 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t9fyeb/update_my_hantavirus_saturday_side_project_hit_4k/",
-      "pushed_at": "2026-05-10",
-      "title": "[Update] My HantaVirus Saturday side project hit 4k visitors in 29 hours. The traffic breakdown is wild.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1t9d82g/bootstrapped_a_greek_company_intelligence_tool_40/",
-      "pushed_at": "2026-05-10",
-      "title": "Bootstrapped a Greek company intelligence tool. 40 paying users in 3 months. Looking for UI/UX feedback.",
-      "score": 7
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=48088819",
-      "pushed_at": "2026-05-10",
-      "title": "Show HN: I trained a chess engine to play like humans",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/plus8bit/agent-postmortem-skill",
-      "pushed_at": "2026-05-10",
-      "title": "Show HN: Agent Postmortem Skill – Force AI coding agents to prove their work",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t99upf/getting_a_feel_for_how_fast_x_tokenssecond_really/",
-      "pushed_at": "2026-05-10",
-      "title": "Getting a feel for how fast X tokens/second really is.",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9gcar/mtp_benchmark_results_the_nature_of_the/",
-      "pushed_at": "2026-05-10",
-      "title": "MTP benchmark results: the nature of the generative task dictates whether you will benefit (coding) or get slower inference (creative) from speculative inference. No other factor comes close.",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9em98/deepseekv4flash_w4a16fp8_with_mtp_selfspeculation/",
-      "pushed_at": "2026-05-10",
-      "title": "DeepSeek-V4-Flash W4A16+FP8 with MTP self-speculation: 85 tok/s @ 524k on 2× RTX PRO 6000 Max-Q",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9cle9/anybody_else_noticing_how_good_gemma426ba4b_is/",
-      "pushed_at": "2026-05-10",
-      "title": "Anybody else noticing how good gemma-4-26b-a4b is with one-shotting three.js?",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t92hff/hello_from_10km_high_thanks_to_qwen_36_35b_a3b/",
-      "pushed_at": "2026-05-10",
-      "title": "Hello from 10KM high! - Thanks to Qwen 3.6 35b a3b!",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9lbcm/ran_some_llamacpp_rpc_test_to_see_if_its_worth_it/",
-      "pushed_at": "2026-05-10",
-      "title": "Ran some Llama.cpp RPC test to see if its worth it. And if 10Gbe needed.",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9jub0/sharing_cull_my_opensource_dataset_tool_for_image/",
-      "pushed_at": "2026-05-10",
-      "title": "Sharing \"cull\" : my open-source dataset tool for image scraping & classification & captioning pipeline",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9k8gy/i_built_an_open_source_hyperparameter_search_tool/",
-      "pushed_at": "2026-05-10",
-      "title": "I built an open source hyperparameter search tool for diffusion fine-tunes- pick the winner based on scoring",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t8s83r/nvidia_ai_releases_star_elastic_one_checkpoint/",
-      "pushed_at": "2026-05-10",
-      "title": "NVIDIA AI Releases Star Elastic: One Checkpoint that Contains 30B, 23B, and 12B Reasoning Models with Zero-Shot Slicing",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t96l6r/ncclfree_tensor_parallelism_on_dual_blackwell/",
-      "pushed_at": "2026-05-10",
-      "title": "NCCL-Free Tensor Parallelism on Dual Blackwell PCIe llama.cpp b9095 released!",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t96kfh/speeding_up_local_llm_for_usable_coding_agent/",
-      "pushed_at": "2026-05-10",
-      "title": "Speeding up local LLM for usable coding agent",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t95k73/ds4/",
-      "pushed_at": "2026-05-10",
-      "title": "DS4",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/bytedance/UI-TARS-desktop",
-      "pushed_at": "2026-05-10",
-      "title": "bytedance/UI-TARS-desktop",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/rohitg00/agentmemory",
-      "pushed_at": "2026-05-10",
-      "title": "rohitg00/agentmemory",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/datawhalechina/easy-vibe",
-      "pushed_at": "2026-05-10",
-      "title": "datawhalechina/easy-vibe",
-      "score": 4
-    },
-    {
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "pushed_at": "2026-05-10",
-      "title": "rowboatlabs/rowboat",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "pushed_at": "2026-05-10",
-      "title": "ChromeDevTools/chrome-devtools-mcp",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/Lordog/dive-into-llms",
-      "pushed_at": "2026-05-10",
-      "title": "Lordog/dive-into-llms",
-      "score": 7
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1taftta/i_built_idrobe_a_digital_wardrobe_that_lets_you/",
       "pushed_at": "2026-05-11",
       "title": "I built iDrobe — a digital wardrobe that lets you try on your clothes virtually with AI",
@@ -3091,51 +2959,57 @@
       "score": 5
     },
     {
-      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
-      "pushed_at": "2026-08-08",
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://dev.to/euk_ela_a3e7ed01aa3f7314e/claude-code-cant-draw-this-plugin-borrows-your-codex-cli-login-559c",
+      "pushed_at": "2026-08-09",
+      "title": "Claude Code Can't Draw — This Plugin Borrows Your Codex CLI Login",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "pushed_at": "2026-08-09",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
       "score": 7
     },
     {
-      "url": "https://dev.to/debashish_ghosal/i-built-scenario-packs-for-agent-regression-testing-the-integration-not-the-judge-broke-me-1k9k",
-      "pushed_at": "2026-08-08",
-      "title": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.",
+      "url": "https://github.com/Rafaelpta/litepipe",
+      "pushed_at": "2026-08-09",
+      "title": "Show HN: Open-source local memory vault",
       "score": 7
     },
     {
-      "url": "https://dev.to/suckup_de/stop-prompting-like-its-2024-19h4",
-      "pushed_at": "2026-08-08",
-      "title": "Stop Prompting Like It's 2024",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/sebastiancarlos/faaah",
-      "pushed_at": "2026-08-08",
-      "title": "Show HN: Faaah – Filesystem as an AI Handler",
-      "score": 7
-    },
-    {
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
-      "pushed_at": "2026-08-08",
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://dev.to/saulemprendedor/mi-primer-intento-con-agentes-de-ia-fracaso-el-problema-no-era-el-modelo-4eoh",
+      "pushed_at": "2026-08-09",
+      "title": "Mi primer intento con agentes de IA fracasó. El problema no era el modelo",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "pushed_at": "2026-08-08",
-      "title": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://github.com/pingdotgg/t3code",
+      "pushed_at": "2026-08-09",
+      "title": "pingdotgg/t3code",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910857&idx=1&sn=92d08218c1d89733f27ea9e48d52cdb8",
+      "pushed_at": "2026-08-09",
+      "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
       "score": 5
     },
     {
-      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
-      "pushed_at": "2026-08-08",
-      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910857&idx=3&sn=5a93befa6bb9ccf3ea9550babcac80a4",
+      "pushed_at": "2026-08-09",
+      "title": "拓展JEPA至受控世界模型，清华团队揭示物理状态与动作转移的可辨识条件",
       "score": 5
     },
     {
-      "url": "https://inertiagraphics.com/",
-      "pushed_at": "2026-08-08",
-      "title": "Show HN: Inertia – Not your Grandfathers animation editor",
+      "url": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t",
+      "pushed_at": "2026-08-09",
+      "title": "AI安全测试正成为安全风险",
+      "score": 5
+    },
+    {
+      "url": "https://antonz.org/relying-on-go/",
+      "pushed_at": "2026-08-09",
+      "title": "Relying on Go",
       "score": 5
     }
   ]
