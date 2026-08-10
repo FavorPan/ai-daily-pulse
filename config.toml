@@ -1,8 +1,8 @@
 [api]
 api_key = ""                    # or set env var API_KEY
 base_url = "https://apihub.agnes-ai.com/v1"
-scoring_model = "agnes-2.0-flash"
-summary_model = "agnes-2.0-flash"
+scoring_model = "agnes-2.5-flash"
+summary_model = "agnes-2.5-flash"
 price_in_per_m = 0
 price_out_per_m = 0
 # 可选：主 provider 故障时自动切换（留空则不启用 fallback）
