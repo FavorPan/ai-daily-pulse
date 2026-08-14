@@ -1777,58 +1777,64 @@
       "score": 5
     },
     {
-      "url": "https://www.therundown.ai/p/grok-4-6-storms-the-ai-frontier",
+      "url": "https://dev.to/theinterviewcopilot/shaving-a-second-off-a-real-time-speech-to-llm-pipeline-in-electron-4c7h",
       "pushed_at": "2026-08-14",
-      "title": "Grok 4.6 storms the AI frontier",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmss20h5g02uxroh6q6r1nqu9",
-      "pushed_at": "2026-08-14",
-      "title": "Claude 接管应用日常维护：388 个 PR 的实践",
-      "score": 8
-    },
-    {
-      "url": "https://www.bensbites.com/p/grok-bot-is-not-what-you-think",
-      "pushed_at": "2026-08-14",
-      "title": "Grok Bot is not what you think",
+      "title": "Shaving a second off a real-time speech-to-LLM pipeline in Electron",
       "score": 7
     },
     {
-      "url": "https://github.com/itsmeadarsh2008/opencode-senses",
+      "url": "https://github.com/lightningpixel/modly",
       "pushed_at": "2026-08-14",
-      "title": "Show HN: OpenCode Senses, An insanely fast and highly accurate vision plugin",
-      "score": 6
+      "title": "lightningpixel/modly",
+      "score": 7
     },
     {
-      "url": "https://dev.to/kenwalger/durable-memory-why-vector-databases-arent-enough-3h8f",
+      "url": "https://github.com/infiniflow/ragflow",
       "pushed_at": "2026-08-14",
-      "title": "Durable Memory: Why Vector Databases Aren't Enough",
+      "title": "infiniflow/ragflow",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/brian-mwirigi/kvcachescope",
+      "pushed_at": "2026-08-14",
+      "title": "Show HN: Kvcachescope – Why Nvidia-smi is blind to vLLM KV cache leaks",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/iamdadzilla/Macsomnia",
+      "pushed_at": "2026-08-14",
+      "title": "Show HN: Macsomnia – close your MacBook lid while keeping long jobs alive",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/shikiyusuke/writing-evidence-linked-docs-exposed-two-missing-regression-tests-3524",
+      "pushed_at": "2026-08-14",
+      "title": "Writing evidence-linked docs exposed two missing regression tests",
       "score": 5
     },
     {
-      "url": "https://github.com/paperclipai/paperclip",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vo9zqb/we_got_so_sick_of_users_typing_1word_queries_that/",
       "pushed_at": "2026-08-14",
-      "title": "paperclipai/paperclip",
+      "title": "We got so sick of users typing 1-word queries that i built a search bar that refuses to let you hit enter until you make sense",
       "score": 5
     },
     {
-      "url": "https://openxlings.github.io/xim-pkgindex/en/packages/dsh/",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
       "pushed_at": "2026-08-14",
-      "title": "Show HN: Multi-version management (by xlings) for DeepSeek Harness",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
       "score": 5
     },
     {
-      "url": "https://github.com/hugohe3/ppt-master",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
       "pushed_at": "2026-08-14",
-      "title": "hugohe3/ppt-master",
-      "score": 4
+      "title": "DeepSeek peak/off-peak pricing update",
+      "score": 5
     },
     {
-      "url": "https://github.com/embabel/embabel-agent",
+      "url": "https://www.qbitai.com/2026/08/473261.html",
       "pushed_at": "2026-08-14",
-      "title": "embabel/embabel-agent",
-      "score": 4
+      "title": "7亿年薪留不住！余家辉离职Meta创业",
+      "score": 5
     }
   ]
 }
