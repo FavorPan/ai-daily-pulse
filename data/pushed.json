@@ -1,204 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1te0rou/left_my_95_to_build_something_real_2_months_in_27/",
-      "pushed_at": "2026-05-15",
-      "title": "Left my 9-5 to build something real. 2 months in, 27 users, 0 paid. Roast me or help me - I'll take either",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1te0o5y/pixly_al_photo_cleaneran_ai_photo_cleaner_that/",
-      "pushed_at": "2026-05-15",
-      "title": "Pixly Al: Photo Cleaner—an AI photo cleaner that runs fully on-device",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tecd7g/just_got_my_first_order_for_my_custom_goods_shop/",
-      "pushed_at": "2026-05-15",
-      "title": "Just got my first order for my custom goods shop in 6 months, which gave me absolute clarity to finally build and launch SparkStation (NFC Hardware + Software bundle)",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tebvwj/day_5_building_hektiq_ai_stack_auditor_built/",
-      "pushed_at": "2026-05-15",
-      "title": "Day 5 building Hektiq — AI stack auditor built entirely from my phone",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1teas3t/added_github_sync_webhooks_and_admin_archiving_to/",
-      "pushed_at": "2026-05-15",
-      "title": "Added GitHub sync, webhooks, and admin archiving to my self-hosted team workspace - now it actually plays nice with the rest of your stack",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1te29vk/built_a_budgeting_app_because_i_kept_bleeding/",
-      "pushed_at": "2026-05-15",
-      "title": "Built a budgeting app because I kept bleeding money without realizing it. Got 100 promo codes for anyone willing to give real feedback.",
-      "score": 5
-    },
-    {
-      "url": "https://www.therundown.ai/p/openai-takes-codex-mobile",
-      "pushed_at": "2026-05-15",
-      "title": "OpenAI takes Codex mobile",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/dah/llm-seedlab",
-      "pushed_at": "2026-05-15",
-      "title": "Show HN: A seed prompt that bootstraps a custom knowledge-base system",
-      "score": 7
-    },
-    {
-      "url": "https://www.swarmwright.com/",
-      "pushed_at": "2026-05-15",
-      "title": "Show HN: SwarmWright, structured multi-agent AI defined in markdowns",
-      "score": 5
-    },
-    {
-      "url": "https://raybeam.live/",
-      "pushed_at": "2026-05-15",
-      "title": "Show HN: Raybeam – A better way to screen share on macOS",
-      "score": 5
-    },
-    {
-      "url": "https://world.emergence.ai/",
-      "pushed_at": "2026-05-15",
-      "title": "Show HN: Emergence World: World building as a way to evaluate LLMs",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te5xpu/orthrusqwen38b_up_to_78tokensforward_on_qwen38b/",
-      "pushed_at": "2026-05-15",
-      "title": "Orthrus-Qwen3-8B : up to 7.8×tokens/forward on Qwen3-8B, frozen backbone, provably identical output distribution",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te2jko/i_built_a_selfhosted_opensource_mcp_server_that/",
-      "pushed_at": "2026-05-15",
-      "title": "I built a self-hosted open-source MCP server that gives any local LLM real financial data — SEC filings, 13F, insider & congressional trades, short data, FRED",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te93s3/rag_on_snapdragon_x2_laptop_200k_documents/",
-      "pushed_at": "2026-05-15",
-      "title": "RAG on Snapdragon X2 Laptop, 200K documents.",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdtaqt/bytedanceseedcoladlm_hugging_face/",
-      "pushed_at": "2026-05-15",
-      "title": "ByteDance-Seed/Cola-DLM · Hugging Face",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te9unl/allenai_has_been_iterating_on_their_molmoact2/",
-      "pushed_at": "2026-05-15",
-      "title": "AllenAI has been iterating on their MolmoAct2 models for robotics",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te6os6/gemma4_26b_moe_running_in_mlx_with_turboquant_and/",
-      "pushed_at": "2026-05-15",
-      "title": "Gemma4 26b MoE running in MLX with turboquant (and custom kernel)",
-      "score": 10
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdns1i/used_over_a_million_tokens_in_three_separate/",
-      "pushed_at": "2026-05-15",
-      "title": "Used over a million tokens in three separate sessions to test Qwen 3.6 35b (new Multi-token Prediction version)",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te9381/release_nexidion_a_private_knowledge_vault_with/",
-      "pushed_at": "2026-05-15",
-      "title": "[Release] Nexidion – A private knowledge vault with an autonomous local AI background worker.",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te4qn7/i_just_bought_asus_ascent_nvidia_gb10_dgx_and_it/",
-      "pushed_at": "2026-05-15",
-      "title": "I just bought Asus Ascent : Nvidia GB10 (DGX) and It is slower than my Ryzen Ai Max",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdusvx/evaluated_a_rag_chatbot_and_the_most_expensive/",
-      "pushed_at": "2026-05-15",
-      "title": "Evaluated a RAG chatbot and the most expensive model was the worst performer. Notes on what actually moved the needle.",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdty58/2_old_rtx_2080_ti_with_22gb_vram_each_qwen36_27b/",
-      "pushed_at": "2026-05-15",
-      "title": "2 old RTX 2080 Ti with 22GB vram each Qwen3.6 27B at 38 token/s with f16 kv cache",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1te10qy/how_would_you_set_up_a_local_llm_server_for_a/",
-      "pushed_at": "2026-05-15",
-      "title": "how would you set up a local llm server for a business of 7 people?",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "pushed_at": "2026-05-15",
-      "title": "shiyu-coder/Kronos",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/roboflow/supervision",
-      "pushed_at": "2026-05-15",
-      "title": "roboflow/supervision",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/supertone-inc/supertonic",
-      "pushed_at": "2026-05-15",
-      "title": "supertone-inc/supertonic",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/github/spec-kit",
-      "pushed_at": "2026-05-15",
-      "title": "github/spec-kit",
-      "score": 4
-    },
-    {
-      "url": "https://github.com/garrytan/gstack",
-      "pushed_at": "2026-05-15",
-      "title": "garrytan/gstack",
-      "score": 9
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
-      "pushed_at": "2026-05-15",
-      "title": "How Chinese short dramas became AI content machines",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/p/3810308239465986?f=rss",
-      "pushed_at": "2026-05-15",
-      "title": "36氪联合PureblueAI清蓝发布「2026消费品牌AI推荐力名册」丨AI时代，品牌如何抢占「推荐力」新战场？",
-      "score": 6
-    },
-    {
-      "url": "https://36kr.com/p/3810091479293449?f=rss",
-      "pushed_at": "2026-05-15",
-      "title": "长安计划入股千里科技，千里智驾与奥迪推进合作｜36氪独家",
-      "score": 5
-    },
-    {
-      "url": "https://36kr.com/p/3809911566704388?f=rss",
-      "pushed_at": "2026-05-15",
-      "title": "2026年上半年最火赛道：具身智能行业前4月融资超200笔，总规模超550亿元",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1665932?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-05-15",
-      "title": "好消息：微信有 AI 了！坏消息：是元宝…",
-      "score": 5
-    },
-    {
       "url": "https://www.reddit.com/r/SideProject/comments/1tf06q9/made_13k_in_the_first_30_days_launch/",
       "pushed_at": "2026-05-16",
       "title": "Made 1.3K in the first 30 days launch",
@@ -1975,28 +1777,58 @@
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "pushed_at": "2026-08-13",
-      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "url": "https://www.therundown.ai/p/grok-4-6-storms-the-ai-frontier",
+      "pushed_at": "2026-08-14",
+      "title": "Grok 4.6 storms the AI frontier",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmss20h5g02uxroh6q6r1nqu9",
+      "pushed_at": "2026-08-14",
+      "title": "Claude 接管应用日常维护：388 个 PR 的实践",
+      "score": 8
+    },
+    {
+      "url": "https://www.bensbites.com/p/grok-bot-is-not-what-you-think",
+      "pushed_at": "2026-08-14",
+      "title": "Grok Bot is not what you think",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
-      "pushed_at": "2026-08-13",
-      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
-      "score": 7
+      "url": "https://github.com/itsmeadarsh2008/opencode-senses",
+      "pushed_at": "2026-08-14",
+      "title": "Show HN: OpenCode Senses, An insanely fast and highly accurate vision plugin",
+      "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
-      "pushed_at": "2026-08-13",
-      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "url": "https://dev.to/kenwalger/durable-memory-why-vector-databases-arent-enough-3h8f",
+      "pushed_at": "2026-08-14",
+      "title": "Durable Memory: Why Vector Databases Aren't Enough",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
-      "pushed_at": "2026-08-13",
-      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "url": "https://github.com/paperclipai/paperclip",
+      "pushed_at": "2026-08-14",
+      "title": "paperclipai/paperclip",
       "score": 5
+    },
+    {
+      "url": "https://openxlings.github.io/xim-pkgindex/en/packages/dsh/",
+      "pushed_at": "2026-08-14",
+      "title": "Show HN: Multi-version management (by xlings) for DeepSeek Harness",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/hugohe3/ppt-master",
+      "pushed_at": "2026-08-14",
+      "title": "hugohe3/ppt-master",
+      "score": 4
+    },
+    {
+      "url": "https://github.com/embabel/embabel-agent",
+      "pushed_at": "2026-08-14",
+      "title": "embabel/embabel-agent",
+      "score": 4
     }
   ]
 }
