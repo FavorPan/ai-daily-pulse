@@ -1,192 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tftey0/small_update_since_previous_post_my_random_chat/",
-      "pushed_at": "2026-05-17",
-      "title": "Small update since previous post — my random chat project just crossed 350K Google Search clicks.",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tg4ukv/im_building_a_finance_app_that_tells_you_the/",
-      "pushed_at": "2026-05-17",
-      "title": "I’m building a finance app that tells you the stories about your money. Useful or gimmicky?",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tg4rpn/built_a_screenshottoreact_converter_got_real/",
-      "pushed_at": "2026-05-17",
-      "title": "Built a screenshot-to-React converter, got real users, but it didn't take off. Can I have honest feedback?",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1tg4ibt/built_2_ai_document_tools_one_for_contractors_one/",
-      "pushed_at": "2026-05-17",
-      "title": "Built 2 AI document tools — one for contractors, one for real estate agents — looking for feedback",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tfcyue/5_years_of_codegres_from_a_garage_dream_to_1m_app/",
-      "pushed_at": "2026-05-17",
-      "title": "5 Years of Codegres: From a Garage Dream to 1M+ App Downloads",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tfn2vg/who_actually_needs_data_analysis_aside_from_tech/",
-      "pushed_at": "2026-05-17",
-      "title": "Who actually needs data analysis aside from tech?",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/alamops/agetor",
-      "pushed_at": "2026-05-17",
-      "title": "Show HN: Agetor - An open-source Harness Orchestrator",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/theo-kirby/chassis",
-      "pushed_at": "2026-05-17",
-      "title": "Show HN: Multi-agent orchestration layer for experimentation",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/zoharbabin/due-diligence-agents",
-      "pushed_at": "2026-05-17",
-      "title": "Show HN: Due Diligence Agents – 13 AI agents for M&A contract analysis",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/MohammdKopa/kami-subs",
-      "pushed_at": "2026-05-17",
-      "title": "Show HN: Kami Subs – Live AI subtitles overlay for any browser video",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfzsd6/m5_vs_dgx_spark_vs_strix_halo_vs_rtx_6000/",
-      "pushed_at": "2026-05-17",
-      "title": "M5 vs DGX Spark vs Strix Halo vs RTX 6000",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tft1il/llama_avoid_copying_logits_during_prompt_decode/",
-      "pushed_at": "2026-05-17",
-      "title": "llama: avoid copying logits during prompt decode in MTP by am17an · Pull Request #23198 · ggml-org/llama.cpp",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfmocw/85_gpuhours_comparing_5_abliteration_methods_on/",
-      "pushed_at": "2026-05-17",
-      "title": "85 GPU-hours comparing 5 abliteration methods on Qwen3.6-27B: benchmarks, safety, weight forensics - Abliterlitics",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tftaaa/the_power_of_structured_workflows_and_small_local/",
-      "pushed_at": "2026-05-17",
-      "title": "The power of structured workflows and small local models",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tflngz/dual_gpu_llamacpp_speedup/",
-      "pushed_at": "2026-05-17",
-      "title": "Dual GPU llama.cpp speedup",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tftg09/rocm_713_nightly_adds_strix_halo_optimizations/",
-      "pushed_at": "2026-05-17",
-      "title": "ROCm 7.13 nightly adds strix halo optimizations",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg4mw0/benchmarking_vllm_vs_sglang_vs_llamacpp_on_a/",
-      "pushed_at": "2026-05-17",
-      "title": "Benchmarking vLLM vs SGLang vs llama.cpp on a mixed Blackwell/Ada cluster",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg37t6/pushing_the_limit_minimax_m27_q8_0_128k_on_2x3090/",
-      "pushed_at": "2026-05-17",
-      "title": "Pushing the limit: minimax m2.7 q8_0 128k on 2x3090, 256GB DDR4",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfqfvt/developers_who_use_local_ai_q4_0_vs_q8_0_kv_quant/",
-      "pushed_at": "2026-05-17",
-      "title": "Developers who use local AI - Q4_0 vs Q8_0 KV quant?",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfxah9/moving_from_composer_2kimi_26_to_qwen3635ba3b/",
-      "pushed_at": "2026-05-17",
-      "title": "Moving from Composer 2/Kimi 2.6 to Qwen3.6:35b-a3b",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfin40/jackrongqwopus359bcodergguf_hugging_face/",
-      "pushed_at": "2026-05-17",
-      "title": "Jackrong/Qwopus3.5-9B-Coder-GGUF · Hugging Face",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg0me5/grafting_vision_onto_text_models_for_fun_and/",
-      "pushed_at": "2026-05-17",
-      "title": "Grafting vision onto text models for fun and profit.",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg4ux6/followup_adding_ollama_support_to_my_opensource/",
-      "pushed_at": "2026-05-17",
-      "title": "Follow-up: adding Ollama support to my open-source cursor-aware AI app - looking for beta testers with vision-capable local models",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfsmov/mirothinker17_an_openweight_deep_research_agent/",
-      "pushed_at": "2026-05-17",
-      "title": "MiroThinker-1.7, an open-weight deep research agent (Qwen3 MoE base) — mini is 30B/3B active, curious what tok/s people get on consumer hardware",
-      "score": 9
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfpwc6/recent_developments_in_llm_architectures_kv/",
-      "pushed_at": "2026-05-17",
-      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg3ssd/llms_on_android_snapdragon_8_elite_moe_experience/",
-      "pushed_at": "2026-05-17",
-      "title": "LLM's on Android (Snapdragon 8 Elite) MOE Experience",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/colbymchenry/codegraph",
-      "pushed_at": "2026-05-17",
-      "title": "colbymchenry/codegraph",
-      "score": 9
-    },
-    {
-      "url": "https://36kr.com/p/3812925591887368?f=rss",
-      "pushed_at": "2026-05-17",
-      "title": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAI：钱我出",
-      "score": 7
-    },
-    {
-      "url": "https://36kr.com/p/3812800346742274?f=rss",
-      "pushed_at": "2026-05-17",
-      "title": "6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3814021584068105?f=rss",
-      "pushed_at": "2026-05-17",
-      "title": "阳狮集团宣布以22亿美元全现金收购LiveRamp",
-      "score": 8
-    },
-    {
-      "url": "https://36kr.com/newsflashes/3813992251989504?f=rss",
-      "pushed_at": "2026-05-17",
-      "title": "数据中心运营商DayOne正考虑在新加坡和美国双重上市",
-      "score": 8
-    },
-    {
       "url": "https://anyfrm.com",
       "pushed_at": "2026-05-18",
       "title": "Show HN: AnyFrame – Sandboxes for AI Agents",
@@ -1627,45 +1441,45 @@
       "score": 5
     },
     {
-      "url": "https://github.com/rvoertmann/barbequeue",
-      "pushed_at": "2026-08-15",
-      "title": "Show HN: Open-source skill to run Matt Pocock's skills in bulk AFK",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/christensen143/claude-trofeo-hud",
-      "pushed_at": "2026-08-15",
-      "title": "Show HN: Live Claude Usage HUD for a $38 Thermalright Trofeo Vision LCD",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/madebywelch/guaca",
-      "pushed_at": "2026-08-15",
-      "title": "Show HN: Open-source Grok Bot alternative",
-      "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/08/473407.html",
-      "pushed_at": "2026-08-15",
-      "title": "对话郎咸朋：用机器人创业重做一次“百万智驾量产”",
+      "url": "https://dev.to/praiztech/ai-can-find-the-failure-who-decides-what-the-fix-should-be-18o5",
+      "pushed_at": "2026-08-16",
+      "title": "AI Can Find the Failure. Who Decides What the Fix Should Be?",
       "score": 6
     },
     {
-      "url": "https://dev.to/zekebuilds/anonymous-pastebins-are-a-spam-magnet-i-gated-mine-with-proof-of-work-instead-of-logins-9la",
-      "pushed_at": "2026-08-15",
-      "title": "Anonymous pastebins are a spam magnet. I gated mine with proof-of-work instead of logins.",
+      "url": "https://github.com/cursor/plugins",
+      "pushed_at": "2026-08-16",
+      "title": "cursor/plugins",
+      "score": 6
+    },
+    {
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "pushed_at": "2026-08-16",
+      "title": "The AI Credit Resale Economy",
+      "score": 6
+    },
+    {
+      "url": "https://littlelearner-ll.github.io/",
+      "pushed_at": "2026-08-16",
+      "title": "What happens when an LLM never sees material beyond fifth grade?",
+      "score": 6
+    },
+    {
+      "url": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
+      "pushed_at": "2026-08-16",
+      "title": "You can just choose how many bugs you want now",
+      "score": 6
+    },
+    {
+      "url": "https://www.vinaa.ai/tools/ai-chat-history-browser/",
+      "pushed_at": "2026-08-16",
+      "title": "Show HN: ChatGPT and Claude export viewer that runs locally in the browser",
       "score": 5
     },
     {
-      "url": "https://dev.to/vitorcastro78/contextmemory-v010-beta-what-shipped-4acl",
-      "pushed_at": "2026-08-15",
-      "title": "ContextMemory v0.1.0-beta: what shipped",
-      "score": 5
-    },
-    {
-      "url": "https://glad-ia-tor.com",
-      "pushed_at": "2026-08-15",
-      "title": "Show HN: Glad-AI-Tor – AI tools ranked by user votes, not by who pays",
+      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "pushed_at": "2026-08-16",
+      "title": "Software Engineering fundamentals matter more than ever",
       "score": 5
     }
   ]
