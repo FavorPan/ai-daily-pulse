@@ -1,24 +1,6 @@
 {
   "pushed": [
     {
-      "url": "https://anyfrm.com",
-      "pushed_at": "2026-05-18",
-      "title": "Show HN: AnyFrame – Sandboxes for AI Agents",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/calcom/cal.diy",
-      "pushed_at": "2026-05-18",
-      "title": "calcom/cal.diy",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/dograh-hq/dograh",
-      "pushed_at": "2026-05-18",
-      "title": "dograh-hq/dograh",
-      "score": 6
-    },
-    {
       "url": "https://github.com/NVlabs/Sana",
       "pushed_at": "2026-05-19",
       "title": "NVlabs/Sana",
@@ -1441,45 +1423,15 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/praiztech/ai-can-find-the-failure-who-decides-what-the-fix-should-be-18o5",
-      "pushed_at": "2026-08-16",
-      "title": "AI Can Find the Failure. Who Decides What the Fix Should Be?",
-      "score": 6
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "pushed_at": "2026-08-17",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "score": 7
     },
     {
-      "url": "https://github.com/cursor/plugins",
-      "pushed_at": "2026-08-16",
-      "title": "cursor/plugins",
-      "score": 6
-    },
-    {
-      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-      "pushed_at": "2026-08-16",
-      "title": "The AI Credit Resale Economy",
-      "score": 6
-    },
-    {
-      "url": "https://littlelearner-ll.github.io/",
-      "pushed_at": "2026-08-16",
-      "title": "What happens when an LLM never sees material beyond fifth grade?",
-      "score": 6
-    },
-    {
-      "url": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
-      "pushed_at": "2026-08-16",
-      "title": "You can just choose how many bugs you want now",
-      "score": 6
-    },
-    {
-      "url": "https://www.vinaa.ai/tools/ai-chat-history-browser/",
-      "pushed_at": "2026-08-16",
-      "title": "Show HN: ChatGPT and Claude export viewer that runs locally in the browser",
-      "score": 5
-    },
-    {
-      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
-      "pushed_at": "2026-08-16",
-      "title": "Software Engineering fundamentals matter more than ever",
+      "url": "https://github.com/unslothai/unsloth",
+      "pushed_at": "2026-08-17",
+      "title": "unslothai/unsloth",
       "score": 5
     }
   ]
