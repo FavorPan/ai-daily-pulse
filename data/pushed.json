@@ -775,93 +775,57 @@
       "score": 5
     },
     {
-      "url": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78",
-      "pushed_at": "2026-08-18",
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "url": "https://dev.to/raju_dandigam/from-flat-logs-to-execution-trees-debugging-modern-ai-agents-1mop",
+      "pushed_at": "2026-08-19",
+      "title": "From Flat Logs to Execution Trees: Debugging Modern AI Agents",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-      "pushed_at": "2026-08-18",
-      "title": "Perplexity’s free AI offer left it with millions more users in India",
+      "url": "https://therundownai.beehiiv.com/p/pacing-comes-to-the-ai-frontier",
+      "pushed_at": "2026-08-19",
+      "title": "Pacing comes to the AI frontier",
       "score": 7
     },
     {
-      "url": "https://github.com/gmhoward9289-ops/roost",
-      "pushed_at": "2026-08-18",
-      "title": "Show HN: Roost – top for your Claude Code sessions",
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "pushed_at": "2026-08-19",
+      "title": "genlayerlabs/genlayer-project-boilerplate",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/",
-      "pushed_at": "2026-08-18",
-      "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
+      "url": "https://trends.vc/ai-sales-agents-the-operator-role-volume-versus-judgment-signal-consolidation/",
+      "pushed_at": "2026-08-19",
+      "title": "AI Sales Agents: The Operator Role, Volume Versus Judgment, Signal Consolidation",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
+      "pushed_at": "2026-08-19",
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/uson1x/dsh-plugin-llm-verifier",
+      "pushed_at": "2026-08-19",
+      "title": "Show HN: LLM-as-a-Verifier Plugin for DeepSeek Harness",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/flabstech/the-agenthood-news-digest-now-writes-itself-2199",
+      "pushed_at": "2026-08-19",
+      "title": "The Agenthood news digest now writes itself",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=1&sn=538946e12656c0233ae4c36f04ed5611",
-      "pushed_at": "2026-08-18",
-      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
+      "url": "https://joecode.com/2026-08-19-sqlite3/",
+      "pushed_at": "2026-08-19",
+      "title": "SQLite for Everything",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=2&sn=81e00adfb8b8d69ad1dcc2b2f03bfb0d",
-      "pushed_at": "2026-08-18",
-      "title": "6个Agent组团Vibe Gaming：自己生成、试玩、修Bug",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/08/474647.html",
-      "pushed_at": "2026-08-18",
-      "title": "阿里杀进Agent上下文战场：钉钉聊天、企业文档、工作数据终于要被Agent吃进去了",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
-      "pushed_at": "2026-08-18",
-      "title": "OpenAI 在&quot;关键网络能力&quot;时代放缓模型开发节奏",
-      "score": 6
-    },
-    {
-      "url": "https://www.therundown.ai/p/cursor-origin-hits-github-on-its-worst-day",
-      "pushed_at": "2026-08-18",
-      "title": "Cursor's Origin hits GitHub on its worst day",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/nomurasan/an-agents-work-isnt-done-later-until-you-can-find-it-later-1929",
-      "pushed_at": "2026-08-18",
-      "title": "An Agent's Work Isn't \"Done Later\" Until You Can Find It Later",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1vruzl6/i_made_an_offline_notchscribe_that_i_use_everyday/",
-      "pushed_at": "2026-08-18",
-      "title": "I made an offline notch-scribe that I use everyday",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1vs0pdq/i_built_a_brainstorming_tool_where_you_flick/",
-      "pushed_at": "2026-08-18",
-      "title": "I built a brainstorming tool where you flick single words by instinct — 30s demo",
-      "score": 5
-    },
-    {
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "pushed_at": "2026-08-18",
-      "title": "Google has acquired the data of failed US airline Spirit",
-      "score": 5
-    },
-    {
-      "url": "https://cua.graderlabs.com/",
-      "pushed_at": "2026-08-18",
-      "title": "Show HN: A sample dataset of computer-use tasks on professional software",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/08/474806.html",
-      "pushed_at": "2026-08-18",
-      "title": "6个Agent组团Vibe Gaming：自己生成、试玩、修Bug",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "pushed_at": "2026-08-19",
+      "title": "Conceptual integrity and counting lines of code",
       "score": 5
     }
   ]
