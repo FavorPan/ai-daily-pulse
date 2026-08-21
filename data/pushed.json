@@ -775,57 +775,39 @@
       "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652719157&idx=2&sn=471003c8076c5512a8688960747e8e4a",
-      "pushed_at": "2026-08-20",
-      "title": "刚花600亿买下Cursor，马斯克又要对Devin下手",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "pushed_at": "2026-08-21",
+      "title": "RyanCodrai/turbovec",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-      "pushed_at": "2026-08-20",
-      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/claude-adds-protein-design-to-its-resume",
-      "pushed_at": "2026-08-20",
-      "title": "Claude adds protein design to its resume",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
-      "pushed_at": "2026-08-20",
-      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-      "score": 7
-    },
-    {
-      "url": "https://www.nature.com/articles/d41586-026-02551-z",
-      "pushed_at": "2026-08-20",
-      "title": "Staggering 90% of biomedical papers now show signs of AI help",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "pushed_at": "2026-08-21",
+      "title": "ChatGPT search now uses the site:operator at scale",
       "score": 6
     },
     {
-      "url": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob",
-      "pushed_at": "2026-08-20",
-      "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+      "url": "https://aihot.virxact.com/items/cmt30vskr0e0wro6t19q13yic",
+      "pushed_at": "2026-08-21",
+      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型&quot;刷分&quot;现象",
       "score": 6
     },
     {
-      "url": "https://dev.to/arsalan_shahid116/your-agent-asked-for-approval-where-did-the-answer-go-47m8",
-      "pushed_at": "2026-08-20",
-      "title": "Your agent asked for approval. Where did the answer go?",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "pushed_at": "2026-08-21",
+      "title": "llm-openrouter 0.7",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1vtbqkw/ive_spent_the_last_4_months_building_a_tool_that/",
-      "pushed_at": "2026-08-20",
-      "title": "I’ve spent the last 4 months building a tool that turns resumes into portfolio websites",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vutqdr/i_built_gettoknowthe_hardest_problem_isnt_saving/",
+      "pushed_at": "2026-08-21",
+      "title": "I built GetToKnow—the hardest problem isn’t saving family stories, but motivating people to share them",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "pushed_at": "2026-08-20",
-      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "url": "https://www.felonybench.com/",
+      "pushed_at": "2026-08-21",
+      "title": "Felony Bench: Be AI, Do Crime",
       "score": 5
     }
   ]
