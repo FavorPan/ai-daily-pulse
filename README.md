@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <a href="README.md">English</a> · <a href="README-zh.md">中文</a>
 </p>
@@ -130,6 +132,7 @@ Opens at [http://localhost:3000](http://localhost:3000).
 ```bash
 cd worker
 npm install
+npm run db:init
 npx wrangler dev --local --port 8787
 ```
 
