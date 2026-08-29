@@ -775,87 +775,63 @@
       "score": 5
     },
     {
-      "url": "https://dev.to/muskan_bandta/gpu-rightsizing-without-breaking-production-g5-g6-p4-p5-and-the-cuda-check-nobody-mentions-4j7b",
-      "pushed_at": "2026-08-28",
-      "title": "GPU Rightsizing Without Breaking Production: G5, G6, P4, P5 and the CUDA Check Nobody Mentions",
+      "url": "https://dev.to/makx518ui/i-ran-someone-elses-vibe-coded-app-through-four-ais-at-once-heres-what-they-found-in-an-hour-1jaj",
+      "pushed_at": "2026-08-29",
+      "title": "I ran someone else's vibe-coded app through four AIs at once. Here's what they found in an hour",
       "score": 8
     },
     {
-      "url": "https://dev.to/stanley_f57ec6c939e0e82db/prototype-and-port-the-best-way-to-use-claude-for-personal-projects-3ceb",
-      "pushed_at": "2026-08-28",
-      "title": "Prototype and Port: The Best Way to Use Claude for Personal Projects",
+      "url": "https://github.com/Wholiver/metis",
+      "pushed_at": "2026-08-29",
+      "title": "Show HN: Metis – An agent harness pushing DeepSeek to Opus-tier coding (82%)",
       "score": 8
     },
     {
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "pushed_at": "2026-08-28",
-      "title": "DietrichGebert/ponytail",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "pushed_at": "2026-08-28",
-      "title": "anthropics/claude-plugins-official",
+      "url": "https://dev.to/bhavyshekhaliya/mapping-api-path-query-header-and-body-parameters-to-mcp-tool-schemas-48k5",
+      "pushed_at": "2026-08-29",
+      "title": "Mapping API Path, Query, Header, and Body Parameters to MCP Tool Schemas",
       "score": 7
     },
     {
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "pushed_at": "2026-08-28",
-      "title": "AgriciDaniel/claude-obsidian",
+      "url": "https://www.reddit.com/r/SideProject/comments/1w0tbl5/i_built_a_tool_that_turns_any_job_posting_into_a/",
+      "pushed_at": "2026-08-29",
+      "title": "I built a tool that turns any job posting into a timed mock interview inside your IDE",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-      "pushed_at": "2026-08-28",
-      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "http://www.geekpark.net/news/369549",
+      "pushed_at": "2026-08-29",
+      "title": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz",
-      "pushed_at": "2026-08-28",
-      "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
+      "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+      "pushed_at": "2026-08-29",
+      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
       "score": 7
     },
     {
-      "url": "https://dev.to/taxgarden_40fc262ae923ad6/the-compliance-stack-nobody-talks-about-2bnd",
-      "pushed_at": "2026-08-28",
-      "title": "The Compliance Stack Nobody Talks About",
+      "url": "https://github.com/tt-a1i/archify",
+      "pushed_at": "2026-08-29",
+      "title": "tt-a1i/archify",
       "score": 6
     },
     {
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "pushed_at": "2026-08-28",
-      "title": "anthropics/claude-plugins-community",
+      "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
+      "pushed_at": "2026-08-29",
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/369481",
-      "pushed_at": "2026-08-28",
-      "title": "特努斯时代首秀，苹果发布会定档 9 月 10 日；116 家公司联名信：重视 AI 时代网络安全；英伟达预计三季度营收破千亿美元 | 极客早知道",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-08-28",
-      "title": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/08/480557.html",
-      "pushed_at": "2026-08-28",
-      "title": "首款癌症疫苗，一针300万？？？",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/raxxostudios/why-i-test-every-raxxo-tool-on-my-phone-before-my-desktop-2pj0",
-      "pushed_at": "2026-08-28",
-      "title": "Why I Test Every RAXXO Tool on My Phone Before My Desktop",
+      "url": "https://www.reddit.com/r/SideProject/comments/1w173wi/i_built_a_free_desktop_app_that_splits_any/",
+      "pushed_at": "2026-08-29",
+      "title": "I built a free desktop app that splits any YouTube song into stems",
       "score": 5
     },
     {
-      "url": "https://meetalphie.com",
-      "pushed_at": "2026-08-28",
-      "title": "Show HN: Alphie – see who's on your website and chat with them from Slack",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "pushed_at": "2026-08-29",
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
       "score": 5
     }
   ]
