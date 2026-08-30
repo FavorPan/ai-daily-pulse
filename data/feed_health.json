@@ -1,7 +1,7 @@
 {
   "One Useful Thing": {
     "name": "One Useful Thing",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
@@ -9,27 +9,27 @@
   "Zara's Newsletter": {
     "name": "Zara's Newsletter",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "Ben's Bites": {
     "name": "Ben's Bites",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 1
+    "total_articles": 0
   },
   "Reddit r/SideProject": {
     "name": "Reddit r/SideProject",
-    "last_success": "2026-08-29T04:11:16Z",
-    "last_failure": null,
-    "consecutive_failures": 0,
-    "total_articles": 114
+    "last_success": "2026-06-02T08:16:56Z",
+    "last_failure": "2026-08-30T01:19:05Z",
+    "consecutive_failures": 1,
+    "total_articles": 92
   },
   "TLDR AI": {
     "name": "TLDR AI",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
@@ -37,188 +37,188 @@
   "The Batch (deeplearning.ai)": {
     "name": "The Batch (deeplearning.ai)",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "Reddit r/Entrepreneur": {
     "name": "Reddit r/Entrepreneur",
-    "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
-    "consecutive_failures": 1,
-    "total_articles": 46
+    "last_success": "2026-08-30T01:19:05Z",
+    "last_failure": null,
+    "consecutive_failures": 0,
+    "total_articles": 51
   },
   "Simon Willison's Blog": {
     "name": "Simon Willison's Blog",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 21
   },
   "Latent Space": {
     "name": "Latent Space",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 7
   },
   "Lenny's Newsletter": {
     "name": "Lenny's Newsletter",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 8
+    "total_articles": 9
   },
   "Indie Hackers": {
     "name": "Indie Hackers",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "Hugging Face Blog": {
     "name": "Hugging Face Blog",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 7
   },
   "VentureBeat AI": {
     "name": "VentureBeat AI",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "TechCrunch AI": {
     "name": "TechCrunch AI",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 51
+    "total_articles": 49
   },
   "MIT Technology Review AI": {
     "name": "MIT Technology Review AI",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 5
   },
   "Practical Ecommerce": {
     "name": "Practical Ecommerce",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 7
+    "total_articles": 6
   },
   "Hacker News Show HN": {
     "name": "Hacker News Show HN",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 100
   },
   "The Rundown AI": {
     "name": "The Rundown AI",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 5
+    "total_articles": 4
   },
   "Product Hunt": {
     "name": "Product Hunt",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 45
+    "total_articles": 44
   },
   "Reddit r/LocalLLaMA": {
     "name": "Reddit r/LocalLLaMA",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 97
   },
   "量子位": {
     "name": "量子位",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 44
+    "total_articles": 43
   },
   "Marketing AI Institute": {
     "name": "Marketing AI Institute",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "机器之心": {
     "name": "机器之心",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "Shopify Blog": {
     "name": "Shopify Blog",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "Search Engine Journal (Ecommerce)": {
     "name": "Search Engine Journal (Ecommerce)",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "少数派": {
     "name": "少数派",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 22
+    "total_articles": 20
   },
   "36氪": {
     "name": "36氪",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 117
   },
   "AI热榜": {
     "name": "AI热榜",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 146
+    "total_articles": 142
   },
   "晚点 LatePost": {
     "name": "晚点 LatePost",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "GitHub Trending": {
     "name": "GitHub Trending",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 81
+    "total_articles": 82
   },
   "eCommerceBytes": {
     "name": "eCommerceBytes",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 1
   },
   "Trends.vc": {
     "name": "Trends.vc",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
@@ -226,134 +226,134 @@
   "数字生命卡兹克": {
     "name": "数字生命卡兹克",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "爱范儿": {
     "name": "爱范儿",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 30
+    "total_articles": 29
   },
   "卡尔的AI沃茨": {
     "name": "卡尔的AI沃茨",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "eCommerceFuel": {
     "name": "eCommerceFuel",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "极客公园": {
     "name": "极客公园",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 3
+    "total_articles": 2
   },
   "沃垠AI": {
     "name": "沃垠AI",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "饼干哥哥AGI": {
     "name": "饼干哥哥AGI",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "刘小排r": {
     "name": "刘小排r",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "AGI Hunt": {
     "name": "AGI Hunt",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "一泽Eze": {
     "name": "一泽Eze",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "赛博禅心": {
     "name": "赛博禅心",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "第二曲线增长": {
     "name": "第二曲线增长",
     "last_success": "2026-06-02T08:16:56Z",
-    "last_failure": "2026-08-29T04:11:16Z",
+    "last_failure": "2026-08-30T01:19:05Z",
     "consecutive_failures": 1,
     "total_articles": 0
   },
   "DEV Community": {
     "name": "DEV Community",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 48
   },
   "Lobsters": {
     "name": "Lobsters",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 95
+    "total_articles": 88
   },
   "Hacker News Best": {
     "name": "Hacker News Best",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 85
+    "total_articles": 72
   },
   "Nature": {
     "name": "Nature",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 0
   },
   "Quanta Magazine": {
     "name": "Quanta Magazine",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 1
+    "total_articles": 0
   },
   "量子位（公众号）": {
     "name": "量子位（公众号）",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
     "total_articles": 4
   },
   "新智元": {
     "name": "新智元",
-    "last_success": "2026-08-29T04:11:16Z",
+    "last_success": "2026-08-30T01:19:05Z",
     "last_failure": null,
     "consecutive_failures": 0,
-    "total_articles": 3
+    "total_articles": 0
   }
 }
