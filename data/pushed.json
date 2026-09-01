@@ -1,75 +1,87 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "pushed_at": "2026-08-31",
-      "title": "Understanding ChatGPT Work",
+      "url": "https://dev.to/van_massey/glm-53-costs-140-of-claude-opus-what-it-does-to-your-api-bill-106g",
+      "pushed_at": "2026-09-01",
+      "title": "GLM-5.3 Costs ~1/40 of Claude Opus: What It Does to Your API Bill",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "pushed_at": "2026-09-01",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
       "score": 7
     },
     {
-      "url": "https://github.com/calesthio/OpenMontage",
-      "pushed_at": "2026-08-31",
-      "title": "calesthio/OpenMontage",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "pushed_at": "2026-09-01",
+      "title": "unclecode/crawl4ai",
       "score": 7
     },
     {
-      "url": "https://github.com/abi/screenshot-to-code",
-      "pushed_at": "2026-08-31",
-      "title": "abi/screenshot-to-code",
+      "url": "https://github.com/franzenzenhofer/cdai",
+      "pushed_at": "2026-09-01",
+      "title": "Show HN: cdai – the AI-enhanced cd command",
       "score": 7
     },
     {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-08-31",
-      "title": "addyosmani/agent-skills",
+      "url": "https://daneb.github.io/keel/",
+      "pushed_at": "2026-09-01",
+      "title": "Show HN: Keel - A conductor, not an agent loop",
       "score": 7
     },
     {
-      "url": "https://github.com/solodynamo/Ration",
-      "pushed_at": "2026-08-31",
-      "title": "Show HN: Ration – see your Claude usage across terminals and brag usage",
+      "url": "https://github.com/zenbu-labs/terminal-browser",
+      "pushed_at": "2026-09-01",
+      "title": "Show HN: Terminal-browser – A real browser inside the terminal",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721643&idx=2&sn=fe5ad2aa89e122507b52f2bb1a9cc10a",
-      "pushed_at": "2026-08-31",
-      "title": "陶哲轩：100年后，数学再度大危机！",
+      "url": "https://github.com/interrupt21h/tubeviz",
+      "pushed_at": "2026-09-01",
+      "title": "Show HN: Tubeviz – automatically edit YouTube footage to music",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/369556",
-      "pushed_at": "2026-08-31",
-      "title": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
+      "url": "http://www.geekpark.net/news/369559",
+      "pushed_at": "2026-09-01",
+      "title": "AirPods 5 或将于 9 月发布；17.6 万，特斯拉港澳车型降价；「网抑云」登陆鸿蒙系统｜极客早知道",
       "score": 6
     },
     {
-      "url": "https://github.com/kaifcodec/user-scanner",
-      "pushed_at": "2026-08-31",
-      "title": "kaifcodec/user-scanner",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "pushed_at": "2026-09-01",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "pushed_at": "2026-09-01",
+      "title": "Instagram puts new limits on undisclosed AI profiles",
       "score": 5
     },
     {
-      "url": "https://noaifridays.com/",
-      "pushed_at": "2026-08-31",
-      "title": "No AI Fridays",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "pushed_at": "2026-09-01",
+      "title": "THU-MAIC/OpenMAIC",
       "score": 5
     },
     {
-      "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
-      "pushed_at": "2026-08-31",
-      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1w3hkc9/do_you_think_its_worth_and_doable_to_build_a/",
+      "pushed_at": "2026-09-01",
+      "title": "Do you think it's worth and doable to build a website with AI for a small business making $400k revenue, 45k EBITDA?",
       "score": 5
     },
     {
-      "url": "https://autogeoref.com/",
-      "pushed_at": "2026-08-31",
-      "title": "Show HN: Automated Sanborn map georeferencing, with a Chicago map viewer",
+      "url": "http://www.geekpark.net/news/369631",
+      "pushed_at": "2026-09-01",
+      "title": "流量红利退潮，快手想用 AI 和老友们破局",
       "score": 5
     },
     {
-      "url": "https://sspai.com/post/114022",
-      "pushed_at": "2026-08-31",
-      "title": "派早报：GTA 6 引发请假玩游戏热潮",
+      "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
+      "pushed_at": "2026-09-01",
+      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
       "score": 5
     }
   ]
