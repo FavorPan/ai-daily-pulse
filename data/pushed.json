@@ -1,69 +1,39 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "pushed_at": "2026-09-05",
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/sarantoon/chngwaang-03-aetraakhaataang-2-ethaa-aantaaraang-terminal-bench-40-aihepn-467f",
-      "pushed_at": "2026-09-05",
-      "title": "ช่องว่าง 0.3% แต่ราคาต่าง 2 เท่า, อ่านตาราง Terminal-Bench 4.0 ให้เป็น",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/magnitudedev/magnitude",
-      "pushed_at": "2026-09-05",
-      "title": "magnitudedev/magnitude",
+      "url": "https://dev.to/orca_forge/18-insights-from-mass-producing-voice-models-from-diffusion-tts-voice-design-to-training-corpus-164e",
+      "pushed_at": "2026-09-06",
+      "title": "18 Insights from Mass-Producing Voice Models — From Diffusion TTS Voice Design to Training Corpus Creation and Quality Gate Pitfalls",
       "score": 7
     },
     {
-      "url": "https://aihot.virxact.com/items/cmtn41rbm0lw1romys1igl789",
-      "pushed_at": "2026-09-05",
-      "title": "英伟达两年从零建起近千亿美元股权投资组合",
+      "url": "https://github.com/anomalyco/opencode",
+      "pushed_at": "2026-09-06",
+      "title": "anomalyco/opencode",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "pushed_at": "2026-09-05",
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "score": 6
+      "url": "https://github.com/prian3003/twinrun",
+      "pushed_at": "2026-09-06",
+      "title": "Show HN: Twinrun – run old and new code on the same inputs, diff the outputs",
+      "score": 7
     },
     {
-      "url": "https://github.com/f/prompts.chat",
-      "pushed_at": "2026-09-05",
-      "title": "f/prompts.chat",
-      "score": 6
-    },
-    {
-      "url": "https://tesoro.help/",
-      "pushed_at": "2026-09-05",
-      "title": "Show HN: Tesoro.help – rogue AI helpdesk for my kid's high school",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1w7i068/pasé_1_año_construyendo_una_red_social_arcade/",
-      "pushed_at": "2026-09-05",
-      "title": "Pasé 1 año construyendo una red social + arcade para gamers, con una API propia para crear bots y minijuegos — mi primer trailer",
+      "url": "https://www.latent.space/p/grok-bot",
+      "pushed_at": "2026-09-06",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
       "score": 5
     },
     {
-      "url": "https://opentrailpaper.com",
-      "pushed_at": "2026-09-05",
-      "title": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://github.com/radixark/miles",
+      "pushed_at": "2026-09-06",
+      "title": "radixark/miles",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/09/483984.html",
-      "pushed_at": "2026-09-05",
-      "title": "常州女首富机器人转型才开始，先因裁应届生上了热搜",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/uipath/coder_eval",
-      "pushed_at": "2026-09-05",
-      "title": "Show HN: Coder Eval – A Framework for Evals",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "pushed_at": "2026-09-06",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
       "score": 5
     }
   ]
