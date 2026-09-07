@@ -1,39 +1,39 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/orca_forge/18-insights-from-mass-producing-voice-models-from-diffusion-tts-voice-design-to-training-corpus-164e",
-      "pushed_at": "2026-09-06",
-      "title": "18 Insights from Mass-Producing Voice Models — From Diffusion TTS Voice Design to Training Corpus Creation and Quality Gate Pitfalls",
+      "url": "https://dev.to/tatanlabra/multi-agent-work-in-three-spoonfuls-ii-auditable-memory-127a",
+      "pushed_at": "2026-09-07",
+      "title": "Multi-agent work in three spoonfuls II: auditable memory",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/blader/humanizer",
+      "pushed_at": "2026-09-07",
+      "title": "blader/humanizer",
       "score": 7
     },
     {
-      "url": "https://github.com/anomalyco/opencode",
-      "pushed_at": "2026-09-06",
-      "title": "anomalyco/opencode",
+      "url": "https://github.com/humanlayer/skills",
+      "pushed_at": "2026-09-07",
+      "title": "humanlayer/skills",
       "score": 7
     },
     {
-      "url": "https://github.com/prian3003/twinrun",
-      "pushed_at": "2026-09-06",
-      "title": "Show HN: Twinrun – run old and new code on the same inputs, diff the outputs",
-      "score": 7
+      "url": "https://github.com/magnitudedev/magnitude",
+      "pushed_at": "2026-09-07",
+      "title": "magnitudedev/magnitude",
+      "score": 6
     },
     {
-      "url": "https://www.latent.space/p/grok-bot",
-      "pushed_at": "2026-09-06",
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "score": 5
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "pushed_at": "2026-09-07",
+      "title": "GPT-6 Astra on robot arms",
+      "score": 6
     },
     {
-      "url": "https://github.com/radixark/miles",
-      "pushed_at": "2026-09-06",
-      "title": "radixark/miles",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "pushed_at": "2026-09-06",
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "pushed_at": "2026-09-07",
+      "title": "Research acceleration: The view inside OpenAI",
       "score": 5
     }
   ]
