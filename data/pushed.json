@@ -1,39 +1,45 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/tatanlabra/multi-agent-work-in-three-spoonfuls-ii-auditable-memory-127a",
-      "pushed_at": "2026-09-07",
-      "title": "Multi-agent work in three spoonfuls II: auditable memory",
-      "score": 8
+      "url": "https://www.latent.space/p/aeo",
+      "pushed_at": "2026-09-08",
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "score": 7
     },
     {
-      "url": "https://github.com/blader/humanizer",
-      "pushed_at": "2026-09-07",
-      "title": "blader/humanizer",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "pushed_at": "2026-09-08",
+      "title": "OpenWhispr/openwhispr",
       "score": 7
+    },
+    {
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "pushed_at": "2026-09-08",
+      "title": "The-Swarm-Corporation/AutoHedge",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "pushed_at": "2026-09-08",
+      "title": "coreyhaines31/marketingskills",
+      "score": 6
     },
     {
       "url": "https://github.com/humanlayer/skills",
-      "pushed_at": "2026-09-07",
+      "pushed_at": "2026-09-08",
       "title": "humanlayer/skills",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/magnitudedev/magnitude",
-      "pushed_at": "2026-09-07",
-      "title": "magnitudedev/magnitude",
       "score": 6
     },
     {
-      "url": "https://openai.robocurve.org/gpt-6-astra/",
-      "pushed_at": "2026-09-07",
-      "title": "GPT-6 Astra on robot arms",
+      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "pushed_at": "2026-09-08",
+      "title": "Mercator ↔ Equal Earth",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "pushed_at": "2026-09-07",
-      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://therundownai.beehiiv.com/p/another-openai-agent-swarm-surfaces",
+      "pushed_at": "2026-09-08",
+      "title": "Another OpenAI agent swarm surfaces",
       "score": 5
     }
   ]
