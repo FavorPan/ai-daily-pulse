@@ -1,45 +1,63 @@
 {
   "pushed": [
     {
-      "url": "https://www.latent.space/p/aeo",
-      "pushed_at": "2026-09-08",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "url": "https://github.com/sebastianmechno-sys/sagashield",
+      "pushed_at": "2026-09-09",
+      "title": "Show HN: SagaShield – ACID transactions and security guardrails for AI agents",
       "score": 7
     },
     {
-      "url": "https://github.com/OpenWhispr/openwhispr",
-      "pushed_at": "2026-09-08",
-      "title": "OpenWhispr/openwhispr",
+      "url": "https://blackholes.dev",
+      "pushed_at": "2026-09-09",
+      "title": "Show HN: Blackholes – A macOS workspace for coding agents",
       "score": 7
     },
     {
-      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "pushed_at": "2026-09-08",
-      "title": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/ashishsinha1602/schemagate",
+      "pushed_at": "2026-09-09",
+      "title": "Show HN: Text-to-SQL says \"no records found\" when it should say \"denied\"",
       "score": 7
     },
     {
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "pushed_at": "2026-09-08",
-      "title": "coreyhaines31/marketingskills",
+      "url": "https://dev.to/jose_bermdez_8d743ab4802/enciclopedia-web-5g17",
+      "pushed_at": "2026-09-09",
+      "title": "Enciclopedia web",
       "score": 6
     },
     {
-      "url": "https://github.com/humanlayer/skills",
-      "pushed_at": "2026-09-08",
-      "title": "humanlayer/skills",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "pushed_at": "2026-09-09",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "pushed_at": "2026-09-08",
-      "title": "Mercator ↔ Equal Earth",
+      "url": "http://www.geekpark.net/news/370006",
+      "pushed_at": "2026-09-09",
+      "title": "单人一月烧掉 19 万，硅谷开始倒查员工 AI 账单",
       "score": 6
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/another-openai-agent-swarm-surfaces",
-      "pushed_at": "2026-09-08",
-      "title": "Another OpenAI agent swarm surfaces",
+      "url": "https://www.qbitai.com/2026/09/485854.html",
+      "pushed_at": "2026-09-09",
+      "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/openai/skills",
+      "pushed_at": "2026-09-09",
+      "title": "openai/skills",
+      "score": 5
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "pushed_at": "2026-09-09",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
+      "pushed_at": "2026-09-09",
+      "title": "GPT-6 Astra推理等级怎么选才最省Token",
       "score": 5
     }
   ]
