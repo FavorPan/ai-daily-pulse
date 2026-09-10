@@ -1,64 +1,130 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/sebastianmechno-sys/sagashield",
-      "pushed_at": "2026-09-09",
-      "title": "Show HN: SagaShield – ACID transactions and security guardrails for AI agents",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "pushed_at": "2026-09-10",
+      "title": "ayghri/i-have-adhd",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "pushed_at": "2026-09-10",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "score": 8
+    },
+    {
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "pushed_at": "2026-09-10",
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/heygen-com/hyperframes",
+      "pushed_at": "2026-09-10",
+      "title": "heygen-com/hyperframes",
       "score": 7
     },
     {
-      "url": "https://blackholes.dev",
-      "pushed_at": "2026-09-09",
-      "title": "Show HN: Blackholes – A macOS workspace for coding agents",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "pushed_at": "2026-09-10",
+      "title": "multica-ai/andrej-karpathy-skills",
       "score": 7
     },
     {
-      "url": "https://github.com/ashishsinha1602/schemagate",
-      "pushed_at": "2026-09-09",
-      "title": "Show HN: Text-to-SQL says \"no records found\" when it should say \"denied\"",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "pushed_at": "2026-09-10",
+      "title": "jo-inc/camofox-browser",
       "score": 7
     },
     {
-      "url": "https://dev.to/jose_bermdez_8d743ab4802/enciclopedia-web-5g17",
-      "pushed_at": "2026-09-09",
-      "title": "Enciclopedia web",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "pushed_at": "2026-09-10",
+      "title": "coreyhaines31/marketingskills",
+      "score": 7
+    },
+    {
+      "url": "https://ashishsinha1602.github.io/schemagate/",
+      "pushed_at": "2026-09-10",
+      "title": "Show HN: Text-to-SQL picks tables before RLS runs – demo in the browser",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "pushed_at": "2026-09-10",
+      "title": "cathrynlavery/diagram-design",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-      "pushed_at": "2026-09-09",
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "url": "https://github.com/viarotel-org/escrcpy",
+      "pushed_at": "2026-09-10",
+      "title": "viarotel-org/escrcpy",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/370006",
-      "pushed_at": "2026-09-09",
-      "title": "单人一月烧掉 19 万，硅谷开始倒查员工 AI 账单",
+      "url": "https://opusfived.dev/",
+      "pushed_at": "2026-09-10",
+      "title": "Claude, change the “Add to Cart” button to blue",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/09/485854.html",
-      "pushed_at": "2026-09-09",
-      "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+      "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+      "pushed_at": "2026-09-10",
+      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
       "score": 6
     },
     {
-      "url": "https://github.com/openai/skills",
-      "pushed_at": "2026-09-09",
-      "title": "openai/skills",
+      "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+      "pushed_at": "2026-09-10",
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
       "score": 5
     },
     {
-      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-      "pushed_at": "2026-09-09",
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247920779&idx=3&sn=18f5eb81b14b5d60903503df5a463897",
+      "pushed_at": "2026-09-10",
+      "title": "单样本校准、零推理开销，免训练LoRA合并框架上线 | ICML'26",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
-      "pushed_at": "2026-09-09",
-      "title": "GPT-6 Astra推理等级怎么选才最省Token",
+      "url": "https://www.ifanr.com/1678673?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-09-10",
+      "title": "首个走进联合国的中国教育 Agent，正在打开下一个 Token 入口",
       "score": 5
+    },
+    {
+      "url": "https://botbin.io/",
+      "pushed_at": "2026-09-10",
+      "title": "Show HN: Botbin – Pastebin for AI agent artifacts",
+      "score": 5
+    },
+    {
+      "url": "https://orc8r.com/docs/quickstart",
+      "pushed_at": "2026-09-10",
+      "title": "Show HN: ORC8R, one-click compute for devs, no ops required, demo available",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/dragthelake/ambient-context/releases",
+      "pushed_at": "2026-09-10",
+      "title": "Show HN: Ambient Context v1.0.0 (Missing context for AI assistants)",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/arnsri33/embedflow",
+      "pushed_at": "2026-09-10",
+      "title": "Show HN: EmbedFlow –> Upgrade embedding models without re-embedding your corpus",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmtuehvvi18z8rofpk5e33hrk",
+      "pushed_at": "2026-09-10",
+      "title": "Nathan Lambert 评 Nvidia 收购 HuggingFace：软实力每年值约 100 亿美元",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "pushed_at": "2026-09-10",
+      "title": "The-Swarm-Corporation/AutoHedge",
+      "score": 4
     }
   ]
 }
