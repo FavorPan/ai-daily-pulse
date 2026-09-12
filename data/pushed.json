@@ -1,213 +1,129 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "pushed_at": "2026-09-11",
-      "title": "ayghri/i-have-adhd",
+      "url": "https://dev.to/jjoyneriv/stop-prompt-engineering-copilot-write-three-rules-in-a-file-instead-2kac",
+      "pushed_at": "2026-09-12",
+      "title": "Stop Prompt-Engineering Copilot. Write Three Rules in a File Instead.",
       "score": 8
     },
     {
-      "url": "https://github.com/wpultimatesecurity/WordPress-Security-Skills",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: WordPress security skills for coding agents",
+      "url": "https://github.com/JustVugg/colibri",
+      "pushed_at": "2026-09-12",
+      "title": "JustVugg/colibri",
       "score": 8
     },
     {
-      "url": "https://dev.to/thecopilotstack/nobody-has-measured-which-copilot-model-is-best-15m4",
-      "pushed_at": "2026-09-11",
-      "title": "Nobody Has Measured Which Copilot Model Is Best",
+      "url": "https://github.com/zachsaw/graphify-csharp",
+      "pushed_at": "2026-09-12",
+      "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "pushed_at": "2026-09-12",
+      "title": "freestylefly/awesome-gpt-image-2",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
-      "pushed_at": "2026-09-11",
-      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "pushed_at": "2026-09-12",
+      "title": "nashsu/llm_wiki",
       "score": 7
     },
     {
-      "url": "https://dev.to/ryan_zhao/glm-53-the-post-training-revolution-thats-reshaping-ai-development-28bp",
-      "pushed_at": "2026-09-11",
-      "title": "GLM-5.3: The Post-Training Revolution That's Reshaping AI Development",
+      "url": "https://www.practicalecommerce.com/agency-owner-on-new-store-strategies",
+      "pushed_at": "2026-09-12",
+      "title": "Agency Owner on New-Store Strategies",
       "score": 7
     },
     {
-      "url": "https://github.com/obra/superpowers",
-      "pushed_at": "2026-09-11",
-      "title": "obra/superpowers",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725028&idx=2&sn=fb813584fd0cdb605249a20166fe92a1",
+      "pushed_at": "2026-09-12",
+      "title": "老黄替OpenAI宣布AGI！出题人当场打脸：换个考场99.9%掉到62.7%",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "pushed_at": "2026-09-11",
-      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
+      "pushed_at": "2026-09-12",
+      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
       "score": 7
     },
     {
-      "url": "https://github.com/Polign/vector-transfer",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: Vector transfer project, replicate vectors/metadata across databases",
+      "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
+      "pushed_at": "2026-09-12",
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae",
-      "pushed_at": "2026-09-11",
-      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "url": "https://hungrygpu.com",
+      "pushed_at": "2026-09-12",
+      "title": "Show HN: HungryGPU – Track local AI models, patches and recipes by hardware",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmtvb4b5s085erok9gose1mcf",
-      "pushed_at": "2026-09-11",
-      "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549",
-      "pushed_at": "2026-09-11",
-      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/puyun_days/i-tried-to-recreate-a-2008-net-developer-with-ai-i-broke-my-own-experiment-4-times-2g7l",
-      "pushed_at": "2026-09-11",
-      "title": "I Tried to Recreate a 2008 .NET Developer With AI. I Broke My Own Experiment 4 Times.",
+      "url": "https://therundownai.beehiiv.com/p/anthropic-opens-the-files-on-global-claude-misuse",
+      "pushed_at": "2026-09-12",
+      "title": "Anthropic opens the files on global Claude misuse",
       "score": 6
     },
     {
-      "url": "https://github.com/pascalorg/editor",
-      "pushed_at": "2026-09-11",
-      "title": "pascalorg/editor",
+      "url": "https://github.com/vercel-labs/skills",
+      "pushed_at": "2026-09-12",
+      "title": "vercel-labs/skills",
       "score": 6
     },
     {
-      "url": "https://github.com/openai/plugins",
-      "pushed_at": "2026-09-11",
-      "title": "openai/plugins",
+      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "pushed_at": "2026-09-12",
+      "title": "So you want to use OpenRouter?",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
-      "pushed_at": "2026-09-11",
-      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "pushed_at": "2026-09-12",
+      "title": "Astra for Coding: Why Are We Doing This Again?",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
-      "pushed_at": "2026-09-11",
-      "title": "AI agents are flooding public services with new requests",
+      "url": "https://github.com/say4n/pi-sync",
+      "pushed_at": "2026-09-12",
+      "title": "Show HN: Pi-sync` syncs your pi agent configuration across hosts",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247921478&idx=1&sn=87d0b1e42e822190f08eb8cb4b931135",
-      "pushed_at": "2026-09-11",
-      "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
+      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "pushed_at": "2026-09-12",
+      "title": "Models Don't Go Rogue",
       "score": 6
     },
     {
-      "url": "https://codepress.dev/",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: CodePress – Save $50k+ a month on Cloud Agents",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/09/486747.html",
-      "pushed_at": "2026-09-11",
-      "title": "全球首个可仿真的人–场景交互重建框架 HSImul3R：让人类视频真正成为机器人技能来源",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/09/486625.html",
-      "pushed_at": "2026-09-11",
-      "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
-      "score": 6
-    },
-    {
-      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "pushed_at": "2026-09-11",
-      "title": "DeepSeek v4.1 Flash",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
-      "pushed_at": "2026-09-11",
-      "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
-      "score": 6
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/an-anthropic-exit-becomes-an-extinction-debate",
-      "pushed_at": "2026-09-11",
-      "title": "An Anthropic exit becomes an extinction debate",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "pushed_at": "2026-09-12",
+      "title": "OpenAI agents attacked RubyGems back in May",
       "score": 5
     },
     {
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "pushed_at": "2026-09-11",
-      "title": "[AINews] not much happened today",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "pushed_at": "2026-09-12",
+      "title": "vastsa/PI-Desktop",
       "score": 5
     },
     {
-      "url": "https://dev.to/bpsmartdesign/two-and-a-half-months-with-an-intruder-in-our-repositories-4a69",
-      "pushed_at": "2026-09-11",
-      "title": "Two and a half months with an intruder in our repositories",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "pushed_at": "2026-09-12",
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
       "score": 5
     },
     {
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "pushed_at": "2026-09-11",
-      "title": "Powering AI is an architecture problem",
+      "url": "https://mathandai.org/",
+      "pushed_at": "2026-09-12",
+      "title": "A Severe Misalignment of AI in Mathematics",
       "score": 5
     },
     {
-      "url": "https://github.com/Tencent/teamai-cli",
-      "pushed_at": "2026-09-11",
-      "title": "Tencent/teamai-cli",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-      "pushed_at": "2026-09-11",
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "score": 5
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652724627&idx=2&sn=1d3458b8e7c2c2d25185ac75dc8dc2f6",
-      "pushed_at": "2026-09-11",
-      "title": "陶哲轩愤怒发文：AI正杀死数学百年开放传统！",
-      "score": 5
-    },
-    {
-      "url": "http://www.geekpark.net/news/370155",
-      "pushed_at": "2026-09-11",
-      "title": "微信，悄悄迈出 AI 社交的第一步",
-      "score": 5
-    },
-    {
-      "url": "https://sspai.com/post/114384",
-      "pushed_at": "2026-09-11",
-      "title": "App+1｜下一节：教学工作紧张忙碌，下一节课从从容容",
-      "score": 5
-    },
-    {
-      "url": "https://eggverse.co/",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: Reviving my $15,000 browser arcade with Astra",
-      "score": 5
-    },
-    {
-      "url": "https://x402socks.com/",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: Socks Proxy for AI Agents",
-      "score": 5
-    },
-    {
-      "url": "https://stitchwink.com",
-      "pushed_at": "2026-09-11",
-      "title": "Show HN: Stitchwink – Cross-stitch pattern making with AI",
-      "score": 5
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=49643556",
-      "pushed_at": "2026-09-11",
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "pushed_at": "2026-09-12",
+      "title": "Measuring the sloppiness of code",
       "score": 5
     }
   ]
