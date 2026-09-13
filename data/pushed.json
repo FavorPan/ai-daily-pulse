@@ -1,129 +1,111 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/jjoyneriv/stop-prompt-engineering-copilot-write-three-rules-in-a-file-instead-2kac",
-      "pushed_at": "2026-09-12",
-      "title": "Stop Prompt-Engineering Copilot. Write Three Rules in a File Instead.",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "pushed_at": "2026-09-13",
+      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
       "score": 8
     },
     {
-      "url": "https://github.com/JustVugg/colibri",
-      "pushed_at": "2026-09-12",
-      "title": "JustVugg/colibri",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/zachsaw/graphify-csharp",
-      "pushed_at": "2026-09-12",
-      "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "pushed_at": "2026-09-12",
-      "title": "freestylefly/awesome-gpt-image-2",
+      "url": "https://dev.to/cole_halton_42f71d71b809b/the-rubygems-agent-attack-is-a-coding-agent-benchmark-nobody-writes-2c6e",
+      "pushed_at": "2026-09-13",
+      "title": "The RubyGems agent attack is a coding-agent benchmark nobody writes",
       "score": 7
     },
     {
-      "url": "https://github.com/nashsu/llm_wiki",
-      "pushed_at": "2026-09-12",
-      "title": "nashsu/llm_wiki",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "pushed_at": "2026-09-13",
+      "title": "jordan-gibbs/hyperresearch",
       "score": 7
     },
     {
-      "url": "https://www.practicalecommerce.com/agency-owner-on-new-store-strategies",
-      "pushed_at": "2026-09-12",
-      "title": "Agency Owner on New-Store Strategies",
+      "url": "https://github.com/github/spec-kit",
+      "pushed_at": "2026-09-13",
+      "title": "github/spec-kit",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725028&idx=2&sn=fb813584fd0cdb605249a20166fe92a1",
-      "pushed_at": "2026-09-12",
-      "title": "老黄替OpenAI宣布AGI！出题人当场打脸：换个考场99.9%掉到62.7%",
+      "url": "https://github.com/pascalorg/editor",
+      "pushed_at": "2026-09-13",
+      "title": "pascalorg/editor",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
-      "pushed_at": "2026-09-12",
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "pushed_at": "2026-09-13",
+      "title": "alphaXiv/OpenResearch",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
-      "pushed_at": "2026-09-12",
-      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "url": "https://github.com/MSKazemi/yazses",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: YazSes – offline hold-to-talk voice dictation for Linux, macOS, Windows",
       "score": 7
     },
     {
-      "url": "https://hungrygpu.com",
-      "pushed_at": "2026-09-12",
-      "title": "Show HN: HungryGPU – Track local AI models, patches and recipes by hardware",
+      "url": "https://github.com/usero-feedback/opentracker",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: Opentracker, an open source Pivotal Tracker",
       "score": 7
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/anthropic-opens-the-files-on-global-claude-misuse",
-      "pushed_at": "2026-09-12",
-      "title": "Anthropic opens the files on global Claude misuse",
+      "url": "https://kvetch.io/conciliatower/",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: SimTower, Decompiled, Rewritten, and in the Browser",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "pushed_at": "2026-09-13",
+      "title": "jihe520/MathModelAgent",
       "score": 6
     },
     {
-      "url": "https://github.com/vercel-labs/skills",
-      "pushed_at": "2026-09-12",
-      "title": "vercel-labs/skills",
+      "url": "https://sspai.com/post/114461",
+      "pushed_at": "2026-09-13",
+      "title": "与 AI 搏斗失败后重新开始找工作：经验分享与半可靠避雷指南",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-      "pushed_at": "2026-09-12",
-      "title": "So you want to use OpenRouter?",
+      "url": "https://www.autom.dev/blog/google-search-goto-links",
+      "pushed_at": "2026-09-13",
+      "title": "google.com/goto: Google's anti-scraping update",
       "score": 6
     },
     {
-      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-      "pushed_at": "2026-09-12",
-      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+      "pushed_at": "2026-09-13",
+      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
       "score": 6
     },
     {
-      "url": "https://github.com/say4n/pi-sync",
-      "pushed_at": "2026-09-12",
-      "title": "Show HN: Pi-sync` syncs your pi agent configuration across hosts",
+      "url": "https://elijahpotter.dev/articles/useful_things_agents_can_do_that_are_not_writing_code",
+      "pushed_at": "2026-09-13",
+      "title": "Useful Things Agents Can Do That Are Not Writing Code",
       "score": 6
     },
     {
-      "url": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
-      "pushed_at": "2026-09-12",
-      "title": "Models Don't Go Rogue",
+      "url": "https://github.com/rakutentech/sorify",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "pushed_at": "2026-09-12",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "score": 5
+      "url": "https://github.com/khuynh22/agent-dev-team",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: Give Claude Code / Cursor a real eng team (tiers, roles, escalation)",
+      "score": 6
     },
     {
-      "url": "https://github.com/vastsa/PI-Desktop",
-      "pushed_at": "2026-09-12",
-      "title": "vastsa/PI-Desktop",
-      "score": 5
+      "url": "https://github.com/no-human-ai/no_human",
+      "pushed_at": "2026-09-13",
+      "title": "Show HN: No_human – The AI coding factory that you can TRUST",
+      "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "pushed_at": "2026-09-12",
-      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "score": 5
-    },
-    {
-      "url": "https://mathandai.org/",
-      "pushed_at": "2026-09-12",
-      "title": "A Severe Misalignment of AI in Mathematics",
-      "score": 5
-    },
-    {
-      "url": "https://earendil.com/posts/measuring-code-sloppiness/",
-      "pushed_at": "2026-09-12",
-      "title": "Measuring the sloppiness of code",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725362&idx=1&sn=15cce7ff702a6cd1225a6bfb9e685879",
+      "pushed_at": "2026-09-13",
+      "title": "刚刚，国产世界模型Motus 2发布！灵巧操作开始「自进化」",
       "score": 5
     }
   ]
