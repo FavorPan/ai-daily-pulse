@@ -1,111 +1,87 @@
 {
   "pushed": [
     {
-      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "pushed_at": "2026-09-13",
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "pushed_at": "2026-09-14",
+      "title": "multimodal-art-projection/YuE",
       "score": 8
     },
     {
-      "url": "https://dev.to/cole_halton_42f71d71b809b/the-rubygems-agent-attack-is-a-coding-agent-benchmark-nobody-writes-2c6e",
-      "pushed_at": "2026-09-13",
-      "title": "The RubyGems agent attack is a coding-agent benchmark nobody writes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wffgdh/i_have_just_moved_from_macbook_m5_pro_48_gb_to/",
+      "pushed_at": "2026-09-14",
+      "title": "I have just moved from MacBook M5 pro 48 GB to RTX3090",
       "score": 7
     },
     {
-      "url": "https://github.com/jordan-gibbs/hyperresearch",
-      "pushed_at": "2026-09-13",
-      "title": "jordan-gibbs/hyperresearch",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/github/spec-kit",
-      "pushed_at": "2026-09-13",
-      "title": "github/spec-kit",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/pascalorg/editor",
-      "pushed_at": "2026-09-13",
-      "title": "pascalorg/editor",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/alphaXiv/OpenResearch",
-      "pushed_at": "2026-09-13",
-      "title": "alphaXiv/OpenResearch",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/MSKazemi/yazses",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: YazSes – offline hold-to-talk voice dictation for Linux, macOS, Windows",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/usero-feedback/opentracker",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: Opentracker, an open source Pivotal Tracker",
-      "score": 7
-    },
-    {
-      "url": "https://kvetch.io/conciliatower/",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: SimTower, Decompiled, Rewritten, and in the Browser",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/jihe520/MathModelAgent",
-      "pushed_at": "2026-09-13",
-      "title": "jihe520/MathModelAgent",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "pushed_at": "2026-09-14",
+      "title": "commit-rewriter 0.1",
       "score": 6
     },
     {
-      "url": "https://sspai.com/post/114461",
-      "pushed_at": "2026-09-13",
-      "title": "与 AI 搏斗失败后重新开始找工作：经验分享与半可靠避雷指南",
+      "url": "https://dev.to/ilan_kim/calling-the-novelai-v5-api-directly-nai-diffusion-5-full-request-body-paramsversion-4310-133a",
+      "pushed_at": "2026-09-14",
+      "title": "Calling the NovelAI V5 API directly: nai-diffusion-5-full request body, params_version 4/3/1/0 identical, missing v4_prompt is a 500",
       "score": 6
     },
     {
-      "url": "https://www.autom.dev/blog/google-search-goto-links",
-      "pushed_at": "2026-09-13",
-      "title": "google.com/goto: Google's anti-scraping update",
+      "url": "https://dev.to/solonjava/giving-an-ai-agent-a-real-sandbox-filesystem-and-network-jail-in-java-28bi",
+      "pushed_at": "2026-09-14",
+      "title": "Giving an AI Agent a Real Sandbox: Filesystem and Network Jail, in Java",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
-      "pushed_at": "2026-09-13",
-      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "pushed_at": "2026-09-14",
+      "title": "SnailSploit/Claude-Red",
       "score": 6
     },
     {
-      "url": "https://elijahpotter.dev/articles/useful_things_agents_can_do_that_are_not_writing_code",
-      "pushed_at": "2026-09-13",
-      "title": "Useful Things Agents Can Do That Are Not Writing Code",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "pushed_at": "2026-09-14",
+      "title": "vxcontrol/pentagi",
       "score": 6
     },
     {
-      "url": "https://github.com/rakutentech/sorify",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
+      "url": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
+      "pushed_at": "2026-09-14",
+      "title": "This PCB is brought to you by Fable 5",
       "score": 6
     },
     {
-      "url": "https://github.com/khuynh22/agent-dev-team",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: Give Claude Code / Cursor a real eng team (tiers, roles, escalation)",
-      "score": 6
+      "url": "https://dev.to/robillionair/i-connected-an-authentic-fruit-fly-brain-to-polymarket-order-books-via-webgl-4aam",
+      "pushed_at": "2026-09-14",
+      "title": "I connected an authentic fruit fly brain to Polymarket order books via WebGL",
+      "score": 5
     },
     {
-      "url": "https://github.com/no-human-ai/no_human",
-      "pushed_at": "2026-09-13",
-      "title": "Show HN: No_human – The AI coding factory that you can TRUST",
-      "score": 6
+      "url": "https://dev.to/ryan_zhao/llm-inference-optimization-techniques-for-faster-and-cheaper-ai-54ml",
+      "pushed_at": "2026-09-14",
+      "title": "LLM Inference Optimization: Techniques for Faster and Cheaper AI",
+      "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725362&idx=1&sn=15cce7ff702a6cd1225a6bfb9e685879",
-      "pushed_at": "2026-09-13",
-      "title": "刚刚，国产世界模型Motus 2发布！灵巧操作开始「自进化」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922400&idx=1&sn=46d1c844aa32629dfd79fe0a845195db",
+      "pushed_at": "2026-09-14",
+      "title": "GitHub三榜第一背后，一个“专升本”工程师的十年",
+      "score": 5
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922400&idx=2&sn=9848154243cf9aec0a0074e588b7de4e",
+      "pushed_at": "2026-09-14",
+      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+      "score": 5
+    },
+    {
+      "url": "https://clientcoded.com/environments",
+      "pushed_at": "2026-09-14",
+      "title": "Show HN: ClientCoded – QA Platform for AI Agents",
+      "score": 5
+    },
+    {
+      "url": "https://vehla.app/",
+      "pushed_at": "2026-09-14",
+      "title": "Show HN: Vehla – the AI command center for macOS",
       "score": 5
     }
   ]
