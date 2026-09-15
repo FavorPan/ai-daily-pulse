@@ -1,87 +1,111 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/multimodal-art-projection/YuE",
-      "pushed_at": "2026-09-14",
-      "title": "multimodal-art-projection/YuE",
+      "url": "https://sspai.com/prime/story/ai-assisted-spreadsheeting-a-survey",
+      "pushed_at": "2026-09-15",
+      "title": "Excel AI 辅助工作流横评：数据分析高手还是照葫芦画瓢？",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wffgdh/i_have_just_moved_from_macbook_m5_pro_48_gb_to/",
-      "pushed_at": "2026-09-14",
-      "title": "I have just moved from MacBook M5 pro 48 GB to RTX3090",
+      "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
+      "pushed_at": "2026-09-15",
+      "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm",
+      "pushed_at": "2026-09-15",
+      "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "pushed_at": "2026-09-15",
+      "title": "asgeirtj/system_prompts_leaks",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "pushed_at": "2026-09-14",
-      "title": "commit-rewriter 0.1",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/ilan_kim/calling-the-novelai-v5-api-directly-nai-diffusion-5-full-request-body-paramsversion-4310-133a",
-      "pushed_at": "2026-09-14",
-      "title": "Calling the NovelAI V5 API directly: nai-diffusion-5-full request body, params_version 4/3/1/0 identical, missing v4_prompt is a 500",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/solonjava/giving-an-ai-agent-a-real-sandbox-filesystem-and-network-jail-in-java-28bi",
-      "pushed_at": "2026-09-14",
-      "title": "Giving an AI Agent a Real Sandbox: Filesystem and Network Jail, in Java",
-      "score": 6
-    },
-    {
       "url": "https://github.com/SnailSploit/Claude-Red",
-      "pushed_at": "2026-09-14",
+      "pushed_at": "2026-09-15",
       "title": "SnailSploit/Claude-Red",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/mukundzha/hazzel",
+      "pushed_at": "2026-09-15",
+      "title": "Show HN: Hazzel – a tiny coding agent, Bring your own keys",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/vstorm-co/agenticos",
+      "pushed_at": "2026-09-15",
+      "title": "Show HN: An open-source control plane for your company's AI agents",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/maharshi365/deslop",
+      "pushed_at": "2026-09-15",
+      "title": "Show HN: Deslop Your TS Codebases",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/recursive",
+      "pushed_at": "2026-09-15",
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
       "score": 6
     },
     {
       "url": "https://github.com/vxcontrol/pentagi",
-      "pushed_at": "2026-09-14",
+      "pushed_at": "2026-09-15",
       "title": "vxcontrol/pentagi",
       "score": 6
     },
     {
-      "url": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
-      "pushed_at": "2026-09-14",
-      "title": "This PCB is brought to you by Fable 5",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "pushed_at": "2026-09-15",
+      "title": "alphaXiv/OpenResearch",
       "score": 6
     },
     {
-      "url": "https://dev.to/robillionair/i-connected-an-authentic-fruit-fly-brain-to-polymarket-order-books-via-webgl-4aam",
-      "pushed_at": "2026-09-14",
-      "title": "I connected an authentic fruit fly brain to Polymarket order books via WebGL",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wg1ru7/introducing_deadair_your_personal_radio_station/",
+      "pushed_at": "2026-09-15",
+      "title": "Introducing Deadair: Your personal radio station",
+      "score": 6
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/top-ai-labs-want-to-pump-the-brakes",
+      "pushed_at": "2026-09-15",
+      "title": "Top AI labs want to pump the brakes",
       "score": 5
     },
     {
-      "url": "https://dev.to/ryan_zhao/llm-inference-optimization-techniques-for-faster-and-cheaper-ai-54ml",
-      "pushed_at": "2026-09-14",
-      "title": "LLM Inference Optimization: Techniques for Faster and Cheaper AI",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "pushed_at": "2026-09-15",
+      "title": "debpalash/VoiceStudio",
       "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922400&idx=1&sn=46d1c844aa32629dfd79fe0a845195db",
-      "pushed_at": "2026-09-14",
-      "title": "GitHub三榜第一背后，一个“专升本”工程师的十年",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wgiez4/i_want_to_increase_decision_bandwith/",
+      "pushed_at": "2026-09-15",
+      "title": "I want to increase decision bandwith",
       "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922400&idx=2&sn=9848154243cf9aec0a0074e588b7de4e",
-      "pushed_at": "2026-09-14",
-      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wgf8dt/i_built_an_app_that_turns_tiktok_videos_into/",
+      "pushed_at": "2026-09-15",
+      "title": "I built an app that turns TikTok videos into recipes you can actually cook",
       "score": 5
     },
     {
-      "url": "https://clientcoded.com/environments",
-      "pushed_at": "2026-09-14",
-      "title": "Show HN: ClientCoded – QA Platform for AI Agents",
+      "url": "http://www.geekpark.net/news/370269",
+      "pushed_at": "2026-09-15",
+      "title": "专访爆火「机器鸭」背后的硬件推手：这是个信号，未来推动新故事的并非硬件",
       "score": 5
     },
     {
-      "url": "https://vehla.app/",
-      "pushed_at": "2026-09-14",
-      "title": "Show HN: Vehla – the AI command center for macOS",
+      "url": "https://www.qbitai.com/2026/09/489023.html",
+      "pushed_at": "2026-09-15",
+      "title": "分子之心QuantaMind登Science Advances，让AI给分子世界”拍电影”",
       "score": 5
     }
   ]
