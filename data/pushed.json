@@ -1,105 +1,153 @@
 {
   "pushed": [
     {
-      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "pushed_at": "2026-09-17",
-      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://aihot.news/items/cmu67pecj0e0wrofj97vtuwzu",
+      "pushed_at": "2026-09-18",
+      "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "pushed_at": "2026-09-18",
+      "title": "How To Write With An LLM",
       "score": 7
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-      "pushed_at": "2026-09-17",
-      "title": "Muse review: The personal AI agent that gets consumer UX right",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/JustVugg/colibri",
-      "pushed_at": "2026-09-17",
-      "title": "JustVugg/colibri",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/danny-avila/LibreChat",
-      "pushed_at": "2026-09-17",
-      "title": "danny-avila/LibreChat",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "pushed_at": "2026-09-18",
+      "title": "cloudflare/security-audit-skill",
       "score": 7
     },
     {
       "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-09-17",
+      "pushed_at": "2026-09-18",
       "title": "addyosmani/agent-skills",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652726535&idx=2&sn=5eca6ab7ed4d6420460736e052f3e1e1",
-      "pushed_at": "2026-09-17",
-      "title": "刚刚，Gemini 3.8 Live上线！",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "pushed_at": "2026-09-18",
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
       "score": 7
     },
     {
-      "url": "https://github.com/davejpeters/opencode-mentor",
-      "pushed_at": "2026-09-17",
-      "title": "Show HN: OpenCode Mentor - An anti-vibecoding, programming mentor configuration",
+      "url": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-09-18",
+      "title": "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/09/490839.html",
-      "pushed_at": "2026-09-17",
-      "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+      "url": "https://github.com/jcpsimmons/jev-model-router-demo",
+      "pushed_at": "2026-09-18",
+      "title": "Show HN: Jev routing coding tasks to Grok Build or Codex Astra",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-      "pushed_at": "2026-09-17",
-      "title": "Your AI agents can now control your Google Home devices",
+      "url": "https://easiest.ai/",
+      "pushed_at": "2026-09-18",
+      "title": "Show HN: Vim-like, hyper-efficient, LLM power tool - 20-80k tokens not 350k+",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri",
+      "pushed_at": "2026-09-18",
+      "title": "JustVugg/colibri",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/370425",
-      "pushed_at": "2026-09-17",
-      "title": "没有方向盘、没有踏板、没有后视镜：特斯拉最疯狂的车来了",
+      "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "pushed_at": "2026-09-18",
+      "title": "UN turns to Google to make its global data ready for AI agents",
       "score": 6
     },
     {
-      "url": "https://rohanbansal.com/qorl",
-      "pushed_at": "2026-09-17",
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "pushed_at": "2026-09-18",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1680322?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-09-17",
-      "title": "对话蚂蚁灵波 CEO 朱兴：机器人还吃不了「粗粮」",
+      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+      "pushed_at": "2026-09-18",
+      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
-      "pushed_at": "2026-09-17",
-      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+      "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+      "pushed_at": "2026-09-18",
+      "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
       "score": 6
     },
     {
-      "url": "https://mikenikles.com/blog/learn-claude-code",
-      "pushed_at": "2026-09-17",
-      "title": "Show HN: Learn Claude Code – Interactive Mindmap",
+      "url": "http://www.geekpark.net/news/370539",
+      "pushed_at": "2026-09-18",
+      "title": "影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-      "pushed_at": "2026-09-17",
-      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "url": "https://www.qbitai.com/2026/09/491454.html",
+      "pushed_at": "2026-09-18",
+      "title": "央企做了个通用Agent，直接杀进IDC实测前三！",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/09/491522.html",
+      "pushed_at": "2026-09-18",
+      "title": "图形学宗师童欣加盟Meshy，要做“AI for Fun”的头号玩家",
+      "score": 6
+    },
+    {
+      "url": "https://scry.io/",
+      "pushed_at": "2026-09-18",
+      "title": "Show HN: public 500 TB internet index in ClickHouse, with congestion pricing",
+      "score": 6
+    },
+    {
+      "url": "https://ai-crawler-honeypot-697299601273.europe-west2.run.app/",
+      "pushed_at": "2026-09-18",
+      "title": "Show HN: AI crawler honeypot – logs every agent that requests it",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg",
+      "pushed_at": "2026-09-18",
+      "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
+      "pushed_at": "2026-09-18",
+      "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
+      "score": 6
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/zuck-sits-out-the-ai-slowdown",
+      "pushed_at": "2026-09-18",
+      "title": "Zuck sits out the AI slowdown",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
-      "pushed_at": "2026-09-17",
-      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+      "pushed_at": "2026-09-18",
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
       "score": 5
     },
     {
-      "url": "https://github.com/ever-co/ever-gauzy",
-      "pushed_at": "2026-09-17",
-      "title": "ever-co/ever-gauzy",
+      "url": "http://www.geekpark.net/news/370506",
+      "pushed_at": "2026-09-18",
+      "title": "追觅四大赛道 IFA 首秀：一套技术，四个出口",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmu62wp5j08tkrofj60s4kfwv",
+      "pushed_at": "2026-09-18",
+      "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "pushed_at": "2026-09-18",
+      "title": "rlaope/oh-my-hermes",
       "score": 4
     }
   ]
