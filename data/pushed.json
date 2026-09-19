@@ -1,153 +1,93 @@
 {
   "pushed": [
     {
-      "url": "https://aihot.news/items/cmu67pecj0e0wrofj97vtuwzu",
-      "pushed_at": "2026-09-18",
-      "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
+      "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+      "pushed_at": "2026-09-19",
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-      "pushed_at": "2026-09-18",
-      "title": "How To Write With An LLM",
-      "score": 7
+      "url": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis",
+      "pushed_at": "2026-09-19",
+      "title": "让 Agent 读懂你的身体：数据获取篇",
+      "score": 8
     },
     {
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "pushed_at": "2026-09-18",
-      "title": "cloudflare/security-audit-skill",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-09-18",
-      "title": "addyosmani/agent-skills",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "pushed_at": "2026-09-18",
-      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-09-18",
-      "title": "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/jcpsimmons/jev-model-router-demo",
-      "pushed_at": "2026-09-18",
-      "title": "Show HN: Jev routing coding tasks to Grok Build or Codex Astra",
-      "score": 7
-    },
-    {
-      "url": "https://easiest.ai/",
-      "pushed_at": "2026-09-18",
-      "title": "Show HN: Vim-like, hyper-efficient, LLM power tool - 20-80k tokens not 350k+",
-      "score": 7
+      "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd",
+      "pushed_at": "2026-09-19",
+      "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+      "score": 8
     },
     {
       "url": "https://github.com/JustVugg/colibri",
-      "pushed_at": "2026-09-18",
+      "pushed_at": "2026-09-19",
       "title": "JustVugg/colibri",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/TencentCloud/Octop",
+      "pushed_at": "2026-09-19",
+      "title": "TencentCloud/Octop",
+      "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/370610",
+      "pushed_at": "2026-09-19",
+      "title": "AI 硬件创业者，疯狂涌入手机的背面",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
+      "pushed_at": "2026-09-19",
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "pushed_at": "2026-09-19",
+      "title": "[AINews] not much happened today",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "pushed_at": "2026-09-18",
-      "title": "UN turns to Google to make its global data ready for AI agents",
+      "url": "https://github.com/imron/crt",
+      "pushed_at": "2026-09-19",
+      "title": "Show HN: CRT – a local code review tool for agentic development",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-      "pushed_at": "2026-09-18",
-      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "url": "https://rediagram.app/ai-diagram-generator",
+      "pushed_at": "2026-09-19",
+      "title": "Show HN: Rediagram – put the diagrams you have on your brand",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
-      "pushed_at": "2026-09-18",
-      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "pushed_at": "2026-09-19",
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-      "pushed_at": "2026-09-18",
-      "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-      "score": 6
-    },
-    {
-      "url": "http://www.geekpark.net/news/370539",
-      "pushed_at": "2026-09-18",
-      "title": "影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/09/491454.html",
-      "pushed_at": "2026-09-18",
-      "title": "央企做了个通用Agent，直接杀进IDC实测前三！",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/09/491522.html",
-      "pushed_at": "2026-09-18",
-      "title": "图形学宗师童欣加盟Meshy，要做“AI for Fun”的头号玩家",
-      "score": 6
-    },
-    {
-      "url": "https://scry.io/",
-      "pushed_at": "2026-09-18",
-      "title": "Show HN: public 500 TB internet index in ClickHouse, with congestion pricing",
-      "score": 6
-    },
-    {
-      "url": "https://ai-crawler-honeypot-697299601273.europe-west2.run.app/",
-      "pushed_at": "2026-09-18",
-      "title": "Show HN: AI crawler honeypot – logs every agent that requests it",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg",
-      "pushed_at": "2026-09-18",
-      "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
-      "pushed_at": "2026-09-18",
-      "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-      "score": 6
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/zuck-sits-out-the-ai-slowdown",
-      "pushed_at": "2026-09-18",
-      "title": "Zuck sits out the AI slowdown",
+      "url": "https://github.com/Tencent/WeKnora",
+      "pushed_at": "2026-09-19",
+      "title": "Tencent/WeKnora",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
-      "pushed_at": "2026-09-18",
-      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "pushed_at": "2026-09-19",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
       "score": 5
     },
     {
-      "url": "http://www.geekpark.net/news/370506",
-      "pushed_at": "2026-09-18",
-      "title": "追觅四大赛道 IFA 首秀：一套技术，四个出口",
+      "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk",
+      "pushed_at": "2026-09-19",
+      "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/cmu62wp5j08tkrofj60s4kfwv",
-      "pushed_at": "2026-09-18",
-      "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/rlaope/oh-my-hermes",
-      "pushed_at": "2026-09-18",
-      "title": "rlaope/oh-my-hermes",
+      "url": "https://github.com/roboflow/supervision",
+      "pushed_at": "2026-09-19",
+      "title": "roboflow/supervision",
       "score": 4
     }
   ]
