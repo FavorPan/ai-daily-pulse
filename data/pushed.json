@@ -1,94 +1,100 @@
 {
   "pushed": [
     {
-      "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-      "pushed_at": "2026-09-19",
-      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "url": "https://github.com/mohitkumar188/AgentTrace",
+      "pushed_at": "2026-09-21",
+      "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
       "score": 8
     },
     {
-      "url": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis",
-      "pushed_at": "2026-09-19",
-      "title": "让 Agent 读懂你的身体：数据获取篇",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd",
-      "pushed_at": "2026-09-19",
-      "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/JustVugg/colibri",
-      "pushed_at": "2026-09-19",
-      "title": "JustVugg/colibri",
+      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "pushed_at": "2026-09-21",
+      "title": "llm-keys-ui 0.1",
       "score": 7
     },
     {
-      "url": "https://github.com/TencentCloud/Octop",
-      "pushed_at": "2026-09-19",
-      "title": "TencentCloud/Octop",
+      "url": "https://dev.to/magickit/i-built-a-100-free-ai-toolbox-with-no-sign-up-heres-how-1m2b",
+      "pushed_at": "2026-09-21",
+      "title": "I Built a 100% Free AI Toolbox with No Sign-Up (Here's How)",
       "score": 7
     },
     {
-      "url": "http://www.geekpark.net/news/370610",
-      "pushed_at": "2026-09-19",
-      "title": "AI 硬件创业者，疯狂涌入手机的背面",
+      "url": "https://github.com/ruanyf/weekly",
+      "pushed_at": "2026-09-21",
+      "title": "ruanyf/weekly",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
-      "pushed_at": "2026-09-19",
-      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "url": "https://github.com/asciimoo/hister",
+      "pushed_at": "2026-09-21",
+      "title": "asciimoo/hister",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "pushed_at": "2026-09-19",
-      "title": "[AINews] not much happened today",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "pushed_at": "2026-09-21",
+      "title": "yynxxxxx/Codex-X",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4",
+      "pushed_at": "2026-09-21",
+      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/spuentesp/lain",
+      "pushed_at": "2026-09-21",
+      "title": "Show HN: Lain, a structural code graph and agent coordinator for coding agents",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/marciob/openmsg",
+      "pushed_at": "2026-09-21",
+      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/luiscruzcwb/engenharia-de-prompts-de-zero-shot-a-retrieval-augmented-generation-44aj",
+      "pushed_at": "2026-09-21",
+      "title": "Engenharia de Prompts: de Zero-shot a Retrieval Augmented Generation",
       "score": 6
     },
     {
-      "url": "https://github.com/imron/crt",
-      "pushed_at": "2026-09-19",
-      "title": "Show HN: CRT – a local code review tool for agentic development",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652727746&idx=3&sn=31fcb6676bf3aa080b7b3bec276c6b4d",
+      "pushed_at": "2026-09-21",
+      "title": "肉眼看不出的幻觉？清华提出视觉源幻觉，仅用0.9%数据实现SOTA",
       "score": 6
     },
     {
-      "url": "https://rediagram.app/ai-diagram-generator",
-      "pushed_at": "2026-09-19",
-      "title": "Show HN: Rediagram – put the diagrams you have on your brand",
+      "url": "http://www.geekpark.net/news/370667",
+      "pushed_at": "2026-09-21",
+      "title": "三体还没降临，是因为叶文洁没用上千问办公吗？",
       "score": 6
     },
     {
-      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-      "pushed_at": "2026-09-19",
-      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "url": "https://www.ifanr.com/1681050?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-09-21",
+      "title": "苹果最强芯片 M8 Ultra，能让 Mac 重回服务器市场吗？",
       "score": 6
     },
     {
-      "url": "https://github.com/Tencent/WeKnora",
-      "pushed_at": "2026-09-19",
-      "title": "Tencent/WeKnora",
+      "url": "https://pirateface.co/",
+      "pushed_at": "2026-09-21",
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "pushed_at": "2026-09-21",
+      "title": "World model companies are keeping a lot of secrets",
       "score": 5
     },
     {
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "pushed_at": "2026-09-19",
-      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://sspai.com/post/114788",
+      "pushed_at": "2026-09-21",
+      "title": "派早报：微软高管称 AI 爬取是人类历史上最大的劳动成果盗窃",
       "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk",
-      "pushed_at": "2026-09-19",
-      "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/roboflow/supervision",
-      "pushed_at": "2026-09-19",
-      "title": "roboflow/supervision",
-      "score": 4
     }
   ]
 }
