@@ -1,99 +1,153 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/mohitkumar188/AgentTrace",
-      "pushed_at": "2026-09-21",
-      "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
+      "url": "https://dev.to/sarantoon/github-hydrafusion-aih-ai-eluuekomedlaethnkhun-prahyadaidcchringaihm-16ci",
+      "pushed_at": "2026-09-23",
+      "title": "GitHub HydraFusion: ให้ AI เลือกโมเดลแทนคุณ ประหยัดได้จริงไหม",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "pushed_at": "2026-09-21",
-      "title": "llm-keys-ui 0.1",
+      "url": "https://aihot.news/items/cmude350u077jroggw7odbigk",
+      "pushed_at": "2026-09-23",
+      "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/cmudch57g05bqroggl65fi9vo",
+      "pushed_at": "2026-09-23",
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "score": 8
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+      "pushed_at": "2026-09-23",
+      "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
       "score": 7
     },
     {
-      "url": "https://dev.to/magickit/i-built-a-100-free-ai-toolbox-with-no-sign-up-heres-how-1m2b",
-      "pushed_at": "2026-09-21",
-      "title": "I Built a 100% Free AI Toolbox with No Sign-Up (Here's How)",
+      "url": "https://dev.to/ashish_sinha_5241c7673d93/38-of-an-analysts-questions-get-no-records-found-when-the-data-is-right-there-5edm",
+      "pushed_at": "2026-09-23",
+      "title": "38% of an analyst's questions get \"no records found\" when the data is right there",
       "score": 7
     },
     {
-      "url": "https://github.com/ruanyf/weekly",
-      "pushed_at": "2026-09-21",
-      "title": "ruanyf/weekly",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/asciimoo/hister",
-      "pushed_at": "2026-09-21",
-      "title": "asciimoo/hister",
+      "url": "https://github.com/trycua/cua",
+      "pushed_at": "2026-09-23",
+      "title": "trycua/cua",
       "score": 7
     },
     {
       "url": "https://github.com/yynxxxxx/Codex-X",
-      "pushed_at": "2026-09-21",
+      "pushed_at": "2026-09-23",
       "title": "yynxxxxx/Codex-X",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4",
-      "pushed_at": "2026-09-21",
-      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "pushed_at": "2026-09-23",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
       "score": 7
     },
     {
-      "url": "https://github.com/spuentesp/lain",
-      "pushed_at": "2026-09-21",
-      "title": "Show HN: Lain, a structural code graph and agent coordinator for coding agents",
+      "url": "https://mouse.dev/blog/muse-runtime-export/",
+      "pushed_at": "2026-09-23",
+      "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8GB",
       "score": 7
     },
     {
-      "url": "https://github.com/marciob/openmsg",
-      "pushed_at": "2026-09-21",
-      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "url": "https://deepeval.com/blog/introducing-jev-as-a-judge",
+      "pushed_at": "2026-09-23",
+      "title": "Show HN: JevEval, evals using Jev-as-a-judge",
       "score": 7
     },
     {
-      "url": "https://dev.to/luiscruzcwb/engenharia-de-prompts-de-zero-shot-a-retrieval-augmented-generation-44aj",
-      "pushed_at": "2026-09-21",
-      "title": "Engenharia de Prompts: de Zero-shot a Retrieval Augmented Generation",
+      "url": "https://aihot.news/items/cmucs4qas0m1vroedh2vdhjb6",
+      "pushed_at": "2026-09-23",
+      "title": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
+      "score": 7
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "pushed_at": "2026-09-23",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652727746&idx=3&sn=31fcb6676bf3aa080b7b3bec276c6b4d",
-      "pushed_at": "2026-09-21",
-      "title": "肉眼看不出的幻觉？清华提出视觉源幻觉，仅用0.9%数据实现SOTA",
+      "url": "https://therundownai.beehiiv.com/p/amazon-shuts-out-meta-s-muse",
+      "pushed_at": "2026-09-23",
+      "title": "Amazon shuts out Meta's Muse",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/370667",
-      "pushed_at": "2026-09-21",
-      "title": "三体还没降临，是因为叶文洁没用上千问办公吗？",
+      "url": "https://github.com/morloc-project/morloc",
+      "pushed_at": "2026-09-23",
+      "title": "Show HN: Morloc - a typed polyglot compiler for CLI/API/MCP generation",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1681050?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-09-21",
-      "title": "苹果最强芯片 M8 Ultra，能让 Mac 重回服务器市场吗？",
+      "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
+      "pushed_at": "2026-09-23",
+      "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
       "score": 6
     },
     {
-      "url": "https://pirateface.co/",
-      "pushed_at": "2026-09-21",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "url": "https://aihot.news/items/cmud52j4i003droralpe8a53b",
+      "pushed_at": "2026-09-23",
+      "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-      "pushed_at": "2026-09-21",
-      "title": "World model companies are keeping a lot of secrets",
+      "url": "https://aihot.news/items/cmud57mjw02snrora28mvi2h0",
+      "pushed_at": "2026-09-23",
+      "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+      "pushed_at": "2026-09-23",
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmucxgaki0sfkroed0n804wg5",
+      "pushed_at": "2026-09-23",
+      "title": "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/09/494263.html",
+      "pushed_at": "2026-09-23",
+      "title": "讲真，我没看出这图是AI做的，更没想到是国产AI做的",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/anthropics/financial-services",
+      "pushed_at": "2026-09-23",
+      "title": "anthropics/financial-services",
       "score": 5
     },
     {
-      "url": "https://sspai.com/post/114788",
-      "pushed_at": "2026-09-21",
-      "title": "派早报：微软高管称 AI 爬取是人类历史上最大的劳动成果盗窃",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "pushed_at": "2026-09-23",
+      "title": "Claude Opus 5.5",
+      "score": 5
+    },
+    {
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "pushed_at": "2026-09-23",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmud4mu5303n5roa915w7f1ja",
+      "pushed_at": "2026-09-23",
+      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmucyny580521roni2aiyh9xj",
+      "pushed_at": "2026-09-23",
+      "title": "Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58",
       "score": 5
     }
   ]
