@@ -1,75 +1,69 @@
 {
   "pushed": [
     {
-      "url": "https://trends.vc/ai-fortune-telling-apps-the-margin-flip-coffee-cup-readings-korean-playbook/",
-      "pushed_at": "2026-09-24",
-      "title": "AI Fortune-Telling Apps: The Margin Flip, Coffee-Cup Readings, Korean Playbook",
+      "url": "https://github.com/Silbercue/public-browser/releases/tag/v3.0.0",
+      "pushed_at": "2026-09-25",
+      "title": "Show HN: Public Browser MCP – +48% speed -33% token/session vs. AgentBrowser",
       "score": 8
     },
     {
-      "url": "https://dev.to/zkasuran/i-vibe-coded-a-nextjs-knowledge-base-that-argues-with-itself-fkn",
-      "pushed_at": "2026-09-24",
-      "title": "I vibe-coded a Next.js knowledge base that argues with itself",
+      "url": "https://www.latent.space/p/runway",
+      "pushed_at": "2026-09-25",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
       "score": 7
     },
     {
-      "url": "https://dev.to/zkasuran/i-built-an-agent-that-refuses-to-answer-nextjs-from-stale-docs-410k",
-      "pushed_at": "2026-09-24",
-      "title": "I built an agent that refuses to answer Next.js from stale docs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
+      "pushed_at": "2026-09-25",
+      "title": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247926294&idx=3&sn=b98b25ac1ed421b8f3c241de5dc50b42",
-      "pushed_at": "2026-09-24",
-      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+      "url": "https://www.practicalecommerce.com/shopify-opens-to-meta-muse-amazon-balks",
+      "pushed_at": "2026-09-25",
+      "title": "Shopify Opens to Meta Muse; Amazon Balks",
       "score": 7
     },
     {
-      "url": "https://github.com/maharshi365/oc-agent-router",
-      "pushed_at": "2026-09-24",
-      "title": "Show HN: OpenCode Agent Router – Jev Controlled Subagents",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/cmuetpj5l04curohbgsl4cj6m",
-      "pushed_at": "2026-09-24",
-      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/IterateAI/lifeboat-releases",
-      "pushed_at": "2026-09-24",
-      "title": "Show HN: Lifeboat, 2-6x more concurrent agent sessions per GPU, no quantization",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "pushed_at": "2026-09-25",
+      "title": "strands-agents/harness-sdk",
       "score": 6
     },
     {
-      "url": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
-      "pushed_at": "2026-09-24",
-      "title": "FLAWED’s Flaws and What This Means for Industry Research — Suha Sabi Hussain",
+      "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+      "pushed_at": "2026-09-25",
+      "title": "Australia to investigate if OpenAI hack of government health website broke the law",
       "score": 6
     },
     {
-      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-      "pushed_at": "2026-09-24",
-      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/",
+      "pushed_at": "2026-09-25",
+      "title": "Qwen-3.8-27B is good enough that I stopped using API",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1681928?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-09-25",
+      "title": "刚刚，苹果「液态玻璃」缔造者，给 Muse 造了个 AI 拓麻歌子",
+      "score": 6
+    },
+    {
+      "url": "https://mouse.dev/blog/muse-runtime-export/",
+      "pushed_at": "2026-09-25",
+      "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8 GB",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/09/496834.html",
+      "pushed_at": "2026-09-25",
+      "title": "时隔十年，AI大牛署名新论文",
       "score": 5
     },
     {
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "pushed_at": "2026-09-24",
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "score": 5
-    },
-    {
-      "url": "https://promptspend.com/",
-      "pushed_at": "2026-09-24",
-      "title": "Show HN: PromptSpend – LLM API prices re-checked daily, with source per price",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
-      "pushed_at": "2026-09-24",
-      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+      "url": "https://www.qbitai.com/2026/09/496779.html",
+      "pushed_at": "2026-09-25",
+      "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
       "score": 5
     }
   ]
