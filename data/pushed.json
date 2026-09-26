@@ -1,69 +1,87 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/Silbercue/public-browser/releases/tag/v3.0.0",
-      "pushed_at": "2026-09-25",
-      "title": "Show HN: Public Browser MCP – +48% speed -33% token/session vs. AgentBrowser",
-      "score": 8
-    },
-    {
-      "url": "https://www.latent.space/p/runway",
-      "pushed_at": "2026-09-25",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "pushed_at": "2026-09-26",
+      "title": "rohitg00/ai-engineering-from-scratch",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
-      "pushed_at": "2026-09-25",
-      "title": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "pushed_at": "2026-09-26",
+      "title": "HKUDS/CLI-Anything",
       "score": 7
     },
     {
-      "url": "https://www.practicalecommerce.com/shopify-opens-to-meta-muse-amazon-balks",
-      "pushed_at": "2026-09-25",
-      "title": "Shopify Opens to Meta Muse; Amazon Balks",
+      "url": "https://nerfwatch.lol",
+      "pushed_at": "2026-09-26",
+      "title": "Show HN: NerfWatch() – Track AI degradation with daily tests and community votes",
       "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/openrouter",
+      "pushed_at": "2026-09-26",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "score": 6
     },
     {
       "url": "https://github.com/strands-agents/harness-sdk",
-      "pushed_at": "2026-09-25",
+      "pushed_at": "2026-09-26",
       "title": "strands-agents/harness-sdk",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
-      "pushed_at": "2026-09-25",
-      "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+      "pushed_at": "2026-09-26",
+      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/",
-      "pushed_at": "2026-09-25",
-      "title": "Qwen-3.8-27B is good enough that I stopped using API",
+      "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+      "pushed_at": "2026-09-26",
+      "title": "Astra and Opus just passed Turing’s other test",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1681928?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-09-25",
-      "title": "刚刚，苹果「液态玻璃」缔造者，给 Muse 造了个 AI 拓麻歌子",
+      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+      "pushed_at": "2026-09-26",
+      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
       "score": 6
     },
     {
-      "url": "https://mouse.dev/blog/muse-runtime-export/",
-      "pushed_at": "2026-09-25",
-      "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8 GB",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "pushed_at": "2026-09-26",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/09/496834.html",
-      "pushed_at": "2026-09-25",
-      "title": "时隔十年，AI大牛署名新论文",
+      "url": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
+      "pushed_at": "2026-09-26",
+      "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy",
+      "pushed_at": "2026-09-26",
+      "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
+      "pushed_at": "2026-09-26",
+      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/julyx10/lap",
+      "pushed_at": "2026-09-26",
+      "title": "julyx10/lap",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/09/496779.html",
-      "pushed_at": "2026-09-25",
-      "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+      "url": "https://wallstreetclaws.com",
+      "pushed_at": "2026-09-26",
+      "title": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
       "score": 5
     }
   ]
