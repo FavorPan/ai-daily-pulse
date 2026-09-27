@@ -1,87 +1,63 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "pushed_at": "2026-09-26",
-      "title": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/pbakaus/impeccable",
+      "pushed_at": "2026-09-27",
+      "title": "pbakaus/impeccable",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "pushed_at": "2026-09-27",
+      "title": "Kākāpō Party",
       "score": 7
     },
     {
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "pushed_at": "2026-09-26",
-      "title": "HKUDS/CLI-Anything",
+      "url": "https://dev.to/goodpa/your-agent-spent-78000-before-you-woke-up-32n5",
+      "pushed_at": "2026-09-27",
+      "title": "Your Agent Spent $78,000 Before You Woke Up",
       "score": 7
     },
     {
-      "url": "https://nerfwatch.lol",
-      "pushed_at": "2026-09-26",
-      "title": "Show HN: NerfWatch() – Track AI degradation with daily tests and community votes",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927186&idx=2&sn=ede8e96cce37ad0b747e8362dc0a048e",
+      "pushed_at": "2026-09-27",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/openrouter",
-      "pushed_at": "2026-09-26",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://tryrig.ai/",
+      "pushed_at": "2026-09-27",
+      "title": "Show HN: Rig, a small operating system for your agent",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1wqr4g3/i_built_a_tool_to_extract_hardcoded_subtitles/",
+      "pushed_at": "2026-09-27",
+      "title": "I built a tool to extract hardcoded subtitles from videos, running entirely in the browser",
       "score": 6
     },
     {
-      "url": "https://github.com/strands-agents/harness-sdk",
-      "pushed_at": "2026-09-26",
-      "title": "strands-agents/harness-sdk",
+      "url": "https://www.qbitai.com/2026/09/497382.html",
+      "pushed_at": "2026-09-27",
+      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-      "pushed_at": "2026-09-26",
-      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-      "pushed_at": "2026-09-26",
-      "title": "Astra and Opus just passed Turing’s other test",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "pushed_at": "2026-09-26",
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "score": 6
-    },
-    {
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "pushed_at": "2026-09-26",
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
-      "pushed_at": "2026-09-26",
-      "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy",
-      "pushed_at": "2026-09-26",
-      "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
-      "pushed_at": "2026-09-26",
-      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/julyx10/lap",
-      "pushed_at": "2026-09-26",
-      "title": "julyx10/lap",
+      "url": "https://www.reddit.com/r/SideProject/comments/1wqsd4f/i_built_an_app_that_tells_me_when_my_lifting_form/",
+      "pushed_at": "2026-09-27",
+      "title": "I built an app that tells me when my lifting form is wrong",
       "score": 5
     },
     {
-      "url": "https://wallstreetclaws.com",
-      "pushed_at": "2026-09-26",
-      "title": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "pushed_at": "2026-09-27",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/cmuisvcxk05a2rohyozb492a3",
+      "pushed_at": "2026-09-27",
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
       "score": 5
     }
   ]
