@@ -1,63 +1,81 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/pbakaus/impeccable",
-      "pushed_at": "2026-09-27",
-      "title": "pbakaus/impeccable",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "pushed_at": "2026-09-27",
-      "title": "Kākāpō Party",
+      "url": "https://github.com/paperclipai/paperclip",
+      "pushed_at": "2026-09-29",
+      "title": "paperclipai/paperclip",
       "score": 7
     },
     {
-      "url": "https://dev.to/goodpa/your-agent-spent-78000-before-you-woke-up-32n5",
-      "pushed_at": "2026-09-27",
-      "title": "Your Agent Spent $78,000 Before You Woke Up",
+      "url": "https://github.com/mvschwarz/openrig",
+      "pushed_at": "2026-09-29",
+      "title": "mvschwarz/openrig",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247927186&idx=2&sn=ede8e96cce37ad0b747e8362dc0a048e",
-      "pushed_at": "2026-09-27",
-      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "url": "https://github.com/rohanprichard/talktome",
+      "pushed_at": "2026-09-29",
+      "title": "Show HN: Talktome - let your AI Agent call you",
       "score": 7
     },
     {
-      "url": "https://tryrig.ai/",
-      "pushed_at": "2026-09-27",
-      "title": "Show HN: Rig, a small operating system for your agent",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1wqr4g3/i_built_a_tool_to_extract_hardcoded_subtitles/",
-      "pushed_at": "2026-09-27",
-      "title": "I built a tool to extract hardcoded subtitles from videos, running entirely in the browser",
+      "url": "https://therundownai.beehiiv.com/p/openai-s-agents-went-rogue-on-washington",
+      "pushed_at": "2026-09-29",
+      "title": "OpenAI's agents went rogue on Washington",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/09/497382.html",
-      "pushed_at": "2026-09-27",
-      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "pushed_at": "2026-09-29",
+      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1wqsd4f/i_built_an_app_that_tells_me_when_my_lifting_form/",
-      "pushed_at": "2026-09-27",
-      "title": "I built an app that tells me when my lifting form is wrong",
+      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "pushed_at": "2026-09-29",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1wsnr2q/i_made_an_agent_that_finds_businesses_showing/",
+      "pushed_at": "2026-09-29",
+      "title": "I made an agent that finds businesses showing buying signal related to your niche.",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "pushed_at": "2026-09-27",
-      "title": "Insurers claim AI is already increasing healthcare costs",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "pushed_at": "2026-09-29",
+      "title": "Shopify opens checkout to browser-based AI agents",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/cmuisvcxk05a2rohyozb492a3",
-      "pushed_at": "2026-09-27",
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "pushed_at": "2026-09-29",
+      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-09-29",
+      "title": "豆包输入法大更新，AI 最自然的入口回到了键盘",
+      "score": 5
+    },
+    {
+      "url": "https://vm-price-board.sf.tools/",
+      "pushed_at": "2026-09-29",
+      "title": "Show HN: What a VM for your AI agent costs across 13 sandbox providers",
+      "score": 5
+    },
+    {
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "pushed_at": "2026-09-29",
+      "title": "It's Time to Investigate the AI Labs",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/usolnb7i6x3qmicwmoza9dpvl",
+      "pushed_at": "2026-09-29",
+      "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
       "score": 5
     }
   ]
