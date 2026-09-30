@@ -1,82 +1,76 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/paperclipai/paperclip",
-      "pushed_at": "2026-09-29",
-      "title": "paperclipai/paperclip",
+      "url": "https://therundownai.beehiiv.com/p/anthropic-mid-tier-claude-climbs-the-rankings",
+      "pushed_at": "2026-09-30",
+      "title": "Anthropic's mid-tier Claude climbs the rankings",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/lateos-ai/reflex",
+      "pushed_at": "2026-09-30",
+      "title": "Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl",
+      "pushed_at": "2026-09-30",
+      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/h40ygivbwihjifohdumbgpo0j",
+      "pushed_at": "2026-09-30",
+      "title": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
+      "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/372003",
+      "pushed_at": "2026-09-30",
+      "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
       "score": 7
     },
     {
-      "url": "https://github.com/mvschwarz/openrig",
-      "pushed_at": "2026-09-29",
-      "title": "mvschwarz/openrig",
+      "url": "https://aihot.news/items/qu0zwrg9img0cfv03vtgmopbs",
+      "pushed_at": "2026-09-30",
+      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
       "score": 7
     },
     {
-      "url": "https://github.com/rohanprichard/talktome",
-      "pushed_at": "2026-09-29",
-      "title": "Show HN: Talktome - let your AI Agent call you",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/openai-s-agents-went-rogue-on-washington",
-      "pushed_at": "2026-09-29",
-      "title": "OpenAI's agents went rogue on Washington",
+      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "pushed_at": "2026-09-30",
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-      "pushed_at": "2026-09-29",
-      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "pushed_at": "2026-09-30",
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-      "pushed_at": "2026-09-29",
-      "title": "OpenAI reportedly ditches model over safety concerns",
+      "url": "https://aihot.news/items/olf3cbdvsrlr6avso72eom7ea",
+      "pushed_at": "2026-09-30",
+      "title": "Shopify 宣布放弃 React Native，AI 编码智能体让回归原生开发成为新选择",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1wsnr2q/i_made_an_agent_that_finds_businesses_showing/",
-      "pushed_at": "2026-09-29",
-      "title": "I made an agent that finds businesses showing buying signal related to your niche.",
+      "url": "https://apps.infinihash.com/",
+      "pushed_at": "2026-09-30",
+      "title": "Show HN: InfiniHash App Store – compliance tools built end-to-end by AI agents",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "pushed_at": "2026-09-29",
-      "title": "Shopify opens checkout to browser-based AI agents",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "pushed_at": "2026-09-30",
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-      "pushed_at": "2026-09-29",
-      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-09-29",
-      "title": "豆包输入法大更新，AI 最自然的入口回到了键盘",
-      "score": 5
-    },
-    {
-      "url": "https://vm-price-board.sf.tools/",
-      "pushed_at": "2026-09-29",
-      "title": "Show HN: What a VM for your AI agent costs across 13 sandbox providers",
-      "score": 5
-    },
-    {
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "pushed_at": "2026-09-29",
-      "title": "It's Time to Investigate the AI Labs",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/usolnb7i6x3qmicwmoza9dpvl",
-      "pushed_at": "2026-09-29",
-      "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
-      "score": 5
+      "url": "https://github.com/dream-num/univer",
+      "pushed_at": "2026-09-30",
+      "title": "dream-num/univer",
+      "score": 4
     }
   ]
 }
