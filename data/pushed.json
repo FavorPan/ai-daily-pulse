@@ -1,76 +1,46 @@
 {
   "pushed": [
     {
-      "url": "https://therundownai.beehiiv.com/p/anthropic-mid-tier-claude-climbs-the-rankings",
-      "pushed_at": "2026-09-30",
-      "title": "Anthropic's mid-tier Claude climbs the rankings",
+      "url": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-01",
+      "title": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
       "score": 8
     },
     {
-      "url": "https://github.com/lateos-ai/reflex",
-      "pushed_at": "2026-09-30",
-      "title": "Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl",
-      "pushed_at": "2026-09-30",
-      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/h40ygivbwihjifohdumbgpo0j",
-      "pushed_at": "2026-09-30",
-      "title": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
-      "score": 8
-    },
-    {
-      "url": "http://www.geekpark.net/news/372003",
-      "pushed_at": "2026-09-30",
-      "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
+      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+      "pushed_at": "2026-10-01",
+      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/qu0zwrg9img0cfv03vtgmopbs",
-      "pushed_at": "2026-09-30",
-      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "pushed_at": "2026-10-01",
+      "title": "vectorize-io/hindsight",
       "score": 7
     },
     {
-      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-      "pushed_at": "2026-09-30",
-      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "url": "https://github.com/mvschwarz/openrig",
+      "pushed_at": "2026-10-01",
+      "title": "mvschwarz/openrig",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
+      "pushed_at": "2026-10-01",
+      "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+      "pushed_at": "2026-10-01",
+      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
       "score": 6
     },
     {
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "pushed_at": "2026-09-30",
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/olf3cbdvsrlr6avso72eom7ea",
-      "pushed_at": "2026-09-30",
-      "title": "Shopify 宣布放弃 React Native，AI 编码智能体让回归原生开发成为新选择",
-      "score": 6
-    },
-    {
-      "url": "https://apps.infinihash.com/",
-      "pushed_at": "2026-09-30",
-      "title": "Show HN: InfiniHash App Store – compliance tools built end-to-end by AI agents",
+      "url": "https://inbound.new",
+      "pushed_at": "2026-10-01",
+      "title": "Show HN: Another Email Provider - Inbound",
       "score": 5
-    },
-    {
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "pushed_at": "2026-09-30",
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/dream-num/univer",
-      "pushed_at": "2026-09-30",
-      "title": "dream-num/univer",
-      "score": 4
     }
   ]
 }
