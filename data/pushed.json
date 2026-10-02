@@ -1,46 +1,94 @@
 {
   "pushed": [
     {
-      "url": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-01",
-      "title": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
-      "score": 8
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
-      "pushed_at": "2026-10-01",
-      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+      "url": "https://dev.to/rulestack/claude-codes-read-deny-rules-let-4-of-11-routes-through-grep-r-a-python-one-liner-and-two-ajf",
+      "pushed_at": "2026-10-02",
+      "title": "Claude Code's Read deny rules let 4 of 11 routes through: grep -r, a Python one-liner and two CLAUDE.md @imports",
       "score": 7
     },
     {
-      "url": "https://github.com/vectorize-io/hindsight",
-      "pushed_at": "2026-10-01",
-      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "pushed_at": "2026-10-02",
+      "title": "heygen-com/hyperframes",
       "score": 7
     },
     {
-      "url": "https://github.com/mvschwarz/openrig",
-      "pushed_at": "2026-10-01",
-      "title": "mvschwarz/openrig",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "pushed_at": "2026-10-02",
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
-      "pushed_at": "2026-10-01",
-      "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
-      "pushed_at": "2026-10-01",
-      "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "url": "https://www.bensbites.com/p/openai-devday-2026",
+      "pushed_at": "2026-10-02",
+      "title": "OpenAI DevDay 2026",
       "score": 6
     },
     {
-      "url": "https://inbound.new",
-      "pushed_at": "2026-10-01",
-      "title": "Show HN: Another Email Provider - Inbound",
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-10-02",
+      "title": "mattpocock/skills",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "pushed_at": "2026-10-02",
+      "title": "modelcontextprotocol/servers",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+      "pushed_at": "2026-10-02",
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "pushed_at": "2026-10-02",
+      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/372069",
+      "pushed_at": "2026-10-02",
+      "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/graphene-data/graphene",
+      "pushed_at": "2026-10-02",
+      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/iw7ix94rgvhp2jgamykh261gl",
+      "pushed_at": "2026-10-02",
+      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+      "score": 6
+    },
+    {
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "pushed_at": "2026-10-02",
+      "title": "The Dot and the Swarm",
       "score": 5
+    },
+    {
+      "url": "https://github.com/PhreshOS/system",
+      "pushed_at": "2026-10-02",
+      "title": "Show HN: PhreshOS – OS for Web Apps",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/fe27jbwrn6gfzym6j9q179auw",
+      "pushed_at": "2026-10-02",
+      "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw",
+      "pushed_at": "2026-10-02",
+      "title": "openclaw/openclaw",
+      "score": 4
     }
   ]
 }
