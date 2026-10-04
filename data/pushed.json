@@ -1,45 +1,69 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/t8y2/dbx",
-      "pushed_at": "2026-10-03",
-      "title": "t8y2/dbx",
+      "url": "https://github.com/mvschwarz/openrig",
+      "pushed_at": "2026-10-04",
+      "title": "mvschwarz/openrig",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/mksglu/context-mode",
+      "pushed_at": "2026-10-04",
+      "title": "mksglu/context-mode",
       "score": 7
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/tavus-ai-looks-listens-and-talks-back-live",
-      "pushed_at": "2026-10-03",
-      "title": "Tavus' AI looks, listens, and talks back live",
+      "url": "https://github.com/osmangoninahid/mermaidiff",
+      "pushed_at": "2026-10-04",
+      "title": "Show HN: Mermaidiff – git diff for behavior, PRs as sequence diagrams",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/dkmm9dhgecbuer490f0uqdi3m",
+      "pushed_at": "2026-10-04",
+      "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "pushed_at": "2026-10-04",
+      "title": "[AINews] not much happened today",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1wvrfgh/yokka_simple_project_management_for_coding_agents/",
-      "pushed_at": "2026-10-03",
-      "title": "Yokka – Simple project management for coding agents",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "pushed_at": "2026-10-04",
+      "title": "We're going to need default hard budget caps on pretty much everything",
       "score": 6
     },
     {
-      "url": "https://dev.to/qianqiuwanzi/your-ai-forgets-what-you-told-it-a-memory-layer-fixes-most-of-it-1djg",
-      "pushed_at": "2026-10-03",
-      "title": "Your AI forgets what you told it. A memory layer fixes most of it",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "pushed_at": "2026-10-04",
+      "title": "coreyhaines31/marketingskills",
+      "score": 6
+    },
+    {
+      "url": "https://zkingston.com/advsim/",
+      "pushed_at": "2026-10-04",
+      "title": "Show HN: Play an RL self-play policy in Pokemon Gen 3 Randbats in the browser",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/heygen-com/hyperframes",
+      "pushed_at": "2026-10-04",
+      "title": "heygen-com/hyperframes",
       "score": 5
     },
     {
-      "url": "https://github.com/VectifyAI/PageIndex",
-      "pushed_at": "2026-10-03",
-      "title": "VectifyAI/PageIndex",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "pushed_at": "2026-10-04",
+      "title": "NVIDIA/OpenShell",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-      "pushed_at": "2026-10-03",
-      "title": "Sean Parker is rebuilding Stability AI around music",
-      "score": 5
-    },
-    {
-      "url": "https://television.run/",
-      "pushed_at": "2026-10-03",
-      "title": "Show HN: Television – an open source GUI for your agent harness",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+      "pushed_at": "2026-10-04",
+      "title": "How to Hack Time, With C2PA",
       "score": 5
     }
   ]
