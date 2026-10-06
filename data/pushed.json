@@ -2,56 +2,56 @@
   "pushed": [
     {
       "url": "https://github.com/pbakaus/impeccable",
-      "pushed_at": "2026-10-05",
+      "pushed_at": "2026-10-06",
       "title": "pbakaus/impeccable",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "pushed_at": "2026-10-05",
-      "title": "DietrichGebert/ponytail",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/omlahore/RemoveMacAI",
-      "pushed_at": "2026-10-05",
-      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/deeplearningguy/doubtbench",
-      "pushed_at": "2026-10-05",
-      "title": "Show HN: DoubtBench – does Jev know when humans disagree?",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "pushed_at": "2026-10-05",
-      "title": "JuliusBrussee/caveman",
       "score": 7
     },
     {
-      "url": "https://github.com/pingdotgg/t3code",
-      "pushed_at": "2026-10-05",
-      "title": "pingdotgg/t3code",
+      "url": "https://dev.to/sertdisk/opencode-model-router-per-agent-model-fallback-chains-with-a-local-web-ui-4n23",
+      "pushed_at": "2026-10-06",
+      "title": "OpenCode Model Router: per-agent model fallback chains with a local web UI",
       "score": 7
     },
     {
-      "url": "https://github.com/Niko1221/Strata",
-      "pushed_at": "2026-10-05",
-      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://dev.to/mahaveervarmavegiraju/vanam-by-mahaveer-varma-b1d",
+      "pushed_at": "2026-10-06",
+      "title": "Vanam by Mahaveer Varma",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "pushed_at": "2026-10-06",
+      "title": "thedotmack/claude-mem",
       "score": 6
     },
     {
-      "url": "https://dev.to/el_e_3dc94dfc336bfb025ef2/your-ops-dashboard-does-not-need-a-frontend-framework-1e9l",
-      "pushed_at": "2026-10-05",
-      "title": "Your ops dashboard does not need a frontend framework",
+      "url": "https://dev.to/devtheusp/como-funciona-a-memoria-de-um-agente-de-ia-e-o-que-acontece-quando-ela-esquece-do-jeito-errado-1hp",
+      "pushed_at": "2026-10-06",
+      "title": "Como funciona a memória de um agente de IA (e o que acontece quando ela esquece do jeito errado)",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "pushed_at": "2026-10-06",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "pushed_at": "2026-10-06",
+      "title": "OpenCut-app/OpenCut",
       "score": 5
     },
     {
-      "url": "https://dev.to/ramya_perumal/ai-agents-tool-calling-and-its-types-3ali",
-      "pushed_at": "2026-10-05",
-      "title": "AI Agents - Tool Calling And Its Types",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "pushed_at": "2026-10-06",
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/wiip2ye21b67quiydxlnqmeyc",
+      "pushed_at": "2026-10-06",
+      "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
       "score": 5
     }
   ]
