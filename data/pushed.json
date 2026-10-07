@@ -1,57 +1,69 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/pbakaus/impeccable",
-      "pushed_at": "2026-10-06",
-      "title": "pbakaus/impeccable",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "pushed_at": "2026-10-07",
+      "title": "msitarzewski/agency-agents",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "pushed_at": "2026-10-07",
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "score": 8
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/the-deepseek-of-the-west-finally-has-a-model",
+      "pushed_at": "2026-10-07",
+      "title": "The 'DeepSeek of the West' finally has a model",
       "score": 7
     },
     {
-      "url": "https://dev.to/sertdisk/opencode-model-router-per-agent-model-fallback-chains-with-a-local-web-ui-4n23",
-      "pushed_at": "2026-10-06",
-      "title": "OpenCode Model Router: per-agent model fallback chains with a local web UI",
+      "url": "https://www.qbitai.com/2026/10/501726.html",
+      "pushed_at": "2026-10-07",
+      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
       "score": 7
     },
     {
-      "url": "https://dev.to/mahaveervarmavegiraju/vanam-by-mahaveer-varma-b1d",
-      "pushed_at": "2026-10-06",
-      "title": "Vanam by Mahaveer Varma",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "pushed_at": "2026-10-06",
-      "title": "thedotmack/claude-mem",
+      "url": "https://dev.to/mayailands/your-agents-test-gate-runs-the-tests-in-the-tree-the-agent-just-edited-574",
+      "pushed_at": "2026-10-07",
+      "title": "Your agent's test gate runs the tests in the tree the agent just edited",
       "score": 6
     },
     {
-      "url": "https://dev.to/devtheusp/como-funciona-a-memoria-de-um-agente-de-ia-e-o-que-acontece-quando-ela-esquece-do-jeito-errado-1hp",
-      "pushed_at": "2026-10-06",
-      "title": "Como funciona a memória de um agente de IA (e o que acontece quando ela esquece do jeito errado)",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "pushed_at": "2026-10-07",
+      "title": "EmbeddingGemma 2",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-      "pushed_at": "2026-10-06",
-      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "url": "https://puppet-master.xyz/",
+      "pushed_at": "2026-10-07",
+      "title": "Show HN: Puppet Master – Manage coding agents at scale",
       "score": 6
     },
     {
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "pushed_at": "2026-10-06",
-      "title": "OpenCut-app/OpenCut",
+      "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
+      "pushed_at": "2026-10-07",
+      "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/r5p04sepsb5p5ir85wq1bok58",
+      "pushed_at": "2026-10-07",
+      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "pushed_at": "2026-10-07",
+      "title": "llm-mistral 0.16",
       "score": 5
     },
     {
-      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-      "pushed_at": "2026-10-06",
-      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/wiip2ye21b67quiydxlnqmeyc",
-      "pushed_at": "2026-10-06",
-      "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
+      "url": "https://aihot.news/items/ktjti7hbm1gor33jpoc6ghili",
+      "pushed_at": "2026-10-07",
+      "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
       "score": 5
     }
   ]
