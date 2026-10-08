@@ -1,69 +1,81 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "pushed_at": "2026-10-07",
-      "title": "msitarzewski/agency-agents",
+      "url": "https://www.qbitai.com/2026/10/501834.html",
+      "pushed_at": "2026-10-08",
+      "title": "GPT-6今起免费用！拒答变少，话变多了",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-      "pushed_at": "2026-10-07",
-      "title": "Introducing Mistral Large 4: Le chonk",
+      "url": "https://github.com/abird-ai/agentc",
+      "pushed_at": "2026-10-08",
+      "title": "Show HN: Agentc: <1MB static, no Libc, minimal, embeddable agent with Rust/C API",
       "score": 8
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/the-deepseek-of-the-west-finally-has-a-model",
-      "pushed_at": "2026-10-07",
-      "title": "The 'DeepSeek of the West' finally has a model",
+      "url": "https://github.com/pbakaus/impeccable",
+      "pushed_at": "2026-10-08",
+      "title": "pbakaus/impeccable",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/10/501726.html",
-      "pushed_at": "2026-10-07",
-      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
+      "url": "https://github.com/morluto/rea",
+      "pushed_at": "2026-10-08",
+      "title": "morluto/rea",
       "score": 7
     },
     {
-      "url": "https://dev.to/mayailands/your-agents-test-gate-runs-the-tests-in-the-tree-the-agent-just-edited-574",
-      "pushed_at": "2026-10-07",
-      "title": "Your agent's test gate runs the tests in the tree the agent just edited",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x067qp/i_built_a_free_opensource_inbox_that_pulls_otp/",
+      "pushed_at": "2026-10-08",
+      "title": "I built a free, open-source inbox that pulls OTP codes and links out of your email automatically",
+      "score": 7
+    },
+    {
+      "url": "https://botscent.nibnalin.me",
+      "pushed_at": "2026-10-08",
+      "title": "Show HN: Botscent – Library to Detect Agents on your site",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/x40bi9csoomsdaflejehop22y",
+      "pushed_at": "2026-10-08",
+      "title": "GPT-6 Luna Decisions 上架 OpenRouter",
+      "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/372099",
+      "pushed_at": "2026-10-08",
+      "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-      "pushed_at": "2026-10-07",
-      "title": "EmbeddingGemma 2",
+      "url": "https://aihot.news/items/vk1sotxx6v25hhgn55mwgv4nv",
+      "pushed_at": "2026-10-08",
+      "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
       "score": 6
     },
     {
-      "url": "https://puppet-master.xyz/",
-      "pushed_at": "2026-10-07",
-      "title": "Show HN: Puppet Master – Manage coding agents at scale",
+      "url": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki",
+      "pushed_at": "2026-10-08",
+      "title": "a16z 解析德州为何让数据中心排队等电",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
-      "pushed_at": "2026-10-07",
-      "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/r5p04sepsb5p5ir85wq1bok58",
-      "pushed_at": "2026-10-07",
-      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-      "pushed_at": "2026-10-07",
-      "title": "llm-mistral 0.16",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x05kwv/made_a_browser_tool_for_drawing_exhibition_and/",
+      "pushed_at": "2026-10-08",
+      "title": "Made a browser tool for drawing exhibition and event layouts in isometric",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/ktjti7hbm1gor33jpoc6ghili",
-      "pushed_at": "2026-10-07",
-      "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x01kk2/out_of_my_7_saas_products_only_2_got_real/",
+      "pushed_at": "2026-10-08",
+      "title": "Out of my 7 SaaS products, only 2 got real traction. Here’s what they had in common",
+      "score": 5
+    },
+    {
+      "url": "https://aquarium.money/economicus",
+      "pushed_at": "2026-10-08",
+      "title": "Show HN: Economicus – an open economy of autonomous entities",
       "score": 5
     }
   ]
