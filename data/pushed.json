@@ -1,82 +1,40 @@
 {
   "pushed": [
     {
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "pushed_at": "2026-10-10",
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "url": "https://dev.to/corpablehk/designing-a-human-in-the-loop-approval-matrix-for-an-ai-agent-that-drafts-b2b-quote-replies-4h52",
+      "pushed_at": "2026-10-11",
+      "title": "Designing a Human-in-the-Loop Approval Matrix for an AI Agent That Drafts B2B Quote Replies",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/auy2exatk0u5kr1c1ydmaajws",
-      "pushed_at": "2026-10-10",
-      "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "pushed_at": "2026-10-11",
+      "title": "addyosmani/agent-skills",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "pushed_at": "2026-10-10",
-      "title": "A new feature for my blog, built using my voice",
+      "url": "https://dev.to/tom_jones_230c4659491adcd/we-asked-a-decision-model-to-check-our-ais-work-it-got-good-the-day-we-stopped-asking-it-to-think-23m6",
+      "pushed_at": "2026-10-11",
+      "title": "We asked a decision model to check our AI's work. It got good the day we stopped asking it to think.",
       "score": 7
     },
     {
-      "url": "https://www.reclip.io/claude-opus-5-5-video-prompts",
-      "pushed_at": "2026-10-10",
-      "title": "Show HN: Claude Opus 5.5 Video prompts and skills",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "pushed_at": "2026-10-10",
-      "title": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/alibaba/open-code-review",
+      "pushed_at": "2026-10-11",
+      "title": "alibaba/open-code-review",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-10",
-      "title": "陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸",
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "pushed_at": "2026-10-11",
+      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
       "score": 6
     },
     {
-      "url": "https://github.com/kkrausse/faplex",
-      "pushed_at": "2026-10-10",
-      "title": "Show HN: Faplex – like `Claude agents` but all machines and harnesses",
+      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+      "pushed_at": "2026-10-11",
+      "title": "Voxlocal: a minimal voice agent written in Rust",
       "score": 6
-    },
-    {
-      "url": "https://github.com/chrchr/clanking",
-      "pushed_at": "2026-10-10",
-      "title": "Show HN: Clanking – Turn your coding agents' activity into a subtle soundscape",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/o8tu2a2i9r2roqh7un9l5grq2",
-      "pushed_at": "2026-10-10",
-      "title": "ARC Prize 2026：TUFA Labs 以 88.06% 登顶 ARC-AGI-2 高分榜",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/y9clkoyn1giula1pc7pkb9qxd",
-      "pushed_at": "2026-10-10",
-      "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1683309?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-10",
-      "title": "全球最大独立 AI 原生影视公司，要打造「AI 版 Disney」",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/10/502411.html",
-      "pushed_at": "2026-10-10",
-      "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/10/502359.html",
-      "pushed_at": "2026-10-10",
-      "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
-      "score": 5
     }
   ]
 }
