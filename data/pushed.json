@@ -1,40 +1,34 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/corpablehk/designing-a-human-in-the-loop-approval-matrix-for-an-ai-agent-that-drafts-b2b-quote-replies-4h52",
-      "pushed_at": "2026-10-11",
-      "title": "Designing a Human-in-the-Loop Approval Matrix for an AI Agent That Drafts B2B Quote Replies",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-10-11",
-      "title": "addyosmani/agent-skills",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/tom_jones_230c4659491adcd/we-asked-a-decision-model-to-check-our-ais-work-it-got-good-the-day-we-stopped-asking-it-to-think-23m6",
-      "pushed_at": "2026-10-11",
-      "title": "We asked a decision model to check our AI's work. It got good the day we stopped asking it to think.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "pushed_at": "2026-10-12",
+      "title": "multica-ai/andrej-karpathy-skills",
       "score": 7
     },
     {
-      "url": "https://github.com/alibaba/open-code-review",
-      "pushed_at": "2026-10-11",
-      "title": "alibaba/open-code-review",
+      "url": "https://www.qbitai.com/2026/10/502544.html",
+      "pushed_at": "2026-10-12",
+      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "score": 7
+    },
+    {
+      "url": "https://sspai.com/post/115845",
+      "pushed_at": "2026-10-12",
+      "title": "派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
       "score": 6
     },
     {
-      "url": "https://arxiv.org/html/2610.05978v1",
-      "pushed_at": "2026-10-11",
-      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+      "url": "https://swapbackdrop.com/",
+      "pushed_at": "2026-10-12",
+      "title": "Show HN: SwapBackdrop – reuse one cutout across video backgrounds and frames",
       "score": 6
     },
     {
-      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
-      "pushed_at": "2026-10-11",
-      "title": "Voxlocal: a minimal voice agent written in Rust",
-      "score": 6
+      "url": "https://yehuitang0316.github.io/gear-site/",
+      "pushed_at": "2026-10-12",
+      "title": "Show HN: I made an agent can self-improving while working",
+      "score": 5
     }
   ]
 }
