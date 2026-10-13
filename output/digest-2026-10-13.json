@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-13",
+  "highlights": [
+    "AirLLM 通过流式分层加载技术，使 70B 大语言模型可在单张 4GB GPU 上运行，无需量化、蒸馏或剪枝。该技术支持 Kimi K3 (2.8T) 在 3.72GB VRAM 下运行，并可跑 DeepSeek-V3 (671B) 于…",
+    "使用 Claude Opus 5.5 配合 Blender 5.1+、Unreal Engine 5 和 Meshy，通过七步流程即可构建完整游戏：先由 Opus  brainstorm 并选定游戏创意，Meshy 生成 3D 模型，Ble…",
+    "开发者Brandon Thomas使用Claude Opus 5.5配合Rust语言，在不到10天内逆向重写了Photoshop、Illustrator等7款Adobe软件的开源替代品PhotoCraft、VectorCraft，其中单PS…"
+  ],
+  "items": [
+    {
+      "id": "759119abe3ff",
+      "title": "lyogavin/airllm",
+      "summary": "AirLLM 通过流式分层加载技术，使 70B 大语言模型可在单张 4GB GPU 上运行，无需量化、蒸馏或剪枝。该技术支持 Kimi K3 (2.8T) 在 3.72GB VRAM 下运行，并可跑 DeepSeek-V3 (671B) 于约 12GB 显存环境。此外，Qwen3.8-Flash-Next (125B) 也可在 6GB VRAM 下",
+      "score": 9,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/lyogavin/airllm",
+      "tags": [
+        "AirLLM",
+        "大模型推理",
+        "低显存部署",
+        "开源工具",
+        "一人公司"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "db71a39c67c5",
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "summary": "使用 Claude Opus 5.5 配合 Blender 5.1+、Unreal Engine 5 和 Meshy，通过七步流程即可构建完整游戏：先由 Opus  brainstorm 并选定游戏创意，Meshy 生成 3D 模型，Blender 负责清理和材质，Unreal 完成光照、物理和 HUD，最终在聊天界面中逐步添加战斗、敌人、任务等功能。完整首版制作约耗时 4 小时，成本约为每周 Max 计划的 19%。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49",
+      "tags": [
+        "Claude",
+        "Blender",
+        "Unreal Engine",
+        "Meshy",
+        "游戏开发",
+        "一人公司"
+      ],
+      "why_now": "",
+      "why_now_en": "Claude Opus 5.5 just launched.",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "3dc846736e25",
+      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+      "summary": "开发者Brandon Thomas使用Claude Opus 5.5配合Rust语言，在不到10天内逆向重写了Photoshop、Illustrator等7款Adobe软件的开源替代品PhotoCraft、VectorCraft，其中单PS项目即获得4.6万GitHub Star，展现了AI驱动逆向工程的强大效率。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
+      "tags": [
+        "AI逆向工程",
+        "开源替代",
+        "一人公司参考"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f24473b906f1",
+      "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+      "summary": "Linus Torvalds 正使用 Claude Code 开发名为 noref-filemap-read-with-llm 的新 Linux 内核分支，旨在解决多线程小文件读取时 folio 引用计数的争用瓶颈问题。该方案通过让内存管理代码从页缓存读取数据而跳过 folio 引用，带来了显著的性能提升。 patches 已提交至 Torvalds 的 Git 仓库，计划合并至 Linux 7.4 合并窗口。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Lobsters",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+      "tags": [
+        "Claude Code",
+        "Linux",
+        "AI编程"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "906777bf70ea",
+      "title": "First 62 bucks! My expense tracker just got its first lifetime purchase",
+      "summary": "独立开发者Penvo iOS记账应用首笔终身订阅收入62.18美元，支持AI语音记账和13种语言，28天内获得87名新客、128名活跃用户。",
+      "score": 6,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4jhnc/first_62_bucks_my_expense_tracker_just_got_its/",
+      "tags": [
+        "一人公司",
+        "独立开发",
+        "AI语音功能",
+        "SaaS"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "c99417e69371",
+      "title": "We built vibe coding for physical products, so naturally I tried making a drone with it",
+      "summary": "作者团队开发的工具 **Autonomyware** 实现了针对物理产品的 vibe coding，只需描述需求即可自动生成包含完整工程规格的 3D 模型。作者用它设计出一架**自主监控无人机**，该模型已免费上传至平台库供用户下载尝试。",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4ajtt/we_built_vibe_coding_for_physical_products_so/",
+      "tags": [
+        "vibe coding",
+        "3D建模",
+        "硬件生成",
+        "开源模型"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9c939c7199af",
+      "title": "cathrynlavery/diagram-design",
+      "summary": "`diagram-design` 是一款 AI agent skill，支持 Claude Code、Cursor、Codex 等主流 AI 编程工具，可生成 44 种图表类型，输出为自包含的 HTML + SVG 文件，支持品牌颜色与字体匹配。安装命令为 `npx skills add cathrynlavery/diagram-design`，在 Claude Code 中可通过 `/plugin marketplace add` 命令并开启自动更新。",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tags": [
+        "AI工具",
+        "图表生成",
+        "Agent Skill"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "50d9ef8ef79e",
+      "title": "Parsing JSON at tens of gigabytes per second… in Python",
+      "summary": "Python 3.",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Lobsters",
+      "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+      "tags": [
+        "Python",
+        "性能优化",
+        "JSON解析"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8c567f37a22c",
+      "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
+      "summary": "",
+      "score": 5,
+      "topic": "AI投融资动态",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "早报聚合",
+        "DeepSeek",
+        "AI投融资"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": []
+}

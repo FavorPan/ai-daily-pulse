@@ -1,33 +1,57 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "pushed_at": "2026-10-12",
-      "title": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/lyogavin/airllm",
+      "pushed_at": "2026-10-13",
+      "title": "lyogavin/airllm",
+      "score": 9
+    },
+    {
+      "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49",
+      "pushed_at": "2026-10-13",
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
+      "pushed_at": "2026-10-13",
+      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/10/502544.html",
-      "pushed_at": "2026-10-12",
-      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-      "score": 7
-    },
-    {
-      "url": "https://sspai.com/post/115845",
-      "pushed_at": "2026-10-12",
-      "title": "派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4jhnc/first_62_bucks_my_expense_tracker_just_got_its/",
+      "pushed_at": "2026-10-13",
+      "title": "First 62 bucks! My expense tracker just got its first lifetime purchase",
       "score": 6
     },
     {
-      "url": "https://swapbackdrop.com/",
-      "pushed_at": "2026-10-12",
-      "title": "Show HN: SwapBackdrop – reuse one cutout across video backgrounds and frames",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+      "pushed_at": "2026-10-13",
+      "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
       "score": 6
     },
     {
-      "url": "https://yehuitang0316.github.io/gear-site/",
-      "pushed_at": "2026-10-12",
-      "title": "Show HN: I made an agent can self-improving while working",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4ajtt/we_built_vibe_coding_for_physical_products_so/",
+      "pushed_at": "2026-10-13",
+      "title": "We built vibe coding for physical products, so naturally I tried making a drone with it",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "pushed_at": "2026-10-13",
+      "title": "cathrynlavery/diagram-design",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-13",
+      "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
+      "score": 5
+    },
+    {
+      "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+      "pushed_at": "2026-10-13",
+      "title": "Parsing JSON at tens of gigabytes per second… in Python",
       "score": 5
     }
   ]

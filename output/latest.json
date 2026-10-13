@@ -1,198 +1,207 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "highlights": [
-    "multica-ai/andrej-karpathy-skills",
-    "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-    "Show HN: SwapBackdrop – reuse one cutout across video backgrounds and frames"
+    "AirLLM 通过流式分层加载技术，使 70B 大语言模型可在单张 4GB GPU 上运行，无需量化、蒸馏或剪枝。该技术支持 Kimi K3 (2.8T) 在 3.72GB VRAM 下运行，并可跑 DeepSeek-V3 (671B) 于…",
+    "使用 Claude Opus 5.5 配合 Blender 5.1+、Unreal Engine 5 和 Meshy，通过七步流程即可构建完整游戏：先由 Opus  brainstorm 并选定游戏创意，Meshy 生成 3D 模型，Ble…",
+    "开发者Brandon Thomas使用Claude Opus 5.5配合Rust语言，在不到10天内逆向重写了Photoshop、Illustrator等7款Adobe软件的开源替代品PhotoCraft、VectorCraft，其中单PS…"
   ],
   "items": [
     {
-      "id": "ca6e9330cc1b",
-      "title": "multica-ai/andrej-karpathy-skills",
-      "summary": "",
-      "score": 7,
+      "id": "759119abe3ff",
+      "title": "lyogavin/airllm",
+      "summary": "AirLLM 通过流式分层加载技术，使 70B 大语言模型可在单张 4GB GPU 上运行，无需量化、蒸馏或剪枝。该技术支持 Kimi K3 (2.8T) 在 3.72GB VRAM 下运行，并可跑 DeepSeek-V3 (671B) 于约 12GB 显存环境。此外，Qwen3.8-Flash-Next (125B) 也可在 6GB VRAM 下",
+      "score": 9,
       "topic": "AI工具实操/Agent工作流",
       "source": "GitHub Trending",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/lyogavin/airllm",
       "tags": [
-        "Claude Code",
-        "LLM编程",
-        "开源项目"
-      ],
-      "why_now": "",
-      "why_now_en": "",
-      "summary_en": "A single CLAUDE.md file introduces four principles for Claude Code to address LLM coding pitfalls: Think Before Coding, Simplicity First, Surgical Changes, and Goal-Driven Execution. The guidelines combat assumptions, overcomplication, irrelevant edits, and vague success criteria. Available as a Claude Code plugin via `/plugin marketplace add forrestchang/andrej-karpathy-skills`, it is part of the open-source Multica platform for managing coding agents.",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
-    },
-    {
-      "id": "adf3e6e82e6e",
-      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-      "summary": "",
-      "score": 7,
-      "topic": "AI工具实操/Agent工作流",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502544.html",
-      "tags": [
-        "DeepSeek",
-        "多Bot协同",
-        "持久化记忆",
-        "开源插件",
+        "AirLLM",
+        "大模型推理",
+        "低显存部署",
+        "开源工具",
         "一人公司"
       ],
       "why_now": "",
       "why_now_en": "",
-      "summary_en": "DeepSeek Bot is a community-built multi-bot team plugin for DeepSeek Harness (DSH), available via the npx command on both desktop and web versions. Each bot features persistent long-term memory stored in Markdown files, configurable models, and a Main Bot supervisor that reduces token costs in group chats by routing requests through a single coordinator. The open-source project (Apache 2.0) gained over 250 GitHub stars within a day and supports local data storage with usage statistics tracking.",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "db71a39c67c5",
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "summary": "使用 Claude Opus 5.5 配合 Blender 5.1+、Unreal Engine 5 和 Meshy，通过七步流程即可构建完整游戏：先由 Opus  brainstorm 并选定游戏创意，Meshy 生成 3D 模型，Blender 负责清理和材质，Unreal 完成光照、物理和 HUD，最终在聊天界面中逐步添加战斗、敌人、任务等功能。完整首版制作约耗时 4 小时，成本约为每周 Max 计划的 19%。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49",
+      "tags": [
+        "Claude",
+        "Blender",
+        "Unreal Engine",
+        "Meshy",
+        "游戏开发",
+        "一人公司"
+      ],
+      "why_now": "",
+      "why_now_en": "Claude Opus 5.5 just launched.",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "3dc846736e25",
+      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+      "summary": "开发者Brandon Thomas使用Claude Opus 5.5配合Rust语言，在不到10天内逆向重写了Photoshop、Illustrator等7款Adobe软件的开源替代品PhotoCraft、VectorCraft，其中单PS项目即获得4.6万GitHub Star，展现了AI驱动逆向工程的强大效率。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
+      "tags": [
+        "AI逆向工程",
+        "开源替代",
+        "一人公司参考"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
       "trend_signal": false,
       "trend_topic": "",
       "trend_source_count": 0,
       "trend_confidence": ""
     },
     {
-      "id": "24f4af6ac6ba",
-      "title": "Show HN: SwapBackdrop – reuse one cutout across video backgrounds and frames",
-      "summary": "",
+      "id": "f24473b906f1",
+      "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
+      "summary": "Linus Torvalds 正使用 Claude Code 开发名为 noref-filemap-read-with-llm 的新 Linux 内核分支，旨在解决多线程小文件读取时 folio 引用计数的争用瓶颈问题。该方案通过让内存管理代码从页缓存读取数据而跳过 folio 引用，带来了显著的性能提升。 patches 已提交至 Torvalds 的 Git 仓库，计划合并至 Linux 7.4 合并窗口。",
       "score": 6,
       "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://swapbackdrop.com/",
+      "source": "Lobsters",
+      "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
       "tags": [
-        "视频处理",
-        "Show HN",
-        "背景更换",
-        "独立工具"
+        "Claude Code",
+        "Linux",
+        "AI编程"
       ],
       "why_now": "",
       "why_now_en": "",
-      "summary_en": "SwapBackdrop lets users remove a background from a video once, then reuse that single cutout across different backdrops and aspect ratios (9:16, 1:1, 16:9) to generate multiple MP4s from one source. It supports H.264 SDR files up to 15 seconds and charges per source upload rather than per exported MP4. The tool is designed for creators who already have authorized footage and need quick backdrop swaps without reprocessing.",
+      "summary_en": "",
       "trend_signal": false,
       "trend_topic": "",
       "trend_source_count": 0,
       "trend_confidence": ""
     },
     {
-      "id": "1a5eb2ef9dc2",
-      "title": "派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
-      "summary": "",
+      "id": "906777bf70ea",
+      "title": "First 62 bucks! My expense tracker just got its first lifetime purchase",
+      "summary": "独立开发者Penvo iOS记账应用首笔终身订阅收入62.18美元，支持AI语音记账和13种语言，28天内获得87名新客、128名活跃用户。",
       "score": 6,
-      "topic": "AI对行业的冲击",
-      "source": "少数派",
-      "url": "https://sspai.com/post/115845",
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4jhnc/first_62_bucks_my_expense_tracker_just_got_its/",
       "tags": [
-        "AI安全治理",
-        "PC市场",
-        "AI工具应用"
+        "一人公司",
+        "独立开发",
+        "AI语音功能",
+        "SaaS"
       ],
       "why_now": "",
       "why_now_en": "",
-      "summary_en": "Starting January 1, 2027, China will require new automotive products to report 51 technical parameters related to innovative design and R&D testing, per a draft notice from MIIT and three other departments. Meanwhile, Q3 2026 global PC shipments plummeted over 20%—Omdia recorded a 21.2% drop to 58.1 million units, IDC a 20.1% decline to",
-      "trend_signal": false,
-      "trend_topic": "",
-      "trend_source_count": 0,
-      "trend_confidence": ""
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "一人公司",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
     },
     {
-      "id": "4671feb32c27",
-      "title": "Show HN: I made an agent can self-improving while working",
-      "summary": "GEAR是一款为AI Agent提供递归自我改进（RSI）能力的工具，通过任务反馈持续优化技能、工具和流程。在Marketing 100公开任务中，Astra max结合GEAR调优harness的任务通过率从27%提升至53%，而Codex Agent仅达57%；Terminal-Bench 2.1上，Luna的通过率从52.87%跃升至84.26%。其工作模式为自动化分析失败案例、生成并评估harness改进方案，保留表现最优的版本。",
+      "id": "c99417e69371",
+      "title": "We built vibe coding for physical products, so naturally I tried making a drone with it",
+      "summary": "作者团队开发的工具 **Autonomyware** 实现了针对物理产品的 vibe coding，只需描述需求即可自动生成包含完整工程规格的 3D 模型。作者用它设计出一架**自主监控无人机**，该模型已免费上传至平台库供用户下载尝试。",
       "score": 5,
       "topic": "AI工具实操/Agent工作流",
-      "source": "Hacker News Show HN",
-      "url": "https://yehuitang0316.github.io/gear-site/",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x4ajtt/we_built_vibe_coding_for_physical_products_so/",
       "tags": [
-        "Agent",
-        "开源项目",
-        "自我优化"
+        "vibe coding",
+        "3D建模",
+        "硬件生成",
+        "开源模型"
       ],
       "why_now": "",
       "why_now_en": "",
-      "summary_en": "GEAR is a self-improving agent harness that uses recursive self-improvement (RSI) to refine skills, tools, and workflows through task feedback. In Marketing benchmarks with 100 public tasks, objective completion rose from 27% to 53%, while on Terminal-Bench 2.1, Luna's task pass rate increased from 52.87% to 84.26%, surpassing Astra max with Codex's 57% pass rate. The system optimizes by inspecting failed runs, proposing harness changes, evaluating candidates, and retaining higher-performing versions.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9c939c7199af",
+      "title": "cathrynlavery/diagram-design",
+      "summary": "`diagram-design` 是一款 AI agent skill，支持 Claude Code、Cursor、Codex 等主流 AI 编程工具，可生成 44 种图表类型，输出为自包含的 HTML + SVG 文件，支持品牌颜色与字体匹配。安装命令为 `npx skills add cathrynlavery/diagram-design`，在 Claude Code 中可通过 `/plugin marketplace add` 命令并开启自动更新。",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tags": [
+        "AI工具",
+        "图表生成",
+        "Agent Skill"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "50d9ef8ef79e",
+      "title": "Parsing JSON at tens of gigabytes per second… in Python",
+      "summary": "Python 3.",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Lobsters",
+      "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+      "tags": [
+        "Python",
+        "性能优化",
+        "JSON解析"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8c567f37a22c",
+      "title": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
+      "summary": "",
+      "score": 5,
+      "topic": "AI投融资动态",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "早报聚合",
+        "DeepSeek",
+        "AI投融资"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
       "trend_signal": false,
       "trend_topic": "",
       "trend_source_count": 0,
       "trend_confidence": ""
     }
   ],
-  "directions": [
-    {
-      "name": "SkillFlow——Karpathy式个人AI技能库",
-      "name_en": "SkillFlow - Personal AI Skill Library",
-      "description": "为独立开发者打造的可插拔AI编程技能集，让每个开发者像Karpathy一样建立自己的LLM编程工作流。",
-      "description_en": "A plug-and-play AI programming skill set for indie developers, enabling anyone to build their own LLM-driven workflow like Karpathy.",
-      "target_user": "独立开发者和一人公司创业者，想用AI辅助编程但缺乏系统方法的人",
-      "target_user_en": "Indie developers and solopreneurs who want to use AI for coding but lack a systematic approach",
-      "core_features": [
-        "基于Karpathy skills概念的本地技能文件管理系统",
-        "Claude Code/GPT等主流Agent的可插拔技能加载器",
-        "一键导出和分享个人技能包到社区",
-        "core_features_en (Chinese)]: ["
-      ],
-      "core_features_en": [
-        "Pluggable local skill file manager based on Karpathy skills concept",
-        "Plug-and-play skill loader for Claude Code/GPT and other major AI agents",
-        "One-click export and share personal skill packs to community"
-      ],
-      "related_trends": [
-        "Claude Code生态",
-        "LLM编程范式",
-        "开源技能复用"
-      ],
-      "related_trends_en": [
-        "Claude Code ecosystem",
-        "LLM programming paradigm",
-        "Open-source skill reuse"
-      ],
-      "why_now": "GitHub Trending上multica-ai/andrej-karpathy-skills评分7/10入选，反映社区对Karpathy编程方法论的热议。Claude Code等AI编程工具快速普及，开发者急需将优秀提示词和技能沉淀为可复用的个人资产，而非每次从零开始。",
-      "why_now_en": "multica-ai/andrej-karpathy-skills scored 7/10 on GitHub Trending, reflecting community buzz around Karpathy's programming methodology. With AI coding tools like Claude Code rapidly adopting, developers urgently need to persist and reuse high-quality prompts and skills as personal assets instead of starting from scratch each time.",
-      "monetization": "免费版+高级技能包订阅（$9/月），企业团队共享技能库",
-      "monetization_en": "Free tier + premium skill pack subscription ($9/month), enterprise team skill library sharing",
-      "difficulty": "medium",
-      "estimated_mvp_days": 21,
-      "source_article": "multica-ai/andrej-karpathy-skills",
-      "source_article_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "source_article_score": 7,
-      "source_article_source": "GitHub Trending"
-    },
-    {
-      "name": "DeepBot协同工坊——一人公司多Bot记忆中枢",
-      "name_en": "DeepBot Co-op Workshop - Solopreneur Multi-Bot Memory Hub",
-      "description": "一款基于DeepSeek插件架构的一人公司多Bot协同工具，让不同AI角色共享持久化记忆、分工协作完成复杂项目。",
-      "description_en": "A solopreneur multi-Bot collaboration tool based on DeepSeek plugin architecture, enabling different AI roles to share persistent memory and cooperate on complex projects.",
-      "target_user": "一人公司创始人和独立开发者，需要同时使用多个AI工具完成产品开发、运营、写作等任务",
-      "target_user_en": "Solopreneurs and indie developers who need to use multiple AI tools simultaneously for product development, operations, and writing tasks",
-      "core_features": [
-        "DeepSeek民间版插件一键接入",
-        "多Bot角色分工配置（产品经理Bot/开发Bot/运营Bot等）",
-        "跨会话持久化记忆共享，Bot间可传递上下文",
-        "core_features_en (Chinese)]: ["
-      ],
-      "core_features_en": [
-        "One-click DeepSeek community plugin integration",
-        "Multi-Bot role configuration (Product Manager Bot / Developer Bot / Operations Bot)",
-        "Cross-session persistent memory sharing between Bots"
-      ],
-      "related_trends": [
-        "DeepSeek生态爆发",
-        "多Agent协同",
-        "一人公司自动化"
-      ],
-      "related_trends_en": [
-        "DeepSeek ecosystem boom",
-        "Multi-agent collaboration",
-        "Solopreneur automation"
-      ],
-      "why_now": "量子位报道DeepSeek民间版插件正式上线，社区热议'一人公司'与'多Bot协同'概念。插件机制降低了技术门槛，但用户仍缺乏将多个AI角色串联起来的工具。此时推出多Bot记忆共享平台，正好填补DeepSeek生态爆发期的空白，Rumors中大量一人公司创业者在寻找能整合多种AI能力的方案。",
-      "why_now_en": "Quantum Bit reported the launch of DeepSeek community plugin, with community enthusiasm around 'solopreneur' and 'multi-Bot collaboration' concepts. The plugin mechanism lowered technical barriers, but users still lack tools to string multiple AI roles together. Releasing a multi-Bot memory sharing platform now fills the gap during DeepSeek's ecosystem boom, with many solopreneurs seeking solutions to integrate multiple AI capabilities according to community discussions.",
-      "monetization": "Freemium：3个Bot免费，Pro版$15/月解锁无限Bot和高级记忆存储",
-      "monetization_en": "Freemium: 3 Bots free, Pro tier $15/month unlocks unlimited Bots and advanced memory storage",
-      "difficulty": "easy",
-      "estimated_mvp_days": 14,
-      "source_article": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-      "source_article_url": "https://www.qbitai.com/2026/10/502544.html",
-      "source_article_score": 7,
-      "source_article_source": "量子位"
-    }
-  ]
+  "directions": []
 }
