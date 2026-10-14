@@ -34,7 +34,7 @@ cd web && npm install && npm run dev
 
 ## Architecture
 
-Full pipeline: **fetch → prefilter (rules) → history dedup (URL) → score (LLM, concurrent) → dedup (Jaccard + LLM) → summarize_zh (concurrent) → summarize_en (concurrent) → why_now (score ≥ 7) → trend detection (tags clustering) → insights (build directions + social posts) → write (Markdown + JSON)**
+Full pipeline: **fetch → prefilter (rules) → history dedup (URL) → score (LLM, concurrent) → dedup (Jaccard + LLM) → summarize_zh (concurrent) → summarize_en (concurrent) → why_now (score ≥ 7) → trend detection (tags clustering) → insights (build directions) → write (Markdown + JSON)**
 
 1. [main.py](main.py) — Entry point. Loads config, orchestrates the pipeline, prints run summary with timing breakdown.
 2. [src/config.py](src/config.py) — Loads `config.toml` with defaults, overrides with env vars. Single `load_config()` returns a flat dict.
@@ -43,9 +43,7 @@ Full pipeline: **fetch → prefilter (rules) → history dedup (URL) → score (
 5. [src/history.py](src/history.py) — Manages `data/pushed.json` for 90-day URL dedup window. Pure functions, no side effects except file I/O in `save_history`.
 6. [src/scorer.py](src/scorer.py) — Core LLM interactions: scoring (JSON mode with topic-specific rubrics), Jaccard title dedup pre-filter (threshold 0.4), LLM precise dedup, Chinese summaries, English summaries, and "why now" commentary (for score ≥ 7). All with retry logic (3 attempts, exponential backoff). Uses OpenAI-compatible SDK with configurable `base_url`.
 7. [src/trends.py](src/trends.py) — Trend detection via LLM tag cross-source clustering. Builds keyword→source mapping from article tags, flags keywords appearing in ≥ 3 distinct sources as "strong signals." Assigns confidence levels: high (5+), medium (3+), low.
-8. [src/insights.py](src/insights.py) — Two sub-features:
-   - **Build directions:** Calls last30days CLI to search Reddit/HN for community discussion data matching today's articles, picks top 2 by engagement, generates project suggestions via LLM (with difficulty, MVP days, monetization).
-   - **Social posts:** Generates bilingual X/Twitter posts (≤ 280 chars) and X Thread (3-5 tweets) via LLM.
+8. [src/insights.py](src/insights.py) — **Build directions:** Calls last30days CLI to search Reddit/HN for community discussion data matching today's articles, picks top 1 by engagement, generates project suggestions via LLM (with difficulty, MVP days, monetization).
 9. [src/writer.py](src/writer.py) — Generates Obsidian Markdown (`AI Daily - YYYY-MM-DD.md`) grouped by topic in `TOPIC_ORDER`, plus structured JSON digest (`digest-YYYY-MM-DD.json` + `latest.json`) for the web frontend. Article IDs are SHA-256 URL hashes (12-char hex).
 10. [feeds.toml](feeds.toml) — All feed sources (~47). Each entry has `name`, `url`, `lang` (en/zh).
 11. [config.toml](config.toml) — AI model, pipeline, and last30days configuration. See "Configuration" below.
@@ -93,11 +91,9 @@ Works with any OpenAI-compatible API: DeepSeek, OpenAI, Ollama, etc.
 
 ## Build Directions & Insights
 
-[src/insights.py](src/insights.py) generates two outputs:
+[src/insights.py](src/insights.py) generates build directions:
 
-**Build directions** (BuilderPulse): When `last30days_enabled=true`, calls the last30days CLI to search Reddit/HN for community discussions matching today's articles. Picks top 2 by engagement, generates project suggestions with difficulty, MVP days, and monetization strategy. Falls back to sorting by `trend_source_count + score` if last30days is unavailable.
-
-**Social media posts**: Generates bilingual X/Twitter posts (≤ 280 chars) and X Thread (3-5 tweets) from the top scored articles.
+**Build directions** (BuilderPulse): When `last30days_enabled=true`, calls the last30days CLI to search Reddit/HN for community discussions matching today's articles. Picks top 1 by engagement, generates project suggestions with difficulty, MVP days, and monetization strategy. Falls back to sorting by `trend_source_count + score` if last30days is unavailable.
 
 ## Output Format
 
@@ -105,7 +101,7 @@ Two output formats per run:
 
 1. **Markdown** (`output/AI Daily - YYYY-MM-DD.md`): Obsidian-compatible with YAML frontmatter. Articles grouped by topic (fixed order in `TOPIC_ORDER`), sorted by score descending. Each article has: linked title, source, score, tags, bilingual summary, why_now commentary, and trend signals.
 
-2. **JSON digest** (`output/digest-YYYY-MM-DD.json` + `output/latest.json`): Structured data for the Next.js web frontend. Includes articles, build directions, social posts, and X thread. Article IDs are SHA-256 URL hashes (12-char hex).
+2. **JSON digest** (`output/digest-YYYY-MM-DD.json` + `output/latest.json`): Structured data for the Next.js web frontend. Includes articles and build directions. Article IDs are SHA-256 URL hashes (12-char hex).
 
 Rejected articles are tracked in-memory only (no separate rejected file). Empty runs (0 articles passing quality filter) exit without overwriting `latest.json`.
 

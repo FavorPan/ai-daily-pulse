@@ -1,8 +1,8 @@
 """
-每日洞察模块：基于社区讨论热度生成构建方向 + 社媒文案。
+每日洞察模块：基于社区讨论热度生成构建方向。
 
 核心逻辑：用 last30days 一次全局搜索拿到社区真实讨论数据，
-反向匹配今日文章，挑出社区最关注的 2 篇，附上讨论度数据生成项目建议。
+反向匹配今日文章，挑出社区最关注的 1 篇，附上讨论度数据生成项目建议。
 """
 
 import json
@@ -234,7 +234,7 @@ def _match_social_pulse(article: dict, social_result: dict) -> dict:
 def _pick_top_discussed(
     articles: list[dict],
     social_result: dict,
-    n: int = 2,
+    n: int = 1,
 ) -> list[dict]:
     """
     按社区讨论度排序挑 top n。
@@ -276,8 +276,8 @@ def generate_build_directions(
     从社区讨论热度中提炼构建方向。
 
     流程：
-    1. 如果 last30days 启用 → 全局搜索社区讨论 → 按讨论度挑 top 2
-    2. 否则 fallback 到 RSS trend_source_count + score 挑 top 2
+    1. 如果 last30days 启用 → 全局搜索社区讨论 → 按讨论度挑 top 1
+    2. 否则 fallback 到 RSS trend_source_count + score 挑 top 1
     3. LLM 生成项目建议，附带社区讨论数据
     """
     if not articles:
@@ -300,7 +300,7 @@ def generate_build_directions(
 
     # Pick top articles
     if social_result:
-        top_picks = _pick_top_discussed(articles, social_result, n=2)
+        top_picks = _pick_top_discussed(articles, social_result, n=1)
     else:
         # Fallback: sort by trend_source_count + score
         sorted_articles = sorted(
@@ -309,7 +309,7 @@ def generate_build_directions(
             reverse=True,
         )
         top_picks = [
-            {"article": a, "social_pulse": None} for a in sorted_articles[:2]
+            {"article": a, "social_pulse": None} for a in sorted_articles[:1]
         ]
 
     if not top_picks:

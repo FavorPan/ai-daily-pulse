@@ -116,7 +116,7 @@ def main():
         logger.info("No articles passed the quality filter today. Skipping digest write.")
         sys.exit(0)
 
-    # Generate insights: build directions + social post + X thread
+    # Generate insights: build directions
     t_insights = time.monotonic()
     logger.info("[Insights] Generating build directions...")
     insights = generate_all_insights(kept, api_key, cfg)

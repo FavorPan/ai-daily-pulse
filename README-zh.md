@@ -28,7 +28,6 @@
 8. **趋势检测**：LLM 标签跨源聚类
 9. **Digest 配额**：按主题和总量设上限，避免单一话题刷屏
 10. **Insight 构建方向**：AI 生成可做项目建议，含难度、MVP 天数、变现模式，社区投票
-11. **社媒文案**：自动生成 X/Twitter 发帖 + Thread
 
 全自动，每天**打开看一眼**就行。
 
@@ -225,7 +224,7 @@ ai-daily-pulse/
 │   ├── dedup.py                 # Jaccard + LLM 精确去重
 │   ├── scorer.py                # AI 评分、中英摘要、why_now + 事实核查
 │   ├── trends.py                # 趋势检测：LLM 标签跨源聚类
-│   ├── insights.py              # 构建方向提炼 + 社媒文案生成（双语）
+│   ├── insights.py              # 构建方向提炼（双语）
 │   ├── file_utils.py            # 原子写入工具
 │   ├── sync_insights.py         # 同步构建方向到 Worker API
 │   └── writer.py                # Digest JSON 输出 + 配额执行
@@ -271,7 +270,7 @@ ai-daily-pulse/
 ## 管线流程
 
 ```
-fetch (并发8) → fulltext extract (内容不足时) → prefilter (规则) → history dedup (URL) → score (并发4) → dedup (Jaccard+LLM) → summarize_zh (并发4) → summarize_en (并发4) → why_now (score≥7, 事实核查) → trend_detect (tags) → insights (build directions + social posts) → write (JSON, 配额执行) → sync to Worker API
+fetch (并发8) → fulltext extract (内容不足时) → prefilter (规则) → history dedup (URL) → score (并发4) → dedup (Jaccard+LLM) → summarize_zh (并发4) → summarize_en (并发4) → why_now (score≥7, 事实核查) → trend_detect (tags) → insights (build directions) → write (JSON, 配额执行) → sync to Worker API
 ```
 
 ---

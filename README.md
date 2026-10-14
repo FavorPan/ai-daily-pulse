@@ -28,7 +28,6 @@ Every day, massive amounts of AI news is published across platforms. Manually ke
 8. **Trend detection**: cross-source clustering based on LLM tags
 9. **Digest quotas**: per-topic and total caps keep the daily digest balanced (no single topic flooding)
 10. **Build directions (Insight)**: AI-generated project ideas with difficulty, MVP days, monetization — community-voted
-11. **Social media copy**: auto-generated X/Twitter posts + Threads
 
 Fully automated. You just **open it once a day**.
 
@@ -259,7 +258,7 @@ ai-daily-pulse/
 │   ├── dedup.py                 # Jaccard + LLM precise dedup
 │   ├── scorer.py                # AI scoring, bilingual summaries, why_now + fact-check
 │   ├── trends.py                # Trend detection: LLM tag cross-source clustering
-│   ├── insights.py              # Build directions + social media copy (bilingual)
+│   ├── insights.py              # Build directions (bilingual)
 │   ├── file_utils.py            # Atomic write helpers
 │   ├── sync_insights.py         # Sync directions to Worker API
 │   └── writer.py                # Digest JSON output + quota enforcement
@@ -305,7 +304,7 @@ ai-daily-pulse/
 ## Pipeline Flow
 
 ```
-fetch (8 concurrent) → fulltext extract (if content thin) → prefilter (rules) → history dedup (URL) → score (4 concurrent) → dedup (Jaccard+LLM) → summarize_zh (4 concurrent) → summarize_en (4 concurrent) → why_now (score≥7, fact-checked) → trend_detect (tags) → insights (build directions + social posts) → write (JSON, quota-enforced) → sync to Worker API
+fetch (8 concurrent) → fulltext extract (if content thin) → prefilter (rules) → history dedup (URL) → score (4 concurrent) → dedup (Jaccard+LLM) → summarize_zh (4 concurrent) → summarize_en (4 concurrent) → why_now (score≥7, fact-checked) → trend_detect (tags) → insights (build directions) → write (JSON, quota-enforced) → sync to Worker API
 ```
 
 ---
