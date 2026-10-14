@@ -263,6 +263,43 @@ def test_401_falls_back_when_configured():
     assert providers == ["https://primary", "https://fallback"]
 
 
+def test_fallback_model_only_inherits_primary_url_and_key():
+    """fallback_model alone activates the fallback; empty url/key inherit
+    from the primary provider (same-provider model fallback)."""
+    cfg = _cfg(fallback_model="fbm")
+    llm = LLMClient(cfg)
+    assert llm._fallback is not None
+    assert llm._fallback["base_url"] == "https://primary"
+    assert llm._fallback["api_key"] == "k"
+    assert llm._fallback["model"] == "fbm"
+
+
+def test_fallback_model_only_triggered_on_429():
+    """With only fallback_model set, primary 429 -> fallback still used."""
+    cfg = _cfg(fallback_model="fbm")
+    llm = LLMClient(cfg)
+    calls = []
+
+    def fake_provider(spec):
+        calls.append(spec["label"])
+        if spec["label"] == "primary":
+            return FakeOpenAI(_StubRateLimitError())
+        return FakeOpenAI('{"ok": true}')
+
+    llm._provider = fake_provider  # type: ignore[assignment]
+    with _NO_SLEEP:
+        result = llm.complete("p", max_tokens=100, json_mode=True)
+    assert result == {"ok": True}
+    assert calls == ["primary", "fallback"]
+
+
+def test_no_fallback_when_only_url_and_key_set():
+    """fallback_base_url/api_key without fallback_model = fallback disabled."""
+    cfg = _cfg(fallback_api_key="fb", fallback_base_url="https://fallback")
+    llm = LLMClient(cfg)
+    assert llm._fallback is None
+
+
 # --- Usage tracking ---
 
 def test_usage_tracking_accumulates():

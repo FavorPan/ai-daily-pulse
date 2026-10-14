@@ -156,8 +156,10 @@ class LLMClient:
     """OpenAI-compatible client with optional fallback provider.
 
     Construct with a config dict (from ``src.config.load_config``). If
-    ``fallback_base_url`` / ``fallback_api_key`` are populated, a second
-    provider is used when the primary fails with a fallback-eligible error.
+    ``fallback_model`` is populated, a fallback provider is used when the
+    primary fails with a fallback-eligible error; empty ``fallback_base_url``
+    / ``fallback_api_key`` inherit from the primary provider (same-provider
+    model fallback).
     """
 
     def __init__(self, cfg: dict):
@@ -171,7 +173,11 @@ class LLMClient:
         fb_url = cfg.get("fallback_base_url", "") or ""
         fb_model = cfg.get("fallback_model", "") or ""
         self._fallback: Optional[dict] = None
-        if fb_key and fb_url and fb_model:
+        if fb_model:
+            # fallback_model alone enables the fallback: empty url/key
+            # inherit from the primary provider.
+            fb_url = fb_url or cfg["base_url"]
+            fb_key = fb_key or cfg["api_key"]
             self._fallback = {
                 "api_key": fb_key,
                 "base_url": fb_url,

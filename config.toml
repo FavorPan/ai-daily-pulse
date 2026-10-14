@@ -1,15 +1,16 @@
 [api]
 api_key = ""                    # or set env var API_KEY
 base_url = "https://apihub.agnes-ai.com/v1"
-scoring_model = "agnes-2.5-flash"
-summary_model = "agnes-2.5-flash"
+scoring_model = "agnes-3.0-flash"
+summary_model = "agnes-3.0-flash"
 price_in_per_m = 0
 price_out_per_m = 0
-# 可选：主 provider 故障时自动切换（留空则不启用 fallback）
+# 可选：主 provider 故障时自动切换。只填 fallback_model 时继承主 base_url/api_key
+# （同 provider 换模型）；跨 provider 需显式填 fallback_base_url/fallback_api_key。
 # env: FALLBACK_BASE_URL / FALLBACK_API_KEY / FALLBACK_MODEL
 fallback_base_url = ""
 fallback_api_key = ""
-fallback_model = ""
+fallback_model = "agnes-2.5-flash"
 # 并发限流：同时在飞的 LLM 请求数上限。0=不限。
 # provider 限流时调小此值可减少 429；429 仍会走 tenacity 退避重试。
 # env: LLM_MAX_CONCURRENCY
