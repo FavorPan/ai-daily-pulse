@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-14",
+  "highlights": [
+    "llm-gemini 0.35 版本新增了对 Gemini 4 Argon 模型的支持。Argon 首发定价为 2 美元/百万输入 token、10 美元/百万输出 token，是 GPT-6 Sol 价格的一半、比 Claude Opus…",
+    "Meta发布闭源大模型Muse Wonder及Wonder Full，后者在Artificial Analysis排名中以56分位居第二，仅次于Claude Opus 5.5的58分，领先Gemini 4 Argon、GPT-6 Astra…",
+    "Context Mode是一款MCP服务器，专为用户侧AI编程代理提供context窗口优化方案。其核心能力是通过沙盒机制将工具输出拦截处理，实现98%的context节省（315 KB降至5.4 KB），并利用SQLite+FTS5索引实…"
+  ],
+  "items": [
+    {
+      "id": "39b03f627696",
+      "title": "llm-gemini 0.35",
+      "summary": "llm-gemini 0.35 版本新增了对 Gemini 4 Argon 模型的支持。Argon 首发定价为 2 美元/百万输入 token、10 美元/百万输出 token，是 GPT-6 Sol 价格的一半、比 Claude Opus 5.5 便宜一倍；12月1日价格将翻倍。在 Artificial Analysis 基准测试中，运行总成本仅 2407 美元，显著低于 OpenAI、Anthropic 和 Meta 的最新模型。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "tags": [
+        "Gemini",
+        "LLM",
+        "模型评测"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ae582f607bf0",
+      "title": "Meta's Watermelon ripens into a frontier model",
+      "summary": "Meta发布闭源大模型Muse Wonder及Wonder Full，后者在Artificial Analysis排名中以56分位居第二，仅次于Claude Opus 5.5的58分，领先Gemini 4 Argon、GPT-6 Astra等竞品3分。Wonder Full面向Muse Code计划订阅用户，定价$50或$200/月，API价格将\"明显低于\"OpenAI与Anthropic顶级模型，标志着Meta首次跻身前沿模型行列。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "The Rundown AI",
+      "url": "https://therundownai.beehiiv.com/p/meta-watermelon-ripens-into-a-frontier-model",
+      "tags": [
+        "Meta",
+        "Muse Wonder",
+        "Karpathy",
+        "前沿模型"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "cfe6b1639c3c",
+      "title": "mksglu/context-mode",
+      "summary": "Context Mode是一款MCP服务器，专为用户侧AI编程代理提供context窗口优化方案。其核心能力是通过沙盒机制将工具输出拦截处理，实现98%的context节省（315 KB降至5.4 KB），并利用SQLite+FTS5索引实现会话连续性。与传统\"让模型读取数据\"的方式相比，它强制推行\"Think in Code\"范式，将47次Read()操作（700 KB）缩减为1次ctx_execute()（3.6 KB），且已接入Claude Code等平台。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mksglu/context-mode",
+      "tags": [
+        "MCP",
+        "Coding Agent",
+        "上下文优化",
+        "开源项目"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "3579ae772e58",
+      "title": "I built a Jarvis-style voice assistant for my Mac. Hold spacebar, ask anything, it answers out loud and shows cards.",
+      "summary": "作者基于Vercel AI SDK ToolLoopAgent构建了一个Jarvis风格本地语音助手：按住空格键提问，系统通过ElevenLabs STT/TTS或本地Ollama模型回答，并围绕 orb 动态展示新闻、股票图表、邮件、Spotlight 文件等卡片。采用Bun+React架构打包成约60MB可执行文件，数据经严格隔离后由host层验证再渲染。性能优化显著：首句响应延迟从18.7秒降至6.2秒，10题评测中位数从8.0秒缩短至2.6秒，且支持完全本地模式——无API密钥、模型推理与语音均运行于Apple Silicon，数据永不离开本机。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x54l0v/i_built_a_jarvisstyle_voice_assistant_for_my_mac/",
+      "tags": [
+        "本地AI助手",
+        "语音交互",
+        "Agent架构",
+        "隐私计算"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "c50114fc8852",
+      "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+      "summary": "面壁智能联合OpenBMB社区于10月13日开源MiniCPM-V 4.7，提供35B-A3B和1B两个版本。该模型是全球首个可在端侧无损流畅运行的开源MoE多模态大模型，仅需3GB内存即可在本地设备上运行。相比传统大模型需要高端GPU支持，MiniCPM-V 4.7实现了端侧低成本部署。",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
+      "tags": [
+        "面壁智能",
+        "MiniCPM-V",
+        "端侧AI",
+        "MoE"
+      ],
+      "why_now": "",
+      "why_now_en": "刚开源的端侧MoE多模态模型，3GB内存即可运行。",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "7e80df2842c6",
+      "title": "Quoting Geoffrey Huntley",
+      "summary": "Geoffrey Huntley开发了一个pre-commit hook，在提交前扫描git diff中绕过diagnostics模块的直接observability调用，若发现违规则拒绝提交并注入prompt引导agent使用正确的库。这一机制自动纠正agent的规范偏差，使其诊断功能覆盖率达到10/10，避免了手动维护AGENTS",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "tags": [
+        "coding-agents",
+        "agentic-engineering",
+        "git"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "a6c448619e1f",
+      "title": "i made a menu bar app that frees the RAM your AI agents forgot about 🐏",
+      "summary": "作者开发了一款名为**baa**的macOS菜单栏应用，专门识别并释放AI代理遗留的后台进程（如Gradle、模拟器、headless浏览器等）占用的内存。该工具运行于**macOS 14+**，通过brew一键安装，支持一键释放、磁盘缓存清理和低内存预警，所有数据本地处理不外传。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x58yth/i_made_a_menu_bar_app_that_frees_the_ram_your_ai/",
+      "tags": [
+        "macOS工具",
+        "内存管理",
+        "开源项目",
+        "AI Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b2fa807e4b0d",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "summary": "Character.AI 在成立仅五年后申请 Chapter 11 破产保护，其资产与负债介于 5000 万至 1 亿美元之间。该平台曾于 2022 年以 1.5 亿美元融资跻身独角兽行列，五个月内用户与 AI 角色交换超过 20 亿条消息，日均使用时长逾两小时，2024 年 10 月月活跃用户达",
+      "score": 7,
+      "topic": "AI投融资动态",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "tags": [
+        "Character.AI",
+        "破产",
+        "消费端AI",
+        "商业化和成本",
+        "迪士尼"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9c939c7199af",
+      "title": "cathrynlavery/diagram-design",
+      "summary": "diagram-design 是一个支持 45 种图表类型的 AI 编程助手插件，通过自然语言指令即可生成自包含的 HTML + SVG 格式架构图、四象限图、时序图等，输出风格为扁平化设计，无阴影和 Mermaid 语法。该技能兼容 Claude Code、Cursor、Codex、GitHub Copilot 等多个 AI 编程工具，安装命令为 `npx skills add cathrynlavery/diagram-design`，支持通过 `/plugin marketplace` 启用自动更新。用户可直接用自然语言描述需求（如\"生成包含前端、后端、数据库的架构图\"），工具会自动匹配合适的图表类型并输出单文件结果。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tags": [
+        "Agent Skill",
+        "开源工具",
+        "diagram",
+        "Claude Code",
+        "Cursor"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "**diagram-design** is an agent skill by Cathryn Lavery (LittleMight) that generates self-contained HTML + SVG diagrams—45 types, no shadows, no Mermaid—in your brand palette. Install via `npx skills add cathrynlavery/diagram-design` for use in Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and others.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "395b1748fcf2",
+      "title": "LangChain 发布 langchain-scaledown 集成，用 ScaleDown 约束解码模型管理长时智能体上下文",
+      "summary": "LangChain 发布 langchain-scaledown 集成，支持在 LangSmith LLM Gateway 中使用 ScaleDown 约束解码模型（CDM）管理长时智能体上下文。ScaleDown 提供 Summarize、Compress、Extract、Classify 四个专用模型，输入上限达 100 万 token，基准测试显示 Summarize 较 GPT-5.5 等前沿模型便宜 41 倍、快 2.7 倍，Compress 便宜 138 倍、快 1.8 倍，官方称整体性能可达快 200 倍、便宜 467 倍。该集成还提供三个中间件——ScaledownSummarizationMiddleware、ScaledownToolCompressionMiddleware 和 ScaledownExtractionMiddleware，可直接对接 Deep Agents 和 LangChain 框架使用。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/uljn62mk9ujyya1xg51hc6dp8",
+      "tags": [
+        "LangChain",
+        "ScaleDown",
+        "智能体上下文管理",
+        "约束解码"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "LangChain released the langchain-scaledown integration and added ScaleDown constraint decoding models (CDMs) to the LangSmith LLM Gateway, enabling cheaper and faster context management for long-running agents. ScaleDown offers four task-specific models—Summarize, Compress, Extract, and Classify—each accepting up to 1M tokens and supporting multimodal input, delivering performance gains of up to 200× faster and 467× cheaper than frontier models like GPT-5.5. The integration provides three middleware components (summarization, tool result compression, and structured extraction) for both LangChain and Deep Agents.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "fdc555784f18",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "Anthropic基于日均代码合并量从2026年5月的2,500次激增至9月的30,000次的增长需求，开发了一款名为**Scion**的自定义源代码控制系统替代Git，以及名为**Antique**的代码审查系统。Scion的设计摒弃了离线支持，因为Claude是其最重度的在线用户；该系统仅由7人团队在5个月内完成迁移，可支撑主干分支近100GB历史、每天2,500万次代码检出的极端规模，避免了传统Git方案下每日超600PB的网络流量开销。",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "tags": [
+        "Anthropic",
+        "源代码管理",
+        "工程实践"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Anthropic built a custom source control system called Scion (replacing Git) and a code review system called Antique to handle a twenty-fold increase in development velocity, rising from ~2,500 code changes merged per day in May 2026 to over 30,000 per day by September. The main branch history is nearly 100 GB, with ~25 million daily CI checkouts that would have generated over 600 PB of Git traffic per day; the seven-person team completed the migration in five months. Offline support was intentionally omitted because Claude serves",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "07e9e3f99690",
+      "title": "microsoft/BitNet",
+      "summary": "",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "GitHub Trending",
+      "url": "https://github.com/microsoft/BitNet",
+      "tags": [
+        "1-bit模型",
+        "边缘推理",
+        "开源项目"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Microsoft released bitnet.cpp, the official inference framework for 1-bit LLMs (BitNet b1.58), achieving 2.37x-6.17x speedups and 55.4%-82.2% energy reduction on CPUs compared to full-precision models. The framework supports running a 100B model on a single CPU at ~5-7 tokens/sec, and recently expanded with BitNet-embedding-0.6B/270M models delivering 1.42x-2.28x speedups over F16 using I2_S quantization, plus VibeASR.cpp for real-time",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d3c9a1bf56e9",
+      "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品",
+      "summary": "",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "少数派",
+      "url": "https://sspai.com/post/116138",
+      "tags": [
+        "硬件新品",
+        "聚合资讯"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Apple launched HomePod mini 2 ($1,099, S10 chip, 360° audio, Siri, smoke/CO alerts, Oct 30 release), HomeView smart hub ($299, A18 chip, 7\" display, 6-user face recognition, HomeKit/Matter), and fourth-gen Apple TV 4K ($299, A19 chip, 50% faster CPU, 2× GPU, AV1 decode, Nov",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "7c94eb734f17",
+      "title": "open-webui/open-webui",
+      "summary": "",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/open-webui/open-webui",
+      "tags": [
+        "开源工具",
+        "本地部署",
+        "Ollama"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Open WebUI is a self-hosted, offline-capable AI platform supporting Ollama and OpenAI-compatible APIs, installable via pip, uv, Docker, or Kubernetes. It enables mixing local and cloud models from providers like LMStudio, GroqCloud, Mistral, OpenRouter, and vLLM, with features including granular RBAC, plugin/MCP extensions, agentic terminal execution, persistent memory, and local RAG backed by 9 vector databases.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f98ef772ab6b",
+      "title": "Built the easiest way to convert any link/pdf/document into an explainer video",
+      "summary": "",
+      "score": 5,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x5e47i/built_the_easiest_way_to_convert_any/",
+      "tags": [
+        "视频生成",
+        "内容工具",
+        "一人公司"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Blog2Video (blog2video.app) is a tool that automatically converts blog URLs, Google Docs, or PDFs into animated explainer videos with voiceovers and stock footage. Users select a template and narration voice, and the platform generates scenes with text, visuals, and voiceover—requiring no editing software or timeline skills. Videos render as MP4s optimized for YouTube, Shorts, or LinkedIn within minutes.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "Argon成本计算器",
+      "name_en": "ArgonCost Calculator",
+      "description": "专为独立开发者设计的AI模型成本优化工具，实时计算Gemini 4 Argon vs GPT-6 vs Claude的预估费用并提供定价策略建议",
+      "description_en": "A cost optimization tool for indie developers that compares Gemini 4 Argon against GPT-6 and Claude, providing real-time usage estimates and pricing strategy recommendations",
+      "target_user": "独立开发者和一人公司创业者",
+      "target_user_en": "Independent developers and solo founders",
+      "core_features": [
+        "输入功能需求自动计算各模型月成本对比",
+        "检测12月1日Argon涨价前的迁移窗口期并发送提醒",
+        "生成包含成本估算的落地页代码片段"
+      ],
+      "core_features_en": [
+        "Auto-calculate monthly costs across models based on feature requirements",
+        "Alert users to the pre-Dec 1 price hike migration window",
+        "Generate landing page code with built-in cost estimates"
+      ],
+      "related_trends": [
+        "模型成本优化",
+        "AI基础设施降价",
+        "独立开发者工具"
+      ],
+      "related_trends_en": [
+        "Model cost optimization",
+        "AI infrastructure price drops",
+        "Indie developer tools"
+      ],
+      "why_now": "Gemini 4 Argon目前定价仅为GPT-6 Sol的一半、Claude Opus 5.5的一倍低价（$2/$10 per million tokens），Artificial Analysis基准测试显示总运行成本仅$2407，显著低于OpenAI、Anthropic和Meta竞品。但Simon Willison Blog指出12月1日价格将翻倍，这是一个明确的窗口期。社区对低成本的Argon需求强烈，而涨价倒计时创造了紧迫感，独立开发者现在是最需要成本敏感方案的群体。",
+      "why_now_en": "Gemini 4 Argon is currently priced at half of GPT-6 Sol and double cheaper than Claude Opus 5.5 ($2/$10 per million tokens), with Artificial Analysis showing total runtime costs of only $2407 — significantly lower than OpenAI, Anthropic, and Meta competitors. However, Simon Willison's Blog warns prices will double on Dec 1, creating an urgent migration window. The community shows strong demand for low-cost Argon, and the price hike countdown drives immediate action from cost-sensitive indie developers.",
+      "monetization": "免费基础版（单次成本计算）+ $9/月高级版（多项目跟踪+涨价提醒+策略建议）",
+      "monetization_en": "Free basic tier (single cost calculation) + $9/month Pro tier (multi-project tracking + price alerts + strategy recommendations)",
+      "difficulty": "easy",
+      "estimated_mvp_days": 5,
+      "source_article": "llm-gemini 0.35",
+      "source_article_url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "source_article_score": 8,
+      "source_article_source": "Simon Willison's Blog"
+    },
+    {
+      "name": "MuseCode沙盒",
+      "name_en": "MuseCode Sandbox",
+      "description": "基于Meta新发布的Muse Wonder Full模型的编程学习平台，提供$50/$200订阅外的免费API试用层，帮助开发者低成本体验前沿模型能力",
+      "description_en": "A coding learning platform powered by Meta's new Muse Wonder Full model, offering a free API trial tier outside the $50/$200 subscription, enabling developers to experience frontier model capabilities at low cost",
+      "description2_en": "一个基于Meta新发布的Muse Wonder Full模型的编程学习平台，提供$50/$200订阅外的免费API试用层，帮助开发者低成本体验前沿模型能力",
+      "target_user": "编程学习者和想尝试前沿AI模型的独立开发者",
+      "target_user_en": "Coding learners and indie developers wanting to try frontier AI models",
+      "core_features": [
+        "Muse Wonder Full免费额度API接口（每日1000次调用）",
+        "内置编程练习库（基于Artificial Analysis 56分能力设计题目）",
+        "与Muse Code订阅用户社区联动，分享最佳实践提示词"
+      ],
+      "core_features_en": [
+        "Free-tier Muse Wonder Full API access (1000 calls/day)",
+        "Built-in coding challenge library designed around its Artificial Analysis 56 performance tier",
+        "Community integration with Muse Code subscribers for sharing optimal prompts"
+      ],
+      "related_trends": [
+        "开源生态扩展",
+        "Meta AI战略",
+        "编程教育AI化"
+      ],
+      "related_trends_en": [
+        "Open source ecosystem expansion",
+        "Meta AI strategy",
+        "AI-powered coding education"
+      ],
+      "why_now": "Meta首次以闭源模型Muse Wonder Full（Artificial Analysis 56分，仅次于Claude Opus 5.5的58分）跻身前沿模型行列，API价格将'明显低于'OpenAI与Anthropic顶级模型（The Rundown AI报道）。这标志着开源与闭源界限进一步模糊，Karpathy参与的研发故事引发社区热议。当前Muse Code订阅模式（$50/$200/月）门槛较高，存在免费试用市场的明显空白，独立开发者急需低成本的Meta前沿模型接入方案。",
+      "why_now_en": "Meta has entered the frontier model race for the first time with closed-source Muse Wonder Full (Artificial Analysis score 56, just behind Claude Opus 5.5's 58), with API pricing promised to be 'significantly below' top-tier OpenAI and Anthropic models (per The Rundown AI). This blurring of open/closed source lines has sparked community discussion around Karpathy's R&D involvement. With Muse Code's $50/$200/month subscription being a high barrier, there's a clear gap for a free trial market — indie developers urgently need low-cost access to Meta's frontier model capabilities.",
+      "monetization": "免费试用层引流 + $29/月高级挑战订阅 + Muse Code订阅推荐佣金",
+      "monetization_en": "Free trial tier as lead generator + $29/month premium challenge subscription + Muse Code referral commission",
+      "difficulty": "medium",
+      "estimated_mvp_days": 12,
+      "source_article": "Meta's Watermelon ripens into a frontier model",
+      "source_article_url": "https://therundownai.beehiiv.com/p/meta-watermelon-ripens-into-a-frontier-model",
+      "source_article_score": 8,
+      "source_article_source": "The Rundown AI"
+    }
+  ]
+}
