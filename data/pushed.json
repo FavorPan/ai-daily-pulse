@@ -1,106 +1,232 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "pushed_at": "2026-10-14",
-      "title": "llm-gemini 0.35",
+      "url": "http://www.geekpark.net/news/372366",
+      "pushed_at": "2026-10-15",
+      "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+      "score": 9
+    },
+    {
+      "url": "https://aihot.news/items/wn2lwzshkg8gt2sbjuj1qxd8y",
+      "pushed_at": "2026-10-15",
+      "title": "OpenAI 团队分享如何用 GPT-6 系列模型维护大型代码库",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1x5y0a3/why_most_agency_sops_fail_when_turned_into/",
+      "pushed_at": "2026-10-15",
+      "title": "Why most agency SOPs fail when turned into prompts and the exact framework to automate them properly",
       "score": 8
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/meta-watermelon-ripens-into-a-frontier-model",
-      "pushed_at": "2026-10-14",
-      "title": "Meta's Watermelon ripens into a frontier model",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "pushed_at": "2026-10-15",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
       "score": 8
     },
     {
       "url": "https://github.com/mksglu/context-mode",
-      "pushed_at": "2026-10-14",
+      "pushed_at": "2026-10-15",
       "title": "mksglu/context-mode",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x54l0v/i_built_a_jarvisstyle_voice_assistant_for_my_mac/",
-      "pushed_at": "2026-10-14",
-      "title": "I built a Jarvis-style voice assistant for my Mac. Hold spacebar, ask anything, it answers out loud and shows cards.",
+      "url": "https://github.com/lyogavin/airllm",
+      "pushed_at": "2026-10-15",
+      "title": "lyogavin/airllm",
       "score": 8
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "pushed_at": "2026-10-14",
-      "title": "Quoting Geoffrey Huntley",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "pushed_at": "2026-10-15",
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "pushed_at": "2026-10-15",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933304&idx=1&sn=6f874ffdff377e75def932a0ddcb8b8e",
+      "pushed_at": "2026-10-15",
+      "title": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+      "score": 8
+    },
+    {
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "pushed_at": "2026-10-15",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/yp2h3luqmkip3si23h4pnfmvb",
+      "pushed_at": "2026-10-15",
+      "title": "Musk 称 Grok Voice 3.0 登顶 Artificial Analysis 语音模型评测",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/w0kr5nvs73elhfd23vj0vm8hi",
+      "pushed_at": "2026-10-15",
+      "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/ali_essam_ce04b798d27644c/alphacode-open-source-rust-ai-coding-agent-that-edits-files-runs-tests-automates-firefox--10de",
+      "pushed_at": "2026-10-15",
+      "title": "AlphaCode: Open-source Rust AI coding agent that edits files, runs tests, automates Firefox & desktop apps",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x58yth/i_made_a_menu_bar_app_that_frees_the_ram_your_ai/",
-      "pushed_at": "2026-10-14",
-      "title": "i made a menu bar app that frees the RAM your AI agents forgot about 🐏",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-      "pushed_at": "2026-10-14",
-      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
-      "pushed_at": "2026-10-14",
-      "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+      "url": "https://github.com/morluto/rea",
+      "pushed_at": "2026-10-15",
+      "title": "morluto/rea",
       "score": 7
     },
     {
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "pushed_at": "2026-10-14",
+      "pushed_at": "2026-10-15",
       "title": "cathrynlavery/diagram-design",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/vercel-labs/skills",
+      "pushed_at": "2026-10-15",
+      "title": "vercel-labs/skills",
+      "score": 7
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "pushed_at": "2026-10-15",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933304&idx=3&sn=01d65c311875cab48be67fd024db8d9c",
+      "pushed_at": "2026-10-15",
+      "title": "最新ego视角手部重建框架，单模型输出世界坐标系下手部运动",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "pushed_at": "2026-10-15",
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/10/503157.html",
+      "pushed_at": "2026-10-15",
+      "title": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验！",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "pushed_at": "2026-10-15",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/uljn62mk9ujyya1xg51hc6dp8",
-      "pushed_at": "2026-10-14",
-      "title": "LangChain 发布 langchain-scaledown 集成，用 ScaleDown 约束解码模型管理长时智能体上下文",
+      "url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+      "pushed_at": "2026-10-15",
+      "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "pushed_at": "2026-10-14",
-      "title": "Redesigning source control at Anthropic",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/open-webui/open-webui",
-      "pushed_at": "2026-10-14",
-      "title": "open-webui/open-webui",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/microsoft/BitNet",
-      "pushed_at": "2026-10-14",
-      "title": "microsoft/BitNet",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x5e47i/built_the_easiest_way_to_convert_any/",
-      "pushed_at": "2026-10-14",
-      "title": "Built the easiest way to convert any link/pdf/document into an explainer video",
-      "score": 5
-    },
-    {
-      "url": "https://sspai.com/post/116138",
-      "pushed_at": "2026-10-14",
-      "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/bnlcas/pdf2epub",
-      "pushed_at": "2026-10-14",
-      "title": "Show HN: PDF to ePub Conversion Tool for Mac",
-      "score": 5
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "pushed_at": "2026-10-15",
+      "title": "bilawalsidhu/gods-eye-view",
+      "score": 6
     },
     {
       "url": "https://github.com/storytold/artcraft",
-      "pushed_at": "2026-10-14",
+      "pushed_at": "2026-10-15",
       "title": "storytold/artcraft",
-      "score": 4
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "pushed_at": "2026-10-15",
+      "title": "Deezer will soon let you filter out AI-generated music",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "pushed_at": "2026-10-15",
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933304&idx=2&sn=0111f45a78ec98549eb80e0bbb43ebc6",
+      "pushed_at": "2026-10-15",
+      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/10/503165.html",
+      "pushed_at": "2026-10-15",
+      "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/whbmvotra7659u98jmj00oegi",
+      "pushed_at": "2026-10-15",
+      "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+      "score": 6
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/openai-finds-a-bug-in-its-boardroom",
+      "pushed_at": "2026-10-15",
+      "title": "OpenAI finds a bug in its boardroom",
+      "score": 5
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "pushed_at": "2026-10-15",
+      "title": "Tree Appreciator",
+      "score": 5
+    },
+    {
+      "url": "https://dev.to/_02872163a196e011/is-android-app-protection-still-necessary-after-rea-how-should-developers-choose-an-app-hardening-3b2h",
+      "pushed_at": "2026-10-15",
+      "title": "Is Android App Protection Still Necessary After REA? How Should Developers Choose an App Hardening Solution in 2026?",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "pushed_at": "2026-10-15",
+      "title": "debpalash/VoiceStudio",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1684374?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-15",
+      "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作",
+      "score": 5
+    },
+    {
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "pushed_at": "2026-10-15",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "score": 5
+    },
+    {
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "pushed_at": "2026-10-15",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/yq46ddqwq7ns4ilpaqh6k0kql",
+      "pushed_at": "2026-10-15",
+      "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
+      "pushed_at": "2026-10-15",
+      "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
+      "score": 5
     }
   ]
 }
