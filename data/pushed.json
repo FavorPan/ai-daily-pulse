@@ -1,279 +1,195 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "pushed_at": "2026-10-16",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "score": 9
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "pushed_at": "2026-10-16",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "score": 9
-    },
-    {
-      "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
-      "pushed_at": "2026-10-16",
-      "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
-      "score": 9
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
-      "pushed_at": "2026-10-16",
-      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "pushed_at": "2026-10-17",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "score": 8
     },
     {
       "url": "https://github.com/mksglu/context-mode",
-      "pushed_at": "2026-10-16",
+      "pushed_at": "2026-10-17",
       "title": "mksglu/context-mode",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "pushed_at": "2026-10-16",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933984&idx=4&sn=ece2f3d1fe454c8594b75fa22f31f234",
+      "pushed_at": "2026-10-17",
+      "title": "AI研究全过程，零丢失打包分享！AIPOCH联合76家科研机构开源Open-Science",
       "score": 8
     },
     {
-      "url": "https://github.com/vercel-labs/eve-agent-python-template",
-      "pushed_at": "2026-10-16",
-      "title": "Show HN: Eve Python Agent Template",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "pushed_at": "2026-10-17",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-      "pushed_at": "2026-10-16",
-      "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+      "url": "https://www.ifanr.com/1684682?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-17",
+      "title": "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由",
       "score": 8
     },
     {
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "pushed_at": "2026-10-16",
-      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/blank-slate-labs/coastmath",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: CoastMath: (Open Source) Personal Finance and Retirement Planner",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/bjzjg5k7af07c1c20bc1a8gxp",
+      "pushed_at": "2026-10-17",
+      "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+      "score": 8
+    },
+    {
+      "url": "https://www.kapwing.com/ai/prompt-generator/camera",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: Camera Controls and Motion for AI Video Prompts",
+      "score": 8
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "pushed_at": "2026-10-17",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
       "score": 7
     },
     {
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "pushed_at": "2026-10-16",
-      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://therundownai.beehiiv.com/p/meta-turns-mac-into-an-ai-supercomputer",
+      "pushed_at": "2026-10-17",
+      "title": "Meta turns Mac into an AI supercomputer",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "pushed_at": "2026-10-16",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "pushed_at": "2026-10-17",
+      "title": "lightseekorg/tokenspeed",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "pushed_at": "2026-10-16",
-      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "url": "https://github.com/xerj-org/xerj",
+      "pushed_at": "2026-10-17",
+      "title": "xerj-org/xerj",
       "score": 7
     },
     {
-      "url": "http://www.geekpark.net/news/372430",
-      "pushed_at": "2026-10-16",
-      "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "pushed_at": "2026-10-17",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
       "score": 7
     },
     {
-      "url": "https://www.ifanr.com/1684442?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-16",
-      "title": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本",
+      "url": "http://www.geekpark.net/news/372436",
+      "pushed_at": "2026-10-17",
+      "title": "第一款 AI 手机，被半个互联网「拒」了",
       "score": 7
     },
     {
-      "url": "https://zachlandes.com/trolley-problem/",
-      "pushed_at": "2026-10-16",
-      "title": "Jev meets the Trolley Problem",
+      "url": "https://github.com/Moshik21/weatherdeck",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: Weatherdeck – a read-only status board for AI coding agent lanes",
       "score": 7
     },
     {
-      "url": "https://already-clean.goodfire.com/",
-      "pushed_at": "2026-10-16",
-      "title": "Neural networks are clean",
+      "url": "https://github.com/devYRPauli/putaway",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: Putaway – sorts your Mac's Downloads into the folders you have",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/qb80oc9oxi6d1lffkuvfskl10",
-      "pushed_at": "2026-10-16",
-      "title": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/fgtsm4cnci4asmyhhflxzfsga",
-      "pushed_at": "2026-10-16",
-      "title": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/f7ey01hbckuivmlgen9jq0vaf",
-      "pushed_at": "2026-10-16",
-      "title": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/l3g1uzem751ki1oxckrxa1b3e",
-      "pushed_at": "2026-10-16",
-      "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
-      "score": 7
-    },
-    {
-      "url": "https://www.bensbites.com/p/prompt-tips-from-anthropic",
-      "pushed_at": "2026-10-16",
-      "title": "Prompt tips from Anthropic",
+      "url": "https://github.com/affaan-m/ECC",
+      "pushed_at": "2026-10-17",
+      "title": "affaan-m/ECC",
       "score": 6
     },
     {
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "pushed_at": "2026-10-16",
-      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/ruvnet/ruflo",
+      "pushed_at": "2026-10-17",
+      "title": "ruvnet/ruflo",
       "score": 6
     },
     {
-      "url": "https://github.com/morluto/rea",
-      "pushed_at": "2026-10-16",
-      "title": "morluto/rea",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x7qt44/built_a_localfirst_markdown_editor_for_macos/",
+      "pushed_at": "2026-10-17",
+      "title": "built a local-first Markdown editor for macOS where every note stays a plain .md file (open source, MIT)",
       "score": 6
     },
     {
-      "url": "https://github.com/vxcontrol/pentagi",
-      "pushed_at": "2026-10-16",
-      "title": "vxcontrol/pentagi",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x7syjc/i_got_tired_of_juggling_five_tools_to_run_ai/",
+      "pushed_at": "2026-10-17",
+      "title": "i got tired of juggling five tools to run ai locally, so i built locally uncensored. it just passed 180k downloads",
       "score": 6
     },
     {
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "pushed_at": "2026-10-16",
-      "title": "ifixai-ai/iFixAi",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x7w8be/i_built_65_file_tools_that_never_upload_your/",
+      "pushed_at": "2026-10-17",
+      "title": "I built 65 file tools that never upload your files — everything runs in the browser with WebAssembly",
       "score": 6
     },
     {
-      "url": "https://dev.to/codepy_1473/48-hour-field-notes-my-sandbox-said-pass-and-zero-tests-had-run-5hll",
-      "pushed_at": "2026-10-16",
-      "title": "48-Hour Field Notes: My Sandbox Said PASS, and Zero Tests Had Run",
+      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "pushed_at": "2026-10-17",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
       "score": 6
     },
     {
-      "url": "https://dev.to/gitlab_3188/myth-faq-what-a-free-dev-box-forgets-between-sessions-2937",
-      "pushed_at": "2026-10-16",
-      "title": "Myth FAQ: What a Free Dev Box Forgets Between Sessions",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247933984&idx=3&sn=9e5bf00b4d7af5a581a6ce5ea7a99ebe",
+      "pushed_at": "2026-10-17",
+      "title": "68岁亚马逊CTO，劝企业先三思再AI",
       "score": 6
     },
     {
-      "url": "https://dev.to/donovanpierce4012/travel-planner-retrieval-design-with-bounded-access-rules-and-source-citations-4i2k",
-      "pushed_at": "2026-10-16",
-      "title": "Travel Planner Retrieval Design with Bounded Access Rules and Source Citations",
+      "url": "https://stoke.money",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x6l3xi/i_built_a_chrome_extension_that_teaches_you_a/",
-      "pushed_at": "2026-10-16",
-      "title": "I built a Chrome extension that teaches you a language inside the pages you already read",
+      "url": "https://rabin-a.github.io/mcp-router/#benchmark",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: I benchmarked 6 MCP proxies in Claude Code, then built my own",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "pushed_at": "2026-10-16",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1684431?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-16",
-      "title": "独家｜库克确认苹果国行 AI，10 月底上线测试版！",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/10/503303.html",
-      "pushed_at": "2026-10-16",
-      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
-      "score": 6
-    },
-    {
-      "url": "https://research.meta.ai/blog/muse-spark-open",
-      "pushed_at": "2026-10-16",
-      "title": "Muse Spark Open",
-      "score": 6
-    },
-    {
-      "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
-      "pushed_at": "2026-10-16",
-      "title": "I know why the mathematicians weep",
-      "score": 6
-    },
-    {
-      "url": "https://productflo.io/ai-tools",
-      "pushed_at": "2026-10-16",
-      "title": "Show HN: Rebuilt our directory of 241 AI tools for hardware engineering",
-      "score": 6
-    },
-    {
-      "url": "https://huggingface.co/spaces/MithrilMan/teacher-in-the-loop",
-      "pushed_at": "2026-10-16",
-      "title": "Show HN: An improved kokoro distillation in 9MB",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/zxlvr8l7uzmvapbi3i58kat2s",
-      "pushed_at": "2026-10-16",
-      "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/mimehokpfhvz10dk3pdz131ky",
-      "pushed_at": "2026-10-16",
-      "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/cvpbhz4ao2wr6pxpthix2z15c",
-      "pushed_at": "2026-10-16",
-      "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
-      "score": 6
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/rogue-ai-agents-sit-for-their-first-interview",
-      "pushed_at": "2026-10-16",
-      "title": "Rogue AI agents sit for their first interview",
+      "url": "https://dev.to/sharksevenro/fp16-quantization-quality-loss-we-blamed-the-architecture-the-bug-was-one-overflowed-tensor-3aj9",
+      "pushed_at": "2026-10-17",
+      "title": "FP16 Quantization Quality Loss: We Blamed the Architecture, the Bug Was One Overflowed Tensor",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x6ul1o/i_built_an_app_that_converts_any_text_into/",
-      "pushed_at": "2026-10-16",
-      "title": "I built an app that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "pushed_at": "2026-10-17",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x6o06p/stop_describing_ui_bugs_to_cursorclaude_code_in/",
-      "pushed_at": "2026-10-16",
-      "title": "Stop describing UI bugs to Cursor/Claude Code in words. Circle them instead.",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x748q9/i_built_a_little_interactive_globe_for_my_two/",
+      "pushed_at": "2026-10-17",
+      "title": "I built a little interactive globe for my two boys. Somehow, they became my entire dev team.",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "pushed_at": "2026-10-16",
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "url": "https://www.reddit.com/r/SideProject/comments/1x7pclb/i_zone_out_in_lectures_constantly_so_i_built_a/",
+      "pushed_at": "2026-10-17",
+      "title": "I zone out in lectures constantly, so I built a tool that catches what I miss",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "pushed_at": "2026-10-16",
-      "title": "Figma announces new features to define how agents work on its platform",
+      "url": "https://sspai.com/post/115688",
+      "pushed_at": "2026-10-17",
+      "title": "让读书笔记不再吃灰：我做了一款跨平台书摘管理工具",
       "score": 5
     },
     {
-      "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
-      "pushed_at": "2026-10-16",
-      "title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
+      "url": "https://github.com/rahimnathwani/sill-android",
+      "pushed_at": "2026-10-17",
+      "title": "Show HN: Sill for Android – control your Mac's windows from an Android phone",
       "score": 5
     },
     {
-      "url": "https://guessthellm.com/",
-      "pushed_at": "2026-10-16",
-      "title": "Show HN: Guess the LLM – read an answer and guess which model wrote it",
+      "url": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w",
+      "pushed_at": "2026-10-17",
+      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
       "score": 5
     }
   ]
