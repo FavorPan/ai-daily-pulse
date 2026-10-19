@@ -1,165 +1,135 @@
 {
   "pushed": [
     {
-      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-      "pushed_at": "2026-10-18",
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "score": 9
-    },
-    {
-      "url": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv",
-      "pushed_at": "2026-10-18",
-      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/cursor/plugins",
-      "pushed_at": "2026-10-18",
-      "title": "cursor/plugins",
+      "url": "https://dev.to/procwire/how-to-test-ai-workflows-simple-evals-in-python-ff8",
+      "pushed_at": "2026-10-19",
+      "title": "How to Test AI Workflows: Simple Evals in Python",
       "score": 8
     },
     {
-      "url": "https://github.com/xerj-org/xerj",
-      "pushed_at": "2026-10-18",
-      "title": "xerj-org/xerj",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "pushed_at": "2026-10-19",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "score": 8
     },
     {
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "pushed_at": "2026-10-18",
-      "title": "MadsLorentzen/ai-job-search",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x8aetp/i_sold_a_voice_ai_agent_for_20k_to_my_first_big/",
-      "pushed_at": "2026-10-18",
-      "title": "I sold a voice AI agent for 20K to my FIRST BIG CLIENT",
+      "url": "https://github.com/YURIBEDRAN/rubi",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: Rubi – A knowledge graph that cuts how much Claude Code re-reads",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247934160&idx=3&sn=1c58364240422db82626221a4dc123c0",
-      "pushed_at": "2026-10-18",
-      "title": "两台宇树G1组队打乒乓：PingpongDuo解锁人形机器人双打协同",
-      "score": 8
-    },
-    {
-      "url": "https://chrystianschutz.com/blog/ai-poker-holdembench/",
-      "pushed_at": "2026-10-18",
-      "title": "Show HN: I Made 17 AIs Play 7,700 Hands of Poker",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/batmanofweb/lovable-supabase-bring-your-own-project-4bb9",
-      "pushed_at": "2026-10-18",
-      "title": "Lovable Supabase: Bring Your Own Project",
+      "url": "https://dev.to/trillioniar_s_14a3c313e14/ai-agents-conquer-minecraft-and-ml-engineering-october-19-roundup-11k",
+      "pushed_at": "2026-10-19",
+      "title": "AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup",
       "score": 7
     },
     {
-      "url": "https://dev.to/daniel_oliveira_4bd55d35d/investor-relations-data-for-ai-agents-prepping-netflixs-20-october-earnings-with-an-mcp-server-3jhj",
-      "pushed_at": "2026-10-18",
-      "title": "Investor relations data for AI agents: prepping Netflix's 20 October earnings with an MCP server",
+      "url": "https://dev.to/vildandenai/get-a-desktop-ping-when-claude-code-is-waiting-on-you-with-a-notification-hook-4i4j",
+      "pushed_at": "2026-10-19",
+      "title": "Get a desktop ping when Claude Code is waiting on you, with a Notification hook",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "pushed_at": "2026-10-18",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://github.com/anomalyco/opencode",
+      "pushed_at": "2026-10-19",
+      "title": "anomalyco/opencode",
       "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "pushed_at": "2026-10-18",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "score": 7
-    },
-    {
-      "url": "https://primerkit.ai/",
-      "pushed_at": "2026-10-18",
-      "title": "Show HN: PrimerKit, financial market work at agent speed",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/shadie_ai/the-silent-costs-of-ai-apis-nobody-warns-you-about-44ak",
-      "pushed_at": "2026-10-18",
-      "title": "The Silent Costs of AI APIs Nobody Warns You About",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/pricingdiff/ai-saas-pricing-this-week-2-raised-0-cut-12-pages-moved-2026-09-20-462g",
-      "pushed_at": "2026-10-18",
-      "title": "AI & SaaS pricing this week: 2 raised, 0 cut (12 pages moved) - 2026-09-20",
-      "score": 6
     },
     {
       "url": "https://github.com/debpalash/VoiceStudio",
-      "pushed_at": "2026-10-18",
+      "pushed_at": "2026-10-19",
       "title": "debpalash/VoiceStudio",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/xerj-org/xerj",
+      "pushed_at": "2026-10-19",
+      "title": "xerj-org/xerj",
+      "score": 7
+    },
+    {
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "pushed_at": "2026-10-19",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/omerfeyzioglu/glider",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: Glider: A single-node vector database with S3 as its only durable state",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/renato_marinho/solving-the-password-audit-paradox-why-llms-need-sandboxed-local-processing-233d",
+      "pushed_at": "2026-10-19",
+      "title": "Solving the Password Audit Paradox: Why LLMs Need Sandboxed Local Processing",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247934160&idx=2&sn=907f7864e3e151d1d0d7b19cac800c76",
-      "pushed_at": "2026-10-18",
-      "title": "谢赛宁昔日实习生创业，接手复活Sora，进军好莱坞",
+      "url": "https://dev.to/aghazie_david_4dc30f4c9a8/kwota-a-nigerian-plumber-talks-through-the-job-in-pidgin-and-the-customer-gets-a-priced-quote-on-1f04",
+      "pushed_at": "2026-10-19",
+      "title": "Kwota: a Nigerian plumber talks through the job in Pidgin, and the customer gets a priced quote on WhatsApp",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x89diw/ive_built_a_harness_in_the_style_of_instinct_muse/",
-      "pushed_at": "2026-10-18",
-      "title": "I've built a harness in the style of Instinct, Muse, Dots as a side project and just open sourced it",
+      "url": "https://github.com/ruvnet/ruflo",
+      "pushed_at": "2026-10-19",
+      "title": "ruvnet/ruflo",
       "score": 6
     },
     {
-      "url": "https://vstorm-co.github.io/vstormos-landing/",
-      "pushed_at": "2026-10-18",
-      "title": "Show HN: Put AI to work across your company",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "pushed_at": "2026-10-19",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
       "score": 6
     },
     {
-      "url": "https://antoinemopa.github.io/splatting-rs/",
-      "pushed_at": "2026-10-18",
-      "title": "Show HN: Photos to Gaussian Splat inside your browser using DA3 Small",
+      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+      "pushed_at": "2026-10-19",
+      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
       "score": 6
     },
     {
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "pushed_at": "2026-10-18",
-      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://github.com/aleph-void/LLM-Usage-Desktop-Widget",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: LLM Usage Desktop Widget",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "pushed_at": "2026-10-18",
-      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://awesomemap.dev/",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: AwesomeMap – Discover rising open-source projects before they get big",
       "score": 6
     },
     {
-      "url": "https://llmspeed.dev/",
-      "pushed_at": "2026-10-18",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://github.com/angelkurten/keel",
+      "pushed_at": "2026-10-19",
+      "title": "Show HN: Keel – One event-sourced context graph for all your agents",
       "score": 6
     },
     {
-      "url": "https://dev.to/karleeov/trending-dev-tools-tutorials-5-must-know-updates-for-october-2026-4457",
-      "pushed_at": "2026-10-18",
-      "title": "Trending Dev Tools & Tutorials: 5 Must-Know Updates for October 2026",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "pushed_at": "2026-10-19",
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "pushed_at": "2026-10-18",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1x8o00j/i_couldnt_decide_how_my_game_should_work_so_i/",
-      "pushed_at": "2026-10-18",
-      "title": "I couldn’t decide how my game should work, so I made all six versions playable",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
-      "pushed_at": "2026-10-18",
-      "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+      "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
+      "pushed_at": "2026-10-19",
+      "title": "The Brain Sandwich",
       "score": 5
     }
   ]
