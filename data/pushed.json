@@ -1,135 +1,405 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/procwire/how-to-test-ai-workflows-simple-evals-in-python-ff8",
-      "pushed_at": "2026-10-19",
-      "title": "How to Test AI Workflows: Simple Evals in Python",
+      "url": "https://www.ifanr.com/1684880?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-20",
+      "title": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
+      "score": 9
+    },
+    {
+      "url": "https://aihot.news/items/h6okcjroca6s95iemyh7dhpcm",
+      "pushed_at": "2026-10-20",
+      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+      "score": 9
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+      "pushed_at": "2026-10-20",
+      "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
       "score": 8
     },
     {
-      "url": "https://arxiv.org/abs/2610.18861",
-      "pushed_at": "2026-10-19",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "pushed_at": "2026-10-20",
+      "title": "anthropics/claude-plugins-official",
       "score": 8
     },
     {
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "pushed_at": "2026-10-20",
+      "title": "akitaonrails/ai-memory",
       "score": 8
     },
     {
-      "url": "https://github.com/YURIBEDRAN/rubi",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: Rubi – A knowledge graph that cuts how much Claude Code re-reads",
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "pushed_at": "2026-10-20",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
       "score": 8
     },
     {
-      "url": "https://dev.to/trillioniar_s_14a3c313e14/ai-agents-conquer-minecraft-and-ml-engineering-october-19-roundup-11k",
-      "pushed_at": "2026-10-19",
-      "title": "AI Agents Conquer Minecraft and ML Engineering: October 19 Roundup",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "pushed_at": "2026-10-20",
+      "title": "People are using AI to make their smart TVs dumb again",
+      "score": 8
+    },
+    {
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "pushed_at": "2026-10-20",
+      "title": "Mercury 3: Diffusion at scale",
+      "score": 8
+    },
+    {
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "pushed_at": "2026-10-20",
+      "title": "MiniMax M3.1 Flash",
+      "score": 8
+    },
+    {
+      "url": "https://mistral.ai/news/timestral/",
+      "pushed_at": "2026-10-20",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/awmaqqunma83599eii4g3akgw",
+      "pushed_at": "2026-10-20",
+      "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km",
+      "pushed_at": "2026-10-20",
+      "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb",
+      "pushed_at": "2026-10-20",
+      "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb",
+      "pushed_at": "2026-10-20",
+      "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/qh6pvehounuylklti7i0zl124",
+      "pushed_at": "2026-10-20",
+      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude",
+      "pushed_at": "2026-10-20",
+      "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
+      "pushed_at": "2026-10-20",
+      "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/osk3jj5jltogwr6zpo09w80j8",
+      "pushed_at": "2026-10-20",
+      "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/ehnruiz/claude-skills",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Claude Code skills and hooks that prove a fix's test fails without it",
+      "score": 8
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+      "pushed_at": "2026-10-20",
+      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
       "score": 7
     },
     {
-      "url": "https://dev.to/vildandenai/get-a-desktop-ping-when-claude-code-is-waiting-on-you-with-a-notification-hook-4i4j",
-      "pushed_at": "2026-10-19",
-      "title": "Get a desktop ping when Claude Code is waiting on you, with a Notification hook",
+      "url": "https://therundownai.beehiiv.com/p/anthropic-designs-a-pay-package-for-the-public",
+      "pushed_at": "2026-10-20",
+      "title": "Anthropic designs a pay package for the public",
       "score": 7
     },
     {
-      "url": "https://github.com/anomalyco/opencode",
-      "pushed_at": "2026-10-19",
-      "title": "anomalyco/opencode",
+      "url": "https://dev.to/loriwave/designing-the-wait-async-ai-generation-ux-for-products-that-take-minutes-61j",
+      "pushed_at": "2026-10-20",
+      "title": "Designing the Wait: Async AI Generation UX for Products That Take Minutes",
       "score": 7
     },
     {
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "pushed_at": "2026-10-19",
-      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "pushed_at": "2026-10-20",
+      "title": "MadsLorentzen/ai-job-search",
       "score": 7
     },
     {
-      "url": "https://github.com/xerj-org/xerj",
-      "pushed_at": "2026-10-19",
-      "title": "xerj-org/xerj",
+      "url": "https://github.com/stablyai/orca",
+      "pushed_at": "2026-10-20",
+      "title": "stablyai/orca",
       "score": 7
-    },
-    {
-      "url": "https://api-docs.deepseek.com/guides/search/",
-      "pushed_at": "2026-10-19",
-      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/omerfeyzioglu/glider",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: Glider: A single-node vector database with S3 as its only durable state",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/renato_marinho/solving-the-password-audit-paradox-why-llms-need-sandboxed-local-processing-233d",
-      "pushed_at": "2026-10-19",
-      "title": "Solving the Password Audit Paradox: Why LLMs Need Sandboxed Local Processing",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/aghazie_david_4dc30f4c9a8/kwota-a-nigerian-plumber-talks-through-the-job-in-pidgin-and-the-customer-gets-a-priced-quote-on-1f04",
-      "pushed_at": "2026-10-19",
-      "title": "Kwota: a Nigerian plumber talks through the job in Pidgin, and the customer gets a priced quote on WhatsApp",
-      "score": 6
     },
     {
       "url": "https://github.com/ruvnet/ruflo",
-      "pushed_at": "2026-10-19",
+      "pushed_at": "2026-10-20",
       "title": "ruvnet/ruflo",
+      "score": 7
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "pushed_at": "2026-10-20",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "pushed_at": "2026-10-20",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "pushed_at": "2026-10-20",
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "pushed_at": "2026-10-20",
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1684921?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-20",
+      "title": "苹果第一个 AI 机器人，可能是个能动的 HomeView",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
+      "pushed_at": "2026-10-20",
+      "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+      "score": 7
+    },
+    {
+      "url": "https://chai-ui.com/",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Chai-UI – A design system to generative AI apps",
+      "score": 7
+    },
+    {
+      "url": "https://sitesolide.fr/",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: SiteSolide – Open-source cloud for small software",
+      "score": 7
+    },
+    {
+      "url": "https://gitwal.com/mentions",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Gitwal – every open-source project mention on X, LinkedIn, Reddit, etc.",
+      "score": 7
+    },
+    {
+      "url": "https://www.skills.sh/tdk-landscape/tdk-skills/tdk-pr-review-buttons",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: One-click AI PR review buttons (no API keys, no CI)",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/mauricioandrade/kikanai-i-stopped-listening-to-voice-notes-and-a-local-gemma-reads-them-for-me-35kh",
+      "pushed_at": "2026-10-20",
+      "title": "Kikanai: I stopped listening to voice notes, and a local Gemma reads them for me",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "pushed_at": "2026-10-19",
-      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://dev.to/anthony_builds/how-to-clip-videos-from-claude-chatgpt-gemini-cli-and-cursor-with-katto-40ob",
+      "pushed_at": "2026-10-20",
+      "title": "How to clip videos from Claude, ChatGPT, Gemini CLI and Cursor with Katto",
       "score": 6
     },
     {
-      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
-      "pushed_at": "2026-10-19",
-      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "pushed_at": "2026-10-20",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
       "score": 6
     },
     {
-      "url": "https://github.com/aleph-void/LLM-Usage-Desktop-Widget",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: LLM Usage Desktop Widget",
+      "url": "https://github.com/cursor/plugins",
+      "pushed_at": "2026-10-20",
+      "title": "cursor/plugins",
       "score": 6
     },
     {
-      "url": "https://awesomemap.dev/",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: AwesomeMap – Discover rising open-source projects before they get big",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "pushed_at": "2026-10-20",
+      "title": "debpalash/VoiceStudio",
       "score": 6
     },
     {
-      "url": "https://github.com/angelkurten/keel",
-      "pushed_at": "2026-10-19",
-      "title": "Show HN: Keel – One event-sourced context graph for all your agents",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "pushed_at": "2026-10-20",
+      "title": "HKUDS/CLI-Anything",
       "score": 6
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
-      "pushed_at": "2026-10-19",
-      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "pushed_at": "2026-10-20",
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247934639&idx=3&sn=eb44fb0071ffc7fa64f8595986bb25b7",
+      "pushed_at": "2026-10-20",
+      "title": "世界动作模型的“自训练”红利：无专家示范，从自我想象中迭代进化",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "pushed_at": "2026-10-20",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "pushed_at": "2026-10-20",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "pushed_at": "2026-10-20",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "pushed_at": "2026-10-20",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "pushed_at": "2026-10-20",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/372545",
+      "pushed_at": "2026-10-20",
+      "title": "MemSilicon完成超 4 亿元 A 轮融资，宣布战略升级",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/10/504277.html",
+      "pushed_at": "2026-10-20",
+      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/10/504314.html",
+      "pushed_at": "2026-10-20",
+      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+      "pushed_at": "2026-10-20",
+      "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/b80bl8763pqoqq8hdio0ew6t1",
+      "pushed_at": "2026-10-20",
+      "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo",
+      "pushed_at": "2026-10-20",
+      "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/ebl13m9gich6kfjixzvfiw5bq",
+      "pushed_at": "2026-10-20",
+      "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "score": 6
+    },
+    {
+      "url": "https://mediationbench.com/",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: MediationBench – testing AI mediators in 62 simulated conflicts",
+      "score": 6
+    },
+    {
+      "url": "https://craig-cli.com/",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Craig – A TUI for running parallel coding agents",
+      "score": 6
+    },
+    {
+      "url": "https://flyingcar.pet",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Flyingcar.pet – a physics simulation of Tesla's flying Roadster stunt",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/openspline/openspline",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Realtime talking avatar running free locally (90+FPS on RTX4090)",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode",
+      "pushed_at": "2026-10-20",
+      "title": "anomalyco/opencode",
       "score": 5
     },
     {
-      "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
-      "pushed_at": "2026-10-19",
-      "title": "The Brain Sandwich",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1x9uh5m/how_helped_scale_a_travel_agency_from_3000_to/",
+      "pushed_at": "2026-10-20",
+      "title": "How helped scale a travel agency from $3,000 to $20,000 in monthly profits within 6 months",
+      "score": 5
+    },
+    {
+      "url": "https://www.practicalecommerce.com/beware-of-ai-content-for-seo",
+      "pushed_at": "2026-10-20",
+      "title": "Beware of AI Content for SEO",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "pushed_at": "2026-10-20",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "score": 5
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/19/do-web-components-have-a-future-if-nobody-is-writing-them/",
+      "pushed_at": "2026-10-20",
+      "title": "Do web components have a future if nobody is writing them?",
+      "score": 5
+    },
+    {
+      "url": "https://sspai.com/post/116585",
+      "pushed_at": "2026-10-20",
+      "title": "与 Tim Cook 走进「蓝盒子」，了解 Mac 如何助力中国企业成长",
+      "score": 5
+    },
+    {
+      "url": "https://resourcedeck.app/",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: Resourcedeck, free and open source resource and portfolio planning",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/SeeRay11/OpenFlow",
+      "pushed_at": "2026-10-20",
+      "title": "Show HN: OpenFlow – AI Agent Workflow Builder",
       "score": 5
     }
   ]
