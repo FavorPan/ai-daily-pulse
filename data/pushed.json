@@ -1,165 +1,147 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "pushed_at": "2026-10-24",
-      "title": "Introducing Kimi K3.1 Pro",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/Arthur031221/Token-Beggar",
-      "pushed_at": "2026-10-24",
-      "title": "Show HN: Token Beggar, route coding agent subtasks to cheaper models",
-      "score": 9
-    },
-    {
-      "url": "https://dev.to/sarantoon/ran-spec-kit-cchringainekhruuengeplaa-kncchaaih-ai-ekhiiynokhd-tngekhiiynaairkn-2a9m",
-      "pushed_at": "2026-10-24",
-      "title": "รัน spec-kit จริงในเครื่องเปล่า: ก่อนจะให้ AI เขียนโค้ด ต้องเขียนอะไรก่อน?",
+      "url": "https://dev.to/gabrielanhaia/a-claude-code-hook-that-times-out-lets-the-command-through-make-it-fail-closed-1g5k",
+      "pushed_at": "2026-10-25",
+      "title": "A Claude Code Hook That Times Out Lets the Command Through. Make It Fail Closed",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247935810&idx=1&sn=e902fe78365fb98b9af52b42ad51d354",
-      "pushed_at": "2026-10-24",
-      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "pushed_at": "2026-10-25",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247935810&idx=2&sn=ad04670f3876b6e0039749a333cf1dcc",
-      "pushed_at": "2026-10-24",
-      "title": "一张5090跑起34B实时世界模型，国产玩家拿下英伟达大奖！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=2&sn=1f49e2fbdf8151c9d889c28a16ae8c3f",
+      "pushed_at": "2026-10-25",
+      "title": "27小时通关《我的世界》！4个Gemini Agent累计阵亡605次，烧掉520美元",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247935810&idx=3&sn=4413b0b27aa8331deff0e7f935b3ee46",
-      "pushed_at": "2026-10-24",
-      "title": "多Agent也会帮倒忙！80B给9B支招，准确率反降23.6个百分点 | NeurIPS'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=3&sn=afc99f41f0bda8539a989dbe5fba745d",
+      "pushed_at": "2026-10-25",
+      "title": "机器人会自己攒Skill了！复旦提出具身自进化新框架",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1685660?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-24",
-      "title": "早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事",
+      "url": "https://github.com/DainoJung/omni-verify",
+      "pushed_at": "2026-10-25",
+      "title": "Show HN: Omni Verify, my AI agent can't post until Kane checks every promise",
       "score": 8
     },
     {
-      "url": "https://github.com/gtindo/task-view",
-      "pushed_at": "2026-10-24",
-      "title": "Show HN: Task-view – review a coding agent’s change as a map instead of a diff",
+      "url": "https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-10-25",
+      "title": "实测 Kimi K3.1 Pro，国模终于继续卷旗舰",
       "score": 8
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/us-banks-catch-ai-agents-going-off-script",
-      "pushed_at": "2026-10-24",
-      "title": "U.S. banks catch AI agents going off-script",
+      "url": "https://github.com/ClayGendron/wasi-python",
+      "pushed_at": "2026-10-25",
+      "title": "Show HN: Wasi-Python – CPython, NumPy, and Pandas in a WebAssembly Sandbox",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/reelary/how-do-you-make-a-rough-cut-from-a-script-with-claude-code-100j",
+      "pushed_at": "2026-10-25",
+      "title": "How do you make a rough cut from a script with Claude Code?",
       "score": 7
     },
     {
-      "url": "http://www.geekpark.net/news/372807",
-      "pushed_at": "2026-10-24",
-      "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
+      "url": "https://dev.to/goodpa/the-continuity-layer-or-well-migrate-is-not-a-plan-until-someone-owns-the-date-5e5g",
+      "pushed_at": "2026-10-25",
+      "title": "The Continuity Layer — Or, \"We'll Migrate\" Is Not a Plan Until Someone Owns the Date",
       "score": 7
     },
     {
-      "url": "https://arxiv.org/abs/2610.14162",
-      "pushed_at": "2026-10-24",
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "url": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
+      "pushed_at": "2026-10-25",
+      "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
-      "pushed_at": "2026-10-24",
-      "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/qexf6est4uitwd71p3ugedxo6",
-      "pushed_at": "2026-10-24",
-      "title": "OpenAI 下调估值目标至 1.25 万亿美元，拟融资至多 300 亿美元",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/tmeteordata/pulling-open-jobs-from-greenhouse-lever-and-ashby-without-scraping-html-4a1o",
-      "pushed_at": "2026-10-24",
-      "title": "Pulling open jobs from Greenhouse, Lever and Ashby without scraping HTML",
+      "url": "https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2",
+      "pushed_at": "2026-10-25",
+      "title": "Three Times My Test Failed and the LLM Was Right",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "pushed_at": "2026-10-24",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "pushed_at": "2026-10-25",
+      "title": "Block’s new voice model sounds eerily human",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/372858",
-      "pushed_at": "2026-10-24",
-      "title": "iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "pushed_at": "2026-10-25",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/372801",
-      "pushed_at": "2026-10-24",
-      "title": "今年双 11，天猫想卖的不只是货，还有 Token",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=1&sn=e6fb685ed336535de3f97dbdda25b34a",
+      "pushed_at": "2026-10-25",
+      "title": "30B大模型跑进手机，推理引擎开始自我进化",
       "score": 6
     },
     {
-      "url": "https://gasfree.app/",
-      "pushed_at": "2026-10-24",
-      "title": "Show HN: Gasfree.app a Rack of Synthetizers in the Browser",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "pushed_at": "2026-10-25",
+      "title": "Here are the top AI agents that can live in your text messages",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/dy6rkvc23lfrolo4y5hjg7evh",
-      "pushed_at": "2026-10-24",
-      "title": "Kling 4.0 在 fal 上线并向所有客户开放 API 访问",
+      "url": "https://github.com/orgiggly/claude-plugin",
+      "pushed_at": "2026-10-25",
+      "title": "Show HN: Orgiggly – Claude Code plugin that hosts the apps it builds",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
-      "pushed_at": "2026-10-24",
-      "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
+      "url": "https://adrs.systems",
+      "pushed_at": "2026-10-25",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "pushed_at": "2026-10-24",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://deepsearch.ing/",
+      "pushed_at": "2026-10-25",
+      "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
+      "pushed_at": "2026-10-25",
+      "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+      "score": 6
+    },
+    {
+      "url": "https://danluu.com/ambitious/",
+      "pushed_at": "2026-10-25",
+      "title": "We should be more ambitious with the software we build",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/doogee_doogeetoptop_1e/a-site-that-made-500-on-day-one-yihui-is-selling-taste-to-your-agent-13gp",
+      "pushed_at": "2026-10-25",
+      "title": "A Site That Made $500 on Day One: Yihui Is Selling Taste to Your Agent",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "pushed_at": "2026-10-24",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xeon9c/my_first_app_just_made_114_in_its_first_month/",
+      "pushed_at": "2026-10-25",
+      "title": "My first app just made 114 in its first month",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "pushed_at": "2026-10-24",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xejal5/i_built_a_product_struggled_to_get_traffic_and/",
+      "pushed_at": "2026-10-25",
+      "title": "i built a product, struggled to get traffic, and accidentally changed the whole direction of it",
       "score": 5
     },
     {
-      "url": "https://ochagavia.nl/blog/the-glorious-@xkcdrandom-zig-builtin/",
-      "pushed_at": "2026-10-24",
-      "title": "The glorious @xkcdRandom Zig builtin",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/soollabs/holdmydocs",
-      "pushed_at": "2026-10-24",
-      "title": "Show HN: Hold My Docs – a self-hosted wiki that stores pages in Git",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/ryf4bbjezfib8jx05ng0889zf",
-      "pushed_at": "2026-10-24",
-      "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/g725ujk3cq0gquz6g2nlozeu4",
-      "pushed_at": "2026-10-24",
-      "title": "月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型",
+      "url": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
+      "pushed_at": "2026-10-25",
+      "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
       "score": 5
     }
   ]
