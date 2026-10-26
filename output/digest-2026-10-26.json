@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-26",
+  "highlights": [
+    "Guy's Hospital的Lynch医生测试显示，Inception v3 CNN在MILK10k数据集的200个皮肤癌样本上以62%的准确率胜过GPT-6 Astra和Claude Fable 5.1（均为42%），且仅用单张H100…",
+    "在 2026 年 10 月的测试中，经过微调的 2015 年 Inception v3 CNN 在 200 个 MILK10k 皮肤病变样本中准确识别 62%，显著优于 GPT-6 Astra 和 Claude Fable 5.1 等前沿 …",
+    "该Blender插件通过为节点树生成脚本API及函数类型，配合Blender MCP使用，使Claude（Opus）构建节点树的耗时和Token消耗均至少减少50%。其核心机制在于强制模型生成正确的节点树结构，从而显著降低回溯纠错成本，并借…"
+  ],
+  "items": [
+    {
+      "id": "7f8b3f0ae70a",
+      "title": "A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%",
+      "summary": "Guy's Hospital的Lynch医生测试显示，Inception v3 CNN在MILK10k数据集的200个皮肤癌样本上以62%的准确率胜过GPT-6 Astra和Claude Fable 5.1（均为42%），且仅用单张H100显卡微调20分钟即可在浏览器端运行；同时，OpenAI与Anthropic自6月以来通过频繁降价将LLM API成本累计降低75%至80%，其中缓存读取价格成为主要降幅来源。",
+      "score": 9,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/trillioniar_s_14a3c313e14/a-10-year-old-cnn-beats-gpt-6-at-skin-cancer-and-llm-prices-fall-80-1jl2",
+      "tags": [
+        "皮肤癌诊断",
+        "LLM降价",
+        "Inception v3",
+        "GPT-6",
+        "Claude Fable 5.1"
+      ],
+      "why_now": "10月25日研究显示老旧CNN在皮肤癌诊断上碾压GPT-6，叠加LLM价格80%暴跌，低成本窄场景模型窗口已至。",
+      "why_now_en": "",
+      "summary_en": "A 2015-era Inception v3 CNN outperformed GPT-6 Astra and Claude Fable 5.1 on skin lesion diagnosis, achieving 62% accuracy on 200 biopsy-proven cases compared to 42% for both frontier LLMs, though the CNN initially discharged 18 of 30 melanomas at its preset threshold. Meanwhile, OpenAI and Anthropic have slashed LLM costs by up to 80% since June, with the GPT-6.1 family now 75% cheaper than its June launch prices, driven primarily by reduced cache read fees.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b83204b7e9c1",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "summary": "在 2026 年 10 月的测试中，经过微调的 2015 年 Inception v3 CNN 在 200 个 MILK10k 皮肤病变样本中准确识别 62%，显著优于 GPT-6 Astra 和 Claude Fable 5.1 等前沿 LLM 的 42% 准确率。该 CNN 仅需在单张 H100 GPU 上微调约 20 分钟即可超越 LLM，且支持在通过 WebGPU 在手机浏览器中本地运行，无需上传数据。",
+      "score": 8,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "tags": [
+        "医学影像",
+        "LLM局限性",
+        "CNN",
+        "皮肤病诊断"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "A 10-year-old CNN (Inception v3) fine-tuned on 68,011 ISIC Archive images outperformed GPT-6 Astra and Claude Fable 5.1 in diagnosing skin cancer, achieving a 62% accuracy rate on 200 biopsy-proven lesions compared to 42% for the LLMs. The CNN demonstrated superior identification of melanomas (13/30) and benign lesions, whereas the LLMs exhibited significant biases, frequently misclassifying melanomas as basal cell carcinomas or actinic keratoses. The model, trained in approximately 20 minutes on a single H100 GPU, is lightweight enough to run entirely in a phone browser via WebGPU without uploading data.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "4058763138b6",
+      "title": "Show HN: A Blender addon that makes Claude twice as efficient at using nodes",
+      "summary": "该Blender插件通过为节点树生成脚本API及函数类型，配合Blender MCP使用，使Claude（Opus）构建节点树的耗时和Token消耗均至少减少50%。其核心机制在于强制模型生成正确的节点树结构，从而显著降低回溯纠错成本，并借助辅助函数实现节点签名的快速查询。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/carson-katri/geometry-script",
+      "tags": [
+        "Blender",
+        "Claude",
+        "Agent",
+        "效率优化"
+      ],
+      "why_now": "MCP生态爆发期，Blender新增脚本API助Claude效率翻倍，是接入AI建模工具链的窗口期。",
+      "why_now_en": "",
+      "summary_en": "The Blender addon generates a scripting API and associated types for all node trees (Geometry Nodes, Shader Nodes) to eliminate guesswork in node and input/output names, designed to work with the Blender MCP. By forcing correct node construction and reducing backtracking, it enables Claude Opus to build node trees in at least half the time and with at least half the tokens compared to standard prompting.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e1545bcc45f4",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary": "",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Best",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "tags": [
+        "Cerebras",
+        "Kimi K3",
+        "硬件部署",
+        "万亿参数模型"
+      ],
+      "why_now": "Kimi K3刚开源，Cerebras现可跑3万亿参数模型，窗口期",
+      "why_now_en": "Kimi K3 open-source release enables free 3T model hosting",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "0522b3bcf19a",
+      "title": "I built a local-first bookmark manager that actually remembers what you saved",
+      "summary": "开源桌面书签管理器 Linkit 采用 Go、Wails 和 React 构建，通过本地 SQLite 数据库和可选的 Supabase 同步实现零账户本地优先运行。其核心功能利用向量相似度搜索匹配语义内容，并支持通过 OpenAI 兼容 API 或本地 Ollama 模型对保存的链接进行自动摘要、去重及构建知识图谱，旨在解决传统书签仅存储 URL 而无法内容检索的痛点。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/_86cb5d746592807d24829/i-built-a-local-first-bookmark-manager-that-actually-remembers-what-you-saved-3ag0",
+      "tags": [
+        "开源工具",
+        "Local-first",
+        "个人知识管理",
+        "AI应用"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Linkit is an open-source, local-first desktop bookmark manager that automatically fetches and summarizes saved links, using vector similarity search and knowledge graphs to overcome the limitations of traditional keyword-based browsers. Built with Go, Wails, and React, the MIT-licensed tool supports any OpenAI-compatible or local LLM API for AI curation and duplicate detection, and installs on macOS via the Homebrew command `brew install blue-idea/tap/linkit` or cross-platform binaries.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "5946d48b7f53",
+      "title": "Do It or Dodge It: a Gemma on my phone either shrinks the task or writes the excuse",
+      "summary": "这款名为 Do It or Dodge It 的 Android 应用基于 Flutter 开发，利用 LiteRT-LM 在端侧运行 Gemma E2B（约 2.6GB）或 E4B（约 3.7GB）模型，实现无服务器、无账号的全本地化任务处理。应用通过固定 JSON 格式校验和一次重试机制确保小模型输出可靠，既能将任务拆解为两分钟内可完成的小步骤并发送提示，也能生成非健康、非紧急类借口并记录逃避行为，进而根据“逃避风险分数”动态调整提醒频率。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/chestly_ace/do-it-or-dodge-it-a-gemma-on-my-phone-either-shrinks-the-task-or-writes-the-excuse-9ad",
+      "tags": [
+        "端侧AI",
+        "Gemma",
+        "Flutter",
+        "生产力工具",
+        "开源项目"
+      ],
+      "why_now": "Gemma 4 手机端模型与 LiteRT-LM 工具链发布，开启本地 AI 应用窗口",
+      "why_now_en": "LiteRT-LM and Gemma models now enable reliable, private on-device AI for offline productivity apps.",
+      "summary_en": "Do It or Dodge It is an Android app built with Flutter that uses on-device Gemma 4 (E2B and E4B) models via LiteRT-LM to either break tasks into micro-steps under two minutes or generate logged excuses, with all processing performed locally without network connectivity. The application features a dodge predictor that tracks user avoidance patterns to adjust notification frequency, relying on a stack that includes drift for local storage and a custom Dart validator to enforce strict JSON constraints and retry failed model outputs.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "a8f833a048ab",
+      "title": "外国小哥「虐待」自家电视，42 小时后惨遭OpenAI封号！Claude也下狠手",
+      "summary": "三星2025款电视因固件采用AES加密且内置常驻语音服务（alwaysonvoice），向400多家合作伙伴共享包括用户地理位置、家庭网络映射及婴儿哭声识别在内的遥测数据，引发安全研究者逆向破解。该事件导致开源逆向工具REA在4个月内从发布到GitHub星标突破33万并登顶趋势榜首，因其通过MCP服务器整合Ghidra、IDA等工具实现了低门槛的自动化逆向分析；作为回应，OpenAI在事件发酵42小时后以“网络滥用”为由封禁了涉事账号，而Anthropic的Claude也触发安全护栏拒绝继续协助逆向工作，标志着AI巨头对“逆向一切”技术路径的限制收紧。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "新智元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652737830&idx=1&sn=02d4092ebf84a89ac7add52ff384a8eb",
+      "tags": [
+        "REA",
+        "逆向工程",
+        "OpenAI封号",
+        "Claude限制",
+        "智能电视隐私"
+      ],
+      "why_now": "OpenAI封号与Claude封锁同日上演，逆向神器REA引爆市场，独立开发者需警惕合规风险。",
+      "why_now_en": "REA hits #1 on GitHub, exposing AI's new reverse-engineering ban.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "baec267ea2be",
+      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+      "summary": "使用售价 50-60 元的小米电视蓝牙语音遥控器 2 Pro（RC003）配合开源工具 SayAll 及微信输入法，即可低成本打造支持“按住即说”和免键鼠盲切的手持 AI 编程控制器。该方案利用遥控器自带的 BLE 蓝牙和近场拾音麦克风，通过生成虚拟音频设备 MiRemoteV 2ch 实现语音 Prompt 输入，并映射方向键与 OK 键以快速切换 Herdr 等多 Agent 终端标签页及确认执行。此方案兼容 macOS 与 Windows 系统，能显著提升运行 OpenAI Codex、Claude Code 等 CLI Agent 时的对话效率与多窗口管理体验。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "少数派",
+      "url": "https://sspai.com/post/114741",
+      "tags": [
+        "Vibe Coding",
+        "硬件外设",
+        "语音输入",
+        "多Agent工作流"
+      ],
+      "why_now": "借 OpenAI Codex 硬件原型引爆的 Vibe Coding 热度，用 60 元小米遥控器低成本替代溢价外设，抢占当下 AI 编程交互优化窗口。",
+      "why_now_en": "OpenAI Codex Micro hardware gap filled by $10 remote",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "2fc7d4cdb38f",
+      "title": "Show HN: A 3D mesh playground for coding agents (three.js + manifold-3d)",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://sketchagent.dev/s/yfYU6LhT",
+      "tags": [
+        "MCP",
+        "3D生成",
+        "Coding Agent",
+        "开源项目"
+      ],
+      "why_now": "GPT-6/Gemini刚发布，本地Blender门槛高，此浏览器端MCP方案填补即时3D建模空档。",
+      "why_now_en": "GPT-6/Gemini launch window makes browser-based 3D agent tools highly relevant now.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8bd72d633f10",
+      "title": "Show HN: Glitchrupt: Glitch your desktop when your AI agent needs your attention",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/elbee19/glitchrupt",
+      "tags": [
+        "MCP",
+        "Agent UX",
+        "macOS",
+        "开源项目",
+        "Glitchrupt"
+      ],
+      "why_now": "AI agent 审批阻塞常态化，MCP 本地化提醒成刚需，现在切入可卡位工作流痛点。",
+      "why_now_en": "MCP server enables local AI-agent-to-desktop alerts.",
+      "summary_en": "Glitchrupt is a free, MIT-licensed macOS desktop application (requires macOS 14+) that alerts users of pending AI agent approvals via a 600-millisecond glitch effect, composed of fractured pixels, static, and one of five original sound variants. The tool operates locally to protect privacy and provides agents with a CLI and local MCP server for status monitoring, cue management, and approval wait registration that automatically repeats every 15 minutes until resolved. Setup requires Swift, Python 3.11+, and Xcode Command Line Tools, with integration available for agents like Codex.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b16df7ad1b73",
+      "title": "Show HN: CaseCite – Free RAG caselaw research and document analysis for lawyers",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/thomasunise/casecite",
+      "tags": [
+        "法律科技",
+        "RAG",
+        "自托管",
+        "开源项目",
+        "数据隐私"
+      ],
+      "why_now": "刚发布的开源法律RAG工具，允许律所免费自托管并接入自研API，实现数据本地化。",
+      "why_now_en": "New self-hosted legal RAG tool releases free.",
+      "summary_en": "CaseCite is a free, source-available, and self-hosted legal research platform that enables law firms to run RAG-driven caselaw research, document analysis, and drafting using a unified document corpus and a custom practice profile. It supports local data storage by leveraging bring-your-own-key (BYOK) integrations with OpenAI, Anthropic, or Gemini, or allows entirely on-premise AI processing by pointing API endpoints to self-hosted servers. Licensed under the Elastic License 2.0, the tool is free for internal firm use and deployment but explicitly prohibits reselling as a managed third-party service.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "a18a7851efbd",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "summary": "Bee、Friend、Limitless、Meta Muse Charm及Nirva等AI可穿戴设备通过语音记录与情感交互，价格区间从$49.99到$129不等。其中Bee被Amazon于2025年7月收购并推出售价$74.99的Bee Frontier和$99.99的Bee Eclipse，支持连接Alexa；Friend 2.0通过新增内置扬声器提升语音交互体验，旨在提供主动情感支持。",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "tags": [
+        "AI硬件",
+        "产品综述",
+        "Amazon",
+        "Meta"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "The AI wearable market features diverse hardware including Amazon-acquired Bee pendants ($49.99 base, with new $74.99 Frontier and $99.99 Eclipse models), the $129 Friend emotional support pendant, and the $99 Limitless transcription device. Meta's upcoming Muse Charm introduces a pocket-sized avatar display for voice interactions, while Nirva’s wearable targets personal growth by journaling speech patterns. These devices differentiate through specific utilities like meeting transcription, proactive emotional support, or habit analysis, often requiring monthly subscriptions between $19 and $29 for full AI access.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b2b4cdc45f5a",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "summary": "三星设备被发现在后台每几秒就对 960×540 图像运行 INT8 量化的 AlexNet（alex.tflite）模型以识别游戏画面，该模型遵循 torchvision.models.alexnet 结构并通过最近邻特征比对数据库进行识别。这一过程因高达 99% 的识别失败率而持续浪费 CPU 资源，且由于隐私同意机制延迟生效，其运行结果在未被用户授权的情况下已被直接丢弃。",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Best",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "tags": [
+        "端侧AI",
+        "TensorFlow Lite",
+        "Samsung",
+        "AlexNet",
+        "技术逆向"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9a814be9eb36",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "summary": "Apollo Global Management首席经济学家Torsten Slok通过分析剔除七大科技巨头后的“S&P 493”指数发现，非科技行业企业的利润率与人均收入持平，AI未带来财务收益。尽管存在巨大投资，AI因缺乏对问责、信任及文化等非量化因素的判断力，目前仍未能将低成本智能转化为营收增长或利润提升。",
+      "score": 5,
+      "topic": "AI对行业的冲击",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "tags": [
+        "宏观经济",
+        "企业ROI",
+        "S&P 500分析"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Apollo Global Management’s chief economist Torsten Slok reports that AI has delivered zero financial payoff to non-tech U.S. corporations, as profit margins and revenue per worker in the \"S&P 493\" remain flat despite massive investments. Slok argues that AI’s current role as a \"calculator\" fails to capture the judgment, trust, and cultural nuance required to improve bottom-line performance, a conclusion supported by recent studies showing a lack of significant productivity gains.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "DermScan Web：浏览器端轻量皮肤癌初筛助手",
+      "name_en": "DermScan Web: Browser-Based Lightweight Skin Cancer Pre-Screening Tool",
+      "description": "基于 Inception v3 构建的纯前端 Web 应用，用户上传皮肤照片即可在本地（无需上传服务器）获得皮肤癌风险初步评估，利用 LLM 降低代码生成与维护成本进行功能迭代。",
+      "description_en": "A pure front-end web app powered by Inception v3 that allows users to upload skin photos for a local preliminary skin cancer risk assessment without uploading data to servers, leveraging reduced LLM costs for faster feature iteration and code generation.",
+      "target_user": "关注皮肤健康但缺乏即时医疗资源的普通用户、医疗科技早期探索者、隐私敏感型个人",
+      "target_user_en": "General users concerned about skin health but lacking access to immediate medical resources, early-stage medical tech explorers, and privacy-conscious individuals",
+      "core_features": [
+        "浏览器端运行 Inception v3 模型，无需后端数据上传，保护隐私",
+        "基于 MILK10k 数据集优化的皮肤癌分类模块，输出风险概率与类别",
+        "生成通俗易懂的就诊建议文本，结合 LLM 辅助解释（可选使用低成本 API 或本地小模型）"
+      ],
+      "core_features_en": [
+        "Run Inception v3 model in-browser without backend data upload, ensuring privacy",
+        "Skin cancer classification module optimized on MILK10k dataset, outputting risk probability and class",
+        "Generate plain-language consultation advice with LLM-assisted explanations (optional via low-cost API or local small model)"
+      ],
+      "related_trends": [
+        "浏览器端 AI 推理",
+        "LLM 成本下降",
+        "医疗 AI 隐私保护"
+      ],
+      "related_trends_en": [
+        "Browser-based AI inference",
+        "Falling LLM costs",
+        "Medical AI privacy protection"
+      ],
+      "why_now": "DEV Community 高分文章（9/10）显示 Inception v3 在皮肤癌检测上胜过最新 LLM，且单卡微调快、可前端运行；同时 LLM 价格 6 月以来降幅达 75-80%，大幅降低了使用 AI 辅助生成报告或维护此类轻量医疗工具的成本，使个人开发者能以极低门槛构建隐私友好的前端医疗筛查产品。",
+      "why_now_en": "A high-rated DEV Community post (9/10) shows Inception v3 outperforming latest LLMs in skin cancer detection, with fast fine-tuning on a single GPU and browser-side feasibility. Meanwhile, LLM prices have dropped 75-80% since June, drastically reducing costs for AI-assisted report generation or maintenance of such lightweight medical tools, enabling solo developers to build privacy-friendly frontend medical screening products with minimal barriers.",
+      "monetization": "Freemium 模式：免费基础筛查（本地模型），付费解锁详细 LLM 生成的健康报告、历史记录管理与医生对接功能（订阅制）",
+      "monetization_en": "Freemium model: free basic screening (local model), paid access to detailed LLM-generated health reports, history management, and doctor referral features (subscription)",
+      "difficulty": "medium",
+      "estimated_mvp_days": 15,
+      "source_article": "A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%",
+      "source_article_url": "https://dev.to/trillioniar_s_14a3c313e14/a-10-year-old-cnn-beats-gpt-6-at-skin-cancer-and-llm-prices-fall-80-1jl2",
+      "source_article_score": 9,
+      "source_article_source": "DEV Community"
+    }
+  ]
+}

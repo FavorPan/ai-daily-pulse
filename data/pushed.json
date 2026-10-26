@@ -1,148 +1,136 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/gabrielanhaia/a-claude-code-hook-that-times-out-lets-the-command-through-make-it-fail-closed-1g5k",
-      "pushed_at": "2026-10-25",
-      "title": "A Claude Code Hook That Times Out Lets the Command Through. Make It Fail Closed",
+      "url": "https://dev.to/trillioniar_s_14a3c313e14/a-10-year-old-cnn-beats-gpt-6-at-skin-cancer-and-llm-prices-fall-80-1jl2",
+      "pushed_at": "2026-10-26",
+      "title": "A 10-Year-Old CNN Beats GPT-6 at Skin Cancer, and LLM Prices Fall 80%",
+      "score": 9
+    },
+    {
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "pushed_at": "2026-10-26",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "pushed_at": "2026-10-25",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://github.com/carson-katri/geometry-script",
+      "pushed_at": "2026-10-26",
+      "title": "Show HN: A Blender addon that makes Claude twice as efficient at using nodes",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=2&sn=1f49e2fbdf8151c9d889c28a16ae8c3f",
-      "pushed_at": "2026-10-25",
-      "title": "27小时通关《我的世界》！4个Gemini Agent累计阵亡605次，烧掉520美元",
-      "score": 8
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=3&sn=afc99f41f0bda8539a989dbe5fba745d",
-      "pushed_at": "2026-10-25",
-      "title": "机器人会自己攒Skill了！复旦提出具身自进化新框架",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/DainoJung/omni-verify",
-      "pushed_at": "2026-10-25",
-      "title": "Show HN: Omni Verify, my AI agent can't post until Kane checks every promise",
-      "score": 8
-    },
-    {
-      "url": "https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-10-25",
-      "title": "实测 Kimi K3.1 Pro，国模终于继续卷旗舰",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/ClayGendron/wasi-python",
-      "pushed_at": "2026-10-25",
-      "title": "Show HN: Wasi-Python – CPython, NumPy, and Pandas in a WebAssembly Sandbox",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/reelary/how-do-you-make-a-rough-cut-from-a-script-with-claude-code-100j",
-      "pushed_at": "2026-10-25",
-      "title": "How do you make a rough cut from a script with Claude Code?",
+      "url": "https://dev.to/_86cb5d746592807d24829/i-built-a-local-first-bookmark-manager-that-actually-remembers-what-you-saved-3ag0",
+      "pushed_at": "2026-10-26",
+      "title": "I built a local-first bookmark manager that actually remembers what you saved",
       "score": 7
     },
     {
-      "url": "https://dev.to/goodpa/the-continuity-layer-or-well-migrate-is-not-a-plan-until-someone-owns-the-date-5e5g",
-      "pushed_at": "2026-10-25",
-      "title": "The Continuity Layer — Or, \"We'll Migrate\" Is Not a Plan Until Someone Owns the Date",
+      "url": "https://dev.to/chestly_ace/do-it-or-dodge-it-a-gemma-on-my-phone-either-shrinks-the-task-or-writes-the-excuse-9ad",
+      "pushed_at": "2026-10-26",
+      "title": "Do It or Dodge It: a Gemma on my phone either shrinks the task or writes the excuse",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
-      "pushed_at": "2026-10-25",
-      "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652737830&idx=1&sn=02d4092ebf84a89ac7add52ff384a8eb",
+      "pushed_at": "2026-10-26",
+      "title": "外国小哥「虐待」自家电视，42 小时后惨遭OpenAI封号！Claude也下狠手",
       "score": 7
     },
     {
-      "url": "https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2",
-      "pushed_at": "2026-10-25",
-      "title": "Three Times My Test Failed and the LLM Was Right",
+      "url": "https://sspai.com/post/114741",
+      "pushed_at": "2026-10-26",
+      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+      "score": 7
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "pushed_at": "2026-10-26",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "score": 7
+    },
+    {
+      "url": "https://sketchagent.dev/s/yfYU6LhT",
+      "pushed_at": "2026-10-26",
+      "title": "Show HN: A 3D mesh playground for coding agents (three.js + manifold-3d)",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/elbee19/glitchrupt",
+      "pushed_at": "2026-10-26",
+      "title": "Show HN: Glitchrupt: Glitch your desktop when your AI agent needs your attention",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/thomasunise/casecite",
+      "pushed_at": "2026-10-26",
+      "title": "Show HN: CaseCite – Free RAG caselaw research and document analysis for lawyers",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/megh_shah_b6bd27d23860b05/i-built-snoozeops-an-open-source-ai-data-janitor-that-does-the-boring-spreadsheet-work-1i41",
+      "pushed_at": "2026-10-26",
+      "title": "I Built SnoozeOps: An Open-Source AI Data Janitor That Does the Boring Spreadsheet Work",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "pushed_at": "2026-10-25",
-      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://dev.to/ahmed_hassanyaseen_1b7ab/is-the-supabase-anon-key-safe-in-your-frontend-what-actually-protects-your-data-127e",
+      "pushed_at": "2026-10-26",
+      "title": "Is the Supabase anon key safe in your frontend? What actually protects your data",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "pushed_at": "2026-10-25",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://dev.to/elghaly/lazydigest-zero-effort-note-digests-powered-by-local-gemma-53ie",
+      "pushed_at": "2026-10-26",
+      "title": "LazyDigest: Zero-Effort Note Digests Powered by Local Gemma",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247936009&idx=1&sn=e6fb685ed336535de3f97dbdda25b34a",
-      "pushed_at": "2026-10-25",
-      "title": "30B大模型跑进手机，推理引擎开始自我进化",
+      "url": "https://dev.to/onpont/editing-a-godot-save-file-from-outside-the-editor-what-actually-breaks-4ebk",
+      "pushed_at": "2026-10-26",
+      "title": "Editing a Godot save file from outside the editor: what actually breaks",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "pushed_at": "2026-10-25",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/orgiggly/claude-plugin",
-      "pushed_at": "2026-10-25",
-      "title": "Show HN: Orgiggly – Claude Code plugin that hosts the apps it builds",
-      "score": 6
-    },
-    {
-      "url": "https://adrs.systems",
-      "pushed_at": "2026-10-25",
-      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
-      "score": 6
-    },
-    {
-      "url": "https://deepsearch.ing/",
-      "pushed_at": "2026-10-25",
-      "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
-      "pushed_at": "2026-10-25",
-      "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
-      "score": 6
-    },
-    {
-      "url": "https://danluu.com/ambitious/",
-      "pushed_at": "2026-10-25",
-      "title": "We should be more ambitious with the software we build",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/doogee_doogeetoptop_1e/a-site-that-made-500-on-day-one-yihui-is-selling-taste-to-your-agent-13gp",
-      "pushed_at": "2026-10-25",
-      "title": "A Site That Made $500 on Day One: Yihui Is Selling Taste to Your Agent",
+      "url": "https://github.com/makecindy/cindy",
+      "pushed_at": "2026-10-26",
+      "title": "makecindy/cindy",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xeon9c/my_first_app_just_made_114_in_its_first_month/",
-      "pushed_at": "2026-10-25",
-      "title": "My first app just made 114 in its first month",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "pushed_at": "2026-10-26",
+      "title": "The hottest AI wearables and gadgets you should know about",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xejal5/i_built_a_product_struggled_to_get_traffic_and/",
-      "pushed_at": "2026-10-25",
-      "title": "i built a product, struggled to get traffic, and accidentally changed the whole direction of it",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "pushed_at": "2026-10-26",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
-      "pushed_at": "2026-10-25",
-      "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "pushed_at": "2026-10-26",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
       "score": 5
+    },
+    {
+      "url": "https://ramraj07.github.io/ra-mermaid/",
+      "pushed_at": "2026-10-26",
+      "title": "Show HN: I added stacked subgraphs to Mermaid flowcharts",
+      "score": 5
+    },
+    {
+      "url": "https://tsonic.org/",
+      "pushed_at": "2026-10-26",
+      "title": "tsonic: TypeScript to .NET, Rust and Mojo",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "pushed_at": "2026-10-26",
+      "title": "google-gemini/gemini-cli",
+      "score": 4
     }
   ]
 }
