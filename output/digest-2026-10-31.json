@@ -1,0 +1,517 @@
+{
+  "date": "2026-10-31",
+  "highlights": [
+    "Shopify Now Lets Stores Pay The Company Behind Your AI Shopping Agent via @sejournal, @slobodanmanic",
+    "pbakaus/impeccable",
+    "nightly-labs/openbot"
+  ],
+  "items": [
+    {
+      "id": "a823e3bc7f06",
+      "title": "Shopify Now Lets Stores Pay The Company Behind Your AI Shopping Agent via @sejournal, @slobodanmanic",
+      "summary": "",
+      "score": 9,
+      "topic": "AI+电商",
+      "source": "Search Engine Journal (Ecommerce)",
+      "url": "https://www.searchenginejournal.com/shopify-now-lets-stores-pay-the-company-behind-your-ai-shopping-agent/594544/",
+      "tags": [
+        "Shopify",
+        "AI Agent",
+        "佣金机制",
+        "电商运营"
+      ],
+      "why_now": "",
+      "why_now_en": "Oct 27: Shopify launches agent commission preview.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ec673bd7694d",
+      "title": "pbakaus/impeccable",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/pbakaus/impeccable",
+      "tags": [
+        "Coding Agent",
+        "Design QA",
+        "CLI Tool",
+        "GitHub OpenSource"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Impeccable is a design vocabulary tool for coding agents that steers outputs with 24 commands like bolder and critique, and detects \"AI slop\" using 62 deterministic rules. It supports numerous agents including Claude Code, Cursor, and Codex CLI, and is installed via npx impeccable install.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "59f086ad2f83",
+      "title": "nightly-labs/openbot",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/nightly-labs/openbot",
+      "tags": [
+        "Agent工作流",
+        "开源项目",
+        "多模型集成",
+        "本地优先"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "14444dc7b4ec",
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "tags": [
+        "Claude Code",
+        "开源项目",
+        "游戏开发",
+        "AI Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Claude Code Game Studios transforms a single AI session into a coordinated development environment using 49 specialized agents, 74 workflow skills, and 15 automated hooks organized in a three-tier hierarchy from directors to specialists. The system supports Godot 4, Unity, and Unreal Engine 5 via dedicated agent sets, utilizing Anthropic's Opus model for senior directors and Sonnet for leads while inheriting the session model for remaining specialists to enforce strict quality gates and prevent design or code drift.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "5de8d8f8569c",
+      "title": "Show HN: Fastbrowse, Browser agent that picks clicks with a System One model",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://www.fastbrowse.ai/",
+      "tags": [
+        "Browser Agent",
+        "Open Source",
+        "Cost Efficiency",
+        "System One Model"
+      ],
+      "why_now": "",
+      "why_now_en": "Open source browser agent cuts agent costs 10x.",
+      "summary_en": "Fastbrowse is an open-source browser agent that uses System 1 models like Jev to drive Chrome, listing page elements instead of screenshots to avoid invalid clicks. It reduces costs by 11x compared to Browser Use, averaging $0.030 per run versus $0.318, while slightly outperforming it in accuracy with 137 out of 138 passed tasks on a 46-item suite. The tool requires a setup using uv, Chrome, and an API key from TypeSafe or OpenRouter.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "264cd6a96e11",
+      "title": "Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "Claude Fable 5.5",
+        "Anthropic",
+        "Self-Assessment",
+        "模型路由",
+        "AI安全机制"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "cab620b89f06",
+      "title": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506686.html",
+      "tags": [
+        "OXR",
+        "OCR",
+        "开源模型",
+        "RSI",
+        "文档解析"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8c6014a36ca9",
+      "title": "obra/superpowers",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "tags": [
+        "Agent",
+        "开源项目",
+        "开发方法论",
+        "多模型适配"
+      ],
+      "why_now": "缺乏明确时效性信号",
+      "why_now_en": "",
+      "summary_en": "Superpowers is an agentic software development framework that enforces a structured methodology, including specification extraction, red/green TDD, and YAGNI principles, to manage autonomous coding workflows. Compatible with platforms such as Claude Code, Codex, and Cursor, the system allows agents to work autonomously for hours by breaking projects into reviewable implementation plans and utilizing subagents for execution and code inspection.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "dae9f18d6467",
+      "title": "elayadesign/ai-design-skills",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "tags": [
+        "AI设计",
+        "开源项目",
+        "工作流"
+      ],
+      "why_now": "该项目刚开源了首个落地页设计技能包，为独立开发者提供即插即用的AI建站工具。",
+      "why_now_en": "Open-source AI design skills enable instant custom visual systems for coding agents.",
+      "summary_en": "elayadesign/ai-design-skills is a free, MIT-licensed collection of design rules for AI coding tools like Claude Code, Cursor, Codex, and Windsurf, with its primary `landing-page-design` skill generating full visual systems (typography, spacing, motion) and conversion copy. Users implement these skills by cloning specific folders or downloading markdown files to tool-specific paths (e.g., `.claude/skills` or `.cursor/rules`), allowing them to customize design parameters like fonts and colors directly within the rule files without writing code.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "3b8361d079ac",
+      "title": "dbreunig/nesformer",
+      "summary": "Drew Breunig 将 Nintendo Entertainment System 6502 CPU 模拟器的权重直接烘焙进 Qwen3.5-4B 模型，实现了在模型内部缓慢运行 Super Mario Bros 等 NES 游戏的功能。该实验基于 Divyansh Agrawal 的 qwenputer 项目灵感，通过 Opus 5.5 生成的提示词构建系统，并引用了 Christopher Pow 15 年前发布的 NES CPU 一致性测试集进行验证。",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "tags": [
+        "LLM",
+        "Emulation",
+        "Qwen",
+        "OpenSource"
+      ],
+      "why_now": "Qwen3.5-4B刚被验证可内置NES模拟器运行游戏，为一人公司开辟即时交互AI场景。",
+      "why_now_en": "",
+      "summary_en": "Drew Breunig embedded a functional NES 6502 CPU emulator into the weights of Qwen3.5-4B, enabling the LLM to execute games like Super Mario Bros. The system was constructed using prompts to Claude Opus 5.5 and leverages Christopher Pow's 15-year-old NES CPU conformance test suite, though it runs at significantly reduced speeds.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "05b0a460689b",
+      "title": "Inside the spy plot around Nvidia’s CEO",
+      "summary": "纽约时报报道，美国情报机构发现新加坡数据中心公司Megaspeed高管Alice Huang涉嫌向北京传递情报并接触英伟达CEO Jensen Huang，尽管该公司通过关联公司采购了至少48亿美元英伟达设备且仍为云合作伙伴，白宫去年已知悉此事但决定不采取行动；此举可能促使政府关闭允许东南亚企业租用英伟达算力转售给中国AI实验室的监管漏洞。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "The Rundown AI",
+      "url": "https://therundownai.beehiiv.com/p/inside-the-spy-plot-around-nvidia-ceo",
+      "tags": [
+        "Nvidia",
+        "地缘政治",
+        "供应链安全",
+        "AI政策"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "820dfbe7b266",
+      "title": "Cracks are emerging in the AI spending boom",
+      "summary": "",
+      "score": 7,
+      "topic": "AI投融资动态",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "tags": [
+        "AI基础设施",
+        "财报",
+        "科技巨头",
+        "资本支出"
+      ],
+      "why_now": "",
+      "why_now_en": "Anthropic IPO filing amid Big Tech capex panic",
+      "summary_en": "Big Tech is planning over $740 billion in capital expenditures for AI infrastructure in 2025, with Alphabet, Amazon, Meta, and Microsoft collectively raising $326 billion in debt to fund the buildout. Investor confidence has eroded due to negative free cash flows—Alphabet posted a $9.1 billion loss and Amazon a $42.4 billion loss—triggering a market sell-off where Nasdaq dropped 2.9% and Alphabet lost $500 billion in market value in a single day. While Amazon’s AWS grew 39% and Microsoft maintained positive cash flow of $18.6 billion, Google Search ad growth slowed to 12% as its own AI Mode feature cannibalizes its primary revenue stream.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8d89ef915057",
+      "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+      "summary": "",
+      "score": 7,
+      "topic": "AI 对行业的冲击",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
+      "tags": [
+        "网络安全",
+        "开源模型",
+        "GLM 5.3",
+        "Epoch AI",
+        "浏览器安全"
+      ],
+      "why_now": "GLM 5.3 刚发布即能低成本自主利用 Firefox 9 月至 10 月的补丁空窗期，10 月 27 日修复暴露了新威胁。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "853c63f738f0",
+      "title": "thedotmack/claude-mem",
+      "summary": "Claude-Mem 是一款为 Claude Code 构建的持久记忆压缩系统，通过自动捕获工具使用观察并生成语义摘要，在会话结束后将上下文注入至未来会话以实现跨会话知识连续性。该工具支持单命令安装并兼容 OpenCode、Codex、Grok Bot 及 Gemini 等多个 AI 代理，其核心机制包括将决策、修复和安全警报等关键观察追加为带日期的格式，从而解决代理缺乏长期记忆痛点。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "tags": [
+        "Claude Code",
+        "持久记忆",
+        "Agent工作流",
+        "开源项目"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "229b322ed982",
+      "title": "CopilotKit/OpenBot",
+      "summary": "",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "tags": [
+        "OpenBot",
+        "CopilotKit",
+        "AG-UI",
+        "开源项目",
+        "Agent平台"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "5818be28c4f0",
+      "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+      "summary": "",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
+      "tags": [
+        "太空计算",
+        "TPU",
+        "Gemma",
+        "Project Suncatcher",
+        "边缘AI"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Google Project Suncatcher successfully launched a prototype satellite and operated a TPU in orbit to run Gemma 4, marking the first time a large language model has performed inference in space. The experiment involved sending a prompt to the satellite, which then returned a generated haiku to the ground, validating the model's functionality in a space environment.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "93ad0842fdd4",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "summary": "AI基础设施公司Runware计划将其罗马尼亚工厂的模块化数据中心（Sonic Inference Pod）产能提升至2028年每天30兆瓦、每月近1吉瓦，并实现类似汽车总装线的自动化生产，目标在48小时内完成现场安装。该公司已通过Series A融资5000万美元，正加速建设第二座工厂以缩短交付周期，并依托自研硬件设计和汽车业经验来优化成本，以应对GPU交付滞后带来的市场机遇。",
+      "score": 6,
+      "topic": "AI投融资动态",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "tags": [
+        "Runware",
+        "数据中心",
+        "基建",
+        "B轮融资预告"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Runware, an AI infrastructure startup that has raised over $60 million including a $50 million Series A, is building a factory to mass-produce its modular Sonic Inference Pods on an assembly line, aiming to scale to 30 megawatts of data center capacity per day by 2028. The company utilizes in-house hardware design to adapt quickly to new GPU generations and targets a 48-hour installation turnaround for its pods, which can be customized and rented with customers supplying their own chips or using Runware's compute. This manufacturing approach differentiates Runware from competitors like Nvidia, which focus on designing infrastructure for others, and positions it to rival the entire expected U.S. data center power addition of 10 gigawatts annually at peak production.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e532116912f6",
+      "title": "iPhone 国行 AI 真的来了，千问成为 Siri 新搭档",
+      "summary": "",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1686969?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "Apple Intelligence",
+        "通义千问",
+        "端侧AI",
+        "iPhone",
+        "系统级AI"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Apple Intelligence launches in China with iOS 27.3, supporting iPhone 15 Pro and newer models starting December, and integrates Alibaba's Tongyi Qianwen via server-side calls for complex tasks like advanced Siri queries and visual search. The system prioritizes on-device processing for core features like writing and translation to protect privacy, while routing data to Qianwen only with user consent, excluding the upcoming generative Siri agent.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d95f2af92ca0",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "summary": "英特尔周四股价暴跌约28%，导致美国政府持有的10%股份市值缩水120亿美元，主要原因是其第四季度营收预期仅为150亿至160亿美元（低于分析师预期的170亿美元），且毛利率将从43%降至37%。尽管AI行业导致内存成本上升从而抑制了个人电脑（PC）需求，但英特尔数据中心业务营收同比增长78%，其在亚利桑那州的新晶圆厂已投入运营，下一座预计2028年上线。",
+      "score": 5,
+      "topic": "AI对行业的冲击",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "tags": [
+        "Intel",
+        "PC市场",
+        "AI硬件",
+        "供应链"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "a198bee42c00",
+      "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "summary": "",
+      "score": 5,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "tags": [
+        "AI泡沫",
+        "政策监管",
+        "宏观经济",
+        "风险警示"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ecf014fca331",
+      "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+      "summary": "Alphabet、Amazon、Meta和微软2025年计划资本开支合计超7400亿美元，引发投资者对负自由现金流和债务攀升的担忧，导致纳斯达克指数下跌2.9%，Alphabet单日市值蒸发5000亿美元。由于AI搜索功能侵蚀核心广告收入，Alphabet Q3自由现金流为负91亿美元，而微软、Alphabet等五家公司2026年发债规模预计达3260亿美元，是去年的三倍，加剧了市场对回报不确定性的焦虑。",
+      "score": 5,
+      "topic": "AI投融资动态",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b",
+      "tags": [
+        "AI资本开支",
+        "市场波动",
+        "财务数据",
+        "IPO"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Alphabet, Amazon, Meta, and Microsoft plan over $740 billion in combined capital expenditures this year, sparking market selloffs as investors worry about negative free cash flow and rising debt; notably, Alphabet's free cash flow turned negative $9.1 billion while Google's AI features erode its dominant search ad revenue. These tech giants issued $326 billion in bonds in 2026—triple last year's total—to fund infrastructure like Microsoft's $452 billion capital spend and Meta's $145 billion outlay, while Amazon's AWS grew 39% but the company still posted negative $42.4 billion in free cash flow. This financial strain complicates Anthropic's upcoming IPO, as Blackstone warns the AI firm may not achieve an investment-grade rating post-listing, forcing reliance on external cloud providers for computing power.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "AgentLink",
+      "name_en": "AgentLink",
+      "description": "为独立开发者提供一键接入 Shopify AI Agent 支付流的技术中间层 API。",
+      "description_en": "A developer-oriented middleware API that enables one-click integration of Shopify's AI Agent payment flows.",
+      "target_user": "希望其 AI 购物助手能直接促成交易并收取佣金的独立开发者与小微 SaaS 团队。",
+      "target_user_en": "Indie developers and micro-SaaS teams building AI shopping assistants that need to facilitate transactions and earn commissions.",
+      "core_features": [
+        "封装 Shopify 复杂的 Agent 支付鉴权与回调逻辑",
+        "提供实时佣金追踪仪表盘",
+        "支持多商户聚合结算"
+      ],
+      "core_features_en": [
+        "Wrapper for complex Shopify Agent payment authentication and callback logic",
+        "Real-time commission tracking dashboard",
+        "Multi-merchant aggregated settlement support"
+      ],
+      "related_trends": [
+        "Shopify AI Agent 生态",
+        "程序化联盟营销",
+        "开发者工具"
+      ],
+      "related_trends_en": [
+        "Shopify AI Agent Ecosystem",
+        "Programmatic Affiliate Marketing",
+        "Developer Tools"
+      ],
+      "why_now": "Search Engine Journal 的高热度报道指出 Shopify 刚开放了让 AI 购物 Agent 直接获得交易佣金的机制，但底层 API 对接复杂且文档分散。社区热议点在于开发者希望绕过繁琐的 Shopify 后台配置，通过代码直接让 AI 代理‘自动赚钱’。现在正是填补这一技术落地空白、构建标准化接入层的最佳时机。",
+      "why_now_en": "High-heat reporting from Search Engine Journal reveals that Shopify has just opened a mechanism allowing AI shopping agents to earn transaction commissions directly, but the underlying API integration is complex and documentation is scattered. The key community discussion point is that developers want to bypass cumbersome Shopify backend configurations to let AI agents 'make money automatically' via code. Now is the perfect time to fill this implementation gap and build a standardized integration layer.",
+      "monetization": "SaaS 订阅制（按 API 调用量或佣金流水比例抽成）。",
+      "monetization_en": "SaaS subscription model (based on API call volume or a percentage of commission flow).",
+      "difficulty": "medium",
+      "estimated_mvp_days": 21,
+      "source_article": "Shopify Now Lets Stores Pay The Company Behind Your AI Shopping Agent via @sejournal, @slobodanmanic",
+      "source_article_url": "https://www.searchenginejournal.com/shopify-now-lets-stores-pay-the-company-behind-your-ai-shopping-agent/594544/",
+      "source_article_score": 9,
+      "source_article_source": "Search Engine Journal (Ecommerce)"
+    }
+  ]
+}
