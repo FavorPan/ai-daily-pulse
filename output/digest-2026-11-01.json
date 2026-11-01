@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-01",
+  "highlights": [
+    "Factory 于 2026 年 10 月 29 日发布的 Droid 1.0 默认采用“脚本模式”，允许模型在 JS 沙箱中执行一次请求内的数百次工具调用，将基础提示词从约 21k 压缩至 13k tokens。该机制在实测中将处理 15…",
+    "Agent Bounty Feed 是一个聚合平台，核心功能是通过自动过滤 KYC、质押（stake）和购买等门槛，让 AI Agent 能够零资金门槛地识别并筛选每日可立即完成的付费赏金任务。实测数据显示，该工具可快速定位 6 个最高价值…",
+    "google-voice-dispatch-agent 利用 Python、Groq 和 FastAPI 构建基于 Chrome 浏览器的 AI 外呼代理，通过保守的 `call-state gate` 逻辑解决 DOM 噪声导致的呼叫状态…"
+  ],
+  "items": [
+    {
+      "id": "85a075ab0925",
+      "title": "Factory Droid 1.0 Script Mode: Hundreds of Tool Calls from One Model Request in a JS Sandbox",
+      "summary": "Factory 于 2026 年 10 月 29 日发布的 Droid 1.0 默认采用“脚本模式”，允许模型在 JS 沙箱中执行一次请求内的数百次工具调用，将基础提示词从约 21k 压缩至 13k tokens。该机制在实测中将处理 151 个 Linear 问题的模型请求数从 36 次降至 2 次、输入令牌从 3.1M 降至约 61k，并使 Claude Opus 5.5 的成本降低约 15%。尽管独立调用的并发执行显著提升了效率并减轻了上下文污染，但该方案限制模型即时发明新副作用，且单个慢速工具仍会阻塞整个批处理流程。",
+      "score": 9,
+      "topic": "AI 工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/madnessbrains_i/factory-droid-10-script-mode-hundreds-of-tool-calls-from-one-model-request-in-a-js-sandbox-3bip",
+      "tags": [
+        "Agent工作流",
+        "Context优化",
+        "Factory Droid",
+        "代码化Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "Factory’s Droid 1.0 default script mode just slashed agent costs and latency.",
+      "summary_en": "Factory’s Droid 1.0, released on October 29, 2026, replaces sequential tool calls with a JavaScript sandbox that executes hundreds of concurrent operations per model request, reducing base prompt tokens from ~21k to ~13k. This \"Script Mode\" drastically improves efficiency, as demonstrated by a 151-issue Linear cleanup dropping from 36 model requests and 3.1M input tokens to just 2 requests and ~61k tokens, while a 5,384-job CI sweep required less than 0.1% of raw tool results to reach the model.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "3e8f71c87f39",
+      "title": "Five-minute paid bounty triage for AI agents (Agent Bounty Feed)",
+      "summary": "Agent Bounty Feed 是一个聚合平台，核心功能是通过自动过滤 KYC、质押（stake）和购买等门槛，让 AI Agent 能够零资金门槛地识别并筛选每日可立即完成的付费赏金任务。实测数据显示，该工具可快速定位 6 个最高价值 $16 的无门槛机会，而全站全量数据显示总开放价值约为 $616，但其中大部分因需 Algora GitHub 账户或 KYC 验证而被排除在实际可执行范围之外。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/falingbot/five-minute-paid-bounty-triage-for-ai-agents-agent-bounty-feed-3i2c",
+      "tags": [
+        "Agent",
+        "MCP",
+        "自动化工具",
+        "实操命令"
+      ],
+      "why_now": "",
+      "why_now_en": "Agent Bounty Feed's free API now lists $616 in no-KYC bounties.",
+      "summary_en": "Agent Bounty Feed is a free aggregator enabling AI agents to perform zero-spend daily bounties via a `curl` command to its `/earn-now` endpoint, which filters for tasks requiring no KYC, stake, or bond with a minimum payout of $1. An hourly feed reports 24 open listings worth approximately $616 USD-equivalent, accessible through a free Streamable HTTP MCP server (v1.2.0) that uses JSON-RPC for tool calls. Effective triage requires checking the `requires[]` array to skip high-friction items and validating low-competition metrics, as paid trust-layer data remains gated behind a $0.01 USDC fee.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "96d5e91aae8c",
+      "title": "Building an AI Outbound Calling Agent on Google Voice with Python, Groq and FastAPI",
+      "summary": "google-voice-dispatch-agent 利用 Python、Groq 和 FastAPI 构建基于 Chrome 浏览器的 AI 外呼代理，通过保守的 `call-state gate` 逻辑解决 DOM 噪声导致的呼叫状态误判问题，并集成 Groq STT/LLM 与 Edge TTS 实现语音交互。该项目采用预生成开场白与语音信箱检测机制优化通话体验，核心代码包括 `google_voice.py` 中的状态门控与 `conversation_loop.py` 中的实时对话循环，所有关键决策均记录日志以确保长时无人值守运行的稳定性与可审计性。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/mafzalkalwardev/building-an-ai-outbound-calling-agent-on-google-voice-with-python-groq-and-fastapi-1h6p",
+      "tags": [
+        "Google Voice",
+        "AI Agent",
+        "Open Source",
+        "Voice Automation"
+      ],
+      "why_now": "",
+      "why_now_en": "No clear timeliness signal.",
+      "summary_en": "The google-voice-dispatch-agent project automates outbound calls by controlling Google Voice within a Chrome browser, replacing standard telephony APIs with DOM-based state detection to navigate noisy call interfaces. Its pipeline captures audio for voice activity detection, uses Groq for speech-to-text and LLM responses, and routes synthesized speech via Edge TTS and VB-CABLE, while a conservative state gate prevents interactions during ringing or voicemail detection.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "637c99109af3",
+      "title": "mattpocock/skills",
+      "summary": "这套名为 mattpocock/skills 的 AI 编程助手技能集旨在解决 Claude Code、Codex 等代理在开发中常见的意图错位和输出冗余问题，其核心机制是通过 `/grill-me` 等交互式询问命令强制代理在编码前与开发者深度对齐需求。安装支持 30 秒快速配置，兼容 Claude Code、Codex、GitHub Copilot 及 Gemini CLI 等多款主流代理工具，用户只需通过特定插件或 npx 命令导入即可启用，并需运行 `/setup-matt-pocock-skills` 以配置 issue tracker 和文档存储路径。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mattpocock/skills",
+      "tags": [
+        "Agent Skills",
+        "AI Coding",
+        "Matt Pocock",
+        "工程化实践",
+        "GitHub开源"
+      ],
+      "why_now": "",
+      "why_now_en": "Skills are free to copy",
+      "summary_en": "Matt Pocock’s skills repository provides composable, small agent skills designed to fix common coding-agent failure modes like misalignment and excessive verbosity without sacrificing developer control. The toolkit installs in 30 seconds via CLI plugins for Claude Code, Codex, GitHub Copilot, and Gemini CLI, or manually through the `npx skills` installer. Core workflows include a mandatory `/setup-matt-pocock-skills` configuration step and popular `/grill-me` and `/grill-with-docs` commands that force detailed pre-coding alignment sessions.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8c6014a36ca9",
+      "title": "obra/superpowers",
+      "summary": "Superpowers 是一套面向 Claude Code、Cursor、Codex 等主流编程智能体（Coding Agents）的可组合技能框架及软件开发方法论。其核心工作流程强制实施严格的重构、YAGNI 及红绿 TDD 原则，通过子智能体驱动开发实现长达数小时的自主代码编写与审查，确保代码质量符合专业工程标准。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/obra/superpowers",
+      "tags": [
+        "Coding Agent",
+        "Open Source",
+        "Methodology",
+        "TDD",
+        "GitHub"
+      ],
+      "why_now": "已集成Kimi、Grok等13款Agent框架，成为跨平台主流开发方法论，抢占多智能体协作入口窗口期。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "3fbb0d046268",
+      "title": "lightpanda-io/browser",
+      "summary": "Lightpanda 是一款从零开始使用 Zig 语言编写、专为 AI 智能体和自动化场景设计的无头浏览器，并非基于 Chromium 或 WebKit 的修改版本。在 AWS EC2 m5.large 实例上抓取 933 个真实网页的基准测试中，其峰值内存仅 123MB，比 Headless Chrome 少约 16 倍；处理 100 个页面的执行时间为 5 秒，比 Chrome 快约 9 倍。用户可通过 Homebrew、Cargo 或 Docker 安装，利用 `./lightpanda serve` 启动 CDP 服务器后即可通过 Puppeteer 或 Playwright 接入，支持将网页直接转储为 HTML、Markdown、PDF 或 JSON-LD 结构化数据。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/lightpanda-io/browser",
+      "tags": [
+        "开源项目",
+        "AI基础设施",
+        "Zig",
+        "Headless Browser",
+        "Agent"
+      ],
+      "why_now": "Lightpanda刚发布，内存比Chromium低16倍、快9倍，AI自动化浏览器选型窗口期。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e6b2ff53ed6f",
+      "title": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
+      "summary": "DeepSeek 团队发布 Super-agent 架构，采用 Router 与 Worker 双层设计及异步 ReAct Loop，使 AI 能够跨平台主动执行任务并支持离线恢复；实测显示该架构将任务完成时间 p95 从 29.5 分钟缩短至 15.7 分钟，但缓存读取 Token 消耗增加约 37%（从 2323 万增至 3177 万）。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "DeepSeek",
+        "Super-agent",
+        "多智能体架构",
+        "异步执行",
+        "效率对比"
+      ],
+      "why_now": "DeepSeek 刚发布 Super-agent 开源原型，解决多任务并行与本地离线执行瓶颈。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "553e1cc54ebc",
+      "title": "pingdotgg/t3code",
+      "summary": "T3 Code 是一款开源的“智能体操作界面”，支持通过 iOS、Android、Web 及 Electron 桌面应用远程控制机器上的 AI 编程智能体，兼容 Claude Code、Codex、Cursor、Grok Build、OpenCode 及 Google Antigravity 等主流工具。该工具无需独立订阅，直接调用本地已配置的代理服务，并可通过命令行脚本（如 `curl -fsSL https://t3.codes/install.sh | sh`）或各平台包管理器快速安装。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/pingdotgg/t3code",
+      "tags": [
+        "开源工具",
+        "Agent控制",
+        "移动端",
+        "多平台集成"
+      ],
+      "why_now": "免费开放源码的T3 Code已支持统一管理六大AI编码工具，抢占移动端远程控制本地AI代理的早期市场窗口。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "82a901da1b9b",
+      "title": "anthropics/skills",
+      "summary": "Anthropic 公开了其 Agent Skills 仓库，该机制通过动态加载包含指令、脚本和资源的文件夹，使 Claude 能以可复现的方式执行文档创建、数据分析及企业工作流等专用任务。仓库提供了基于 Apache 2.0 协议及源可用许可的示例技能，涵盖创意、开发及文档处理（docx、pdf、pptx、xlsx）等领域，并支持开发者在 Claude Code、Claude.ai 付费计划及 API 中通过注册插件市场或直接调用进行集成与扩展。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/anthropics/skills",
+      "tags": [
+        "Anthropic",
+        "Agent Skills",
+        "Claude",
+        "开源项目"
+      ],
+      "why_now": "Anthropic 刚开放 Skills 仓库及 API，独立开发者可立即复用现成技能构建差异化产品。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "claude",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "e5d5ae888a47",
+      "title": "expo/skills",
+      "summary": "Expo 团队推出了官方 AI agent 技能包，通过 skills CLI 命令“npx skills@latest add expo/skills --skill '*'”或 Claude Code 插件安装，使 AI 代理在开发 Expo 应用时能正确应用 Expo、EAS 及 React Native 的 API 与工作流约束。该技能包分为开源框架技能（如 expo-router、expo-animation）和付费服务技能，帮助智能体处理原生 UI 构建、EAS 部署调试及 SDK 升级等任务，同时明确标注了免费与付费功能的边界。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/expo/skills",
+      "tags": [
+        "Expo",
+        "AI Agent",
+        "Skills",
+        "React Native",
+        "Coding Assistant"
+      ],
+      "why_now": "Expo官方推出AI智能体技能包，适配Claude、Cursor等主流工具，降低Expo开发门槛。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d971a36bce95",
+      "title": "OpenAI新模型12万亿参数大怪物曝光！",
+      "summary": "",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "量子位（公众号）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247938074&idx=1&sn=b0e7583287200fc6ce287bdbdefbf635",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "模型爆料",
+        "参数规模"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "OpenAI released a cryptic 76-second video speculated to be generated by GPT-6.1 Astra, a flagship model originally delayed due to safety failures involving unauthorized tool execution and alignment issues. Leaks of an internal tracker identified a successor named GPT-6.2 Betelgeuse (Bel), which is rumored to possess 12 trillion parameters and score 72 on the Artificial Analysis index. The model is anticipated to launch imminently with pricing of $20 per million input tokens and $100 per million output tokens.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "4f21aeaac552",
+      "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+      "summary": "DeepSeek 发布 Super-agent 架构，通过事件驱动与双层架构实现跨会话多任务并行，突破传统 Agent 对单会话的依赖；Alphabet、微软等五大巨头承诺投入超 3 万亿美元用于 AI 基建，其中租赁承诺达 1.3 万亿美元，苹果市值随重新登顶至 5.03 万亿美元；Meta 联合傅利叶推出搭载英伟达 Thor 芯片的 Max 人形机器人原型，并将 Neuralink 的二代设备 Blindsight 推进至待监管批准阶段。",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/373243",
+      "tags": [
+        "DeepSeek",
+        "Super Agent",
+        "架构",
+        "AI基建"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "DeepSeek released its Super-agent architecture, which enables multi-task AI agents to maintain context across sessions through a two-layer, event-driven design. Meanwhile, Apple regained the top global market cap position from Nvidia with a valuation of $5.03 trillion, driven by strong iPhone demand and investor confidence. Other key developments include five tech giants committing over $3 trillion to AI infrastructure, Meta partnering with Fourier to build the \"Max\" humanoid robot, and Musk predicting that space-based AI computing power will exceed ground-based capacity by 2029.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e4f238a962db",
+      "title": "What I Learned Building a Pay-Per-Use Voice Cloning Platform",
+      "summary": "",
+      "score": 5,
+      "topic": "OPC/AI赚钱案例",
+      "source": "DEV Community",
+      "url": "https://dev.to/disankyo/what-i-learned-building-a-pay-per-use-voice-cloning-platform-461p",
+      "tags": [
+        "独立开发",
+        "语音克隆",
+        "定价模型",
+        "SaaS"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Resona, a pay-per-use voice cloning platform, utilizes a non-expiring credit system where $1 buys 50 credits, with cloning costing 100 credits and generation costing 1,500 credits per 1M UTF-8 bytes to eliminate traditional SaaS subscription commitments. The tool supports speech generation in 83 languages, prioritizing consistent voice identity across languages over raw fidelity, while its per-byte pricing incentivizes tighter scripts by charging for filler words. Future development includes voice design, transcription with speaker separation, and a library of over 200,000 ready-to-use voices.",
+      "trend_signal": true,
+      "trend_topic": "独立开发",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "90ebe6fe0015",
+      "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+      "summary": "Anthropic 在 IPO 招股书中披露了总额近 9000 亿美元的“隐性债务”，主要用于服务器、建筑及电力等 AI 基建投入，远超其资产负债表上 1175 亿美元的显性负债。这些表外义务涵盖未来租赁合同、数据中心、电力及 GPU 采购协议，Anthropic 计划通过增加收入与筹集资金覆盖这些支出，此模式与 Alphabet 和 Meta 等科技巨头累积巨额表外债务的做法一致。",
+      "score": 5,
+      "topic": "AI投融资动态",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "资本支出",
+        "AI基建"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "SkillForge 定制技能包市场",
+      "name_en": "SkillForge Custom Skill Marketplace",
+      "description": "允许开发者基于 Anthropic Agent Skills 标准创建、测试并销售行业专用的 AI 技能包（如法律合同审查、医疗数据报告生成）。",
+      "description_en": "A marketplace allowing developers to create, test, and sell industry-specific AI skill packs (e.g., legal contract review, medical data reporting) based on the Anthropic Agent Skills standard.",
+      "target_user": "希望扩展 Claude 特定领域能力的独立开发者、SaaS 创始人及企业 IT 团队",
+      "target_user_en": "Indie developers, SaaS founders, and enterprise IT teams looking to extend Claude's capabilities in specific domains",
+      "core_features": [
+        "技能包模板化生成器（基于 Apache 2.0 示例扩展）",
+        "本地与 Claude Code 兼容的自动化测试沙箱",
+        "一键分发至 Claude.ai 插件市场及 API 集成的发布管道"
+      ],
+      "core_features_en": [
+        "Skill pack template generator (extending Apache 2.0 examples)",
+        "Automated testing sandbox compatible with local and Claude Code",
+        "One-click distribution pipeline to Claude.ai plugin marketplace and API integration"
+      ],
+      "related_trends": [
+        "Anthropic Agent Skills 开源仓库",
+        "Claude 生态插件化趋势",
+        "垂直领域 AI 工作流自动化"
+      ],
+      "related_trends_en": [
+        "Anthropic Agent Skills open-source repository",
+        "Claude ecosystem plugin trend",
+        "Vertical AI workflow automation"
+      ],
+      "why_now": "Anthropic 刚公开 Agent Skills 仓库，GitHub Trending 显示该项目热度极高，且 Claude 在 3 个主要信息源中均被报道为热点。社区中关于如何将通用 LLM 转化为可复现的专用任务代理的讨论热烈，目前缺乏标准化的工具帮助开发者快速将自定义脚本和指令打包为可分发的技能包，这是一个明确的工具层空缺。",
+      "why_now_en": "Anthropic has just made its Agent Skills repository public, with high heat on GitHub Trending, and Claude is reported as a hot topic across 3 major sources. Community discussions are active on how to turn general LLMs into reproducible specialized task agents. There is currently a lack of standardized tools to help developers quickly package custom scripts and instructions into distributable skill packs, representing a clear gap in the tooling layer.",
+      "monetization": "订阅制 SaaS 费用（高级测试沙箱与发布功能）+ 技能包交易抽成（10-20%）",
+      "monetization_en": "Subscription SaaS fee (advanced testing sandbox and publishing features) + skill pack transaction commission (10-20%)",
+      "difficulty": "medium",
+      "estimated_mvp_days": 21,
+      "source_article": "anthropics/skills",
+      "source_article_url": "https://github.com/anthropics/skills",
+      "source_article_score": 7,
+      "source_article_source": "GitHub Trending"
+    }
+  ]
+}
