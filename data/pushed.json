@@ -1,165 +1,171 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/madnessbrains_i/factory-droid-10-script-mode-hundreds-of-tool-calls-from-one-model-request-in-a-js-sandbox-3bip",
-      "pushed_at": "2026-11-01",
-      "title": "Factory Droid 1.0 Script Mode: Hundreds of Tool Calls from One Model Request in a JS Sandbox",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xlk41m/finetuned_qwen354b_on_441_examples_from_my_own/",
+      "pushed_at": "2026-11-02",
+      "title": "Fine-tuned Qwen3.5-4B on 441 examples from my own work over a weekend. Less lecturing, same refusals, vision still works. Notes",
       "score": 9
     },
     {
-      "url": "https://dev.to/falingbot/five-minute-paid-bounty-triage-for-ai-agents-agent-bounty-feed-3i2c",
-      "pushed_at": "2026-11-01",
-      "title": "Five-minute paid bounty triage for AI agents (Agent Bounty Feed)",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/mafzalkalwardev/building-an-ai-outbound-calling-agent-on-google-voice-with-python-groq-and-fastapi-1h6p",
-      "pushed_at": "2026-11-01",
-      "title": "Building an AI Outbound Calling Agent on Google Voice with Python, Groq and FastAPI",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/mattpocock/skills",
-      "pushed_at": "2026-11-01",
-      "title": "mattpocock/skills",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/obra/superpowers",
-      "pushed_at": "2026-11-01",
-      "title": "obra/superpowers",
+      "url": "https://dev.to/vietautomation/how-to-stop-an-ai-agent-from-emailing-400-customers-at-3am-budget-caps-idempotency-a-kill-2ic",
+      "pushed_at": "2026-11-02",
+      "title": "How to Stop an AI Agent From Emailing 400 Customers at 3AM: Budget Caps, Idempotency & a Kill Switch in n8n",
       "score": 8
     },
     {
       "url": "https://github.com/lightpanda-io/browser",
-      "pushed_at": "2026-11-01",
+      "pushed_at": "2026-11-02",
       "title": "lightpanda-io/browser",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-01",
-      "title": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
-      "score": 8
+      "url": "https://dev.to/ikramulmustafa/context-rot-why-your-rag-pipeline-degrades-without-anyone-deploying-anything-1278",
+      "pushed_at": "2026-11-02",
+      "title": "Context Rot: Why Your RAG Pipeline Degrades Without Anyone Deploying Anything",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xljkvt/i_got_tired_of_ai_explaining_things_in_walls_of/",
+      "pushed_at": "2026-11-02",
+      "title": "I got tired of AI explaining things in walls of text, so I built a tool that makes Claude draw instead",
+      "score": 7
     },
     {
       "url": "https://github.com/pingdotgg/t3code",
-      "pushed_at": "2026-11-01",
+      "pushed_at": "2026-11-02",
       "title": "pingdotgg/t3code",
       "score": 7
     },
     {
-      "url": "https://github.com/anthropics/skills",
-      "pushed_at": "2026-11-01",
-      "title": "anthropics/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-11-02",
+      "title": "mattpocock/skills",
       "score": 7
     },
     {
-      "url": "https://github.com/expo/skills",
-      "pushed_at": "2026-11-01",
-      "title": "expo/skills",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "pushed_at": "2026-11-02",
+      "title": "Orkas-AI/Orkas",
       "score": 7
     },
     {
-      "url": "https://github.com/shashtag-ventures/linkedin-ops",
-      "pushed_at": "2026-11-01",
-      "title": "Show HN: LinkedIn-ops – Zero-dependency CDP automation built for AI agents",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "pushed_at": "2026-11-02",
+      "title": "THU-MAIC/OpenMAIC",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "pushed_at": "2026-11-01",
-      "title": "datasette-llm 0.1a9",
+      "url": "https://hackerbooks.org",
+      "pushed_at": "2026-11-02",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/373249",
+      "pushed_at": "2026-11-02",
+      "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1687071?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-02",
+      "title": "一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "pushed_at": "2026-11-02",
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/kestrelquant/elastic-compromise-after-385-vetoes-building-dynamic-threshold-degradation-in-ai-trading-systems-4f78",
+      "pushed_at": "2026-11-02",
+      "title": "Elastic Compromise After 385 Vetoes: Building Dynamic Threshold Degradation in AI Trading Systems",
       "score": 6
     },
     {
-      "url": "https://dev.to/colemitchell4991/5-ways-an-ai-chatbot-api-minimizes-repetitive-token-cost-in-python-for-moderation-5c05",
-      "pushed_at": "2026-11-01",
-      "title": "5 Ways an AI Chatbot API Minimizes Repetitive Token Cost in Python (for Moderation)",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "pushed_at": "2026-11-02",
+      "title": "Donchitos/Claude-Code-Game-Studios",
       "score": 6
+    },
+    {
+      "url": "https://github.com/pbakaus/impeccable",
+      "pushed_at": "2026-11-02",
+      "title": "pbakaus/impeccable",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "pushed_at": "2026-11-02",
+      "title": "milind-soni/OpenMausBot",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "pushed_at": "2026-11-02",
+      "title": "obra/superpowers",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/373252",
+      "pushed_at": "2026-11-02",
+      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+      "score": 6
+    },
+    {
+      "url": "https://better-together.fun/",
+      "pushed_at": "2026-11-02",
+      "title": "Show HN: Better Together – AI agents team up against spam calls and texts",
+      "score": 6
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50330796",
+      "pushed_at": "2026-11-02",
+      "title": "Show HN: A faster Python 3 interpreter implemented in C11, one week",
+      "score": 6
+    },
+    {
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "pushed_at": "2026-11-02",
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
+      "pushed_at": "2026-11-02",
+      "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xli6nj/i_built_an_ai_assistant_on_my_phone_that_can/",
+      "pushed_at": "2026-11-02",
+      "title": "I built an AI assistant on my phone that can actually do things on my computer",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xlka0q/i_spent_nearly_four_months_building_a_puzzle_app/",
+      "pushed_at": "2026-11-02",
+      "title": "I spent nearly four months building a puzzle app I wanted to play. Getting people to find it has been harder.",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xlet4j/my_teenager_wanted_a_cheap_way_to_turn_videos/",
+      "pushed_at": "2026-11-02",
+      "title": "My teenager wanted a cheap way to turn videos into stickers",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "pushed_at": "2026-11-02",
+      "title": "Renhuai123/ziwei-doushu",
+      "score": 5
     },
     {
       "url": "https://github.com/HKUDS/DeepTutor",
-      "pushed_at": "2026-11-01",
+      "pushed_at": "2026-11-02",
       "title": "HKUDS/DeepTutor",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247938074&idx=1&sn=b0e7583287200fc6ce287bdbdefbf635",
-      "pushed_at": "2026-11-01",
-      "title": "OpenAI新模型12万亿参数大怪物曝光！",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/10/506855.html",
-      "pushed_at": "2026-11-01",
-      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
-      "score": 6
-    },
-    {
-      "url": "https://bobby.viraj.computer/",
-      "pushed_at": "2026-11-01",
-      "title": "Show HN: Bobby – Over Engineering PR Reviews",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/amirrsyed/hushkey",
-      "pushed_at": "2026-11-01",
-      "title": "Show HN: Hushkey – Silent dictation hotkey for macOS",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/aiblitzo/ai-caption-generators-for-social-media-managers-a-practical-guide-to-faster-better-posts-1aff",
-      "pushed_at": "2026-11-01",
-      "title": "AI Caption Generators for Social Media Managers: A Practical Guide to Faster, Better Posts",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/disankyo/what-i-learned-building-a-pay-per-use-voice-cloning-platform-461p",
-      "pushed_at": "2026-11-01",
-      "title": "What I Learned Building a Pay-Per-Use Voice Cloning Platform",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/macro-inc/macro",
-      "pushed_at": "2026-11-01",
-      "title": "macro-inc/macro",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/JetBrains/thinkrail",
-      "pushed_at": "2026-11-01",
-      "title": "JetBrains/thinkrail",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xkbpty/i_got_tired_of_scrubbing_through_2_hour_podcasts/",
-      "pushed_at": "2026-11-01",
-      "title": "I got tired of scrubbing through 2 hour podcasts to find the 10 good minutes, so i built a thing",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xko2xo/i_built_a_tiny_widget_to_check_if_anyone_wants_a/",
-      "pushed_at": "2026-11-01",
-      "title": "I built a tiny widget to check if anyone wants a feature before I build it",
-      "score": 5
-    },
-    {
-      "url": "http://www.geekpark.net/news/373243",
-      "pushed_at": "2026-11-01",
-      "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
-      "score": 5
-    },
-    {
-      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-      "pushed_at": "2026-11-01",
-      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
-      "pushed_at": "2026-11-01",
-      "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
       "score": 5
     }
   ]
