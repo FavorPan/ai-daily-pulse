@@ -1,328 +1,376 @@
 {
   "pushed": [
     {
-      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
-      "pushed_at": "2026-11-03",
-      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "pushed_at": "2026-11-04",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
       "score": 9
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652739675&idx=3&sn=90e941c875c03dc0dfc87141362d0db5",
-      "pushed_at": "2026-11-03",
-      "title": "8B逆袭32B！开源首个长程交互SQL Agent框架，面向真实数据库",
+      "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
+      "pushed_at": "2026-11-04",
+      "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
       "score": 9
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-      "pushed_at": "2026-11-03",
-      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+      "url": "https://therundownai.beehiiv.com/p/mit-shows-ai-improving-ai-no-training-required",
+      "pushed_at": "2026-11-04",
+      "title": "MIT shows AI improving AI, no training required",
       "score": 8
     },
     {
-      "url": "https://github.com/lightpanda-io/browser",
-      "pushed_at": "2026-11-03",
-      "title": "lightpanda-io/browser",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "pushed_at": "2026-11-04",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/metataro/let-your-ai-agent-look-at-your-server-on-the-same-screen-over-the-same-ssh-without-ever-handing-1e05",
+      "pushed_at": "2026-11-04",
+      "title": "Let your AI agent look at your server — on the same screen, over the same SSH, without ever handing it a shell",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "pushed_at": "2026-11-04",
+      "title": "vercel-labs/agent-desktop",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "pushed_at": "2026-11-04",
+      "title": "FlashML-org/FreeToken",
       "score": 8
     },
     {
       "url": "https://github.com/shiyu-coder/Kronos",
-      "pushed_at": "2026-11-03",
+      "pushed_at": "2026-11-04",
       "title": "shiyu-coder/Kronos",
       "score": 8
     },
     {
-      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
-      "pushed_at": "2026-11-03",
-      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "pushed_at": "2026-11-04",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
       "score": 8
     },
     {
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "pushed_at": "2026-11-03",
-      "title": "CopilotKit/OpenBot",
+      "url": "https://www.practicalecommerce.com/find-site-errors-with-ai-before-ads-run",
+      "pushed_at": "2026-11-04",
+      "title": "Find Site Errors with AI before Ads Run",
       "score": 8
     },
     {
-      "url": "https://www.searchenginejournal.com/ai-shopping-get-your-products-found-in-google-chatgpt-recap/594889/",
-      "pushed_at": "2026-11-03",
-      "title": "AI Shopping: Get Your Products Found In Google & ChatGPT via @sejournal, @hethr_campbell",
+      "url": "https://github.com/karpathy/nanochat",
+      "pushed_at": "2026-11-04",
+      "title": "karpathy/nanochat",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "pushed_at": "2026-11-03",
-      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "pushed_at": "2026-11-04",
+      "title": "Anthropic is still grappling with the economics of compute",
       "score": 8
     },
     {
-      "url": "http://www.geekpark.net/news/373358",
-      "pushed_at": "2026-11-03",
-      "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
+      "url": "http://www.geekpark.net/news/373424",
+      "pushed_at": "2026-11-04",
+      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
       "score": 8
     },
     {
-      "url": "https://www.qbitai.com/2026/11/507322.html",
-      "pushed_at": "2026-11-03",
-      "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
+      "url": "https://www.ifanr.com/1687285?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-04",
+      "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
       "score": 8
     },
     {
-      "url": "https://www.qbitai.com/2026/11/507107.html",
-      "pushed_at": "2026-11-03",
-      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "url": "https://www.ifanr.com/1687274?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-04",
+      "title": "不穿的旧衣服呢？放「AI 版转转」，毛利 80%",
       "score": 8
     },
     {
-      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-      "pushed_at": "2026-11-03",
-      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "url": "https://github.com/argeuthiesen/claudinho",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: Claudinho – Claude Code's mascot on an ESP32, driven by hooks",
       "score": 8
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-      "pushed_at": "2026-11-03",
-      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "pushed_at": "2026-11-04",
+      "title": "Nvidia – open-source auto-ontology",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
+      "pushed_at": "2026-11-04",
+      "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/imapphelp/my-mermaid-renderer-taught-me-that-headless-chrome-is-a-300mb-tax-on-every-deploy-178p",
+      "pushed_at": "2026-11-04",
+      "title": "My Mermaid renderer taught me that headless Chrome is a 300MB tax on every deploy",
       "score": 7
     },
     {
-      "url": "https://simonwillison.net/2026/Nov/2/llm/",
-      "pushed_at": "2026-11-03",
-      "title": "llm 0.37",
+      "url": "https://dev.to/neuraitool/how-revolut-cut-its-ai-coding-bill-90-by-self-hosting-an-open-weight-model-55co",
+      "pushed_at": "2026-11-04",
+      "title": "How Revolut Cut Its AI Coding Bill 90% by Self-Hosting an Open-Weight Model",
       "score": 7
     },
     {
-      "url": "https://github.com/pingdotgg/t3code",
-      "pushed_at": "2026-11-03",
-      "title": "pingdotgg/t3code",
+      "url": "https://github.com/JustVugg/colibri",
+      "pushed_at": "2026-11-04",
+      "title": "JustVugg/colibri",
       "score": 7
     },
     {
-      "url": "https://github.com/FlashML-org/FreeToken",
-      "pushed_at": "2026-11-03",
-      "title": "FlashML-org/FreeToken",
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-11-04",
+      "title": "mattpocock/skills",
       "score": 7
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xmhjpi/i_built_567_politics_the_antiragebait_news/",
-      "pushed_at": "2026-11-03",
-      "title": "I built 567 Politics, the anti-ragebait news platform",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "pushed_at": "2026-11-04",
+      "title": "max-sixty/worktrunk",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-      "pushed_at": "2026-11-03",
-      "title": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://github.com/kornia/kornia",
+      "pushed_at": "2026-11-04",
+      "title": "kornia/kornia",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "pushed_at": "2026-11-03",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "pushed_at": "2026-11-04",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-      "pushed_at": "2026-11-03",
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "pushed_at": "2026-11-04",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
       "score": 7
     },
     {
-      "url": "https://www.ifanr.com/1687094?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-03",
-      "title": "卡帕西用Claude两小时重做了YouTube，每个人都能拥有一个自己的互联网",
+      "url": "https://github.com/crimeacs/OpenPetCam",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: OpenPetCam – a self-hosted pet camera that goes looking for your dog",
       "score": 7
     },
     {
-      "url": "https://smatt989.github.io/agentremote-site/",
-      "pushed_at": "2026-11-03",
-      "title": "Show HN: Share agents and context across devices",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "pushed_at": "2026-11-04",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/11/507277.html",
-      "pushed_at": "2026-11-03",
-      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "pushed_at": "2026-11-04",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
       "score": 7
     },
     {
-      "url": "https://sspai.com/post/118232",
-      "pushed_at": "2026-11-03",
-      "title": "派早报：猛玛推出探境 3 直播相机、美团发布 LongCat-2.5 模型等",
+      "url": "https://www.qbitai.com/2026/11/507367.html",
+      "pushed_at": "2026-11-04",
+      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
       "score": 7
     },
     {
-      "url": "https://sspai.com/post/118240",
-      "pushed_at": "2026-11-03",
-      "title": "派评 | 近期值得关注的 App",
+      "url": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36",
+      "pushed_at": "2026-11-04",
+      "title": "Mistral Large 4 以开放权重发布并附技术报告",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk",
-      "pushed_at": "2026-11-03",
-      "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
+      "url": "https://aihot.news/items/uinaiwkzg4u2exkfgv4oha9p7",
+      "pushed_at": "2026-11-04",
+      "title": "Addy Osmani 谈 Agent 时代如何保持批判性思维",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv",
-      "pushed_at": "2026-11-03",
-      "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/ai-backlash-heads-to-the-polls",
-      "pushed_at": "2026-11-03",
-      "title": "AI backlash heads to the polls",
+      "url": "https://dev.to/moktar_cffd734aa15706ed2c/how-to-deploy-n8n-in-queue-mode-on-hetzner-for-5mo-beat-zapiers-500mo-bill-9bb",
+      "pushed_at": "2026-11-04",
+      "title": "How to Deploy n8n in \"Queue Mode\" on Hetzner for $5/mo (Beat Zapier's $500/mo Bill)",
       "score": 6
     },
     {
       "url": "https://github.com/thedotmack/claude-mem",
-      "pushed_at": "2026-11-03",
+      "pushed_at": "2026-11-04",
       "title": "thedotmack/claude-mem",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "pushed_at": "2026-11-03",
-      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "pushed_at": "2026-11-04",
+      "title": "Donchitos/Claude-Code-Game-Studios",
       "score": 6
     },
     {
-      "url": "https://github.com/patchy631/ai-engineering-hub",
-      "pushed_at": "2026-11-03",
-      "title": "patchy631/ai-engineering-hub",
+      "url": "https://github.com/pingdotgg/t3code",
+      "pushed_at": "2026-11-04",
+      "title": "pingdotgg/t3code",
       "score": 6
     },
     {
-      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "pushed_at": "2026-11-03",
-      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://github.com/paperclipai/paperclip",
+      "pushed_at": "2026-11-04",
+      "title": "paperclipai/paperclip",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xmewrw/just_say_it_a_meeting_app_where_an_ai_adds/",
-      "pushed_at": "2026-11-03",
-      "title": "Just Say It - a meeting app where an AI adds context while you talk",
+      "url": "https://github.com/p-e-w/heretic",
+      "pushed_at": "2026-11-04",
+      "title": "p-e-w/heretic",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xmckxm/roadie_a_mac_menu_bar_app_that_stops_macos_from/",
-      "pushed_at": "2026-11-03",
-      "title": "Roadie - a Mac menu bar app that stops macOS from switching your mic to the wrong device",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "pushed_at": "2026-11-04",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "pushed_at": "2026-11-03",
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://trends.vc/how-can-a-team-of-10-build-like-a-company-of-thousands/",
+      "pushed_at": "2026-11-04",
+      "title": "🐜 How Can a Team of 10 Build Like a Company of Thousands?",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-      "pushed_at": "2026-11-03",
-      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "pushed_at": "2026-11-04",
+      "title": "Palette: teaching a small model to build decks in your design language",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "pushed_at": "2026-11-03",
-      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "pushed_at": "2026-11-04",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
       "score": 6
     },
     {
-      "url": "https://www.searchenginejournal.com/3-ai-models-shopped-shopifys-catalog-each-picked-a-different-winner/594298/",
-      "pushed_at": "2026-11-03",
-      "title": "3 AI Models Shopped Shopify’s Catalog – Each Picked A Different Winner via @sejournal, @slobodanmanic",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "pushed_at": "2026-11-04",
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/11/507313.html",
-      "pushed_at": "2026-11-03",
-      "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "pushed_at": "2026-11-04",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
       "score": 6
     },
     {
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "pushed_at": "2026-11-03",
-      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://github.com/tripathiamritansh/adbdock",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: ADB dock a macOS menu bar app to wirelessly connect Android devices",
       "score": 6
     },
     {
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "pushed_at": "2026-11-03",
-      "title": "milind-soni/OpenMausBot",
+      "url": "https://tempmailboxes.com",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: Temp Email for Developers and Agents",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1687259?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-04",
+      "title": "苹果的一切都在变贵，全怪 AI",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/ahmedessam090/pptx-to-pdf",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN:Pptx-to-Pdf – Convert PowerPoint to PDF in Node.js Without LibreOffice",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/anima-universe/character-ai-chat-exporter",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: Export your Character.AI chats in minutes – open-source, runs locally",
+      "score": 6
+    },
+    {
+      "url": "https://modelpeers.com",
+      "pushed_at": "2026-11-04",
+      "title": "Show HN: Modelpeers – a changelog for the AI models and agents you use",
+      "score": 6
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "pushed_at": "2026-11-04",
+      "title": "Google will turn off search for schools that reject AI",
+      "score": 6
+    },
+    {
+      "url": "https://neufangled.com/",
+      "pushed_at": "2026-11-04",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/507382.html",
+      "pushed_at": "2026-11-04",
+      "title": "A社紧急修改招股书！RSI我们快要控制不住了",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/507419.html",
+      "pushed_at": "2026-11-04",
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "score": 6
+    },
+    {
+      "url": "https://sspai.com/post/118402",
+      "pushed_at": "2026-11-04",
+      "title": "派早报：Apple 智能国行版开放测试、拓竹发布 H3C 3D 打印机等",
+      "score": 6
+    },
+    {
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "pushed_at": "2026-11-04",
+      "title": "Why we're moving our warehouse off DuckDB",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j",
+      "pushed_at": "2026-11-04",
+      "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
+      "pushed_at": "2026-11-04",
+      "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "pushed_at": "2026-11-04",
+      "title": "D4Vinci/Scrapling",
       "score": 5
     },
     {
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-      "pushed_at": "2026-11-03",
-      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "pushed_at": "2026-11-04",
+      "title": "How “reverse game theory” could keep AI agents in check",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xme911/my_last_post_got_75_comments_asking_how_a_free/",
-      "pushed_at": "2026-11-03",
-      "title": "My last post got 75 comments asking how a free Chrome extension makes money. Here are the straight answers.",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "pushed_at": "2026-11-04",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xme54z/im_an_interior_designer_started_building_apps/",
-      "pushed_at": "2026-11-03",
-      "title": "I'm an interior designer, started building apps, where to now?",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "pushed_at": "2026-11-04",
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "pushed_at": "2026-11-03",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "score": 5
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652739675&idx=2&sn=b148284244428623d1d6ac8a2b897f31",
-      "pushed_at": "2026-11-03",
-      "title": "31岁华人女工程师离世！ChatGPT被控25天诱导停药，27万条聊天曝光",
-      "score": 5
-    },
-    {
-      "url": "https://negativeabsence.com/wisteria/",
-      "pushed_at": "2026-11-03",
-      "title": "Show HN: Project Wisteria-A BYOK chatbot that saves thoughts and memory locally",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/507367.html",
-      "pushed_at": "2026-11-03",
-      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/507150.html",
-      "pushed_at": "2026-11-03",
-      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
-      "score": 5
-    },
-    {
-      "url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
-      "pushed_at": "2026-11-03",
-      "title": "Stop Hardcoding Your Timeouts",
-      "score": 5
-    },
-    {
-      "url": "https://openai.com/index/scaling-git-at-openai/",
-      "pushed_at": "2026-11-03",
-      "title": "Scaling Git at OpenAI",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/l37ydaic43icz85huclc2io6c",
-      "pushed_at": "2026-11-03",
-      "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/togg53192-cmd/jailbreaks",
-      "pushed_at": "2026-11-03",
-      "title": "togg53192-cmd/jailbreaks",
-      "score": 4
     }
   ]
 }
