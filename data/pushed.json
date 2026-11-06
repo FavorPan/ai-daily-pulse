@@ -1,412 +1,352 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/infurno/why-i-stopped-sending-my-voice-notes-to-openai-and-built-my-own-engine-in-go-g09",
-      "pushed_at": "2026-11-05",
-      "title": "Why I Stopped Sending My Voice Notes to OpenAI (And Built My Own Engine in Go)",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "pushed_at": "2026-11-06",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "score": 9
+    },
+    {
+      "url": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra",
+      "pushed_at": "2026-11-06",
+      "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
+      "score": 9
+    },
+    {
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "pushed_at": "2026-11-06",
+      "title": "NVIDIA/auto-ontology",
       "score": 8
-    },
-    {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "pushed_at": "2026-11-05",
-      "title": "thedotmack/claude-mem",
-      "score": 8
-    },
-    {
-      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
-      "pushed_at": "2026-11-05",
-      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/mattpocock/skills",
-      "pushed_at": "2026-11-05",
-      "title": "mattpocock/skills",
-      "score": 8
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "pushed_at": "2026-11-05",
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "score": 8
-    },
-    {
-      "url": "https://trends.vc/instant-course-apps-exam-date-pricing-free-study-modes-cram-and-cancel/",
-      "pushed_at": "2026-11-05",
-      "title": "Instant Course Apps: Exam-Date Pricing, Free Study Modes, Cram-And-Cancel",
-      "score": 8
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740261&idx=3&sn=909eccd24098bcb2c52a24856fcd1ece",
-      "pushed_at": "2026-11-05",
-      "title": "5000词需求文档，Claude也只能交付14%！实测28种Agent组合",
-      "score": 8
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740261&idx=2&sn=ad848ca27112af01508620b4099ac007",
-      "pushed_at": "2026-11-05",
-      "title": "普林斯顿CS女学霸，突然告别Anthropic！一手带火Claude Code",
-      "score": 8
-    },
-    {
-      "url": "https://www.ifanr.com/1687508?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-05",
-      "title": "Claude 开始拒绝抄游戏，但可能已经太晚了",
-      "score": 8
-    },
-    {
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "pushed_at": "2026-11-05",
-      "title": "Kimi K3.1 Pro model weights are out",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/zoghlamimostafa/BrowserForge-MCP",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: BrowserForge – AI agents use your real browser, you approve the clicks",
-      "score": 8
-    },
-    {
-      "url": "https://univerlab.org/canopy/",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: Canopy, a cross-platform DAG engine for agents CLI",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
-      "pushed_at": "2026-11-05",
-      "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/mr_abier/best-image-to-video-ai-platforms-for-shot-control-2026-4bp0",
-      "pushed_at": "2026-11-05",
-      "title": "Best Image to Video AI Platforms for Shot Control (2026)",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/li_david_596896744329c19a/a-free-mcp-server-and-api-for-wheel-fitment-data-bolt-pattern-center-bore-offset-g18",
-      "pushed_at": "2026-11-05",
-      "title": "A free MCP server and API for wheel fitment data (bolt pattern, center bore, offset)",
-      "score": 7
     },
     {
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "pushed_at": "2026-11-05",
+      "pushed_at": "2026-11-06",
       "title": "vercel-labs/agent-desktop",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/garrytan/gstack",
+      "pushed_at": "2026-11-06",
+      "title": "garrytan/gstack",
+      "score": 8
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "pushed_at": "2026-11-06",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247939889&idx=3&sn=4222751c75f7010c476c38293c5ed091",
+      "pushed_at": "2026-11-06",
+      "title": "淘宝MNN团队开源0.3B手机模型，iPhone 18 Pro上离线跑出350 token/s",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-06",
+      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1687778?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-06",
+      "title": "GPT Images 2.6 突然发布，蓝色大肥鱼实现 GIF 表情包自由",
+      "score": 8
+    },
+    {
+      "url": "https://sspai.com/post/118587",
+      "pushed_at": "2026-11-06",
+      "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/llmbrake/llmbrake",
+      "pushed_at": "2026-11-06",
+      "title": "Show HN: LLMBrake – Per-customer dollar caps for OpenAI/Anthropic API calls",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
+      "pushed_at": "2026-11-06",
+      "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
+      "pushed_at": "2026-11-06",
+      "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+      "pushed_at": "2026-11-06",
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+      "pushed_at": "2026-11-06",
+      "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
+      "pushed_at": "2026-11-06",
+      "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
+      "score": 8
+    },
+    {
+      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+      "pushed_at": "2026-11-06",
+      "title": "[AINews] It's Swapping Season",
       "score": 7
     },
     {
-      "url": "https://github.com/JustVugg/colibri",
-      "pushed_at": "2026-11-05",
-      "title": "JustVugg/colibri",
+      "url": "https://dev.to/scara_ilands/the-endpoint-said-200-nothing-happened-2cbl",
+      "pushed_at": "2026-11-06",
+      "title": "The endpoint said 200. Nothing happened.",
       "score": 7
     },
     {
-      "url": "https://github.com/p-e-w/heretic",
-      "pushed_at": "2026-11-05",
-      "title": "p-e-w/heretic",
+      "url": "https://dev.to/voice_developer/optimizing-elevenlabs-api-calls-for-better-performance-4k7d",
+      "pushed_at": "2026-11-06",
+      "title": "Optimizing ElevenLabs API Calls for Better Performance",
       "score": 7
-    },
-    {
-      "url": "https://github.com/spotify/portal-ai-plugins",
-      "pushed_at": "2026-11-05",
-      "title": "spotify/portal-ai-plugins",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "pushed_at": "2026-11-05",
-      "title": "Usagi-org/ai-goofish-monitor",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "pushed_at": "2026-11-05",
-      "title": "D4Vinci/Scrapling",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "pushed_at": "2026-11-05",
-      "title": "shiyu-coder/Kronos",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "pushed_at": "2026-11-05",
-      "title": "Donchitos/Claude-Code-Game-Studios",
-      "score": 7
-    },
-    {
-      "url": "https://www.searchenginejournal.com/businesses-treat-your-ai-agent-3-different-ways/595483/",
-      "pushed_at": "2026-11-05",
-      "title": "Businesses Treat Your AI Agent 3 Different Ways via @sejournal, @slobodanmanic",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1687733?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-05",
-      "title": "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1687585?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-05",
-      "title": "连夜实测 iPhone 国行 AI，亮点和槽点都在这了",
-      "score": 7
-    },
-    {
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
-      "pushed_at": "2026-11-05",
-      "title": "AMD expects to outsell Intel in Q4 for the first time in history",
-      "score": 7
-    },
-    {
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "pushed_at": "2026-11-05",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "score": 7
-    },
-    {
-      "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
-      "pushed_at": "2026-11-05",
-      "title": "US voters roundly reject data centers in ballot measures",
-      "score": 7
-    },
-    {
-      "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
-      "pushed_at": "2026-11-05",
-      "title": "North Korean fake job interview led to $6.3B Binance heist",
-      "score": 7
-    },
-    {
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "pushed_at": "2026-11-05",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ag3ntsc4rn/autorun-audit",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: Autorun-audit – find what runs when you open, CD into or install a repo",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/akustikrausch/amigent",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: Amigent – AI agent and remote desktop for Commodore Amiga over 50 KB/s",
-      "score": 7
-    },
-    {
-      "url": "https://host0.ai",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: I built a hosting for small AI-generated software",
-      "score": 7
-    },
-    {
-      "url": "https://sspai.com/post/118498",
-      "pushed_at": "2026-11-05",
-      "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
-      "score": 7
-    },
-    {
-      "url": "https://sspai.com/post/117713",
-      "pushed_at": "2026-11-05",
-      "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
-      "pushed_at": "2026-11-05",
-      "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
-      "pushed_at": "2026-11-05",
-      "title": "美国中期选举投票限制 AI 与数据中心，Big Tech 称这是反特朗普而非反科技",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/omegaelite_483a61ee65bb3a/the-fake-coding-test-behind-the-63b-binance-hack-and-what-developers-should-take-from-it-5d5p",
-      "pushed_at": "2026-11-05",
-      "title": "The fake coding test behind the $6.3B Binance hack, and what developers should take from it",
-      "score": 6
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/apple-cracks-the-door-open-to-siri-ai",
-      "pushed_at": "2026-11-05",
-      "title": "Apple cracks the door open to Siri AI",
-      "score": 6
     },
     {
       "url": "https://github.com/max-sixty/worktrunk",
-      "pushed_at": "2026-11-05",
+      "pushed_at": "2026-11-06",
       "title": "max-sixty/worktrunk",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/voice_developer/how-to-use-elevenlabs-with-wordpress-1ghf",
+      "pushed_at": "2026-11-06",
+      "title": "How to Use ElevenLabs with WordPress",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "pushed_at": "2026-11-06",
+      "title": "thedotmack/claude-mem",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "pushed_at": "2026-11-06",
+      "title": "The-PR-Agent/pr-agent",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "pushed_at": "2026-11-06",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-11-06",
+      "title": "mattpocock/skills",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/scenario-labs/skills",
+      "pushed_at": "2026-11-06",
+      "title": "scenario-labs/skills",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "pushed_at": "2026-11-06",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "pushed_at": "2026-11-06",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "pushed_at": "2026-11-06",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "pushed_at": "2026-11-06",
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740513&idx=3&sn=3e2d104cc6a5ee3a4d55d8bc7826753e",
+      "pushed_at": "2026-11-06",
+      "title": "模型能感知调整3D物体位姿吗？首个交互式投影对齐空间推理基准",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1687912?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-06",
+      "title": "Chromebook 统治美国校园，AI 成了没得选的「套餐」",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/507782.html",
+      "pushed_at": "2026-11-06",
+      "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/507787.html",
+      "pushed_at": "2026-11-06",
+      "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "score": 7
+    },
+    {
+      "url": "https://lovro-bikic.github.io/software-line-specialist/",
+      "pushed_at": "2026-11-06",
+      "title": "Software Line Specialist",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
+      "pushed_at": "2026-11-06",
+      "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
+      "score": 7
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls",
+      "pushed_at": "2026-11-06",
+      "title": "AI agents can now make your phone calls",
       "score": 6
     },
     {
-      "url": "https://github.com/anomalyco/hex",
-      "pushed_at": "2026-11-05",
-      "title": "anomalyco/hex",
+      "url": "https://github.com/floci-io/floci",
+      "pushed_at": "2026-11-06",
+      "title": "floci-io/floci",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xo3zol/vibe_coded_a_local_alternative_to_adobe_podcast/",
-      "pushed_at": "2026-11-05",
-      "title": "Vibe Coded a local alternative to Adobe Podcast Studio",
+      "url": "https://github.com/github/spec-kit",
+      "pushed_at": "2026-11-06",
+      "title": "github/spec-kit",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xo3fri/crowdstamped_turning_group_chats_into_physical/",
-      "pushed_at": "2026-11-05",
-      "title": "Crowdstamped: Turning Group Chats into Physical Mailboxes Full of Postcards",
+      "url": "https://github.com/Thysrael/Horizon",
+      "pushed_at": "2026-11-06",
+      "title": "Thysrael/Horizon",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xo3117/side_project_for_december_24_doors_you_fill_they/",
-      "pushed_at": "2026-11-05",
-      "title": "Side project for December: 24 doors you fill, they open one a day wherever the other person is",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "pushed_at": "2026-11-06",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xnsdld/i_spent_500_usd_on_content_and_still_ended_up/",
-      "pushed_at": "2026-11-05",
-      "title": "I spent 500 USD on content and still ended up doing half the work, so I built an open source MCP workflow",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "pushed_at": "2026-11-06",
+      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
       "score": 6
     },
     {
-      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-november-4-2026",
-      "pushed_at": "2026-11-05",
-      "title": "New Ecommerce Tools: November 4, 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247939889&idx=1&sn=f257ff7009b022c2f25b2df09dd55bc0",
+      "pushed_at": "2026-11-06",
+      "title": "孩子的人生大事，你要怎样的AI？",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "pushed_at": "2026-11-05",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "pushed_at": "2026-11-06",
+      "title": "Claude Code sends your email address to websites",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "pushed_at": "2026-11-05",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://eremoterra.com/",
+      "pushed_at": "2026-11-06",
+      "title": "Show HN: Open-world text adventure played through AI agents",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "pushed_at": "2026-11-05",
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "url": "https://aihot.news/items/m725rhhdt7a38zdd3aappeofn",
+      "pushed_at": "2026-11-06",
+      "title": "李飞飞宣传 World Labs 发布 Frameboy，可实时体验 Atlas 世界模型",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "pushed_at": "2026-11-05",
-      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
+      "pushed_at": "2026-11-06",
+      "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "pushed_at": "2026-11-05",
-      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1687702?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-05",
-      "title": "Anthropic微微发力，AI中转站的天就要塌了？",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1687750?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-05",
-      "title": "早报｜苹果收紧员工Token预算/手机越卖越贵，全球手机出货量降19%/雷军：小米机器人在工厂「实习」8小时",
-      "score": 6
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "pushed_at": "2026-11-05",
-      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "score": 6
-    },
-    {
-      "url": "https://brainpot.cloud/",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: Multiplayer context – a brainpot if you will",
-      "score": 6
-    },
-    {
-      "url": "https://grzegorz.tanczyk.pl/diorama/",
-      "pushed_at": "2026-11-05",
-      "title": "Show HN: Diorama – Draw a world, play it with point and click",
-      "score": 6
-    },
-    {
-      "url": "https://sspai.com/post/115819",
-      "pushed_at": "2026-11-05",
-      "title": "微诗：从诗入画、且唱且行，这款免费 app 把诗装进手机",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/dh8lnoo1i3xiq7a12azrnmmwf",
-      "pushed_at": "2026-11-05",
-      "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98",
-      "pushed_at": "2026-11-05",
-      "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
-      "pushed_at": "2026-11-05",
-      "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xo4xxx/im_building_a_payperminute_expert_call/",
-      "pushed_at": "2026-11-05",
-      "title": "I'm building a pay-per-minute expert call marketplace as a small bootstrapped team. Feedback?",
+      "url": "https://dev.to/ashleybuilds/i-built-a-29-tool-to-stop-losing-decisions-in-meeting-transcripts-3nf0",
+      "pushed_at": "2026-11-06",
+      "title": "I built a $29 tool to stop losing decisions in meeting transcripts",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xnnj6z/guys_my_app_just_passed_2k_in_revenue/",
-      "pushed_at": "2026-11-05",
-      "title": "Guys, my app just passed 2k in revenue!",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "pushed_at": "2026-11-06",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xo5gfn/launched_a_private_meditation_journal_a_week_ago/",
-      "pushed_at": "2026-11-05",
-      "title": "Launched a private meditation journal a week ago: 2 real members, 0 paying. What I'm trying next",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "pushed_at": "2026-11-06",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
       "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740261&idx=1&sn=3ae30a3d5d9466d8bfdcb5bd4820a9b9",
-      "pushed_at": "2026-11-05",
-      "title": "全球唯二，百度抢先交卷！首个物理AI世界模型来了",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "pushed_at": "2026-11-06",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "pushed_at": "2026-11-05",
-      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "pushed_at": "2026-11-06",
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "pushed_at": "2026-11-05",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "url": "http://www.geekpark.net/news/373554",
+      "pushed_at": "2026-11-06",
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
-      "pushed_at": "2026-11-05",
-      "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
+      "url": "https://lecturetobook.com/",
+      "pushed_at": "2026-11-06",
+      "title": "Show HN: Convert recorded class lectures into PDF/eBooks",
       "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
+      "pushed_at": "2026-11-06",
+      "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+      "pushed_at": "2026-11-06",
+      "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
+      "pushed_at": "2026-11-06",
+      "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "pushed_at": "2026-11-06",
+      "title": "D4Vinci/Scrapling",
+      "score": 4
     }
   ]
 }
