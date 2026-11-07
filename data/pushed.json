@@ -1,352 +1,208 @@
 {
   "pushed": [
     {
-      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-      "pushed_at": "2026-11-06",
-      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "pushed_at": "2026-11-07",
+      "title": "vercel-labs/agent-browser",
       "score": 9
     },
     {
-      "url": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra",
-      "pushed_at": "2026-11-06",
-      "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "pushed_at": "2026-11-07",
+      "title": "Gemini Omni 1.2 Flash",
       "score": 9
-    },
-    {
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "pushed_at": "2026-11-06",
-      "title": "NVIDIA/auto-ontology",
-      "score": 8
     },
     {
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "pushed_at": "2026-11-06",
+      "pushed_at": "2026-11-07",
       "title": "vercel-labs/agent-desktop",
       "score": 8
     },
     {
-      "url": "https://github.com/garrytan/gstack",
-      "pushed_at": "2026-11-06",
-      "title": "garrytan/gstack",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "pushed_at": "2026-11-07",
+      "title": "ConardLi/garden-skills",
       "score": 8
     },
     {
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "pushed_at": "2026-11-06",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "pushed_at": "2026-11-07",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247939889&idx=3&sn=4222751c75f7010c476c38293c5ed091",
-      "pushed_at": "2026-11-06",
-      "title": "淘宝MNN团队开源0.3B手机模型，iPhone 18 Pro上离线跑出350 token/s",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "pushed_at": "2026-11-07",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-06",
-      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "url": "http://www.geekpark.net/news/373639",
+      "pushed_at": "2026-11-07",
+      "title": "马斯克官宣 Cybertruck 停产：销量不足预期一成；李飞飞团队推出世界模型「模拟掌机」；小米汽车成立国际事业部｜极客早知道",
       "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1687778?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-06",
-      "title": "GPT Images 2.6 突然发布，蓝色大肥鱼实现 GIF 表情包自由",
+      "url": "http://www.geekpark.net/news/373637",
+      "pushed_at": "2026-11-07",
+      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
       "score": 8
     },
     {
-      "url": "https://sspai.com/post/118587",
-      "pushed_at": "2026-11-06",
-      "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/llmbrake/llmbrake",
-      "pushed_at": "2026-11-06",
-      "title": "Show HN: LLMBrake – Per-customer dollar caps for OpenAI/Anthropic API calls",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
-      "pushed_at": "2026-11-06",
-      "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
-      "pushed_at": "2026-11-06",
-      "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
-      "pushed_at": "2026-11-06",
-      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-      "pushed_at": "2026-11-06",
-      "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
-      "pushed_at": "2026-11-06",
-      "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
-      "score": 8
-    },
-    {
-      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
-      "pushed_at": "2026-11-06",
-      "title": "[AINews] It's Swapping Season",
+      "url": "https://dev.to/zoymusk/i-made-two-free-ai-models-review-each-others-code-in-one-switch-room-3fk5",
+      "pushed_at": "2026-11-07",
+      "title": "I made two free AI models review each other's code in one Switch room.",
       "score": 7
     },
     {
-      "url": "https://dev.to/scara_ilands/the-endpoint-said-200-nothing-happened-2cbl",
-      "pushed_at": "2026-11-06",
-      "title": "The endpoint said 200. Nothing happened.",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/voice_developer/optimizing-elevenlabs-api-calls-for-better-performance-4k7d",
-      "pushed_at": "2026-11-06",
-      "title": "Optimizing ElevenLabs API Calls for Better Performance",
+      "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup",
+      "pushed_at": "2026-11-07",
+      "title": "An inside look at Anthropic’s AI speedup",
       "score": 7
     },
     {
       "url": "https://github.com/max-sixty/worktrunk",
-      "pushed_at": "2026-11-06",
+      "pushed_at": "2026-11-07",
       "title": "max-sixty/worktrunk",
       "score": 7
     },
     {
-      "url": "https://dev.to/voice_developer/how-to-use-elevenlabs-with-wordpress-1ghf",
-      "pushed_at": "2026-11-06",
-      "title": "How to Use ElevenLabs with WordPress",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "pushed_at": "2026-11-07",
+      "title": "microsoft/VibeVoice",
       "score": 7
     },
     {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "pushed_at": "2026-11-06",
-      "title": "thedotmack/claude-mem",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "pushed_at": "2026-11-07",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
       "score": 7
     },
     {
-      "url": "https://github.com/The-PR-Agent/pr-agent",
-      "pushed_at": "2026-11-06",
-      "title": "The-PR-Agent/pr-agent",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "pushed_at": "2026-11-07",
+      "title": "Underdog shows off a 32MB speech model in new demo",
       "score": 7
     },
     {
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "pushed_at": "2026-11-06",
-      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "pushed_at": "2026-11-07",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
       "score": 7
     },
     {
-      "url": "https://github.com/mattpocock/skills",
-      "pushed_at": "2026-11-06",
-      "title": "mattpocock/skills",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "pushed_at": "2026-11-07",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "score": 7
     },
     {
-      "url": "https://github.com/scenario-labs/skills",
-      "pushed_at": "2026-11-06",
-      "title": "scenario-labs/skills",
+      "url": "https://ajx.dev/",
+      "pushed_at": "2026-11-07",
+      "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "pushed_at": "2026-11-06",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
+      "pushed_at": "2026-11-07",
+      "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-      "pushed_at": "2026-11-06",
-      "title": "Axiom Math wants to keep AI slop out of mathematics",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "pushed_at": "2026-11-06",
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-      "pushed_at": "2026-11-06",
-      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "score": 7
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740513&idx=3&sn=3e2d104cc6a5ee3a4d55d8bc7826753e",
-      "pushed_at": "2026-11-06",
-      "title": "模型能感知调整3D物体位姿吗？首个交互式投影对齐空间推理基准",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1687912?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-06",
-      "title": "Chromebook 统治美国校园，AI 成了没得选的「套餐」",
-      "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/507782.html",
-      "pushed_at": "2026-11-06",
-      "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
-      "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/507787.html",
-      "pushed_at": "2026-11-06",
-      "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
-      "score": 7
-    },
-    {
-      "url": "https://lovro-bikic.github.io/software-line-specialist/",
-      "pushed_at": "2026-11-06",
-      "title": "Software Line Specialist",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
-      "pushed_at": "2026-11-06",
-      "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls",
-      "pushed_at": "2026-11-06",
-      "title": "AI agents can now make your phone calls",
+      "url": "https://dev.to/evanmiller4538/engineering-low-light-video-diffusion-spatial-identity-preservation-in-club-spotlight-ai-3nap",
+      "pushed_at": "2026-11-07",
+      "title": "Engineering Low-Light Video Diffusion: Spatial Identity Preservation in Club Spotlight AI",
       "score": 6
     },
     {
-      "url": "https://github.com/floci-io/floci",
-      "pushed_at": "2026-11-06",
-      "title": "floci-io/floci",
+      "url": "https://dev.to/gosha70/tracing-for-coding-agents-that-redacts-before-it-writes-and-never-reportsan-unknown-as-a-zero-159h",
+      "pushed_at": "2026-11-07",
+      "title": "Tracing for coding agents that redacts before it writes — and never reports an unknown as a zero",
       "score": 6
     },
     {
-      "url": "https://github.com/github/spec-kit",
-      "pushed_at": "2026-11-06",
-      "title": "github/spec-kit",
+      "url": "https://dev.to/umar_bilal_fd6e1f54398cec/a-self-improving-ai-system-for-a-gas-compressor-fleet-in-saudi-arabia-3n18",
+      "pushed_at": "2026-11-07",
+      "title": "A Self-Improving AI System for a Gas Compressor Fleet in Saudi Arabia",
       "score": 6
     },
     {
-      "url": "https://github.com/Thysrael/Horizon",
-      "pushed_at": "2026-11-06",
-      "title": "Thysrael/Horizon",
+      "url": "https://dev.to/getmultio/we-asked-5-ai-models-the-same-24-questions-they-agreed-on-the-facts-and-split-on-almost-every-2c47",
+      "pushed_at": "2026-11-07",
+      "title": "We asked 5 AI models the same 24 questions. They agreed on the facts — and split on almost every judgment call.",
       "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-      "pushed_at": "2026-11-06",
-      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "pushed_at": "2026-11-06",
-      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247939889&idx=1&sn=f257ff7009b022c2f25b2df09dd55bc0",
-      "pushed_at": "2026-11-06",
-      "title": "孩子的人生大事，你要怎样的AI？",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "pushed_at": "2026-11-06",
-      "title": "Claude Code sends your email address to websites",
-      "score": 6
-    },
-    {
-      "url": "https://eremoterra.com/",
-      "pushed_at": "2026-11-06",
-      "title": "Show HN: Open-world text adventure played through AI agents",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/m725rhhdt7a38zdd3aappeofn",
-      "pushed_at": "2026-11-06",
-      "title": "李飞飞宣传 World Labs 发布 Frameboy，可实时体验 Atlas 世界模型",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
-      "pushed_at": "2026-11-06",
-      "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/ashleybuilds/i-built-a-29-tool-to-stop-losing-decisions-in-meeting-transcripts-3nf0",
-      "pushed_at": "2026-11-06",
-      "title": "I built a $29 tool to stop losing decisions in meeting transcripts",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "pushed_at": "2026-11-06",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "pushed_at": "2026-11-06",
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "pushed_at": "2026-11-06",
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "pushed_at": "2026-11-06",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "score": 5
-    },
-    {
-      "url": "http://www.geekpark.net/news/373554",
-      "pushed_at": "2026-11-06",
-      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
-      "score": 5
-    },
-    {
-      "url": "https://lecturetobook.com/",
-      "pushed_at": "2026-11-06",
-      "title": "Show HN: Convert recorded class lectures into PDF/eBooks",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
-      "pushed_at": "2026-11-06",
-      "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
-      "pushed_at": "2026-11-06",
-      "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
-      "pushed_at": "2026-11-06",
-      "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
-      "score": 5
     },
     {
       "url": "https://github.com/D4Vinci/Scrapling",
-      "pushed_at": "2026-11-06",
+      "pushed_at": "2026-11-07",
       "title": "D4Vinci/Scrapling",
-      "score": 4
+      "score": 6
+    },
+    {
+      "url": "https://github.com/scenario-labs/skills",
+      "pushed_at": "2026-11-07",
+      "title": "scenario-labs/skills",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xpp39s/techtitan_evaluate_your_hand_posture_while_you/",
+      "pushed_at": "2026-11-07",
+      "title": "techtitan - evaluate your hand posture while you play piano in real-time",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "pushed_at": "2026-11-07",
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "pushed_at": "2026-11-07",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "score": 6
+    },
+    {
+      "url": "https://sspai.com/post/118570",
+      "pushed_at": "2026-11-07",
+      "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
+      "score": 6
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50399637",
+      "pushed_at": "2026-11-07",
+      "title": "Show HN: I asked HN about AI agentic setups, here are 750 of the comments mapped",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+      "pushed_at": "2026-11-07",
+      "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/google/skills",
+      "pushed_at": "2026-11-07",
+      "title": "google/skills",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xpmc8e/devdeck_i_built_a_phone_app_for_my_coding_agents/",
+      "pushed_at": "2026-11-07",
+      "title": "DevDeck - I built a phone app for my coding agents because ssh over a bad connection was driving me nuts",
+      "score": 5
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "pushed_at": "2026-11-07",
+      "title": "Inside GitHub's new Git storage architecture",
+      "score": 5
+    },
+    {
+      "url": "https://journalistic.tech/",
+      "pushed_at": "2026-11-07",
+      "title": "Show HN: We built an async interview engine to get published on HackerNoon",
+      "score": 5
     }
   ]
 }
