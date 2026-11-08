@@ -1,207 +1,129 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "pushed_at": "2026-11-07",
-      "title": "vercel-labs/agent-browser",
-      "score": 9
-    },
-    {
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "pushed_at": "2026-11-07",
-      "title": "Gemini Omni 1.2 Flash",
-      "score": 9
-    },
-    {
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "pushed_at": "2026-11-07",
-      "title": "vercel-labs/agent-desktop",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "pushed_at": "2026-11-08",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
       "score": 8
     },
     {
-      "url": "https://github.com/ConardLi/garden-skills",
-      "pushed_at": "2026-11-07",
-      "title": "ConardLi/garden-skills",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=1&sn=cc1cb3ac7a41751da340610d4cb316ab",
+      "pushed_at": "2026-11-08",
+      "title": "全民RSI时代来了？第一批中国玩家，已经在家让AI造AI",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "pushed_at": "2026-11-07",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
+      "pushed_at": "2026-11-08",
+      "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
       "score": 8
     },
     {
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "pushed_at": "2026-11-07",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "score": 8
-    },
-    {
-      "url": "http://www.geekpark.net/news/373639",
-      "pushed_at": "2026-11-07",
-      "title": "马斯克官宣 Cybertruck 停产：销量不足预期一成；李飞飞团队推出世界模型「模拟掌机」；小米汽车成立国际事业部｜极客早知道",
-      "score": 8
-    },
-    {
-      "url": "http://www.geekpark.net/news/373637",
-      "pushed_at": "2026-11-07",
-      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/zoymusk/i-made-two-free-ai-models-review-each-others-code-in-one-switch-room-3fk5",
-      "pushed_at": "2026-11-07",
-      "title": "I made two free AI models review each other's code in one Switch room.",
+      "url": "https://dev.to/phongmaker/bringing-muse-and-sam-31-to-chatbotx-an-omnichannel-chatbot-that-handles-voice-and-images-3a8k",
+      "pushed_at": "2026-11-08",
+      "title": "Bringing Muse and SAM 3.1 to ChatbotX: An Omnichannel Chatbot That Handles Voice and Images",
       "score": 7
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup",
-      "pushed_at": "2026-11-07",
-      "title": "An inside look at Anthropic’s AI speedup",
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-11-08",
+      "title": "mattpocock/skills",
       "score": 7
     },
     {
-      "url": "https://github.com/max-sixty/worktrunk",
-      "pushed_at": "2026-11-07",
-      "title": "max-sixty/worktrunk",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "pushed_at": "2026-11-08",
+      "title": "cloudflare/security-audit-skill",
       "score": 7
     },
     {
-      "url": "https://github.com/microsoft/VibeVoice",
-      "pushed_at": "2026-11-07",
-      "title": "microsoft/VibeVoice",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=2&sn=eb072be50e4bc4c0171023fd71e2d336",
+      "pushed_at": "2026-11-08",
+      "title": "破天荒！物理学「教皇」威滕33页独作致敬 AI，Claude提出关键构造",
       "score": 7
     },
     {
-      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-      "pushed_at": "2026-11-07",
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=3&sn=c947beb9d2b6ef1b8e04cfd4656a9f7a",
+      "pushed_at": "2026-11-08",
+      "title": "NeurIPS'26 | 如何减少共情推理中的错误传播？",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "pushed_at": "2026-11-07",
-      "title": "Underdog shows off a 32MB speech model in new demo",
+      "url": "https://github.com/alielmorsy/ywza",
+      "pushed_at": "2026-11-08",
+      "title": "Show HN: Ywza, a computer-use agent for your own PC, drivable from anywhere",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "pushed_at": "2026-11-07",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://tomclancy.info/joshua-judges-ruth.html",
+      "pushed_at": "2026-11-08",
+      "title": "Catching prompt injections hidden in PDFs",
       "score": 7
-    },
-    {
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "pushed_at": "2026-11-07",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "score": 7
-    },
-    {
-      "url": "https://ajx.dev/",
-      "pushed_at": "2026-11-07",
-      "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
-      "pushed_at": "2026-11-07",
-      "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/evanmiller4538/engineering-low-light-video-diffusion-spatial-identity-preservation-in-club-spotlight-ai-3nap",
-      "pushed_at": "2026-11-07",
-      "title": "Engineering Low-Light Video Diffusion: Spatial Identity Preservation in Club Spotlight AI",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/gosha70/tracing-for-coding-agents-that-redacts-before-it-writes-and-never-reportsan-unknown-as-a-zero-159h",
-      "pushed_at": "2026-11-07",
-      "title": "Tracing for coding agents that redacts before it writes — and never reports an unknown as a zero",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/umar_bilal_fd6e1f54398cec/a-self-improving-ai-system-for-a-gas-compressor-fleet-in-saudi-arabia-3n18",
-      "pushed_at": "2026-11-07",
-      "title": "A Self-Improving AI System for a Gas Compressor Fleet in Saudi Arabia",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/getmultio/we-asked-5-ai-models-the-same-24-questions-they-agreed-on-the-facts-and-split-on-almost-every-2c47",
-      "pushed_at": "2026-11-07",
-      "title": "We asked 5 AI models the same 24 questions. They agreed on the facts — and split on almost every judgment call.",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "pushed_at": "2026-11-07",
-      "title": "D4Vinci/Scrapling",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/scenario-labs/skills",
-      "pushed_at": "2026-11-07",
-      "title": "scenario-labs/skills",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xpp39s/techtitan_evaluate_your_hand_posture_while_you/",
-      "pushed_at": "2026-11-07",
-      "title": "techtitan - evaluate your hand posture while you play piano in real-time",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "pushed_at": "2026-11-07",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-      "pushed_at": "2026-11-07",
-      "title": "Physicl raises $10M to make the digital world real enough for robots",
-      "score": 6
-    },
-    {
-      "url": "https://sspai.com/post/118570",
-      "pushed_at": "2026-11-07",
-      "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
-      "score": 6
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=50399637",
-      "pushed_at": "2026-11-07",
-      "title": "Show HN: I asked HN about AI agentic setups, here are 750 of the comments mapped",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
-      "pushed_at": "2026-11-07",
-      "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-      "score": 6
     },
     {
       "url": "https://github.com/google/skills",
-      "pushed_at": "2026-11-07",
+      "pushed_at": "2026-11-08",
       "title": "google/skills",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/373643",
+      "pushed_at": "2026-11-08",
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/373642",
+      "pushed_at": "2026-11-08",
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "score": 6
+    },
+    {
+      "url": "https://wordspies.com/hn",
+      "pushed_at": "2026-11-08",
+      "title": "Show HN: NLP capabilities of Opus, Astra, Argon measured by Codenames skills",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/jahala/conducted/",
+      "pushed_at": "2026-11-08",
+      "title": "Show HN: Conductor sold to Meta. Rebuilding the app (3 days, $170) (MIT)",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
+      "pushed_at": "2026-11-08",
+      "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+      "score": 6
+    },
+    {
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "pushed_at": "2026-11-08",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xqncap/ai_is_only_as_good_as_the_direction_you_give_it_i/",
+      "pushed_at": "2026-11-08",
+      "title": "AI is only as good as the direction you give it. I built a tool to bring exploration into the design workflow.",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xpmc8e/devdeck_i_built_a_phone_app_for_my_coding_agents/",
-      "pushed_at": "2026-11-07",
-      "title": "DevDeck - I built a phone app for my coding agents because ssh over a bad connection was driving me nuts",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xqk5a5/i_built_an_ai_app_that_analyzes_your_face_skin/",
+      "pushed_at": "2026-11-08",
+      "title": "I built an AI app that analyzes your face, skin, and smile before you spend money on treatments",
       "score": 5
     },
     {
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "pushed_at": "2026-11-07",
-      "title": "Inside GitHub's new Git storage architecture",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xqexz1/quarry_is_a_yet_another_rust_based_mongodb_client/",
+      "pushed_at": "2026-11-08",
+      "title": "Quarry is a (yet another) rust based mongodb client!",
       "score": 5
     },
     {
-      "url": "https://journalistic.tech/",
-      "pushed_at": "2026-11-07",
-      "title": "Show HN: We built an async interview engine to get published on HackerNoon",
+      "url": "https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles",
+      "pushed_at": "2026-11-08",
+      "title": "Workflow dependency lockfiles",
       "score": 5
     }
   ]
