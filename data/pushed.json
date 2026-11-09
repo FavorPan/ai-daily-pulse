@@ -1,130 +1,172 @@
 {
   "pushed": [
     {
-      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-      "pushed_at": "2026-11-08",
-      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "pushed_at": "2026-11-09",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=1&sn=cc1cb3ac7a41751da340610d4cb316ab",
-      "pushed_at": "2026-11-08",
-      "title": "全民RSI时代来了？第一批中国玩家，已经在家让AI造AI",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
-      "pushed_at": "2026-11-08",
-      "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/phongmaker/bringing-muse-and-sam-31-to-chatbotx-an-omnichannel-chatbot-that-handles-voice-and-images-3a8k",
-      "pushed_at": "2026-11-08",
-      "title": "Bringing Muse and SAM 3.1 to ChatbotX: An Omnichannel Chatbot That Handles Voice and Images",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xr9flw/i_built_a_streaming_app_that_lets_you_jump_to/",
+      "pushed_at": "2026-11-09",
+      "title": "I built a streaming app that lets you jump to scenes just by describing them",
       "score": 7
     },
     {
-      "url": "https://github.com/mattpocock/skills",
-      "pushed_at": "2026-11-08",
-      "title": "mattpocock/skills",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "pushed_at": "2026-11-09",
+      "title": "ranxianglei/billion-context",
       "score": 7
     },
     {
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "pushed_at": "2026-11-08",
-      "title": "cloudflare/security-audit-skill",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xrc6ak/i_made_a_opensource_memory_and_asset_library_for/",
+      "pushed_at": "2026-11-09",
+      "title": "I made a open-source memory and asset library for Claude Code so it stops reinventing everything AssetRAG",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=2&sn=eb072be50e4bc4c0171023fd71e2d336",
-      "pushed_at": "2026-11-08",
-      "title": "破天荒！物理学「教皇」威滕33页独作致敬 AI，Claude提出关键构造",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xre6fl/building_a_spreadsheet_app_where_each_cell/",
+      "pushed_at": "2026-11-09",
+      "title": "Building a spreadsheet app where each cell (optionally) being a terminal / coding agent is a first class property",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652740926&idx=3&sn=c947beb9d2b6ef1b8e04cfd4656a9f7a",
-      "pushed_at": "2026-11-08",
-      "title": "NeurIPS'26 | 如何减少共情推理中的错误传播？",
+      "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-09",
+      "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原",
       "score": 7
     },
     {
-      "url": "https://github.com/alielmorsy/ywza",
-      "pushed_at": "2026-11-08",
-      "title": "Show HN: Ywza, a computer-use agent for your own PC, drivable from anywhere",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "pushed_at": "2026-11-09",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "score": 7
     },
     {
-      "url": "https://tomclancy.info/joshua-judges-ruth.html",
-      "pushed_at": "2026-11-08",
-      "title": "Catching prompt injections hidden in PDFs",
+      "url": "https://github.com/dooly6276/claude-bulkhead",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: Replay your Claude Code logs to count parallel session collisions",
       "score": 7
     },
     {
-      "url": "https://github.com/google/skills",
-      "pushed_at": "2026-11-08",
-      "title": "google/skills",
+      "url": "https://github.com/lamarcol/NotBot",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: My first project, an AI-powered financial news analyzer",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/richard_minsoogo/ai-systems-architecture-ch04-real-time-ai-kr-453n",
+      "pushed_at": "2026-11-09",
+      "title": "AI Systems Architecture — Ch.04: Real Time AI [KR]",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373643",
-      "pushed_at": "2026-11-08",
-      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "url": "https://github.com/meta/astryx",
+      "pushed_at": "2026-11-09",
+      "title": "meta/astryx",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373642",
-      "pushed_at": "2026-11-08",
-      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xrex8x/a_random_signup_on_my_saas_just_gave_me_an_idea_i/",
+      "pushed_at": "2026-11-09",
+      "title": "A random signup on my SaaS just gave me an idea I hadn't even considered",
       "score": 6
     },
     {
-      "url": "https://wordspies.com/hn",
-      "pushed_at": "2026-11-08",
-      "title": "Show HN: NLP capabilities of Opus, Astra, Argon measured by Codenames skills",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xr9qty/i_built_a_mac_app_that_shows_answers_from_my_own/",
+      "pushed_at": "2026-11-09",
+      "title": "I built a Mac app that shows answers from my own docs while I'm on a call. 8 strangers have already sent PRs",
       "score": 6
     },
     {
-      "url": "https://github.com/jahala/conducted/",
-      "pushed_at": "2026-11-08",
-      "title": "Show HN: Conductor sold to Meta. Rebuilding the app (3 days, $170) (MIT)",
+      "url": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-09",
+      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
-      "pushed_at": "2026-11-08",
-      "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+      "url": "https://www.ifanr.com/1688127?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-09",
+      "title": "M6 MacBook Pro 体验：38 块的灵魂，一万五的身体",
       "score": 6
     },
     {
-      "url": "https://blog.bosscher.ch/posts/openstick/",
-      "pushed_at": "2026-11-08",
-      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://airlock.lunareng.com/docs",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xqncap/ai_is_only_as_good_as_the_direction_you_give_it_i/",
-      "pushed_at": "2026-11-08",
-      "title": "AI is only as good as the direction you give it. I built a tool to bring exploration into the design workflow.",
+      "url": "https://midgarth.quest/",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: Midgarth Quest. Browser-Playable Mmorpg Written by AI",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/ozkl/ruxis",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: A kernel written in Rust that can boot Ubuntu with Plasma desktop",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/SafeScript/safescript",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: SafeScript, a safe version of JavaScript for executing untrusted code",
+      "score": 6
+    },
+    {
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "pushed_at": "2026-11-09",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xqk5a5/i_built_an_ai_app_that_analyzes_your_face_skin/",
-      "pushed_at": "2026-11-08",
-      "title": "I built an AI app that analyzes your face, skin, and smile before you spend money on treatments",
+      "url": "https://dev.to/richard_minsoogo/ai-systems-architecture-ch07-engineering-and-operations-kr-3kaj",
+      "pushed_at": "2026-11-09",
+      "title": "AI Systems Architecture — Ch.07: Engineering and Operations [KR]",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xqexz1/quarry_is_a_yet_another_rust_based_mongodb_client/",
-      "pushed_at": "2026-11-08",
-      "title": "Quarry is a (yet another) rust based mongodb client!",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "pushed_at": "2026-11-09",
+      "title": "sherlock-project/sherlock",
       "score": 5
     },
     {
-      "url": "https://docs.github.com/en/actions/concepts/security/workflow-dependency-lockfiles",
-      "pushed_at": "2026-11-08",
-      "title": "Workflow dependency lockfiles",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "pushed_at": "2026-11-09",
+      "title": "milind-soni/OpenMausBot",
       "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xrbilv/built_an_ai_that_adds_onscreen_graphics_to_your/",
+      "pushed_at": "2026-11-09",
+      "title": "Built an AI that adds on-screen graphics to your videos automatically. Looking for beta testers to tear it apart.",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/Protention/ocura-oss",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: Record, branch, and compare command runs in stdlib-only Python",
+      "score": 5
+    },
+    {
+      "url": "https://chiptunes.studio/",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: A free Gameboy–style music tracker in the browser with shareable URLs",
+      "score": 5
+    },
+    {
+      "url": "https://getremedyapp.com",
+      "pushed_at": "2026-11-09",
+      "title": "Show HN: Remedy – Prompt stuff out of your feeds",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/zed-industries/zed",
+      "pushed_at": "2026-11-09",
+      "title": "zed-industries/zed",
+      "score": 4
     }
   ]
 }

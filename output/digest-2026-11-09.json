@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-09",
+  "highlights": [
+    "作者对比了 C 和 Rust 编写的 SQLite 扩展，结果显示 Rust 扩展体积更大（298-321 KB vs 14 KB）但运行速度更快；通过自定义 C 解析函数优化，在处理两百万行数据时，新 C 版本单行耗时降至 16-19 n…",
+    "免费开源的流媒体应用 Navigator 基于 Stremio 客户端开发，允许用户通过自然语言描述（如“跳转至复联4中他喊复仇者集结的场景”）直接定位电影或剧集片段，其核心功能依赖于副标题数据及结合 Vercel AI SDK 的 LLM…",
+    "billion-context 是一款上下文压缩插件，通过模型驱动的增量分层压缩技术，将 100K 小窗口扩展至支持月级长会话（数十亿 tokens），并节省 5 倍 token 消耗。该工具在 LongMemEval-S 基准测试中取得 …"
+  ],
+  "items": [
+    {
+      "id": "a86fe963d82a",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "summary": "作者对比了 C 和 Rust 编写的 SQLite 扩展，结果显示 Rust 扩展体积更大（298-321 KB vs 14 KB）但运行速度更快；通过自定义 C 解析函数优化，在处理两百万行数据时，新 C 版本单行耗时降至 16-19 ns，显著优于 Rusqlite（32-46 ns）和原生 C（67-106 ns）。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "tags": [
+        "Claude",
+        "SQLite",
+        "C vs Rust",
+        "性能优化",
+        "自动化研究"
+      ],
+      "why_now": "",
+      "why_now_en": "Claude Opus 5.5 can now generate and benchmark optimized C code for SQLite extensions.",
+      "summary_en": "A custom C implementation of a SQLite `parse_number()` extension outperforms both the standard C `strtod` and Rust-based alternatives (rusqlite and sqlite-loadable-rs), achieving 16–19 ns per row for integers and decimals, compared to 32–55 ns for the Rust versions. The C extension is significantly more compact at 14 KB, whereas the Rust extensions range from 298 KB to 321 KB, demonstrating that the manually optimized C parser offers superior speed and file size efficiency for this specific utility.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9fcafe6ede8b",
+      "title": "I built a streaming app that lets you jump to scenes just by describing them",
+      "summary": "免费开源的流媒体应用 Navigator 基于 Stremio 客户端开发，允许用户通过自然语言描述（如“跳转至复联4中他喊复仇者集结的场景”）直接定位电影或剧集片段，其核心功能依赖于副标题数据及结合 Vercel AI SDK 的 LLM 工具调用技术。该应用支持 MPV 原生播放、缩略图预览及自动跳过片头，技术栈采用 Next.js 与 Rust 桌面外壳，AI 功能支持自带 API 或通过 Ollama 运行本地模型。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xr9flw/i_built_a_streaming_app_that_lets_you_jump_to/",
+      "tags": [
+        "开源项目",
+        "LLM应用",
+        "Stremio",
+        "自然语言搜索"
+      ],
+      "why_now": "",
+      "why_now_en": "No clear timeliness signal.",
+      "summary_en": "Navigator is a free, open-source streaming app for desktop and web that uses natural language queries to jump to specific scenes in movies and TV shows by searching subtitle data with an LLM via Vercel's AI SDK. Built with Next.js and a Rust-based desktop shell, it functions as a Stremio client to leverage existing media sources and addons, featuring native MPV playback, intro skipping, and optional AI integration through user-provided API keys or local Ollama models.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "44bf92228a9e",
+      "title": "ranxianglei/billion-context",
+      "summary": "billion-context 是一款上下文压缩插件，通过模型驱动的增量分层压缩技术，将 100K 小窗口扩展至支持月级长会话（数十亿 tokens），并节省 5 倍 token 消耗。该工具在 LongMemEval-S 基准测试中取得 79.20% 准确率，较最佳 RAG 方案提升 16.6%，且在 MemoryAgentBench 中实现 100% 存活率，成本较全量上下文降低 71.1%。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "tags": [
+        "Context Compression",
+        "Long Session",
+        "GitHub",
+        "Coding Agent"
+      ],
+      "why_now": "",
+      "why_now_en": "Fresh open-source ACP compression plugin enables 5x token savings in multi-week AI sessions.",
+      "summary_en": "billion-context is a context-compression plugin enabling month-long single sessions with billions of tokens while maintaining a 100K context window and reducing token usage by 5x through model-driven incremental hierarchical compression. In a 4.5-month production study comprising 174,327 model calls, it achieved zero window violations on 204,800-token models and ranked #1 on ContextBench with a 0.3097 Utilized F1, outperforming RAG baselines by 16.6% on LongMemEval-S at 71.1% lower cost.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "adbe3d71c375",
+      "title": "I made a open-source memory and asset library for Claude Code so it stops reinventing everything AssetRAG",
+      "summary": "开源项目AssetRAG为Claude Code提供本地优先的记忆与资产库，通过MCP协议暴露18个工具，支持代码检索、带验证证据的Bug修复记忆及工程操作手册。其关键词检索模式下资产搜索中位数耗时仅4.0毫秒，并能将代码库概览从约129k tokens压缩至597 tokens，该工具基于Python开发，目前仅支持Linux系统，遵循Apache 2.0协议。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xrc6ak/i_made_a_opensource_memory_and_asset_library_for/",
+      "tags": [
+        "Claude Code",
+        "开源工具",
+        "MCP",
+        "代码效率"
+      ],
+      "why_now": "",
+      "why_now_en": "Fresh open-source tool cuts Claude Code context by 99.5% today",
+      "summary_en": "AssetRAG is a local-first, open-source engineering memory and asset library for Claude Code and other MCP clients that reduces AI coding agent inefficiencies by providing reusable code assets, verified bug-fix memory, and a compact repository map. The Python-based tool exposes 18 MCP tools and achieves median search latencies of 4.0 ms for assets and 7.1 ms for knowledge in keyword-only mode, compressing a codebase overview into 597 tokens versus ~129,000 tokens of raw source. It is licensed under Apache 2.0, supports completely offline operation without telemetry, and currently supports Linux environments only.",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "eedce361f9aa",
+      "title": "Building a spreadsheet app where each cell (optionally) being a terminal / coding agent is a first class property",
+      "summary": "开源项目 Recalc 将电子表格单元格升级为可独立运行的一级终端编码代理，每个单元格可基于 Claude Code 构建独立的智能体会话，并通过后台 MCP 服务器实现会话间通信。在演示的 FDA 审批案例预测任务中，该工具结合 AI 框架在无网络搜索的情况下，基于 FDA 提交信息成功预测了 75% 的审批结果，且由于仅整合现有终端会话，用户可直接使用当前的订阅计划。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xre6fl/building_a_spreadsheet_app_where_each_cell/",
+      "tags": [
+        "开源项目",
+        "Agent",
+        "工具开发",
+        "GitHub"
+      ],
+      "why_now": "Recalc刚开源，允许每个单元格作为独立Agent运行且兼容现有AI订阅，为一人公司提供了零新增成本的自动化办公工具。",
+      "why_now_en": "Open-source Recalc lets cells run Claude Code agents using existing plans via MCP.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "75b42b3305e3",
+      "title": "Show HN: Replay your Claude Code logs to count parallel session collisions",
+      "summary": "bulkhead 是一款专为多会话 Claude Code 场景设计的无依赖工具，通过 8 个钩子守卫、10 个命令和 6 个斜杠命令阻止并行会话在端口、内存及 Git 操作上相互干扰。其 0.2.0 版本新增 bulkhead scan 功能，可回放过去 30 天的会话日志以统计实际冲突频率，并引入 disk-guard 防止整盘扫描及 checkout-guard 避免 git add -A 误提交其他会话的编辑。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/dooly6276/claude-bulkhead",
+      "tags": [
+        "Claude Code",
+        "多会话并发",
+        "开发工具",
+        "Hooks"
+      ],
+      "why_now": "Claude Code 多会话并行引发资源冲突问题频发，该插件刚发布 0.2.0 提供隔离方案，正适合当下多人机场景。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "1ea73a985a10",
+      "title": "Show HN: My first project, an AI-powered financial news analyzer",
+      "summary": "NotBot是一款由17岁开发者构建的AI金融新闻分析工具，其核心架构通过替换FinBERT，引入openai/gpt-oss-120b和Gemini 3.1 Flash-Lite对仅24小时内新闻进行情感计算，并创新性地采用标题35%、描述25%、正文40%的加权算法及基于源可靠度和时效性的系数调整来提升精度。该系统利用aiohttp和asyncio实现文章的异步并行处理，结合Groq进行双LLM交叉验证，并使用Finnhub作为数据源，同时通过去重过滤器避免相似新闻对情感极性的扭曲。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/lamarcol/NotBot",
+      "tags": [
+        "FinNLP",
+        "Sentiment Analysis",
+        "LLM Pipeline",
+        "Indie Hacker"
+      ],
+      "why_now": "文章无明确时效性信号，故输出空值",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d16f3667b106",
+      "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原",
+      "summary": "富士胶片投资100亿日元扩建产能，重点生产LTO-10磁带以应对生成式AI带来的海量冷数据归档需求，单盒磁带原始容量已达40TB（理论压缩后100TB），较26年前提升400倍，且在保存100PB数据十年周期内可降低86%的总体拥有成本和95%的碳排放；与此同时，机械硬盘市场也因AI数据扩张出现供需紧张，西部数据和希捷的长期协议已分别延伸至2028年和2030年，传统存储介质正成为AI基础设施的关键瓶颈。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "数据存储",
+        "磁带",
+        "AI基建",
+        "富士胶片",
+        "冷数据"
+      ],
+      "why_now": "富士胶片10月29日宣布百亿日元扩建，瞄准AI冷数据归档窗口，磁带赛道正迎第二春。",
+      "why_now_en": "富士胶片10月29日宣布5倍扩产LTO磁带，抢占AI冷数据归档市场窗口。",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "fe5fdb83e1ea",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "summary": "高盛于10月内部更新指引，限制Anthropic的Claude Code和Microsoft的GitHub工具仅供约12,000名工程师使用，全面禁止交易员和银行家利用这些工具追踪客户资金流向及构建市场模型，此前4月已因合同条款限制香港地区银行家使用Claude。此次限制源于对生产力和风险的审查，旨在防止交易员绕过工程审核直接运行能自主编写执行代码的第三方智能体，尽管高盛作为Anthropic IPO的牵头承销商，目前正面临需营销一家其员工已无法广泛使用其核心代码代理的公司的尴尬局面。",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "tags": [
+        "高盛",
+        "Claude Code",
+        "合规限制",
+        "金融风控",
+        "Anthropic IPO"
+      ],
+      "why_now": "Anthropic IPO前数周，高盛10月新规禁用交易员使用Claude Code，凸显合规与上市营销间的紧迫冲突。",
+      "why_now_en": "Goldman underwriting Anthropic's IPO as it bans traders from Claude.",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "5e8027802f61",
+      "title": "meta/astryx",
+      "summary": "Meta 开源了设计系统 Astryx，该系统已驱动 Meta 内部 1,3000+ 个应用，提供 150+ 无障碍组件、品牌级主题化及深色模式支持。基于 React 19+ 和 StyleX 构建，它允许通过 CSS 自定义属性进行深度定制而不需包裹组件源码，且 API 与 CLI 专为人类与 AI 代理协同工作设计。用户无需配置 PostCSS 或 Babel，直接导入预构建 CSS 即可使用，并可通过 swizzle 命令将组件完整源码注入项目以实现完全控制权。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/meta/astryx",
+      "tags": [
+        "Meta",
+        "Design System",
+        "React",
+        "Open Source",
+        "Agent-ready"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b9fca5d7b380",
+      "title": "AI Systems Architecture — Ch.04: Real Time AI [KR]",
+      "summary": "实时AI系统在自主驾驶、机器人等场景中，要求在既定时间约束内完成推理并输出有效结果，区别于以精度或总吞吐量为首要目标的通用AI应用。其端到端延迟涵盖从传感器数据获取到决策传达的全链路环节，必须对包括预处理、模型执行及后处理在内的完整流水线进行整体优化，而非仅聚焦于神经网络的推理效率。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/richard_minsoogo/ai-systems-architecture-ch04-real-time-ai-kr-453n",
+      "tags": [
+        "Real Time AI",
+        "Architecture",
+        "Streaming Pipeline",
+        "Latency"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "fa8bb927ed2c",
+      "title": "Show HN: A kernel written in Rust that can boot Ubuntu with Plasma desktop",
+      "summary": "",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/ozkl/ruxis",
+      "tags": [
+        "Claude Opus 5.5",
+        "Rust",
+        "Linux Kernel",
+        "Show HN"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Ruxis, a Rust-written Unix-like kernel targeting x86_64 and arm64, implements the Linux 6.6 system call interface to run unmodified userspace programs, including full Ubuntu 24.04 systems with GNOME or KDE Plasma desktops, systemd, and container namespaces. Developed by Claude Opus 5.5, it features a stable binary driver model for loadable modules and supports ext4, TCP/UDP networking, and virtio/AHCI/NVMe drivers. Users can boot the kernel or specific desktop environments via QEMU using commands like `cargo xtask run --root-disk ruxis-gnome.img --accel kvm`.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ddb297c4ce25",
+      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
+      "summary": "",
+      "score": 6,
+      "topic": "AI投融资动态",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "苹果Siri",
+        "智能体"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Apple's new CEO John Ternus is pushing for faster AI development to transform Siri into an autonomous agent, targeting capabilities similar to ChatGPT Dots and Meta Muse by 2026. SpaceX founder Elon Musk projects that the company's annualized revenue could exceed $500 billion by December 2027, driven by plans to deploy orbital data centers using its reusable Starship launch system.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": []
+}
