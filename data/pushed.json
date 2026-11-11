@@ -1,172 +1,406 @@
 {
   "pushed": [
     {
-      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-      "pushed_at": "2026-11-09",
-      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "pushed_at": "2026-11-11",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "score": 9
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "score": 9
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/508919.html",
+      "pushed_at": "2026-11-11",
+      "title": "Token卷到触觉了！机器人终于有了通用手感",
+      "score": 9
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "pushed_at": "2026-11-11",
+      "title": "Quoting Prompting Claude Fable 5.2",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xr9flw/i_built_a_streaming_app_that_lets_you_jump_to/",
-      "pushed_at": "2026-11-09",
-      "title": "I built a streaming app that lets you jump to scenes just by describing them",
-      "score": 7
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "pushed_at": "2026-11-11",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "score": 8
     },
     {
-      "url": "https://github.com/ranxianglei/billion-context",
-      "pushed_at": "2026-11-09",
-      "title": "ranxianglei/billion-context",
-      "score": 7
+      "url": "https://therundownai.beehiiv.com/p/anthropic-says-pacing-not-pausing-with-fable-5-2",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic says ‘pacing, not pausing’ with Fable 5.2",
+      "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xrc6ak/i_made_a_opensource_memory_and_asset_library_for/",
-      "pushed_at": "2026-11-09",
-      "title": "I made a open-source memory and asset library for Claude Code so it stops reinventing everything AssetRAG",
-      "score": 7
+      "url": "https://latent.space/p/naiveai/",
+      "pushed_at": "2026-11-11",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xre6fl/building_a_spreadsheet_app_where_each_cell/",
-      "pushed_at": "2026-11-09",
-      "title": "Building a spreadsheet app where each cell (optionally) being a terminal / coding agent is a first class property",
-      "score": 7
+      "url": "https://github.com/anthropics/skills",
+      "pushed_at": "2026-11-11",
+      "title": "anthropics/skills",
+      "score": 8
     },
     {
-      "url": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-09",
-      "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原",
-      "score": 7
+      "url": "https://github.com/garrytan/gbrain",
+      "pushed_at": "2026-11-11",
+      "title": "garrytan/gbrain",
+      "score": 8
     },
     {
-      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "pushed_at": "2026-11-09",
-      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-      "score": 7
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "pushed_at": "2026-11-11",
+      "title": "homeassistant-ai/ha-mcp",
+      "score": 8
     },
     {
-      "url": "https://github.com/dooly6276/claude-bulkhead",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: Replay your Claude Code logs to count parallel session collisions",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/lamarcol/NotBot",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: My first project, an AI-powered financial news analyzer",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/richard_minsoogo/ai-systems-architecture-ch04-real-time-ai-kr-453n",
-      "pushed_at": "2026-11-09",
-      "title": "AI Systems Architecture — Ch.04: Real Time AI [KR]",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/meta/astryx",
-      "pushed_at": "2026-11-09",
-      "title": "meta/astryx",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xrex8x/a_random_signup_on_my_saas_just_gave_me_an_idea_i/",
-      "pushed_at": "2026-11-09",
-      "title": "A random signup on my SaaS just gave me an idea I hadn't even considered",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xr9qty/i_built_a_mac_app_that_shows_answers_from_my_own/",
-      "pushed_at": "2026-11-09",
-      "title": "I built a Mac app that shows answers from my own docs while I'm on a call. 8 strangers have already sent PRs",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-09",
-      "title": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
-      "score": 6
-    },
-    {
-      "url": "https://www.ifanr.com/1688127?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-09",
-      "title": "M6 MacBook Pro 体验：38 块的灵魂，一万五的身体",
-      "score": 6
-    },
-    {
-      "url": "https://airlock.lunareng.com/docs",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
-      "score": 6
-    },
-    {
-      "url": "https://midgarth.quest/",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: Midgarth Quest. Browser-Playable Mmorpg Written by AI",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/ozkl/ruxis",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: A kernel written in Rust that can boot Ubuntu with Plasma desktop",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/SafeScript/safescript",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: SafeScript, a safe version of JavaScript for executing untrusted code",
-      "score": 6
-    },
-    {
-      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-      "pushed_at": "2026-11-09",
-      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/richard_minsoogo/ai-systems-architecture-ch07-engineering-and-operations-kr-3kaj",
-      "pushed_at": "2026-11-09",
-      "title": "AI Systems Architecture — Ch.07: Engineering and Operations [KR]",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/sherlock-project/sherlock",
-      "pushed_at": "2026-11-09",
-      "title": "sherlock-project/sherlock",
-      "score": 5
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "pushed_at": "2026-11-11",
+      "title": "anthropics/claude-quickstarts",
+      "score": 8
     },
     {
       "url": "https://github.com/milind-soni/OpenMausBot",
-      "pushed_at": "2026-11-09",
+      "pushed_at": "2026-11-11",
       "title": "milind-soni/OpenMausBot",
+      "score": 8
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/508912.html",
+      "pushed_at": "2026-11-11",
+      "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/TensorRails/warmctl",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Warmctl – Fast cold starts for vLLM inference",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
+      "pushed_at": "2026-11-11",
+      "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
+      "pushed_at": "2026-11-11",
+      "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
+      "pushed_at": "2026-11-11",
+      "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
+      "pushed_at": "2026-11-11",
+      "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/gqzca7y2h3m9p0fxtj60m4i1t",
+      "pushed_at": "2026-11-11",
+      "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
+      "pushed_at": "2026-11-11",
+      "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
+      "score": 8
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "pushed_at": "2026-11-11",
+      "title": "llm-gemini 0.36",
+      "score": 7
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "pushed_at": "2026-11-11",
+      "title": "State of the tech job market: late 2026",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/unlocked-consulting/nobody-owns-the-twelve-ai-tools-your-departments-already-built-146d",
+      "pushed_at": "2026-11-11",
+      "title": "Nobody owns the twelve AI tools your departments already built",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/longwaveailab/gh-300-github-copilot-certification-study-guide-2026-all-6-domains-5-realistic-scenario-5hc0",
+      "pushed_at": "2026-11-11",
+      "title": "GH-300 GitHub Copilot Certification Study Guide (2026): All 6 Domains + 5 Realistic Scenario Walkthroughs",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/sparkllm/same-a40-same-spark-file-inside-cortiqs-new-cuda-path-k0o",
+      "pushed_at": "2026-11-11",
+      "title": "Same A40, same Spark file: inside cortiq’s new CUDA path",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/meta/astryx",
+      "pushed_at": "2026-11-11",
+      "title": "meta/astryx",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/google-deepmind/mujoco",
+      "pushed_at": "2026-11-11",
+      "title": "google-deepmind/mujoco",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "pushed_at": "2026-11-11",
+      "title": "vercel-labs/agent-browser",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/ruvnet/RuView",
+      "pushed_at": "2026-11-11",
+      "title": "ruvnet/RuView",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "pushed_at": "2026-11-11",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "pushed_at": "2026-11-11",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "pushed_at": "2026-11-11",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652741625&idx=1&sn=cec9a700b23f53b333cc82b60cb99445",
+      "pushed_at": "2026-11-11",
+      "title": "Fable 5.2睁眼拼魔方，中国AI闭眼搓麻将！人类「手感」首次Token化",
+      "score": 7
+    },
+    {
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "pushed_at": "2026-11-11",
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "score": 7
+    },
+    {
+      "url": "https://www.rystic.ai",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Rystic – Stateful Local Simulators of Slack, GitHub and Linear",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/iignaite/Codemm",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Codemm – your coding agent writes exercises, a sandbox rejects bad ones",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/mamrezme/30yr-uptime",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Movement breaks that only show up while Claude Code is working",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/j8x08g5wo30akk4mast68n79d",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
+      "pushed_at": "2026-11-11",
+      "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/yrk09s03tcgcxsxq8jh0npjk0",
+      "pushed_at": "2026-11-11",
+      "title": "n8n Labs 发布本机个人智能体 Nod 研究预览版",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43",
+      "pushed_at": "2026-11-11",
+      "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/unlocked-consulting/what-ai-level-is-your-company-at-3p3g",
+      "pushed_at": "2026-11-11",
+      "title": "What AI level is your company at?",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "pushed_at": "2026-11-11",
+      "title": "Yonkers Rises",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xsnmkz/i_built_a_home_redesign_app_without_a/",
+      "pushed_at": "2026-11-11",
+      "title": "I built a home redesign app without a subscription. The hard part was getting the AI to leave the house alone",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "pushed_at": "2026-11-11",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "pushed_at": "2026-11-11",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "pushed_at": "2026-11-11",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "pushed_at": "2026-11-11",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/373796",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "pushed_at": "2026-11-11",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "score": 6
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "pushed_at": "2026-11-11",
+      "title": "AlphaProof Code",
+      "score": 6
+    },
+    {
+      "url": "https://sspai.com/post/118905",
+      "pushed_at": "2026-11-11",
+      "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+      "score": 6
+    },
+    {
+      "url": "https://mimzie.com/",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/OddlyGoods/peep-note",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: PeepNote – Local desktop notes for saving and reusing LLM responses",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
+      "pushed_at": "2026-11-11",
+      "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/be7oi4uplsn32gf4o0xl08ium",
+      "pushed_at": "2026-11-11",
+      "title": "PSI 尝试用 AI 驱动的科学发现打造商业模式",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
+      "pushed_at": "2026-11-11",
+      "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/vouc5yc5intvgg7311kekkhsi",
+      "pushed_at": "2026-11-11",
+      "title": "Cursor Projects 升级为多人协作模式",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1xt4ltz/opensource_tool_that_ties_ai_token_spend_to_the/",
+      "pushed_at": "2026-11-11",
+      "title": "Open-source tool that ties AI token spend to the features it built and runs. Looking for founders to try it.",
       "score": 5
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xrbilv/built_an_ai_that_adds_onscreen_graphics_to_your/",
-      "pushed_at": "2026-11-09",
-      "title": "Built an AI that adds on-screen graphics to your videos automatically. Looking for beta testers to tear it apart.",
+      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "pushed_at": "2026-11-11",
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
       "score": 5
     },
     {
-      "url": "https://github.com/Protention/ocura-oss",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: Record, branch, and compare command runs in stdlib-only Python",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652741625&idx=2&sn=7e85097eb21e4e059d1e9f257aa0b18b",
+      "pushed_at": "2026-11-11",
+      "title": "1500万美元！OpenAI联手Anthropic，请数学家给AI「验卷」",
       "score": 5
     },
     {
-      "url": "https://chiptunes.studio/",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: A free Gameboy–style music tracker in the browser with shareable URLs",
+      "url": "https://github.com/vaultbase-sh/vaultbase",
+      "pushed_at": "2026-11-11",
+      "title": "Show HN: Vaultbase – a self-hosted back end in a single binary",
       "score": 5
     },
     {
-      "url": "https://getremedyapp.com",
-      "pushed_at": "2026-11-09",
-      "title": "Show HN: Remedy – Prompt stuff out of your feeds",
+      "url": "https://dustri.org/b/weird-licenses-and-the-new-open-source.html",
+      "pushed_at": "2026-11-11",
+      "title": "Weird licenses and the new open source",
       "score": 5
     },
     {
-      "url": "https://github.com/zed-industries/zed",
-      "pushed_at": "2026-11-09",
-      "title": "zed-industries/zed",
-      "score": 4
+      "url": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
+      "pushed_at": "2026-11-11",
+      "title": "Next-Level Benchmarking Overfitting",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
+      "pushed_at": "2026-11-11",
+      "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
+      "score": 5
     }
   ]
 }
