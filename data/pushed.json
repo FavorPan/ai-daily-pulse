@@ -1,405 +1,255 @@
 {
   "pushed": [
     {
-      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-      "pushed_at": "2026-11-11",
-      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247942969&idx=3&sn=25045e5ae09f4054d3f6ff20665d75f4",
+      "pushed_at": "2026-11-12",
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
       "score": 9
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "url": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
+      "pushed_at": "2026-11-12",
+      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
       "score": 9
     },
     {
-      "url": "https://www.qbitai.com/2026/11/508919.html",
-      "pushed_at": "2026-11-11",
-      "title": "Token卷到触觉了！机器人终于有了通用手感",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "pushed_at": "2026-11-11",
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "pushed_at": "2026-11-11",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "score": 8
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/anthropic-says-pacing-not-pausing-with-fable-5-2",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic says ‘pacing, not pausing’ with Fable 5.2",
-      "score": 8
-    },
-    {
-      "url": "https://latent.space/p/naiveai/",
-      "pushed_at": "2026-11-11",
-      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "pushed_at": "2026-11-12",
+      "title": "Gemini Decisions API",
       "score": 8
     },
     {
       "url": "https://github.com/anthropics/skills",
-      "pushed_at": "2026-11-11",
+      "pushed_at": "2026-11-12",
       "title": "anthropics/skills",
       "score": 8
     },
     {
-      "url": "https://github.com/garrytan/gbrain",
-      "pushed_at": "2026-11-11",
-      "title": "garrytan/gbrain",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "pushed_at": "2026-11-12",
+      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
       "score": 8
     },
     {
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "pushed_at": "2026-11-11",
-      "title": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/mattpocock/skills",
+      "pushed_at": "2026-11-12",
+      "title": "mattpocock/skills",
       "score": 8
     },
     {
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "pushed_at": "2026-11-11",
-      "title": "anthropics/claude-quickstarts",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "pushed_at": "2026-11-12",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
       "score": 8
     },
     {
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "pushed_at": "2026-11-11",
-      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/Eliot5566/JEV-Paper-Radar",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: Paper Radar – daily ArXiv triage, now runs on Claude Haiku too",
       "score": 8
     },
     {
-      "url": "https://www.qbitai.com/2026/11/508912.html",
-      "pushed_at": "2026-11-11",
-      "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+      "url": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv",
+      "pushed_at": "2026-11-12",
+      "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
       "score": 8
     },
     {
-      "url": "https://github.com/TensorRails/warmctl",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Warmctl – Fast cold starts for vLLM inference",
+      "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+      "pushed_at": "2026-11-12",
+      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
-      "pushed_at": "2026-11-11",
-      "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
+      "url": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
+      "pushed_at": "2026-11-12",
+      "title": "a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
-      "pushed_at": "2026-11-11",
-      "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
-      "pushed_at": "2026-11-11",
-      "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
-      "pushed_at": "2026-11-11",
-      "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/gqzca7y2h3m9p0fxtj60m4i1t",
-      "pushed_at": "2026-11-11",
-      "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
-      "pushed_at": "2026-11-11",
-      "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "pushed_at": "2026-11-11",
-      "title": "llm-gemini 0.36",
+      "url": "https://therundownai.beehiiv.com/p/openai-invites-brands-to-set-up-shop-in-chatgpt",
+      "pushed_at": "2026-11-12",
+      "title": "OpenAI invites brands to set up shop in ChatGPT",
       "score": 7
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-      "pushed_at": "2026-11-11",
-      "title": "State of the tech job market: late 2026",
+      "url": "https://trends.vc/ai-roleplay-apps-korean-playbooks-18-ratings-app-store-bans/",
+      "pushed_at": "2026-11-12",
+      "title": "AI Roleplay Apps: Korean Playbooks, 18+ Ratings, App Store Bans",
       "score": 7
     },
     {
-      "url": "https://dev.to/unlocked-consulting/nobody-owns-the-twelve-ai-tools-your-departments-already-built-146d",
-      "pushed_at": "2026-11-11",
-      "title": "Nobody owns the twelve AI tools your departments already built",
+      "url": "http://www.geekpark.net/news/373816",
+      "pushed_at": "2026-11-12",
+      "title": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
       "score": 7
     },
     {
-      "url": "https://dev.to/longwaveailab/gh-300-github-copilot-certification-study-guide-2026-all-6-domains-5-realistic-scenario-5hc0",
-      "pushed_at": "2026-11-11",
-      "title": "GH-300 GitHub Copilot Certification Study Guide (2026): All 6 Domains + 5 Realistic Scenario Walkthroughs",
+      "url": "https://www.ifanr.com/1688897?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-12",
+      "title": "10 亿 Token 开源万只假鸟， AI 伪科普正在「污染」下一代的常识",
       "score": 7
     },
     {
-      "url": "https://dev.to/sparkllm/same-a40-same-spark-file-inside-cortiqs-new-cuda-path-k0o",
-      "pushed_at": "2026-11-11",
-      "title": "Same A40, same Spark file: inside cortiq’s new CUDA path",
+      "url": "https://sspai.com/post/118935",
+      "pushed_at": "2026-11-12",
+      "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等",
       "score": 7
+    },
+    {
+      "url": "https://github.com/adeptads/agent-skills",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: Agent skill and Claude/Codex plugins for Google Ads campaigns",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd",
+      "pushed_at": "2026-11-12",
+      "title": "WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "pushed_at": "2026-11-12",
+      "title": "Anthropic's IPO roadshow video",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "pushed_at": "2026-11-12",
+      "title": "aws-emulator",
+      "score": 6
     },
     {
       "url": "https://github.com/meta/astryx",
-      "pushed_at": "2026-11-11",
+      "pushed_at": "2026-11-12",
       "title": "meta/astryx",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/google-deepmind/mujoco",
-      "pushed_at": "2026-11-11",
-      "title": "google-deepmind/mujoco",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "pushed_at": "2026-11-11",
-      "title": "vercel-labs/agent-browser",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ruvnet/RuView",
-      "pushed_at": "2026-11-11",
-      "title": "ruvnet/RuView",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "pushed_at": "2026-11-11",
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "pushed_at": "2026-11-11",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-      "pushed_at": "2026-11-11",
-      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "score": 7
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652741625&idx=1&sn=cec9a700b23f53b333cc82b60cb99445",
-      "pushed_at": "2026-11-11",
-      "title": "Fable 5.2睁眼拼魔方，中国AI闭眼搓麻将！人类「手感」首次Token化",
-      "score": 7
-    },
-    {
-      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-      "pushed_at": "2026-11-11",
-      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "score": 7
-    },
-    {
-      "url": "https://www.rystic.ai",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Rystic – Stateful Local Simulators of Slack, GitHub and Linear",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/iignaite/Codemm",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Codemm – your coding agent writes exercises, a sandbox rejects bad ones",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/mamrezme/30yr-uptime",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Movement breaks that only show up while Claude Code is working",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/j8x08g5wo30akk4mast68n79d",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
-      "pushed_at": "2026-11-11",
-      "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/yrk09s03tcgcxsxq8jh0npjk0",
-      "pushed_at": "2026-11-11",
-      "title": "n8n Labs 发布本机个人智能体 Nod 研究预览版",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43",
-      "pushed_at": "2026-11-11",
-      "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/unlocked-consulting/what-ai-level-is-your-company-at-3p3g",
-      "pushed_at": "2026-11-11",
-      "title": "What AI level is your company at?",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-      "pushed_at": "2026-11-11",
-      "title": "Yonkers Rises",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "pushed_at": "2026-11-12",
+      "title": "addyosmani/agent-skills",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xsnmkz/i_built_a_home_redesign_app_without_a/",
-      "pushed_at": "2026-11-11",
-      "title": "I built a home redesign app without a subscription. The hard part was getting the AI to leave the house alone",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+      "pushed_at": "2026-11-12",
+      "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-      "pushed_at": "2026-11-11",
-      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "pushed_at": "2026-11-12",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "pushed_at": "2026-11-11",
-      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "url": "https://github.com/aws/aws-emulator",
+      "pushed_at": "2026-11-12",
+      "title": "AWS emulator",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "pushed_at": "2026-11-11",
-      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "pushed_at": "2026-11-12",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-      "pushed_at": "2026-11-11",
-      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://www.qbitai.com/2026/11/509146.html",
+      "pushed_at": "2026-11-12",
+      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373796",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
+      "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+      "pushed_at": "2026-11-12",
+      "title": "Writing a SIGGRAPH paper from scratch",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "pushed_at": "2026-11-12",
+      "title": "The Web Is More Than Enough",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "pushed_at": "2026-11-11",
-      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "url": "https://github.com/gethome-inc/gethome-hub",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: gethome – a local-first smart home hub with AI",
       "score": 6
     },
     {
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "pushed_at": "2026-11-11",
-      "title": "AlphaProof Code",
+      "url": "https://github.com/ShadowKingYT444/motion-debugger",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: Motion Debugger – A browser critic for AI slop",
       "score": 6
     },
     {
-      "url": "https://sspai.com/post/118905",
-      "pushed_at": "2026-11-11",
-      "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+      "url": "https://solomon-b.github.io/dogfood-bench/",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: Dogfood Bench",
       "score": 6
     },
     {
-      "url": "https://mimzie.com/",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+      "url": "https://github.com/lettercamp/lettercamp",
+      "pushed_at": "2026-11-12",
+      "title": "Show HN: Lettercamp – open-source static blog framework",
       "score": 6
     },
     {
-      "url": "https://github.com/OddlyGoods/peep-note",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: PeepNote – Local desktop notes for saving and reusing LLM responses",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
-      "pushed_at": "2026-11-11",
-      "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/be7oi4uplsn32gf4o0xl08ium",
-      "pushed_at": "2026-11-11",
-      "title": "PSI 尝试用 AI 驱动的科学发现打造商业模式",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
-      "pushed_at": "2026-11-11",
-      "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/vouc5yc5intvgg7311kekkhsi",
-      "pushed_at": "2026-11-11",
-      "title": "Cursor Projects 升级为多人协作模式",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xt4ltz/opensource_tool_that_ties_ai_token_spend_to_the/",
-      "pushed_at": "2026-11-11",
-      "title": "Open-source tool that ties AI token spend to the features it built and runs. Looking for founders to try it.",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "pushed_at": "2026-11-12",
+      "title": "Browse tools.simonwillison.net by tag",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-      "pushed_at": "2026-11-11",
-      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "pushed_at": "2026-11-12",
+      "title": "anthropics/claude-quickstarts",
       "score": 5
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652741625&idx=2&sn=7e85097eb21e4e059d1e9f257aa0b18b",
-      "pushed_at": "2026-11-11",
-      "title": "1500万美元！OpenAI联手Anthropic，请数学家给AI「验卷」",
+      "url": "https://latent.space/p/codex-work/",
+      "pushed_at": "2026-11-12",
+      "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
       "score": 5
     },
     {
-      "url": "https://github.com/vaultbase-sh/vaultbase",
-      "pushed_at": "2026-11-11",
-      "title": "Show HN: Vaultbase – a self-hosted back end in a single binary",
+      "url": "https://dev.to/speedupagi/0-in-sales-5-channels-live-what-i-fixed-when-my-9-prompt-pack-wouldnt-sell-4233",
+      "pushed_at": "2026-11-12",
+      "title": "$0 in sales, 5 channels live: what I fixed when my $9 prompt pack wouldn't sell",
       "score": 5
     },
     {
-      "url": "https://dustri.org/b/weird-licenses-and-the-new-open-source.html",
-      "pushed_at": "2026-11-11",
-      "title": "Weird licenses and the new open source",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "pushed_at": "2026-11-12",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
       "score": 5
     },
     {
-      "url": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
-      "pushed_at": "2026-11-11",
-      "title": "Next-Level Benchmarking Overfitting",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "pushed_at": "2026-11-12",
+      "title": "Why the data center you dread might never even be built",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
-      "pushed_at": "2026-11-11",
-      "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "pushed_at": "2026-11-12",
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "score": 5
+    },
+    {
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "pushed_at": "2026-11-12",
+      "title": "My AI agents found an unmapped Maya site?",
+      "score": 5
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/509085.html",
+      "pushed_at": "2026-11-12",
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
       "score": 5
     }
   ]
