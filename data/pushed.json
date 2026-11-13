@@ -1,256 +1,292 @@
 {
   "pushed": [
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247942969&idx=3&sn=25045e5ae09f4054d3f6ff20665d75f4",
-      "pushed_at": "2026-11-12",
-      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "pushed_at": "2026-11-13",
+      "title": "[AINews] D-Day (Decision Models Day)",
       "score": 9
     },
     {
-      "url": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
-      "pushed_at": "2026-11-12",
-      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
+      "url": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-13",
+      "title": "刚刚，Gemini 4 新模型叒来了，终于人人可用",
       "score": 9
     },
     {
-      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-      "pushed_at": "2026-11-12",
-      "title": "Gemini Decisions API",
+      "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+      "pushed_at": "2026-11-13",
+      "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+      "score": 9
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "pushed_at": "2026-11-13",
+      "title": "llm-gemini 0.37",
       "score": 8
     },
     {
-      "url": "https://github.com/anthropics/skills",
-      "pushed_at": "2026-11-12",
-      "title": "anthropics/skills",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "pushed_at": "2026-11-13",
+      "title": "ZhuLinsen/daily_stock_analysis",
       "score": 8
     },
     {
-      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
-      "pushed_at": "2026-11-12",
-      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+      "url": "https://github.com/shadcn/improve",
+      "pushed_at": "2026-11-13",
+      "title": "shadcn/improve",
       "score": 8
     },
     {
-      "url": "https://github.com/mattpocock/skills",
-      "pushed_at": "2026-11-12",
-      "title": "mattpocock/skills",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "pushed_at": "2026-11-13",
+      "title": "vercel-labs/agent-browser",
       "score": 8
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-      "pushed_at": "2026-11-12",
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/Eliot5566/JEV-Paper-Radar",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: Paper Radar – daily ArXiv triage, now runs on Claude Haiku too",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv",
-      "pushed_at": "2026-11-12",
-      "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
-      "pushed_at": "2026-11-12",
-      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
-      "pushed_at": "2026-11-12",
-      "title": "a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道",
-      "score": 8
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/openai-invites-brands-to-set-up-shop-in-chatgpt",
-      "pushed_at": "2026-11-12",
-      "title": "OpenAI invites brands to set up shop in ChatGPT",
-      "score": 7
-    },
-    {
-      "url": "https://trends.vc/ai-roleplay-apps-korean-playbooks-18-ratings-app-store-bans/",
-      "pushed_at": "2026-11-12",
-      "title": "AI Roleplay Apps: Korean Playbooks, 18+ Ratings, App Store Bans",
-      "score": 7
-    },
-    {
-      "url": "http://www.geekpark.net/news/373816",
-      "pushed_at": "2026-11-12",
-      "title": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
-      "score": 7
-    },
-    {
-      "url": "https://www.ifanr.com/1688897?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-12",
-      "title": "10 亿 Token 开源万只假鸟， AI 伪科普正在「污染」下一代的常识",
-      "score": 7
-    },
-    {
-      "url": "https://sspai.com/post/118935",
-      "pushed_at": "2026-11-12",
-      "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/adeptads/agent-skills",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: Agent skill and Claude/Codex plugins for Google Ads campaigns",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd",
-      "pushed_at": "2026-11-12",
-      "title": "WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋",
-      "score": 7
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-      "pushed_at": "2026-11-12",
-      "title": "Anthropic's IPO roadshow video",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "pushed_at": "2026-11-12",
-      "title": "aws-emulator",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/meta/astryx",
-      "pushed_at": "2026-11-12",
-      "title": "meta/astryx",
-      "score": 6
     },
     {
       "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-11-12",
+      "pushed_at": "2026-11-13",
       "title": "addyosmani/agent-skills",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/lizhuojunx86/my-cheap-coding-plan-ran-out-in-20-days-and-cost-more-per-merged-change-than-gpt-61-sol-22h9",
+      "pushed_at": "2026-11-13",
+      "title": "My cheap coding plan ran out in 20 days, and cost more per merged change than GPT-6.1 Sol",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=2&sn=0553a73ecdae11a616eb6a7896eea195",
+      "pushed_at": "2026-11-13",
+      "title": "谷歌发布首个决策模型！输出全免费，百万Token低至0.1美元",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=3&sn=83658d4b00ddad5b7c7b414c0a4b64f4",
+      "pushed_at": "2026-11-13",
+      "title": "Coding agent写测试集体失败！AI代码合格率被高估一倍",
+      "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/373907",
+      "pushed_at": "2026-11-13",
+      "title": "黄仁勋宣布辞职，特朗普：库克适合接任；微信「看一看」测试短剧入口；《GTA 6》还没发售就狂卖近千万份｜极客早知道",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/bricksentry/bricksentry",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: Bricksentry – see what a data change does before it ships (Databricks)",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/Privatris/AgentLeak",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: AgentLeak – open-source privacy testing for multi-agent LLM systems",
+      "score": 8
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/509440.html",
+      "pushed_at": "2026-11-13",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
+      "pushed_at": "2026-11-13",
+      "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/meta/astryx",
+      "pushed_at": "2026-11-13",
+      "title": "meta/astryx",
+      "score": 7
+    },
+    {
+      "url": "https://latent.space/p/jev-revolution/",
+      "pushed_at": "2026-11-13",
+      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/bbt-hi/osfoundry-codex-cli-ko-changes-push-krne-ke-bjaay-hr-resource-kaa-cursor-poll-kyon-krvaataa-hai-5064",
+      "pushed_at": "2026-11-13",
+      "title": "osFoundry, Codex CLI को changes push करने के बजाय हर resource का cursor poll क्यों करवाता है?",
+      "score": 7
+    },
+    {
+      "url": "https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790/",
+      "pushed_at": "2026-11-13",
+      "title": "AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products",
+      "score": 7
+    },
+    {
+      "url": "https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080/",
+      "pushed_at": "2026-11-13",
+      "title": "Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini? – Ask An SEO via @sejournal, @rollerblader",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "pushed_at": "2026-11-13",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/simpsoka/zigzag",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/clumsy-ug/agentview-chat",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: Agentview Chat – a chat UI for Claude Code background sessions",
+      "score": 7
+    },
+    {
+      "url": "https://infiniterm.app/",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: A canvas terminal app written in Rust with built-in agent integration",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
+      "pushed_at": "2026-11-13",
+      "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
+      "score": 7
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/ai-s-biggest-ceo-may-be-on-his-way-out",
+      "pushed_at": "2026-11-13",
+      "title": "AI’s biggest CEO may be on his way out",
       "score": 6
     },
     {
-      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
-      "pushed_at": "2026-11-12",
-      "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "pushed_at": "2026-11-13",
+      "title": "GoogleChrome/modern-web-guidance-src",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "pushed_at": "2026-11-12",
+      "url": "https://dev.to/formavide/how-to-make-a-karaoke-track-from-any-song-3cce",
+      "pushed_at": "2026-11-13",
+      "title": "How to Make a Karaoke Track from Any Song",
+      "score": 6
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=1&sn=578bf5c6b8b6e59b99b01953e0c3f53a",
+      "pushed_at": "2026-11-13",
+      "title": "250名三甲医生输给中国AI！引发中美医疗权威热议",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "pushed_at": "2026-11-13",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "pushed_at": "2026-11-13",
       "title": "The unfolding Jensen Huang scandal: a timeline",
       "score": 6
     },
     {
-      "url": "https://github.com/aws/aws-emulator",
-      "pushed_at": "2026-11-12",
-      "title": "AWS emulator",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "pushed_at": "2026-11-13",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
       "score": 6
     },
     {
-      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "pushed_at": "2026-11-12",
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "pushed_at": "2026-11-13",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509146.html",
-      "pushed_at": "2026-11-12",
-      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "pushed_at": "2026-11-13",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
       "score": 6
     },
     {
-      "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
-      "pushed_at": "2026-11-12",
-      "title": "Writing a SIGGRAPH paper from scratch",
+      "url": "http://www.geekpark.net/news/373906",
+      "pushed_at": "2026-11-13",
+      "title": "穿了 33 年皮衣的那个人，离开了英伟达",
       "score": 6
     },
     {
-      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-      "pushed_at": "2026-11-12",
-      "title": "The Web Is More Than Enough",
+      "url": "http://www.geekpark.net/news/373860",
+      "pushed_at": "2026-11-13",
+      "title": "体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子",
       "score": 6
     },
     {
-      "url": "https://github.com/gethome-inc/gethome-hub",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: gethome – a local-first smart home hub with AI",
+      "url": "https://www.ifanr.com/1689292?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-13",
+      "title": "早报｜黄仁勋仍为英伟达最大个人股东/豆包工作接入多款第三方模型/微信「看一看」测试短剧入口",
       "score": 6
     },
     {
-      "url": "https://github.com/ShadowKingYT444/motion-debugger",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: Motion Debugger – A browser critic for AI slop",
+      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+      "pushed_at": "2026-11-13",
+      "title": "Jensen Huang resigns as Nvidia CEO immediately",
       "score": 6
     },
     {
-      "url": "https://solomon-b.github.io/dogfood-bench/",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: Dogfood Bench",
+      "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "pushed_at": "2026-11-13",
+      "title": "\"Humble Bundle just killed most of their security through vibecoding\"",
       "score": 6
     },
     {
-      "url": "https://github.com/lettercamp/lettercamp",
-      "pushed_at": "2026-11-12",
-      "title": "Show HN: Lettercamp – open-source static blog framework",
+      "url": "https://github.com/graiz/kittybrowser",
+      "pushed_at": "2026-11-13",
+      "title": "Show HN: KittyBrowser, I built a web browser in your terminal",
       "score": 6
     },
     {
-      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-      "pushed_at": "2026-11-12",
-      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
+      "pushed_at": "2026-11-13",
+      "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1",
+      "pushed_at": "2026-11-13",
+      "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
+      "pushed_at": "2026-11-13",
+      "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/mudraid_73800235ea/your-ai-agent-has-api-access-but-who-decides-what-it-can-do-1njd",
+      "pushed_at": "2026-11-13",
+      "title": "Your AI Agent Has API Access. But Who Decides What It Can Do?",
       "score": 5
     },
     {
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "pushed_at": "2026-11-12",
-      "title": "anthropics/claude-quickstarts",
+      "url": "http://www.geekpark.net/news/373881",
+      "pushed_at": "2026-11-13",
+      "title": "接入多款第三方模型，豆包工作也模型自由了",
       "score": 5
     },
     {
-      "url": "https://latent.space/p/codex-work/",
-      "pushed_at": "2026-11-12",
-      "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+      "url": "https://www.qbitai.com/2026/11/509404.html",
+      "pushed_at": "2026-11-13",
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
       "score": 5
     },
     {
-      "url": "https://dev.to/speedupagi/0-in-sales-5-channels-live-what-i-fixed-when-my-9-prompt-pack-wouldnt-sell-4233",
-      "pushed_at": "2026-11-12",
-      "title": "$0 in sales, 5 channels live: what I fixed when my $9 prompt pack wouldn't sell",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-      "pushed_at": "2026-11-12",
-      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-      "pushed_at": "2026-11-12",
-      "title": "Why the data center you dread might never even be built",
-      "score": 5
-    },
-    {
-      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
-      "pushed_at": "2026-11-12",
-      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-      "score": 5
-    },
-    {
-      "url": "https://pietromiotti.com/latest/maya-site",
-      "pushed_at": "2026-11-12",
-      "title": "My AI agents found an unmapped Maya site?",
-      "score": 5
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/509085.html",
-      "pushed_at": "2026-11-12",
-      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "score": 5
+      "url": "https://github.com/we-promise/sure",
+      "pushed_at": "2026-11-13",
+      "title": "we-promise/sure",
+      "score": 4
     }
   ]
 }
