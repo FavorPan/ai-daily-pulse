@@ -1,292 +1,256 @@
 {
   "pushed": [
     {
-      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
-      "pushed_at": "2026-11-13",
-      "title": "[AINews] D-Day (Decision Models Day)",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "pushed_at": "2026-11-14",
+      "title": "AI agent startup LangChain hits $3B valuation",
       "score": 9
     },
     {
-      "url": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-13",
-      "title": "刚刚，Gemini 4 新模型叒来了，终于人人可用",
-      "score": 9
-    },
-    {
-      "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
-      "pushed_at": "2026-11-13",
-      "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-      "pushed_at": "2026-11-13",
-      "title": "llm-gemini 0.37",
+      "url": "https://dev.to/davedealai/how-we-built-a-shopping-mcp-server-with-oauth-on-nextjs-and-vercel-3k3j",
+      "pushed_at": "2026-11-14",
+      "title": "How we built a shopping MCP server with OAuth on Next.js and Vercel",
       "score": 8
     },
     {
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "pushed_at": "2026-11-13",
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/shadcn/improve",
-      "pushed_at": "2026-11-13",
-      "title": "shadcn/improve",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "pushed_at": "2026-11-13",
-      "title": "vercel-labs/agent-browser",
+      "url": "https://dev.to/jamilxt/how-to-build-a-credential-boundary-for-ai-agents-before-they-join-a-swarm-1pji",
+      "pushed_at": "2026-11-14",
+      "title": "How to Build a Credential Boundary for AI Agents Before They Join a Swarm",
       "score": 8
     },
     {
       "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-14",
       "title": "addyosmani/agent-skills",
       "score": 8
     },
     {
-      "url": "https://dev.to/lizhuojunx86/my-cheap-coding-plan-ran-out-in-20-days-and-cost-more-per-merged-change-than-gpt-61-sol-22h9",
-      "pushed_at": "2026-11-13",
-      "title": "My cheap coding plan ran out in 20 days, and cost more per merged change than GPT-6.1 Sol",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xvlm6n/i_built_a_desktop_app_that_clones_your_own_voice/",
+      "pushed_at": "2026-11-14",
+      "title": "I built a desktop app that clones your own voice locally, then reads text, whole audiobooks or dubs videos in it",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=2&sn=0553a73ecdae11a616eb6a7896eea195",
-      "pushed_at": "2026-11-13",
-      "title": "谷歌发布首个决策模型！输出全免费，百万Token低至0.1美元",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "pushed_at": "2026-11-14",
+      "title": "Alishahryar1/free-claude-code",
       "score": 8
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=3&sn=83658d4b00ddad5b7c7b414c0a4b64f4",
-      "pushed_at": "2026-11-13",
-      "title": "Coding agent写测试集体失败！AI代码合格率被高估一倍",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xvh79s/crossed_3400_in_revenue_and_hit_50_paying/",
+      "pushed_at": "2026-11-14",
+      "title": "Crossed 3400 in revenue and hit 50 paying customers on day 98, and I wrote down how every single one of them found me",
       "score": 8
     },
     {
-      "url": "http://www.geekpark.net/news/373907",
-      "pushed_at": "2026-11-13",
-      "title": "黄仁勋宣布辞职，特朗普：库克适合接任；微信「看一看」测试短剧入口；《GTA 6》还没发售就狂卖近千万份｜极客早知道",
+      "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-14",
+      "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
       "score": 8
     },
     {
-      "url": "https://github.com/bricksentry/bricksentry",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: Bricksentry – see what a data change does before it ships (Databricks)",
+      "url": "https://sspai.com/post/118153",
+      "pushed_at": "2026-11-14",
+      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
       "score": 8
     },
     {
-      "url": "https://github.com/Privatris/AgentLeak",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: AgentLeak – open-source privacy testing for multi-agent LLM systems",
+      "url": "https://www.qbitai.com/2026/11/509663.html",
+      "pushed_at": "2026-11-14",
+      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
       "score": 8
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509440.html",
-      "pushed_at": "2026-11-13",
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "url": "https://aihot.news/items/p0jsxs2bnv6tmnmn1soi56759",
+      "pushed_at": "2026-11-14",
+      "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
-      "pushed_at": "2026-11-13",
-      "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
+      "url": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k",
+      "pushed_at": "2026-11-14",
+      "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
       "score": 8
+    },
+    {
+      "url": "https://github.com/QwenLM/qwen-code",
+      "pushed_at": "2026-11-14",
+      "title": "QwenLM/qwen-code",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "pushed_at": "2026-11-14",
+      "title": "ggml-org/llama.cpp",
+      "score": 7
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "pushed_at": "2026-11-14",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=1&sn=b9d8b5c8eea7cc5f8acc951b97820b36",
+      "pushed_at": "2026-11-14",
+      "title": "破局硅谷头号难题！中国AI「魂穿」老电影，神器全民开放",
+      "score": 7
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/509995.html",
+      "pushed_at": "2026-11-14",
+      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Satvik-jain/customer-intelligence-toolkit",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: Customer Intelligence and Monetization Toolkit for Claude Code",
+      "score": 7
+    },
+    {
+      "url": "https://twitter.com/mathewpregasen/status/2121356951682752809",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: 1:1 Webflow to Claude Code converter",
+      "score": 7
+    },
+    {
+      "url": "https://agentic-system-lab.github.io/harness-relay/",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: Harness Relay – the coding agents you have, working together",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/claynicholson/copper-kicad-mcp",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: Copper-KiCad – MCP to design PCBs in KiCad better and cheaper",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr",
+      "pushed_at": "2026-11-14",
+      "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
+      "score": 7
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/nvidia-enters-life-without-jensen-huang",
+      "pushed_at": "2026-11-14",
+      "title": "Nvidia enters life without Jensen Huang",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/ashhart/TensorFold",
+      "pushed_at": "2026-11-14",
+      "title": "ashhart/TensorFold",
+      "score": 6
     },
     {
       "url": "https://github.com/meta/astryx",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-14",
       "title": "meta/astryx",
-      "score": 7
-    },
-    {
-      "url": "https://latent.space/p/jev-revolution/",
-      "pushed_at": "2026-11-13",
-      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/bbt-hi/osfoundry-codex-cli-ko-changes-push-krne-ke-bjaay-hr-resource-kaa-cursor-poll-kyon-krvaataa-hai-5064",
-      "pushed_at": "2026-11-13",
-      "title": "osFoundry, Codex CLI को changes push करने के बजाय हर resource का cursor poll क्यों करवाता है?",
-      "score": 7
-    },
-    {
-      "url": "https://www.searchenginejournal.com/fix-ai-shopping-errors-writesonic-spa/595790/",
-      "pushed_at": "2026-11-13",
-      "title": "AI Shopping Errors: What To Fix To Help Shoppers Choose Your Products",
-      "score": 7
-    },
-    {
-      "url": "https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080/",
-      "pushed_at": "2026-11-13",
-      "title": "Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini? – Ask An SEO via @sejournal, @rollerblader",
-      "score": 7
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "pushed_at": "2026-11-13",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/simpsoka/zigzag",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/clumsy-ug/agentview-chat",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: Agentview Chat – a chat UI for Claude Code background sessions",
-      "score": 7
-    },
-    {
-      "url": "https://infiniterm.app/",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: A canvas terminal app written in Rust with built-in agent integration",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
-      "pushed_at": "2026-11-13",
-      "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/ai-s-biggest-ceo-may-be-on-his-way-out",
-      "pushed_at": "2026-11-13",
-      "title": "AI’s biggest CEO may be on his way out",
       "score": 6
     },
     {
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "pushed_at": "2026-11-13",
-      "title": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "pushed_at": "2026-11-14",
+      "title": "CopilotKit/OpenBot",
       "score": 6
     },
     {
-      "url": "https://dev.to/formavide/how-to-make-a-karaoke-track-from-any-song-3cce",
-      "pushed_at": "2026-11-13",
-      "title": "How to Make a Karaoke Track from Any Song",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xv4zkq/i_built_pickerama_a_free_visual_random_picker/",
+      "pushed_at": "2026-11-14",
+      "title": "I built Pickerama — a free visual random picker, because nobody on our team wanted to lead the daily",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742394&idx=1&sn=578bf5c6b8b6e59b99b01953e0c3f53a",
-      "pushed_at": "2026-11-13",
-      "title": "250名三甲医生输给中国AI！引发中美医疗权威热议",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "pushed_at": "2026-11-14",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "pushed_at": "2026-11-13",
-      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=2&sn=7dfc6b86f6e570b6bc432b0de10712ec",
+      "pushed_at": "2026-11-14",
+      "title": "刚刚，Fable 5.2登顶RoboColiseum新榜单",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "pushed_at": "2026-11-13",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=3&sn=1819844003572b95633483e1da825ebb",
+      "pushed_at": "2026-11-14",
+      "title": "以智能体视角，清华首发具身智能综述：从端到端策略到自主系统",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "pushed_at": "2026-11-13",
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "http://www.geekpark.net/news/373946",
+      "pushed_at": "2026-11-14",
+      "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "pushed_at": "2026-11-13",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "pushed_at": "2026-11-14",
+      "title": "XYBench: Helping with the problem behind the question",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "pushed_at": "2026-11-13",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "url": "https://www.qbitai.com/2026/11/509653.html",
+      "pushed_at": "2026-11-14",
+      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373906",
-      "pushed_at": "2026-11-13",
-      "title": "穿了 33 年皮衣的那个人，离开了英伟达",
+      "url": "https://twitter.com/mathewpregasen/status/2121349682920386653",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: Replicate, turn Webflow website into a GitHub project (free)",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373860",
-      "pushed_at": "2026-11-13",
-      "title": "体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子",
+      "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
+      "pushed_at": "2026-11-14",
+      "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1689292?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-13",
-      "title": "早报｜黄仁勋仍为英伟达最大个人股东/豆包工作接入多款第三方模型/微信「看一看」测试短剧入口",
+      "url": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
+      "pushed_at": "2026-11-14",
+      "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
       "score": 6
     },
     {
-      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
-      "pushed_at": "2026-11-13",
-      "title": "Jensen Huang resigns as Nvidia CEO immediately",
+      "url": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
+      "pushed_at": "2026-11-14",
+      "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
       "score": 6
     },
     {
-      "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
-      "pushed_at": "2026-11-13",
-      "title": "\"Humble Bundle just killed most of their security through vibecoding\"",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/graiz/kittybrowser",
-      "pushed_at": "2026-11-13",
-      "title": "Show HN: KittyBrowser, I built a web browser in your terminal",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
-      "pushed_at": "2026-11-13",
-      "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1",
-      "pushed_at": "2026-11-13",
-      "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
-      "pushed_at": "2026-11-13",
-      "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/mudraid_73800235ea/your-ai-agent-has-api-access-but-who-decides-what-it-can-do-1njd",
-      "pushed_at": "2026-11-13",
-      "title": "Your AI Agent Has API Access. But Who Decides What It Can Do?",
+      "url": "https://www.searchenginejournal.com/what-reddit-reviews-reveals-about-your-products/596963/",
+      "pushed_at": "2026-11-14",
+      "title": "What Reddit Reviews Reveals About Your Products via @sejournal, @brentcsutoras",
       "score": 5
     },
     {
-      "url": "http://www.geekpark.net/news/373881",
-      "pushed_at": "2026-11-13",
-      "title": "接入多款第三方模型，豆包工作也模型自由了",
+      "url": "https://sspai.com/post/118512",
+      "pushed_at": "2026-11-14",
+      "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509404.html",
-      "pushed_at": "2026-11-13",
-      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "url": "https://www.qbitai.com/2026/11/509796.html",
+      "pushed_at": "2026-11-14",
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
       "score": 5
     },
     {
-      "url": "https://github.com/we-promise/sure",
-      "pushed_at": "2026-11-13",
-      "title": "we-promise/sure",
-      "score": 4
+      "url": "https://www.frontierbioml.com/",
+      "pushed_at": "2026-11-14",
+      "title": "Show HN: FrontierBioML – Can coding agents do ML for computational biology?",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66",
+      "pushed_at": "2026-11-14",
+      "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
+      "score": 5
     }
   ]
 }
