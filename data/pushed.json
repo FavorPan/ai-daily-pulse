@@ -1,256 +1,160 @@
 {
   "pushed": [
     {
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "pushed_at": "2026-11-14",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "score": 9
-    },
-    {
-      "url": "https://dev.to/davedealai/how-we-built-a-shopping-mcp-server-with-oauth-on-nextjs-and-vercel-3k3j",
-      "pushed_at": "2026-11-14",
-      "title": "How we built a shopping MCP server with OAuth on Next.js and Vercel",
+      "url": "https://dev.to/kalemi/how-to-run-ci-from-claude-code-3339",
+      "pushed_at": "2026-11-15",
+      "title": "How to run CI from Claude Code",
       "score": 8
     },
     {
-      "url": "https://dev.to/jamilxt/how-to-build-a-credential-boundary-for-ai-agents-before-they-join-a-swarm-1pji",
-      "pushed_at": "2026-11-14",
-      "title": "How to Build a Credential Boundary for AI Agents Before They Join a Swarm",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xw918f/i_built_small_arms_a_free_browser_fps_where_you/",
+      "pushed_at": "2026-11-15",
+      "title": "I built Small Arms, a free browser FPS where you play as a tiny soldier fighting in giant household rooms. You fight across a kitchen worktop, a toy town and the inside of a fridge, with guns made from household items (a staple gun shotgun, a rubber band SMG, a ballpoint pen marksman rifle)",
       "score": 8
     },
     {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "pushed_at": "2026-11-14",
-      "title": "addyosmani/agent-skills",
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "pushed_at": "2026-11-15",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xvlm6n/i_built_a_desktop_app_that_clones_your_own_voice/",
-      "pushed_at": "2026-11-14",
-      "title": "I built a desktop app that clones your own voice locally, then reads text, whole audiobooks or dubs videos in it",
+      "url": "https://github.com/meghrathod/atmosphere",
+      "pushed_at": "2026-11-15",
+      "title": "Show HN: Atmosphere – Dolby Atmos for Netflix in Safari (Vibecoded)",
       "score": 8
     },
     {
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "pushed_at": "2026-11-14",
-      "title": "Alishahryar1/free-claude-code",
-      "score": 8
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xvh79s/crossed_3400_in_revenue_and_hit_50_paying/",
-      "pushed_at": "2026-11-14",
-      "title": "Crossed 3400 in revenue and hit 50 paying customers on day 98, and I wrote down how every single one of them found me",
-      "score": 8
-    },
-    {
-      "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-14",
-      "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
-      "score": 8
-    },
-    {
-      "url": "https://sspai.com/post/118153",
-      "pushed_at": "2026-11-14",
-      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
-      "score": 8
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/509663.html",
-      "pushed_at": "2026-11-14",
-      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/p0jsxs2bnv6tmnmn1soi56759",
-      "pushed_at": "2026-11-14",
-      "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k",
-      "pushed_at": "2026-11-14",
-      "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/QwenLM/qwen-code",
-      "pushed_at": "2026-11-14",
-      "title": "QwenLM/qwen-code",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "pushed_at": "2026-11-15",
+      "title": "datasette-llm 0.1a11",
       "score": 7
     },
     {
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "pushed_at": "2026-11-14",
-      "title": "ggml-org/llama.cpp",
+      "url": "https://dev.to/voice_developer/elevenlabs-react-building-a-voice-enabled-ui-45cb",
+      "pushed_at": "2026-11-15",
+      "title": "ElevenLabs + React: Building a Voice-Enabled UI",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "pushed_at": "2026-11-14",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "pushed_at": "2026-11-15",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=1&sn=b9d8b5c8eea7cc5f8acc951b97820b36",
-      "pushed_at": "2026-11-14",
-      "title": "破局硅谷头号难题！中国AI「魂穿」老电影，神器全民开放",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwi516/enconvo_2516_watch_your_ai_agent_work_in_picture/",
+      "pushed_at": "2026-11-15",
+      "title": "Enconvo 2.5.16: watch your AI agent work in Picture in Picture, backup models when one fails, and tasks that survive a restart",
       "score": 7
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509995.html",
-      "pushed_at": "2026-11-14",
-      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Satvik-jain/customer-intelligence-toolkit",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: Customer Intelligence and Monetization Toolkit for Claude Code",
-      "score": 7
-    },
-    {
-      "url": "https://twitter.com/mathewpregasen/status/2121356951682752809",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: 1:1 Webflow to Claude Code converter",
-      "score": 7
-    },
-    {
-      "url": "https://agentic-system-lab.github.io/harness-relay/",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: Harness Relay – the coding agents you have, working together",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/claynicholson/copper-kicad-mcp",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: Copper-KiCad – MCP to design PCBs in KiCad better and cheaper",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr",
-      "pushed_at": "2026-11-14",
-      "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/nvidia-enters-life-without-jensen-huang",
-      "pushed_at": "2026-11-14",
-      "title": "Nvidia enters life without Jensen Huang",
+      "url": "https://dev.to/ishani_bakshi_63e71c522f2/brandloop-hackprinceton-1o61",
+      "pushed_at": "2026-11-15",
+      "title": "BrandLoop HackPrinceton",
       "score": 6
     },
     {
-      "url": "https://github.com/ashhart/TensorFold",
-      "pushed_at": "2026-11-14",
-      "title": "ashhart/TensorFold",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "pushed_at": "2026-11-15",
+      "title": "tradermonty/claude-trading-skills",
       "score": 6
     },
     {
-      "url": "https://github.com/meta/astryx",
-      "pushed_at": "2026-11-14",
-      "title": "meta/astryx",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwftgy/ive_made_936_commits_with_claude_code_in_three/",
+      "pushed_at": "2026-11-15",
+      "title": "I've made 936 commits with Claude Code in three weeks whilst my SaaS makes almost nothing a month",
       "score": 6
     },
     {
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "pushed_at": "2026-11-14",
-      "title": "CopilotKit/OpenBot",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xw9nu8/i_built_a_3d_visualizer_to_watch_an_llm_think/",
+      "pushed_at": "2026-11-15",
+      "title": "I built a 3d visualizer to watch an LLM think!",
       "score": 6
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xv4zkq/i_built_pickerama_a_free_visual_random_picker/",
-      "pushed_at": "2026-11-14",
-      "title": "I built Pickerama — a free visual random picker, because nobody on our team wanted to lead the daily",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "pushed_at": "2026-11-15",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "pushed_at": "2026-11-14",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "pushed_at": "2026-11-15",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=2&sn=7dfc6b86f6e570b6bc432b0de10712ec",
-      "pushed_at": "2026-11-14",
-      "title": "刚刚，Fable 5.2登顶RoboColiseum新榜单",
+      "url": "http://www.geekpark.net/news/373993",
+      "pushed_at": "2026-11-15",
+      "title": "传小米联手 AMG 之父，打造极致性能车；SpaceX 首次实现筷子夹飞船；「苹果最暗产品」诞生",
       "score": 6
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652742948&idx=3&sn=1819844003572b95633483e1da825ebb",
-      "pushed_at": "2026-11-14",
-      "title": "以智能体视角，清华首发具身智能综述：从端到端策略到自主系统",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "pushed_at": "2026-11-15",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
       "score": 6
     },
     {
-      "url": "http://www.geekpark.net/news/373946",
-      "pushed_at": "2026-11-14",
-      "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "pushed_at": "2026-11-15",
+      "title": "Tech companies are trying to shift the concept of privacy again",
       "score": 6
     },
     {
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "pushed_at": "2026-11-14",
-      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "pushed_at": "2026-11-15",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509653.html",
-      "pushed_at": "2026-11-14",
-      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
+      "url": "https://www.qbitai.com/2026/11/510094.html",
+      "pushed_at": "2026-11-15",
+      "title": "绿电进Token出！联想重新定义词元工厂",
       "score": 6
     },
     {
-      "url": "https://twitter.com/mathewpregasen/status/2121349682920386653",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: Replicate, turn Webflow website into a GitHub project (free)",
+      "url": "https://www.qbitai.com/2026/11/510297.html",
+      "pushed_at": "2026-11-15",
+      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
-      "pushed_at": "2026-11-14",
-      "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
+      "url": "https://nischoy.ai/",
+      "pushed_at": "2026-11-15",
+      "title": "Show HN: Deterministic prompt injection detector using formal logic",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
-      "pushed_at": "2026-11-14",
-      "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
-      "pushed_at": "2026-11-14",
-      "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
-      "score": 6
-    },
-    {
-      "url": "https://www.searchenginejournal.com/what-reddit-reviews-reveals-about-your-products/596963/",
-      "pushed_at": "2026-11-14",
-      "title": "What Reddit Reviews Reveals About Your Products via @sejournal, @brentcsutoras",
+      "url": "https://dev.to/saad_ahmed_69441a812d950d/building-hushgpt-a-local-first-open-source-ai-workspace-with-python-and-flask-1k",
+      "pushed_at": "2026-11-15",
+      "title": "Building HushGPT: A Local-First, Open-Source AI Workspace with Python and Flask",
       "score": 5
     },
     {
-      "url": "https://sspai.com/post/118512",
-      "pushed_at": "2026-11-14",
-      "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
+      "url": "https://github.com/block/buzz",
+      "pushed_at": "2026-11-15",
+      "title": "block/buzz",
       "score": 5
     },
     {
-      "url": "https://www.qbitai.com/2026/11/509796.html",
-      "pushed_at": "2026-11-14",
-      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xvrhcn/i_built_a_quiet_online_room_where_strangers_just/",
+      "pushed_at": "2026-11-15",
+      "title": "I built a quiet online room where strangers just study together",
       "score": 5
     },
     {
-      "url": "https://www.frontierbioml.com/",
-      "pushed_at": "2026-11-14",
-      "title": "Show HN: FrontierBioML – Can coding agents do ML for computational biology?",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwfj02/palletizing_an_iphone_app_that_figures_pallet/",
+      "pushed_at": "2026-11-15",
+      "title": "Palletizing - an iPhone app that figures pallet dims, ship cube, weight, and freight class",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66",
-      "pushed_at": "2026-11-14",
-      "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
-      "score": 5
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "pushed_at": "2026-11-15",
+      "title": "Likely7/Veyra-NRVideo",
+      "score": 4
     }
   ]
 }

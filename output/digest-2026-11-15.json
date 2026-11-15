@@ -1,0 +1,478 @@
+{
+  "date": "2026-11-15",
+  "highlights": [
+    "How to run CI from Claude Code",
+    "I built Small Arms, a free browser FPS where you play as a tiny soldier fighting in giant household rooms. You fight across a kitchen worktop, a toy town and the inside of a fridge, with guns made from household items (a staple gun shotgun, a rubber band SMG, a ballpoint pen marksman rifle)",
+    "Show HN: Atmosphere – Dolby Atmos for Netflix in Safari (Vibecoded)"
+  ],
+  "items": [
+    {
+      "id": "e6c5fb29e6b0",
+      "title": "How to run CI from Claude Code",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/kalemi/how-to-run-ci-from-claude-code-3339",
+      "tags": [
+        "Claude Code",
+        "GitHub Actions",
+        "CI/CD",
+        "Agent Workflow",
+        "gh CLI",
+        "act"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Run continuous integration directly from Claude Code via three distinct methods: trigger GitHub Actions with the `gh` CLI for real workflow validation, replay steps locally using `act` to verify YAML syntax and matrix logic, or execute test commands on a fresh runner to test the environment. Each approach targets specific uncertainties, with `act` requiring Docker and providing evidence about the workflow file rather than the final code execution environment.",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "0ef74280ec76",
+      "title": "I built Small Arms, a free browser FPS where you play as a tiny soldier fighting in giant household rooms. You fight across a kitchen worktop, a toy town and the inside of a fridge, with guns made from household items (a staple gun shotgun, a rubber band SMG, a ballpoint pen marksman rifle)",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xw918f/i_built_small_arms_a_free_browser_fps_where_you/",
+      "tags": [
+        "Claude Code",
+        "多Agent架构",
+        "程序化生成",
+        "游戏开发"
+      ],
+      "why_now": "Claude Code 5.2与Opus 5.5多智能体刚实现数天开发完整游戏",
+      "why_now_en": "",
+      "summary_en": "Small Arms is a free browser-based FPS featuring multiplayer and co-op modes, utilizing a fully procedural codebase where textures, models, and audio are generated at load time rather than loaded from files. Developed by directing Claude Code over two days using Fable 5.2 and Opus 5.5, the project employed a multi-agent workflow where up to 11 specialist agents built modules in parallel, and a reviewer agent scored iterative builds that improved from 7 to 8.5 out of 10. The game runs on desktop and mobile, implementing peer-to-peer multiplayer via WebRTC with client-side prediction and lag compensation, and is accessible at playsmallarms.com.",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "e0802ff8d144",
+      "title": "Show HN: Atmosphere – Dolby Atmos for Netflix in Safari (Vibecoded)",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/meghrathod/atmosphere",
+      "tags": [
+        "Claude Code",
+        "Safari扩展",
+        "Vibe Coding",
+        "一人公司",
+        "开源项目"
+      ],
+      "why_now": "刚用 Claude 一次性构建，Safari 现可免费解锁 Netflix 杜比全景声。",
+      "why_now_en": "",
+      "summary_en": "Atmosphere is a free Safari extension for macOS that enables Dolby Atmos audio on Netflix and Disney+ by manipulating playback requests and exploiting a WebKit bug to maintain Atmos mode, thereby overriding standard AAC/5.1 limitations. For Disney+, it also unlocks up to 4K resolution and Dolby Vision/HDR10 by adding specific codec and resolution flags to the player's request stream. The tool was developed in a single session using Claude Code and requires a signed Xcode build to install, supporting Safari 17 and later on Apple Silicon systems.",
+      "trend_signal": true,
+      "trend_topic": "开源项目",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "cd9e3aa4df66",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "tags": [
+        "AI for Science",
+        "Benchmark",
+        "大模型评测",
+        "科研AI"
+      ],
+      "why_now": "SPU基准刚发布，12款前沿模型预测湿实验结果集体惨败，揭示当前AI科研落地存在巨大空白窗口。",
+      "why_now_en": "",
+      "summary_en": "The Science Prediction Universe (SPU) benchmark, developed by UniPat AI and over ten institutions including Stanford and Harvard, evaluates AI wet-lab prediction capabilities across 116 tasks and 4,207 experiments, with top-performing models like Claude Opus 5.5 achieving a score of only 0.486 and exceeding random chance in just 50% of tasks. Testing revealed that increasing computational resources by 5x and raising inference intensity for GPT-6 Astra had no significant impact on prediction accuracy, indicating that models often fail to adjust their reasoning basis or apply tools strategically despite having more time and compute.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e9477865501b",
+      "title": "datasette-llm 0.1a11",
+      "summary": "datasette-llm 0.1a11 新增对 OpenAI 兼容端点的支持，允许通过 `uvx` 命令连接本地模型（如 LM Studio、Ollama 或 llama.cpp v1.0.0），并指定 `lmstudio-qwen` 等模型及本地 API 地址。该配置使 Datasette 能够运行由本地大语言模型驱动的 Datasette Agent 实例，实现无需云端服务即可在本地部署智能数据分析代理。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "tags": [
+        "datasette-llm",
+        "local-llm",
+        "openai-compatible",
+        "uvx",
+        "datasette"
+      ],
+      "why_now": "",
+      "why_now_en": "llama.cpp just hit v1.0",
+      "summary_en": "datasette-llm 0.1a11 adds support for OpenAI-compatible endpoints, enabling the integration of local LLMs from LM Studio, Ollama, and llama.cpp v1.0.0 into Datasette. Users can run a local Datasette Agent instance via `uvx` by configuring the `default_model` setting to point to a local API base, such as `http://localhost:1234/v1`.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "090a3dfe0afc",
+      "title": "ElevenLabs + React: Building a Voice-Enabled UI",
+      "summary": "本文基于 Vite 和 TypeScript 构建 React 前端，通过集成 axios 与 @mui/material 库，调用 ElevenLabs API 实现文本到语音的实时合成与播放。相比 Google Cloud TTS、Amazon Polly 和 Microsoft Azure Speech，ElevenLabs 凭借更轻量的 API 和拟人化的语音质量在自然度与集成便捷性上表现更优，具体操作包括配置 `VITE_ELEVEN_KEY` 环境变量，并利用 `axios.post` 请求获取音频 Blob 数据，随后通过 `URL.createObjectURL` 生成对象 URL 实现前端直接播放。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/voice_developer/elevenlabs-react-building-a-voice-enabled-ui-45cb",
+      "tags": [
+        "ElevenLabs",
+        "React",
+        "TTS集成",
+        "代码示例"
+      ],
+      "why_now": "文中未包含明确的时效性信号，如新API、降价或政策变化。",
+      "why_now_en": "No clear timeliness signal.",
+      "summary_en": "ElevenLabs is presented as a superior text-to-speech option compared to Google Cloud, Amazon Polly, and Azure Speech due to its enhanced naturalness and lightweight API, suitable for mainstream UI integration. The article provides a specific React implementation using Vite and TypeScript that leverages `axios` to POST user input to the ElevenLabs TTS endpoint, retrieves an audio blob, and streams playback through a MUI-based component.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "379642deb53f",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "summary": "Chrome DevTools MCP 是一个允许 AI 编程代理（如 Claude、Cursor）通过 MCP 服务器或 CLI 控制实时 Chrome 浏览器的工具，其核心能力包括使用 Puppeteer 进行可靠的自动操作、提取性能洞察以及执行深度网络与日志调试。在现有方案对比上，它官方仅支持 Google Chrome 和 Chrome for Testing，并通过集成 CrUX API 将真实用户体验数据与实验室数据结合，提供全面的性能分析视图。该工具可通过在 MCP 客户端配置中添加 `npx -y chrome-devtools-mcp@latest` 启动，默认启用使用统计收集，但可通过 `--no-usage-statistics` 标志或环境变量进行关闭。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "tags": [
+        "MCP",
+        "Chrome DevTools",
+        "AI Agent",
+        "浏览器自动化"
+      ],
+      "why_now": "",
+      "why_now_en": "Agents can now live-debug Chrome",
+      "summary_en": "ChromeDevTools/chrome-devtools-mcp enables coding agents to control and inspect live Chrome browsers via a Model-Context-Protocol (MCP) server or CLI, providing performance tracing, network debugging, and reliable Puppeteer-based automation. The tool supports Google Chrome and Chrome for Testing, with setup requiring Node.js LTS and configuration via the `npx chrome-devtools-mcp@latest` command, while offering flags like `--no-usage-statistics` to disable default telemetry collection.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9ac3af24b125",
+      "title": "Enconvo 2.5.16: watch your AI agent work in Picture in Picture, backup models when one fails, and tasks that survive a restart",
+      "summary": "macOS AI 智能体应用 Enconvo 更新至 2.5.16 版本，新增画中画实时监控与点击接管功能，并支持在模型报错时自动切换备用模型完成任务。该版本引入了跨重启任务恢复机制，允许 Claude Code、Codex 等编程智能体主导项目并实现一键发布网页，同时支持接听电话及在 Google Meet、Zoom 等会议中生成摘要。应用提供免费计划及每月 10 美元起的付费方案，运行需 macOS 14+ 系统及辅助功能权限。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwi516/enconvo_2516_watch_your_ai_agent_work_in_picture/",
+      "tags": [
+        "Enconvo",
+        "macOS",
+        "Agent",
+        "多模态",
+        "工具更新"
+      ],
+      "why_now": "",
+      "why_now_en": "Agent-driven meeting support with one-click publishing just shipped.",
+      "summary_en": "Enconvo 2.5.16, an AI agent app for macOS 14+, introduces Picture-in-Picture monitoring for Browser and Computer Use tasks, model fallback mechanisms to prevent reply errors, and session persistence that allows chats to resume after a restart. The update enables coding agents like Claude Code, Codex, and Grok Build to lead Projects, supports voice calls in Google Meet and Zoom with automated summaries, and offers one-click publishing for generated pages. Paid plans start at $10/month, though the app remains exclusive to Mac users requiring Accessibility and Screen Recording permissions.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ec21237255e8",
+      "title": "BrandLoop HackPrinceton",
+      "summary": "BrandLoop 是一款面向缺乏设计营销资源的创始人的自动化工具，其核心是通过读取品牌官网生成品牌文件，利用 ffmpeg、本地 Whisper 模型及 Apple 设备端文本阅读器实现视频合规审查与内容生成，而非依赖大语言模型决策。该系统包含 Review（视频质检）、Create（脚本创作与品牌套件生成）及 Pulse（本地情感分析社区映射）三大模块，其中披露标签检查设定了屏幕停留至少 3 秒、画面占比 4% 及 4.5 对比度等具体硬性指标，并通过将舆情数据反向提案至品牌文件实现动态更新。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/ishani_bakshi_63e71c522f2/brandloop-hackprinceton-1o61",
+      "tags": [
+        "Brandloop",
+        "Brand Consistency",
+        "Computer Vision",
+        "LLM Workflow",
+        "Princeton Hackathon"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "BrandLoop is an automated brand management system that generates a unified brand file from a website and logo to power three modules: video QA with strict disclosure metrics, AI-assisted creator briefs and script drafting, and local sentiment analysis of public comments. The system operates on the principle that measurable elements, such as ad label visibility and contrast, are computed via ffmpeg, Apple Vision, and local Whisper models rather than relying on LLM judgment for compliance decisions. Testing revealed that Apple Vision’s text recognition can misread inverted #ad badges in upside-down frames, causing false negative scores despite the label meeting the required on-screen duration and visibility standards.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "62ea4dbfa821",
+      "title": "Show HN: Deterministic prompt injection detector using formal logic",
+      "summary": "",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Show HN",
+      "url": "https://nischoy.ai/",
+      "tags": [
+        "提示注入检测",
+        "形式化逻辑",
+        "SMT求解器",
+        "安全",
+        "CPU优化"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Nischoy is a deterministic prompt injection detector that uses language analysis and formal logic checked by an SMT solver, eliminating the need for LLMs or GPUs. Operating on standard CPUs, it achieves a median latency of 4.7 milliseconds with p95 at 6.0 milliseconds, providing verifiable, consistent verdicts based on specific policy matches rather than probabilistic model guesses.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "a10c5862b365",
+      "title": "I've made 936 commits with Claude Code in three weeks whilst my SaaS makes almost nothing a month",
+      "summary": "使用Claude Code在两周内完成936次代码提交，开发了名为Frostbyte的SaaS工具以自动化管理开发任务，但面临获客难题，目前仅有86名注册用户，其中3人付费，月收入约40美元。作者计划通过解决用户获取问题，在1月初将付费用户数量提升至20人。",
+      "score": 6,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwftgy/ive_made_936_commits_with_claude_code_in_three/",
+      "tags": [
+        "Claude Code",
+        "一人公司",
+        "SaaS",
+        "冷启动",
+        "开发效率"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "The developer built Frostbyte, a workspace tool that syncs Claude Code with backlog, bugs, and release notes to maintain focus, enabling 936 commits in three weeks. However, the SaaS currently generates only ~$40 per month in revenue from just 3 of 86 total sign-ups. The developer aims to acquire 20 paying users by early January, highlighting the challenge of converting high-speed AI-assisted development into commercial traction.",
+      "trend_signal": true,
+      "trend_topic": "claude code",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "e86112d5f873",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "summary": "Nvidia 前 CEO 黄仁勋因与涉嫌中国间谍的芯片高管有染于周四辞职，公司随即任命 CFO Colette Kress 为临时 CEO 并启动永久继任者搜索。截至周六，一份要求恢复黄仁勋职务的请愿书已获超过 11.5 万人签名，其中包含 5,965 名现任员工、63,063 名股东以及 Elon Musk、Tim Sweeney 等科技高管，请愿书主张黄仁勋被移除缺乏正当程序。",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "tags": [
+        "Nvidia",
+        "行业动荡",
+        "人才流失",
+        "资本市场"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "0dac5bc8bd77",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "Character.ai在成立五年后申请破产，此前谷歌曾以27亿美元授权技术并挖角其创始人，该应用还因涉及未成年人安全纠纷遭迪士尼发函警告；据标普全球市场情报统计，约42%的企业AI项目最终被放弃，OpenAI也面临多重挫折，包括ChatGPT超级应用重构遭用户抵制后回滚、独立浏览器Atlas在不到一年内停运并将功能并入ChatGPT、以及Sora视频平台因高运营成本于2026年3月关闭；苹果的新版Siri AI因工程问题多次推迟至iOS 27 beta才亮相，此前因误导营销iPhone 16的AI功能支付了2.5亿美元和解金。",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "tags": [
+        "AI创业失败案例",
+        "行业现状",
+        "风险预警",
+        "Character.ai",
+        "OpenAI"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "c8e32c6fcbb3",
+      "title": "传小米联手 AMG 之父，打造极致性能车；SpaceX 首次实现筷子夹飞船；「苹果最暗产品」诞生",
+      "summary": "小米正与 HWA 秘密合作，旨在基于 SU7 Ultra 改进底盘、制动及动力系统或推出一款全新高性能车型；SpaceX 在星舰第 15 次试飞中首次利用发射塔“筷子”机械臂成功捕获 Ship 42 飞船，并部署了 26 颗星链卫星。此外，Google 为 Gemini 接入 Plaid 和 Google Wallet，推出仅在美国市场可用的个人财务分析功能，通过只读机制帮助用户分析收支并制定预算。",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/373993",
+      "tags": [
+        "Meta Muse",
+        "AI Agent",
+        "语音交互",
+        "办公替代"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "7e8a918c3908",
+      "title": "Tech companies are trying to shift the concept of privacy again",
+      "summary": "Meta、Google 的智能眼镜以及 Apple Watch 的 Audio Intelligence 和 Amazon Bee 设备利用 AI 对周围环境进行全天候记录、转录或摘要，使隐私保护从个人选择扩展至对他人的物理侵入。尽管厂商通过模糊人脸或声称不存储原始音频来构建技术壁垒，但这些措施仅保护设备用户，无法解决旁观者（bystanders）无法退出被监控状态的核心矛盾。面对此类“环境监控设备”，用户需意识到其法律地位类似于常驻录音机，并需自行承担理解设备能力、遵守各州同意法及负责任使用的合规风险。",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "tags": [
+        "隐私",
+        "硬件",
+        "AI伦理",
+        "Apple",
+        "Meta",
+        "Amazon"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "8f4b2632f433",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "summary": "",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "tags": [
+        "Nvidia",
+        "市场操纵",
+        "供应链",
+        "行业监管"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ae856804135b",
+      "title": "绿电进Token出！联想重新定义词元工厂",
+      "summary": "",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html",
+      "tags": [
+        "算力成本",
+        "联想",
+        "Token经济",
+        "绿色算力"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "eab8f98232fc",
+      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+      "summary": "",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510297.html",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "公司管理",
+        "芯片行业"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "441fbe523035",
+      "title": "Palletizing - an iPhone app that figures pallet dims, ship cube, weight, and freight class",
+      "summary": "",
+      "score": 5,
+      "topic": "OPC/AI赚钱案例",
+      "source": "Reddit r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1xwfj02/palletizing_an_iphone_app_that_figures_pallet/",
+      "tags": [
+        "一人公司",
+        "移动应用",
+        "物流工具"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Palletizing is a one-time $0.99 iPhone app that calculates pallet dimensions, ship cube, weight, and freight class via manual input or camera measurement, enabling users to plan loading for vehicles ranging from pickups to 53-foot vans. The app supports both imperial and metric units, operates offline without ads or tracking, and generates exportable PDFs for drivers and shipment documentation.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "VibeSpace",
+      "name_en": "VibeSpace",
+      "description": "一个让非技术创始人通过自然语言对话即可构建、部署并分享浏览器原生AI体验的“氛围编程”协作工作台。",
+      "description_en": "A collaborative 'vibe coding' workspace that allows non-technical founders to build, deploy, and share native browser AI experiences via natural language conversations.",
+      "target_user": "希望验证AI创意但缺乏前端工程能力的独立创作者、内容营销人员及一人公司创始人",
+      "target_user_en": "Indie creators, content marketers, and solo founders who want to prototype AI ideas without frontend engineering skills",
+      "core_features": [
+        "自然语言生成可交互的浏览器UI组件与微应用",
+        "内置Web Audio API音频/视觉氛围合成器，无需外部依赖",
+        "一键生成可分享链接，内置嵌入代码片段用于社交媒体展示"
+      ],
+      "core_features_en": [
+        "Generate interactive browser UI components and micro-apps via natural language",
+        "Built-in Web Audio API atmosphere synthesizer for audio/visuals without external dependencies",
+        "One-click shareable links with embedded code snippets for social media showcase"
+      ],
+      "related_trends": [
+        "Vibe Coding",
+        "AI原生Web体验",
+        "无代码创意原型"
+      ],
+      "related_trends_en": [
+        "Vibe Coding",
+        "AI-Native Web Experiences",
+        "No-Code Creative Prototyping"
+      ],
+      "why_now": "Hacker News上Atmosphere项目的高热度（8分）及4个跨源热点表明，社区对‘Vibe Coding’和浏览器原生AI体验有强烈兴趣；Atmosphere证明了一人团队可快速交付创意浏览器扩展，但现有工具仍偏向极客，缺乏让普通创作者无需编码即可复现此类沉浸式AI微应用的协作平台。",
+      "why_now_en": "The high buzz (8/10 score) around Atmosphere on Hacker News and 4 cross-source trends show strong community interest in 'Vibe Coding' and native browser AI experiences. Atmosphere proved that solo developers can quickly deliver creative browser extensions, but current tools cater to geeks; there is a gap for a collaborative platform allowing non-coders to easily recreate immersive AI micro-apps.",
+      "monetization": "SaaS订阅（免费版限5个体验/月，Pro版$15/月解锁无限体验、自定义音频合成器及高级分享页面）",
+      "monetization_en": "SaaS subscription (Free: 5 experiences/month; Pro: $15/month for unlimited experiences, custom audio synthesizer, and advanced share pages)",
+      "difficulty": "medium",
+      "estimated_mvp_days": 14,
+      "source_article": "Show HN: Atmosphere – Dolby Atmos for Netflix in Safari (Vibecoded)",
+      "source_article_url": "https://github.com/meghrathod/atmosphere",
+      "source_article_score": 8,
+      "source_article_source": "Hacker News Show HN"
+    }
+  ]
+}
