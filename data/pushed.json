@@ -1,160 +1,148 @@
 {
   "pushed": [
     {
-      "url": "https://dev.to/kalemi/how-to-run-ci-from-claude-code-3339",
-      "pushed_at": "2026-11-15",
-      "title": "How to run CI from Claude Code",
+      "url": "https://dev.to/byhashdong/how-an-api-error-became-a-successful-workflow-result-1h5e",
+      "pushed_at": "2026-11-16",
+      "title": "How an API error became a successful workflow result",
       "score": 8
     },
     {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xw918f/i_built_small_arms_a_free_browser_fps_where_you/",
-      "pushed_at": "2026-11-15",
-      "title": "I built Small Arms, a free browser FPS where you play as a tiny soldier fighting in giant household rooms. You fight across a kitchen worktop, a toy town and the inside of a fridge, with guns made from household items (a staple gun shotgun, a rubber band SMG, a ballpoint pen marksman rifle)",
+      "url": "https://dev.to/sibi_s_130d5df2798dfc3179/a-remote-mcp-server-in-a-directory-that-only-starts-stdio-servers-65-lines-of-bridge-score-33-to-3g24",
+      "pushed_at": "2026-11-16",
+      "title": "A remote MCP server in a directory that only starts stdio servers. 65 lines of bridge, score 33% to 58%",
       "score": 8
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/510232.html",
-      "pushed_at": "2026-11-15",
-      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/meghrathod/atmosphere",
-      "pushed_at": "2026-11-15",
-      "title": "Show HN: Atmosphere – Dolby Atmos for Netflix in Safari (Vibecoded)",
-      "score": 8
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "pushed_at": "2026-11-15",
-      "title": "datasette-llm 0.1a11",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/voice_developer/elevenlabs-react-building-a-voice-enabled-ui-45cb",
-      "pushed_at": "2026-11-15",
-      "title": "ElevenLabs + React: Building a Voice-Enabled UI",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "pushed_at": "2026-11-15",
-      "title": "ChromeDevTools/chrome-devtools-mcp",
-      "score": 7
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xwi516/enconvo_2516_watch_your_ai_agent_work_in_picture/",
-      "pushed_at": "2026-11-15",
-      "title": "Enconvo 2.5.16: watch your AI agent work in Picture in Picture, backup models when one fails, and tasks that survive a restart",
-      "score": 7
-    },
-    {
-      "url": "https://dev.to/ishani_bakshi_63e71c522f2/brandloop-hackprinceton-1o61",
-      "pushed_at": "2026-11-15",
-      "title": "BrandLoop HackPrinceton",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "pushed_at": "2026-11-15",
-      "title": "tradermonty/claude-trading-skills",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xwftgy/ive_made_936_commits_with_claude_code_in_three/",
-      "pushed_at": "2026-11-15",
-      "title": "I've made 936 commits with Claude Code in three weeks whilst my SaaS makes almost nothing a month",
-      "score": 6
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xw9nu8/i_built_a_3d_visualizer_to_watch_an_llm_think/",
-      "pushed_at": "2026-11-15",
-      "title": "I built a 3d visualizer to watch an LLM think!",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "pushed_at": "2026-11-15",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "pushed_at": "2026-11-15",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "score": 6
-    },
-    {
-      "url": "http://www.geekpark.net/news/373993",
-      "pushed_at": "2026-11-15",
-      "title": "传小米联手 AMG 之父，打造极致性能车；SpaceX 首次实现筷子夹飞船；「苹果最暗产品」诞生",
-      "score": 6
-    },
-    {
-      "url": "https://www.crissyfield.de/research/lovable-en/",
-      "pushed_at": "2026-11-15",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "score": 6
-    },
-    {
-      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-      "pushed_at": "2026-11-15",
-      "title": "Tech companies are trying to shift the concept of privacy again",
-      "score": 6
-    },
-    {
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "pushed_at": "2026-11-15",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/510094.html",
-      "pushed_at": "2026-11-15",
-      "title": "绿电进Token出！联想重新定义词元工厂",
-      "score": 6
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/510297.html",
-      "pushed_at": "2026-11-15",
-      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "score": 6
-    },
-    {
-      "url": "https://nischoy.ai/",
-      "pushed_at": "2026-11-15",
-      "title": "Show HN: Deterministic prompt injection detector using formal logic",
-      "score": 6
-    },
-    {
-      "url": "https://dev.to/saad_ahmed_69441a812d950d/building-hushgpt-a-local-first-open-source-ai-workspace-with-python-and-flask-1k",
-      "pushed_at": "2026-11-15",
-      "title": "Building HushGPT: A Local-First, Open-Source AI Workspace with Python and Flask",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/block/buzz",
-      "pushed_at": "2026-11-15",
-      "title": "block/buzz",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xvrhcn/i_built_a_quiet_online_room_where_strangers_just/",
-      "pushed_at": "2026-11-15",
-      "title": "I built a quiet online room where strangers just study together",
-      "score": 5
-    },
-    {
-      "url": "https://www.reddit.com/r/SideProject/comments/1xwfj02/palletizing_an_iphone_app_that_figures_pallet/",
-      "pushed_at": "2026-11-15",
-      "title": "Palletizing - an iPhone app that figures pallet dims, ship cube, weight, and freight class",
-      "score": 5
     },
     {
       "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "pushed_at": "2026-11-15",
+      "pushed_at": "2026-11-16",
       "title": "Likely7/Veyra-NRVideo",
-      "score": 4
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944089&idx=1&sn=d2361ece62def93463fe98336a83235b",
+      "pushed_at": "2026-11-16",
+      "title": "全球AI音乐榜第一易主！中国黑马首次上榜就干翻Suno",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247944089&idx=3&sn=921607acca3d33beb525df750c81272b",
+      "pushed_at": "2026-11-16",
+      "title": "2B模型拿下98.4%成功率！浙大VLA新成果让机器人学会状态变化",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652743221&idx=3&sn=7705b49c8bacec95cf19df0b474ee36d",
+      "pushed_at": "2026-11-16",
+      "title": "NeurIPS'26｜无需训练+梯度：引导离散扩散模型设计DNA/蛋白质",
+      "score": 8
+    },
+    {
+      "url": "https://sspai.com/post/119119",
+      "pushed_at": "2026-11-16",
+      "title": "派早报：逾十万人次联署要求黄仁勋复职",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/plannotator/sem-jiff",
+      "pushed_at": "2026-11-16",
+      "title": "Show HN: Semantic/Structural diffs powered by Jev",
+      "score": 8
+    },
+    {
+      "url": "https://minutenotes.app/",
+      "pushed_at": "2026-11-16",
+      "title": "Show HN: Minute – An Offline Meeting Notetaker Using Local LLMs",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/ashhart/TensorFold",
+      "pushed_at": "2026-11-16",
+      "title": "ashhart/TensorFold",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Tencent/LoopForge",
+      "pushed_at": "2026-11-16",
+      "title": "Tencent/LoopForge",
+      "score": 7
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652743221&idx=2&sn=94166010bc71bedc14b2b7d376e8520e",
+      "pushed_at": "2026-11-16",
+      "title": "Claude杀进Office全家桶腹地！微软市值一夜蒸发6000亿",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1689549?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-16",
+      "title": "反转！黄仁勋考虑重返英伟达，科技大佬连夜组建「作战室」",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/izdx1kuppob6c65ghvmyeal38",
+      "pushed_at": "2026-11-16",
+      "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/adalbertcross4085/near-duplicate-search-5-caching-decisions-for-a-travel-itinerary-planner-jfj",
+      "pushed_at": "2026-11-16",
+      "title": "Near-Duplicate Search: 5 Caching Decisions for a Travel Itinerary Planner",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/agog911/what-the-hourly-gpu-price-leaves-out-a-checklist-before-you-rent-4h1n",
+      "pushed_at": "2026-11-16",
+      "title": "What the hourly GPU price leaves out: a checklist before you rent",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "pushed_at": "2026-11-16",
+      "title": "JuliusBrussee/caveman",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "pushed_at": "2026-11-16",
+      "title": "ag-ui-protocol/ag-ui",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/dream-num/univer",
+      "pushed_at": "2026-11-16",
+      "title": "dream-num/univer",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "pushed_at": "2026-11-16",
+      "title": "datasette-maplibre 0.1a0",
+      "score": 6
+    },
+    {
+      "url": "https://agency.makors.xyz/",
+      "pushed_at": "2026-11-16",
+      "title": "Show HN: Agency – give your agents the computer you own",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/svn-arv/redacted/",
+      "pushed_at": "2026-11-16",
+      "title": "Show HN: Redacted - Stop Handing Claude Your Secrets",
+      "score": 6
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "pushed_at": "2026-11-16",
+      "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/we-promise/sure",
+      "pushed_at": "2026-11-16",
+      "title": "we-promise/sure",
+      "score": 5
     }
   ]
 }
