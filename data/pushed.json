@@ -1,304 +1,268 @@
 {
   "pushed": [
     {
-      "url": "http://www.geekpark.net/news/374175",
-      "pushed_at": "2026-11-19",
-      "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
       "score": 9
     },
     {
-      "url": "https://www.ifanr.com/1690235?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-19",
-      "title": "刚刚，Gemini 4 Neon 突袭发布，性价比一夜斩杀 Opus 5.5",
+      "url": "https://www.ifanr.com/1690375?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-20",
+      "title": "刚刚，Anthropic 敲钟上市！史上最大IPO却让硅谷吵翻了",
       "score": 9
     },
     {
-      "url": "https://therundownai.beehiiv.com/p/openai-newest-release-lands-to-rough-reviews",
-      "pushed_at": "2026-11-19",
-      "title": "OpenAI’s newest release lands to rough reviews",
+      "url": "https://therundownai.beehiiv.com/p/google-shipping-spree-continues-with-neon",
+      "pushed_at": "2026-11-20",
+      "title": "Google’s shipping spree continues with Neon",
       "score": 8
     },
     {
-      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-      "pushed_at": "2026-11-19",
-      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "url": "https://dev.to/aheadkit/summary-first-lost-to-trimming-at-26x-the-tokens-3p2g",
+      "pushed_at": "2026-11-20",
+      "title": "Summary-First Lost to Trimming, at 2.6x the Tokens",
       "score": 8
-    },
-    {
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "pushed_at": "2026-11-19",
-      "title": "ag-ui-protocol/ag-ui",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/obra/superpowers",
-      "pushed_at": "2026-11-19",
-      "title": "obra/superpowers",
-      "score": 8
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "pushed_at": "2026-11-19",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "score": 8
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "pushed_at": "2026-11-19",
-      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-      "score": 8
-    },
-    {
-      "url": "https://sspai.com/post/118732",
-      "pushed_at": "2026-11-19",
-      "title": "App+1｜NodLink：AirPods 变鼠标，动动脑就能操作电脑",
-      "score": 8
-    },
-    {
-      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold",
-      "pushed_at": "2026-11-19",
-      "title": "Solid 2.0",
-      "score": 8
-    },
-    {
-      "url": "https://energy-based-reasoners.github.io/",
-      "pushed_at": "2026-11-19",
-      "title": "Energy-Based Reasoners: 385x more efficient inference",
-      "score": 8
-    },
-    {
-      "url": "https://nicolasbouliane.com/blog/death-by-ai",
-      "pushed_at": "2026-11-19",
-      "title": "AI is killing All About Berlin",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-      "pushed_at": "2026-11-19",
-      "title": "Google DeepMind 发布 Gemini 4 Neon",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/alibaba/open-code-review",
-      "pushed_at": "2026-11-19",
-      "title": "alibaba/open-code-review",
-      "score": 7
     },
     {
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "pushed_at": "2026-11-19",
+      "pushed_at": "2026-11-20",
       "title": "google-labs-code/stitch-skills",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247945226&idx=3&sn=ce0311beb0ee0c56ec3042c90243044c",
+      "pushed_at": "2026-11-20",
+      "title": "10GB显存跑图像模型，误差从9.4%降到4.26%：魔搭开源码率可调的权重压缩方案",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1690473?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-20",
+      "title": "早报｜苹果招人打造「接管电脑」的AI智能体/史上最大IPO，Anthropic上市/华为官宣Mate 90 Air主打轻薄",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/cty34utgc5ppbdnayf7cnjqlv",
+      "pushed_at": "2026-11-20",
+      "title": "Perplexity Computer 的 Brain 智能体可自动编写和更新个人技能",
+      "score": 8
+    },
+    {
+      "url": "https://aihot.news/items/a8d06cpj4vy2dkdzazgsqsrwx",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic IPO 检验 AI 循环融资模式，Amazon 和 Google 持股市值约 3079 亿美元",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/laogedev2/audit-a-claude-code-skill-before-you-install-it-4-checks-i-run-every-time-3a8d",
+      "pushed_at": "2026-11-20",
+      "title": "Audit a Claude Code skill before you install it: 4 checks I run every time",
       "score": 7
     },
     {
-      "url": "https://github.com/backnotprop/plannotator",
-      "pushed_at": "2026-11-19",
-      "title": "backnotprop/plannotator",
+      "url": "https://dev.to/bartholomewvance6831/real-estate-listing-retrieval-architecture-ranking-signals-that-keep-citations-honest-2g0m",
+      "pushed_at": "2026-11-20",
+      "title": "Real-Estate Listing Retrieval Architecture: Ranking Signals That Keep Citations Honest",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247945013&idx=2&sn=c5153b93bc68c9faf8114179aab04505",
-      "pushed_at": "2026-11-19",
-      "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "pushed_at": "2026-11-20",
+      "title": "HKUDS/CLI-Anything",
       "score": 7
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247945013&idx=3&sn=69ce3dd52cab3869a5a371fd6980ea5c",
-      "pushed_at": "2026-11-19",
-      "title": "5个追踪器替掉动捕棚：上海AI Lab把具身数据采集做成了可穿戴管线",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "pushed_at": "2026-11-20",
+      "title": "NVIDIA/SkillEvaluator",
       "score": 7
     },
     {
-      "url": "http://www.geekpark.net/news/374177",
-      "pushed_at": "2026-11-19",
-      "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "pushed_at": "2026-11-20",
+      "title": "google-research/paper-orchestra",
       "score": 7
     },
     {
-      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "pushed_at": "2026-11-19",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247945226&idx=2&sn=9385e9e4ba52e53f2a9f46ac39fda4f6",
+      "pushed_at": "2026-11-20",
+      "title": "英伟达RTX Spark迷你主机来了！书桌角落放一台，全家MacBook的AI活它全接",
       "score": 7
     },
     {
-      "url": "https://adeindex.com",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "pushed_at": "2026-11-20",
+      "title": "These tech outages are giving Y2K, AI agent style",
       "score": 7
     },
     {
-      "url": "https://github.com/pandadad0214/panda-federation-tools",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: Open-source MCP server for pay-per-result research/public-data tools",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "pushed_at": "2026-11-20",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
       "score": 7
     },
     {
-      "url": "https://vercel.com/blog/introducing-vercel-board",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: Vercel Board – a shared, secure message board for agents (public beta)",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "score": 7
     },
     {
-      "url": "https://github.com/kensaurus/lazycow-studio",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: Lazycow Studio – turns footage you never edited into reels, locally",
+      "url": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-20",
+      "title": "AI Agent 元年，苹果是最后一个入局的巨头",
       "score": 7
     },
     {
-      "url": "https://sspai.com/post/119239",
-      "pushed_at": "2026-11-19",
-      "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic’s Nasdaq debut",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/yxu549lhmsyp0qe8rstrheqlw",
-      "pushed_at": "2026-11-19",
-      "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+      "url": "https://github.com/un-seen/citeparse",
+      "pushed_at": "2026-11-20",
+      "title": "Show HN: Citeparse: parse reference lists and flag invented citations on a CPU",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/v0rnw0gs7wqagl0k8xwblf421",
-      "pushed_at": "2026-11-19",
-      "title": "OpenAI 发布研究加速报告：智能体完成近半数长时研究任务但进展参差",
+      "url": "https://sspai.com/post/119311",
+      "pushed_at": "2026-11-20",
+      "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
       "score": 7
     },
     {
-      "url": "https://dev.to/sourabh_singh_9807cf6d468/salesforce-business-card-scanner-4m8c",
-      "pushed_at": "2026-11-19",
-      "title": "salesforce business card scanner",
+      "url": "https://aihot.news/items/zs46vfwtzhs7fzho1p17mfisf",
+      "pushed_at": "2026-11-20",
+      "title": "Anthropic 完成史上最大规模 IPO，其安全治理结构受到审视",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/wefmgc42bqc1uhcqc2gv3haav",
+      "pushed_at": "2026-11-20",
+      "title": "MIT 研究测算数据中心用电 2023 年在美国致约 650 例过早死亡",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/nl1zxwjilx9vxvz7af13c1s9w",
+      "pushed_at": "2026-11-20",
+      "title": "Ai2 在 Asta 平台发布 Theorizer 科研理论生成智能体并开源代码",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/katul1512/your-ai-agent-completed-4-of-5-steps-who-is-responsible-for-the-damage-1kg5",
+      "pushed_at": "2026-11-20",
+      "title": "Your AI Agent Completed 4 of 5 Steps. Who Is Responsible for the Damage?",
       "score": 6
     },
     {
-      "url": "https://github.com/Tencent/LoopForge",
-      "pushed_at": "2026-11-19",
-      "title": "Tencent/LoopForge",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "pushed_at": "2026-11-20",
+      "title": "mvanhorn/last30days-skill",
       "score": 6
     },
     {
-      "url": "https://github.com/cursor/plugins",
-      "pushed_at": "2026-11-19",
-      "title": "cursor/plugins",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "pushed_at": "2026-11-20",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
       "score": 6
     },
     {
-      "url": "https://github.com/dream-num/univer",
-      "pushed_at": "2026-11-19",
-      "title": "dream-num/univer",
-      "score": 6
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247945013&idx=1&sn=b2e50627ec0b039ff25877d0e105b12d",
-      "pushed_at": "2026-11-19",
+      "url": "https://www.qbitai.com/2026/11/511092.html",
+      "pushed_at": "2026-11-20",
       "title": "好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
       "score": 6
     },
     {
-      "url": "https://trends.vc/goal-based-ai-agents-cloud-bill-cuts-1-metric-startups-runaway-ad-spend/",
-      "pushed_at": "2026-11-19",
-      "title": "Goal-Based AI Agents: Cloud Bill Cuts, 1-Metric Startups, Runaway Ad Spend",
+      "url": "https://sspai.com/prime/story/system-app-protection-override-macos-27-3",
+      "pushed_at": "2026-11-20",
+      "title": "有必要但欠平衡：浅评 macOS 27.3 新版权限控制机制",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "pushed_at": "2026-11-19",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://sspai.com/post/118879",
+      "pushed_at": "2026-11-20",
+      "title": "浮屏：截图即可「上岛」，还能帮你记录生活",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1690255?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-19",
-      "title": "早报｜GTA6开售，评分破纪录/大疆多款相机涨价/豆包工作三个月日活破800万",
+      "url": "https://aihot.news/items/zkhdsir848uqwlf6ibuol1eb6",
+      "pushed_at": "2026-11-20",
+      "title": "腾讯混元 Hy4 正式开源并发布 System Card",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "pushed_at": "2026-11-19",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "url": "https://aihot.news/items/alwgjr29158n454prl9tjmmw1",
+      "pushed_at": "2026-11-20",
+      "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能",
       "score": 6
     },
     {
-      "url": "https://github.com/shawnzam/holding-pattern",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: A Air traffic control SIM that forces you to remember how to write code",
+      "url": "https://aihot.news/items/gpufpm2kxcsxrewhivsjviz3a",
+      "pushed_at": "2026-11-20",
+      "title": "彭博社：黄仁勋离任英伟达 CEO 后日本 AI 股首当其冲",
       "score": 6
     },
     {
-      "url": "https://github.com/dmead/skyfind",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: Name Satellite Trails",
-      "score": 6
-    },
-    {
-      "url": "https://walkthisplan.com/",
-      "pushed_at": "2026-11-19",
-      "title": "Show HN: I built a harness that turns floor plans into 360° tours using AI",
-      "score": 6
-    },
-    {
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "pushed_at": "2026-11-19",
-      "title": "Windows 11 collects data on which coding agents and dev tools you use",
-      "score": 6
-    },
-    {
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "pushed_at": "2026-11-19",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/i24hiy236uc3ynswh26pw7s0h",
-      "pushed_at": "2026-11-19",
-      "title": "Meta 员工内部聊天显示对 Muse 智能体隐私风险的担忧",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/tsh3b6rieynf7vstk1ipl34ae",
-      "pushed_at": "2026-11-19",
-      "title": "Greg Brockman 称 OpenAI 模型不到 5 个月为 AMD 芯片带来约一年额外进度",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2",
-      "pushed_at": "2026-11-19",
-      "title": "Google DeepMind 开放 Project Genie 新体验，首次提供 Genie 4 世界模型",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/yf91syits6gqn8qvtksix0kdj",
-      "pushed_at": "2026-11-19",
-      "title": "Vals AI 评测：Anthropic、OpenAI 和 Google 模型易将医护人员与投降士兵标记为自杀式无人机目标",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/fn0p7buwy74nvduahsy10sp2f",
-      "pushed_at": "2026-11-19",
-      "title": "OpenAI 深入解析 Codex 沙箱的权限设计与三平台实现",
-      "score": 6
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "pushed_at": "2026-11-19",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "url": "https://dev.to/voice_developer/how-to-handle-voice-ai-rate-limits-and-caching-bn9",
+      "pushed_at": "2026-11-20",
+      "title": "How to Handle Voice AI Rate Limits and Caching",
       "score": 5
     },
     {
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "pushed_at": "2026-11-19",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "url": "https://github.com/appwrite/appwrite",
+      "pushed_at": "2026-11-20",
+      "title": "appwrite/appwrite",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/isjju2oyoxg3d9v6k4eyt32fi",
-      "pushed_at": "2026-11-19",
-      "title": "Palmer Luckey 就 Nvidia CEO 人事变动发表看法",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "pushed_at": "2026-11-20",
+      "title": "Meta’s new Muse Charm device may cost $300",
       "score": 5
     },
     {
-      "url": "https://aihot.news/items/gpvt9y9d89gd5nkw92bwhyw6s",
-      "pushed_at": "2026-11-19",
-      "title": "黄仁勋辞职后首次财报电话会：Nvidia 新 CEO Colette Kress 收紧支出并回应回归呼声",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "pushed_at": "2026-11-20",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
       "score": 5
+    },
+    {
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "pushed_at": "2026-11-20",
+      "title": "Fuck Your AI Safeguards",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
+      "pushed_at": "2026-11-20",
+      "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+      "pushed_at": "2026-11-20",
+      "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "pushed_at": "2026-11-20",
+      "title": "openvinotoolkit/openvino",
+      "score": 4
     }
   ]
 }
