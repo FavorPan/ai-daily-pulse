@@ -1,220 +1,154 @@
 {
   "pushed": [
     {
-      "url": "https://therundownai.beehiiv.com/p/anthropic-pulls-off-the-biggest-ipo-ever",
-      "pushed_at": "2026-11-21",
-      "title": "Anthropic pulls off the biggest IPO ever",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "pushed_at": "2026-11-22",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
       "score": 9
     },
     {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247947397&idx=2&sn=4a13a27482d1647338c4b0eec8a1d573",
-      "pushed_at": "2026-11-21",
-      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
-      "score": 9
-    },
-    {
-      "url": "http://www.geekpark.net/news/374282",
-      "pushed_at": "2026-11-21",
-      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
-      "score": 9
-    },
-    {
-      "url": "http://www.geekpark.net/news/374299",
-      "pushed_at": "2026-11-21",
-      "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
-      "score": 9
-    },
-    {
-      "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-      "pushed_at": "2026-11-21",
-      "title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
-      "score": 9
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "pushed_at": "2026-11-21",
-      "title": "Quoting Levent Alpöge",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247947677&idx=1&sn=ebf1f96b9afceacdfa0d407ecdb3ff2b",
+      "pushed_at": "2026-11-22",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
       "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/374302",
+      "pushed_at": "2026-11-22",
+      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/374301",
+      "pushed_at": "2026-11-22",
+      "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-22",
+      "title": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/jamilxt/zero-data-retention-is-not-a-security-boundary-how-to-map-your-ai-prompt-path-1mnd",
+      "pushed_at": "2026-11-22",
+      "title": "Zero Data Retention Is Not a Security Boundary: How to Map Your AI Prompt Path",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/dominic_frei_73028ac46c47/what-can-you-automate-with-the-x-api-in-2026-30a4",
+      "pushed_at": "2026-11-22",
+      "title": "What can you automate with the X API in 2026?",
+      "score": 7
     },
     {
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "pushed_at": "2026-11-21",
+      "pushed_at": "2026-11-22",
       "title": "cathrynlavery/diagram-design",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "pushed_at": "2026-11-21",
-      "title": "mvanhorn/last30days-skill",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/mjmirza/app-store-compliance",
-      "pushed_at": "2026-11-21",
-      "title": "mjmirza/app-store-compliance",
-      "score": 8
-    },
-    {
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247947397&idx=1&sn=2ea910643c6599025bf94f0a10fbda1d",
-      "pushed_at": "2026-11-21",
-      "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
-      "score": 8
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/511582.html",
-      "pushed_at": "2026-11-21",
-      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-      "score": 8
-    },
-    {
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "pushed_at": "2026-11-21",
-      "title": "Inkling 2 Mini",
-      "score": 8
-    },
-    {
-      "url": "https://arxiv.org/abs/2611.21885",
-      "pushed_at": "2026-11-21",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/ufyn252g3i251j0mfwy8xth9r",
-      "pushed_at": "2026-11-21",
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/alex13192/output-tokens-are-17-of-the-volume-and-50-of-the-bill-a-year-of-gemini-4-neon-vs-claude-opus-55-2e3e",
-      "pushed_at": "2026-11-21",
-      "title": "Output tokens are 17% of the volume and 50% of the bill — a year of Gemini 4 Neon vs Claude Opus 5.5",
       "score": 7
     },
     {
-      "url": "https://github.com/firecrawl/firecrawl",
-      "pushed_at": "2026-11-21",
-      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "pushed_at": "2026-11-22",
+      "title": "toeverything/AFFiNE",
       "score": 7
     },
     {
-      "url": "https://github.com/jingyaogong/minimind",
-      "pushed_at": "2026-11-21",
-      "title": "jingyaogong/minimind",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "pushed_at": "2026-11-22",
+      "title": "zhouxiaoka/autoclip",
       "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/374303",
+      "pushed_at": "2026-11-22",
+      "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
+      "score": 7
+    },
+    {
+      "url": "http://www.geekpark.net/news/374300",
+      "pushed_at": "2026-11-22",
+      "title": "黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/ariesrandy/how-babysea-built-adaptive-provider-selection-on-databricks-4g39",
+      "pushed_at": "2026-11-22",
+      "title": "How BabySea built adaptive provider selection on Databricks",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/ariesrandy/how-babysea-uses-cloudflare-to-secure-and-control-execution-at-scale-4l2",
+      "pushed_at": "2026-11-22",
+      "title": "How BabySea uses Cloudflare to secure and control execution at scale",
+      "score": 6
+    },
+    {
+      "url": "https://dev.to/yina_lin_06fcf130821821ab/how-we-built-a-tiny-desk-ai-video-template-without-a-motion-reference-fia",
+      "pushed_at": "2026-11-22",
+      "title": "How we built a Tiny Desk AI video template without a motion reference",
+      "score": 6
     },
     {
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "pushed_at": "2026-11-21",
+      "pushed_at": "2026-11-22",
       "title": "google-labs-code/stitch-skills",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1690596?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-21",
-      "title": "理想造了一颗登上台积电讲台的芯片，却希望你在开车时彻底忘掉它",
-      "score": 7
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "pushed_at": "2026-11-22",
+      "title": "openvinotoolkit/openvino",
+      "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-21",
-      "title": "给 Gemini 道歉，请自觉排队",
-      "score": 7
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "pushed_at": "2026-11-22",
+      "title": "mjmirza/app-store-compliance",
+      "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/11/511610.html",
-      "pushed_at": "2026-11-21",
-      "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Aagam-Bothara/rigtune",
-      "pushed_at": "2026-11-21",
-      "title": "Show HN: Find and serve fast LLM config for your GPU",
-      "score": 7
-    },
-    {
-      "url": "https://svandragt.github.io/park/",
-      "pushed_at": "2026-11-21",
-      "title": "Show HN: Park – save and recall work context across repos and machines",
-      "score": 7
-    },
-    {
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
-      "pushed_at": "2026-11-21",
-      "title": "We promoted developers into architects without informing them",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/rhln87mprozseglkairsway74",
-      "pushed_at": "2026-11-21",
-      "title": "Kling AI 发布 Kling Image 4.0：原生 8K 图像生成与高级文字渲染",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "pushed_at": "2026-11-21",
-      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "pushed_at": "2026-11-22",
+      "title": "mvanhorn/last30days-skill",
       "score": 6
     },
     {
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "pushed_at": "2026-11-21",
+      "pushed_at": "2026-11-22",
       "title": "Tracer-Cloud/opensre",
       "score": 6
     },
     {
-      "url": "https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-21",
-      "title": "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "pushed_at": "2026-11-22",
+      "title": "A tale of two Nvidias",
       "score": 6
     },
     {
-      "url": "https://antithesis.com/blog/2026/verifying-formal-models/",
-      "pushed_at": "2026-11-21",
-      "title": "Verifying formal models of Raft implementations",
+      "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+      "pushed_at": "2026-11-22",
+      "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
       "score": 6
     },
     {
-      "url": "https://saturnsql.com/context-layer",
-      "pushed_at": "2026-11-21",
-      "title": "Show HN: SaturnSQL Context, telling AI tools what the database means",
+      "url": "https://www.ifanr.com/1690789?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-22",
+      "title": "美股一夜崩盘，AI 泡沫真要破了？",
       "score": 6
     },
     {
-      "url": "https://jam.resonantdsp.com",
-      "pushed_at": "2026-11-21",
-      "title": "Show HN: Jam – A music making game where you play gigs to earn studio gear",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "pushed_at": "2026-11-22",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
       "score": 6
     },
     {
-      "url": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-      "pushed_at": "2026-11-21",
-      "title": "MIT 数学面板讨论 AI 冲击下的数学研究未来",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
-      "pushed_at": "2026-11-21",
-      "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/cursor/plugins",
-      "pushed_at": "2026-11-21",
-      "title": "cursor/plugins",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "pushed_at": "2026-11-22",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "score": 5
-    },
-    {
-      "url": "https://nametheworld.starshadowx2.workers.dev/",
-      "pushed_at": "2026-11-21",
-      "title": "Show HN: Name the World – An Atlas Quiz",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/openvinotoolkit/openvino",
-      "pushed_at": "2026-11-21",
-      "title": "openvinotoolkit/openvino",
-      "score": 4
     }
   ]
 }
