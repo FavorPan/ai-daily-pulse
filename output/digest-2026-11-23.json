@@ -1,0 +1,498 @@
+{
+  "date": "2026-11-23",
+  "highlights": [
+    "mvanhorn/last30days-skill",
+    "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
+    "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元"
+  ],
+  "items": [
+    {
+      "id": "b88590c43555",
+      "title": "mvanhorn/last30days-skill",
+      "summary": "",
+      "score": 9,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "tags": [
+        "Agent Skill",
+        "多源信息聚合",
+        "GitHub开源",
+        "工作流"
+      ],
+      "why_now": "",
+      "why_now_en": "New skill bridges AI walled gardens with live community data.",
+      "summary_en": "last30days-skill is an AI agent tool that synthesizes real-time research from Reddit, X, YouTube, Hacker News, Polymarket, and the web, using upvotes, likes, and market odds to prioritize information over traditional editorial aggregation. It integrates with 50+ agent hosts, including Claude Code, Codex, and Cursor, via the command `npx skills add mvanhorn/last30days-skill -g`, and features a setup wizard that unlocks additional platforms like TikTok and arXiv after the initial zero-config run.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ccca21ebef10",
+      "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
+      "summary": "",
+      "score": 9,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
+      "tags": [
+        "本地部署",
+        "开源项目",
+        "Mac",
+        "MiniCPM",
+        "Mirobody",
+        "隐私安全"
+      ],
+      "why_now": "",
+      "why_now_en": "No clear timeliness signal",
+      "summary_en": "Mirobody, an open-source (Apache-2.0) project by Theta Health, allows local execution of medical report analysis on Macs using the MiniCPM5-2B model via llama.cpp and Docker, achieving 100% local data processing without API keys. In a user test on an M4 Pro 48GB system, the tool successfully ingested 58 lab values from scanned images and mapped 20 items to standard LOINC codes, though it failed to parse Chinese-abbreviated terms like \"WBC\" and occasionally made minor extraction errors. The system distinguishes between clinical ambiguity—such as correctly flagging \"Cre\" as a potential antibiotic resistance test rather than creatinine—and provides trend analysis via integrated MCP support, explicitly advising users to consult doctors rather than offering diagnostic conclusions.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "0f85533fe2f8",
+      "title": "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元",
+      "summary": "",
+      "score": 9,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1690857?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "Claude",
+        "黎曼猜想",
+        "形式化验证",
+        "Anthropic"
+      ],
+      "why_now": "",
+      "why_now_en": "Tesla FSD v15 begins rolling out now.",
+      "summary_en": "Apple's 2027 roadmap includes the iPhone 18, MacBook Neo (upgraded to A19 Pro chip), and smart glasses in H2, with new products distributed across the year under CEO John Ternus. Anthropic's Claude generated a 17 million-line formal proof of the Riemann Hypothesis that received Lean certification, a milestone endorsed by Fields Medalist Shing-Tung Yau as a \"new era\" for mathematics, despite lingering scrutiny on specific code definitions. The launch of GTA VI has driven PS5 Pro prices to approximately 16,000 RMB (15,999 yuan) on some platforms, while Tesla began rolling out FSD v15 to early adopters with a new real-time road view interface.",
+      "trend_signal": true,
+      "trend_topic": "anthropic",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "a9f7ae49b5fb",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "summary": "",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Best",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "tags": [
+        "本地部署",
+        "Unsloth",
+        "Qwen",
+        "硬件配置"
+      ],
+      "why_now": "",
+      "why_now_en": "RTX 5090 enables home LLMs at $1,999.",
+      "summary_en": "Set up a free, private local AI on Windows in 10-15 minutes by installing Unsloth Desktop and running a quantized model, such as Qwen3.8-27B at 4-bit precision, which fits comfortably on an RTX 5090 with 32GB VRAM. This hardware setup enables a 128K context window for token-heavy tasks, offering a cloud alternative that eliminates subscription costs and usage limits by serving the model via a LAN-accessible chat interface.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "57fba7e76cd1",
+      "title": "MiniCPM 8B 成为老挝国家模型，端侧小模型加速落地多国",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
+      "tags": [
+        "MiniCPM",
+        "端侧模型",
+        "开源模型",
+        "国际基准测试"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "ModelBest's 8B-parameter MiniCPM achieved over 70 million downloads by November 2026 and was adopted as the official national model in Laos, where it is integrated into the government's G-Chat v2 app and outperforms GPT-4o in Lao language translation benchmarks. The model's ecosystem includes the VoxCPM2 variant for voice interactions in Malaysia and on-device risk agents for a Kenyan bank, highlighting a shift in on-device AI adoption toward cost-effective, offline-capable open models rather than large-parameter systems.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "04e5e033b799",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "summary": "",
+      "score": 8,
+      "topic": "AI投融资动态",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "巨额融资",
+        "Notable Capital",
+        "GIC"
+      ],
+      "why_now": "",
+      "why_now_en": "Anthropic's largest-ever IPO just hit, locking in a 15x return for early backers.",
+      "summary_en": "Anthropic raised $81.3 billion in the largest IPO in history, valuing the company at approximately $1.5 trillion and yielding roughly 15x paper returns for early investors who bet on its developer advantage and closed-source security. Singapore's GIC invested over $4.5 billion across Series F, G, and pre-IPO rounds to secure a ~1% stake, while Baillie Gifford committed $1.5 billion across three rounds driven by strong enterprise adoption of tools like Claude Code and compelling gross margins. Notable Capital’s earlier massive investment in Series E at a $61.5 billion valuation was justified by data showing developers using Claude 70% of the time, confirming the shift away from OpenAI.",
+      "trend_signal": true,
+      "trend_topic": "anthropic",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "8c9d1d1bd769",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "summary": "",
+      "score": 8,
+      "topic": "AI对行业的冲击",
+      "source": "Hacker News Best",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "tags": [
+        "能源",
+        "碳排放",
+        "基础设施",
+        "Anthropic"
+      ],
+      "why_now": "",
+      "why_now_en": "No clear time-specific signal found",
+      "summary_en": "Anthropic has committed to 15 GW of U.S. compute and purchased 1.7 GW of gas generators for $3.4 billion, with no direct renewable energy commitments in the U.S., resulting in a projected 87% gas and 11% coal power mix by 2028. This fossil-heavy strategy is estimated to generate 17–38 million metric tons of CO2 equivalent annually by 2028, exceeding the 2025 Scope 2 emissions of Meta, Microsoft, and Google combined.",
+      "trend_signal": true,
+      "trend_topic": "anthropic",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "11418a0ccfe2",
+      "title": "mjmirza/app-store-compliance",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "tags": [
+        "GitHub项目",
+        "合规",
+        "iOS",
+        "Android",
+        "自动化"
+      ],
+      "why_now": "",
+      "why_now_en": "Tracks 111 deadlines including EU AI Act and COPPA.",
+      "summary_en": "The open-source `mjmirza/app-store-compliance` repository provides a pre-submission guard that scans iOS and Android projects for 124 documented rejection patterns, privacy manifest issues, and 111 regulatory deadlines including the EU AI Act and COPPA. It operates via two bash commands to run a scan that categorizes findings as BLOCKED, CLEAR, or NOT CHECKED, with a 60-day staleness check to ensure rule packs remain current. The tool integrates with AI coding agents such as Claude Code and GitHub Copilot to automate compliance checks before app submission.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "83475f57615f",
+      "title": "Tracer-Cloud/opensre",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "tags": [
+        "开源项目",
+        "CI/CD",
+        "Agent",
+        "SRE"
+      ],
+      "why_now": "OpenSRE 刚发布 Public Alpha，提供开源 CI/CD 可靠性智能体，让开发者可用自托管模型自动修复构建故障。",
+      "why_now_en": "",
+      "summary_en": "OpenSRE is an open-source CLI agent in public alpha that automates CI/CD reliability by reading failed logs, tracing root causes, and pushing code fixes for review. It supports self-hosted environments using custom models and integrates with infrastructure tools like EKS, Kubernetes, Datadog, and Grafana to investigate production incidents. The agent distinguishes between CI-caused and code-caused failures to accelerate recovery and provides insights into pipeline failure rates and developer time lost.",
+      "trend_signal": true,
+      "trend_topic": "agent",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "ce3bf530c355",
+      "title": "zhouxiaoka/autoclip",
+      "summary": "AutoClip 是一款开源 AI 视频剪辑桌面工具，支持将播客、访谈等长视频自动剪成适配抖音、TikTok、YouTube Shorts 等平台的短视频，并自动生成字幕、封面及发布文案。其核心流程为“贴一个链接、选平台、一键出片”，在本地完成剪辑与渲染，云端模型按量计费，实测处理 1.7 小时视频生成 10 条成片耗时仅 7.5 分钟，文字模型费用约 0.09 元。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "tags": [
+        "开源",
+        "视频剪辑",
+        "内容复用",
+        "桌面工具"
+      ],
+      "why_now": "AutoClip 开源桌面版上线，本地渲染且云端调用成本低至几分钱。",
+      "why_now_en": "",
+      "summary_en": "AutoClip is an open-source AI desktop tool that automates the conversion of long-form video content, such as podcasts and interviews, into platform-optimized short clips, complete with subtitles, covers, and publishing copy for TikTok, Douyin, and YouTube. The tool performs editing and rendering locally on Apple Silicon or Windows devices, utilizing cloud-based models with an estimated text-model cost of ¥0.09 to ¥0.20 for processing 1.5 to 3-hour videos into 10 clips. Supported deployment options include a native desktop app, Docker for self-hosting, and a CLI interface for batch processing.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "bab81e167459",
+      "title": "Show HN: Inbox Envoy, an open-source email triage skill for your own AI agent",
+      "summary": "Inbox Envoy 是一款由 Salespeak 开发的开源邮件分诊技能（v0.1.0-beta.3），可集成至 Claude Code 等个人 AI Agent，通过读取 SKILL.md 文件夹实现邮件整理、机会高亮及未请自来的业务邀约筛选。用户需从 v0.1.0-beta.4 预发布版本下载 ZIP 包并校验 SHA-256 值，通过 `npx skills add salespeak-ai/inbox-envoy` 或在 Claude Code 中使用 `/plugin install` 命令完成安装，且该工具无需后端服务支持，默认在“观察”模式下运行不自动修改邮箱，用户需手动批准后才执行标签变更、日程安排或外发操作。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/salespeak-ai/inbox-envoy",
+      "tags": [
+        "开源工具",
+        "邮件管理",
+        "Agent技能",
+        "Show HN"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "c36e807353b6",
+      "title": "Anthropic IPO 前三家机构如何重注押注",
+      "summary": "Notable Capital在Anthropic估值615亿美元的E轮投入约10亿美元，基于开发者对Claude使用时长占比达70%的数据判断；GIC累计投资超45亿美元，并在IPO前轮以9650亿美元估值联合领投；Baillie Gifford累计投入15亿美元。这三家机构在Anthropic完成募资813亿美元的IPO前重注押注，最终在1.5万亿美元完全稀释估值下实现了约15倍的账面回报。",
+      "score": 7,
+      "topic": "AI投融资动态",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Notable Capital",
+        "GIC",
+        "Baillie Gifford",
+        "估值"
+      ],
+      "why_now": "Anthropic刚完成史上最大IPO，机构早期重仓现获15倍回报，验证AI赛道退出路径。",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "anthropic",
+      "trend_source_count": 4,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "042be7fa8457",
+      "title": "Show HN: Interactive Rubik's Cube in the browser – one-shot DeepSeek flash",
+      "summary": "开发者利用 DeepSeek flash 模型与自定义测试框架，一次性生成了浏览器端交互式魔方应用，总成本仅为 1.2 美元。该项目处理了 87M tokens，耗时约 1 小时，实现了 99% 的缓存命中率。代码已开源至 GitHub 仓库 asamarts/deeprubik。",
+      "score": 7,
+      "topic": "AI 工具实操/Agent 工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://asamarts.github.io/deeprubik/",
+      "tags": [
+        "DeepSeek",
+        "Rubik's Cube",
+        "One-shot Coding",
+        "GitHub",
+        "成本分析"
+      ],
+      "why_now": "DeepSeek flash 以1.2美元成本完成复杂项目，为一人公司验证低成本AI开发提供即时可复制范例。",
+      "why_now_en": "",
+      "summary_en": "Developers at asamarts one-shot an interactive Rubik's Cube browser app using DeepSeek flash and a custom harness, with the repository deeprubik available on GitHub. The experiment consumed 87M tokens at a total cost of $1.2 over approximately one hour, achieving a 99% cache hit rate.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "333f894f192a",
+      "title": "ChatGPT Business Agent Needs More Than a Product Feed",
+      "summary": "OpenAI 推出的 Businesses in ChatGPT 功能允许电商接入产品数据流，但仅凭价格与库存信息无法解决如“Alder 三人沙发能否通过 80cm 门”等复杂场景，需独立维护包含 72cm 净空尺寸及拆卸条件的详细数据源。Shopify 的 Catalog 与 OpenAI Business Hub 采用不同的数据路由，其知识库互不连通，企业需针对网站机器人、商店页面及业务档案各自建立独立的更新与测试路径，避免单一数据源更新失效。",
+      "score": 6,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/hoverbot/chatgpt-business-agent-needs-more-than-a-product-feed-m9b",
+      "tags": [
+        "ChatGPT",
+        "Business Agent",
+        "E-commerce",
+        "Data Architecture"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "1df8c4ddfaf2",
+      "title": "Perplexity and Intelligence",
+      "summary": "OpenAI 提出将困惑度（Perplexity，即交叉熵损失）作为衡量 AI 模型底层智能进展的核心指标，并公开了 GPT-3.5（约 0.99）至 GPT-4（约 0.91）等模型的内部数据，以建立跨行业的安全共识。随着对数困惑度降至 0.8 以下，模型涌现出网络安全与数学等领域的变革性能力，证明单一指标可解释从 GPT-2 生成连贯段落到 GPT-4 链式思维推理的巨大能力跨越。该观点强调通过追踪预训练压缩器的优化进度来理解 AI 发展轨迹，而非依赖快速饱和的下游基准测试。",
+      "score": 6,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Best",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "tags": [
+        "OpenAI",
+        "Perplexity",
+        "Model Evaluation",
+        "Pretraining"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f38d510499d9",
+      "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+      "summary": "2022年菲尔兹奖得主詹姆斯·梅纳德认可Anthropic数学家莱文特·阿尔珀格与AI模型Claude合作证明的黎曼猜想，依据是该证明已通过约1700万行代码的Lean库形式化验证及独立核实。梅纳德指出，尽管验证通过确保了证明的正确性，但数学界的最终认可取决于学者能否真正理解其核心思想与整体框架，而非仅依赖形式化结果。他预计随着理解的深入，该成果将揭示素数分布的新数学理论并彻底改变相关领域的认知。",
+      "score": 6,
+      "topic": "AI 新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
+      "tags": [
+        "Claude",
+        "黎曼猜想",
+        "形式化验证",
+        "AI科研",
+        "Lean"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Anthropic mathematician Levent Alpöge and Claude developed a proof for the Riemann Hypothesis, comprising approximately 17 million lines of code, which has passed formal verification via the Lean library and independent checks. 2022 Fields Medalist James Maynard believes the proof is correct but emphasizes that mathematical recognition requires the community to understand and explain the proof's underlying logic, not just its formal validity.",
+      "trend_signal": true,
+      "trend_topic": "claude",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "ca44b2333c09",
+      "title": "华为OSTA星芒 O1 Pro 评测：一台真正为 AI 而生的鸿蒙手机",
+      "summary": "",
+      "score": 5,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1690613?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "HarmonyOS",
+        "Agent",
+        "Huawei",
+        "Mobile AI"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "The Huawei OSTA Xingmang O1 Pro, launched on November 20, features a Kirin 9030S chip, 7,000mAh battery, and a 16:9.5 \"wide-screen\" display, building on the Pura X View model that sold over 1 million units in two months. Its standout feature is the \"Xiao Yi AI Screen\" interface, which significantly improves agent execution speed to near-manual levels and integrates Pangu and DeepSeek models to enable cross-app automation, including a proprietary A2A interface for WeChat messaging.",
+      "trend_signal": true,
+      "trend_topic": "agent",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "ad9a42af7f27",
+      "title": "iPhone 18 大更新，明年春天见！但苹果的挑战才刚刚开始",
+      "summary": "",
+      "score": 5,
+      "topic": "AI对行业的冲击",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1690832?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "tags": [
+        "苹果",
+        "Siri",
+        "AI Agent",
+        "硬件发布节奏"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Apple is restructuring its release cycle to split iPhone 18 Pro and its first foldable iPhone Duo into September 2025, while pushing the standard iPhone 18 to spring 2027, where it will feature TSMC’s 2nm A20 chip, a new airplane-window camera design, and a high-density stacked motherboard. The spring 2027 wave will also include the MacBook Neo, upgraded with an A19 Pro chip and 12GB RAM, as well as OLED screens for iPad Air models. To keep pace with the rapid AI Agent evolution from competitors like OpenAI, Apple is recruiting to develop a new autonomous computer agent, which is expected to launch by late 2027 despite current delays in its Siri infrastructure.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "56b6bd4a3339",
+      "title": "AI Receptionist Tools for Small Business in 2026: Stop Missing Calls Without Hiring Staff",
+      "summary": "",
+      "score": 5,
+      "topic": "OPC/AI赚钱案例",
+      "source": "DEV Community",
+      "url": "https://dev.to/neuradynamics/ai-receptionist-tools-for-small-business-in-2026-stop-missing-calls-without-hiring-staff-72i",
+      "tags": [
+        "AI工具",
+        "SMB",
+        "成本分析",
+        "一人公司"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "For approximately 100 monthly three-minute calls, AI receptionist tools range from $79 to over $1,000, with pricing models varying by per-minute, per-call, per-unique-caller, or human-per-minute structures; for instance, Goodcall costs ~$79 for 100 unique callers, while Ruby’s human-only service exceeds $1,000. Pure AI options like Goodcall, Rosie, and Dialzara are recommended for most small businesses to handle FAQs, booking, and lead qualification 24/7, whereas hybrid services like Smith.ai (~$212.50 for 100 calls) are better suited for legal or medical industries requiring human backup for complex inquiries.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f83c16d33fa2",
+      "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
+      "summary": "",
+      "score": 5,
+      "topic": "AI 对行业的冲击",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
+      "tags": [
+        "Lean",
+        "Riemann Hypothesis",
+        "AI + Math",
+        "Tao Zhuming"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "The Lean and Mathlib communities officially confirmed the correctness of Stanford mathematician Levent Alpöge's proof of the Riemann hypothesis, which he released on November 20, 2026, as 17 million lines of Lean code. This milestone was independently verified by dozens of users and a designed proof-checking program that mathematically guarantees it cannot accept flawed proofs, resolving a famous open problem decades ahead of the 2035 prediction by Metaculus forecasters.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "RiemannFlow",
+      "name_en": "RiemannFlow",
+      "description": "一个将复杂数学证明自然语言转换为 Lean 4 形式化代码并自动调用 LLM 进行逐步验证的开发者工具。",
+      "description_en": "A developer tool that translates complex mathematical proofs from natural language into Lean 4 formal code and automatically invokes LLMs for step-by-step verification.",
+      "target_user": "数学家、形式化验证工程师、AI 研究员及数学爱好者",
+      "target_user_en": "Mathematicians, formal verification engineers, AI researchers, and math enthusiasts",
+      "core_features": [
+        "自然语言到 Lean 4 代码的实时转换引擎",
+        "基于 Anthropic Claude 的证明步骤逻辑一致性检查",
+        "黎曼猜想等经典难题的证明路径可视化与交互验证"
+      ],
+      "core_features_en": [
+        "Real-time natural language to Lean 4 code translation engine",
+        "Proof step logical consistency checking powered by Anthropic Claude",
+        "Visualization and interactive verification of proof paths for classic problems like the Riemann Hypothesis"
+      ],
+      "related_trends": [
+        "AI for Science",
+        "Formal Verification",
+        "Large Language Models"
+      ],
+      "related_trends_en": [
+        "AI for Science",
+        "Formal Verification",
+        "Large Language Models"
+      ],
+      "why_now": "丘成桐提出 AI 证明黎曼猜想标志着数学进入新纪元，Anthropic 在 4 个新闻源中高频出现表明其模型在逻辑推理上的突破。社区讨论显示开发者急需将自然语言数学直觉转化为可执行形式化证明的工具，填补了传统定理证明器学习曲线陡峭的空白。",
+      "why_now_en": "Yau Shing-Tung's claim that AI proves the Riemann Hypothesis marks a new era in mathematics, while Anthropic's presence across 4 news sources highlights breakthroughs in logical reasoning. Community discussions indicate a strong need for tools to convert natural language mathematical intuition into executable formal proofs, bridging the steep learning curve of traditional theorem provers.",
+      "monetization": "SaaS 订阅模式，面向高校数学系和 AI 研究实验室提供企业级 API 访问与高级验证功能。",
+      "monetization_en": "SaaS subscription model, providing enterprise-grade API access and advanced verification features to university math departments and AI research labs.",
+      "difficulty": "hard",
+      "estimated_mvp_days": 45,
+      "source_article": "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元",
+      "source_article_url": "https://www.ifanr.com/1690857?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source_article_score": 9,
+      "source_article_source": "爱范儿"
+    }
+  ]
+}
