@@ -1,178 +1,238 @@
 {
   "pushed": [
     {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "pushed_at": "2026-11-23",
-      "title": "mvanhorn/last30days-skill",
-      "score": 9
-    },
-    {
-      "url": "https://www.ifanr.com/1690857?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-23",
-      "title": "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元",
-      "score": 9
-    },
-    {
-      "url": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
-      "pushed_at": "2026-11-23",
-      "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
-      "score": 9
-    },
-    {
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "pushed_at": "2026-11-23",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "pushed_at": "2026-11-24",
+      "title": "Ladybird's first alpha release",
       "score": 8
     },
     {
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "pushed_at": "2026-11-23",
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+      "pushed_at": "2026-11-24",
+      "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
       "score": 8
     },
     {
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "pushed_at": "2026-11-23",
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "pushed_at": "2026-11-24",
+      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
       "score": 8
     },
     {
-      "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
-      "pushed_at": "2026-11-23",
-      "title": "MiniCPM 8B 成为老挝国家模型，端侧小模型加速落地多国",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+      "pushed_at": "2026-11-24",
+      "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
       "score": 8
     },
     {
-      "url": "https://github.com/mjmirza/app-store-compliance",
-      "pushed_at": "2026-11-23",
-      "title": "mjmirza/app-store-compliance",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/Tracer-Cloud/opensre",
-      "pushed_at": "2026-11-23",
-      "title": "Tracer-Cloud/opensre",
-      "score": 7
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "pushed_at": "2026-11-24",
+      "title": "HKUDS/CLI-Anything",
+      "score": 8
     },
     {
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "pushed_at": "2026-11-23",
+      "pushed_at": "2026-11-24",
       "title": "zhouxiaoka/autoclip",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/conciergellm/what-one-rtx-3090-can-really-do-with-a-local-llm-measured-not-guessed-k78",
+      "pushed_at": "2026-11-24",
+      "title": "What one RTX 3090 can do with a local LLM (our numbers)",
+      "score": 8
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "pushed_at": "2026-11-24",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "score": 8
+    },
+    {
+      "url": "https://www.ifanr.com/1691152?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-24",
+      "title": "刚刚，Claude 黎曼猜想证明的主导者回应一切",
+      "score": 8
+    },
+    {
+      "url": "https://therundownai.beehiiv.com/p/claude-helps-solve-math-s-biggest-open-problem",
+      "pushed_at": "2026-11-24",
+      "title": "Claude helps solve math's biggest open problem",
       "score": 7
     },
     {
-      "url": "https://asamarts.github.io/deeprubik/",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: Interactive Rubik's Cube in the browser – one-shot DeepSeek flash",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "pushed_at": "2026-11-24",
+      "title": "elementalsouls/Claude-BugHunter",
       "score": 7
     },
     {
-      "url": "https://github.com/salespeak-ai/inbox-envoy",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: Inbox Envoy, an open-source email triage skill for your own AI agent",
+      "url": "https://github.com/obra/superpowers",
+      "pushed_at": "2026-11-24",
+      "title": "obra/superpowers",
       "score": 7
     },
     {
-      "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
-      "pushed_at": "2026-11-23",
-      "title": "Anthropic IPO 前三家机构如何重注押注",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "pushed_at": "2026-11-24",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
       "score": 7
     },
     {
-      "url": "https://dev.to/hoverbot/chatgpt-business-agent-needs-more-than-a-product-feed-m9b",
-      "pushed_at": "2026-11-23",
-      "title": "ChatGPT Business Agent Needs More Than a Product Feed",
+      "url": "http://www.geekpark.net/news/374374",
+      "pushed_at": "2026-11-24",
+      "title": "字节，该造手机了",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-24",
+      "title": "AI 降本增笑，全世界都在被迫接受审美大降级",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/SandeepAi369/Agent-first-browse",
+      "pushed_at": "2026-11-24",
+      "title": "Show HN: Agent-first-browse – Web automation with delta snapshots and LangGraph",
+      "score": 7
+    },
+    {
+      "url": "https://agent-home.ai/index.html",
+      "pushed_at": "2026-11-24",
+      "title": "Show HN: Gal – local-first agent runtime with per-call permissions and rollback",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+      "pushed_at": "2026-11-24",
+      "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
+      "score": 7
+    },
+    {
+      "url": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
+      "pushed_at": "2026-11-24",
+      "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
+      "score": 7
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "pushed_at": "2026-11-24",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "score": 6
     },
     {
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "pushed_at": "2026-11-23",
-      "title": "google-labs-code/stitch-skills",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "pushed_at": "2026-11-24",
+      "title": "mjmirza/app-store-compliance",
       "score": 6
+    },
+    {
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "pushed_at": "2026-11-24",
+      "title": "Tracer-Cloud/opensre",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "pushed_at": "2026-11-24",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "pushed_at": "2026-11-24",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "score": 6
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "pushed_at": "2026-11-24",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1691186?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-24",
+      "title": "「试用期」已到，苹果开始给 AI 收费了 | AG&I",
+      "score": 6
+    },
+    {
+      "url": "https://www.ifanr.com/1691103?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-11-24",
+      "title": "刚刚，黄仁勋重返英伟达！董事会全票通过，盘前大涨 30%",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/zytocc/upnext",
+      "pushed_at": "2026-11-24",
+      "title": "Show HN: UpNext – Game backlog decider. Play what you own",
+      "score": 6
+    },
+    {
+      "url": "https://docs.microfeed.org/",
+      "pushed_at": "2026-11-24",
+      "title": "Show HN: Lightweight Agentic CMS on Cloudflare – API, MCP, CLI, Web",
+      "score": 6
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "pushed_at": "2026-11-24",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/512330.html",
+      "pushed_at": "2026-11-24",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "score": 6
+    },
+    {
+      "url": "https://www.qbitai.com/2026/11/512264.html",
+      "pushed_at": "2026-11-24",
+      "title": "具身行业，终于等来了自己的通用智能时刻",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n",
+      "pushed_at": "2026-11-24",
+      "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
+      "score": 6
+    },
+    {
+      "url": "https://aihot.news/items/gp8e9a8oitha0rbip8pzntuff",
+      "pushed_at": "2026-11-24",
+      "title": "Wiz Research 披露 ARTEX 智能体攻击框架的真实云入侵案例",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "pushed_at": "2026-11-24",
+      "title": "datasette-agent 0.7a1",
+      "score": 5
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "pushed_at": "2026-11-24",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "score": 5
+    },
+    {
+      "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
+      "pushed_at": "2026-11-24",
+      "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
+      "score": 5
+    },
+    {
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "pushed_at": "2026-11-24",
+      "title": "2035 came early",
+      "score": 5
     },
     {
       "url": "https://github.com/toeverything/AFFiNE",
-      "pushed_at": "2026-11-23",
+      "pushed_at": "2026-11-24",
       "title": "toeverything/AFFiNE",
-      "score": 6
-    },
-    {
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
-      "pushed_at": "2026-11-23",
-      "title": "Perplexity and Intelligence",
-      "score": 6
-    },
-    {
-      "url": "https://trixapp.ai/",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: Trix - A terminal workspace that shows which coding agent needs you",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/hz782dpcwhurj6584rtd13eaf",
-      "pushed_at": "2026-11-23",
-      "title": "卡兹克分享 Claude、GPT、Gemini 三模型协同调度方法",
-      "score": 6
-    },
-    {
-      "url": "https://lexisworld.org",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: Lexis World – a word game for kids who don't need to know any words yet",
-      "score": 6
-    },
-    {
-      "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
-      "pushed_at": "2026-11-23",
-      "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
-      "pushed_at": "2026-11-23",
-      "title": "Select Styling Specimens",
-      "score": 5
-    },
-    {
-      "url": "https://dev.to/neuradynamics/ai-receptionist-tools-for-small-business-in-2026-stop-missing-calls-without-hiring-staff-72i",
-      "pushed_at": "2026-11-23",
-      "title": "AI Receptionist Tools for Small Business in 2026: Stop Missing Calls Without Hiring Staff",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/openvinotoolkit/openvino",
-      "pushed_at": "2026-11-23",
-      "title": "openvinotoolkit/openvino",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1690613?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-23",
-      "title": "华为OSTA星芒 O1 Pro 评测：一台真正为 AI 而生的鸿蒙手机",
-      "score": 5
-    },
-    {
-      "url": "https://www.ifanr.com/1690832?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "pushed_at": "2026-11-23",
-      "title": "iPhone 18 大更新，明年春天见！但苹果的挑战才刚刚开始",
-      "score": 5
-    },
-    {
-      "url": "https://github.com/gulivan/worker755",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: I built a game where you are an LLM's subagent",
-      "score": 5
-    },
-    {
-      "url": "https://plantsresearch.pro/chess-lab",
-      "pushed_at": "2026-11-23",
-      "title": "Show HN: Biohacking in Chess – can coffee make you a better player?",
-      "score": 5
-    },
-    {
-      "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
-      "pushed_at": "2026-11-23",
-      "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
-      "score": 5
+      "score": 4
     }
   ]
 }
