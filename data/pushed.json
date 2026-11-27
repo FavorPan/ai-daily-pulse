@@ -1,244 +1,196 @@
 {
   "pushed": [
     {
-      "url": "https://aihot.news/items/uyodjb16jngloilypsm1d3q0d",
-      "pushed_at": "2026-11-26",
-      "title": "Claude Code 团队发布实用指南讲解 Claude Ship 的 PR 审查与守护用法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247949256&idx=2&sn=7520fdd54cd398230f15f2ecb11eabae",
+      "pushed_at": "2026-11-27",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
       "score": 9
     },
     {
-      "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-      "pushed_at": "2026-11-26",
-      "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/obra/superpowers",
-      "pushed_at": "2026-11-26",
-      "title": "obra/superpowers",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "pushed_at": "2026-11-26",
-      "title": "elementalsouls/Claude-BugHunter",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/sandscale/one-sandbox-per-run-per-session-or-per-user-isolation-cost-and-state-trade-offs-1i8f",
-      "pushed_at": "2026-11-26",
-      "title": "One sandbox per run, per session or per user: isolation, cost and state trade-offs",
-      "score": 8
-    },
-    {
-      "url": "https://dev.to/mango7777/gitlab-196-cuts-ai-credit-costs-in-half-and-adds-scheduled-agent-automations-k2d",
-      "pushed_at": "2026-11-26",
-      "title": "GitLab 19.6 Cuts AI Credit Costs in Half and Adds Scheduled Agent Automations",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/lsernau/grh-lean",
-      "pushed_at": "2026-11-26",
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "score": 8
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/512819.html",
-      "pushed_at": "2026-11-26",
-      "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
-      "score": 8
-    },
-    {
-      "url": "https://aihot.news/items/hyofqy3ukzks1eyr4bu317bez",
-      "pushed_at": "2026-11-26",
-      "title": "MIT 与 Microsoft 论文：GitHub Copilot 使初级软件工程师招聘下降约 40%",
-      "score": 8
-    },
-    {
-      "url": "https://github.com/cursor/plugins",
-      "pushed_at": "2026-11-26",
-      "title": "cursor/plugins",
-      "score": 7
-    },
-    {
-      "url": "https://github.com/jingyaogong/minimind",
-      "pushed_at": "2026-11-26",
-      "title": "jingyaogong/minimind",
-      "score": 7
+      "url": "https://www.qbitai.com/2026/11/513163.html",
+      "pushed_at": "2026-11-27",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "score": 9
     },
     {
       "url": "https://github.com/firecrawl/firecrawl",
-      "pushed_at": "2026-11-26",
+      "pushed_at": "2026-11-27",
       "title": "firecrawl/firecrawl",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "pushed_at": "2026-11-27",
+      "title": "mvanhorn/last30days-skill",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "pushed_at": "2026-11-27",
+      "title": "cathrynlavery/diagram-design",
+      "score": 8
+    },
+    {
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247949256&idx=1&sn=b90d5e4ff1cd2c21e9e575616a796dcc",
+      "pushed_at": "2026-11-27",
+      "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "score": 8
+    },
+    {
+      "url": "http://www.geekpark.net/news/374532",
+      "pushed_at": "2026-11-27",
+      "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/lifan-builds/faster-mac-use",
+      "pushed_at": "2026-11-27",
+      "title": "Show HN: Faster Mac Use – Background Chrome/macOS MCP and 5-lane routing skill",
+      "score": 8
+    },
+    {
+      "url": "https://dev.to/sandscale/sandscale-vs-azure-container-apps-dynamic-sessions-for-agent-code-17lj",
+      "pushed_at": "2026-11-27",
+      "title": "Sandscale vs Azure Container Apps dynamic sessions for agent code",
       "score": 7
     },
     {
-      "url": "https://dev.to/datafluxor/how-i-gave-claude-live-google-results-with-an-mcp-server-2eoj",
-      "pushed_at": "2026-11-26",
-      "title": "How I gave Claude live Google results with an MCP server",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "pushed_at": "2026-11-27",
+      "title": "google-labs-code/stitch-skills",
       "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/512748.html",
-      "pushed_at": "2026-11-26",
-      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
-      "score": 7
-    },
-    {
-      "url": "https://www.qbitai.com/2026/11/512565.html",
-      "pushed_at": "2026-11-26",
-      "title": "9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团队玩明白了",
-      "score": 7
-    },
-    {
-      "url": "https://sspai.com/post/119310",
-      "pushed_at": "2026-11-26",
-      "title": "App+1｜Yab：开源、AI 友好的双内核浏览器，给舍不得 Arc 的你",
-      "score": 7
-    },
-    {
-      "url": "https://aihot.news/items/mruv0rx3oxnkjy9ll805qaidc",
-      "pushed_at": "2026-11-26",
-      "title": "卡兹克把《人生意义设计课》做成AI Prompt，帮你设计人生的意义",
-      "score": 7
-    },
-    {
-      "url": "https://therundownai.beehiiv.com/p/three-xai-founders-want-ai-to-predict-the-future",
-      "pushed_at": "2026-11-26",
-      "title": "Three xAI founders want AI to predict the future",
-      "score": 6
-    },
-    {
-      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-      "pushed_at": "2026-11-26",
-      "title": "datasette-charts 0.3a0",
-      "score": 6
-    },
-    {
-      "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
-      "pushed_at": "2026-11-26",
-      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
-      "score": 6
-    },
-    {
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "pushed_at": "2026-11-26",
-      "title": "AI is straining America’s open records systems",
-      "score": 6
-    },
-    {
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "pushed_at": "2026-11-26",
-      "title": "HKUDS/CLI-Anything",
-      "score": 6
-    },
-    {
-      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
-      "pushed_at": "2026-11-26",
-      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
-      "score": 6
     },
     {
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "pushed_at": "2026-11-26",
+      "pushed_at": "2026-11-27",
       "title": "zhouxiaoka/autoclip",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "pushed_at": "2026-11-27",
+      "title": "Tracer-Cloud/opensre",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "pushed_at": "2026-11-27",
+      "title": "mjmirza/app-store-compliance",
+      "score": 7
+    },
+    {
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "pushed_at": "2026-11-27",
+      "title": "OpenAI may be in cost control mode",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/aigeano/kaju",
+      "pushed_at": "2026-11-27",
+      "title": "Show HN: Kaju – Annotate, comment and collaborate with Claude Code",
+      "score": 7
+    },
+    {
+      "url": "https://dev.to/penny24x7/i-checked-an-ai-agent-bounty-board-before-signing-up-all-14-open-bounties-asked-me-to-install-2ne4",
+      "pushed_at": "2026-11-27",
+      "title": "I checked an AI-agent bounty board before signing up. All 14 open bounties asked me to install someone's container.",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "pushed_at": "2026-11-26",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://dev.to/hieronymusfox1257/small-project-logging-api-selection-agent-retry-evidence-before-ecommerce-rollbacks-4hhc",
+      "pushed_at": "2026-11-27",
+      "title": "Small Project Logging API Selection: Agent Retry Evidence Before Ecommerce Rollbacks",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "pushed_at": "2026-11-26",
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://github.com/cursor/plugins",
+      "pushed_at": "2026-11-27",
+      "title": "cursor/plugins",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "pushed_at": "2026-11-26",
-      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "pushed_at": "2026-11-27",
+      "title": "openvinotoolkit/openvino",
       "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "pushed_at": "2026-11-26",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "url": "http://www.geekpark.net/news/374536",
+      "pushed_at": "2026-11-27",
+      "title": "好消息，AI 可以替你打客服电话了；坏消息，电话那头也是 AI",
       "score": 6
     },
     {
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "pushed_at": "2026-11-26",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247949256&idx=3&sn=f5a1c3b3c89d06b4fe191bc2849408ff",
+      "pushed_at": "2026-11-27",
+      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
       "score": 6
     },
     {
-      "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
-      "pushed_at": "2026-11-26",
-      "title": "Smart people who give a shit use tools",
+      "url": "http://www.geekpark.net/news/374546",
+      "pushed_at": "2026-11-27",
+      "title": "智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道",
       "score": 6
     },
     {
-      "url": "https://tinyai.run/",
-      "pushed_at": "2026-11-26",
-      "title": "Show HN: A never-ending programming contest for chess and shogi engines",
+      "url": "https://www.ifanr.com/1695555?utm_source=rss&utm_medium=rss&utm_campaign",
+      "pushed_at": "2026-11-27",
+      "title": "2026 年，国产模型还能追上 Opus 5.5 吗",
       "score": 6
     },
     {
-      "url": "https://sspai.com/post/117510",
-      "pushed_at": "2026-11-26",
-      "title": "我用AI做了一张两千年的中国历史地图",
+      "url": "https://www.ifanr.com/1695589?utm_source=rss&utm_medium=rss&utm_campaign",
+      "pushed_at": "2026-11-27",
+      "title": "ChatGPT即将到来的大更新，为何让老用户集体破防",
       "score": 6
     },
     {
-      "url": "https://sspai.com/post/119560",
-      "pushed_at": "2026-11-26",
-      "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "pushed_at": "2026-11-27",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "score": 6
     },
     {
-      "url": "https://dev.to/yingtse/see-the-http-requests-your-script-makes-without-changing-it-57jb",
-      "pushed_at": "2026-11-26",
-      "title": "See the HTTP requests your script makes, without changing it",
-      "score": 5
+      "url": "https://www.qbitai.com/2026/11/513101.html",
+      "pushed_at": "2026-11-27",
+      "title": "百亿具身独角兽破壁，玩家集体涌向它的牌桌",
+      "score": 6
     },
     {
-      "url": "https://dev.to/imveersolanki/a-950b-day-for-one-ceo-what-the-ai-bubble-means-for-developers-mom",
-      "pushed_at": "2026-11-26",
-      "title": "A $950B day for one CEO: what the AI bubble means for developers",
-      "score": 5
+      "url": "https://www.qbitai.com/2026/11/513125.html",
+      "pushed_at": "2026-11-27",
+      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+      "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "pushed_at": "2026-11-26",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "score": 5
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "pushed_at": "2026-11-27",
+      "title": "AI made self-hosting fun again",
+      "score": 6
     },
     {
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "pushed_at": "2026-11-26",
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "score": 5
+      "url": "https://github.com/sekacorn/Linux-of-Ai",
+      "pushed_at": "2026-11-27",
+      "title": "Show HN: Linux of AI, score and prove how locked-in your AI stack is",
+      "score": 6
     },
     {
-      "url": "https://www.marketingaiinstitute.com/blog/build-a-content-research-database-with-ai",
-      "pushed_at": "2026-11-26",
-      "title": "How to Build a Content Research Database Using AI",
-      "score": 5
+      "url": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
+      "pushed_at": "2026-11-27",
+      "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+      "score": 6
     },
     {
-      "url": "https://www.qbitai.com/2026/11/512582.html",
-      "pushed_at": "2026-11-26",
-      "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
-      "score": 5
+      "url": "https://github.com/octelium/cordium",
+      "pushed_at": "2026-11-27",
+      "title": "Show HN: Sandbox platform on Kubernetes for secure remote access without secrets",
+      "score": 6
     },
     {
-      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-      "pushed_at": "2026-11-26",
-      "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
-      "score": 5
+      "url": "https://github.com/toeverything/AFFiNE",
+      "pushed_at": "2026-11-27",
+      "title": "toeverything/AFFiNE",
+      "score": 4
     }
   ]
 }
