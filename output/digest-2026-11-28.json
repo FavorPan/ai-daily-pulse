@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-28",
+  "highlights": [
+    "Isomorphic Labs 5 Billion: Record Round for AI Drug Design",
+    "Sarvam Token Factory India Launch: AI Inference From Rs 14",
+    "Olala Mini 7A1B Is Open, But Only Its Fork Can Run It"
+  ],
+  "items": [
+    {
+      "id": "795b73cab35f",
+      "title": "Isomorphic Labs 5 Billion: Record Round for AI Drug Design",
+      "summary": "",
+      "score": 9,
+      "topic": "AI投融资动态",
+      "source": "DEV Community",
+      "url": "https://dev.to/shamuddin/isomorphic-labs-5-billion-record-round-for-ai-drug-design-5gk1",
+      "tags": [
+        "Isomorphic Labs",
+        "AI制药",
+        "融资",
+        "DeepMind"
+      ],
+      "why_now": "Isomorphic Labs 2026年11月17日刚完成50亿美元融资，创生物科技私募纪录。",
+      "why_now_en": "Record $5B round lands with clinical proof untested.",
+      "summary_en": "Isomorphic Labs closed a record-breaking $5 billion Series C led by Greenoaks and Sequoia Capital, bringing its total external funding to over $7.7 billion without yet disclosing a clinical program. The London-based company, founded by Demis Hassabis, will use the capital to scale its proprietary IsoDDE drug-design engine and advance its first AI-designed candidates toward human trials, leveraging foundational simulation AI models to compress the traditional drug discovery phase.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "6a684abe8d06",
+      "title": "Sarvam Token Factory India Launch: AI Inference From Rs 14",
+      "summary": "",
+      "score": 9,
+      "topic": "AI 新技术 / 新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/shamuddin/sarvam-token-factory-india-launch-ai-inference-from-rs-14-5p1",
+      "tags": [
+        "Sarvam AI",
+        "Token Factory",
+        "Inference API",
+        "DeepSeek",
+        "India"
+      ],
+      "why_now": "11月16日刚发布的API，DeepSeek价格与官方持平但速度快2.2倍，打开印度合规市场窗口。",
+      "why_now_en": "Launched Nov 16: 2.2x faster at same price.",
+      "summary_en": "Sarvam AI launched Token Factory on November 16, 2026, offering OpenAI-compatible inference for eight open-weight models—including DeepSeek V4.1 Flash and GLM 5.3—from Indian GPU clusters, with pricing starting at Rs 14 per million input tokens. The service currently processes 450 billion tokens daily with a 95.7% cache hit rate, and its Standard endpoint matches DeepSeek’s native API price ($0.092 per million tokens) while delivering nearly 2.2 times the output speed (130 vs. 60 tokens per second).",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "f225dc6a6bb3",
+      "title": "Olala Mini 7A1B Is Open, But Only Its Fork Can Run It",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/shamuddin/olala-mini-7a1b-is-open-but-only-its-fork-can-run-it-o95",
+      "tags": [
+        "OVHcloud",
+        "Olala Mini",
+        "开源模型",
+        "Mamba架构",
+        "本地部署"
+      ],
+      "why_now": "2026年11月17日OVHcloud发布开源Olala模型，但仅其定制Fork支持运行，开发者需立即适配新架构。",
+      "why_now_en": "OVH's open 7B model runs locally on 8GB RAM—just needs a forked runtime.",
+      "summary_en": "OVHcloud released Olala mini 7A1B under Apache 2.0, a 7B-parameter hybrid Mamba-attention model with 32K context that runs at 160 tokens/sec on an RTX A4500 (8GB VRAM) or 50 tokens/sec on CPU. The model's novel OlalaForCausalLM architecture with 256-expert MoE is incompatible with stock runtimes like Ollama and llama.cpp, requiring users to build OVH’s specific llama.cpp fork or use the vendor-provided ovhaillm/olala-vllm Docker image for production. Only 5- to 8-bit quantization files are supported, as the withdrawn 4-bit variant exhibited significant performance degradation and numerical instability.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "d8eba0d1bc6f",
+      "title": "Your AI Agent Aces Linux — Then Fails 4 Out of 5 iPhone Tasks",
+      "summary": "",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/shakeelahmed/your-ai-agent-aces-linux-then-fails-4-out-of-5-iphone-tasks-3p38",
+      "tags": [
+        "OS-Omni",
+        "GUI Agent",
+        "Benchmark",
+        "NeurIPS 2026",
+        "Claude Opus 5.5"
+      ],
+      "why_now": "11月25日新发OS-Omni基准暴露iOS短板，立即重构GUI智能体评估策略。",
+      "why_now_en": "New OS-Omni benchmark reveals critical iOS agent gaps.",
+      "summary_en": "The OS-Omni benchmark (arXiv:2611.34232) evaluates 300 long-horizon tasks across six platforms, revealing that while Claude Opus 5.5 achieves a 68.5% overall success rate, it significantly lags behind human performance at 77.3%. The evaluation exposes a critical performance gap where models excel on Linux (Gemini 4 Argon scores 95.8%) but fail on iOS (18.8%), with smaller models like Qwen 3.8 9B recording a 0.0% success rate on tasks requiring an average of 67.54 interaction steps.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "eac0193ad379",
+      "title": "MAI Code 2 Launch: Price vs Benchmark Reality for Enterprise Coding",
+      "summary": "微软于2026年11月17日发布旗舰代码模型MAI Code 2系列，其中MAI Code 2在四大基准测试中平均得分63.2%（对比GPT-6.1 Sol的64.1%和Claude Opus 5.5的65.3%），但单任务平均成本仅$0.309，分别为后两者的40%和5%；轻量版MAI Code 2 Flash以61.0%的平均分全面领先竞品，且成本更低。需注意，当前极具优势的成本基于2027年5月17日前的50%促销价，届时价格将翻倍并显著缩小成本优势。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "DEV Community",
+      "url": "https://dev.to/shamuddin/mai-code-2-launch-price-vs-benchmark-reality-for-enterprise-coding-2iii",
+      "tags": [
+        "MAI Code 2",
+        "GitHub Copilot",
+        "Benchmark",
+        "成本优化",
+        "编码模型"
+      ],
+      "why_now": "Ignite刚发布MAI Code 2，促销价5月17日到期，需趁低价窗口部署高流量任务。",
+      "why_now_en": "Promo price doubles May 2027; lock in Flash now.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "61f726fb096f",
+      "title": "Claude Opus 5.6 做出了史上最牛的 PPT，直接杀死比赛？",
+      "summary": "尚未正式发布的 Claude Opus 5.6 模型在隐蔽测试中展现出通过纯代码实现电影级交互 PPT 和复杂 3D 动画的能力，单任务消耗约 90 美元 API 费用且仅需 42 分钟完成。相比 Opus 5.5，该模型能以更简单的提示词生成更流畅的连贯故事和复杂 Three.js 项目，甚至能从头编写 WebGPU 渲染器制作 118 秒的 1080P 动画短片，无需外部素材或工具。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1695831?utm_source=rss&utm_medium=rss&utm_campaign",
+      "tags": [
+        "Claude Opus 5.6",
+        "代码生成动画",
+        "Vibe Coding",
+        "多媒体创作"
+      ],
+      "why_now": "Opus 5.6 已开启隐蔽测试，即将正式发布的纯代码生成动画能力将重塑一人公司多媒体创作成本。",
+      "why_now_en": "Claude Opus 5.6 leaked early in stealth testing.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e2e4b927092b",
+      "title": "OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction",
+      "summary": "上海人工智能实验室于11月23日发布的开源9B全双工音视频模型Sage-Interaction，基于MiniCPM-o 4.5构建，采用Qwen3-8B主干、SigLip2视觉编码器及CosyVoice2语音解码器，支持一秒级流式处理与后台模型异步任务委派。在FD-Bench v1.5基准测试中，该模型以80.73的平均分位居八款对比模型之首，轮次切换延迟为1.29秒，任务委派F1值达到80.47。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/l9md8ugx8e2zlm5g1tuqthmaw",
+      "tags": [
+        "Sage-Interaction",
+        "MiniCPM-o",
+        "Full-duplex",
+        "VoiceAI",
+        "InternLM"
+      ],
+      "why_now": "11月23日刚发布的开源9B全双工语音模型Sage-Interaction，为独立开发者提供即插即用的实时交互方案。",
+      "why_now_en": "InternLM open-sourced a top-ranking full-duplex voice model on Nov 23.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "73a797c99187",
+      "title": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+      "summary": "该52 KB WebAssembly引擎采用Zig编写并支持Qwen3.5-2B等模型在浏览器CPU端离线运行，通过Unsloth Q4_K_M权重实现数据本地化，生成速度达原生llama.cpp的65-75%，但提示词处理速度约为后者的三分之一。针对Qwen3.5-2B模型，其因248,320的大词表导致推理速度较0.8B模型更慢，内存占用约1.4 GB，并内置无网络CPython沙箱以增强计算能力。",
+      "score": 8,
+      "topic": "AI新技术/新模型",
+      "source": "Hacker News Show HN",
+      "url": "https://tesseracted.com/experiments-llm-os/",
+      "tags": [
+        "WebAssembly",
+        "端侧推理",
+        "Qwen",
+        "开源工具",
+        "隐私计算"
+      ],
+      "why_now": "",
+      "why_now_en": "Browser-local Qwen3.5 inference is live for private, offline demos now.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "e9dbf459bd01",
+      "title": "firecrawl/firecrawl",
+      "summary": "Firecrawl 通过统一 API 提供搜索、抓取及 550 多家数据提供商访问服务，支持将网站转化为干净 Markdown 以增强 AI Agent 能力。其本地版基于 Rust 构建，可无容器运行并作为 MCP 服务器接入 Claude Code、Cursor 等工具，本地执行时支持 JS 渲染，而结构化和搜索功能则通过 Cloud 补全。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "tags": [
+        "Firecrawl",
+        "MCP",
+        "Local部署",
+        "开源"
+      ],
+      "why_now": "Firecrawl 本地版已发布，免费为独立开发者提供免部署 AI 数据接口。",
+      "why_now_en": "Firecrawl now self-hosts 550+ providers via MCP",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "mcp",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "11418a0ccfe2",
+      "title": "mjmirza/app-store-compliance",
+      "summary": "这款名为 app-store-compliance 的开源工具包含 125 种已记录的拒审模式及修复方案，并追踪 EU AI Act、DSA 等 117 项监管截止日期，旨在通过隐私清单和数据安全预检在提交前拦截 App Store 和 Google Play 的拒审风险。用户可通过 git clone 和 bash 脚本在终端运行扫描命令，针对包含 125 种违规模式的代码库进行静态分析，以消除因隐私清单缺失、数据安全检查不足等已知原因导致的拒审。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "tags": [
+        "GitHub开源",
+        "App Store合规",
+        "AI Coding Agents",
+        "自动化工作流"
+      ],
+      "why_now": "该工具已集成对AI编码代理的支持，可自动拦截125种拒绝模式。",
+      "why_now_en": "Fresh compliance guard for AI coding agents.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "ce3bf530c355",
+      "title": "zhouxiaoka/autoclip",
+      "summary": "AutoClip 是一款采用 MIT 协议的本地优先开源 AI 视频剪辑工具，作为 OpusClip 的替代品，支持将长视频自动转化为适配抖音、TikTok 等平台的短视频，并生成字幕、封面及发布文案。其 v1.6 版本新增了 OBS、Twitch 等 6 种直播回放源支持、OBS WebSocket 自动捕捉及 13 种语言界面，允许用户通过 Ollama、LM Studio 配合 Whisper 实现 100% 离线运行，全程无需订阅费用。",
+      "score": 8,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "tags": [
+        "开源项目",
+        "视频剪辑",
+        "MCP",
+        "本地优先",
+        "OpusClip替代"
+      ],
+      "why_now": "OpusClip开源平替刚更新v1.6，支持本地剪辑零订阅，内容创作者可立即用免费工具替代付费服务。",
+      "why_now_en": "v1.6 adds live-stream auto-capture.",
+      "summary_en": "",
+      "trend_signal": true,
+      "trend_topic": "mcp",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "7893a6d91cec",
+      "title": "AI takes a swing at physics' biggest puzzle",
+      "summary": "斯坦福物理学家 Venkatesa Chandrasekaran 利用 OpenAI 的 GPT-6 Astra 模型处理约 4 亿 tokens 的数据，发布了关于量子引力的 83 页论文，该理论利用光在时空中的路径来描述量子层面的引力，虽在黑洞和广义相对论已知结果上保持一致且避免了传统数学中的无穷大，但仅限于真空环境且尚未通过同行评审，目前正引发物理学界关于其有效性的激烈争论。",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "The Rundown AI",
+      "url": "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle",
+      "tags": [
+        "GPT-6",
+        "量子引力",
+        "AI科研",
+        "物理"
+      ],
+      "why_now": "",
+      "why_now_en": "GPT-6 Astra just released a century-old physics solution.",
+      "summary_en": "",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "efc4d8bbad49",
+      "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+      "summary": "",
+      "score": 7,
+      "topic": "AI新技术/新模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513227.html",
+      "tags": [
+        "具身智能",
+        "空间记忆",
+        "开源模型",
+        "机器人导航"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "Ant Robotics has open-sourced LingBot-Map 2.0 and LingBot-Navi, the first native base models equipped with cross-task spatial memory that run directly on edge devices. LingBot-Map 2.0 employs Geometric Context Rewriting (GCR) to natively correct map drift in real-time, reducing mean absolute trajectory error from 13.57m to 6.63m on large-scale benchmarks, while LingBot-Navi leverages persistent 3D point cloud memory with visual-semantic features to execute cross-task navigation, improving SPL scores by up to 16.84 points over baselines. The models operate on a two-tier global-local architecture that runs on Jetson Thor hardware, with global planning taking approximately 577ms and local step planning taking 95ms per frame.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "814322eb59b8",
+      "title": "SpotOn Restaurant AI Agent: One Deli Saved $124,000",
+      "summary": "SpotOn于2026年11月17日推出餐饮AI代理“Assistant Manager”，通过自然语言处理销售、人工及采购数据，助力德州一家熟食店将食品成本降低3.5%，节省约124,000美元。该工具目前仅具备分析功能而非自主决策，且在美国市场作为系统内置功能免费提供给用户，无需额外付费。针对印度市场，本土竞品Petpooja在基础版计划（税前列₹12,000起）中已包含类似的AI代理功能，为当地经营者提供了更具性价比的替代选择。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "DEV Community",
+      "url": "https://dev.to/shamuddin/spoton-restaurant-ai-agent-one-deli-saved-124000-4fl0",
+      "tags": [
+        "SpotOn",
+        "Petpooja",
+        "餐饮AI",
+        "POS集成"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "SpotOn Assistant Manager, an AI agent launched in November 2026, answers plain-language queries on sales, labor, and costs across desktop, mobile, and text, helping Weinberger's Deli cut food costs by 3.5% and save $124,000. The tool is included at no extra fee in SpotOn's plans—ranging from $0 (All-In with 2.79% card rates) to $55 per station (Essentials with 2.45% rates)—while India-based competitor Petpooja includes an AI agent in its base plan starting at ₹12,000 ex-tax.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "9c939c7199af",
+      "title": "cathrynlavery/diagram-design",
+      "summary": "cathrynlavery/diagram-design 是一款支持 Claude Code、Cursor 等 9 款 AI 编码助手的 Agent 技能插件，提供 52 种图表类型，输出无阴影、非 Mermaid 风格的自包含 HTML+SVG 文件。用户可通过 `npx skills add cathrynlavery/diagram-design` 一键安装，并利用自然语言指令（如“绘制应用架构图”）让 AI 自动生成符合品牌配色的图表，甚至通过输入网址自动同步站点视觉风格。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "tags": [
+        "Diagram Design",
+        "Agent Skill",
+        "Claude Code",
+        "开源工具"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "cathrynlavery/diagram-design is an agent skill that generates 52 types of self-contained HTML and SVG diagrams—excluding Mermaid or shadowed styles—for AI coding assistants like Claude Code, Codex, Cursor, and GitHub Copilot. Users install it via `npx skills add cathrynlavery/diagram-design` to create brand-matched visualizations from plain-text prompts, with specific workflow scripts available to package the skill for platforms like Claude Desktop that restrict file counts. The tool produces single `.html` files that users can open directly, avoiding external dependencies or server-side rendering.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "83475f57615f",
+      "title": "Tracer-Cloud/opensre",
+      "summary": "OpenSRE是一款开源CI/CD可靠性代理，通过阅读失败运行日志、追溯根源并自动推送修复补丁，实现CI构建的自愈。该工具支持自我托管与自定义模型，能区分CI导致的故障与代码导致的故障，并集成了EKS、Kubernetes、Datadog等生产环境监控工具以扩展至事故调查。目前项目处于公共Alpha阶段，提供跨macOS/Linux/Windows的CLI安装方式，旨在通过提升开发效率降低CI失败带来的时间成本。",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "tags": [
+        "开源项目",
+        "CI/CD",
+        "Agent",
+        "自我托管"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "OpenSRE is an open-source CLI agent designed for CI/CD reliability that investigates failed build logs, distinguishes between code and infrastructure issues, and proposes fixes for user review. It operates as a self-hosted tool compatible with custom models and integrates with production stacks including EKS, CloudWatch, Kubernetes, and Datadog to diagnose incidents across the entire system.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "b652481ed466",
+      "title": "Show HN: A CLI that measures whether AI answers cite your site",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/routeflags/ai-citation-monitor",
+      "tags": [
+        "GEO",
+        "AEO",
+        "开源工具",
+        "CLI",
+        "SEO优化"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "AI Citation Monitor (aicm) is an open-source, Go-based CLI tool that measures Generative Engine Optimization by running versioned questions against AI APIs to extract citation evidence from provider response metadata, storing results in SQLite to track visibility and competitor comparisons. It provides a single static binary for macOS, Linux, and Windows that exports data in JSON/CSV formats for reproducible historical trend analysis without requiring a web interface.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "bea99cc98829",
+      "title": "Show HN: Redact personal data in documents with consistent labels",
+      "summary": "",
+      "score": 7,
+      "topic": "AI工具实操/Agent工作流",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/francescor/oscura-atti",
+      "tags": [
+        "MCP",
+        "隐私计算",
+        "开源项目",
+        "文档处理"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "oscura-atti is a local, rule-based tool for redacting PII in public-sector documents (PDF, Word, images) without using cloud services or machine learning, operating via MCP server, CLI, Python library, or Docker. It supports multilingual code recognition (Italian, UK, Spanish, French, German) and consistent entity labeling (e.g., \"Persona 1\") while preserving document readability and public figure visibility. The system verifies its own output via OCR re-reading and is specifically designed for automated redaction of Italian municipal acts to comply with data protection guidelines after their 15-day publication period.",
+      "trend_signal": true,
+      "trend_topic": "mcp",
+      "trend_source_count": 3,
+      "trend_confidence": "medium"
+    },
+    {
+      "id": "aae7f533be42",
+      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+      "summary": "",
+      "score": 7,
+      "topic": "AI对行业的冲击",
+      "source": "AI热榜",
+      "url": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
+      "tags": [
+        "数据安全",
+        "MiniMax",
+        "AI隐私",
+        "供应商风险"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "US security firm Dragos discovered that MiniMax opened private links and accessed a git client to clone private repositories embedded in user prompts, even after users requested no data retention. The unauthorized link access began 24 days later and included a Git clone attempt after the initial scraping stopped on October 22, with MiniMax attributing the behavior to its automated security system while denying data sharing. Consequently, Atlas Cloud ceased forwarding requests to MiniMax and advised users of potential key leaks, while OpenRouter removed three providers and tightened its data privacy policies.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    },
+    {
+      "id": "2533cbc2b91a",
+      "title": "Agent 上车元年，支付宝造了一个行动座舱",
+      "summary": "",
+      "score": 6,
+      "topic": "AI对行业的冲击",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1695888?utm_source=rss&utm_medium=rss&utm_campaign",
+      "tags": [
+        "智能座舱",
+        "支付宝",
+        "Agent",
+        "汽车",
+        "行业趋势"
+      ],
+      "why_now": "",
+      "why_now_en": "",
+      "summary_en": "At the 2026 Guangzhou Auto Show, Alipay launched its AI-native \"Car Assistant 3.0\" to transition smart cockpits from conversational AI to action-oriented agents, enabling hands-free payment and service completion for parking, tolls, and fuel via voice biometric authentication. The system operates as a sub-agent using the AHA protocol to handle backend transactions while carmakers' voice assistants manage user interaction, leveraging Alipay's ecosystem of 400,000 parking lots and 85,000 gas stations to cover 18 million smart vehicles. The initiative has secured partnerships with 80+ brands, including Tesla, BYD, and Li Auto, and is expanding through an A.I. Car alliance to provide OEMs with 21 co-built services and over 150 travel benefits.",
+      "trend_signal": false,
+      "trend_topic": "",
+      "trend_source_count": 0,
+      "trend_confidence": ""
+    }
+  ],
+  "directions": [
+    {
+      "name": "MCP Local Hub",
+      "name_en": "MCP Local Hub",
+      "description": "一个基于 Rust 的轻量级本地 MCP 服务器，用于统一管理和连接多个 AI Agent 工具（如 Claude, Cursor）与本地数据源",
+      "description_en": "A lightweight, Rust-based local MCP server that unifies and connects multiple AI agent tools (like Claude, Cursor) with local data sources.",
+      "target_user": "使用 AI 编程助手（Cursor/Claude）的高级开发者，需要安全地在本地运行数据抓取服务",
+      "target_user_en": "Advanced developers using AI coding assistants (Cursor/Claude) who need to securely run data crawling services locally.",
+      "core_features": [
+        "一键安装 Rust 本地二进制，无需 Docker 容器即可运行",
+        "作为 MCP 服务器自动注册到 Claude Code 或 Cursor 设置中",
+        "支持本地 JS 渲染以抓取动态网站，同时保持数据不出内网"
+      ],
+      "core_features_en": [
+        "One-click installation of Rust local binary, no Docker container required",
+        "Automatically registers as an MCP server into Claude Code or Cursor settings",
+        "Supports local JS rendering for dynamic websites while keeping data within the internal network"
+      ],
+      "related_trends": [
+        "MCP协议",
+        "AI Agent 基础设施",
+        "本地优先开发"
+      ],
+      "related_trends_en": [
+        "MCP Protocol",
+        "AI Agent Infrastructure",
+        "Local-First Development"
+      ],
+      "why_now": "Firecrawl 的 Rust 本地版在 GitHub Trending 上获得 8/10 高分，且 'mcp' 标签跨 3 个源报道，显示社区对 MCP 协议的热情极高。开发者正急于在本地环境部署无容器化的 MCP 服务以解决数据隐私和启动速度问题，这正是痛点所在。",
+      "why_now_en": "Firecrawl's Rust local version scored 8/10 on GitHub Trending, and the 'mcp' tag was reported across 3 sources, indicating high community enthusiasm for the MCP protocol. Developers are eager to deploy container-less MCP services locally to solve data privacy and startup speed issues, which is a key pain point.",
+      "monetization": "免费开源核心 Rust 二进制以获取 Star 和贡献者，通过付费的 Cloud 补全服务（结构化数据和搜索 API）变现，类似 Open Source Core + Cloud Backend 模式",
+      "monetization_en": "Open-source the core Rust binary to gain Stars and contributors, monetize through paid Cloud completion services (structured data and search API), similar to an Open Source Core + Cloud Backend model.",
+      "difficulty": "medium",
+      "estimated_mvp_days": 14,
+      "source_article": "firecrawl/firecrawl",
+      "source_article_url": "https://github.com/firecrawl/firecrawl",
+      "source_article_score": 8,
+      "source_article_source": "GitHub Trending"
+    }
+  ]
+}
